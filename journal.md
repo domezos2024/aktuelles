@@ -1,24 +1,24 @@
-## 13.06.2026 – Deep Indigo / Jade Green / Terracotta
+## 13.06.2026 – Forest Mosgrün / Amber Gold / Weinrot
 
 **Design:**
-- Hintergrund: #1d0f2a (deep indigo) | Karten-BG: #f8f6fb (lavender-weiss)
-- Primaer: #2d7a5a (jade/smaragd) | Akzent: #c04a2a (terrakotta) | Text: #190f24 | Border-left: #2d7a5a
-- Schrift: Georgia/Times New Roman (Ueberschriften) / Verdana/Geneva (Body)
+- Hintergrund: #1e3a2a (deep forest/mosgrün) | Karten-BG: #fdfaf2 (warm ivory-cream)
+- Primaer: #c87900 (amber/gold) | Akzent: #8b1a1a (weinrot/burgunder) | Text: #1a2510 | Border-left: #c87900
+- Schrift: 'Palatino Linotype'/Palatino/'Book Antiqua' (Ueberschriften) / Tahoma/Geneva (Body)
 - Keine Animationen, statisches Design
 
 **Themen (NICHT wiederholen):**
-- CSD Aschaffenburg 2026 Regenbogenfahne Rathaus Schlemmer Kompromiss rAinBows
-- Windpark Lonero Neustadt Lohr Rothenfels Buergerinititive Neuer Gegenwind Die Energie
-- Alte Turnhalle Amorbach Soeder Kulturzentrum Eroeffnung 4,3 Mio Euro 8. Juni
-- Klinikum Main-Spessart Neubau Hochphase 200 Arbeiter Zentralkrankenhaus 2027
-- A3 Unfall Waldaschaff Weibersbrunn Feuerwehr 30 Kraefte 6. Juni
-- B26 Friedrichstrasse Baustelle Aschaffenburg Juni August 331 Meter
-- E-Scooter Berauscht Marktheidenfeld Kreuzbergstrasse kein Versicherungskennzeichen
-- Falsche Polizeibeamte Schaafheim Rentner Bargeld fuenfstellig 11. Juni
-- Lohr Gedenken Ehrenmal Gefallene 13. Juni 18 Uhr
-- Landkreisradeln Aschaffenburg STADTRADELN 8.-28. Juni 2026
-- Fachkraeftemangel Main-Spessart Wirtschaftsbericht Strategien 7. Juni
-- Landratsamt Aschaffenburg Schliessung 17. Juni 1. Juli ab 12 Uhr
-- Callcenter-Betrug Miltenberg Senior Bargeld vierstellig
-- Vermisster Hafenlohr Leiche Main 61-Jaehrig seit April gesucht
-- Oeko-Modellregion Landwirtschaft Ruecksichtnahme Kampagne Landkreis AB Juni
+- BKH Forensik Lohr Drei Patienten entwichen Hubschrauber Infoabend 19 Juni Rathaus
+- EU-Folterausschuss CPT Forensik Lohr BKH Thomas Krebs Landgericht Wuerzburg
+- 50 Jahre Sing- und Musikschule Lohr Jubilaeumsfinale Stadthalle 20 Juni
+- Karschter Mittsommer Karlstadt Schwedisches Stadtfest 12-14 Juni Viertes Mal
+- STADTRADELN Landkreis Main-Spessart 14 Juni 4 Juli Radcheck Karlstadt Fairtrade
+- Werkzeugdiebstahl Baustellencontainer Marktheidenfeld 1500 Euro
+- FFC Adelsberg-Karsbach Frauen Meisterschaft 3:0 FC 05 Schweinfurt
+- Polizei Ermittlung Hasloch Main-Spessart Juni 2026
+- Tag der offenen Gartentuere Landkreis Aschaffenburg 14 Juni 19 Gaerten
+- Energiemuseum Karlstein Museumstage 12-14 Juni VAK Vortraege Gasturbine
+- Feuerwehr Karlstein 60060 Euro Foerderung Abrollbehaelter Sonderloeschmittel
+- Viktoria Aschaffenburg 125 Jahriges Jubilaeum Live-Musik Public Viewing
+- Buchlesung Hoesbach Anne Barns Der Geschmack von Sommer und Karamell
+- Hummel-Challenge BUND Naturschutz Aschaffenburg 20 Juni 3 Juli App ObsIdentify
+- Pflegestuetzpunkt Landkreis Aschaffenburg Pflege bei Hitze Infoveranstaltung 2 Juli

@@ -6,192 +6,203 @@
 <title>Nachrichten – Lohr am Main &amp; Aschaffenburg – 13.06.2026</title>
 <style>
 *{box-sizing:border-box;margin:0;padding:0}
-body{background:#1d0f2a;color:#190f24;font-family:Verdana,Geneva,sans-serif;font-size:15px}
-header{background:#2d7a5a;padding:16px 18px;text-align:center}
-header h1{font-size:1.35em;color:#f0faf5;font-weight:700;font-family:Georgia,"Times New Roman",serif;letter-spacing:.3px}
-header p{font-size:.82em;color:#b5dece;margin-top:3px}
-.wetter{background:#130926;color:#d8e8f0;padding:14px 18px}
-.wetter h2{color:#2dbf9a;font-size:.85em;margin-bottom:10px;text-transform:uppercase;letter-spacing:1px;font-family:Georgia,serif}
-.sreihe{display:flex;overflow-x:auto;gap:6px;padding-bottom:4px}
-.st{background:#1e1238;border-radius:5px;padding:7px 9px;text-align:center;min-width:54px;flex-shrink:0}
-.st .u{font-size:.65em;color:#7aa8cc}
-.st .t{font-size:.95em;font-weight:700;color:#2dbf9a}
-.st .i{font-size:.9em}
+body{background:#1e3a2a;color:#1a2510;font-family:Tahoma,Geneva,sans-serif;font-size:15px}
+header{background:#c87900;padding:18px 20px;text-align:center}
+header h1{font-size:1.4em;color:#fff8e8;font-weight:700;font-family:'Palatino Linotype',Palatino,'Book Antiqua',serif;letter-spacing:.2px}
+header p{font-size:.83em;color:#ffe4a0;margin-top:4px}
+.wetter{background:#0f2218;color:#f5e8c0;padding:14px 0}
+.inner{max-width:880px;margin:0 auto;padding:0 12px}
+.wetter h2{color:#c87900;font-size:.85em;margin-bottom:10px;text-transform:uppercase;letter-spacing:1px;font-family:'Palatino Linotype',Palatino,serif}
+.sreihe{display:flex;overflow-x:auto;gap:6px;padding-bottom:6px}
+.st{background:#173020;border-radius:5px;padding:7px 9px;text-align:center;min-width:56px;flex-shrink:0}
+.st .u{font-size:.65em;color:#88b880}
+.st .t{font-size:.95em;font-weight:700;color:#c87900;margin:2px 0}
+.st .i{font-size:.88em}
 .tage{display:flex;gap:10px;margin-top:10px;flex-wrap:wrap}
-.tag{background:#1e1238;border-radius:5px;padding:9px 12px;flex:1;min-width:110px;text-align:center}
-.tag .d{font-size:.72em;color:#7aa8cc;margin-bottom:3px}
-.tag .h{font-size:.92em;font-weight:700;color:#2dbf9a}
-.tag .b{font-size:.75em;color:#bbb;margin-top:2px}
+.tag{background:#173020;border-radius:5px;padding:9px 14px;flex:1;min-width:120px;text-align:center}
+.tag .d{font-size:.72em;color:#88b880;margin-bottom:3px}
+.tag .h{font-size:.95em;font-weight:700;color:#c87900}
+.tag .b{font-size:.76em;color:#c0c8a0;margin-top:3px}
 .main{max-width:880px;margin:0 auto;padding:14px 12px}
-.main h2{color:#2dbf9a;font-size:.85em;text-transform:uppercase;letter-spacing:1px;margin-bottom:11px;font-family:Georgia,serif}
-.k{background:#f8f6fb;border-radius:7px;margin-bottom:11px;padding:12px 15px;border-left:4px solid #2d7a5a}
-.kh{display:flex;gap:7px;flex-wrap:wrap;margin-bottom:5px;align-items:center}
-.ba{font-size:.68em;font-weight:700;padding:2px 7px;border-radius:9px;color:#fff;text-transform:uppercase}
-.ort{font-size:.68em;padding:2px 7px;border-radius:9px;color:#fff;font-weight:600}
-.k h3{font-size:.92em;font-weight:700;color:#1d0f2a;margin-bottom:4px;font-family:Georgia,"Times New Roman",serif}
-.k p{font-size:.82em;color:#2d1a3e;line-height:1.55}
-.k a{display:inline-block;margin-top:5px;font-size:.75em;color:#c04a2a;text-decoration:none}
+.main h2{color:#c87900;font-size:.85em;text-transform:uppercase;letter-spacing:1px;margin-bottom:12px;font-family:'Palatino Linotype',Palatino,serif;border-bottom:1px solid #2e5a3a;padding-bottom:6px}
+.k{background:#fdfaf2;border-radius:7px;margin-bottom:12px;padding:13px 16px;border-left:4px solid #c87900}
+.kh{display:flex;gap:7px;flex-wrap:wrap;margin-bottom:6px;align-items:center}
+.ba{font-size:.67em;font-weight:700;padding:2px 8px;border-radius:9px;color:#fff;text-transform:uppercase;letter-spacing:.3px}
+.ort{font-size:.67em;padding:2px 8px;border-radius:9px;color:#fff;font-weight:600}
+.k h3{font-size:.93em;font-weight:700;color:#1a2510;margin-bottom:5px;font-family:'Palatino Linotype',Palatino,'Book Antiqua',serif;line-height:1.4}
+.k p{font-size:.82em;color:#2a3a18;line-height:1.56}
+.k a{display:inline-block;margin-top:6px;font-size:.74em;color:#8b1a1a;text-decoration:none;font-weight:600}
 .k a:hover{text-decoration:underline}
-footer{background:#0e0818;color:#5a5a7a;text-align:center;padding:12px;font-size:.75em}
-.bg-ges{background:#c04a2a}.bg-umw{background:#2a6b3a}.bg-kul{background:#6a2d8a}
-.bg-geh{background:#2d7a5a}.bg-blu{background:#9b2335}.bg-inf{background:#4a4a6a}
-.bg-ged{background:#455a64}.bg-fre{background:#2e6b47}.bg-wir{background:#1a5a8a}
-.bg-beh{background:#5a3a8a}
-.o-lo{background:#1a5c8a}.o-ab{background:#7a2d8a}.o-ms{background:#1a5c2a}
-.o-mi{background:#8b5a1a}.o-al{background:#4a2d8a}.o-sh{background:#6a1a1a}
-.o-wl{background:#1a4a5a}.o-mh{background:#1a3a5c}.o-am{background:#5a3a1a}
+footer{background:#0a1a0f;color:#4a6a4a;text-align:center;padding:14px 12px;font-size:.75em;margin-top:4px}
+.bg-sic{background:#8b1a1a}.bg-pol{background:#3a1a6b}.bg-mus{background:#1a4a7a}
+.bg-fes{background:#8a3a1a}.bg-mob{background:#1a5a8a}.bg-blu{background:#1a2d6b}
+.bg-spo{background:#4a6b1a}.bg-kri{background:#5a1a1a}.bg-nat{background:#2e6b47}
+.bg-his{background:#4a3a7a}.bg-feu{background:#9b2000}.bg-ges{background:#1a6b5a}
+.bg-lit{background:#5a3a6b}.bg-umw{background:#2a6b1a}.bg-soz{background:#1a6b5a}
+.o-lo{background:#c87900}.o-ka{background:#8b4a00}.o-ks{background:#5a6b1a}
+.o-ms{background:#1a5c4a}.o-ab{background:#6b1a4a}.o-lb{background:#4a1a6b}
+.o-ho{background:#1a3a5c}.o-mh{background:#5c2a1a}.o-hl{background:#3a4a1a}
 </style>
 </head>
 <body>
+
 <header>
-  <h1>Nachrichten – Lohr am Main &amp; Aschaffenburg</h1>
+  <h1>Nachrichten &#8211; Lohr am Main &amp; Aschaffenburg</h1>
   <p>Samstag, 13. Juni 2026</p>
 </header>
 
 <div class="wetter">
-  <h2>Wetter Lohr am Main – Heute stündlich</h2>
+<div class="inner">
+  <h2>&#9728; Wetter Lohr am Main &#8211; Heute &amp; Vorschau</h2>
   <div class="sreihe">
-    <div class="st"><div class="u">00</div><div class="i">⛅</div><div class="t">15°</div></div>
-    <div class="st"><div class="u">01</div><div class="i">⛅</div><div class="t">15°</div></div>
-    <div class="st"><div class="u">02</div><div class="i">☁</div><div class="t">14°</div></div>
-    <div class="st"><div class="u">03</div><div class="i">☁</div><div class="t">14°</div></div>
-    <div class="st"><div class="u">04</div><div class="i">☁</div><div class="t">14°</div></div>
-    <div class="st"><div class="u">05</div><div class="i">☁</div><div class="t">13°</div></div>
-    <div class="st"><div class="u">06</div><div class="i">⛅</div><div class="t">14°</div></div>
-    <div class="st"><div class="u">07</div><div class="i">⛅</div><div class="t">15°</div></div>
-    <div class="st"><div class="u">08</div><div class="i">⛅</div><div class="t">16°</div></div>
-    <div class="st"><div class="u">09</div><div class="i">⛅</div><div class="t">18°</div></div>
-    <div class="st"><div class="u">10</div><div class="i">⛅</div><div class="t">20°</div></div>
-    <div class="st"><div class="u">11</div><div class="i">🌤</div><div class="t">21°</div></div>
-    <div class="st"><div class="u">12</div><div class="i">🌤</div><div class="t">22°</div></div>
-    <div class="st"><div class="u">13</div><div class="i">☀</div><div class="t">23°</div></div>
-    <div class="st"><div class="u">14</div><div class="i">☀</div><div class="t">24°</div></div>
-    <div class="st"><div class="u">15</div><div class="i">🌤</div><div class="t">24°</div></div>
-    <div class="st"><div class="u">16</div><div class="i">🌤</div><div class="t">23°</div></div>
-    <div class="st"><div class="u">17</div><div class="i">⛅</div><div class="t">22°</div></div>
-    <div class="st"><div class="u">18</div><div class="i">⛅</div><div class="t">20°</div></div>
-    <div class="st"><div class="u">19</div><div class="i">🌤</div><div class="t">19°</div></div>
-    <div class="st"><div class="u">20</div><div class="i">⛅</div><div class="t">18°</div></div>
-    <div class="st"><div class="u">21</div><div class="i">⛅</div><div class="t">16°</div></div>
-    <div class="st"><div class="u">22</div><div class="i">☁</div><div class="t">15°</div></div>
-    <div class="st"><div class="u">23</div><div class="i">☁</div><div class="t">14°</div></div>
+    <div class="st"><div class="u">06:00</div><div class="t">12&#176;</div><div class="i">&#9728;</div></div>
+    <div class="st"><div class="u">07:00</div><div class="t">14&#176;</div><div class="i">&#9728;</div></div>
+    <div class="st"><div class="u">08:00</div><div class="t">16&#176;</div><div class="i">&#9728;</div></div>
+    <div class="st"><div class="u">09:00</div><div class="t">18&#176;</div><div class="i">&#127780;</div></div>
+    <div class="st"><div class="u">10:00</div><div class="t">19&#176;</div><div class="i">&#9728;</div></div>
+    <div class="st"><div class="u">11:00</div><div class="t">20&#176;</div><div class="i">&#9729;</div></div>
+    <div class="st"><div class="u">12:00</div><div class="t">21&#176;</div><div class="i">&#9925;</div></div>
+    <div class="st"><div class="u">13:00</div><div class="t">22&#176;</div><div class="i">&#9925;</div></div>
+    <div class="st"><div class="u">14:00</div><div class="t">22&#176;</div><div class="i">&#9925;</div></div>
+    <div class="st"><div class="u">15:00</div><div class="t">21&#176;</div><div class="i">&#127780;</div></div>
+    <div class="st"><div class="u">16:00</div><div class="t">20&#176;</div><div class="i">&#9925;</div></div>
+    <div class="st"><div class="u">17:00</div><div class="t">19&#176;</div><div class="i">&#9728;</div></div>
+    <div class="st"><div class="u">18:00</div><div class="t">18&#176;</div><div class="i">&#9728;</div></div>
+    <div class="st"><div class="u">19:00</div><div class="t">17&#176;</div><div class="i">&#9728;</div></div>
+    <div class="st"><div class="u">20:00</div><div class="t">15&#176;</div><div class="i">&#127780;</div></div>
+    <div class="st"><div class="u">21:00</div><div class="t">14&#176;</div><div class="i">&#127761;</div></div>
+    <div class="st"><div class="u">22:00</div><div class="t">13&#176;</div><div class="i">&#127761;</div></div>
+    <div class="st"><div class="u">23:00</div><div class="t">12&#176;</div><div class="i">&#127761;</div></div>
   </div>
   <div class="tage">
-    <div class="tag"><div class="d">So, 14. Juni</div><div class="h">19° / 10°</div><div class="b">Bedeckt, Regen mögl.</div></div>
-    <div class="tag"><div class="d">Mo, 15. Juni</div><div class="h">21° / 11°</div><div class="b">Heiter bis wolkig</div></div>
+    <div class="tag">
+      <div class="d">So. 14. Juni</div>
+      <div class="h">21&#176; / 11&#176;</div>
+      <div class="b">&#9728; Sonnig &middot; ca. 7 Std. Sonne</div>
+    </div>
+    <div class="tag">
+      <div class="d">Mo. 15. Juni</div>
+      <div class="h">22&#176; / 11&#176;</div>
+      <div class="b">&#127780; Heiter &middot; kein Regen</div>
+    </div>
   </div>
+</div>
 </div>
 
 <div class="main">
-  <h2>Aktuelle Meldungen</h2>
+  <h2>Top-Meldungen &#8211; Lohr am Main &amp; Region (13.06.2026)</h2>
 
   <div class="k">
-    <div class="kh"><span class="ba bg-ges">Gesellschaft</span><span class="ort o-ab">Aschaffenburg</span></div>
-    <h3>CSD 2026: Aschaffenburg hisst Regenbogenfahne – aber nicht am Rathaus</h3>
-    <p>Beim Christopher Street Day 2026 in Aschaffenburg zogen rund 1.500 Menschen durch die Innenstadt. Im Vorfeld sorgte eine Entscheidung von Bürgermeister Markus Schlemmer (CSU) für Diskussionen: Er lehnte es ab, die Regenbogenfahne am Rathaus zu hissen, da öffentliche Gebäude aus seiner Sicht nur bei staatlichen und städtischen Anlässen beflaggt werden sollen. Als Kompromiss wurden Flaggen an Scharfeck und am Landingtunnel gehisst. Die Veranstalter von rAinBows e.V. forderten transparente und verbindliche Regelungen für künftige Flaggenentscheidungen statt Ad-hoc-Beschlüssen.</p>
-    <a href="https://www.mainwelle.de/aschaffenburg-hisst-flaggen-zum-csd-aber-nicht-am-rathaus-2233479/" target="_blank" rel="noopener">mainwelle.de</a>
+    <div class="kh"><span class="ba bg-sic">Sicherheit</span><span class="ort o-lo">Lohr am Main</span></div>
+    <h3>Drei Forensik-Patienten entwichen &#8211; BKH und Stadt laden zum B&#252;rgerinfoabend am 19.&#8239;Juni</h3>
+    <p>Drei Patienten der forensischen Psychiatrie des Bezirkskrankenhauses (BKH) Lohr am Main sind innerhalb kurzer Zeit entwichen &#8211; einer wurde dabei sogar per Hubschrauber gesucht. Die Vorf&#228;lle haben in der Bev&#246;lkerung erhebliche Verunsicherung ausgel&#246;st. Als Reaktion laden BKH und Stadt Lohr am Donnerstag, 19.&#8239;Juni, zu einer &#246;ffentlichen Informationsveranstaltung im Lohrer Rathaus ein. Auf dem Podium erkl&#228;ren &#196;rztlicher Direktor Prof.&#8239;Dr.&#8239;B&#246;nsch, Oberarzt Rihawi, Zweiter B&#252;rgermeister Dirk Rieb sowie Polizeivertreter die rechtlichen Grundlagen der forensischen Unterbringung, interne Abl&#228;ufe und geplante Sicherheitsma&#223;nahmen &#8211; B&#252;rgerfragen sind ausdr&#252;cklich erw&#252;nscht.</p>
+    <a href="https://www.main-echo.de/region/kreis-main-spessart/so-soll-die-flucht-aus-der-forensichen-psychiatrie-in-lohr-verhindert-werden-art-8733457" target="_blank" rel="noopener">Main-Echo &#8594; Artikel lesen</a>
   </div>
 
   <div class="k">
-    <div class="kh"><span class="ba bg-umw">Umwelt</span><span class="ort o-lo">Lohr / Main-Spessart</span></div>
-    <h3>Windpark Lonero: Bürgerinitiative „Neuer Gegenwind" kämpft gegen Wald-Windräder</h3>
-    <p>Der geplante Windpark Lonero nordwestlich von Neustadt am Main auf Flächen der Gemeinden Lohr a.Main, Neustadt a.Main und Rothenfels polarisiert die Region weiterhin stark. Der Betreiber Die Energie (EVL-Karlstadt) und Partner Thüga Erneuerbare Energien wollen das im Jahr 2025 ruhende Genehmigungsverfahren im Frühjahr 2026 wieder aufnehmen. Die Bürgerinitiative „Neuer Gegenwind" protestiert unter dem Motto „Windkraft ja – aber nicht im Wald" und verweist auf Gefahren für das Waldökosystem im Spessart. Eine Infoveranstaltung auf der städtischen Website Lohr gibt Bürgern die Möglichkeit zur Stellungnahme.</p>
-    <a href="https://neuer-gegenwind.de/" target="_blank" rel="noopener">neuer-gegenwind.de</a>
+    <div class="kh"><span class="ba bg-pol">Politik / Recht</span><span class="ort o-lo">Lohr am Main</span></div>
+    <h3>EU-Folterausschuss CPT nimmt Forensik-Vorw&#252;rfe gegen BKH Lohr unter die Lupe</h3>
+    <p>Zus&#228;tzlich zu den Ausbr&#252;chen r&#252;ckt das Bezirkskrankenhaus Lohr auf europ&#228;ische Ebene: Der Europ&#228;ische Ausschuss zur Verh&#252;tung von Folter (CPT) befasst sich mit einer Eingabe vom 16.&#8239;Februar 2026, die die Situation des Patienten Thomas Krebs beschreibt &#8211; gest&#252;tzt auf Beschl&#252;sse des Landgerichts W&#252;rzburg und des Bayerischen Obersten Landesgerichts. Der CPT wies die Vorw&#252;rfe nicht zur&#252;ck und beh&#228;lt die Angelegenheit weiter im Blick. Dies erh&#246;ht den Druck auf Einrichtung und zust&#228;ndige Beh&#246;rden erheblich und bringt die Verh&#228;ltnisse in der Lohrer Forensik auf das Radar europ&#228;ischer Kontrollinstanzen.</p>
+    <a href="https://behoerdenstress.de/eu-folterausschuss-alarmiert-forensik-lohr-am-main-im-visier-des-cpt/" target="_blank" rel="noopener">Beh&#246;rdenstress.de &#8594; Artikel lesen</a>
   </div>
 
   <div class="k">
-    <div class="kh"><span class="ba bg-kul">Kultur</span><span class="ort o-am">Amorbach / Miltenberg</span></div>
-    <h3>Söder in Amorbach: Alte Turnhalle feierlich als Kulturzentrum eröffnet</h3>
-    <p>Am 8. Juni 2026 weihte Bayerns Ministerpräsident Markus Söder persönlich die sanierte Alte Turnhalle in Amorbach (Landkreis Miltenberg) als neues Kulturzentrum ein. Das 4,3 Millionen Euro teure Projekt – davon über zwei Millionen als staatliche Förderung – verwandelt die historische Sporthalle in einen multifunktionalen Veranstaltungsort für Theater, Musik, Konzerte, Bälle und private Feiern. Die Außenanlagen kosteten weitere 630.000 Euro. Amorbach feierte die Einweihung mit einem festlichen Programm vor geladenen Gästen aus Politik, Kirche und Bürgerschaft.</p>
-    <a href="https://www.main-echo.de/region/kreis-miltenberg/ministerpraesident-markus-soeder-zu-gast-bei-einweihung-der-alten-turnhalle-in-amorbach-art-8732179" target="_blank" rel="noopener">main-echo.de</a>
+    <div class="kh"><span class="ba bg-mus">Musik / Kultur</span><span class="ort o-lo">Lohr am Main</span></div>
+    <h3>50 Jahre Sing- und Musikschule Lohr: Jubil&#228;umskonzert am 20.&#8239;Juni in der Stadthalle</h3>
+    <p>Die Sing- und Musikschule der Stadt Lohr am Main feiert ihr 50-j&#228;hriges Bestehen und l&#228;dt am Samstag, 20.&#8239;Juni, ab 16&#8239;Uhr (Einlass ab 15&#8239;Uhr) zum gro&#223;en Jubil&#228;umsfinale in die Stadthalle Lohr ein. Musiker im Alter von 4 bis etwa 80 Jahren treten gemeinsam auf: Fr&#252;herziehungsgruppen und WIM-Klassen er&#246;ffnen mit dem St&#252;ck &#8222;Der Nikolaus hat seinen Hut verloren&#8220;, fortgeschrittene Sch&#252;lerensembles und das Lehrerkollegium pr&#228;sentieren einen bunten Mix aus Kammermusik, Jazz und Pop. Der Eintritt ist frei &#8211; ein offenes Fest f&#252;r die gesamte Stadt.</p>
+    <a href="https://www.stadthalle-lohr.de/event/jubilaeumsfinale-50-jahre-sing-und-musikschule-der-stadt-lohr-a-main/" target="_blank" rel="noopener">Stadthalle Lohr &#8594; Veranstaltungsinfo</a>
   </div>
 
   <div class="k">
-    <div class="kh"><span class="ba bg-geh">Gesundheit</span><span class="ort o-lo">Lohr a.Main</span></div>
-    <h3>Zentralklinikum Main-Spessart: Baustelle in der Hochphase – 200 Arbeiter täglich</h3>
-    <p>Der Neubau des Zentralkrankenhauses der Klinikum Main-Spessart GmbH am Sommerberg in Lohr befindet sich laut Projektleiter Roland Wolf in der Hochphase. Täglich sind bis zu 200 Fachkräfte von rund 20 verschiedenen Unternehmen auf der Baustelle aktiv. Das neue Gebäude bietet auf rund 17.000 Quadratmetern Nutzfläche 280 Betten und soll die bisherigen drei Krankenhäuser im Landkreis ersetzen. Der Freistaat Bayern fördert das rund 109-Millionen-Euro-Projekt maßgeblich; die geplante Inbetriebnahme ist für Anfang 2027 vorgesehen.</p>
-    <a href="https://www.main-echo.de/region/kreis-main-spessart/sind-in-hochphase-des-ausbaus-art-8702240" target="_blank" rel="noopener">main-echo.de</a>
+    <div class="kh"><span class="ba bg-fes">Stadtfest</span><span class="ort o-ka">Karlstadt</span></div>
+    <h3>Karschter Mittsommer: Schwedisches Stadtfest in Karlstadt noch bis heute Abend</h3>
+    <p>Zum vierten Mal verwandelt sich die Karlstadter Altstadt beim &#8222;Karschter Mittsommer&#8220; in eine schwedisch angehauchte Festmeile &#8211; von Freitag, 12.&#8239;Juni, bis heute Abend. Erstmals wurde die kulinarische Meile mit dem Stadtfest zu einem dreit&#228;gigen Event vereint. Auf dem Programm stehen Live-Musik, DJ, Wikinger-Burger, Schwedenschnaps, Mittsommerbier und ein Wikinger-Camp. Historischer Hintergrund: K&#246;nig Gustav Adolf &#252;bernachtete 1631 in Karlstadt und stellte der Stadt einen Schutzbrief aus &#8211; eine Verbindung, die das Stadtmarketing kreativ pflegt.</p>
+    <a href="https://www.regioactive.de/fest/karschter-mittsommer-karlstadt-marktplatz-2026-06-12-xkW602lPkp" target="_blank" rel="noopener">regioactive.de &#8594; Veranstaltung</a>
   </div>
 
   <div class="k">
-    <div class="kh"><span class="ba bg-blu">Blaulicht</span><span class="ort o-wl">Waldaschaff / Weibersbrunn</span></div>
-    <h3>A3-Unfall bei Waldaschaff: 30 Feuerwehrkräfte im Einsatz</h3>
-    <p>Am Donnerstagabend, 6. Juni 2026, wurden die Freiwilligen Feuerwehren Waldaschaff und Weibersbrunn um 18:19 Uhr zu einem Verkehrsunfall auf der Bundesautobahn 3 in Richtung Frankfurt alarmiert. Die Unfallstelle befand sich bei Streckenkilometer 228, kurz vor einem Notzugang. Insgesamt rund 30 Einsatzkräfte beider Wehren waren vor Ort; der Fahrer wurde ohne großen technischen Aufwand geborgen und in ein Krankenhaus gebracht. Der Einsatz dauerte etwa eine Stunde; die A3 war zwischenzeitlich beeinträchtigt.</p>
-    <a href="https://www.kfv-ab.de/index.php/news/nachrichten/nachrichten/verkehrsunfall-auf-der-autobahn-3-feuerwehren-weibersbrunn-und-waldaschaff-im-einsatz" target="_blank" rel="noopener">kfv-ab.de</a>
-  </div>
-
-  <div class="k">
-    <div class="kh"><span class="ba bg-inf">Infrastruktur</span><span class="ort o-ab">Aschaffenburg</span></div>
-    <h3>Großbaustelle B26: Friedrichstraße in Aschaffenburg bis August gesperrt</h3>
-    <p>Seit dem 1. Juni 2026 erneuert das Staatliche Bauamt Aschaffenburg einen rund 331 Meter langen Abschnitt der Friedrichstraße (B26) in der Stadtmitte zwischen Erthalstraße und Herstallturm. Die Bauarbeiten laufen bis voraussichtlich 3. August 2026 und führen zu erheblichen Fahrspureinschränkungen sowie temporären Staugefahren auf der wichtigen Stadtdurchfahrt. In der anschließenden zweiten Phase (August) ist eine vollständige Kurzsperrung geplant. Anwohner und Pendler sollten Ausweichrouten nutzen.</p>
-    <a href="https://www.news.de/auto/859184434/verkehrsmeldung-aschaffenburg-zur-verkehrsstoerung-wegen-baustelle-sperrung-einschraenkung-von-01-06-2026-bis-03-08-2026-einschraenkungen-im-verkehr-staugefahr-in-aschaffenburg-plz-63739-stadtmitte-auf-b26-auf-der-friedrichstrasse/1/" target="_blank" rel="noopener">news.de</a>
+    <div class="kh"><span class="ba bg-mob">Mobilit&#228;t</span><span class="ort o-ms">Landkreis Main-Spessart</span></div>
+    <h3>STADTRADELN im Landkreis Main-Spessart startet morgen &#8211; 3 Wochen Fahrradkilometer sammeln</h3>
+    <p>Ab morgen, Sonntag 14.&#8239;Juni, nimmt der Landkreis Main-Spessart an der bundesweiten STADTRADELN-Kampagne teil &#8211; bis zum 4.&#8239;Juli 2026. Alle B&#252;rgerinnen und B&#252;rger sind eingeladen, klimafreundliche Fahrradkilometer zu sammeln, ob auf dem Weg zur Arbeit, beim Einkaufen oder auf Freizeittouren. Am 16.&#8239;Juni findet von 10 bis 18&#8239;Uhr ein kostenloser Radcheck auf dem Karlstadter Marktplatz statt; kleinere M&#228;ngel werden sofort behoben. Am 20./21.&#8239;Juni f&#228;hrt das Fairtrade Coffee Mobile auf dem MainRadweg, am 4.&#8239;Juli gibt es eine Themenradtour durchs Werntal.</p>
+    <a href="https://www.main-spessart.de/aktuelles/pressemitteilungen/11064.STADTRADELN-im-Landkreis-Main-Spessart.-Fahrrad-Kilometer-sammeln-von-14.-Juni-bis-4.-Juli.html" target="_blank" rel="noopener">Landkreis Main-Spessart &#8594; Pressemitteilung</a>
   </div>
 
   <div class="k">
     <div class="kh"><span class="ba bg-blu">Blaulicht</span><span class="ort o-mh">Marktheidenfeld</span></div>
-    <h3>Berauscht und ohne Versicherung: E-Scooter-Fahrer in Marktheidenfeld gestoppt</h3>
-    <p>Polizeibeamte stoppten in der Kreuzbergstraße in Marktheidenfeld einen 40-jährigen E-Scooter-Fahrer, weil an dem Fahrzeug kein gültiges Versicherungskennzeichen angebracht war. Die Kontrolle förderte weitere Verstöße zu Tage: Der Mann stand unter erheblichem Alkohol- und Drogeneinfluss und war daher absolut fahruntüchtig. Das Elektrokleinstfahrzeug wurde sichergestellt, eine Blutentnahme angeordnet und ein Ermittlungsverfahren eingeleitet. Der Vorfall reiht sich in mehrere ähnliche Kontrollen der Polizei Main-Spessart in jüngster Zeit ein.</p>
-    <a href="https://www.main-echo.de/ressorts/blaulicht/polizei-stoppt-berauschte-fahrer-und-e-scooter-ohne-versicherung-art-8721970" target="_blank" rel="noopener">main-echo.de</a>
+    <h3>Werkzeugdiebstahl aus Baustellencontainer &#8211; Schaden rund 1.500 Euro</h3>
+    <p>Unbekannte T&#228;ter haben aus einem Baustellencontainer in Marktheidenfeld Werkzeuge im Wert von rund 1.500 Euro entwendet. Der Diebstahl wurde der Polizeiinspektion Marktheidenfeld angezeigt, die jetzt Zeugenhinweise sucht. Bisher ist unklar, wann genau der Einbruch erfolgte und wie die T&#228;ter vorgegangen sind. Wer im betreffenden Bereich verd&#228;chtige Personen oder Fahrzeuge beobachtet hat, wird gebeten, sich unter Tel.&#8239;09391&#8239;/&#8239;9841-0 bei der Polizeiinspektion Marktheidenfeld zu melden.</p>
+    <a href="https://www.infranken.de/lk/main-spessart/uebersicht/" target="_blank" rel="noopener">inFranken.de &#8594; Meldungen Main-Spessart</a>
   </div>
 
   <div class="k">
-    <div class="kh"><span class="ba bg-blu">Blaulicht</span><span class="ort o-sh">Schaafheim</span></div>
-    <h3>Falsche Polizeibeamte stehlen Erspartes: Rentner in Schaafheim bestohlen</h3>
-    <p>Am 11. Juni 2026 gelang es unbekannten Betrügern, die sich als Polizeibeamte ausgaben, einem Rentner in Schaafheim (Landkreis Darmstadt-Dieburg) einen fünfstelligen Bargeldbetrag zu entlocken. Die Täter behaupteten telefonisch, ein Einbruch in der Nachbarschaft habe stattgefunden, und das Geld müsse zur Sicherheit übergeben werden. Die echte Polizei warnt eindringlich: Echte Beamte fordern niemals Geld oder Wertsachen am Telefon. Wer verdächtige Anrufe erhält, soll sofort auflegen und den Notruf 110 wählen.</p>
-    <a href="https://www.main-echo.de/ressorts/blaulicht/polizei-warnt-falsche-polizeibeamte-rufen-an-art-8734046" target="_blank" rel="noopener">main-echo.de</a>
+    <div class="kh"><span class="ba bg-spo">Sport</span><span class="ort o-ms">Landkreis Main-Spessart</span></div>
+    <h3>FFC Adelsberg-Karsbach: Frauenteam holt Meisterschaft mit 3:0 gegen FC&#8239;05 Schweinfurt</h3>
+    <p>Ein sportlicher H&#246;hepunkt f&#252;r den Frauenfu&#223;ball im Landkreis Main-Spessart: Das Team des FFC Adelsberg-Karsbach sicherte sich mit einem &#252;berzeugenden 3:0-Sieg gegen den FC&#8239;05 Schweinfurt die Meisterschaft in seiner Liga. Die Spielerinnen dominierten die Partie von Beginn an und kr&#246;nten damit eine starke Saisonleistung. Der Verein engagiert sich seit Jahren im Frauenfu&#223;ball der Region. Ob und in welche Spielklasse das Team aufsteigen wird, soll in den kommenden Wochen bekanntgegeben werden.</p>
+    <a href="https://www.infranken.de/lk/main-spessart/uebersicht/" target="_blank" rel="noopener">inFranken.de &#8594; Sport Main-Spessart</a>
   </div>
 
   <div class="k">
-    <div class="kh"><span class="ba bg-ged">Gedenken</span><span class="ort o-lo">Lohr a.Main</span></div>
-    <h3>Lohr gedenkt heute Abend am Ehrenmal der Gefallenen</h3>
-    <p>Am heutigen Samstag, 13. Juni 2026, findet um 18 Uhr am Ehrenmal in Lohr am Main eine Gedenkveranstaltung für die Gefallenen statt. Die Zeremonie ist Teil der traditionellen Erinnerungskultur der Stadt und bringt Bürgerinnen und Bürger, Vereine sowie Vertreter der Kommunalpolitik zusammen, um der Opfer von Kriegen zu gedenken. Das Lohrer Ehrenmal gilt als zentraler Ort des stillen Gedenkens in der Region. Eine Einladung zur Teilnahme ergeht an alle Interessierten.</p>
-    <a href="https://www.lohr.de/" target="_blank" rel="noopener">lohr.de</a>
+    <div class="kh"><span class="ba bg-kri">Ermittlung</span><span class="ort o-hl">Hasloch</span></div>
+    <h3>Polizei ermittelt nach gemeldetem Vorfall in Hasloch</h3>
+    <p>Die Polizei hat im Landkreis Main-Spessart Ermittlungen wegen eines Vorfalls in der Gemeinde Hasloch eingeleitet, der Anfang Juni gemeldet wurde. Aus ermittlungstaktischen Gr&#252;nden wurden zun&#228;chst keine n&#228;heren Angaben zu Tatvorwurf, Hergang oder beteiligten Personen ver&#246;ffentlicht. Die zust&#228;ndige Polizeiinspektion arbeitet den Sachverhalt derzeit sorgf&#228;ltig auf. Zeuginnen und Zeugen, die im fraglichen Zeitraum in der Umgebung von Hasloch Verd&#228;chtiges wahrgenommen haben, werden um Kontaktaufnahme bei der Polizei gebeten.</p>
+    <a href="https://www.meine-news.de/landkreis-main-spessart/c-blaulicht" target="_blank" rel="noopener">meine-news.de &#8594; Blaulicht Main-Spessart</a>
   </div>
 
   <div class="k">
-    <div class="kh"><span class="ba bg-fre">Freizeit</span><span class="ort o-al">Landkreis AB</span></div>
-    <h3>Landkreisradeln läuft noch bis 28. Juni: Jetzt noch einsteigen!</h3>
-    <p>Noch bis Sonntag, 28. Juni 2026, nimmt der Landkreis Aschaffenburg zum siebten Mal an der bundesweiten STADTRADELN-Kampagne teil. Alle Bürgerinnen und Bürger, die im Landkreis leben, arbeiten, einem Verein angehören oder eine Schule besuchen, können bis zum letzten Tag auf stadtradeln.de/landkreis-aschaffenburg mitmachen und Radkilometer sammeln. Die aktivsten Schulen werden mit insgesamt 1.200 Euro aus Mitteln der Sparkasse Aschaffenburg-Miltenberg ausgezeichnet. Im Vorjahr 2025 wurden 339.296 Kilometer von 1.788 Radlern in 129 Teams gesammelt.</p>
-    <a href="https://aschaffenburg.news/ab/aschaffenburg/aschaffenburg/aschaffenburg-landkreisradeln-vom-8-bis-28-juni-2026.html" target="_blank" rel="noopener">aschaffenburg.news</a>
+    <div class="kh"><span class="ba bg-nat">Natur / Freizeit</span><span class="ort o-lb">Landkreis Aschaffenburg</span></div>
+    <h3>Tag der offenen Gartent&#252;r morgen: 19 Privatg&#228;rten &#246;ffnen im Landkreis Aschaffenburg</h3>
+    <p>Morgen, Sonntag 14.&#8239;Juni, &#246;ffnen im Landkreis Aschaffenburg 19 Privatg&#228;rten von 10 bis 17&#8239;Uhr ihre T&#252;ren &#8211; der Eintritt ist frei. Die Aktion erm&#246;glicht Garteninteressierten einen Blick in normalerweise nicht zug&#228;ngliche Privat-Oasen mit unterschiedlichsten Gartenkonzepten und Pflanzideen. Vor Ort stehen Gartenbesitzer und Experten f&#252;r Tipps zu Anbau, Pflege und Gestaltung bereit. Eine Brosch&#252;re mit allen Adressen ist &#252;ber www.landkreis-aschaffenburg.de/gartentuere erh&#228;ltlich; Fragen beantwortet die Kreisfachberatung Gartenbau unter Tel.&#8239;06021&#8239;/&#8239;394-7170.</p>
+    <a href="https://www.landkreis-aschaffenburg.de/gartentuere" target="_blank" rel="noopener">Landkreis Aschaffenburg &#8594; Gartent&#252;r-Info</a>
   </div>
 
   <div class="k">
-    <div class="kh"><span class="ba bg-wir">Wirtschaft</span><span class="ort o-ms">Main-Spessart</span></div>
-    <h3>Fachkräftemangel: Main-Spessart sucht Strategien zur Mitarbeitergewinnung</h3>
-    <p>Ein am 7. Juni 2026 veröffentlichter Wirtschaftsbericht beleuchtet die angespannte Lage auf dem Arbeitsmarkt im Landkreis Main-Spessart. Die Fähigkeit, qualifizierte Fachkräfte zu gewinnen, zu integrieren und dauerhaft zu binden, wird als entscheidender Faktor für die wirtschaftliche Zukunft der Region bezeichnet. Viele Betriebe berichten von offenen Stellen, die teils monatelang unbesetzt bleiben. Experten empfehlen unter anderem verstärkte Kooperationen mit Hochschulen sowie aktive Ansprache internationaler Fachkräfte als Lösungsansätze.</p>
-    <a href="https://www.infranken.de/lk/main-spessart/uebersicht/" target="_blank" rel="noopener">infranken.de</a>
+    <div class="kh"><span class="ba bg-his">Geschichte</span><span class="ort o-ks">Karlstein am Main</span></div>
+    <h3>Energiemuseum Karlstein: Museumstage 12.&#8211;14.&#8239;Juni mit Vortr&#228;gen zu Atomkraft und Energiezukunft</h3>
+    <p>Das Energiemuseum in Karlstein am Main &#8211; untergebracht im ehemaligen Informationszentrum des Versuchsatomkraftwerks Kahl (VAK) &#8211; hat an diesem Wochenende zum zweiten Mal seine Museumstage ausgerichtet. Ehemalige VAK-Mitarbeiter und Kraftwerksbetreiber f&#252;hrten Besucherinnen und Besucher durch die Ausstellung. Vortr&#228;ge behandelten Themen wie &#8222;Energie gestern und heute&#8220;, Gasturbinentechnik, neue Batterietechnologien, die VAK-Stilllegung sowie den Hei&#223;dampfreaktor Gro&#223;welzheim. An einem Gasturbinen-Simulator konnten Besucher die Funktionsweise aktiv erleben.</p>
+    <a href="https://aschaffenburg.news/ab/karlstein-am-main/karlstein-am-main/karlstein-sonderoeffnung-im-energiemuseum.html" target="_blank" rel="noopener">aschaffenburg.news &#8594; Energiemuseum</a>
   </div>
 
   <div class="k">
-    <div class="kh"><span class="ba bg-beh">Behörde</span><span class="ort o-ab">Aschaffenburg</span></div>
-    <h3>Landratsamt Aschaffenburg: Am 17. Juni ab 12 Uhr geschlossen</h3>
-    <p>Das Landratsamt Aschaffenburg und alle seine Außenstellen bleiben am Mittwoch, 17. Juni 2026, ab 12:00 Uhr ganztägig geschlossen. Ursache sind eine interne Personalversammlung sowie eine Gemeinschaftsveranstaltung der Belegschaft. Eine weitere Schließung am Nachmittag des 1. Juli 2026 ist ebenfalls geplant. Für Bürgerinnen und Bürger, die dringende Anliegen haben, empfiehlt die Behörde, ihre Termine rechtzeitig vorzuverlegen oder den Online-Service unter www.landkreis-aschaffenburg.de zu nutzen.</p>
-    <a href="https://aschaffenburg.news/ab/aschaffenburg/aschaffenburg/aschaffenburg-landratsamt-am-17-juni-und-1-juli-nachmittags-geschlossen.html" target="_blank" rel="noopener">aschaffenburg.news</a>
+    <div class="kh"><span class="ba bg-feu">Feuerwehr</span><span class="ort o-ks">Karlstein am Main</span></div>
+    <h3>60.060 Euro F&#246;rderung f&#252;r FF Karlstein: Abrollbeh&#228;lter Sonderl&#246;schmittel bewilligt</h3>
+    <p>Die Regierung von Unterfranken hat dem Landkreis Aschaffenburg 60.060 Euro f&#252;r die Beschaffung eines Abrollbeh&#228;lters-Sonderl&#246;schmittel bewilligt, der bei der Freiwilligen Feuerwehr Karlstein am Main stationiert wird. Der Spezialcontainer ist mit Schaum-, CO2- und Pulverl&#246;schmitteln ausgestattet und kommt bei au&#223;ergew&#246;hnlichen Brandereignissen in Industrie- und Sonderobjekten zum Einsatz, wo konventionelle L&#246;schmittel nicht ausreichen. Die F&#246;rderung stammt aus dem bayerischen Feuerwehrf&#246;rderungsprogramm und st&#228;rkt die Einsatzkraft im Landkreis Aschaffenburg nachhaltig.</p>
+    <a href="https://aschaffenburg.news/" target="_blank" rel="noopener">aschaffenburg.news &#8594; Aktuelle Meldungen</a>
   </div>
 
   <div class="k">
-    <div class="kh"><span class="ba bg-blu">Blaulicht</span><span class="ort o-mi">Miltenberg</span></div>
-    <h3>Callcenter-Betrug: Unbekannte erbeuten Bargeld von Senior in Miltenberg</h3>
-    <p>Im Landkreis Miltenberg ist es erneut zu einem Callcenter-Betrug zulasten eines älteren Mannes gekommen. Unbekannte Täter überzeugten ihr Opfer mit einer fingierten Geschichte, Bargeld an eine angebliche Botin oder einen Boten zu übergeben. Der entstandene Schaden liegt im vierstelligen Bereich. Die Polizei ermittelt und weist darauf hin, dass solche Betrugsmaschen in der Region verstärkt auftreten. Ältere Menschen sollten bei verdächtigen Anrufen mit Geldforderungen grundsätzlich Angehörige oder die Polizei hinzuziehen.</p>
-    <a href="https://aschaffenburg.news/bayern/landkreis-miltenberg/miltenberg-callcenterbetrug-unbekannte-erbeutet-bargeld.html" target="_blank" rel="noopener">aschaffenburg.news</a>
+    <div class="kh"><span class="ba bg-spo">Sport / Vereinsleben</span><span class="ort o-ab">Aschaffenburg</span></div>
+    <h3>Viktoria feiert 125-j&#228;hriges Jubil&#228;um mit Fest und Live-Musik</h3>
+    <p>Morgen, Sonntag 14.&#8239;Juni 2026, feiert die Viktoria Aschaffenburg ihr 125-j&#228;hriges Bestehen. Das Jubil&#228;um wird mit einem Vereinsfest begangen, auf dem Live-Musik und Public Viewing f&#252;r festliche Stimmung sorgen. Der Verein, gegr&#252;ndet im sp&#228;ten 19.&#8239;Jahrhundert, ist seit Generationen ein fester Bestandteil des sportlichen und gesellschaftlichen Lebens in der Stadt. Mitglieder, Ehemalige, Fans und Interessierte sind eingeladen, gemeinsam auf 125 Jahre Vereinsgeschichte, Erfolge und gemeinsame Erinnerungen anzusto&#223;en.</p>
+    <a href="https://veranstaltungen.meinestadt.de/aschaffenburg/alle/alle" target="_blank" rel="noopener">meinestadt.de &#8594; Veranstaltungen Aschaffenburg</a>
   </div>
 
   <div class="k">
-    <div class="kh"><span class="ba bg-blu">Blaulicht</span><span class="ort o-ms">Hafenlohr / Main-Spessart</span></div>
-    <h3>Seit April vermisst: Leiche im Main bei Hafenlohr identifiziert</h3>
-    <p>Eine seit dem 21. April 2026 im Landkreis Main-Spessart vermisste Person ist nach mehrwöchiger Suche tot aufgefunden worden. Am 23. Mai 2026 wurde eine Leiche aus dem Main bei Hafenlohr geborgen und als der 61-jährige Vermisste identifiziert. Die zuvor laufenden Suchmaßnahmen – darunter Einsätze mit Booten und Suchhunden – wurden daraufhin offiziell eingestellt. Die genaue Todesursache wird weiterhin durch die Kriminalpolizei und die Staatsanwaltschaft Würzburg untersucht.</p>
-    <a href="https://www.main-echo.de/ressorts/blaulicht/" target="_blank" rel="noopener">main-echo.de</a>
+    <div class="kh"><span class="ba bg-lit">Literatur</span><span class="ort o-ho">H&#246;sbach</span></div>
+    <h3>Buchlesung morgen in H&#246;sbach: Anne Barns liest aus &#8222;Der Geschmack von Sommer und Karamell&#8220;</h3>
+    <p>Morgen, Sonntag 14.&#8239;Juni, von 15 bis 16:30&#8239;Uhr liest die Autorin Anne Barns in H&#246;sbach aus ihrem aktuellen Roman &#8222;Der Geschmack von Sommer und Karamell&#8220;. Das Buch f&#252;hrt durch eine Sommergeschichte voller Erinnerungen, W&#228;rme und zwischenmenschlicher Momente. Im Anschluss an die Lesung besteht die M&#246;glichkeit, mit der Autorin ins Gespr&#228;ch zu kommen und signierte Exemplare zu erwerben. Genaue &#214;rtlichkeit und Anmeldemodalit&#228;ten sind &#252;ber die Gemeindeverwaltung H&#246;sbach oder den Veranstaltungskalender des Landkreises zu erfragen.</p>
+    <a href="https://veranstaltungen.meinestadt.de/aschaffenburg/alle/kultur" target="_blank" rel="noopener">meinestadt.de &#8594; Kulturveranstaltungen</a>
   </div>
 
   <div class="k">
-    <div class="kh"><span class="ba bg-umw">Umwelt</span><span class="ort o-al">Landkreis AB</span></div>
-    <h3>Öko-Modellregion: Rücksichtnahme-Kampagne für Landwirtschaft im Juni</h3>
-    <p>Der Landkreis Aschaffenburg setzt seine Sensibilisierungskampagne für die heimische Landwirtschaft im Juni 2026 fort. Unter dem Motto der Öko-Modellregion werden Bürgerinnen und Bürger aufgerufen, beim Betreten von Feldern, Wiesen und Waldrändern Rücksicht auf laufende landwirtschaftliche Arbeiten zu nehmen. Infotafeln und Flyer an beliebten Radwegen und Wanderpfaden erläutern, warum bestimmte Flächen in der Vegetationsperiode nicht betreten werden sollten. Die Kampagne richtet sich besonders an Freizeitsportler und Hundehalter.</p>
-    <a href="https://www.meine-news.de/landkreis-aschaffenburg/c-energie-und-umwelt/fortfuehrung-der-kampagne-zur-ruecksichtnahme-fuer-die-landwirtschaft-der-oeko-modellregion-im-juni_a236220" target="_blank" rel="noopener">meine-news.de</a>
+    <div class="kh"><span class="ba bg-umw">Umwelt</span><span class="ort o-lb">Landkreis Aschaffenburg</span></div>
+    <h3>Hummel-Challenge ab 20.&#8239;Juni: BUND Naturschutz Aschaffenburg ruft zum Mitmachen auf</h3>
+    <p>Der BUND Naturschutz Aschaffenburg ruft zur Teilnahme an der zweiten Phase der bundesweiten Hummel-Challenge 2026 auf: Vom 20.&#8239;Juni bis 3.&#8239;Juli sollen B&#252;rgerinnen und B&#252;rger Hummeln fotografieren, per Smartphone-App (ObsIdentify oder Observation) bestimmen und melden. Die gesammelten Daten helfen der Wissenschaft, Ver&#228;nderungen bei Verbreitung und H&#228;ufigkeit heimischer Hummelarten fr&#252;hzeitig zu erkennen. In der Fr&#252;hjahrsphase 2026 beteiligten sich bundesweit mehr als 5.300 Personen mit &#252;ber 16.800 Beobachtungen von 18 Hummelarten.</p>
+    <a href="https://aschaffenburg.news/ab/aschaffenburg/aschaffenburg/aschaffenburg-jetzt-hummeln-in-stadt-und-landkreis-entdecken-und-melden.html" target="_blank" rel="noopener">aschaffenburg.news &#8594; Hummel-Challenge</a>
+  </div>
+
+  <div class="k">
+    <div class="kh"><span class="ba bg-soz">Gesundheit / Soziales</span><span class="ort o-lb">Landkreis Aschaffenburg</span></div>
+    <h3>Pflege bei Hitze: Kostenlose Infoveranstaltung des Pflegest&#252;tzpunkts am 2.&#8239;Juli</h3>
+    <p>Der Pflegest&#252;tzpunkt des Landkreises Aschaffenburg veranstaltet am Donnerstag, 2.&#8239;Juli 2026, von 15:30 bis 16:30&#8239;Uhr eine kostenlose Informationsveranstaltung &#252;ber die Pflege &#228;lterer und pflegebed&#252;rftiger Menschen in Hitzephasen. Experten erkl&#228;ren, welche Ma&#223;nahmen pflegende Angeh&#246;rige und professionelle Pflegekr&#228;fte bei extremer Hitze ergreifen k&#246;nnen, um gef&#228;hrdete Personen zu sch&#252;tzen. Hintergrund ist die zunehmende H&#228;ufigkeit von Hitzesommern in Bayern, die f&#252;r vulnerable Personengruppen besondere Risiken mit sich bringen. Anmeldung unter Tel.&#8239;06021&#8239;/&#8239;394-0.</p>
+    <a href="https://aschaffenburg.news/ab/aschaffenburg/aschaffenburg/aschaffenburg-info-veranstaltung-zur-pflege-bei-hitze.html" target="_blank" rel="noopener">aschaffenburg.news &#8594; Pflege bei Hitze</a>
   </div>
 
 </div>
 
-<footer>Erstellt am 13.06.2026 | Quellen: Main-Echo, inFranken.de, aschaffenburg.news, meine-news.de, kfv-ab.de, mainwelle.de, neuer-gegenwind.de, lohr.de</footer>
+<footer>
+  Quellen: Main-Echo &middot; inFranken.de &middot; aschaffenburg.news &middot; main-spessart.de &middot; Landkreis Aschaffenburg &middot; meinestadt.de &middot; Stadthalle Lohr &middot; BKH Lohr &middot; regioactive.de &middot; Beh&#246;rdenstress.de &middot; AccuWeather / wetter.com (Wetter)<br>
+  Erstellt: Samstag, 13. Juni 2026
+</footer>
+
 </body>
 </html>
