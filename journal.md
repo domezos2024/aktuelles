@@ -6,12 +6,28 @@ Dieses Journal protokolliert verwendete Designs und behandelte Themen, um Wieder
 
 | Datum | Schema | Layout |
 |---|---|---|
+| 2026-06-14 | morning-paper (Burgundy / Paper-Beige / Editorial) | editorial-3col |
 | 2026-06-14 | bold-colors | grid-2col |
 | 2026-06-13 | dark-mode (Forest Mosgrün / Amber Gold / Weinrot) | card-stream |
 
 ## Topics History
 
-### 2026-06-14
+### 2026-06-14 (Update 2 – morning-paper)
+
+- BKH Lohr Forensik drei Patienten entwichen Hubschraucher Infoabend 19 Juni Rathaus Boensch Rieb | https://www.main-echo.de/region/kreis-main-spessart/so-soll-die-flucht-aus-der-forensichen-psychiatrie-in-lohr-verhindert-werden-art-8733457 | blaulicht-polizei | lohr
+- Karlstein Brand 25 Akkupaletten Lithium 70 Feuerwehrkräfte fünf Wehren Zeche Gustav | https://aschaffenburg.news/ab/karlstein-am-main/karlstein-am-main/karlstein-brand-von-ca-25-paletten-mit-akkus-im-außenbereich.html | feuerwehr | landkreis-aschaffenburg
+- Marktheidenfeld Vermisster 61-Jähriger Main Hafenlohr geborgen Wasserwacht | https://aschaffenburg.news/blaulicht/vermisster-61-j%C3%A4hriger-tot-aus-main-geborgen.html | blaulicht-polizei | main-spessart
+- Nachruf Bürgermeister aD Günter Dehn Aschaffenburg CSU gestorben | https://aschaffenburg.news/ | politik | aschaffenburg-stadt
+- Herrmann Bevölkerungsschutz Bundeswehr Landräte Info Bayern | https://aschaffenburg.news/politik/ | politik | region
+- Aschaffenburg 1150 Reinigungskräfte Respekt Lohnschub bessere Bedingungen | https://aschaffenburg.news/ab/aschaffenburg/aschaffenburg/aschaffenburg-respekt-und-lohn-schub-f%C3%BCr-reinigungskr%C3%A4fte.html | wirtschaft | aschaffenburg-stadt
+- IHK Aschaffenburg Wahlen Kandidatur Vollversammlung bis 30 Juni | https://aschaffenburg.news/ab/aschaffenburg/aschaffenburg/aschaffenburg-wirtschaft-aktiv-mitgestalten-kandidatur-bis-zum-30-juni-m%C3%B6glich.html | wirtschaft | aschaffenburg-stadt
+- TV Großwallstadt Handball Bolling bleibt Spieß geht Trainerteam | https://aschaffenburg.news/handball/ | sport | landkreis-aschaffenburg
+- Malteser Aschaffenburg Notfallsanitäterin Peggy Spatz 25 Jahre Jubiläum | https://aschaffenburg.news/ab/aschaffenburg/aschaffenburg/aschaffenburg-notfallsanit%C3%A4terin-mit-herz.html | gesellschaft | aschaffenburg-stadt
+- Stadtbibliothek Aschaffenburg Onleihe 3 neue App ab 24 Juni | https://aschaffenburg.news/ab/aschaffenburg/aschaffenburg/stadtbibliothek-neue-onleihe-app-ab-24-juni.html | kultur | aschaffenburg-stadt
+- Landkreisradeln STADTRADELN Aschaffenburg 8 bis 28 Juni siebte Runde | https://aschaffenburg.news/ab/aschaffenburg/aschaffenburg/aschaffenburg-landkreisradeln-vom-8-bis-28-juni-2026.html | sport | landkreis-aschaffenburg
+- Wetter 14 Juni bewölkt windig 18 Grad Böen 52kmh Regen 30 Prozent | https://www.wetter.com/deutschland/lohr-am-main/DE0006391.html | wetter-warnung | region
+
+### 2026-06-14 (Update 1 – bold-colors)
 
 - IHK Konjunkturklima Bayerischer Untermain Tiefstand 88 Punkte Energiepreise Iran | https://aschaffenburg.news/ab/aschaffenburg/aschaffenburg/energiepreise-und-fehlende-reformen-bremsen-wirtschaft-aus.html | wirtschaft | aschaffenburg-stadt
 - A3 Bischbrunn zwei Unfälle Starkregen BMW Leitplanke | https://aktuell.meinestadt.de/kreis-main-spessart/polizeimeldungen | blaulicht-unfall | main-spessart
