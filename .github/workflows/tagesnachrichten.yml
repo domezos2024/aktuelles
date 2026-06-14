@@ -1,0 +1,41 @@
+name: Tagesnachrichten – Tägliches Update 06:00 Uhr
+
+on:
+  schedule:
+    # 06:00 Uhr Berlin (CEST = UTC+2 → 04:00 UTC)
+    # Im Winter (MEZ = UTC+1) läuft es um 05:00 UTC = 06:00 MEZ
+    - cron: '0 4 * * *'
+  workflow_dispatch:
+    inputs:
+      reason:
+        description: 'Grund für manuellen Start (optional)'
+        required: false
+        default: 'Manueller Test'
+
+jobs:
+  tagesnachrichten:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+      issues: write
+      id-token: write
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 1
+
+      - name: Tagesnachrichten – Claude Code
+        uses: anthropics/claude-code-action@beta
+        with:
+          prompt: |
+            Führe den Skill tagesnachrichten-lohr-aschaffenburg vollständig aus.
+            Heute ist ${{ github.event.inputs.reason || 'automatischer Tagesstart 06:00 Uhr' }}.
+            Erstelle die aktuelle Nachrichten.html und aktualisiere journal.md für heute.
+            Committe und pushe direkt auf den main-Branch.
+          claude_api_key: ${{ secrets.ANTHROPIC_API_KEY }}
+          allowed_tools: "Bash,WebSearch,WebFetch,Read,Write,Edit,Glob,Grep"
+          model: claude-opus-4-8
