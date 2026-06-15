@@ -6,7 +6,7 @@ Dieses Journal protokolliert verwendete Designs und behandelte Themen, um Wieder
 
 | Datum | Schema | Layout |
 |---|---|---|
-| 2026-06-15 | fresh-slate (Dunkelgrün-Header / Mintgrau-Hintergrund / Erdtöne) | grid-3col |
+| 2026-06-15 | fresh-slate (Dunkelgrün-Header / Mintgrau-Hintergrund / Erdtöne) – aktualisiert 09:00 Uhr | grid-3col |
 | 2026-06-14 | bold-colors | grid-2col |
 | 2026-06-13 | dark-mode (Forest Mosgrün / Amber Gold / Weinrot) | card-stream |
 
@@ -14,14 +14,16 @@ Dieses Journal protokolliert verwendete Designs und behandelte Themen, um Wieder
 
 ### 2026-06-15
 
-- WM 2026 Deutschland 7:1 Curaçao Public Viewing Obernburg Frammersbach | https://www.main-echo.de/ressorts/sport/ | sport-wm | region
+- Elsenfeld Messerangriff 60-jährige Frau gestorben 27-jähriger Familienangehöriger festgenommen Bahnhof | https://www.infranken.de/lk/aschaffenburg/blaulicht/elsenfeld-tod-nach-mutmasslichem-messerangriff-leblose-frau-gefunden-art-6367262 | kriminalität-tötungsdelikt | landkreis-aschaffenburg
+- WM 2026 Deutschland 7:1 Curaçao Public Viewing Obernburg Frammersbach nächstes Spiel Elfenbeinküste 20 Juni | https://www.sportschau.de/fussball/fifa-wm-2026/der-spielplan-der-fussball-wm-2026,fifawm-dfb-spielplan-100.html | sport-wm | region
 - Aschaffenburg Nilkheim Bungalow Brand vorübergehend unbewohnbar | https://aschaffenburg.news/ | feuerwehr | aschaffenburg-stadt
-- Karlstein Brand 25 Akkupaletten Außenbereich Industriefirma | https://aschaffenburg.news/ | feuerwehr | landkreis-aschaffenburg
-- Aschaffenburg Regenbogenfahne angezündet Polizei ermittelt | https://aschaffenburg.news/ | polizei | aschaffenburg-stadt
+- Karlstein Brand 25 Akkupaletten Außenbereich Industriefirma Lithium | https://aschaffenburg.news/ | feuerwehr | landkreis-aschaffenburg
+- Aschaffenburg Regenbogenfahne angezündet 01:20 Uhr politisches Motiv möglich | https://aschaffenburg.news/ | polizei | aschaffenburg-stadt
+- Lohr am Main Karlstadt Pfanddiebstahl 400 Flaschen Wiesener Straße Tatverdächtiger ermittelt Auto überschlägt sich K11 | https://www.meine-news.de/lohr-amain/c-blaulicht | blaulicht | lohr-main-spessart
+- AVG Aschaffenburg Bauarbeiten Stromleitungen Alois-Alzheimer-Allee ab 15 Juni bis September 2026 | https://aschaffenburg.news/ab/aschaffenburg/aschaffenburg-aavg-erneuert-stromversorgungsleitungen-in-der-alois-alzheimer-allee.html | infrastruktur | aschaffenburg-stadt
 - STADTRADELN Landkreis Aschaffenburg 8-28 Juni 2026 Landkreisradeln | https://aschaffenburg.news/ab/aschaffenburg/aschaffenburg/aschaffenburg-landkreisradeln-vom-8-bis-28-juni-2026.html | gesellschaft | landkreis-aschaffenburg
-- Alzenau 42-Jährige auf Radweg von Hund gebissen leicht verletzt | https://aschaffenburg.news/ | blaulicht | landkreis-aschaffenburg
+- Alzenau Kälberau 42-Jährige auf Radweg Kahl von Hund gebissen leicht verletzt | https://aschaffenburg.news/ | blaulicht | landkreis-aschaffenburg
 - Schöllkrippen Hund vor Supermarkt gestohlen Zeugen gesucht | https://aschaffenburg.news/ | polizei | landkreis-aschaffenburg
-- Lohr Pumpspeicherkraftwerk Sindersbachsee Uniper Deutsche Bahn Besuchertag | https://www.main-echo.de/region/kreis-main-spessart/ | wirtschaft-energie | lohr
 - Nachruf Bürgermeister aD Günter Dehn CSU Aschaffenburg | https://aschaffenburg.news/ | gesellschaft | aschaffenburg-stadt
 - Tegut 11 fränkische Filialen verkauft betroffene Standorte | https://www.infranken.de/lk/main-spessart/uebersicht/ | wirtschaft | franken-region
 - Landratsamt Aschaffenburg 17 Juni ab 12 Uhr geschlossen Personalversammlung | https://aschaffenburg.news/ab/aschaffenburg/aschaffenburg/aschaffenburg-landratsamt-am-17-juni-und-1-juli-nachmittags-geschlossen.html | verwaltung | landkreis-aschaffenburg
