@@ -6,10 +6,26 @@ Dieses Journal protokolliert verwendete Designs und behandelte Themen, um Wieder
 
 | Datum | Schema | Layout |
 |---|---|---|
+| 2026-06-15 | fresh-slate (Dunkelgrün-Header / Mintgrau-Hintergrund / Erdtöne) | grid-3col |
 | 2026-06-14 | bold-colors | grid-2col |
 | 2026-06-13 | dark-mode (Forest Mosgrün / Amber Gold / Weinrot) | card-stream |
 
 ## Topics History
+
+### 2026-06-15
+
+- WM 2026 Deutschland 7:1 Curaçao Public Viewing Obernburg Frammersbach | https://www.main-echo.de/ressorts/sport/ | sport-wm | region
+- Aschaffenburg Nilkheim Bungalow Brand vorübergehend unbewohnbar | https://aschaffenburg.news/ | feuerwehr | aschaffenburg-stadt
+- Karlstein Brand 25 Akkupaletten Außenbereich Industriefirma | https://aschaffenburg.news/ | feuerwehr | landkreis-aschaffenburg
+- Aschaffenburg Regenbogenfahne angezündet Polizei ermittelt | https://aschaffenburg.news/ | polizei | aschaffenburg-stadt
+- STADTRADELN Landkreis Aschaffenburg 8-28 Juni 2026 Landkreisradeln | https://aschaffenburg.news/ab/aschaffenburg/aschaffenburg/aschaffenburg-landkreisradeln-vom-8-bis-28-juni-2026.html | gesellschaft | landkreis-aschaffenburg
+- Alzenau 42-Jährige auf Radweg von Hund gebissen leicht verletzt | https://aschaffenburg.news/ | blaulicht | landkreis-aschaffenburg
+- Schöllkrippen Hund vor Supermarkt gestohlen Zeugen gesucht | https://aschaffenburg.news/ | polizei | landkreis-aschaffenburg
+- Lohr Pumpspeicherkraftwerk Sindersbachsee Uniper Deutsche Bahn Besuchertag | https://www.main-echo.de/region/kreis-main-spessart/ | wirtschaft-energie | lohr
+- Nachruf Bürgermeister aD Günter Dehn CSU Aschaffenburg | https://aschaffenburg.news/ | gesellschaft | aschaffenburg-stadt
+- Tegut 11 fränkische Filialen verkauft betroffene Standorte | https://www.infranken.de/lk/main-spessart/uebersicht/ | wirtschaft | franken-region
+- Landratsamt Aschaffenburg 17 Juni ab 12 Uhr geschlossen Personalversammlung | https://aschaffenburg.news/ab/aschaffenburg/aschaffenburg/aschaffenburg-landratsamt-am-17-juni-und-1-juli-nachmittags-geschlossen.html | verwaltung | landkreis-aschaffenburg
+- TV Großwallstadt Handball Trainer Bolling bleibt Spieß geht Remis 32:32 Coburg | https://aschaffenburg.news/ | sport | landkreis-aschaffenburg
 
 ### 2026-06-14
 
