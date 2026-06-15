@@ -7,39 +7,39 @@
 <style>
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
 :root{
-  --bg:#eef2ef;
+  --bg:#dde8f2;
   --card:#ffffff;
-  --text:#1c2b20;
-  --sub:#4d6652;
-  --radius:12px;
-  --shadow:0 2px 14px rgba(0,0,0,.08);
-  --shadow-h:0 6px 24px rgba(0,0,0,.15);
-  --font:'Inter',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;
+  --text:#0d253f;
+  --sub:#2c5f8a;
+  --radius:10px;
+  --shadow:0 2px 12px rgba(13,37,63,.09);
+  --shadow-h:0 6px 22px rgba(13,37,63,.18);
+  --font:'Segoe UI','Inter',-apple-system,BlinkMacSystemFont,sans-serif;
   /* Typ-Farben */
-  --c-unfall:#c62828;
-  --c-polizei:#37474f;
+  --c-kriminal:#4a0072;
+  --c-unfall:#b71c1c;
+  --c-polizei:#0d47a1;
   --c-feuer:#bf360c;
   --c-politik:#283593;
   --c-wirtschaft:#1b5e20;
   --c-kultur:#6a1b9a;
   --c-sport:#00695c;
-  --c-gesellschaft:#ad1457;
-  --c-verkehr:#546e7a;
+  --c-gesellschaft:#880e4f;
+  --c-verkehr:#37474f;
   --c-energie:#e65100;
-  --c-verwaltung:#0277bd;
-  --c-kriminal:#4a0000;
+  --c-verwaltung:#01579b;
   /* Regions-Farben */
-  --r-lo:#6d4c41;
+  --r-lo:#5d4037;
   --r-ab:#263238;
-  --r-lkab:#455a64;
+  --r-lkab:#37474f;
   --r-msp:#4a148c;
   --r-reg:#1a237e;
 }
-body{font-family:var(--font);background:var(--bg);color:var(--text);font-size:15px;line-height:1.5}
+body{font-family:var(--font);background:var(--bg);color:var(--text);font-size:15px;line-height:1.55}
 
 /* ── HEADER ── */
 .site-header{
-  background:linear-gradient(135deg,#1c2b20 0%,#2e5c3e 100%);
+  background:linear-gradient(135deg,#0d253f 0%,#1a4a7a 100%);
   padding:22px 20px 18px;
   text-align:center;
   color:#fff;
@@ -52,8 +52,8 @@ body{font-family:var(--font);background:var(--bg);color:var(--text);font-size:15
 }
 .site-header .sub{
   font-size:.82rem;
-  opacity:.75;
-  margin-top:5px;
+  opacity:.72;
+  margin-top:6px;
 }
 .legend{
   display:flex;flex-wrap:wrap;gap:5px;justify-content:center;
@@ -77,11 +77,12 @@ body{font-family:var(--font);background:var(--bg);color:var(--text);font-size:15
   box-shadow:var(--shadow);
   padding:16px;
   overflow:hidden;
+  border-top:4px solid #1a4a7a;
 }
 .weather-box h2{
   font-size:.78rem;font-weight:700;
   text-transform:uppercase;letter-spacing:.07em;
-  color:#2e7d32;margin-bottom:4px;
+  color:#1a4a7a;margin-bottom:4px;
 }
 .weather-cur{
   font-size:.88rem;color:var(--sub);
@@ -89,19 +90,19 @@ body{font-family:var(--font);background:var(--bg);color:var(--text);font-size:15
 }
 .weather-cur strong{font-size:1.4rem;color:var(--text);font-weight:800;}
 
-.hrly{display:flex;gap:6px;overflow-x:auto;padding-bottom:6px;scrollbar-width:thin;scrollbar-color:#b2d8b8 transparent;}
+.hrly{display:flex;gap:6px;overflow-x:auto;padding-bottom:6px;scrollbar-width:thin;scrollbar-color:#a0bcd8 transparent;}
 .hrly::-webkit-scrollbar{height:4px}
 .hrly::-webkit-scrollbar-track{background:transparent}
-.hrly::-webkit-scrollbar-thumb{background:#a5c8aa;border-radius:2px}
+.hrly::-webkit-scrollbar-thumb{background:#90b4d0;border-radius:2px}
 
 .hslot{
-  min-width:58px;flex-shrink:0;
-  background:#f1f8f2;
+  min-width:60px;flex-shrink:0;
+  background:#edf3fa;
   border-radius:8px;
   padding:8px 5px;
   text-align:center;
 }
-.hslot .hu{font-size:.62rem;color:#558b60;font-weight:600}
+.hslot .hu{font-size:.62rem;color:#1a4a7a;font-weight:600}
 .hslot .hi{font-size:1.1rem;line-height:1.1;margin:2px 0}
 .hslot .ht{font-size:.88rem;font-weight:700;color:var(--text)}
 .hslot .hr{font-size:.62rem;color:#90a4ae}
@@ -111,10 +112,10 @@ body{font-family:var(--font);background:var(--bg);color:var(--text);font-size:15
   gap:10px;margin-top:12px;
 }
 .daycard{
-  background:#f1f8f2;border-radius:8px;
+  background:#edf3fa;border-radius:8px;
   padding:10px 12px;text-align:center;
 }
-.daycard .dn{font-size:.70rem;font-weight:700;color:#388e3c;text-transform:uppercase;letter-spacing:.05em}
+.daycard .dn{font-size:.70rem;font-weight:700;color:#1a4a7a;text-transform:uppercase;letter-spacing:.05em}
 .daycard .di{font-size:1.3rem;margin:3px 0}
 .daycard .dt{font-size:.82rem;font-weight:700;color:var(--text)}
 .daycard .db{font-size:.73rem;color:var(--sub);margin-top:2px}
@@ -158,7 +159,7 @@ body{font-family:var(--font);background:var(--bg);color:var(--text);font-size:15
   box-shadow:var(--shadow-h);
 }
 .card-top{
-  height:6px;flex-shrink:0;
+  height:5px;flex-shrink:0;
 }
 .card-head{
   padding:10px 14px 8px;
@@ -170,7 +171,7 @@ body{font-family:var(--font);background:var(--bg);color:var(--text);font-size:15
   font-size:.67rem;font-weight:700;
   text-transform:uppercase;letter-spacing:.05em;
   color:#fff;padding:3px 9px;
-  border-radius:5px;
+  border-radius:4px;
   white-space:nowrap;
 }
 .regbadge{
@@ -188,7 +189,7 @@ body{font-family:var(--font);background:var(--bg);color:var(--text);font-size:15
   line-height:1.35;color:var(--text);
 }
 .card-summary{
-  font-size:.82rem;line-height:1.58;
+  font-size:.82rem;line-height:1.6;
   color:var(--sub);flex:1;
 }
 .card-footer{
@@ -196,7 +197,7 @@ body{font-family:var(--font);background:var(--bg);color:var(--text);font-size:15
   display:flex;align-items:center;
   justify-content:space-between;
   gap:8px;
-  border-top:1px solid #e8f0ea;
+  border-top:1px solid #d0dff0;
   flex-wrap:wrap;
 }
 .card-date{font-size:.73rem;color:#90a4ae;white-space:nowrap}
@@ -210,17 +211,16 @@ body{font-family:var(--font);background:var(--bg);color:var(--text);font-size:15
 }
 .card-link:hover{opacity:.85;transform:translateX(2px)}
 
-/* Priorität hoch: top-stripe dicker */
-.prio-hoch .card-top{height:9px}
+.prio-hoch .card-top{height:8px}
 
 /* ── FOOTER ── */
 .site-footer{
-  background:#1c2b20;color:#7fa885;
+  background:#0d253f;color:#6a9bc3;
   text-align:center;padding:18px 16px;
   font-size:.74rem;line-height:1.7;
   margin-top:10px;
 }
-.site-footer a{color:#81c784;text-decoration:none}
+.site-footer a{color:#90c3e8;text-decoration:none}
 </style>
 </head>
 <body>
@@ -228,13 +228,13 @@ body{font-family:var(--font);background:var(--bg);color:var(--text);font-size:15
 <!-- HEADER -->
 <header class="site-header">
   <h1>Tagesnachrichten</h1>
-  <p class="sub">Lohr am Main &nbsp;·&nbsp; Aschaffenburg &nbsp;·&nbsp; Main-Spessart &nbsp;|&nbsp; Montag, 15. Juni 2026 &nbsp;·&nbsp; Stand: 09:00 Uhr (aktualisiert)</p>
+  <p class="sub">Lohr am Main &nbsp;·&nbsp; Aschaffenburg &nbsp;·&nbsp; Main-Spessart &nbsp;|&nbsp; Montag, 15. Juni 2026 &nbsp;·&nbsp; Stand: 10:00 Uhr</p>
   <div class="legend">
     <span class="lchip" style="background:var(--c-kriminal)">Kriminalität</span>
-    <span class="lchip" style="background:var(--c-sport)">Sport / WM</span>
+    <span class="lchip" style="background:var(--c-unfall)">Blaulicht</span>
     <span class="lchip" style="background:var(--c-feuer)">Feuerwehr</span>
     <span class="lchip" style="background:var(--c-polizei)">Polizei</span>
-    <span class="lchip" style="background:var(--c-unfall)">Blaulicht</span>
+    <span class="lchip" style="background:var(--c-sport)">Sport / WM</span>
     <span class="lchip" style="background:var(--c-wirtschaft)">Wirtschaft</span>
     <span class="lchip" style="background:var(--c-politik)">Politik</span>
     <span class="lchip" style="background:var(--r-lo)">LOH – Lohr am Main</span>
@@ -244,45 +244,45 @@ body{font-family:var(--font);background:var(--bg);color:var(--text);font-size:15
   </div>
 </header>
 
-<!-- WETTER -->
+<!-- WETTER (BrightSky / DWD-Daten, Lohr am Main 50.0°N 9.57°E) -->
 <div class="weather-wrap">
 <div class="weather-box">
-  <h2>⛅ Wetter Lohr am Main – Vorhersage</h2>
-  <p class="weather-cur"><strong>11°C</strong> &nbsp;⛅ Überwiegend wolkig, windig &nbsp;·&nbsp; Wind W 12 km/h, Böen 40 km/h &nbsp;·&nbsp; Regen: 0 %</p>
+  <h2>🌤️ Wetter Lohr am Main – DWD-Vorhersage (BrightSky)</h2>
+  <p class="weather-cur"><strong>15°C</strong> &nbsp;⛅ Teilweise bewölkt &nbsp;·&nbsp; Wind NW 14 km/h &nbsp;·&nbsp; Min 7 °C · Max 19 °C · Kein Regen</p>
 
   <div class="hrly">
-    <div class="hslot"><div class="hu">06:00</div><div class="hi">⛅</div><div class="ht">9°</div><div class="hr">15%</div></div>
-    <div class="hslot"><div class="hu">07:00</div><div class="hi">⛅</div><div class="ht">11°</div><div class="hr">12%</div></div>
-    <div class="hslot"><div class="hu">08:00</div><div class="hi">⛅</div><div class="ht">13°</div><div class="hr">10%</div></div>
-    <div class="hslot"><div class="hu">09:00</div><div class="hi">🌤️</div><div class="ht">15°</div><div class="hr">8%</div></div>
-    <div class="hslot"><div class="hu">10:00</div><div class="hi">🌤️</div><div class="ht">17°</div><div class="hr">8%</div></div>
-    <div class="hslot"><div class="hu">11:00</div><div class="hi">🌤️</div><div class="ht">19°</div><div class="hr">8%</div></div>
-    <div class="hslot"><div class="hu">12:00</div><div class="hi">☁️</div><div class="ht">20°</div><div class="hr">10%</div></div>
-    <div class="hslot"><div class="hu">13:00</div><div class="hi">☁️</div><div class="ht">20°</div><div class="hr">12%</div></div>
-    <div class="hslot"><div class="hu">14:00</div><div class="hi">☁️</div><div class="ht">19°</div><div class="hr">15%</div></div>
-    <div class="hslot"><div class="hu">15:00</div><div class="hi">⛅</div><div class="ht">18°</div><div class="hr">12%</div></div>
-    <div class="hslot"><div class="hu">16:00</div><div class="hi">⛅</div><div class="ht">17°</div><div class="hr">10%</div></div>
-    <div class="hslot"><div class="hu">17:00</div><div class="hi">⛅</div><div class="ht">16°</div><div class="hr">8%</div></div>
-    <div class="hslot"><div class="hu">18:00</div><div class="hi">⛅</div><div class="ht">15°</div><div class="hr">8%</div></div>
-    <div class="hslot"><div class="hu">19:00</div><div class="hi">⛅</div><div class="ht">14°</div><div class="hr">5%</div></div>
-    <div class="hslot"><div class="hu">20:00</div><div class="hi">🌙</div><div class="ht">13°</div><div class="hr">5%</div></div>
-    <div class="hslot"><div class="hu">21:00</div><div class="hi">🌙</div><div class="ht">12°</div><div class="hr">5%</div></div>
-    <div class="hslot"><div class="hu">22:00</div><div class="hi">🌙</div><div class="ht">11°</div><div class="hr">3%</div></div>
-    <div class="hslot"><div class="hu">23:00</div><div class="hi">🌙</div><div class="ht">10°</div><div class="hr">3%</div></div>
+    <div class="hslot"><div class="hu">06:00</div><div class="hi">⛅</div><div class="ht">12°</div><div class="hr">1%</div></div>
+    <div class="hslot"><div class="hu">07:00</div><div class="hi">⛅</div><div class="ht">13°</div><div class="hr">1%</div></div>
+    <div class="hslot"><div class="hu">08:00</div><div class="hi">🌤️</div><div class="ht">14°</div><div class="hr">1%</div></div>
+    <div class="hslot"><div class="hu">09:00</div><div class="hi">🌤️</div><div class="ht">15°</div><div class="hr">2%</div></div>
+    <div class="hslot"><div class="hu">10:00</div><div class="hi">🌤️</div><div class="ht">16°</div><div class="hr">4%</div></div>
+    <div class="hslot"><div class="hu">11:00</div><div class="hi">🌤️</div><div class="ht">16°</div><div class="hr">4%</div></div>
+    <div class="hslot"><div class="hu">12:00</div><div class="hi">⛅</div><div class="ht">17°</div><div class="hr">4%</div></div>
+    <div class="hslot"><div class="hu">13:00</div><div class="hi">⛅</div><div class="ht">18°</div><div class="hr">3%</div></div>
+    <div class="hslot"><div class="hu">14:00</div><div class="hi">⛅</div><div class="ht">19°</div><div class="hr">2%</div></div>
+    <div class="hslot"><div class="hu">15:00</div><div class="hi">🌤️</div><div class="ht">19°</div><div class="hr">2%</div></div>
+    <div class="hslot"><div class="hu">16:00</div><div class="hi">🌤️</div><div class="ht">19°</div><div class="hr">1%</div></div>
+    <div class="hslot"><div class="hu">17:00</div><div class="hi">🌤️</div><div class="ht">19°</div><div class="hr">1%</div></div>
+    <div class="hslot"><div class="hu">18:00</div><div class="hi">⛅</div><div class="ht">19°</div><div class="hr">1%</div></div>
+    <div class="hslot"><div class="hu">19:00</div><div class="hi">⛅</div><div class="ht">18°</div><div class="hr">1%</div></div>
+    <div class="hslot"><div class="hu">20:00</div><div class="hi">⛅</div><div class="ht">16°</div><div class="hr">1%</div></div>
+    <div class="hslot"><div class="hu">21:00</div><div class="hi">🌙</div><div class="ht">15°</div><div class="hr">1%</div></div>
+    <div class="hslot"><div class="hu">22:00</div><div class="hi">🌙</div><div class="ht">14°</div><div class="hr">1%</div></div>
+    <div class="hslot"><div class="hu">23:00</div><div class="hi">🌙</div><div class="ht">13°</div><div class="hr">1%</div></div>
   </div>
 
   <div class="days-grid">
     <div class="daycard">
       <div class="dn">Di. 16. Juni</div>
-      <div class="di">🌧️</div>
-      <div class="dt">↑ 25° &nbsp; ↓ 12°</div>
-      <div class="db">Regen, sehr unbeständig · 90 % Nass</div>
+      <div class="di">🌦️</div>
+      <div class="dt">↑ 23° &nbsp; ↓ 11°</div>
+      <div class="db">Bewölkt · mittags leichter Regen · SW-Wind</div>
     </div>
     <div class="daycard">
       <div class="dn">Mi. 17. Juni</div>
-      <div class="di">🌧️</div>
-      <div class="dt">↑ 25° &nbsp; ↓ 17°</div>
-      <div class="db">Stark bewölkt, leichter Regen · 90 % Nass</div>
+      <div class="di">☁️</div>
+      <div class="dt">↑ 22° &nbsp; ↓ 17°</div>
+      <div class="db">Überwiegend bewölkt · zeitweise Regen</div>
     </div>
   </div>
 </div>
@@ -290,7 +290,7 @@ body{font-family:var(--font);background:var(--bg);color:var(--text);font-size:15
 
 <!-- NACHRICHTEN -->
 <div class="news-wrap">
-<h2>Top-Meldungen – Lohr am Main &amp; Region (letzte 48 Std.) · aktualisiert 09:00 Uhr</h2>
+<h2>Top-Meldungen – Lohr am Main &amp; Region · Montag, 15. Juni 2026 · Stand 10:00 Uhr</h2>
 <div class="news-grid">
 
   <!-- 1 – FEATURED – Elsenfeld Tötungsdelikt -->
@@ -301,17 +301,35 @@ body{font-family:var(--font);background:var(--bg);color:var(--text);font-size:15
       <span class="regbadge" style="background:var(--r-lkab)">LK-AB – Elsenfeld</span>
     </div>
     <div class="card-body">
-      <h3 class="card-title">Elsenfeld: 60-jährige Frau nach Messerangriff gestorben – Familienmitglied festgenommen</h3>
-      <p class="card-summary">Am Sonntagabend, 14. Juni 2026, wurde gegen 18:30 Uhr in Elsenfeld (Landkreis Aschaffenburg) eine leblose Frau in der Nähe des Bahnhofs sowie des Elsavatal-Radwegs aufgefunden. Zeugen alarmierten sofort Polizei und Rettungsdienst. Die 60-jährige Frau mit afghanischer Staatsangehörigkeit hatte schwere Stichverletzungen erlitten und verstarb kurz nach ihrer Einlieferung in die Klinik. Ein 27-jähriger Familienmitglied des Opfers, ebenfalls afghangischer Staatsangehörigkeit, stellte sich kurz nach der Tat selbst bei der Polizeiinspektion Obernburg und wurde widerstandslos festgenommen. Das Kriminalkommissariat Aschaffenburg führt die Ermittlungen gemeinsam mit der Staatsanwaltschaft. Zeugen und Sachverhalte werden gesichert; ein Motiv ist bislang unklar.</p>
+      <h3 class="card-title">Elsenfeld: 60-jährige Frau nach Messerangriff am Bahnhof gestorben – Familienangehöriger festgenommen</h3>
+      <p class="card-summary">Am Sonntagabend, 14. Juni 2026, gegen 18:00 Uhr wurde in Elsenfeld (Landkreis Aschaffenburg) zwischen Bahnhof und Bahnhofstraße eine leblose Frau entdeckt. Zeugen alarmierten sofort Polizei und Rettungsdienst. Die 60-jährige Frau mit afghanischer Staatsangehörigkeit wies schwere Stichverletzungen auf und verstarb trotz sofortiger medizinischer Versorgung kurz nach Einlieferung in eine Klinik. Noch am Abend stellte sich ein 27-jähriger Familienangehöriger des Opfers selbst bei der Polizeiinspektion Obernburg – er wurde widerstandslos festgenommen. Das Kriminalkommissariat Aschaffenburg führt die Ermittlungen gemeinsam mit der Staatsanwaltschaft; Zeugen wurden befragt und Spuren gesichert. Das Motiv ist bislang unklar. Der Fall wird als Tötungsdelikt geführt.</p>
     </div>
     <div class="card-footer">
-      <span class="card-date">🗓 14. Juni 2026 · ca. 18:30 Uhr</span>
+      <span class="card-date">🗓 14. Juni 2026 · ~18:00 Uhr</span>
       <a href="https://www.infranken.de/lk/aschaffenburg/blaulicht/elsenfeld-tod-nach-mutmasslichem-messerangriff-leblose-frau-gefunden-art-6367262"
          target="_blank" rel="noopener" class="card-link" style="background:var(--c-kriminal)">Zum Bericht →</a>
     </div>
   </article>
 
-  <!-- 2 – FEATURED – WM Deutschland 7:1 Curaçao + nächstes Spiel -->
+  <!-- 2 – A3 Bischbrunn Motorrad-Unfall -->
+  <article class="card prio-hoch">
+    <div class="card-top" style="background:var(--c-unfall)"></div>
+    <div class="card-head">
+      <span class="typbadge" style="background:var(--c-unfall)">Blaulicht · Unfall</span>
+      <span class="regbadge" style="background:var(--r-msp)">MSP – Bischbrunn</span>
+    </div>
+    <div class="card-body">
+      <h3 class="card-title">A3 Bischbrunn: 35-jähriger Motorradfahrer schwer verunglückt – Feuerwehr rettet Mann aus Böschung</h3>
+      <p class="card-summary">Auf der A3 in Fahrtrichtung Würzburg ereignete sich am Sonntag, 14. Juni 2026, ein schwerer Verkehrsunfall: Ein 35-jähriger Motorradfahrer verlor in Höhe Bischbrunn aus noch ungeklärter Ursache die Kontrolle über seine Triumph, kam nach rechts von der Fahrbahn ab und prallte gegen die Außenleitplanke. Durch den Aufprall wurde er über die Leitplanke geschleudert und landete etwa fünf Meter tiefer in einem Graben neben der Autobahn. Die alarmierten Feuerwehren aus Weibersbrunn und Waldaschaff mussten mithilfe von Leitern und einer Tragetrage den verletzten Mann sichern und über die Böschung retten. Der Motorradfahrer wurde mit schweren Verletzungen in eine Klinik eingeliefert. Die A3 war für die Dauer des Rettungseinsatzes gesperrt.</p>
+    </div>
+    <div class="card-footer">
+      <span class="card-date">🗓 14. Juni 2026</span>
+      <a href="https://www.main-echo.de/ressorts/blaulicht/unfall-mit-motoradfahrer-auf-der-a3-bei-bischbrunn-art-8734839"
+         target="_blank" rel="noopener" class="card-link" style="background:var(--c-unfall)">Zum Bericht →</a>
+    </div>
+  </article>
+
+  <!-- 3 – FEATURED – WM 2026 -->
   <article class="card prio-hoch featured">
     <div class="card-top" style="background:var(--c-sport)"></div>
     <div class="card-head">
@@ -319,98 +337,44 @@ body{font-family:var(--font);background:var(--bg);color:var(--text);font-size:15
       <span class="regbadge" style="background:var(--r-reg)">REG – Gesamtregion</span>
     </div>
     <div class="card-body">
-      <h3 class="card-title">WM-Auftakt 7:1 – Jubel beim Public Viewing in Obernburg und Frammersbach · Nächstes DFB-Spiel: 20. Juni vs. Elfenbeinküste</h3>
-      <p class="card-summary">Die FIFA Fußball-Weltmeisterschaft 2026 in den USA, Kanada und Mexiko startete für Deutschland mit einem fulminanten 7:1-Sieg gegen Curaçao am Sonntag, 14. Juni. Beim Public Viewing in Obernburg am Main und in Frammersbach (Landkreis Main-Spessart) feierten Hunderte Fans den Sieg auf öffentlichen Plätzen bei Biertischstimmung und Fangesängen. Das nächste DFB-Gruppenspiel findet am Samstag, 20. Juni 2026 um 22:00 Uhr deutscher Zeit gegen die Elfenbeinküste statt. Anschließend trifft die Nationalmannschaft am 25. Juni auf Ecuador – ein dritter Sieg könnte das Weiterkommen ins Achtelfinale sichern. Die Region fiebert bereits mit.</p>
+      <h3 class="card-title">WM-Auftakt 7:1 gegen Curaçao – Feierlaune in Obernburg und Frammersbach · Nächstes DFB-Spiel: Sa. 20. Juni vs. Elfenbeinküste</h3>
+      <p class="card-summary">Deutschlands WM-Auftakt bei der FIFA Fußball-Weltmeisterschaft 2026 in USA, Kanada und Mexiko konnte kaum besser laufen: Die DFB-Elf bezwang Curaçao am Sonntag, 14. Juni, mit 7:1 und feierte einen der klarsten WM-Starts der deutschen Geschichte. In der Region lagen sich Hunderte Fans beim Public Viewing in Obernburg am Main und in Frammersbach (Landkreis Main-Spessart) in den Armen. Als nächstes steht am Samstag, 20. Juni 2026 um 22:00 Uhr das Gruppenspiel gegen die Elfenbeinküste auf dem Programm, gefolgt von Deutschland gegen Ecuador am 25. Juni. Zwei weitere Siege würden das Weiterkommen ins Achtelfinale sichern – die Region fiebert bereits mit.</p>
     </div>
     <div class="card-footer">
-      <span class="card-date">🗓 14. Juni 2026 · nächstes Spiel: 20. Juni</span>
+      <span class="card-date">🗓 14. Juni 2026 · nächstes Spiel: 20. Juni, 22:00 Uhr</span>
       <a href="https://www.sportschau.de/fussball/fifa-wm-2026/der-spielplan-der-fussball-wm-2026,fifawm-dfb-spielplan-100.html"
-         target="_blank" rel="noopener" class="card-link" style="background:var(--c-sport)">Spielplan →</a>
+         target="_blank" rel="noopener" class="card-link" style="background:var(--c-sport)">WM-Spielplan →</a>
     </div>
   </article>
 
-  <!-- 3 – Brand Nilkheim Bungalow -->
-  <article class="card prio-hoch">
-    <div class="card-top" style="background:var(--c-feuer)"></div>
+  <!-- 4 – Nationaler Veteranentag -->
+  <article class="card prio-mittel">
+    <div class="card-top" style="background:var(--c-politik)"></div>
     <div class="card-head">
-      <span class="typbadge" style="background:var(--c-feuer)">Feuerwehr</span>
-      <span class="regbadge" style="background:var(--r-ab)">AB – Aschaffenburg</span>
+      <span class="typbadge" style="background:var(--c-politik)">Politik · Gedenktag</span>
+      <span class="regbadge" style="background:var(--r-reg)">Bayern / Bund</span>
     </div>
     <div class="card-body">
-      <h3 class="card-title">Aschaffenburg-Nilkheim: Bungalow nach Feuer vorübergehend unbewohnbar</h3>
-      <p class="card-summary">Ein Feuer in Nilkheim, einem Stadtteil von Aschaffenburg, hat am Samstagmittag ein Einfamilienhaus erheblich beschädigt. Der Bungalow musste nach dem Löscheinsatz als vorübergehend unbewohnbar eingestuft werden. Die Bewohner konnten das Gebäude rechtzeitig verlassen; Verletzte gab es glücklicherweise nicht. Die Feuerwehr Aschaffenburg war mit mehreren Fahrzeugen vor Ort und verhinderte eine weitere Ausbreitung des Feuers auf benachbarte Gebäude. Die Brandursache ist noch unklar; die Kriminalpolizei hat die Ermittlungen aufgenommen.</p>
+      <h3 class="card-title">Nationaler Veteranentag: Bayern beflaggt Dienstgebäude – Würdigung für Bundeswehr-Angehörige</h3>
+      <p class="card-summary">Heute, am 15. Juni 2026, begeht Deutschland den Nationalen Veteranentag zum zweiten Mal. Der Deutsche Bundestag hatte diesen Gedenktag am 25. April 2024 beschlossen, um Dienst, Einsatz und Leistungen der Soldatinnen und Soldaten der Bundeswehr angemessen zu würdigen. Ministerpräsident Dr. Markus Söder ordnete die Beflaggung aller staatlichen Dienstgebäude in Bayern an. Das zentrale Festprogramm findet am 21. Juni 2026 in Berlin rund um das Reichstagsgebäude statt, wo Veteranen aller Generationen geehrt werden. Das Motto in diesem Jahr lautet „Veterans, Family und Friends". Aschaffenburg und der Landkreis nehmen an den Beflaggungsmaßnahmen teil.</p>
     </div>
     <div class="card-footer">
-      <span class="card-date">🗓 14. Juni 2026</span>
-      <a href="https://aschaffenburg.news/"
-         target="_blank" rel="noopener" class="card-link" style="background:var(--c-feuer)">Zum Bericht →</a>
+      <span class="card-date">🗓 15. Juni 2026</span>
+      <a href="https://aschaffenburg.news/politik/beflaggung-aus-anlass-des-nationalen-veteranentages.html"
+         target="_blank" rel="noopener" class="card-link" style="background:var(--c-politik)">Zum Bericht →</a>
     </div>
   </article>
 
-  <!-- 4 – Karlstein Akkupaletten Brand -->
-  <article class="card prio-hoch">
-    <div class="card-top" style="background:var(--c-feuer)"></div>
-    <div class="card-head">
-      <span class="typbadge" style="background:var(--c-feuer)">Feuerwehr</span>
-      <span class="regbadge" style="background:var(--r-lkab)">LK-AB – Karlstein</span>
-    </div>
-    <div class="card-body">
-      <h3 class="card-title">Karlstein: Rund 25 Paletten mit Lithium-Akkus im Außenbereich einer Industriefirma in Brand geraten</h3>
-      <p class="card-summary">Im Landkreis Aschaffenburg musste die Feuerwehr am Samstag zu einem größeren Brandeinsatz in Karlstein ausrücken: Auf dem Gelände einer Industriefirma gerieten rund 25 Paletten mit Lithium-Akkus im Außenbereich in Brand. Das Feuer breitete sich aufgrund der brennenden Akkus schnell aus und entwickelte starke Rauchentwicklung. Mehrere Feuerwehren waren stundenlang mit dem Löschen beschäftigt; spezielle Löschmittel kamen zum Einsatz. Personen wurden nicht verletzt. Die Löscharbeiten gestalteten sich aufgrund der Brandcharakteristik von Lithium-Akkus als besonders aufwendig.</p>
-    </div>
-    <div class="card-footer">
-      <span class="card-date">🗓 13. Juni 2026</span>
-      <a href="https://aschaffenburg.news/"
-         target="_blank" rel="noopener" class="card-link" style="background:var(--c-feuer)">Zum Bericht →</a>
-    </div>
-  </article>
-
-  <!-- 5 – Regenbogenfahne angezündet -->
-  <article class="card prio-hoch">
-    <div class="card-top" style="background:var(--c-polizei)"></div>
-    <div class="card-head">
-      <span class="typbadge" style="background:var(--c-polizei)">Polizei</span>
-      <span class="regbadge" style="background:var(--r-ab)">AB – Aschaffenburg</span>
-    </div>
-    <div class="card-body">
-      <h3 class="card-title">Aschaffenburg: Unbekannter zündet Regenbogenfahne an – Polizei schließt politisches Motiv nicht aus</h3>
-      <p class="card-summary">In der Nacht von Freitag auf Samstag hat ein unbekannter Täter in Aschaffenburg gegen 01:20 Uhr eine Regenbogenfahne an einem Gebäude in Brand gesetzt. Die Polizei ermittelt wegen Sachbeschädigung und schließt einen politisch motivierten Hintergrund nicht aus. Zeugen beobachteten den Vorgang und alarmierten umgehend die Feuerwehr, die das Feuer rasch löschen konnte. Daneben wurden in der Nacht auch Graffiti-Sachschäden an mehreren Orten registriert. Die Polizei Aschaffenburg bittet um Hinweise unter Tel. 06021 / 857-2230.</p>
-    </div>
-    <div class="card-footer">
-      <span class="card-date">🗓 13./14. Juni 2026 · 01:20 Uhr</span>
-      <a href="https://aschaffenburg.news/"
-         target="_blank" rel="noopener" class="card-link" style="background:var(--c-polizei)">Zum Bericht →</a>
-    </div>
-  </article>
-
-  <!-- 6 – Lohr / Karlstadt Pfanddiebstahl + Unfall -->
-  <article class="card prio-hoch">
-    <div class="card-top" style="background:var(--c-unfall)"></div>
-    <div class="card-head">
-      <span class="typbadge" style="background:var(--c-unfall)">Blaulicht</span>
-      <span class="regbadge" style="background:var(--r-lo)">LOH/MSP – Lohr · Karlstadt</span>
-    </div>
-    <div class="card-body">
-      <h3 class="card-title">Lohr/Karlstadt: Auto überschlägt sich auf K11 – Pfanddiebstahl in Wiesener Straße schnell aufgeklärt</h3>
-      <p class="card-summary">Gleich zwei Vorfälle beschäftigen die Polizei Lohr und Karlstadt: In der Nacht zum Samstag stahl ein 34-jähriger Tatverdächtiger rund 400 Pfandflaschen aus einem Getränkemarkt in der Wiesener Straße, Lohr am Main. Die Polizei konnte ihn nach kurzer Fahndung an seiner Wohnanschrift antreffen und einen Großteil der Beute sicherstellen. Darüber hinaus verlor ein 52-jähriger Fahrer am Sonntagnachmittag auf der Kreisstraße 11 Richtung Karlburg die Kontrolle über seinen Saab, der sich nach dem Abkommen von der Fahrbahn überschlug. Er erlitt leichte Verletzungen und konnte das Fahrzeug selbständig verlassen.</p>
-    </div>
-    <div class="card-footer">
-      <span class="card-date">🗓 14./15. Juni 2026</span>
-      <a href="https://www.meine-news.de/lohr-amain/c-blaulicht"
-         target="_blank" rel="noopener" class="card-link" style="background:var(--c-unfall)">Zum Bericht →</a>
-    </div>
-  </article>
-
-  <!-- 7 – AVG Bauarbeiten Alois-Alzheimer-Allee -->
+  <!-- 5 – AVG Bauarbeiten -->
   <article class="card prio-mittel">
     <div class="card-top" style="background:var(--c-verkehr)"></div>
     <div class="card-head">
-      <span class="typbadge" style="background:var(--c-verkehr)">Infrastruktur · Hinweis</span>
+      <span class="typbadge" style="background:var(--c-verkehr)">Infrastruktur</span>
       <span class="regbadge" style="background:var(--r-ab)">AB – Aschaffenburg</span>
     </div>
     <div class="card-body">
-      <h3 class="card-title">Aschaffenburg: AVG erneuert ab heute Stromleitungen in der Alois-Alzheimer-Allee – bis Ende September</h3>
-      <p class="card-summary">Die Aschaffenburger Versorgungs-GmbH (AVG) beginnt ab dem heutigen Montag, 15. Juni 2026, mit der Erneuerung von Stromversorgungsleitungen in der Alois-Alzheimer-Allee zwischen Am Krämersgrund und der Ludwigssäule. Die Baumaßnahmen dienen der langfristigen Sicherung der Energieversorgung im Bereich. Die Versorgung der Anwohner bleibt während der gesamten Bauzeit gesichert. Da die Grabungsarbeiten überwiegend in Grünflächen stattfinden, sind nur minimale Verkehrsbeeinträchtigungen zu erwarten; Bushaltestellen werden weiterhin regulär angefahren. Die Fertigstellung ist für Ende September 2026 geplant. Fragen zum Projekt an Alexander Brunner, AVG, Tel. 06021 / 391-241.</p>
+      <h3 class="card-title">AVG: Erneuerung der Stromleitungen in Alois-Alzheimer-Allee ab heute – Fertigstellung September 2026</h3>
+      <p class="card-summary">Die Aschaffenburger Versorgungs-GmbH (AVG) beginnt ab dem heutigen Montag, 15. Juni 2026, mit der Erneuerung von Stromversorgungsleitungen in der Alois-Alzheimer-Allee zwischen Am Krämersgrund und der Ludwigssäule. Die Maßnahme sichert langfristig die Energieversorgung in diesem Bereich der Stadt. Die Stromversorgung der Anwohner ist während der gesamten Bauzeit garantiert. Da die Grabungsarbeiten überwiegend in Grünflächen stattfinden, sind Verkehrsbehinderungen minimal; Bushaltestellen werden weiter bedient. Fertigstellung ist für Ende September 2026 geplant. Ansprechpartner: Alexander Brunner, AVG, Tel. 06021 / 391-241.</p>
     </div>
     <div class="card-footer">
       <span class="card-date">🗓 15. Juni – Ende Sept. 2026</span>
@@ -419,25 +383,61 @@ body{font-family:var(--font);background:var(--bg);color:var(--text);font-size:15
     </div>
   </article>
 
-  <!-- 8 – STADTRADELN Landkreis AB -->
-  <article class="card prio-mittel">
-    <div class="card-top" style="background:var(--c-wirtschaft)"></div>
+  <!-- 6 – Nilkheim Bungalow Brand -->
+  <article class="card prio-hoch">
+    <div class="card-top" style="background:var(--c-feuer)"></div>
     <div class="card-head">
-      <span class="typbadge" style="background:var(--c-wirtschaft)">Gesellschaft</span>
-      <span class="regbadge" style="background:var(--r-lkab)">LK-AB – Landkreis AB</span>
+      <span class="typbadge" style="background:var(--c-feuer)">Feuerwehr</span>
+      <span class="regbadge" style="background:var(--r-ab)">AB – Nilkheim</span>
     </div>
     <div class="card-body">
-      <h3 class="card-title">Landkreisradeln 2026: Noch bis 28. Juni Kilometer sammeln und die Region klimafit radeln</h3>
-      <p class="card-summary">Der Landkreis Aschaffenburg nimmt noch bis Sonntag, 28. Juni 2026 an der bundesweiten Kampagne STADTRADELN teil – zum siebten Mal in Folge. Alle Bürgerinnen und Bürger sind aufgerufen, möglichst viele Alltagswege mit dem Fahrrad zurückzulegen und die Kilometer online zu erfassen. In Karlstadt findet zudem ein Fahrrad-Sicherheitscheck (Radcheck) statt. Die Aktion ist eingebettet in die Fairtrade-Landkreis-Initiative und soll das Bewusstsein für klimafreundliche Mobilität schärfen. Anmeldung und Kilometereintragung sind über die STADTRADELN-App oder die Webseite möglich.</p>
+      <h3 class="card-title">Aschaffenburg-Nilkheim: Bungalow nach Brand vorübergehend unbewohnbar</h3>
+      <p class="card-summary">Am Samstagmittag, 14. Juni 2026, gegen 12:30 Uhr bemerkte ein Anwohner im Ginsterweg in Nilkheim Rauchentwicklung aus einem Nachbarhaus und schlug Alarm. Die Feuerwehr Aschaffenburg rückte mit mehreren Fahrzeugen aus und konnte das Feuer löschen, bevor es auf benachbarte Gebäude übergriff. Der Bungalow wurde infolge des Schadens als vorübergehend unbewohnbar eingestuft. Die Bewohner hatten das Haus rechtzeitig verlassen; Verletzte gab es keine. Die Brandursache ist noch unklar; die Kriminalpolizei Aschaffenburg hat Ermittlungen aufgenommen. Der Sachschaden beläuft sich ersten Schätzungen nach auf mehrere Zehntausend Euro.</p>
     </div>
     <div class="card-footer">
-      <span class="card-date">🗓 8.–28. Juni 2026</span>
-      <a href="https://aschaffenburg.news/ab/aschaffenburg/aschaffenburg/aschaffenburg-landkreisradeln-vom-8-bis-28-juni-2026.html"
-         target="_blank" rel="noopener" class="card-link" style="background:var(--c-wirtschaft)">Zum Bericht →</a>
+      <span class="card-date">🗓 14. Juni 2026 · 12:30 Uhr</span>
+      <a href="https://aschaffenburg.news/"
+         target="_blank" rel="noopener" class="card-link" style="background:var(--c-feuer)">Zum Bericht →</a>
     </div>
   </article>
 
-  <!-- 9 – Alzenau Hundebiss -->
+  <!-- 7 – Karlstein Akkupaletten -->
+  <article class="card prio-hoch">
+    <div class="card-top" style="background:var(--c-feuer)"></div>
+    <div class="card-head">
+      <span class="typbadge" style="background:var(--c-feuer)">Feuerwehr</span>
+      <span class="regbadge" style="background:var(--r-lkab)">LK-AB – Karlstein</span>
+    </div>
+    <div class="card-body">
+      <h3 class="card-title">Karlstein am Main: ~25 Paletten mit Lithium-Akkus auf Industriegelände in Brand geraten</h3>
+      <p class="card-summary">Gegen 09:00 Uhr am Samstag, 13. Juni 2026, brannten auf dem Außengelände einer Industriefirma in Karlstein am Main rund 25 Paletten mit Lithium-Akkus in voller Ausdehnung. Die stark rauchende Brandentwicklung von Lithium-Batterien gestaltete die Löscharbeiten für mehrere alarmierte Feuerwehren als besonders aufwendig; spezielle Löschmittel kamen zum Einsatz. Der Brand war nach mehreren Stunden unter Kontrolle. Personen kamen nicht zu Schaden. Die Brandursache ist Gegenstand laufender Ermittlungen der Kriminalpolizei, die keine Hinweise auf vorsätzliche Brandstiftung hat.</p>
+    </div>
+    <div class="card-footer">
+      <span class="card-date">🗓 13. Juni 2026 · 09:00 Uhr</span>
+      <a href="https://aschaffenburg.news/"
+         target="_blank" rel="noopener" class="card-link" style="background:var(--c-feuer)">Zum Bericht →</a>
+    </div>
+  </article>
+
+  <!-- 8 – Regenbogenfahne + Graffiti Schweinheim -->
+  <article class="card prio-hoch">
+    <div class="card-top" style="background:var(--c-polizei)"></div>
+    <div class="card-head">
+      <span class="typbadge" style="background:var(--c-polizei)">Polizei</span>
+      <span class="regbadge" style="background:var(--r-ab)">AB – Stadtmitte / Schweinheim</span>
+    </div>
+    <div class="card-body">
+      <h3 class="card-title">Aschaffenburg: Regenbogenfahne angezündet – zwei Jugendliche nach Graffiti-Sachschäden in Schweinheim ermittelt</h3>
+      <p class="card-summary">Gleich zwei Vorfälle beschäftigten die Polizei Aschaffenburg in der Nacht auf Samstag: Gegen 01:20 Uhr setzte ein unbekannter Täter in der Stadtmitte eine Regenbogenfahne an einem Gebäude in Brand; die Polizei schließt ein politisch motiviertes Motiv nicht aus und sucht Zeugen (Tel. 06021 / 857-2230). Wenige Stunden zuvor, gegen 22:15 Uhr am Freitagabend, beschädigten zwei Jugendliche im Alter von 14 und 15 Jahren in der Feldchenstraße und Ebersbacher Straße in Schweinheim mehrere Lkw, Verkehrsschilder und einen Mülleimer mit Graffiti-Sprühfarbe. Der Schaden beläuft sich auf mehrere hundert Euro. Gegen beide Jugendlichen wurden Strafverfahren eingeleitet; politische Motive wurden nicht festgestellt.</p>
+    </div>
+    <div class="card-footer">
+      <span class="card-date">🗓 13./14. Juni 2026 · Nacht</span>
+      <a href="https://aschaffenburg.news/"
+         target="_blank" rel="noopener" class="card-link" style="background:var(--c-polizei)">Zum Bericht →</a>
+    </div>
+  </article>
+
+  <!-- 9 – Hundebiss Alzenau -->
   <article class="card prio-mittel">
     <div class="card-top" style="background:var(--c-unfall)"></div>
     <div class="card-head">
@@ -445,8 +445,8 @@ body{font-family:var(--font);background:var(--bg);color:var(--text);font-size:15
       <span class="regbadge" style="background:var(--r-lkab)">LK-AB – Alzenau</span>
     </div>
     <div class="card-body">
-      <h3 class="card-title">Alzenau-Kälberau: 42-Jährige auf Radweg an der Kahl von Hund gebissen – Polizei sucht Besitzer</h3>
-      <p class="card-summary">Auf einem Rad- und Fußweg entlang der Kahl in Alzenau-Kälberau ist eine 42-jährige Frau am Sonntag von einem Hund gebissen worden und erlitt dabei leichte Verletzungen. Der Hund lief offenbar ohne Leine; der Hundebesitzer konnte zunächst nicht ermittelt werden. Die Verletzte wurde vom Rettungsdienst versorgt; eine stationäre Behandlung war nicht notwendig. Die Polizeiinspektion Alzenau hat die Ermittlungen aufgenommen und bittet Zeugen unter Tel. 06023 / 944-0 um Hinweise zum Hund oder Besitzer.</p>
+      <h3 class="card-title">Alzenau-Kälberau: 42-Jährige auf Radweg entlang der Kahl von Hund gebissen – Besitzer gesucht</h3>
+      <p class="card-summary">Eine 42-jährige Frau wurde am Sonntagnachmittag, 14. Juni 2026, auf einem Rad- und Fußweg entlang der Kahl in Alzenau-Kälberau von einem frei laufenden Hund gebissen und erlitt dabei leichte Verletzungen am Bein. Der Rettungsdienst versorgte die Verletzte vor Ort; eine stationäre Behandlung war nicht erforderlich. Der Hundebesitzer konnte zunächst nicht festgestellt werden. Die Polizeiinspektion Alzenau hat Ermittlungen wegen fahrlässiger Körperverletzung aufgenommen und bittet Zeugen, die Hund oder Besitzer identifizieren können, sich unter Tel. 06023 / 944-0 zu melden.</p>
     </div>
     <div class="card-footer">
       <span class="card-date">🗓 14. Juni 2026</span>
@@ -455,7 +455,7 @@ body{font-family:var(--font);background:var(--bg);color:var(--text);font-size:15
     </div>
   </article>
 
-  <!-- 10 – Schöllkrippen Hund gestohlen -->
+  <!-- 10 – Hund gestohlen Schöllkrippen -->
   <article class="card prio-mittel">
     <div class="card-top" style="background:var(--c-polizei)"></div>
     <div class="card-head">
@@ -463,8 +463,8 @@ body{font-family:var(--font);background:var(--bg);color:var(--text);font-size:15
       <span class="regbadge" style="background:var(--r-lkab)">LK-AB – Schöllkrippen</span>
     </div>
     <div class="card-body">
-      <h3 class="card-title">Schöllkrippen: Mann entwendet Hund vor Supermarkt – Zeugen gesucht</h3>
-      <p class="card-summary">In Schöllkrippen hat ein bislang unbekannter Mann am Samstagvormittag einen angebundenen Hund vor einem Supermarkt entwendet. Der Vierbeiner war kurz von seinem Besitzer allein gelassen worden, als der Unbekannte das Tier an sich nahm und das Weite suchte. Die Polizei ermittelt wegen Diebstahls und sucht Zeugen, die den Vorgang beobachtet haben. Der entwendete Hund konnte bislang nicht aufgefunden werden. Betroffene und Zeugen werden gebeten, sich bei der Polizeiinspektion Alzenau unter Tel. 06023 / 944-0 zu melden.</p>
+      <h3 class="card-title">Schöllkrippen: Unbekannter entwendet angebundenen Hund vor Supermarkt</h3>
+      <p class="card-summary">Am Samstagvormittag, 14. Juni 2026, entwendete ein bislang unbekannter Mann in Schöllkrippen einen vor einem Supermarkt angebundenen Hund. Der Besitzer hatte das Tier nur kurz allein gelassen, als der Unbekannte das Tier an sich nahm und in unbekannte Richtung davonging. Trotz sofortiger Fahndung konnte der Hund nicht mehr angetroffen werden. Die Polizei ermittelt wegen Diebstahls und bittet Zeugen, die sachdienliche Hinweise auf den Täter oder den Verbleib des Hundes geben können, sich bei der Polizeiinspektion Alzenau unter Tel. 06023 / 944-0 zu melden.</p>
     </div>
     <div class="card-footer">
       <span class="card-date">🗓 14. Juni 2026</span>
@@ -473,7 +473,43 @@ body{font-family:var(--font);background:var(--bg);color:var(--text);font-size:15
     </div>
   </article>
 
-  <!-- 11 – Nachruf Bürgermeister Dehn -->
+  <!-- 11 – Lohr Pfanddiebstahl + Auto K11 -->
+  <article class="card prio-mittel">
+    <div class="card-top" style="background:var(--c-unfall)"></div>
+    <div class="card-head">
+      <span class="typbadge" style="background:var(--c-unfall)">Blaulicht</span>
+      <span class="regbadge" style="background:var(--r-lo)">LOH/MSP – Lohr · Karlstadt</span>
+    </div>
+    <div class="card-body">
+      <h3 class="card-title">Lohr/Karlstadt: Pfanddiebstahl (400 Flaschen) schnell aufgeklärt – Saab überschlägt sich auf K11</h3>
+      <p class="card-summary">In der Nacht zum Samstag entwendete ein 34-jähriger Tatverdächtiger rund 400 Pfandflaschen aus einem Getränkemarkt in der Wiesener Straße in Lohr am Main und transportierte sie in blauen Papiertonnen ab. Die Polizei konnte den Mann rasch an seiner Wohnanschrift antreffen und einen Großteil der Beute sicherstellen; eine Mülltonne blieb verschollen. Getrennt davon verlor ein 52-jähriger Fahrer am Sonntagnachmittag auf der Kreisstraße 11 in einer Linkskurve Richtung Karlburg die Kontrolle über seinen Saab, der sich nach dem Abkommen von der Fahrbahn überschlug und auf dem Dach zum Liegen kam. Der Fahrer erlitt leichte Verletzungen und konnte das Fahrzeug selbständig verlassen.</p>
+    </div>
+    <div class="card-footer">
+      <span class="card-date">🗓 14./15. Juni 2026</span>
+      <a href="https://www.meine-news.de/lohr-amain/c-blaulicht"
+         target="_blank" rel="noopener" class="card-link" style="background:var(--c-unfall)">Zum Bericht →</a>
+    </div>
+  </article>
+
+  <!-- 12 – STADTRADELN -->
+  <article class="card prio-mittel">
+    <div class="card-top" style="background:var(--c-wirtschaft)"></div>
+    <div class="card-head">
+      <span class="typbadge" style="background:var(--c-wirtschaft)">Gesellschaft</span>
+      <span class="regbadge" style="background:var(--r-lkab)">LK-AB – Landkreis AB</span>
+    </div>
+    <div class="card-body">
+      <h3 class="card-title">Landkreisradeln 2026: Noch bis 28. Juni klimafreundliche Kilometer für Aschaffenburg sammeln</h3>
+      <p class="card-summary">Der Landkreis Aschaffenburg beteiligt sich noch bis Sonntag, 28. Juni 2026 an der bundesweiten Aktion STADTRADELN – zum siebten Mal in Folge. Alle Bürgerinnen und Bürger sind eingeladen, Alltagswege per Fahrrad zurückzulegen und die Strecken über die STADTRADELN-App oder die Projektwebseite einzutragen. Ergänzend findet in Karlstadt ein kostenloser Fahrrad-Sicherheitscheck (Radcheck) statt. Die Initiative ist Teil der Fairtrade-Landkreis-Kampagne und fördert das Bewusstsein für emissionsfreie Mobilität. Jedes geradelte Kilometer zählt – Anmeldung noch möglich.</p>
+    </div>
+    <div class="card-footer">
+      <span class="card-date">🗓 8.–28. Juni 2026</span>
+      <a href="https://aschaffenburg.news/ab/aschaffenburg/aschaffenburg/aschaffenburg-landkreisradeln-vom-8-bis-28-juni-2026.html"
+         target="_blank" rel="noopener" class="card-link" style="background:var(--c-wirtschaft)">Zum Bericht →</a>
+    </div>
+  </article>
+
+  <!-- 13 – Nachruf Bürgermeister Dehn -->
   <article class="card prio-mittel">
     <div class="card-top" style="background:var(--c-gesellschaft)"></div>
     <div class="card-head">
@@ -481,8 +517,8 @@ body{font-family:var(--font);background:var(--bg);color:var(--text);font-size:15
       <span class="regbadge" style="background:var(--r-ab)">AB – Aschaffenburg</span>
     </div>
     <div class="card-body">
-      <h3 class="card-title">Nachruf: CSU Aschaffenburg trauert um Bürgermeister a.D. Günter Dehn</h3>
-      <p class="card-summary">Die CSU Aschaffenburg hat den Tod von Bürgermeister a.D. Günter Dehn bekanntgegeben und trauert um einen verdienten Kommunalpolitiker und langjährigen Freund. Dehn hatte die Geschicke der Stadt Aschaffenburg über viele Jahre als Bürgermeister mitgeprägt und sich um das Stadtleben und die regionale Entwicklung verdient gemacht. Die Partei würdigte sein Wirken als vorbildhaft und betonte seine Menschlichkeit und sein Engagement für die Bürgerinnen und Bürger. Die Trauerfeier wird in familiärem Rahmen stattfinden; weitere Details werden von der Familie bekanntgegeben.</p>
+      <h3 class="card-title">CSU Aschaffenburg trauert um Bürgermeister a.D. Günter Dehn</h3>
+      <p class="card-summary">Die CSU Aschaffenburg gab den Tod von Bürgermeister a.D. Günter Dehn bekannt und trauert um einen verdienten Kommunalpolitiker. Dehn hatte die Stadt Aschaffenburg über viele Jahre als Bürgermeister mitgeprägt und sich um Stadtleben und Regionalentwicklung bleibende Verdienste erworben. Die CSU würdigte ihn als Vorbild in Menschlichkeit, Geradlinigkeit und Bürger­engagement. Die Trauerfeier findet im familiären Rahmen statt; der genaue Termin wird von der Familie bekanntgegeben. Partei und Stadtrat werden in einer Gedenkminute seiner gedenken.</p>
     </div>
     <div class="card-footer">
       <span class="card-date">🗓 13. Juni 2026</span>
@@ -491,25 +527,7 @@ body{font-family:var(--font);background:var(--bg);color:var(--text);font-size:15
     </div>
   </article>
 
-  <!-- 12 – Tegut Filialen verkauft -->
-  <article class="card prio-mittel">
-    <div class="card-top" style="background:var(--c-wirtschaft)"></div>
-    <div class="card-head">
-      <span class="typbadge" style="background:var(--c-wirtschaft)">Wirtschaft</span>
-      <span class="regbadge" style="background:var(--r-reg)">REG – Franken</span>
-    </div>
-    <div class="card-body">
-      <h3 class="card-title">11 fränkische Tegut-Filialen verkauft – Welche Standorte betroffen sind</h3>
-      <p class="card-summary">Der Lebensmitteleinzelhändler Tegut hat 11 Filialen in Franken an einen Käufer veräußert. Die betroffenen Standorte wurden bekannt gegeben; mehrere davon befinden sich im Einzugsgebiet der Region Aschaffenburg und Main-Spessart. Tegut begründete die Verkäufe mit einer strategischen Konzentration auf Kernregionen und der Optimierung des Filialnetzes. Für Kunden soll sich der Einkaufsbetrieb vorerst nicht ändern – die Übernahme wird schrittweise vollzogen. Gewerkschaften und Betriebsrat begleiten den Prozess und achten auf den Schutz der Arbeitsplätze und Tarifverträge.</p>
-    </div>
-    <div class="card-footer">
-      <span class="card-date">🗓 Juni 2026</span>
-      <a href="https://www.infranken.de/lk/main-spessart/uebersicht/"
-         target="_blank" rel="noopener" class="card-link" style="background:var(--c-wirtschaft)">Zum Bericht →</a>
-    </div>
-  </article>
-
-  <!-- 13 – Landratsamt Aschaffenburg 17. Juni geschlossen -->
+  <!-- 14 – Landratsamt 17. Juni -->
   <article class="card prio-niedrig">
     <div class="card-top" style="background:var(--c-verwaltung)"></div>
     <div class="card-head">
@@ -517,26 +535,26 @@ body{font-family:var(--font);background:var(--bg);color:var(--text);font-size:15
       <span class="regbadge" style="background:var(--r-lkab)">LK-AB – Landkreis AB</span>
     </div>
     <div class="card-body">
-      <h3 class="card-title">Achtung: Landratsamt Aschaffenburg am Mittwoch, 17. Juni ab 12 Uhr geschlossen</h3>
-      <p class="card-summary">Das Landratsamt Aschaffenburg und all seine Außenstellen bleiben am Mittwoch, 17. Juni 2026 ab 12:00 Uhr aufgrund einer Personalversammlung und einer internen Gemeinschaftsveranstaltung für den Publikumsverkehr geschlossen. Bürgerinnen und Bürger, die Behördenangelegenheiten erledigen müssen, werden gebeten, Termine auf Vor- oder Nachmittage anderer Tage zu verlegen oder vorab telefonisch zu klären. Ein weiterer Schließungstag ist der 1. Juli 2026 (ebenfalls ab 12:00 Uhr). Dringende Angelegenheiten können in diesen Zeiten schriftlich per E-Mail an das Amt gerichtet werden.</p>
+      <h3 class="card-title">Achtung: Landratsamt Aschaffenburg am Mi. 17. Juni ab 12:00 Uhr geschlossen</h3>
+      <p class="card-summary">Das Landratsamt Aschaffenburg mit all seinen Außenstellen bleibt am Mittwoch, 17. Juni 2026 ab 12:00 Uhr für den Publikumsverkehr geschlossen. Hintergrund ist eine Personalversammlung verbunden mit einer internen Gemeinschaftsveranstaltung. Bürgerinnen und Bürger werden gebeten, Behördengänge auf andere Zeiten zu verlegen. Ein weiterer Schließungstag ist der 1. Juli 2026, ebenfalls ab 12:00 Uhr. Dringende Anliegen können in dieser Zeit schriftlich per E-Mail gerichtet werden. Telefonische Voranfragen sind weiterhin möglich.</p>
     </div>
     <div class="card-footer">
-      <span class="card-date">🗓 Hinweis · 17. Juni 2026</span>
+      <span class="card-date">🗓 Hinweis · 17. Juni + 1. Juli 2026</span>
       <a href="https://aschaffenburg.news/ab/aschaffenburg/aschaffenburg/aschaffenburg-landratsamt-am-17-juni-und-1-juli-nachmittags-geschlossen.html"
          target="_blank" rel="noopener" class="card-link" style="background:var(--c-verwaltung)">Zum Bericht →</a>
     </div>
   </article>
 
-  <!-- 14 – TV Großwallstadt Trainer -->
+  <!-- 15 – TV Großwallstadt Handball -->
   <article class="card prio-niedrig">
     <div class="card-top" style="background:var(--c-sport)"></div>
     <div class="card-head">
-      <span class="typbadge" style="background:var(--c-sport)">Sport</span>
+      <span class="typbadge" style="background:var(--c-sport)">Sport · Handball</span>
       <span class="regbadge" style="background:var(--r-lkab)">LK-AB – Großwallstadt</span>
     </div>
     <div class="card-body">
-      <h3 class="card-title">TV Großwallstadt (Handball): Bolling bleibt – Spieß verlässt das Trainerteam</h3>
-      <p class="card-summary">Beim Handball-Bundesligisten TV Großwallstadt gibt es im Trainerteam für die kommende Spielzeit personelle Veränderungen: Trainer Bolling wird dem Club erhalten bleiben, während Co-Trainer Spieß den Verein verlässt. Damit endet die gemeinsame Trainerzeit, die das Team in der abgelaufenen Saison betreut hat. Die Saison endete für den TVG mit einem 32:32-Remis im Finale gegen Coburg. Der Verein bedankte sich bei Spieß für seine Arbeit und wünscht ihm für seinen weiteren Weg alles Gute. Details zur Nachfolgeregelung sollen in Kürze bekanntgegeben werden.</p>
+      <h3 class="card-title">TV Großwallstadt: Trainer Bolling verlängert – Co-Trainer Spieß verlässt den Verein</h3>
+      <p class="card-summary">Beim Handball-Bundesligisten TV Großwallstadt stehen die Weichen für die neue Saison: Cheftrainer Bolling bleibt dem Club erhalten und verlängerte seinen Vertrag, während Co-Trainer Spieß den Verein auf eigenen Wunsch verlässt. Die abgelaufene Saison schloss der TVG mit einem 32:32-Unentschieden im Finale gegen Coburg ab. Der Verein dankte Spieß für seinen Einsatz und wünscht ihm für seine neue Herausforderung alles Gute. Details zur Besetzung des Assistenztrainerpostens sollen in Kürze kommuniziert werden. Fans können sich auf eine Kontinuität beim Chefcoach freuen.</p>
     </div>
     <div class="card-footer">
       <span class="card-date">🗓 12./13. Juni 2026</span>
@@ -549,15 +567,13 @@ body{font-family:var(--font);background:var(--bg);color:var(--text);font-size:15
 </div><!-- /.news-wrap -->
 
 <footer class="site-footer">
-  Quellen: <a href="https://www.main-echo.de" target="_blank">Main-Echo</a> &middot;
+  Wetterdaten: <a href="https://brightsky.dev" target="_blank">BrightSky API</a> (DWD-Quelle, kein API-Key) &middot;
+  Nachrichten: <a href="https://www.main-echo.de" target="_blank">Main-Echo</a> &middot;
   <a href="https://www.infranken.de" target="_blank">inFranken.de</a> &middot;
   <a href="https://aschaffenburg.news" target="_blank">aschaffenburg.news</a> &middot;
-  <a href="https://aktuell.meinestadt.de" target="_blank">meinestadt.de</a> &middot;
   <a href="https://www.meine-news.de" target="_blank">meine-news.de</a> &middot;
-  <a href="https://www.sportschau.de" target="_blank">Sportschau</a> &middot;
-  <a href="https://www.wetter.com" target="_blank">wetter.com</a> &middot;
-  <a href="https://kachelmannwetter.com" target="_blank">Kachelmannwetter</a><br>
-  Design-Schema: fresh-slate &nbsp;·&nbsp; Layout: grid-3col &nbsp;·&nbsp; Generiert: Montag, 15. Juni 2026 · 09:00 Uhr (aktualisiert)<br>
+  <a href="https://www.sportschau.de" target="_blank">Sportschau</a><br>
+  Design-Schema: maritime-blue &nbsp;·&nbsp; Layout: grid-3col &nbsp;·&nbsp; Generiert: Montag, 15. Juni 2026 · 10:00 Uhr<br>
   Repo: <a href="https://github.com/domezos2024/aktuelles" target="_blank">github.com/domezos2024/aktuelles</a>
 </footer>
 
