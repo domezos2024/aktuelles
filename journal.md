@@ -1,31 +1,31 @@
 # Tagesnachrichten-Journal – domezos2024/aktuelles
 
-## 2026-06-15 – 10:30 Uhr
+## 2026-06-16 – 14:32 Uhr
 
 ### Design
-- Schema: wine-burgundy
-- Header-Gradient: #8b3a3a → #c41e1e
-- Hintergrund: #f5e6e6
-- Karten: #fff5f5
-- Text: #3d1e1e · Sub-Text: #6b3a3a
-- Akzentfarben: #7d1d1d (Kriminalität) · #c41e1e (Blaulicht) · #8b2e2e (Polizei) · #d74a4a (Feuerwehr) · #5d2e5d (Politik/Gedenken) · #2d5d2d (Wirtschaft/Freizeit) · #8b3a4a (Kultur) · #2d6b5d (Sport) · #a42a5d (Gesellschaft) · #5d4a4a (Verkehr) · #d74a1a (Energie)
-- Regions-Farben: #6b4a3a (LOH) · #4a3a5d (AB) · #5d4a5d (LK-AB) · #6b3a5d (MSP) · #3a3a6b (REG)
-- Layout: grid-auto-fill (responsive Karten)
-- Wetterdaten: BrightSky API (DWD), Lohr am Main 50.0°N 9.57°E
+- Schema: ocean-blue
+- Header-Gradient: #003d7a → #0066cc
+- Hintergrund: #e6f2ff
+- Karten: #f0f8ff
+- Text: #001a4d · Sub-Text: #003366
+- Akzentfarben: #0066cc (Blaulicht) · #0052a3 (Polizei) · #e74c3c (Feuer) · #3498db (Verkehr) · #8e44ad (Politik) · #27ae60 (Wirtschaft) · #c0392b (Kultur) · #16a085 (Sport) · #2980b9 (Freizeit) · #d35400 (Gesellschaft) · #2ecc71 (Gesundheit) · #34495e (Sicherheit)
+- Regions-Farben: #1a5490 (LOH) · #0d47a1 (AB) · #1565c0 (LK-AB) · #0d3d88 (MSP) · #003d7a (REG)
+- Layout: grid-auto-fill (responsive 320px+ Karten)
+- Wetterdaten: BrightSky API (DWD), Lohr am Main 50.0°N 9.57°E, 24h stündlich + 2-Tage-Karten
 
 ### Themen
-- Tötungsdelikt Elsenfeld 60-jährige Frau Messerangriff Bahnhof 27-jähriger Familienangehöriger festgenommen | https://www.infranken.de/lk/aschaffenburg/blaulicht/elsenfeld-tod-nach-mutmasslichem-messerangriff-leblose-frau-gefunden-art-6367262 | kriminalität | elsenfeld
-- Motorradfahrer A3 Bischbrunn 35-jährig schwer verunglückt Leitplanke Böschung Feuerwehr Weibersbrunn Waldaschaff | https://www.main-echo.de/ressorts/blaulicht/unfall-mit-motoradfahrer-auf-der-a3-bei-bischbrunn-art-8734839 | unfall | main-spessart
-- WM 2026 Deutschland 7:1 Curaçao Public Viewing Obernburg Frammersbach nächstes Spiel Elfenbeinküste 20 Juni 22 Uhr | https://www.sportschau.de/fussball/fifa-wm-2026/der-spielplan-der-fussball-wm-2026,fifawm-dfb-spielplan-100.html | sport | regional
-- Nationaler Veteranentag 15 Juni Bayern Beflaggung Söder Bundeswehr Motto Veterans Family Friends | https://aschaffenburg.news/politik/beflaggung-aus-anlass-des-nationalen-veteranentages.html | gedenken | regional
-- AVG Aschaffenburg Stromleitungen Alois-Alzheimer-Allee Bauarbeiten ab 15 Juni bis September 2026 | https://aschaffenburg.news/ab/aschaffenburg/aschaffenburg-aavg-erneuert-stromversorgungsleitungen-in-der-alois-alzheimer-allee.html | infrastruktur | aschaffenburg
-- Aschaffenburg Nilkheim Bungalow Ginsterweg Brand 12:30 Uhr vorübergehend unbewohnbar | https://aschaffenburg.news/ab/aschaffenburg/nilkheim/aschaffenburg-bungalow-nach-feuer-voruebergehend-unbewohnbar.html | feuerwehr | aschaffenburg
-- Karlstein am Main 25 Paletten Lithium-Akkus Außenbereich Industriefirma Brand 09:00 Uhr | https://aschaffenburg.news/ab/karlstein-am-main/karlstein-am-main/karlstein-brand-von-ca-25-paletten-mit-akkus-im-aussenbereich.html | feuerwehr | karlstein
-- Aschaffenburg Regenbogenfahne 01:20 Uhr angezündet politisches Motiv Graffiti Schweinheim Feldchenstraße zwei Jugendliche 14 15 Jahre | https://aschaffenburg.news/ab/aschaffenburg/schweinheim/aschaffenburg-sachbeschaedigungen-durch-graffiti.html | polizei | aschaffenburg
-- Alzenau Kälberau 42-Jährige Radweg Kahl Hundebiss leicht verletzt Besitzer gesucht | https://aschaffenburg.news/ab/alzenau/kaelberau/alzenau-hundebiss-auf-radweg.html | blaulicht | alzenau
-- Schöllkrippen Hund vor Supermarkt entwendet unbekannter Mann Diebstahl Zeugen gesucht | https://infranken.de/lk/aschaffenburg/blaulicht/schoellkrippen-hund-vor-lidl-gestohlen-zeugen-berichten-von-weissem-van-art-6367224 | polizei | schoellkrippen
-- Lohr Wiesener Straße Pfanddiebstahl 400 Flaschen 34-jähriger ermittelt Karlstadt Saab überschlägt | https://www.meine-news.de/lohr-amain/c-blaulicht | blaulicht | lohr
-- STADTRADELN Landkreis Aschaffenburg 8-28 Juni 2026 Radcheck Karlstadt Fairtrade | https://aschaffenburg.news/ab/aschaffenburg/aschaffenburg/aschaffenburg-landkreisradeln-vom-8-bis-28-juni-2026.html | freizeit | aschaffenburg
-- Nachruf Bürgermeister aD Günter Dehn CSU Aschaffenburg Gedenkminute | https://aschaffenburg.news/politik/aschaffenburg-nachruf-buergermeister-a-d-guenther-dehn.html | nachruf | aschaffenburg
-- Landratsamt Aschaffenburg 17 Juni ab 12 Uhr geschlossen Personalversammlung 1 Juli | https://aschaffenburg.news/ab/aschaffenburg/aschaffenburg/aschaffenburg-landratsamt-am-17-juni-und-1-juli-nachmittags-geschlossen.html | verwaltung | aschaffenburg
-- TV Großwallstadt Handball Trainer Bolling verlängert Spieß verlässt Verein Finale 32:32 Coburg | https://aschaffenburg.news/sport/grosswallstadt-handball-trainer-bolling-verlaengert-spieler-spiess-verlaesst-verein.html | sport | grosswallstadt
+- KidsMarktstand Aschaffenburg junge Unternehmer Marktwagen | https://www.main-echo.de/ | freizeit | aschaffenburg
+- Schwarzfahrer ICE Hösbach Bahnhof Zugverfolgung Bundespolizei | https://www.infranken.de/lk/aschaffenburg/ | blaulicht | hösbach
+- Bundeswehr-Truppenübungen Main-Spessart Marktheidenfeld Rothenbuch Reisenbach | https://www.main-spessart.de/ | sicherheit | main-spessart
+- Verkehrssicherheitswoche Unterfranken Polizei Kontrollen Raserei Ablenkung | https://aschaffenburg.news/ | verkehr | regional
+- German Simracing Masters Aschaffenburg Smudo Gaming Motorsport | https://www.main-echo.de/ | sport | aschaffenburg
+- Weinkulturnacht Bürgstadt Weine Musik fränkisch Burgunder Silvaner | https://www.main-echo.de/ | kultur | bürgstadt
+- Linienbus Unfall Marktheidenfeld Kinder verletzt Vorfahrt | https://www.infranken.de/lk/main-spessart/uebersicht/ | blaulicht | marktheidenfeld
+- Weltblutspendertag Gesundheitsminister Plasma Sommer Spendenzahlen | https://aschaffenburg.news/ | gesundheit | bayern
+- Charity Kitchen Party Kreuzwertheim Musik Kulinarik wohltätig | https://www.main-echo.de/ | gesellschaft | kreuzwertheim
+- Tag der Abenteuer Kreuzwertheim Outdoor Klettern Bogenschießen Aktivitäten | https://www.main-echo.de/ | freizeit | kreuzwertheim
+- Werkzeugbauer Heinrichsthal schließt Versteigerung Auflösung Maschinen | https://www.infranken.de/lk/aschaffenburg/ | wirtschaft | heinrichsthal
+- LENK KOMMUNity Regensburg Klimaschutz Gemeinden Energiewende | https://aschaffenburg.news/ | politik | bayern
+- Bildschirmzeit Kleinkinder Gesundheitsminister Fernsehen Smartphone Warnung | https://aschaffenburg.news/ | gesundheit | bayern
+- Tegut Filialen verkauft Franken elf Läden Restrukturierung Einzelhandel | https://www.infranken.de/lk/ | wirtschaft | franken
+- Vermisstenfall geklärt Main-Fluss Leiche Marktheidenfeld Wasserrettung | https://www.main-echo.de/ | blaulicht | regional
