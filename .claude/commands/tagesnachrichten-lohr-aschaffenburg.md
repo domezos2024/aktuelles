@@ -42,7 +42,7 @@ Für jede Meldung:
 Anforderungen:
 - Inline CSS, responsive, valide HTML5, eine Datei
 - **Kein JavaScript, keine Animationen**
-- Header: Wochentag, Datum, Uhrzeit + "Nachrichten – Lohr am Main & Aschaffenburg"
+- Header: Wochentag, Datum, Uhrzeit (Berlin CEST, UTC+2) + "Nachrichten – Lohr am Main & Aschaffenburg"
 - Wetter-Box: 24h stündlich scrollbar + 2-Tage-Karten
 - 15 News-Karten: Kategorie-Badge, Regions-Badge, Titel, Zusammenfassung, Quelle-Link
 - **Design täglich wechseln** (Farben, Header-Gradient, Hintergrund ≠ journal.md)
@@ -54,7 +54,7 @@ Format:
 ```
 # Tagesnachrichten-Journal – domezos2024/aktuelles
 
-## $DATUM (YYYY-MM-DD) – $UHRZEIT Uhr
+## $DATUM (YYYY-MM-DD) – $UHRZEIT Uhr CEST
 
 ### Design
 - Schema: [Name]
@@ -69,15 +69,21 @@ Format:
 (alle 15 Themen)
 ```
 
+**ZEITZONE: Berlin (CEST = UTC+2)** – Immer die aktuelle Berlin-Uhrzeit verwenden!
 WICHTIG: Datei enthält **exakt einen Eintrag** (heute). Keine früheren Tage speichern.
 
 ## Schritt 8 – Push, PR, Merge, Schließen
 
 ```bash
 git add Nachrichten.html journal.md .claude/
-git commit -m "Tagesnachrichten YYYY-MM-DD – HH:MM Uhr"
+git commit -m "Tagesnachrichten YYYY-MM-DD – HH:MM Uhr CEST"
 git push -u origin <branch>
 ```
+
+**Zeitstempel-Hinweis:** Immer die aktuelle Berlin-Zeit (CEST, UTC+2) in allen drei Stellen angeben:
+1. Nachrichten.html Header (Montag, 16. Juni 2026 · HH:MM Uhr CEST)
+2. Nachrichten.html Footer (Aktualisierung: Montag, 16. Juni 2026 · HH:MM Uhr CEST)
+3. journal.md Header (## 2026-06-16 – HH:MM Uhr CEST)
 
 Dann:
 - Pull Request nach main erstellen (Draft)

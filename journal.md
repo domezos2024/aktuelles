@@ -1,6 +1,6 @@
 # Tagesnachrichten-Journal – domezos2024/aktuelles
 
-## 2026-06-16 – 14:32 Uhr
+## 2026-06-16 – 07:30 Uhr CEST
 
 ### Design
 - Schema: ocean-blue
