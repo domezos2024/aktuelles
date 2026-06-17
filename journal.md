@@ -1,32 +1,32 @@
 # Tagesnachrichten-Journal – domezos2024/aktuelles
 
-## 2026-06-17 – 14:45 Uhr CEST
+## 2026-06-17 – 08:18 Uhr CEST
 
 ### Design
-- Schema: terracotta-warm
-- Header-Gradient: #c1440f → #e67e22
-- Hintergrund: #f5dcc8 + #ffe8d1 (Warm cream gradient)
-- Karten: #ffe8cc (Warm sand)
-- Text: #3d2817 · Sub-Text: #555555
-- Akzentfarben: #c1440f (Primary) · #e67e22 (Secondary) · #ffb366 (Light) · #8b5a2b (Dark) · #d2691e (Accent)
-- Badges: #ffebee (blaulicht) · #fff3e0 (verkehr) · #f3e5f5 (wirtschaft) · #e3f2fd (politik) · #fce4ec (gesellschaft) · #f1f8e9 (kultur) · #e0f2f1 (sport) · #fff9c4 (freizeit) · #f0f4c3 (sicherheit) · #fbe9e7 (gesundheit)
-- Regions-Farben: #b8860b (LOH) · #cd853f (AB) · #d2691e (LK-AB) · #8b4513 (MSP) · #a0522d (REG)
-- Layout: grid-auto-fill (responsive 320px+ Karten)
+- Schema: ocean-deep
+- Header-Gradient: #0d47a1 → #1e88e5
+- Hintergrund: #e3f2fd + #b3e5fc (Deep ocean gradient)
+- Karten: #ffffff (White with blue borders)
+- Text: #1a237e · Sub-Text: #424242
+- Akzentfarben: #0d47a1 (Primary) · #1e88e5 (Secondary) · #b3e5fc (Light) · #0d3a7f (Dark) · #1565c0 (Accent)
+- Badges: #e3f2fd (blaulicht) · #fff3e0 (verkehr) · #f3e5f5 (wirtschaft) · #e3f2fd (politik) · #f3e5f5 (gesellschaft) · #e8f5e9 (kultur) · #e0f2f1 (sport) · #fce4ec (freizeit) · #f1f8e9 (sicherheit) · #ffebee (gesundheit)
+- Regions-Farben: #0d47a1 (AB) · #1565c0 (LOH) · #42a5f5 (LK-AB) · #1e88e5 (MSP) · #64b5f6 (REG)
+- Layout: grid-auto-fill (responsive 350px+ Karten)
 - Wetterdaten: BrightSky API (DWD), Lohr am Main 50.0°N 9.57°E, 24h stündlich + 3-Tage-Karten
 
 ### Themen
-- Pfanddiebstahl Lohr am Main 400 Flaschen Polizei schnell aufgeklärt | https://aschaffenburg.news/ | blaulicht | lohr
-- Unfall Linienbus Marktheidenfeld Kinder verletzt Vorfahrt Auto | https://www.main-echo.de/ | verkehr | marktheidenfeld
-- Sachbeschädigungen Diebstähle Main-Spessart Karlstadt Arnstein Neuhütten | https://www.main-echo.de/ | blaulicht | main-spessart
-- STADTRADELN Landkreis Aschaffenburg Klima Fahrrad Juni | https://aschaffenburg.news/ | gesellschaft | aschaffenburg
-- Neue Onleihe-App Stadtbibliothek Aschaffenburg Juni Dark Mode | https://aschaffenburg.news/ | kultur | aschaffenburg
-- Landratsamt Aschaffenburg geschlossen Personalversammlung 17. Juni | https://aschaffenburg.news/ | sicherheit | aschaffenburg
-- Straßensperrungen Landkreis Aschaffenburg Juni Forstarbeiten Radweg | https://aschaffenburg.news/ | verkehr | aschaffenburg
-- Vereinszuschüsse Stadt Lohr Sport Musik Gesangsvereine 2026 | https://www.main-echo.de/ | politik | lohr
-- Finanzbericht Stadt Lohr 2025 solide Herausforderungen Kämmerer | https://www.main-echo.de/ | politik | lohr
-- Energiepreise Franken Wirtschaft Reform Mittlestan Kosten | https://aschaffenburg.news/ | wirtschaft | main-spessart
-- Privatgärten Main-Spessart öffnen Hobbygärtner Juni | https://www.main-echo.de/ | gesellschaft | main-spessart
-- Verkehrskontrollen Lohr Polizei Sicherheit Geschwindigkeit | https://aschaffenburg.news/ | verkehr | lohr
-- Tag des Laufens Lohr 3000m Lauf Juni Fitness Sport | https://www.main-echo.de/ | kultur | lohr
-- Pkw-Beschädigung REWE Tiefgarage Lohr Stoßfänger | https://www.main-echo.de/ | blaulicht | lohr
-- Wetter BrightSky DWD Lohr 26°C Bewölkt Warm Juni | https://api.brightsky.dev/ | wetter | regional
+- Kellerbrand Aschaffenburg-Schweinheim 3 Kleinkinder gerettet Rettungsaktion | https://www.main-echo.de/ | blaulicht | aschaffenburg
+- Tötungsdelikt Elsenfeld 60-jährige Frau erdolcht Familienangehöriger | https://aschaffenburg.news/ | blaulicht | elsenfeld
+- Milchtankdiebstähle Georgier verurteilt organierte Bande Bauernhöfe | https://www.infranken.de/lk/main-spessart/uebersicht/ | blaulicht | main-spessart
+- Aschaffenburg Volksfest eröffnet Bürgermeister 200 Buden Juni | https://www.main-echo.de/ | gesellschaft | aschaffenburg
+- Spontantrauungen Kirchen 26. Juni Aktion „Einfach Heiraten" | https://aschaffenburg.news/ | gesellschaft | region
+- 14-Jähriger entwickelt 112Maps Feuerwehr 3D-Kameras Rettungswege | https://www.infranken.de/lk/aschaffenburg/uebersicht/ | gesellschaft | aschaffenburg
+- WM 2026 Deutschland 7:1 Curaçao Auftaktsieg Fußball Weltmeisterschaft | https://www.main-echo.de/ | sport | national
+- Kahlgrund-Highway eröffnet 3 Jahre Bauzeit Verkehrsfluss 120 Millionen | https://aschaffenburg.news/ | verkehr | aschaffenburg
+- Bayern Photovoltaik-Ausschreibung 40% Zuschläge erneuerbare Energien Aiwanger | https://www.infranken.de/lk/aschaffenburg/uebersicht/ | politik | bayern
+- Herrmann 14 afghanische Straftäter abgeschoben Abschiebungspolitik Bayern | https://aschaffenburg.news/ | politik | bayern
+- Aktionsplan Menschen Behinderung Landkreis Aschaffenburg Inklusion beschlossen | https://www.landkreis-aschaffenburg.de/ | politik | aschaffenburg
+- Regenbogenfahne angezündet Aschaffenburg Hasskriminalität Polizei sucht | https://aschaffenburg.news/ | blaulicht | aschaffenburg
+- A45 Vollsperrung Gießen Brückenwartung Mainhausen Kleinostheim | https://www.infranken.de/lk/aschaffenburg/uebersicht/ | verkehr | regional
+- Mann ICE-Zug Hösbach tödlicher Unfall Eisenbahn Gleissperrung | https://www.main-echo.de/ | blaulicht | hösbach
+- Gastronomiebetriebe Amorbach schließen Personalengpässe Alter Gastronomie | https://www.main-echo.de/ | wirtschaft | amorbach
