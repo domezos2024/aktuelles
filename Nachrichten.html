@@ -1,593 +1,615 @@
 <!DOCTYPE html>
 <html lang="de">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Tagesnachrichten – Montag, 16. Juni 2026 – Lohr · Aschaffenburg · Main-Spessart</title>
-<style>
-*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
-:root{
-  --bg:#e6f2ff;
-  --card:#f0f8ff;
-  --text:#001a4d;
-  --sub:#003366;
-  --radius:12px;
-  --shadow:0 2px 10px rgba(0,26,77,.08);
-  --shadow-h:0 6px 20px rgba(0,26,77,.15);
-  --font:'Segoe UI','Inter',-apple-system,BlinkMacSystemFont,sans-serif;
-  /* Typ-Farben */
-  --c-blaulicht:#0066cc;
-  --c-polizei:#0052a3;
-  --c-feuer:#e74c3c;
-  --c-verkehr:#3498db;
-  --c-politik:#8e44ad;
-  --c-wirtschaft:#27ae60;
-  --c-kultur:#c0392b;
-  --c-sport:#16a085;
-  --c-freizeit:#2980b9;
-  --c-gesellschaft:#d35400;
-  --c-gesundheit:#2ecc71;
-  --c-sicherheit:#34495e;
-  /* Regions-Farben */
-  --r-lo:#1a5490;
-  --r-ab:#0d47a1;
-  --r-lkab:#1565c0;
-  --r-msp:#0d3d88;
-  --r-reg:#003d7a;
-}
-body{font-family:var(--font);background:var(--bg);color:var(--text);font-size:15px;line-height:1.55}
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nachrichten – Lohr am Main & Aschaffenburg</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
 
-/* ── HEADER ── */
-.site-header{
-  background:linear-gradient(135deg,#003d7a 0%,#0066cc 100%);
-  padding:24px 20px 20px;
-  text-align:center;
-  color:#fff;
-}
-.site-header h1{
-  font-size:clamp(1.3rem,4vw,2rem);
-  font-weight:800;
-  letter-spacing:-.02em;
-  margin-bottom:6px
-}
-.site-header .meta{font-size:.95rem;opacity:.92;margin-bottom:12px}
-.site-header .timestamp{font-size:.85rem;opacity:.8;font-weight:500}
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background: linear-gradient(135deg, #f5dcc8 0%, #ffe8d1 100%);
+            color: #3d2817;
+            min-height: 100vh;
+            padding: 20px;
+        }
 
-/* ── WETTER-SECTION ── */
-.weather-section{
-  background:#fff;
-  padding:20px;
-  margin:20px;
-  border-radius:var(--radius);
-  box-shadow:var(--shadow)
-}
-.weather-section h2{
-  font-size:1.1rem;
-  margin-bottom:16px;
-  color:var(--text);
-  font-weight:700
-}
-.hourly-scroll{
-  overflow-x:auto;
-  padding-bottom:10px;
-  margin-bottom:16px;
-  border-bottom:1px solid #ddd
-}
-.hourly-scroll::-webkit-scrollbar{height:6px}
-.hourly-scroll::-webkit-scrollbar-track{background:#f0f0f0}
-.hourly-scroll::-webkit-scrollbar-thumb{background:#999;border-radius:3px}
-.hourly-grid{
-  display:flex;
-  gap:8px;
-  min-width:min-content
-}
-.hour-card{
-  flex-shrink:0;
-  width:70px;
-  padding:10px 8px;
-  background:var(--card);
-  border-radius:8px;
-  text-align:center;
-  font-size:.8rem;
-  border:1px solid #ccc
-}
-.hour-card .time{font-weight:700;color:var(--blaulicht);margin-bottom:4px}
-.hour-card .temp{font-weight:600;color:var(--text);margin:4px 0}
-.hour-card .cond{font-size:.7rem;color:var(--sub)}
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
 
-.day-cards{
-  display:grid;
-  grid-template-columns:1fr 1fr;
-  gap:16px
-}
-.day-card{
-  background:linear-gradient(135deg,#e6f2ff 0%,#f0f8ff 100%);
-  padding:16px;
-  border-radius:8px;
-  border-left:4px solid var(--blaulicht)
-}
-.day-card .date{font-weight:700;color:var(--text);margin-bottom:8px}
-.day-card .stats{display:grid;grid-template-columns:1fr 1fr;gap:8px;font-size:.9rem}
-.day-card .stat-item{background:#fff;padding:8px;border-radius:4px}
-.day-card .stat-label{color:var(--sub);font-size:.8rem;margin-bottom:2px}
-.day-card .stat-value{color:var(--text);font-weight:700}
+        header {
+            background: linear-gradient(135deg, #c1440f 0%, #e67e22 100%);
+            color: white;
+            padding: 40px 30px;
+            border-radius: 12px;
+            margin-bottom: 40px;
+            box-shadow: 0 4px 15px rgba(193, 68, 15, 0.2);
+            text-align: center;
+        }
 
-/* ── NEWS GRID ── */
-.news-grid{
-  display:grid;
-  grid-template-columns:repeat(auto-fill,minmax(320px,1fr));
-  gap:20px;
-  padding:20px;
-  grid-auto-flow:dense
-}
+        header .date-time {
+            font-size: 14px;
+            opacity: 0.95;
+            margin-bottom: 8px;
+            letter-spacing: 0.5px;
+        }
 
-.news-card{
-  background:var(--card);
-  border-radius:var(--radius);
-  overflow:hidden;
-  box-shadow:var(--shadow);
-  transition:box-shadow .2s;
-  display:flex;
-  flex-direction:column
-}
-.news-card:hover{box-shadow:var(--shadow-h)}
+        header h1 {
+            font-size: 42px;
+            font-weight: 700;
+            margin-bottom: 8px;
+        }
 
-.news-card-header{
-  padding:16px 16px 12px;
-  border-bottom:2px solid #e0e0e0
-}
-.news-badges{
-  display:flex;
-  gap:8px;
-  margin-bottom:10px;
-  flex-wrap:wrap
-}
-.badge{
-  display:inline-block;
-  padding:4px 10px;
-  border-radius:20px;
-  font-size:.75rem;
-  font-weight:600;
-  color:#fff
-}
-.badge-cat{background:var(--blaulicht)}
-.badge-cat.polizei{background:var(--c-polizei)}
-.badge-cat.feuer{background:var(--c-feuer)}
-.badge-cat.verkehr{background:var(--c-verkehr)}
-.badge-cat.politik{background:var(--c-politik)}
-.badge-cat.wirtschaft{background:var(--c-wirtschaft)}
-.badge-cat.kultur{background:var(--c-kultur)}
-.badge-cat.sport{background:var(--c-sport)}
-.badge-cat.freizeit{background:var(--c-freizeit)}
-.badge-cat.gesellschaft{background:var(--c-gesellschaft)}
-.badge-cat.gesundheit{background:var(--c-gesundheit)}
-.badge-cat.sicherheit{background:var(--c-sicherheit)}
+        .weather-section {
+            background: white;
+            border-radius: 12px;
+            padding: 30px;
+            margin-bottom: 40px;
+            box-shadow: 0 2px 8px rgba(193, 68, 15, 0.1);
+        }
 
-.badge-reg{background:var(--r-reg);color:#fff}
-.badge-reg.lo{background:var(--r-lo)}
-.badge-reg.ab{background:var(--r-ab)}
-.badge-reg.lkab{background:var(--r-lkab)}
-.badge-reg.msp{background:var(--r-msp)}
+        .weather-title {
+            font-size: 20px;
+            color: #c1440f;
+            margin-bottom: 20px;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
 
-.news-title{
-  font-size:1.05rem;
-  font-weight:700;
-  color:var(--text);
-  line-height:1.4;
-  margin:8px 0
-}
+        .weather-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+            gap: 12px;
+            margin-bottom: 30px;
+            overflow-x: auto;
+            padding-bottom: 10px;
+        }
 
-.news-card-body{
-  padding:16px;
-  flex-grow:1;
-  display:flex;
-  flex-direction:column
-}
-.news-summary{
-  color:var(--sub);
-  font-size:.95rem;
-  line-height:1.5;
-  margin-bottom:12px;
-  flex-grow:1
-}
-.news-source{
-  font-size:.85rem;
-  color:var(--sub);
-  margin-top:auto;
-  padding-top:12px;
-  border-top:1px solid #e0e0e0;
-  display:flex;
-  justify-content:space-between;
-  align-items:center
-}
-.source-link{
-  color:var(--blaulicht);
-  text-decoration:none;
-  font-weight:600
-}
-.source-link:hover{text-decoration:underline}
+        .weather-hour {
+            background: #fff4e6;
+            border: 2px solid #ffd699;
+            border-radius: 8px;
+            padding: 12px 8px;
+            text-align: center;
+            font-size: 12px;
+            min-width: 90px;
+        }
 
-/* ── FOOTER ── */
-.site-footer{
-  background:#fff;
-  border-top:2px solid #ddd;
-  padding:24px 20px;
-  margin-top:30px;
-  font-size:.9rem;
-  color:var(--sub);
-  text-align:center
-}
-.footer-sources{
-  margin-top:16px;
-  padding-top:16px;
-  border-top:1px solid #e0e0e0;
-  text-align:left;
-  max-width:800px;
-  margin-left:auto;
-  margin-right:auto
-}
-.footer-sources h3{
-  font-size:.95rem;
-  margin-bottom:10px;
-  color:var(--text)
-}
-.footer-sources ul{
-  list-style:none;
-  display:grid;
-  grid-template-columns:repeat(auto-fit,minmax(150px,1fr));
-  gap:8px
-}
-.footer-sources li{font-size:.85rem}
-.footer-sources a{color:var(--blaulicht);text-decoration:none}
-.footer-sources a:hover{text-decoration:underline}
+        .weather-hour .time {
+            font-weight: 600;
+            color: #c1440f;
+            margin-bottom: 4px;
+        }
 
-@media (max-width:768px){
-  .news-grid{grid-template-columns:1fr}
-  .day-cards{grid-template-columns:1fr}
-  .site-header h1{font-size:1.3rem}
-}
-</style>
+        .weather-hour .temp {
+            font-size: 16px;
+            font-weight: 700;
+            color: #3d2817;
+            margin-bottom: 4px;
+        }
+
+        .weather-hour .condition {
+            color: #666;
+            font-size: 11px;
+        }
+
+        .weather-cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+        .weather-day {
+            background: linear-gradient(135deg, #fff4e6 0%, #ffe8d1 100%);
+            border-left: 4px solid #e67e22;
+            border-radius: 8px;
+            padding: 20px;
+        }
+
+        .weather-day .day-name {
+            font-weight: 700;
+            color: #c1440f;
+            margin-bottom: 10px;
+            font-size: 16px;
+        }
+
+        .weather-day .stats {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 15px;
+            font-size: 14px;
+        }
+
+        .weather-day .stat {
+            background: white;
+            padding: 12px;
+            border-radius: 6px;
+            text-align: center;
+        }
+
+        .weather-day .stat-label {
+            color: #999;
+            font-size: 12px;
+            margin-bottom: 4px;
+        }
+
+        .weather-day .stat-value {
+            font-size: 18px;
+            font-weight: 700;
+            color: #3d2817;
+        }
+
+        .news-section {
+            margin-bottom: 40px;
+        }
+
+        .news-title {
+            font-size: 28px;
+            color: #c1440f;
+            margin-bottom: 30px;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .news-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+            gap: 24px;
+        }
+
+        .news-card {
+            background: white;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 2px 8px rgba(193, 68, 15, 0.08);
+            transition: transform 0.2s, box-shadow 0.2s;
+            border-top: 4px solid #e67e22;
+        }
+
+        .news-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 4px 16px rgba(193, 68, 15, 0.15);
+        }
+
+        .news-card-header {
+            padding: 16px;
+            background: #fff4e6;
+            border-bottom: 1px solid #ffd699;
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+
+        .badge {
+            display: inline-block;
+            padding: 6px 12px;
+            border-radius: 20px;
+            font-size: 12px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .badge-blaulicht { background: #ffebee; color: #c62828; }
+        .badge-verkehr { background: #fff3e0; color: #e65100; }
+        .badge-wirtschaft { background: #f3e5f5; color: #6a1b9a; }
+        .badge-politik { background: #e3f2fd; color: #1565c0; }
+        .badge-gesellschaft { background: #fce4ec; color: #c2185b; }
+        .badge-kultur { background: #f1f8e9; color: #558b2f; }
+        .badge-sport { background: #e0f2f1; color: #00695c; }
+        .badge-freizeit { background: #fff9c4; color: #f57f17; }
+        .badge-sicherheit { background: #f0f4c3; color: #9ccc65; }
+        .badge-gesundheit { background: #fbe9e7; color: #bf360c; }
+
+        .badge-region {
+            background: #fff8dc;
+            color: #b8860b;
+            margin-left: 4px;
+        }
+
+        .news-card-body {
+            padding: 20px;
+        }
+
+        .news-card-title {
+            font-size: 18px;
+            font-weight: 700;
+            color: #3d2817;
+            margin-bottom: 12px;
+            line-height: 1.3;
+        }
+
+        .news-card-summary {
+            font-size: 14px;
+            color: #555;
+            line-height: 1.5;
+            margin-bottom: 16px;
+        }
+
+        .news-card-link {
+            display: inline-block;
+            color: #c1440f;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 13px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            border-bottom: 2px solid #e67e22;
+            padding-bottom: 2px;
+        }
+
+        .news-card-link:hover {
+            color: #e67e22;
+        }
+
+        footer {
+            background: white;
+            border-radius: 12px;
+            padding: 30px;
+            text-align: center;
+            color: #666;
+            font-size: 13px;
+            box-shadow: 0 2px 8px rgba(193, 68, 15, 0.1);
+            margin-top: 40px;
+        }
+
+        footer .update-time {
+            color: #c1440f;
+            font-weight: 600;
+            margin-bottom: 12px;
+        }
+
+        footer .sources {
+            color: #999;
+            font-size: 12px;
+            margin-top: 12px;
+            padding-top: 12px;
+            border-top: 1px solid #eee;
+        }
+
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 28px;
+            }
+
+            .news-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .weather-grid {
+                grid-template-columns: repeat(auto-fill, minmax(80px, 1fr));
+            }
+        }
+    </style>
 </head>
 <body>
+    <div class="container">
+        <header>
+            <div class="date-time">Dienstag, 17. Juni 2026 · 14:45 Uhr CEST</div>
+            <h1>Nachrichten – Lohr am Main & Aschaffenburg</h1>
+        </header>
 
-<header class="site-header">
-  <h1>Tagesnachrichten</h1>
-  <p class="meta">Lohr am Main · Aschaffenburg · Main-Spessart</p>
-  <p class="timestamp">Montag, 16. Juni 2026 · 07:30 Uhr CEST</p>
-</header>
+        <div class="weather-section">
+            <div class="weather-title">Wetter heute – Lohr am Main</div>
 
-<section class="weather-section">
-  <h2>☀️ Wetter für Lohr am Main</h2>
+            <div class="weather-grid">
+                <div class="weather-hour">
+                    <div class="time">08:00</div>
+                    <div class="temp">20°C</div>
+                    <div class="condition">Bewölkt</div>
+                </div>
+                <div class="weather-hour">
+                    <div class="time">09:00</div>
+                    <div class="temp">21°C</div>
+                    <div class="condition">Bewölkt</div>
+                </div>
+                <div class="weather-hour">
+                    <div class="time">10:00</div>
+                    <div class="temp">23°C</div>
+                    <div class="condition">Bewölkt</div>
+                </div>
+                <div class="weather-hour">
+                    <div class="time">11:00</div>
+                    <div class="temp">24°C</div>
+                    <div class="condition">Bewölkt</div>
+                </div>
+                <div class="weather-hour">
+                    <div class="time">12:00</div>
+                    <div class="temp">24°C</div>
+                    <div class="condition">Bewölkt</div>
+                </div>
+                <div class="weather-hour">
+                    <div class="time">13:00</div>
+                    <div class="temp">25°C</div>
+                    <div class="condition">Bewölkt</div>
+                </div>
+                <div class="weather-hour">
+                    <div class="time">14:00</div>
+                    <div class="temp">25°C</div>
+                    <div class="condition">Bewölkt</div>
+                </div>
+                <div class="weather-hour">
+                    <div class="time">15:00</div>
+                    <div class="temp">26°C</div>
+                    <div class="condition">Bewölkt</div>
+                </div>
+                <div class="weather-hour">
+                    <div class="time">16:00</div>
+                    <div class="temp">26°C</div>
+                    <div class="condition">Bewölkt</div>
+                </div>
+                <div class="weather-hour">
+                    <div class="time">17:00</div>
+                    <div class="temp">25°C</div>
+                    <div class="condition">Bewölkt</div>
+                </div>
+                <div class="weather-hour">
+                    <div class="time">18:00</div>
+                    <div class="temp">25°C</div>
+                    <div class="condition">Bewölkt</div>
+                </div>
+                <div class="weather-hour">
+                    <div class="time">19:00</div>
+                    <div class="temp">24°C</div>
+                    <div class="condition">Bewölkt</div>
+                </div>
+            </div>
 
-  <div style="margin-bottom:16px">
-    <h3 style="font-size:.95rem;margin-bottom:10px;color:var(--text)">Stundliche Vorhersage (16. Juni)</h3>
-    <div class="hourly-scroll">
-      <div class="hourly-grid">
-        <div class="hour-card"><div class="time">00:00</div><div class="temp">7°C</div><div class="cond">Trocken</div></div>
-        <div class="hour-card"><div class="time">01:00</div><div class="temp">7°C</div><div class="cond">Nebel</div></div>
-        <div class="hour-card"><div class="time">02:00</div><div class="temp">7°C</div><div class="cond">Nebel</div></div>
-        <div class="hour-card"><div class="time">03:00</div><div class="temp">8°C</div><div class="cond">Trocken</div></div>
-        <div class="hour-card"><div class="time">04:00</div><div class="temp">10°C</div><div class="cond">Trocken</div></div>
-        <div class="hour-card"><div class="time">05:00</div><div class="temp">11°C</div><div class="cond">Trocken</div></div>
-        <div class="hour-card"><div class="time">06:00</div><div class="temp">12°C</div><div class="cond">Trocken</div></div>
-        <div class="hour-card"><div class="time">07:00</div><div class="temp">14°C</div><div class="cond">Regen</div></div>
-        <div class="hour-card"><div class="time">08:00</div><div class="temp">16°C</div><div class="cond">Regen</div></div>
-        <div class="hour-card"><div class="time">09:00</div><div class="temp">17°C</div><div class="cond">Regen</div></div>
-        <div class="hour-card"><div class="time">10:00</div><div class="temp">18°C</div><div class="cond">Regen</div></div>
-        <div class="hour-card"><div class="time">11:00</div><div class="temp">19°C</div><div class="cond">Regen</div></div>
-        <div class="hour-card"><div class="time">12:00</div><div class="temp">20°C</div><div class="cond">Regen</div></div>
-        <div class="hour-card"><div class="time">13:00</div><div class="temp">20°C</div><div class="cond">Regen</div></div>
-        <div class="hour-card"><div class="time">14:00</div><div class="temp">21°C</div><div class="cond">Regen</div></div>
-        <div class="hour-card"><div class="time">15:00</div><div class="temp">22°C</div><div class="cond">Regen</div></div>
-        <div class="hour-card"><div class="time">16:00</div><div class="temp">22°C</div><div class="cond">Trocken</div></div>
-        <div class="hour-card"><div class="time">17:00</div><div class="temp">22°C</div><div class="cond">Trocken</div></div>
-        <div class="hour-card"><div class="time">18:00</div><div class="temp">21°C</div><div class="cond">Trocken</div></div>
-        <div class="hour-card"><div class="time">19:00</div><div class="temp">20°C</div><div class="cond">Trocken</div></div>
-        <div class="hour-card"><div class="time">20:00</div><div class="temp">19°C</div><div class="cond">Trocken</div></div>
-        <div class="hour-card"><div class="time">21:00</div><div class="temp">18°C</div><div class="cond">Trocken</div></div>
-        <div class="hour-card"><div class="time">22:00</div><div class="temp">18°C</div><div class="cond">Trocken</div></div>
-        <div class="hour-card"><div class="time">23:00</div><div class="temp">17°C</div><div class="cond">Trocken</div></div>
-      </div>
-    </div>
-  </div>
+            <div class="weather-cards">
+                <div class="weather-day">
+                    <div class="day-name">📅 Dienstag, 17. Juni</div>
+                    <div class="stats">
+                        <div class="stat">
+                            <div class="stat-label">Max</div>
+                            <div class="stat-value">26°C</div>
+                        </div>
+                        <div class="stat">
+                            <div class="stat-label">Min</div>
+                            <div class="stat-value">13°C</div>
+                        </div>
+                        <div class="stat">
+                            <div class="stat-label">Wind</div>
+                            <div class="stat-value">11 km/h</div>
+                        </div>
+                        <div class="stat">
+                            <div class="stat-label">Regen</div>
+                            <div class="stat-value">0 mm</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="weather-day">
+                    <div class="day-name">📅 Mittwoch, 18. Juni</div>
+                    <div class="stats">
+                        <div class="stat">
+                            <div class="stat-label">Max</div>
+                            <div class="stat-value">31°C</div>
+                        </div>
+                        <div class="stat">
+                            <div class="stat-label">Min</div>
+                            <div class="stat-value">16°C</div>
+                        </div>
+                        <div class="stat">
+                            <div class="stat-label">Wind</div>
+                            <div class="stat-value">8 km/h</div>
+                        </div>
+                        <div class="stat">
+                            <div class="stat-label">Regen</div>
+                            <div class="stat-value">0 mm</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="weather-day">
+                    <div class="day-name">📅 Donnerstag, 19. Juni</div>
+                    <div class="stats">
+                        <div class="stat">
+                            <div class="stat-label">Max</div>
+                            <div class="stat-value">29°C</div>
+                        </div>
+                        <div class="stat">
+                            <div class="stat-label">Min</div>
+                            <div class="stat-value">18°C</div>
+                        </div>
+                        <div class="stat">
+                            <div class="stat-label">Wind</div>
+                            <div class="stat-value">7 km/h</div>
+                        </div>
+                        <div class="stat">
+                            <div class="stat-label">Regen</div>
+                            <div class="stat-value">0 mm</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-  <div class="day-cards">
-    <div class="day-card">
-      <div class="date">Heute (Mo, 16. Juni)</div>
-      <div class="stats">
-        <div class="stat-item"><div class="stat-label">Min</div><div class="stat-value">7°C</div></div>
-        <div class="stat-item"><div class="stat-label">Max</div><div class="stat-value">22°C</div></div>
-        <div class="stat-item"><div class="stat-label">Wind</div><div class="stat-value">18 km/h</div></div>
-        <div class="stat-item"><div class="stat-label">Niederschlag</div><div class="stat-value">0,7 mm</div></div>
-      </div>
-    </div>
-    <div class="day-card">
-      <div class="date">Morgen (Di, 17. Juni)</div>
-      <div class="stats">
-        <div class="stat-item"><div class="stat-label">Min</div><div class="stat-value">16°C</div></div>
-        <div class="stat-item"><div class="stat-label">Max</div><div class="stat-value">26°C</div></div>
-        <div class="stat-item"><div class="stat-label">Wind</div><div class="stat-value">13 km/h</div></div>
-        <div class="stat-item"><div class="stat-label">Niederschlag</div><div class="stat-value">0,0 mm</div></div>
-      </div>
-    </div>
-  </div>
-</section>
+        <div class="news-section">
+            <div class="news-title">Aktuelle Meldungen</div>
 
-<div class="news-grid">
+            <div class="news-grid">
+                <div class="news-card">
+                    <div class="news-card-header">
+                        <span class="badge badge-blaulicht">Blaulicht</span>
+                        <span class="badge badge-region">Lohr</span>
+                    </div>
+                    <div class="news-card-body">
+                        <div class="news-card-title">Pfanddiebstahl in Lohr am Main schnell aufgeklärt</div>
+                        <div class="news-card-summary">Ein 34-Jähriger entwendete in der Nacht vom 31. Mai zum 1. Juni etwa 400 Pfandflaschen aus einem Getränkemarkt in der Wiesenstraße. Die Polizei konnte den Täter schnell ausfindig machen und den Großteil der gestohlenen Flaschen wiederbeschaffen. Der Verdächtige war dem Shop-Besitzer bereits vom Vortag bekannt und hatte Fragen zur Lagerung von Leergut gestellt.</div>
+                        <a href="https://aschaffenburg.news/" class="news-card-link">Mehr erfahren</a>
+                    </div>
+                </div>
 
-  <article class="news-card">
-    <div class="news-card-header">
-      <div class="news-badges">
-        <span class="badge badge-cat freizeit">Freizeit</span>
-        <span class="badge badge-reg ab">Aschaffenburg</span>
-      </div>
-      <h2 class="news-title">KidsMarktstand 2026 – Junge Unternehmer in Aschaffenburg</h2>
-    </div>
-    <div class="news-card-body">
-      <p class="news-summary">Die vierte Auflage des KidsMarktstand fand auf dem Aschaffenburger Wochenmarkt statt. Junge Menschen zwischen 10 und 14 Jahren betreiben erstmals ihre eigenen Marktstände und sammeln praktische Erfahrungen in Handwerk, Verkauf und Unternehmertum. Ziel des Projekts ist es, den Nachwuchs für kaufmännische Tätigkeiten zu begeistern. Die Veranstalter berichten von großem Erfolg und positive Rückmeldungen von Besuchern und Eltern.</p>
-      <div class="news-source">
-        <span>Main-Echo</span>
-        <a href="https://www.main-echo.de/" class="source-link">Mehr</a>
-      </div>
-    </div>
-  </article>
+                <div class="news-card">
+                    <div class="news-card-header">
+                        <span class="badge badge-verkehr">Verkehr</span>
+                        <span class="badge badge-region">Marktheidenfeld</span>
+                    </div>
+                    <div class="news-card-body">
+                        <div class="news-card-title">Unfall mit Linienbus in Marktheidenfeld – Kinder verletzt</div>
+                        <div class="news-card-summary">Am 12. Juni 2026 kam es in Marktheidenfeld zu einem Unfall zwischen einem Pkw und einem Linienbus an der Kreuzung Ringstraße/Kreuzbergstraße. Ein 24-Jähriger missachtete die Vorfahrt des Busses. Zwei Kinder (7 und 11 Jahre) wurden leicht verletzt und ambulant behandelt. Der Fahrer wird wegen fahrlässiger Körperverletzung ermittelt.</div>
+                        <a href="https://www.main-echo.de/" class="news-card-link">Mehr erfahren</a>
+                    </div>
+                </div>
 
-  <article class="news-card">
-    <div class="news-card-header">
-      <div class="news-badges">
-        <span class="badge badge-cat blaulicht">Blaulicht</span>
-        <span class="badge badge-reg lkab">Hösbach</span>
-      </div>
-      <h2 class="news-title">Schwarzfahrer von Zug erfasst – Drama an Hösbach</h2>
-    </div>
-    <div class="news-card-body">
-      <p class="news-summary">Ein Mann versuchte am Bahnhof Hösbach, ohne gültiges Ticket weiterzureisen und stieg aus dem Zug aus. Beim Versuch, zu Fuß die Strecke zu folgen, wurde er von einem einfahrenden ICE erfasst. Die Bundespolizei hat Ermittlungen eingeleitet. Die genauen Umstände des Unfalls werden aktuell untersucht. Der Regionalverkehr war zeitweilig beeinträchtigt.</p>
-      <div class="news-source">
-        <span>inFranken.de</span>
-        <a href="https://www.infranken.de/lk/aschaffenburg/" class="source-link">Mehr</a>
-      </div>
-    </div>
-  </article>
+                <div class="news-card">
+                    <div class="news-card-header">
+                        <span class="badge badge-blaulicht">Blaulicht</span>
+                        <span class="badge badge-region">Main-Spessart</span>
+                    </div>
+                    <div class="news-card-body">
+                        <div class="news-card-title">Sachbeschädigungen und Diebstähle im Landkreis Main-Spessart</div>
+                        <div class="news-card-summary">In Karlstadt wurden Blumenkübel vor zwei Häusern mutwillig zerstört. In Arnstein (Heugrumbach) beschädigte ein unbekanntes Fahrzeug eine Grundstücksmauer mit Schaden von etwa 1.500 Euro. In Neuhütten wurde eine Rüttelplatte im Wert von circa 10.000 Euro von einer Baustelle entwendet. Die Polizei sucht Zeugen.</div>
+                        <a href="https://www.main-echo.de/" class="news-card-link">Mehr erfahren</a>
+                    </div>
+                </div>
 
-  <article class="news-card">
-    <div class="news-card-header">
-      <div class="news-badges">
-        <span class="badge badge-cat sicherheit">Sicherheit</span>
-        <span class="badge badge-reg msp">Main-Spessart</span>
-      </div>
-      <h2 class="news-title">Bundeswehr-Truppenübungen starten im Main-Spessart</h2>
-    </div>
-    <div class="news-card-body">
-      <p class="news-summary">Die Bundeswehr führt ab Mitte Juni großflächige Truppenübungen im Landkreis Main-Spessart durch. Betroffene Gebiete in Marktheidenfeld, Rothenbuch und Reisenbach werden vorab informiert. Die Übungen umfassen Simulationen und Einsatztrainings. Anwohner können mit erhöhtem Verkehrsaufkommen und Lärmentwicklung rechnen. Die Maßnahmen sind Teil der geplanten Ausbildungskalenders.</p>
-      <div class="news-source">
-        <span>Pressemitteilung</span>
-        <a href="https://www.main-spessart.de/" class="source-link">Mehr</a>
-      </div>
-    </div>
-  </article>
+                <div class="news-card">
+                    <div class="news-card-header">
+                        <span class="badge badge-gesellschaft">Gesellschaft</span>
+                        <span class="badge badge-region">Aschaffenburg</span>
+                    </div>
+                    <div class="news-card-body">
+                        <div class="news-card-title">STADTRADELN 2026 – Landkreis Aschaffenburg radelt für Klimaschutz</div>
+                        <div class="news-card-summary">Der Landkreis Aschaffenburg nimmt vom 8. bis 28. Juni zum siebten Mal an der Kampagne STADTRADELN teil. Alle Bürger können sich in Teams organisieren und Kilometer sammeln. Im Vorjahr beteiligten sich etwa 1.800 Personen in 129 Teams und fuhren knapp 340.000 Kilometer. Die Sparkasse stellt 1.200 Euro Preisgeld für besonders aktive Schulen bereit.</div>
+                        <a href="https://aschaffenburg.news/" class="news-card-link">Mehr erfahren</a>
+                    </div>
+                </div>
 
-  <article class="news-card">
-    <div class="news-card-header">
-      <div class="news-badges">
-        <span class="badge badge-cat verkehr">Verkehr</span>
-        <span class="badge badge-reg reg">Regional</span>
-      </div>
-      <h2 class="news-title">Verkehrssicherheitswoche: Polizei zeigt Wirkung</h2>
-    </div>
-    <div class="news-card-body">
-      <p class="news-summary">Die Polizeiinspektion Unterfranken zieht eine positive Bilanz ihrer Verkehrssicherheitswoche. Intensive Kontrollen und Prävention gegen Raserei, Ablenkung und Alkohol am Steuer haben sichtbare Ergebnisse erzielt. Über 100 Verwarnungen wurden ausgesprochen. Die Aktion soll regelmäßig wiederholt werden, um das Bewusstsein für sicheres Fahren zu stärken und die Unfall­statistiken zu verbessern.</p>
-      <div class="news-source">
-        <span>aschaffenburg.news</span>
-        <a href="https://aschaffenburg.news/" class="source-link">Mehr</a>
-      </div>
-    </div>
-  </article>
+                <div class="news-card">
+                    <div class="news-card-header">
+                        <span class="badge badge-kultur">Kultur</span>
+                        <span class="badge badge-region">Aschaffenburg</span>
+                    </div>
+                    <div class="news-card-body">
+                        <div class="news-card-title">Neue Onleihe-App für Stadtbibliothek Aschaffenburg ab 24. Juni</div>
+                        <div class="news-card-summary">Die Aschaffenburg Stadtbibliothek stellt zum 24. Juni auf die neue „Onleihe 3"-App um. Die Anwendung bietet zusätzliche Funktionen wie die Möglichkeit, Leihfristen zu verlängern, früher zurückzugeben und nutzt einen augenschonenden Dark Mode. Die bisherige Onleihe 2.0-App wird nach der Transition nicht mehr funktionieren. Die neue App ist kostenlos in den App-Stores verfügbar.</div>
+                        <a href="https://aschaffenburg.news/" class="news-card-link">Mehr erfahren</a>
+                    </div>
+                </div>
 
-  <article class="news-card">
-    <div class="news-card-header">
-      <div class="news-badges">
-        <span class="badge badge-cat sport">Sport</span>
-        <span class="badge badge-reg ab">Aschaffenburg</span>
-      </div>
-      <h2 class="news-title">German Simracing Masters – Gaming-Spektakel in der Region</h2>
-    </div>
-    <div class="news-card-body">
-      <p class="news-summary">Die German Simracing Masters fanden im Untermain-Raum statt und lockten Gamer und Motorsport-Fans an. Prominenter Gast war Rapper Smudo, der sich an der Simulation versuchte. Die Veranstalter berichten von großem Publikumsandrang und spannenden Rennen. Das Event zeigt wachsendes Interesse an virtueller Motorsport als eigenständige Sportart. Nähere Infos zu Qualifikationen für nächstes Jahr sind verfügbar.</p>
-      <div class="news-source">
-        <span>Main-Echo</span>
-        <a href="https://www.main-echo.de/" class="source-link">Mehr</a>
-      </div>
-    </div>
-  </article>
+                <div class="news-card">
+                    <div class="news-card-header">
+                        <span class="badge badge-sicherheit">Sicherheit</span>
+                        <span class="badge badge-region">Aschaffenburg</span>
+                    </div>
+                    <div class="news-card-body">
+                        <div class="news-card-title">Landratsamt Aschaffenburg am 17. Juni nachmittags geschlossen</div>
+                        <div class="news-card-summary">Das Landratsamt Aschaffenburg mit allen seinen Außenstellen ist am Mittwoch, 17. Juni, ab 12:00 Uhr geschlossen. Grund ist eine Personalversammlung und Gemeinschaftsveranstaltung für alle Mitarbeiter. Betroffen sind auch die Zulassungsstellen in Alzenau und Mainaschaff, das Gesundheitsamt und der Kreisrecyclinghof.</div>
+                        <a href="https://aschaffenburg.news/" class="news-card-link">Mehr erfahren</a>
+                    </div>
+                </div>
 
-  <article class="news-card">
-    <div class="news-card-header">
-      <div class="news-badges">
-        <span class="badge badge-cat kultur">Kultur</span>
-        <span class="badge badge-reg msp">Bürgstadt</span>
-      </div>
-      <h2 class="news-title">Weinkulturnacht Bürgstadt – Weine und Musik</h2>
-    </div>
-    <div class="news-card-body">
-      <p class="news-summary">Die traditionelle Weinkulturnacht in Bürgstadt bot Weinfreunden ein exquisites Angebot fränkischer Weingüter und Winzer. Besucher konnten Burgundersorten und Silvaner verkosten, während Live-Musik den Abend begleitete. Regionale Köstlichkeiten und Spezialitäten rundeten das kulinarische Erlebnis ab. Die Veranstaltung zog Besucher aus der gesamten Region an und wird 2027 wiederholt.</p>
-      <div class="news-source">
-        <span>Main-Echo</span>
-        <a href="https://www.main-echo.de/" class="source-link">Mehr</a>
-      </div>
-    </div>
-  </article>
+                <div class="news-card">
+                    <div class="news-card-header">
+                        <span class="badge badge-verkehr">Verkehr</span>
+                        <span class="badge badge-region">Aschaffenburg</span>
+                    </div>
+                    <div class="news-card-body">
+                        <div class="news-card-title">Straßensperrungen im Landkreis Aschaffenburg – Juni 2026</div>
+                        <div class="news-card-summary">Im Juni gibt es mehrere Straßensperrungen im Landkreis. Kreisstraße AB 12 (Sailauf) 1.–3. Juni wegen Forstarbeiten; AB 19 (Schöllkrippen) bis Ende Juni gesperrt; AB 19 (Schöllkrippen/Sommerkahl) 8. Juni bis Ende November für Rad- und Fußweg-Ausbau. Auf der B 26 (Aschaffenburg) reduzierter Verkehr 18. Mai bis 5. Juni.</div>
+                        <a href="https://aschaffenburg.news/" class="news-card-link">Mehr erfahren</a>
+                    </div>
+                </div>
 
-  <article class="news-card">
-    <div class="news-card-header">
-      <div class="news-badges">
-        <span class="badge badge-cat blaulicht">Blaulicht</span>
-        <span class="badge badge-reg msp">Marktheidenfeld</span>
-      </div>
-      <h2 class="news-title">Linienbus-Unfall in Marktheidenfeld – Kinder verletzt</h2>
-    </div>
-    <div class="news-card-body">
-      <p class="news-summary">Ein Verkehrsunfall mit einem Linienbus ereignete sich am 12. Juni in Marktheidenfeld. Zwei Kinder im Alter von 7 und 11 Jahren wurden leicht verletzt. Ein Autofahrer beachtete das Vorfahrtsrecht des Busses nicht, wodurch es zur Kollision kam. Rettungskräfte waren schnell vor Ort. Die beiden Kinder wurden mit leichten Prellungen in medizinische Obhut gegeben. Polizei ermittelt gegen den Fahrzeugführer.</p>
-      <div class="news-source">
-        <span>inFranken.de</span>
-        <a href="https://www.infranken.de/lk/main-spessart/uebersicht/" class="source-link">Mehr</a>
-      </div>
-    </div>
-  </article>
+                <div class="news-card">
+                    <div class="news-card-header">
+                        <span class="badge badge-politik">Politik</span>
+                        <span class="badge badge-region">Lohr</span>
+                    </div>
+                    <div class="news-card-body">
+                        <div class="news-card-title">Lohr – Stadtrat beschließt Vereinszuschüsse für 2026</div>
+                        <div class="news-card-summary">Der Stadtrat Lohr hat am 10. Juni 2026 die Zuschussverteilung an Sport-, Musik- und Gesangsvereine beschlossen. Die Förderungen reichen von 23 Euro bis knapp 50.000 Euro. Die genauen Kriterien und Jahr-zu-Jahr-Veränderungen sowie spezielle Investitionszuschüsse wurden vom Rat genehmigt. Damit unterstützt die Stadt ihre traditionsreichen lokalen Vereine nachhaltig.</div>
+                        <a href="https://www.main-echo.de/" class="news-card-link">Mehr erfahren</a>
+                    </div>
+                </div>
 
-  <article class="news-card">
-    <div class="news-card-header">
-      <div class="news-badges">
-        <span class="badge badge-cat gesundheit">Gesundheit</span>
-        <span class="badge badge-reg reg">Bayern</span>
-      </div>
-      <h2 class="news-title">Weltblutspendertag: Bayerns Gesundheitsminister warnt</h2>
-    </div>
-    <div class="news-card-body">
-      <p class="news-summary">Zum Weltblutspendertag appellierte Bayerns Gesundheitsminister für mehr Blut- und Plasmadonationen in den Sommermonaten. Der Bedarf ist größer als das Angebot. Besonders in den Ferienwochen sinken die Spendenzahlen merklich. Blutbanken und Rotes Kreuz rufen Freiwillige zum Spenden auf. Alle gesunden Personen ab 18 Jahren können bereits nach einer kurzen Anmeldung Blut spenden und damit Leben retten.</p>
-      <div class="news-source">
-        <span>aschaffenburg.news</span>
-        <a href="https://aschaffenburg.news/" class="source-link">Mehr</a>
-      </div>
-    </div>
-  </article>
+                <div class="news-card">
+                    <div class="news-card-header">
+                        <span class="badge badge-politik">Politik</span>
+                        <span class="badge badge-region">Lohr</span>
+                    </div>
+                    <div class="news-card-body">
+                        <div class="news-card-title">Lohr – Finanzbericht 2025: Solide, aber mit Herausforderungen</div>
+                        <div class="news-card-summary">Der Kämmerer der Stadt Lohr berichtete am 15. Juni zur Finanzsituation des Jahres 2025. Das Ergebnis: „Finanziell solide, aber kein Grund zu Jubelsprüngen." Positive Entwicklungen stehen Unsicherheiten bei zukünftigen Steuereinnahmen gegenüber. Die Stadt muss mit steigenden Sozialausgaben rechnen, arbeitet aber an nachhaltigen Lösungsansätzen zur Haushaltssicherung.</div>
+                        <a href="https://www.main-echo.de/" class="news-card-link">Mehr erfahren</a>
+                    </div>
+                </div>
 
-  <article class="news-card">
-    <div class="news-card-header">
-      <div class="news-badges">
-        <span class="badge badge-cat gesellschaft">Gesellschaft</span>
-        <span class="badge badge-reg msp">Kreuzwertheim</span>
-      </div>
-      <h2 class="news-title">Charity Kitchen Party – Musik und Kulinarik für den guten Zweck</h2>
-    </div>
-    <div class="news-card-body">
-      <p class="news-summary">Eine Benefiz-Küchenparty in Kreuzwertheim vereinte kulinarische Genüsse mit Live-Musik und sozialem Engagement. Gäste genossen feine regionale Speisen in geselliger Atmosphäre, während der Erlös einem gemeinnützigen Projekt zugute kam. Die Veranstalter wurden von lokalen Künstlern und Köchen unterstützt. Das Event zeigte, wie Kultur und Nächstenliebe Hand in Hand gehen können und findet nächstes Jahr statt.</p>
-      <div class="news-source">
-        <span>Main-Echo</span>
-        <a href="https://www.main-echo.de/" class="source-link">Mehr</a>
-      </div>
-    </div>
-  </article>
+                <div class="news-card">
+                    <div class="news-card-header">
+                        <span class="badge badge-wirtschaft">Wirtschaft</span>
+                        <span class="badge badge-region">Main-Spessart</span>
+                    </div>
+                    <div class="news-card-body">
+                        <div class="news-card-title">Energiepreise und Reformen drücken Frankens Wirtschaft</div>
+                        <div class="news-card-summary">Laut aktuellen Wirtschaftsberichten belasten hohe Energiepreise und fehlende strukturelle Reformen die fränkische Wirtschaft erheblich. Besonders mittelständische Unternehmen in den Landkreisen Main-Spessart und Aschaffenburg berichten von Herausforderungen bei der Kostenkontrolle. Experten sehen Handlungsbedarf bei der Energiewende und wirtschaftspolitischen Rahmenbedingungen.</div>
+                        <a href="https://aschaffenburg.news/" class="news-card-link">Mehr erfahren</a>
+                    </div>
+                </div>
 
-  <article class="news-card">
-    <div class="news-card-header">
-      <div class="news-badges">
-        <span class="badge badge-cat freizeit">Freizeit</span>
-        <span class="badge badge-reg msp">Kreuzwertheim</span>
-      </div>
-      <h2 class="news-title">Tag der Abenteuer: Outdoor-Action für Naturfreunde</h2>
-    </div>
-    <div class="news-card-body">
-      <p class="news-summary">Der Tag der Abenteuer in Kreuzwertheim lockte viele Besucher mit rund 20 verschiedenen Outdoor-Aktivitäten an. Von Klettern über Bogenschießen bis zu Naturwanderungen war für jede Altersgruppe etwas dabei. Professionelle Betreuer sorgten für Sicherheit. Besonders beliebt waren die interaktiven Stationen und die ökologischen Workshops. Das Event wird als regelmäßiges Sommerevent etabliert und soll 2027 noch größer werden.</p>
-      <div class="news-source">
-        <span>Main-Echo</span>
-        <a href="https://www.main-echo.de/" class="source-link">Mehr</a>
-      </div>
-    </div>
-  </article>
+                <div class="news-card">
+                    <div class="news-card-header">
+                        <span class="badge badge-gesellschaft">Gesellschaft</span>
+                        <span class="badge badge-region">Main-Spessart</span>
+                    </div>
+                    <div class="news-card-body">
+                        <div class="news-card-title">Privatgärten öffnen ihre Pforten im Landkreis Main-Spessart</div>
+                        <div class="news-card-summary">Am 1. Juni 2026 öffneten acht Privatgärten im Landkreis Main-Spessart von 10 bis 17 Uhr ihre Pforten für Besucher. Eine wunderbare Gelegenheit, verschiedene Gartenkonzepte von Hobbygärtnern zu entdecken, Tipps zu Pflanzen auszutauschen und sich von kreativen Ideen inspirieren zu lassen. Die Aktion wird alljährlich durchgeführt und erfreut sich großer Beliebtheit.</div>
+                        <a href="https://www.main-echo.de/" class="news-card-link">Mehr erfahren</a>
+                    </div>
+                </div>
 
-  <article class="news-card">
-    <div class="news-card-header">
-      <div class="news-badges">
-        <span class="badge badge-cat wirtschaft">Wirtschaft</span>
-        <span class="badge badge-reg lkab">Heinrichsthal</span>
-      </div>
-      <h2 class="news-title">Werkzeugbauer in Heinrichsthal schließt – Großauktion geplant</h2>
-    </div>
-    <div class="news-card-body">
-      <p class="news-summary">Ein renommierter fränkischer Werkzeugbauer in Heinrichsthal beendet seinen Betrieb nach mehr als 30 Jahren. Zur Auflösung veranstaltet das Unternehmen eine umfangreiche Versteigerung von Maschinen, Werkzeugen und Inventar. Interessierte Käufer können sich registrieren. Das ist ein schmerzlicher Verlust für die Region, betont die Handelskammer. Grund der Schließung sind Umstrukturierungen in der Branche.</p>
-      <div class="news-source">
-        <span>inFranken.de</span>
-        <a href="https://www.infranken.de/lk/aschaffenburg/" class="source-link">Mehr</a>
-      </div>
-    </div>
-  </article>
+                <div class="news-card">
+                    <div class="news-card-header">
+                        <span class="badge badge-verkehr">Verkehr</span>
+                        <span class="badge badge-region">Lohr</span>
+                    </div>
+                    <div class="news-card-body">
+                        <div class="news-card-title">Verkehrskontrollen im Stadtgebiet Lohr verstärkt</div>
+                        <div class="news-card-summary">Die Polizei führt verstärkte Verkehrskontrollen im Stadtgebiet Lohr am Main durch. Ziel ist die Erhöhung der Verkehrssicherheit und Überprüfung der Verkehrstauglichkeit von Fahrzeugen. Besondere Aufmerksamkeit gilt Geschwindigkeitsverstößen und falschen Parkplatznutzungen. Verkehrsteilnehmer sollten mit verstärkter Polizeipräsenz rechnen.</div>
+                        <a href="https://aschaffenburg.news/" class="news-card-link">Mehr erfahren</a>
+                    </div>
+                </div>
 
-  <article class="news-card">
-    <div class="news-card-header">
-      <div class="news-badges">
-        <span class="badge badge-cat politik">Politik</span>
-        <span class="badge badge-reg reg">Bayern</span>
-      </div>
-      <h2 class="news-title">LENK KOMMUNity: Gemeinden beim Klimaschutz ausgezeichnet</h2>
-    </div>
-    <div class="news-card-body">
-      <p class="news-summary">Das fünfte Netzwerktreffen der Landeschutzagentur für Energie und Klimawende fand in Regensburg statt. Fokus: nachhaltige Kommunalpolitik und Energiewende in Gemeinden. Best-Practice-Beispiele aus erfolgreichen Projekten wurden präsentiert. Bürgermeister und Klimaschutzmanager der Unterfranken-Kommunen beteiligten sich aktiv. Die Konferenz stärkte den regionsübergreifenden Austausch zu erneuerbaren Energien und Mobilitätswende.</p>
-      <div class="news-source">
-        <span>aschaffenburg.news</span>
-        <a href="https://aschaffenburg.news/" class="source-link">Mehr</a>
-      </div>
-    </div>
-  </article>
+                <div class="news-card">
+                    <div class="news-card-header">
+                        <span class="badge badge-kultur">Kultur</span>
+                        <span class="badge badge-region">Lohr</span>
+                    </div>
+                    <div class="news-card-body">
+                        <div class="news-card-title">Tag des Laufens 2026 – Lohr beteiligt sich erstmals</div>
+                        <div class="news-card-summary">Lohr am Main beteiligt sich am 3. Juni erstmals beim bundesweiten Tag des Laufens. Die Stadt veranstaltete einen 3000-Meter-Lauf mit Zeitmessung, modelliert nach dem beliebten Tag des Laufens. Lauf-Experten gaben Tipps zur richtigen Technik und Vorbereitung. Die Veranstaltung stieß auf große Resonanz bei Freizeitläufern und erfreute sich lebhafter Beteiligung.</div>
+                        <a href="https://www.main-echo.de/" class="news-card-link">Mehr erfahren</a>
+                    </div>
+                </div>
 
-  <article class="news-card">
-    <div class="news-card-header">
-      <div class="news-badges">
-        <span class="badge badge-cat gesundheit">Gesundheit</span>
-        <span class="badge badge-reg reg">Bayern</span>
-      </div>
-      <h2 class="news-title">Frühe Bildschirmzeit: Kinderärzte warnen Eltern</h2>
-    </div>
-    <div class="news-card-body">
-      <p class="news-summary">Bayerns Gesundheitsminister warnt vor zu frühem Umgang mit Bildschirmen für Kleinkinder. Kinderärzte empfehlen, dass Kinder in den ersten drei Lebensjahren keinen Zugang zu Fernsehen, Smartphones oder Tablets haben sollten. Die Forschung zeigt mögliche negative Auswirkungen auf Sprachentwicklung und motorische Fähigkeiten. Der Minister ruft Eltern zur Besonnenheit auf und bietet Informationsveranstaltungen an.</p>
-      <div class="news-source">
-        <span>aschaffenburg.news</span>
-        <a href="https://aschaffenburg.news/" class="source-link">Mehr</a>
-      </div>
-    </div>
-  </article>
+                <div class="news-card">
+                    <div class="news-card-header">
+                        <span class="badge badge-blaulicht">Blaulicht</span>
+                        <span class="badge badge-region">Lohr</span>
+                    </div>
+                    <div class="news-card-body">
+                        <div class="news-card-title">Pkw-Beschädigung in REWE-Tiefgarage Lohr</div>
+                        <div class="news-card-summary">In der Tiefgarage des REWE-Marktes an der Alfred-Stumpf-Straße in Lohr wurde am Donnerstag zwischen 18:45 und 19:15 Uhr ein geparkter VW Passat beschädigt. Der Verursacher verursachte Schaden am Stoßfänger von etwa 100 Euro. Die Polizei Lohr sucht Zeugen des Vorfalls. Kontakt: 09352/8741-0.</div>
+                        <a href="https://www.main-echo.de/" class="news-card-link">Mehr erfahren</a>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-  <article class="news-card">
-    <div class="news-card-header">
-      <div class="news-badges">
-        <span class="badge badge-cat wirtschaft">Wirtschaft</span>
-        <span class="badge badge-reg reg">Franken</span>
-      </div>
-      <h2 class="news-title">Tegut Filialen verkauft – Strukturwandel in Einzelhandel</h2>
+        <footer>
+            <div class="update-time">Aktualisierung: Dienstag, 17. Juni 2026 · 14:45 Uhr CEST</div>
+            <p>Nachrichten aus Lohr am Main, Aschaffenburg und dem Landkreis Main-Spessart | Wetterdaten: BrightSky API (Deutscher Wetterdienst)</p>
+            <div class="sources">Quellen: Main-Echo, inFranken.de, Aschaffenburg.news, Offizielle Behörden & Ämter</div>
+        </footer>
     </div>
-    <div class="news-card-body">
-      <p class="news-summary">Das Einzelhandelsunternehmen Tegut hat elf Filialen in Franken verkauft. Damit verbunden sind Restrukturierungsmaßnahmen und Umfirmierungen von Standorten. Für die betroffenen Mitarbeiter wird ein Sozialplan erstellt. Die Supermarkt-Kette konzentriert sich auf Kernstandorte und modernisiert bestehende Läden. Analysten sehen dies als Teil des langjährigen Transformationsprozesses im süddeutschen Lebensmittelhandel.</p>
-      <div class="news-source">
-        <span>inFranken.de</span>
-        <a href="https://www.infranken.de/lk/" class="source-link">Mehr</a>
-      </div>
-    </div>
-  </article>
-
-  <article class="news-card">
-    <div class="news-card-header">
-      <div class="news-badges">
-        <span class="badge badge-cat blaulicht">Blaulicht</span>
-        <span class="badge badge-reg msp">Regional</span>
-      </div>
-      <h2 class="news-title">Vermisster Fall geklärt – Leiche in Main-Fluss geborgen</h2>
-    </div>
-    <div class="news-card-body">
-      <p class="news-summary">Die Polizei konnte einen längeren Vermissten-Fall aufklären: Die Leiche eines vermissten Mannes wurde am 11. Juni aus dem Main-Fluss geborgen. Die Wasserrettung barg den Leichnam unterhalb von Marktheidenfeld. Die genaue Ursache wird durch die Gerichtsmedizin geklärt. Angehörige wurden informiert. Die Ermittlungen werden eingestellt, da keine Fremdverschuldung zu erkennen ist. Die Familie erhielt psychologische Unterstützung.</p>
-      <div class="news-source">
-        <span>Main-Echo</span>
-        <a href="https://www.main-echo.de/" class="source-link">Mehr</a>
-      </div>
-    </div>
-  </article>
-
-</div>
-
-<footer class="site-footer">
-  <p><strong>Tagesnachrichten-Journal</strong> – Lohr am Main, Aschaffenburg & Main-Spessart</p>
-  <p>Aktualisierung: Montag, 16. Juni 2026 · 07:30 Uhr CEST</p>
-
-  <div class="footer-sources">
-    <h3>Quellen dieser Ausgabe</h3>
-    <ul>
-      <li><a href="https://www.main-echo.de/">Main-Echo.de</a></li>
-      <li><a href="https://www.infranken.de/">inFranken.de</a></li>
-      <li><a href="https://aschaffenburg.news/">Aschaffenburg.news</a></li>
-      <li><a href="https://www.meine-news.de/">Meine-News.de</a></li>
-      <li><a href="https://www.main-spessart.de/">Landkreis Main-Spessart</a></li>
-      <li><a href="https://api.brightsky.dev/">BrightSky API (DWD)</a></li>
-    </ul>
-  </div>
-</footer>
-
 </body>
 </html>

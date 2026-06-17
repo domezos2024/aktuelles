@@ -1,31 +1,32 @@
 # Tagesnachrichten-Journal – domezos2024/aktuelles
 
-## 2026-06-16 – 07:30 Uhr CEST
+## 2026-06-17 – 14:45 Uhr CEST
 
 ### Design
-- Schema: ocean-blue
-- Header-Gradient: #003d7a → #0066cc
-- Hintergrund: #e6f2ff
-- Karten: #f0f8ff
-- Text: #001a4d · Sub-Text: #003366
-- Akzentfarben: #0066cc (Blaulicht) · #0052a3 (Polizei) · #e74c3c (Feuer) · #3498db (Verkehr) · #8e44ad (Politik) · #27ae60 (Wirtschaft) · #c0392b (Kultur) · #16a085 (Sport) · #2980b9 (Freizeit) · #d35400 (Gesellschaft) · #2ecc71 (Gesundheit) · #34495e (Sicherheit)
-- Regions-Farben: #1a5490 (LOH) · #0d47a1 (AB) · #1565c0 (LK-AB) · #0d3d88 (MSP) · #003d7a (REG)
+- Schema: terracotta-warm
+- Header-Gradient: #c1440f → #e67e22
+- Hintergrund: #f5dcc8 + #ffe8d1 (Warm cream gradient)
+- Karten: #ffe8cc (Warm sand)
+- Text: #3d2817 · Sub-Text: #555555
+- Akzentfarben: #c1440f (Primary) · #e67e22 (Secondary) · #ffb366 (Light) · #8b5a2b (Dark) · #d2691e (Accent)
+- Badges: #ffebee (blaulicht) · #fff3e0 (verkehr) · #f3e5f5 (wirtschaft) · #e3f2fd (politik) · #fce4ec (gesellschaft) · #f1f8e9 (kultur) · #e0f2f1 (sport) · #fff9c4 (freizeit) · #f0f4c3 (sicherheit) · #fbe9e7 (gesundheit)
+- Regions-Farben: #b8860b (LOH) · #cd853f (AB) · #d2691e (LK-AB) · #8b4513 (MSP) · #a0522d (REG)
 - Layout: grid-auto-fill (responsive 320px+ Karten)
-- Wetterdaten: BrightSky API (DWD), Lohr am Main 50.0°N 9.57°E, 24h stündlich + 2-Tage-Karten
+- Wetterdaten: BrightSky API (DWD), Lohr am Main 50.0°N 9.57°E, 24h stündlich + 3-Tage-Karten
 
 ### Themen
-- KidsMarktstand Aschaffenburg junge Unternehmer Marktwagen | https://www.main-echo.de/ | freizeit | aschaffenburg
-- Schwarzfahrer ICE Hösbach Bahnhof Zugverfolgung Bundespolizei | https://www.infranken.de/lk/aschaffenburg/ | blaulicht | hösbach
-- Bundeswehr-Truppenübungen Main-Spessart Marktheidenfeld Rothenbuch Reisenbach | https://www.main-spessart.de/ | sicherheit | main-spessart
-- Verkehrssicherheitswoche Unterfranken Polizei Kontrollen Raserei Ablenkung | https://aschaffenburg.news/ | verkehr | regional
-- German Simracing Masters Aschaffenburg Smudo Gaming Motorsport | https://www.main-echo.de/ | sport | aschaffenburg
-- Weinkulturnacht Bürgstadt Weine Musik fränkisch Burgunder Silvaner | https://www.main-echo.de/ | kultur | bürgstadt
-- Linienbus Unfall Marktheidenfeld Kinder verletzt Vorfahrt | https://www.infranken.de/lk/main-spessart/uebersicht/ | blaulicht | marktheidenfeld
-- Weltblutspendertag Gesundheitsminister Plasma Sommer Spendenzahlen | https://aschaffenburg.news/ | gesundheit | bayern
-- Charity Kitchen Party Kreuzwertheim Musik Kulinarik wohltätig | https://www.main-echo.de/ | gesellschaft | kreuzwertheim
-- Tag der Abenteuer Kreuzwertheim Outdoor Klettern Bogenschießen Aktivitäten | https://www.main-echo.de/ | freizeit | kreuzwertheim
-- Werkzeugbauer Heinrichsthal schließt Versteigerung Auflösung Maschinen | https://www.infranken.de/lk/aschaffenburg/ | wirtschaft | heinrichsthal
-- LENK KOMMUNity Regensburg Klimaschutz Gemeinden Energiewende | https://aschaffenburg.news/ | politik | bayern
-- Bildschirmzeit Kleinkinder Gesundheitsminister Fernsehen Smartphone Warnung | https://aschaffenburg.news/ | gesundheit | bayern
-- Tegut Filialen verkauft Franken elf Läden Restrukturierung Einzelhandel | https://www.infranken.de/lk/ | wirtschaft | franken
-- Vermisstenfall geklärt Main-Fluss Leiche Marktheidenfeld Wasserrettung | https://www.main-echo.de/ | blaulicht | regional
+- Pfanddiebstahl Lohr am Main 400 Flaschen Polizei schnell aufgeklärt | https://aschaffenburg.news/ | blaulicht | lohr
+- Unfall Linienbus Marktheidenfeld Kinder verletzt Vorfahrt Auto | https://www.main-echo.de/ | verkehr | marktheidenfeld
+- Sachbeschädigungen Diebstähle Main-Spessart Karlstadt Arnstein Neuhütten | https://www.main-echo.de/ | blaulicht | main-spessart
+- STADTRADELN Landkreis Aschaffenburg Klima Fahrrad Juni | https://aschaffenburg.news/ | gesellschaft | aschaffenburg
+- Neue Onleihe-App Stadtbibliothek Aschaffenburg Juni Dark Mode | https://aschaffenburg.news/ | kultur | aschaffenburg
+- Landratsamt Aschaffenburg geschlossen Personalversammlung 17. Juni | https://aschaffenburg.news/ | sicherheit | aschaffenburg
+- Straßensperrungen Landkreis Aschaffenburg Juni Forstarbeiten Radweg | https://aschaffenburg.news/ | verkehr | aschaffenburg
+- Vereinszuschüsse Stadt Lohr Sport Musik Gesangsvereine 2026 | https://www.main-echo.de/ | politik | lohr
+- Finanzbericht Stadt Lohr 2025 solide Herausforderungen Kämmerer | https://www.main-echo.de/ | politik | lohr
+- Energiepreise Franken Wirtschaft Reform Mittlestan Kosten | https://aschaffenburg.news/ | wirtschaft | main-spessart
+- Privatgärten Main-Spessart öffnen Hobbygärtner Juni | https://www.main-echo.de/ | gesellschaft | main-spessart
+- Verkehrskontrollen Lohr Polizei Sicherheit Geschwindigkeit | https://aschaffenburg.news/ | verkehr | lohr
+- Tag des Laufens Lohr 3000m Lauf Juni Fitness Sport | https://www.main-echo.de/ | kultur | lohr
+- Pkw-Beschädigung REWE Tiefgarage Lohr Stoßfänger | https://www.main-echo.de/ | blaulicht | lohr
+- Wetter BrightSky DWD Lohr 26°C Bewölkt Warm Juni | https://api.brightsky.dev/ | wetter | regional
