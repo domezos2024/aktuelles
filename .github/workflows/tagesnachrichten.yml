@@ -31,6 +31,7 @@ jobs:
       - name: Tagesnachrichten – Claude Code
         uses: anthropics/claude-code-action@beta
         with:
+          mode: agent
           prompt: |
             Führe den Skill tagesnachrichten-lohr-aschaffenburg vollständig aus.
             Heute ist ${{ github.event.inputs.reason || 'automatischer Tagesstart 06:00 Uhr' }}.
