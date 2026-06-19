@@ -1,561 +1,247 @@
 <!DOCTYPE html>
 <html lang="de">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tagesnachrichten – Lohr am Main & Aschaffenburg</title>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
-            background: linear-gradient(135deg, #f5f9fc 0%, #ecf5f9 100%);
-            color: #1a3a52;
-            line-height: 1.6;
-            min-height: 100vh;
-            padding: 20px;
-        }
-
-        .container {
-            max-width: 1200px;
-            margin: 0 auto;
-        }
-
-        header {
-            background: linear-gradient(135deg, #005fa3 0%, #0099cc 100%);
-            color: white;
-            padding: 40px 30px;
-            border-radius: 12px;
-            margin-bottom: 30px;
-            box-shadow: 0 8px 24px rgba(0, 95, 163, 0.15);
-            text-align: center;
-        }
-
-        header .date-time {
-            font-size: 14px;
-            opacity: 0.95;
-            margin-bottom: 8px;
-            letter-spacing: 0.5px;
-        }
-
-        header h1 {
-            font-size: 32px;
-            font-weight: 700;
-            margin: 0;
-            letter-spacing: -0.5px;
-        }
-
-        .weather-section {
-            margin-bottom: 40px;
-        }
-
-        .weather-title {
-            font-size: 20px;
-            font-weight: 600;
-            color: #005fa3;
-            margin-bottom: 20px;
-            padding-left: 10px;
-            border-left: 4px solid #0099cc;
-        }
-
-        .weather-container {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 20px;
-            margin-bottom: 30px;
-        }
-
-        .weather-hourly {
-            background: white;
-            border-radius: 12px;
-            padding: 20px;
-            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
-            overflow-x: auto;
-        }
-
-        .weather-hourly-label {
-            font-size: 12px;
-            font-weight: 600;
-            color: #666;
-            margin-bottom: 15px;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-        }
-
-        .hourly-scroll {
-            display: flex;
-            gap: 10px;
-            min-width: max-content;
-        }
-
-        .hour-item {
-            text-align: center;
-            padding: 12px;
-            background: #f9fafb;
-            border-radius: 8px;
-            min-width: 70px;
-            font-size: 12px;
-        }
-
-        .hour-time {
-            font-weight: 600;
-            color: #005fa3;
-            margin-bottom: 6px;
-        }
-
-        .hour-temp {
-            font-size: 14px;
-            font-weight: 700;
-            color: #1a3a52;
-            margin-bottom: 4px;
-        }
-
-        .hour-condition {
-            color: #666;
-            font-size: 11px;
-        }
-
-        .weather-day {
-            background: white;
-            border-radius: 12px;
-            padding: 20px;
-            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
-        }
-
-        .day-label {
-            font-size: 12px;
-            font-weight: 600;
-            color: #666;
-            margin-bottom: 15px;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-        }
-
-        .day-items {
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            gap: 12px;
-        }
-
-        .day-item {
-            text-align: center;
-            padding: 12px;
-            background: #f9fafb;
-            border-radius: 8px;
-        }
-
-        .day-date {
-            font-weight: 600;
-            color: #005fa3;
-            margin-bottom: 8px;
-            font-size: 13px;
-        }
-
-        .day-temps {
-            font-size: 14px;
-            color: #1a3a52;
-            margin-bottom: 4px;
-        }
-
-        .day-condition {
-            color: #666;
-            font-size: 11px;
-        }
-
-        .news-title {
-            font-size: 20px;
-            font-weight: 600;
-            color: #005fa3;
-            margin-bottom: 20px;
-            margin-top: 40px;
-            padding-left: 10px;
-            border-left: 4px solid #0099cc;
-        }
-
-        .news-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
-            gap: 20px;
-            margin-bottom: 40px;
-        }
-
-        .news-card {
-            background: white;
-            border-radius: 12px;
-            padding: 24px;
-            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
-            display: flex;
-            flex-direction: column;
-            transition: box-shadow 0.2s ease;
-            border-left: 4px solid #0099cc;
-        }
-
-        .news-card:hover {
-            box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
-        }
-
-        .news-badges {
-            display: flex;
-            gap: 8px;
-            margin-bottom: 12px;
-            flex-wrap: wrap;
-        }
-
-        .badge {
-            display: inline-block;
-            font-size: 11px;
-            font-weight: 700;
-            padding: 5px 10px;
-            border-radius: 6px;
-            text-transform: uppercase;
-            letter-spacing: 0.5px;
-        }
-
-        .badge-blaulicht { background: #cfe9f3; color: #004499; }
-        .badge-verkehr { background: #fff4e6; color: #cc6600; }
-        .badge-wirtschaft { background: #f3e5f5; color: #7b1fa2; }
-        .badge-politik { background: #e3f2fd; color: #1565c0; }
-        .badge-gesellschaft { background: #e8f5e9; color: #2e7d32; }
-        .badge-kultur { background: #ffe0e6; color: #c2185b; }
-        .badge-sport { background: #e0f2f1; color: #00695c; }
-        .badge-justiz { background: #fce4ec; color: #c2185b; }
-
-        .badge-region-aschaffenburg { background: #ffe0d4; color: #cc3300; }
-        .badge-region-lohr { background: #ffcab2; color: #995500; }
-        .badge-region-main-spessart { background: #ffb39d; color: #885533; }
-        .badge-region-regional { background: #ff9a6f; color: #663322; }
-
-        .news-title-text {
-            font-size: 18px;
-            font-weight: 700;
-            color: #005fa3;
-            margin-bottom: 12px;
-            line-height: 1.4;
-        }
-
-        .news-summary {
-            font-size: 14px;
-            color: #333;
-            margin-bottom: 16px;
-            flex-grow: 1;
-            line-height: 1.6;
-        }
-
-        .news-source {
-            font-size: 12px;
-            color: #666;
-            border-top: 1px solid #e5e7eb;
-            padding-top: 12px;
-        }
-
-        .news-source a {
-            color: #0099cc;
-            text-decoration: none;
-            font-weight: 600;
-        }
-
-        .news-source a:hover {
-            color: #005fa3;
-            text-decoration: underline;
-        }
-
-        footer {
-            background: white;
-            border-radius: 12px;
-            padding: 30px;
-            text-align: center;
-            font-size: 12px;
-            color: #666;
-            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
-            border-top: 2px solid #0099cc;
-            margin-top: 40px;
-        }
-
-        footer p {
-            margin-bottom: 12px;
-        }
-
-        footer a {
-            color: #0099cc;
-            text-decoration: none;
-            font-weight: 600;
-        }
-
-        footer a:hover {
-            color: #005fa3;
-            text-decoration: underline;
-        }
-
-        .sources-list {
-            text-align: left;
-            display: inline-block;
-            margin-top: 15px;
-            padding-top: 15px;
-            border-top: 1px solid #e5e7eb;
-        }
-
-        .sources-list li {
-            margin-bottom: 6px;
-        }
-
-        @media (max-width: 768px) {
-            header h1 {
-                font-size: 24px;
-            }
-
-            .weather-container {
-                grid-template-columns: 1fr;
-            }
-
-            .day-items {
-                grid-template-columns: repeat(2, 1fr);
-            }
-
-            .news-grid {
-                grid-template-columns: 1fr;
-            }
-        }
-    </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nachrichten – Lohr am Main &amp; Aschaffenburg | 19. Juni 2026</title>
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Arial,sans-serif;background:#fef7f5;color:#3e1a1a;min-height:100vh;line-height:1.5}
+header{background:linear-gradient(135deg,#7b1d1d 0%,#c44d2e 60%,#e8815a 100%);color:#fff8f6;padding:28px 24px 24px;text-align:center}
+header .site-title{font-size:clamp(1.3rem,4vw,2.1rem);font-weight:700;letter-spacing:-0.02em;text-shadow:0 1px 3px rgba(0,0,0,.3)}
+header .site-sub{font-size:.92rem;opacity:.88;margin-top:4px}
+header .site-meta{margin-top:10px;font-size:.85rem;opacity:.72}
+main{max-width:1400px;margin:0 auto;padding:20px 16px 40px}
+.sec-head{font-size:1.05rem;font-weight:700;color:#7b1d1d;margin:24px 0 12px;padding-left:10px;border-left:4px solid #c44d2e}
+.wx-box{background:#fff8f6;border:1px solid #f0cfc5;border-radius:12px;padding:16px;margin-bottom:24px;box-shadow:0 2px 8px rgba(196,77,46,.08)}
+.wx-src{font-size:.7rem;color:#a06050;margin-bottom:12px}
+.wx-days{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-bottom:16px}
+.wx-day{background:linear-gradient(135deg,#7b1d1d,#c44d2e);color:#fff;border-radius:10px;padding:14px 16px;text-align:center}
+.wx-day .dl{font-size:.78rem;opacity:.85;font-weight:600}
+.wx-day .di{font-size:2.1rem;margin:4px 0;display:block}
+.wx-day .dt{font-size:1.08rem;font-weight:700}
+.wx-day .dc{font-size:.73rem;opacity:.85;margin-top:2px}
+.wx-scroll-wrap{overflow-x:auto;-webkit-overflow-scrolling:touch;scrollbar-width:thin;scrollbar-color:#c44d2e #f8e8e4;padding-bottom:4px}
+.wx-scroll{display:flex;gap:8px;min-width:max-content}
+.wx-h{background:#fff;border:1px solid #f0cfc5;border-radius:8px;padding:8px 10px;text-align:center;min-width:66px;font-size:.78rem}
+.wx-h.now{background:#fef0eb;border-color:#c44d2e;font-weight:700}
+.wx-h .ht{color:#a06050;font-size:.68rem;font-weight:600}
+.wx-h .hi{font-size:1.35rem;display:block;margin:2px 0}
+.wx-h .hc{font-size:.92rem;font-weight:700;color:#7b1d1d}
+.wx-h .hw{color:#a06050;font-size:.68rem;margin-top:2px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(340px,1fr));gap:16px}
+.card{background:#fff8f6;border:1px solid #f0cfc5;border-radius:12px;padding:16px 18px;box-shadow:0 2px 8px rgba(196,77,46,.07)}
+.badges{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:10px}
+.b{font-size:.66rem;font-weight:700;letter-spacing:.03em;text-transform:uppercase;padding:2px 8px;border-radius:20px}
+.b-blaulicht{background:#ffe0e0;color:#9b0000}
+.b-wirtschaft{background:#fff3cd;color:#7c5400}
+.b-politik{background:#dde9ff;color:#1a3580}
+.b-gesellschaft{background:#e8f5e9;color:#1b5e20}
+.b-verkehr{background:#fff8dc;color:#7c5c00}
+.b-kultur{background:#f3e5f5;color:#6a0080}
+.b-lohr{background:#ffdfc8;color:#7a2e00}
+.b-ab{background:#ffe6d4;color:#8b2800}
+.b-msp{background:#ffd0b8;color:#7a1a00}
+.b-reg{background:#ffc9a6;color:#6d1500}
+.b-by{background:#f8e4e4;color:#5c0000}
+.b-mil{background:#ffe8d6;color:#7d3000}
+.ct{font-size:1rem;font-weight:700;color:#3e1a1a;margin-bottom:8px;line-height:1.35}
+.cs{font-size:.86rem;color:#6b4040;line-height:1.56;margin-bottom:12px}
+.csrc{font-size:.74rem}
+.csrc a{color:#c44d2e;text-decoration:none;font-weight:600}
+.csrc a:hover{text-decoration:underline}
+footer{background:#3e1a1a;color:#d4b0a8;padding:20px 24px;text-align:center;font-size:.8rem}
+.fu{font-size:.84rem;color:#f8d5c8;font-weight:600;margin-bottom:6px}
+.fsrc{max-width:900px;margin:10px auto 0;font-size:.7rem;color:#a07060;line-height:1.7}
+.fsrc a{color:#e8a58a;text-decoration:none}
+.fsrc a:hover{text-decoration:underline}
+@media(max-width:600px){.grid{grid-template-columns:1fr}.wx-days{grid-template-columns:1fr 1fr}}
+</style>
 </head>
 <body>
-    <div class="container">
-        <header>
-            <div class="date-time">Freitag, 19. Juni 2026 · 14:32 Uhr CEST</div>
-            <h1>Nachrichten – Lohr am Main & Aschaffenburg</h1>
-        </header>
 
-        <section class="weather-section">
-            <h2 class="weather-title">🌤️ Wetter – Lohr am Main (50.0°N 9.57°E)</h2>
+<header>
+  <div class="site-title">Nachrichten – Lohr am Main &amp; Aschaffenburg</div>
+  <div class="site-sub">Main-Spessart · Region Unterfranken</div>
+  <div class="site-meta">Freitag, 19. Juni 2026 · 07:32 Uhr CEST</div>
+</header>
 
-            <div class="weather-container">
-                <div class="weather-hourly">
-                    <div class="weather-hourly-label">Heute stündlich (UTC+2 CEST)</div>
-                    <div class="hourly-scroll">
-                        <div class="hour-item">
-                            <div class="hour-time">00:00</div>
-                            <div class="hour-temp">16,9°C</div>
-                            <div class="hour-condition">Klar</div>
-                        </div>
-                        <div class="hour-item">
-                            <div class="hour-time">04:00</div>
-                            <div class="hour-temp">18,6°C</div>
-                            <div class="hour-condition">Trocken</div>
-                        </div>
-                        <div class="hour-item">
-                            <div class="hour-time">12:00</div>
-                            <div class="hour-temp">34,0°C</div>
-                            <div class="hour-condition">Sonnig</div>
-                        </div>
-                        <div class="hour-item">
-                            <div class="hour-time">18:00</div>
-                            <div class="hour-temp">31,3°C</div>
-                            <div class="hour-condition">Teilweise</div>
-                        </div>
-                        <div class="hour-item">
-                            <div class="hour-time">23:00</div>
-                            <div class="hour-temp">23,4°C</div>
-                            <div class="hour-condition">Bewölkt</div>
-                        </div>
-                    </div>
-                </div>
+<main>
 
-                <div class="weather-day">
-                    <div class="day-label">Nächste 2 Tage</div>
-                    <div class="day-items">
-                        <div class="day-item">
-                            <div class="day-date">20. Juni</div>
-                            <div class="day-temps">22–34°C</div>
-                            <div class="day-condition">Teilweise bewölkt</div>
-                        </div>
-                        <div class="day-item">
-                            <div class="day-date">21. Juni</div>
-                            <div class="day-temps">22°C+</div>
-                            <div class="day-condition">Teilweise bewölkt</div>
-                        </div>
-                        <div class="day-item">
-                            <div class="day-date">Wind</div>
-                            <div class="day-temps">5–11 m/s</div>
-                            <div class="day-condition">Konstant</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section>
-            <h2 class="news-title">📰 Top 15 Nachrichten</h2>
-
-            <div class="news-grid">
-                <article class="news-card">
-                    <div class="news-badges">
-                        <span class="badge badge-blaulicht">Blaulicht</span>
-                        <span class="badge badge-region-aschaffenburg">Aschaffenburg</span>
-                    </div>
-                    <h3 class="news-title-text">Kellerbrand mit 12 Verletzten</h3>
-                    <p class="news-summary">In Aschaffenburg ereignete sich ein schwerer Kellerbrand mit 12 Verletzten. Die Feuerwehr musste mehrere Kinder aus dem Gebäude retten. Rettungskräfte waren mit großem Aufgebot vor Ort. Der Brand stellte eine ernsthafte Herausforderung für die Einsatzkräfte dar.</p>
-                    <div class="news-source">Quelle: <a href="https://www.infranken.de/lk/aschaffenburg/blaulicht/" target="_blank">inFranken.de</a> (17. Juni)</div>
-                </article>
-
-                <article class="news-card">
-                    <div class="news-badges">
-                        <span class="badge badge-verkehr">Verkehr</span>
-                        <span class="badge badge-region-regional">Regional</span>
-                    </div>
-                    <h3 class="news-title-text">A45-Sperrung wegen Mainbrückenarbeiten</h3>
-                    <p class="news-summary">Die Autobahn A45 zwischen Mainhausen und Kleinostheim ist wegen Arbeiten an der Mainbrücke in Fahrtrichtung Gießen gesperrt. Dies führt zu erheblichen Verkehrsbehinderungen. Umleitungen wurden eingerichtet. Die Arbeiten sollten mehrere Nächte andauern.</p>
-                    <div class="news-source">Quelle: <a href="https://www.infranken.de/lk/aschaffenburg/" target="_blank">inFranken.de</a> (16. Juni)</div>
-                </article>
-
-                <article class="news-card">
-                    <div class="news-badges">
-                        <span class="badge badge-blaulicht">Blaulicht</span>
-                        <span class="badge badge-region-regional">Regional</span>
-                    </div>
-                    <h3 class="news-title-text">Messerangriff in Elsenfeld – Frau tödlich verletzt</h3>
-                    <p class="news-summary">Eine Frau wurde an einem fränkischen Bahnhof in Elsenfeld durch einen Messerangriff tödlich verletzt. Der mutmaßliche Täter ist ein Verwandter der Frau. Die Ermittlungen laufen auf Hochtouren. Der Fall erschütterte die Region tiefgreifend.</p>
-                    <div class="news-source">Quelle: <a href="https://aschaffenburg.news/nachrichten.html" target="_blank">Aschaffenburg News</a> (15. Juni)</div>
-                </article>
-
-                <article class="news-card">
-                    <div class="news-badges">
-                        <span class="badge badge-justiz">Justiz</span>
-                        <span class="badge badge-region-regional">Regional</span>
-                    </div>
-                    <h3 class="news-title-text">U-Haft für Tatverdächtigen in Elsenfeld angeordnet</h3>
-                    <p class="news-summary">Der 27-jährige Tatverdächtige im Tötungsdelikt von Elsenfeld wurde vor dem Amtsgericht Gemünden vorgeführt. Die Haftrichterin ordnete Untersuchungshaft an. Das Verfahren wird vor dem Landgericht verhandelt. Die Ermittlungen sind noch nicht abgeschlossen.</p>
-                    <div class="news-source">Quelle: <a href="https://aschaffenburg.news/blaulicht/" target="_blank">Aschaffenburg News</a> (16. Juni)</div>
-                </article>
-
-                <article class="news-card">
-                    <div class="news-badges">
-                        <span class="badge badge-blaulicht">Blaulicht</span>
-                        <span class="badge badge-region-regional">Regional</span>
-                    </div>
-                    <h3 class="news-title-text">Akkubrand bei E-Auto-Zulieferer in Karlstein</h3>
-                    <p class="news-summary">Bei einem E-Auto-Zulieferer in Karlstein kam es zu einem Großbrand, bei dem massenhaft Akkus in Flammen aufgingen. Der Millionenschaden ist erheblich. Mehrere Lagerhallen waren betroffen. Feuerwehren aus der Region waren stundenlang im Einsatz.</p>
-                    <div class="news-source">Quelle: <a href="https://www.infranken.de/lk/aschaffenburg/blaulicht/" target="_blank">inFranken.de</a> (15. Juni)</div>
-                </article>
-
-                <article class="news-card">
-                    <div class="news-badges">
-                        <span class="badge badge-blaulicht">Blaulicht</span>
-                        <span class="badge badge-region-regional">Regional</span>
-                    </div>
-                    <h3 class="news-title-text">Schwarzfahrer von ICE erfasst</h3>
-                    <p class="news-summary">Ein Schwarzfahrer wurde von einem ICE erfasst, nachdem er versucht hatte, zu Fuß weiterzugehen. Der Unfall ereignete sich in Hösbach. Die Bahnstrecke war zeitweise blockiert. Die Bundespolizei ermittelt zum Unfallhergang.</p>
-                    <div class="news-source">Quelle: <a href="https://www.infranken.de/lk/aschaffenburg/" target="_blank">inFranken.de</a> (15. Juni)</div>
-                </article>
-
-                <article class="news-card">
-                    <div class="news-badges">
-                        <span class="badge badge-blaulicht">Blaulicht</span>
-                        <span class="badge badge-region-regional">Regional</span>
-                    </div>
-                    <h3 class="news-title-text">Hund vor Lidl-Filiale gestohlen</h3>
-                    <p class="news-summary">Ein Hund wurde vor einer Lidl-Filiale in Schöllkrippen entwendet. Zeugen berichteten von einem weißen Van am Ort des Geschehens. Die Polizei sucht weitere Hinweise. Der Fall wurde zur Anzeige gebracht.</p>
-                    <div class="news-source">Quelle: <a href="https://www.meine-news.de/landkreis-aschaffenburg/" target="_blank">Meine-News.de</a> (14. Juni)</div>
-                </article>
-
-                <article class="news-card">
-                    <div class="news-badges">
-                        <span class="badge badge-kultur">Kultur</span>
-                        <span class="badge badge-region-main-spessart">Main-Spessart</span>
-                    </div>
-                    <h3 class="news-title-text">Klangbogenfestival in Marktheidenfeld</h3>
-                    <p class="news-summary">Marktheidenfeld präsentiert die Premiere des Klangbogenfestivals mit neuem Format. "Udo West" ist als Headliner bestätigt. Das Festival findet auf dem Martinsbräu-Gelände statt. Dies ist eine Neuveranstaltung für die Region mit großem Potenzial.</p>
-                    <div class="news-source">Quelle: <a href="https://www.main-echo.de/region/kreis-main-spessart/" target="_blank">Main-Echo</a> (19. Juni)</div>
-                </article>
-
-                <article class="news-card">
-                    <div class="news-badges">
-                        <span class="badge badge-justiz">Justiz</span>
-                        <span class="badge badge-region-main-spessart">Main-Spessart</span>
-                    </div>
-                    <h3 class="news-title-text">Mordprozess Sabine B. vor Gericht</h3>
-                    <p class="news-summary">Der Mordprozess um den Cold Case "Sabine B." aus Wiesenfeld wird vor dem Landgericht Würzburg verhandelt. Der sechste Verhandlungstag fand statt. Die Beweise werden akribisch analysiert. Der Fall erregt weiterhin großes öffentliches Interesse.</p>
-                    <div class="news-source">Quelle: <a href="https://www.main-echo.de/region/kreis-main-spessart/" target="_blank">Main-Echo</a> (19. Juni)</div>
-                </article>
-
-                <article class="news-card">
-                    <div class="news-badges">
-                        <span class="badge badge-politik">Politik</span>
-                        <span class="badge badge-region-lohr">Lohr</span>
-                    </div>
-                    <h3 class="news-title-text">Konflikt um Klinikum Main-Spessart</h3>
-                    <p class="news-summary">Es gibt Auseinandersetzungen um einen Ablehnungsbescheid für das Klinikum Main-Spessart. Die medizinische Versorgung in der Region steht zur Diskussion. Kommunale Entscheidungsträger suchen nach Lösungen. Der Konflikt hat sich in den letzten Wochen verschärft.</p>
-                    <div class="news-source">Quelle: <a href="https://www.main-echo.de/" target="_blank">Main-Echo</a> (19. Juni)</div>
-                </article>
-
-                <article class="news-card">
-                    <div class="news-badges">
-                        <span class="badge badge-politik">Politik</span>
-                        <span class="badge badge-region-regional">National</span>
-                    </div>
-                    <h3 class="news-title-text">Bayern führend bei Solarenergie-Ausschreibungen</h3>
-                    <p class="news-summary">Bayern ist bei Solarenergie-Ausschreibungen federführend und erhielt 40% aller bundesweiten Zuschläge. Wirtschaftsminister Aiwanger treibt die Erneuerbaren Energien konsequent voran. Dies zeigt Bayerns Engagement für klimafreundliche Energie. Die Quote ist bedeutsam für Deutschlands Energiewende.</p>
-                    <div class="news-source">Quelle: <a href="https://aschaffenburg.news/" target="_blank">Aschaffenburg News</a> (16. Juni)</div>
-                </article>
-
-                <article class="news-card">
-                    <div class="news-badges">
-                        <span class="badge badge-politik">Politik</span>
-                        <span class="badge badge-region-regional">National</span>
-                    </div>
-                    <h3 class="news-title-text">Abschiebung von 14 afghanischen Straftätern</h3>
-                    <p class="news-summary">Innenminister Herrmann begrüßt die erfolgreiche Abschiebung von 14 afghanischen Straftätern aus Bayern. Dies ist Teil der Asylwende. Rückführungen straffälliger Personen sind zentral für die Sicherheitspolitik. Bayern setzt damit neue Standards in der Innenpolitik.</p>
-                    <div class="news-source">Quelle: <a href="https://aschaffenburg.news/" target="_blank">Aschaffenburg News</a> (16. Juni)</div>
-                </article>
-
-                <article class="news-card">
-                    <div class="news-badges">
-                        <span class="badge badge-politik">Politik</span>
-                        <span class="badge badge-region-aschaffenburg">Aschaffenburg</span>
-                    </div>
-                    <h3 class="news-title-text">Aktionsplan für Menschen mit Behinderung</h3>
-                    <p class="news-summary">Der Landkreis Aschaffenburg beschloss einen umfassenden Aktionsplan für Menschen mit Behinderung. 47 konkrete Maßnahmen zur Förderung einer inklusiven Lebenswelt wurden vereinbart. Der Plan wurde im Sozialausschuss verabschiedet. Dies stärkt die Inklusion in der Region nachhaltig.</p>
-                    <div class="news-source">Quelle: <a href="https://aschaffenburg.news/" target="_blank">Aschaffenburg News</a> (16. Juni)</div>
-                </article>
-
-                <article class="news-card">
-                    <div class="news-badges">
-                        <span class="badge badge-wirtschaft">Wirtschaft</span>
-                        <span class="badge badge-region-main-spessart">Main-Spessart</span>
-                    </div>
-                    <h3 class="news-title-text">Nahwärmenetz-Projekt Steinfeld scheitert</h3>
-                    <p class="news-summary">Das Nahwärmenetz-Projekt für Steinfeld ist gescheitert. Zu wenige Hausbesitzer signalisierten Anschlussbereitschaft. Die Bewerbungsfrist für eine Neuauflage läuft bis 30. September. Dies ist ein Rückschlag für nachhaltige Wärmeverversorgung in der Gemeinde.</p>
-                    <div class="news-source">Quelle: <a href="https://www.main-echo.de/" target="_blank">Main-Echo</a> (19. Juni)</div>
-                </article>
-
-                <article class="news-card">
-                    <div class="news-badges">
-                        <span class="badge badge-verkehr">Verkehr</span>
-                        <span class="badge badge-region-lohr">Lohr</span>
-                    </div>
-                    <h3 class="news-title-text">Verkehrsunfall Lohr – Urteil gesprochen</h3>
-                    <p class="news-summary">Das Amtsgericht Gemünden hat ein Urteil im Verkehrsunfallfall an der Mainlände in Lohr gesprochen. Eine Frau war angefahren worden. Das Urteil berücksichtigt alle ermittelten Umstände. Der Fall ist damit erstinstanzlich abgeschlossen.</p>
-                    <div class="news-source">Quelle: <a href="https://www.main-echo.de/" target="_blank">Main-Echo</a> (19. Juni)</div>
-                </article>
-            </div>
-        </section>
-
-        <footer>
-            <p><strong>Aktualisierung:</strong> Freitag, 19. Juni 2026 · 14:32 Uhr CEST</p>
-            <p>Nachrichten-Sammlung für Lohr am Main, Aschaffenburg und Landkreis Main-Spessart</p>
-            <div class="sources-list">
-                <strong>Quellen:</strong>
-                <ul>
-                    <li><a href="https://www.infranken.de/lk/aschaffenburg/" target="_blank">inFranken.de – Aschaffenburg</a></li>
-                    <li><a href="https://www.main-echo.de/" target="_blank">Main-Echo</a></li>
-                    <li><a href="https://aschaffenburg.news/" target="_blank">Aschaffenburg News</a></li>
-                    <li><a href="https://www.meine-news.de/" target="_blank">Meine-News.de</a></li>
-                    <li><a href="https://api.brightsky.dev/" target="_blank">BrightSky API (DWD-Wetterdaten)</a></li>
-                </ul>
-            </div>
-        </footer>
+<div class="sec-head">Wetter Lohr am Main (50.0°N · 9.57°E · BrightSky/DWD)</div>
+<div class="wx-box">
+  <div class="wx-src">Quelle: BrightSky API · DWD-Rohdaten · Alle Zeiten CEST (UTC+2)</div>
+  <div class="wx-days">
+    <div class="wx-day">
+      <div class="dl">Heute &ndash; Fr. 19.06.</div>
+      <span class="di">⛅</span>
+      <div class="dt">↓ 16 °C &nbsp;·&nbsp; ↑ 35 °C</div>
+      <div class="dc">Klar bis teils bewölkt · Trocken</div>
+      <div class="dc" style="margin-top:4px;font-size:.69rem;opacity:.8">💨 max. 40 km/h SW · Regenwahrsch. &lt;15%</div>
     </div>
+    <div class="wx-day">
+      <div class="dl">Morgen &ndash; Sa. 20.06.</div>
+      <span class="di">⛅</span>
+      <div class="dt">↓ 21 °C &nbsp;·&nbsp; ↑ 34 °C</div>
+      <div class="dc">Teils bewölkt · Trocken</div>
+      <div class="dc" style="margin-top:4px;font-size:.69rem;opacity:.8">💨 max. 47 km/h SW · Regenwahrsch. &lt;3%</div>
+    </div>
+  </div>
+  <div class="wx-scroll-wrap">
+    <div class="wx-scroll">
+      <div class="wx-h"><div class="ht">02:00</div><span class="hi">🌙</span><div class="hc">17°C</div><div class="hw">0 km/h</div></div>
+      <div class="wx-h"><div class="ht">03:00</div><span class="hi">🌙</span><div class="hc">16°C</div><div class="hw">0 km/h</div></div>
+      <div class="wx-h"><div class="ht">04:00</div><span class="hi">🌙</span><div class="hc">16°C</div><div class="hw">8 km/h</div></div>
+      <div class="wx-h"><div class="ht">05:00</div><span class="hi">🌙</span><div class="hc">16°C</div><div class="hw">8 km/h</div></div>
+      <div class="wx-h"><div class="ht">06:00</div><span class="hi">☀️</span><div class="hc">16°C</div><div class="hw">0 km/h</div></div>
+      <div class="wx-h now"><div class="ht">07:00 ◀</div><span class="hi">☀️</span><div class="hc">20°C</div><div class="hw">13 km/h</div></div>
+      <div class="wx-h"><div class="ht">08:00</div><span class="hi">☀️</span><div class="hc">22°C</div><div class="hw">13 km/h</div></div>
+      <div class="wx-h"><div class="ht">09:00</div><span class="hi">☀️</span><div class="hc">25°C</div><div class="hw">20 km/h</div></div>
+      <div class="wx-h"><div class="ht">10:00</div><span class="hi">☀️</span><div class="hc">27°C</div><div class="hw">27 km/h</div></div>
+      <div class="wx-h"><div class="ht">11:00</div><span class="hi">☀️</span><div class="hc">30°C</div><div class="hw">27 km/h</div></div>
+      <div class="wx-h"><div class="ht">12:00</div><span class="hi">☀️</span><div class="hc">32°C</div><div class="hw">33 km/h</div></div>
+      <div class="wx-h"><div class="ht">13:00</div><span class="hi">☀️</span><div class="hc">33°C</div><div class="hw">33 km/h</div></div>
+      <div class="wx-h"><div class="ht">14:00</div><span class="hi">⛅</span><div class="hc">34°C</div><div class="hw">40 km/h</div></div>
+      <div class="wx-h"><div class="ht">15:00</div><span class="hi">⛅</span><div class="hc">35°C</div><div class="hw">40 km/h</div></div>
+      <div class="wx-h"><div class="ht">16:00</div><span class="hi">⛅</span><div class="hc">35°C</div><div class="hw">40 km/h</div></div>
+      <div class="wx-h"><div class="ht">17:00</div><span class="hi">⛅</span><div class="hc">35°C</div><div class="hw">40 km/h</div></div>
+      <div class="wx-h"><div class="ht">18:00</div><span class="hi">⛅</span><div class="hc">33°C</div><div class="hw">40 km/h</div></div>
+      <div class="wx-h"><div class="ht">19:00</div><span class="hi">⛅</span><div class="hc">31°C</div><div class="hw">33 km/h</div></div>
+      <div class="wx-h"><div class="ht">20:00</div><span class="hi">⛅</span><div class="hc">29°C</div><div class="hw">27 km/h</div></div>
+      <div class="wx-h"><div class="ht">21:00</div><span class="hi">⛅</span><div class="hc">27°C</div><div class="hw">27 km/h</div></div>
+      <div class="wx-h"><div class="ht">22:00</div><span class="hi">🌤️</span><div class="hc">25°C</div><div class="hw">20 km/h</div></div>
+      <div class="wx-h"><div class="ht">23:00</div><span class="hi">🌤️</span><div class="hc">24°C</div><div class="hw">20 km/h</div></div>
+      <div class="wx-h"><div class="ht">00:00</div><span class="hi">🌤️</span><div class="hc">24°C</div><div class="hw">20 km/h</div></div>
+      <div class="wx-h"><div class="ht">01:00</div><span class="hi">☁️</span><div class="hc">23°C</div><div class="hw">20 km/h</div></div>
+    </div>
+  </div>
+</div>
+
+<div class="sec-head">Aktuelle Meldungen (Stand: Freitag, 19. Juni 2026 · 07:32 Uhr CEST)</div>
+<div class="grid">
+
+  <div class="card">
+    <div class="badges"><span class="b b-wirtschaft">Wirtschaft</span><span class="b b-lohr">Lohr a.M.</span></div>
+    <div class="ct">Traditionsunternehmen Hunger Hydraulik meldet nach 68 Jahren Insolvenz an</div>
+    <div class="cs">Die Walter Hunger GmbH &amp; Co. KG – seit 1958 in Lohr am Main ansässiger Hersteller von Hydraulikzylindern – hat Insolvenz angemeldet; das Amtsgericht Würzburg eröffnete das Verfahren offiziell zum 1. Juni 2026. Das rund 100 Mitarbeitende zählende Familienunternehmen kämpft mit massivem Preisdruck durch chinesische Konkurrenz sowie gestiegenen Rohstoffkosten infolge von Importzöllen. Trotz der schwierigen Lage läuft der Betrieb während des Sanierungsverfahrens uneingeschränkt weiter, und Geschäftsführer Jan Hunger gibt sich optimistisch: „Ich glaube an unseren langfristigen Erfolg." Die übergeordnete Hunger-Gruppe mit 14 Unternehmen weltweit ist von der Insolvenz nicht betroffen.</div>
+    <div class="csrc">Quelle: <a href="https://www.infranken.de/lk/main-spessart/industriebetrieb-hunger-hydraulik-ist-insolvent-68-jaehrige-geschichte-art-6368165" target="_blank" rel="noopener">infranken.de</a></div>
+  </div>
+
+  <div class="card">
+    <div class="badges"><span class="b b-blaulicht">Blaulicht</span><span class="b b-msp">Main-Spessart</span></div>
+    <div class="ct">Schwerer Frontalunfall auf B276 bei Lohr: Frau eingeklemmt, Rettungshubschrauber im Einsatz</div>
+    <div class="cs">Am Donnerstag, 18. Juni 2026, gegen 08:30 Uhr kam es auf der Bundesstraße 276 zwischen Lohr am Main und Partenstein zu einem schweren Frontalzusammenstoß. Eine 43-jährige Seat-Fahrerin geriet aus ungeklärter Ursache auf die Gegenfahrbahn und prallte frontal mit einem Mercedes-Sattelzug zusammen; die Frau wurde in ihrem Fahrzeug eingeklemmt und musste von der Feuerwehr befreit werden. Ein Rettungshubschrauber transportierte sie schwer verletzt in eine Klinik, während der 37-jährige Lkw-Fahrer mit leichten Verletzungen per Rettungswagen versorgt wurde. Die B276 war für mehrere Stunden vollständig gesperrt; zur Unfallaufnahme wurde ein Sachverständiger hinzugezogen.</div>
+    <div class="csrc">Quelle: <a href="https://sw1.news/notruf-schweinfurt/schwerer-verkehrsunfall-auf-der-b276-bei-lohr-am-mainr" target="_blank" rel="noopener">sw1.news</a></div>
+  </div>
+
+  <div class="card">
+    <div class="badges"><span class="b b-politik">Politik</span><span class="b b-ab">Aschaffenburg</span></div>
+    <div class="ct">„Sozialer Aufstand" plant Großdemo am 27. Juni auf dem Theaterparkplatz Aschaffenburg</div>
+    <div class="cs">Die neue Bewegung „Sozialer Aufstand" hielt am vergangenen Sonntag ihren ersten Vorbereitungsrat in Aschaffenburg ab – rund 40 Teilnehmende aus verschiedenen Berufsgruppen erarbeiteten gemeinsame Forderungen: Schutz des 8-Stunden-Arbeitstags, Rückführung des Gesundheitssystems in öffentliche Hand, Deckelung der Kraftstoffpreise sowie Umwidmung eines 500-Milliarden-Fonds von Rüstung zu sozialen Zwecken. Die Hauptdemonstration findet am 27. Juni 2026 ab 13 Uhr auf dem Theaterparkplatz statt; IG-Metall-Bevollmächtigter Percy Scheidler ist als Redner angekündigt. Parallel findet eine Kundgebung in Miltenberg am Lindenplatz um 10 Uhr statt.</div>
+    <div class="csrc">Quelle: <a href="https://www.meine-news.de/aschaffenburg/c-politik/sozialprotest-in-aschaffenburg-startet-mit-starkem-signal_a237391" target="_blank" rel="noopener">meine-news.de</a></div>
+  </div>
+
+  <div class="card">
+    <div class="badges"><span class="b b-verkehr">Verkehr</span><span class="b b-ab">Aschaffenburg</span></div>
+    <div class="ct">Stadtrat genehmigt Neubau der Nilkheimer Bahnunterführung – ein Jahr Vollsperrung ab Sommer 2027</div>
+    <div class="cs">Im dritten Anlauf hat der Aschaffenburger Stadtrat den Neubau der Bahnunterführung an der Großostheimer Straße in Nilkheim beschlossen – das Bauwerk gilt als „zu eng, zu niedrig und vor allem zu alt" und muss vollständig abgerissen werden. Der überarbeitete Entwurf ist kostengünstiger und sieht während der Bauzeit eine Alternativroute für den Busverkehr vor; die rund einjährige Vollsperrung beginnt im Sommer 2027. Stadtrat Josef Taudte (CSU) mahnte an, der Neubau dürfe nicht dazu führen, dass Nilkheim als Umfahrungsroute für den Schwerlastverkehr genutzt werde. Das Projekt ist der dritte Versuch, den seit Jahren als gefährlich und unterdimensioniert eingestuften Engpass zu beseitigen.</div>
+    <div class="csrc">Quelle: <a href="https://www.main-echo.de/region/stadt-kreis-aschaffenburg/aschaffenburger-stadtrat-macht-den-weg-fuer-neue-unterfuehrung-in-nilkheim-frei-ein-jahr-vollsperrung-art-8737288" target="_blank" rel="noopener">main-echo.de</a></div>
+  </div>
+
+  <div class="card">
+    <div class="badges"><span class="b b-verkehr">Verkehr</span><span class="b b-reg">Regional</span></div>
+    <div class="ct">Hösbach: Hauptstraße B26 öffnet nach elf Jahren Bauzeit am 26. Juni wieder für den Verkehr</div>
+    <div class="cs">Die jahrelange Großbaustelle an der Ortsdurchfahrt Hösbach nähert sich dem Ende: Die aufwendige Neugestaltung der Bundesstraße 26 soll bereits am 26. Juni 2026 für den Verkehr freigegeben werden. Rund 12 Millionen Euro wurden investiert, um die Hauptstraße barrierefrei auszubauen, Gehwege und Bushaltestellen zu erneuern sowie Wasser-, Abwasser-, Gas- und Breitbandleitungen zu modernisieren. Die Maßnahme erstreckte sich über mehrere Bauabschnitte und war immer wieder durch Winterpausen und technische Schwierigkeiten verzögert worden. Vor-und-Nachher-Aufnahmen zeigen, wie dramatisch sich das Ortsbild nach elf Baujahren verändert hat.</div>
+    <div class="csrc">Quelle: <a href="https://www.main-echo.de/region/stadt-kreis-aschaffenburg/" target="_blank" rel="noopener">main-echo.de</a></div>
+  </div>
+
+  <div class="card">
+    <div class="badges"><span class="b b-gesellschaft">Gesellschaft</span><span class="b b-reg">Regional</span></div>
+    <div class="ct">Evangelischer Kirchengemeinde Mainaschaff droht Verkauf des Gemeindezentrums</div>
+    <div class="cs">Der evangelisch-lutherischen Kirchengemeinde St. Markus in Mainaschaff droht aufgrund sinkender Mitgliederzahlen und rückläufiger Einnahmen der Verkauf ihres Gemeindezentrums an der Senne. Das in den 1970er-Jahren erbaute Gebäude ist Mittelpunkt des kirchlichen Lebens und beherbergt Gruppen und Veranstaltungsräume. Für den 21. Juni 2026 wurde eine Gemeindeversammlung einberufen, bei der Mitglieder über die Zukunft des Hauses und mögliche Alternativen diskutieren können. Die Situation spiegelt den bundesweiten Trend des Mitgliederrückgangs wider, der viele Gemeinden vor existenzielle Entscheidungen stellt.</div>
+    <div class="csrc">Quelle: <a href="https://www.main-echo.de/" target="_blank" rel="noopener">main-echo.de</a></div>
+  </div>
+
+  <div class="card">
+    <div class="badges"><span class="b b-kultur">Kultur</span><span class="b b-mil">Miltenberg</span></div>
+    <div class="ct">Knappes Votum: Miltenberger Stadtrat genehmigt Neuausrichtung des Burgmuseums</div>
+    <div class="cs">Mit knapper Mehrheit hat der Miltenberger Stadtrat die Neuausrichtung des Burgmuseums auf der Mildenburg beschlossen: Das bislang als Kunstmuseum genutzte Gebäude soll zu einem zweiten historischen Museum umgewandelt werden. Es beherbergt derzeit Kunstwerke aus dem Bistum Würzburg – russische, griechische und rumänische Ikonen sowie Werke von Ernst Barlach, Joseph Beuys und Sigmar Polke. Kritiker befürchten, der Landkreis verliere damit einen der wenigen Hochkultur-Räume der Region; für die Neuausrichtung sind rund 250.000 Euro veranschlagt. Ein genauer Zeitplan für die Umsetzung steht noch aus.</div>
+    <div class="csrc">Quelle: <a href="https://www.main-echo.de/" target="_blank" rel="noopener">main-echo.de</a></div>
+  </div>
+
+  <div class="card">
+    <div class="badges"><span class="b b-blaulicht">Blaulicht</span><span class="b b-msp">Main-Spessart</span></div>
+    <div class="ct">Kennzeichen an A3-Rastplatz Kohlsberg Süd gestohlen – Polizei sucht Zeugen</div>
+    <div class="cs">Am Dienstag, 17. Juni 2026, zwischen 12:30 und 13:00 Uhr wurde am Rastplatz Kohlsberg Süd an der A3 bei Marktheidenfeld das vordere Kennzeichen eines Audi A5 entwendet. Solche Diebstähle werden häufig begangen, um die Schilder für weitere Straftaten wie Tankbetrug oder zur Verschleierung von Unfallfluchten zu missbrauchen. Zeugen, die verdächtige Personen oder Fahrzeuge beobachtet haben, werden gebeten, sich bei der Verkehrspolizei Aschaffenburg-Hösbach (Tel. 06021/857-2530) zu melden. Der Vorfall zeigt, dass Reisende auf Raststätten ihre abgestellten Fahrzeuge im Auge behalten sollten.</div>
+    <div class="csrc">Quelle: <a href="https://www.meine-news.de/marktheidenfeld/c-blaulicht/marktheidenfeld-kennzeichen-entwendet_a237349" target="_blank" rel="noopener">meine-news.de</a></div>
+  </div>
+
+  <div class="card">
+    <div class="badges"><span class="b b-politik">Politik</span><span class="b b-by">Bayern</span></div>
+    <div class="ct">Bayern und Österreich als starke Partner für Europas industrielle Zukunft</div>
+    <div class="cs">Bayerns Wirtschaftsminister hat die enge Partnerschaft zwischen Bayern und Österreich als zentralen Pfeiler der europäischen Industriestrategie bekräftigt. Beide Seiten betonen die Notwendigkeit grenzüberschreitender Zusammenarbeit in Automobilindustrie, Maschinenbau und Energiewende, um im globalen Wettbewerb bestehen zu können. Durch gemeinsame Initiativen sollen Innovationskraft gestärkt, Lieferketten resilienter gestaltet und der Übergang zur klimaneutralen Industrie beschleunigt werden. Der Landkreis Aschaffenburg mit seinen mittelständischen Industrie- und Zulieferbetrieben profitiert direkt von dieser grenzüberschreitenden Wirtschaftspolitik.</div>
+    <div class="csrc">Quelle: <a href="https://aschaffenburg.news/politik/" target="_blank" rel="noopener">aschaffenburg.news</a></div>
+  </div>
+
+  <div class="card">
+    <div class="badges"><span class="b b-politik">Politik</span><span class="b b-by">Bayern</span></div>
+    <div class="ct">Glauber kündigt stärkeren Allergiker-Schutz in bayerischen Gaststätten an</div>
+    <div class="cs">Bayerns Umwelt- und Verbraucherschutzminister Thorsten Glauber hat angekündigt, die Kennzeichnungspflichten für Allergene in der Gastronomie zu verschärfen: Restaurants sollen noch klarer und verständlicher über enthaltene Allergene informieren müssen. Lebensmittelallergien betreffen schätzungsweise sechs Millionen Menschen in Deutschland, für die ein Restaurantbesuch im schlimmsten Fall lebensbedrohlich sein kann. Das Bayerische Landesamt für Gesundheit und Lebensmittelsicherheit (LGL) soll die Umsetzung verstärkt kontrollieren und Betriebe beraten. Auch Gastronomiebetriebe in Aschaffenburg und dem Landkreis Main-Spessart sind an die neuen Vorgaben gebunden.</div>
+    <div class="csrc">Quelle: <a href="https://aschaffenburg.news/politik/" target="_blank" rel="noopener">aschaffenburg.news</a></div>
+  </div>
+
+  <div class="card">
+    <div class="badges"><span class="b b-gesellschaft">Gesellschaft</span><span class="b b-ab">Aschaffenburg</span></div>
+    <div class="ct">Tag der offenen Tür an der Hochschule Aschaffenburg: Werkstoffwissenschaft für nachhaltige Industrie</div>
+    <div class="cs">Die Technische Hochschule Aschaffenburg lädt morgen, am 20. Juni 2026, von 12 bis 17 Uhr zum Tag der offenen Tür ein und stellt dabei den Studiengang Angewandte Werkstoffwissenschaft vor, der Expertinnen und Experten für die Entwicklung nachhaltiger Materialien ausbildet. Alle drei Fakultäten – Gesundheit und Soziales, Ingenieurwissenschaften sowie Wirtschaft und Recht – präsentieren ihr Angebot an Infoständen und in Vorträgen. Interaktive Experimente ermöglichen Besucherinnen und Besuchern jeder Altersgruppe einen spielerischen Einblick in Forschung und Lehre. Die Veranstaltung richtet sich besonders an Schülerinnen, Schüler und Studieninteressierte aus der Region Bayerischer Untermain.</div>
+    <div class="csrc">Quelle: <a href="https://www.meine-news.de/aschaffenburg/c-schule-und-bildung/wie-muessen-die-materialien-der-zukunft-aussehen_a237136" target="_blank" rel="noopener">meine-news.de</a></div>
+  </div>
+
+  <div class="card">
+    <div class="badges"><span class="b b-gesellschaft">Gesellschaft</span><span class="b b-ab">Aschaffenburg</span></div>
+    <div class="ct">STADTRADELN 2026: Landkreis Aschaffenburg radelt noch bis 28. Juni</div>
+    <div class="cs">Der Landkreis Aschaffenburg nimmt vom 8. bis 28. Juni 2026 an der bundesweiten Kampagne STADTRADELN teil und ruft Bürgerinnen, Bürger, Schulen und Betriebe auf, möglichst viele Alltagskilometer mit dem Fahrrad zurückzulegen und online einzutragen. Die Aktion demonstriert, wie viel Alltagsverkehr klimafreundlich mit dem Rad erledigt werden kann. Sonderwertungen gibt es für Teams aus Unternehmen, Schulen und Vereinen. Noch bis zum 28. Juni lohnt es sich, das Rad für kürzere Strecken einzusetzen und Punkte für den Landkreis zu sammeln.</div>
+    <div class="csrc">Quelle: <a href="https://www.landkreis-aschaffenburg.de/" target="_blank" rel="noopener">landkreis-aschaffenburg.de</a></div>
+  </div>
+
+  <div class="card">
+    <div class="badges"><span class="b b-gesellschaft">Gesellschaft</span><span class="b b-by">Bayern</span></div>
+    <div class="ct">Bayern startet Initiative für mehr digitale Balance bei Kindern und Jugendlichen</div>
+    <div class="cs">Eine neue bayerische Landesinitiative zielt darauf ab, Kindern und Jugendlichen einen bewussteren Umgang mit Smartphones und sozialen Medien beizubringen, nachdem Studien zeigen, dass junge Menschen täglich mehrere Stunden online verbringen – mit teils negativen Folgen für Schlaf, Konzentration und soziale Beziehungen. Das Programm setzt auf Aufklärung in Schulen, Elternberatung und freiwillige „digitale Auszeiten". Expertinnen und Experten aus Pädagogik und Medizin begleiten die Initiative wissenschaftlich. Schulen in Aschaffenburg und Main-Spessart können ab sofort Fortbildungsangebote und Unterrichtsmaterialien nutzen.</div>
+    <div class="csrc">Quelle: <a href="https://aschaffenburg.news/politik/" target="_blank" rel="noopener">aschaffenburg.news</a></div>
+  </div>
+
+  <div class="card">
+    <div class="badges"><span class="b b-politik">Politik</span><span class="b b-reg">Regional</span></div>
+    <div class="ct">Energieversorgungssicherheit: Unterfranken-Runder-Tisch mit Behörden und Netzbetreibern</div>
+    <div class="cs">Vertreter aus Kommunen, Energieversorgungsunternehmen, Netzbetreibern und Sicherheitsbehörden kamen in Unterfranken zu einem Runden Tisch zur Energieversorgungssicherheit zusammen. Anlass ist die wachsende Bedeutung resilienter Infrastrukturen vor dem Hintergrund geopolitischer Spannungen und des rasanten Ausbaus erneuerbarer Energien. Diskutiert wurden der Schutz kritischer Infrastrukturen wie Umspannwerke und Leitungsnetze sowie Notfallpläne für großflächige Stromausfälle. Für Aschaffenburg und den Landkreis Main-Spessart ergeben sich konkrete Maßnahmen zur Netzstabilisierung und zur Investition in dezentrale Energiespeicher.</div>
+    <div class="csrc">Quelle: <a href="https://aschaffenburg.news/politik/" target="_blank" rel="noopener">aschaffenburg.news</a></div>
+  </div>
+
+  <div class="card">
+    <div class="badges"><span class="b b-kultur">Kultur</span><span class="b b-ab">Aschaffenburg</span></div>
+    <div class="ct">27. Aschaffenburger Kulturtage: Programm für den 2.–12. Juli 2026 veröffentlicht</div>
+    <div class="cs">Die Aschaffenburger Kulturtage gehen in ihre 27. Auflage: Vom 2. bis 12. Juli 2026 verwandelt sich die Stadt am Main in eine Bühne für Theater, Musik, Literatur und Bildende Kunst. Das vom Kulturamt kuratierte Festival bringt Künstlerinnen und Künstler aus der Region und ganz Deutschland zusammen; das vollständige Programm ist nun veröffentlicht und umfasst kostenlose Open-Air-Veranstaltungen sowie Abendprogramme an verschiedenen Spielstätten. Tickets für Hauptveranstaltungen sind ab sofort erhältlich. Das Festival ist eine der ältesten und beliebtesten Kulturveranstaltungen im Bayerischen Untermain und zieht jedes Jahr Tausende Besucherinnen und Besucher aus der gesamten Region an.</div>
+    <div class="csrc">Quelle: <a href="https://kulturtage.kulturamt-aschaffenburg.de/" target="_blank" rel="noopener">kulturtage.kulturamt-aschaffenburg.de</a></div>
+  </div>
+
+</div>
+</main>
+
+<footer>
+  <div class="fu">Aktualisierung: Freitag, 19. Juni 2026 · 07:32 Uhr CEST</div>
+  <div>Wetterdaten: BrightSky API (DWD-Rohdaten) · Lohr am Main 50.0°N 9.57°E · Zeiten CEST (UTC+2)</div>
+  <div class="fsrc">
+    Quellen:
+    <a href="https://www.infranken.de" target="_blank" rel="noopener">infranken.de</a> ·
+    <a href="https://www.main-echo.de" target="_blank" rel="noopener">main-echo.de</a> ·
+    <a href="https://www.meine-news.de" target="_blank" rel="noopener">meine-news.de</a> ·
+    <a href="https://aschaffenburg.news" target="_blank" rel="noopener">aschaffenburg.news</a> ·
+    <a href="https://sw1.news" target="_blank" rel="noopener">sw1.news</a> ·
+    <a href="https://kulturtage.kulturamt-aschaffenburg.de" target="_blank" rel="noopener">kulturtage.kulturamt-aschaffenburg.de</a> ·
+    <a href="https://www.landkreis-aschaffenburg.de" target="_blank" rel="noopener">landkreis-aschaffenburg.de</a>
+  </div>
+</footer>
+
 </body>
 </html>
