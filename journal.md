@@ -1,8 +1,6 @@
 # Tagesnachrichten-Journal – domezos2024/aktuelles
 
-## 2026-06-19 – 14:32 Uhr CEST
-
-### Design
+## Design – 2026-06-19 – 14:32 Uhr CEST
 - Schema: oceanic-fresh
 - Header-Gradient: #005fa3 → #0099cc
 - Hintergrund: #f5f9fc + #ecf5f9 (Kühles Blau-Weiß-Gradient)
@@ -14,7 +12,11 @@
 - Layout: grid-auto-fill (responsive 350px+ Karten)
 - Wetterdaten: BrightSky API (DWD), Lohr am Main 50.0°N 9.57°E, 24h stündlich + 2-Tages-Karten
 
-### Themen
+---
+
+## Themen-Archiv (letzte 10 Tage – NICHT wiederholen!)
+
+### 2026-06-19
 - Kellerbrand Aschaffenburg 12 Verletzte Feuerwehr Rettungsaktion | https://www.infranken.de/lk/aschaffenburg/blaulicht/ | blaulicht | aschaffenburg
 - A45-Sperrung Mainbrücke Kleinostheim Arbeiten Umleitungen | https://www.infranken.de/lk/aschaffenburg/ | verkehr | regional
 - Messerangriff Elsenfeld Frau tödlich verletzt Bahnhof | https://aschaffenburg.news/nachrichten.html | blaulicht | regional
