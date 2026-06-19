@@ -8,8 +8,9 @@ WORKSPACE: GitHub: domezos2024/aktuelles branch: main
 - `git fetch origin main && git checkout main && git pull origin main`
 
 ## Schritt 2 – Journal lesen
-- `journal.md` lesen (nur heutiger Eintrag)
-- Styles / Farben / Fonts / Themen-Titel merken → ANDERE Werte und Themen heute wählen
+- `journal.md` vollständig lesen
+- **Design-Abschnitt** (nur heutiger Eintrag): Styles / Farben / Fonts merken → ANDERE Werte heute wählen
+- **Themen-Abschnitt** (alle bis zu 10 Tage): Alle gespeicherten Schlagwörter, URLs und Titel der letzten 10 Tage merken → KEINE dieser Meldungen heute wiederholen (weder gleiche URL noch gleiches Thema/Ereignis)
 
 ## Schritt 3 – Wetter (BrightSky API, DWD-Daten, kein API-Key)
 
@@ -35,7 +36,9 @@ WebFetch (letzte 48h): main-echo.de, infranken.de, aschaffenburg.news, meine-new
 Für jede Meldung:
 - Titel | Zusammenfassung (min. 4 Sätze) | URL | Kategorie (farbig) | Ort (farbig)
 - Prioritäten: Blaulicht/Kriminalität > Politik > Wirtschaft > Gesellschaft/Kultur/Sport
-- Mindestens 10 echte, von gestern VERSCHIEDENE Meldungen (≤48h alt)
+- Mindestens 10 echte, von den letzten 10 Tagen VERSCHIEDENE Meldungen (≤48h alt)
+- Keine URL, kein Thema/Ereignis das bereits in einem der letzten 10 Journal-Einträge steht
+- Bei Zweifeln: Schlagwort aus journal.md mit Suchbegriff abgleichen, lieber eine neue Meldung wählen
 
 ## Schritt 6 – Nachrichten.html neu schreiben (komplett ersetzen)
 
@@ -48,15 +51,18 @@ Anforderungen:
 - **Design täglich wechseln** (Farben, Header-Gradient, Hintergrund ≠ journal.md)
 - Zeitstempel und Quellenliste im Footer
 
-## Schritt 7 – journal.md komplett neu schreiben (NUR heute, keine Historie!)
+## Schritt 7 – journal.md neu schreiben (rollierende 10-Tage-Historie)
+
+**Struktur:** Die Datei enthält zwei getrennte Bereiche:
+
+1. **Design-Block** – exakt ein Eintrag (nur heute, Vortag wird überschrieben)
+2. **Themen-Block** – bis zu 10 Tages-Einträge (heute oben, älteste unten; Eintrag >10 Tage wird gestrichen)
 
 Format:
 ```
 # Tagesnachrichten-Journal – domezos2024/aktuelles
 
-## $DATUM (YYYY-MM-DD) – $UHRZEIT Uhr CEST
-
-### Design
+## Design – $DATUM (YYYY-MM-DD) – $UHRZEIT Uhr CEST
 - Schema: [Name]
 - Header-Gradient: [HEX von] → [HEX bis]
 - Hintergrund: [HEX]
@@ -64,13 +70,26 @@ Format:
 - Akzentfarben: [HEX Liste]
 - Layout: [grid-3col / grid-2col / card-stream]
 
-### Themen
+---
+
+## Themen-Archiv (letzte 10 Tage – NICHT wiederholen!)
+
+### $DATUM (YYYY-MM-DD) ← heute, neu hinzufügen
 - [Schlagwort kurz] | [URL] | [Kategorie] | [Region]
-(alle 15 Themen)
+(alle 15 Themen des heutigen Tages)
+
+### $DATUM-1 (YYYY-MM-DD) ← gestern, aus Vorversion übernehmen
+- ...
+
+... (alle vorhandenen Einträge bis max. 10 Tage rückwirkend behalten)
 ```
 
+**Regeln:**
+- Design-Block: immer nur heute (1 Eintrag, kein Archiv)
+- Themen-Block: heute oben anhängen, Einträge älter als 10 Tage entfernen
+- Schlagwörter müssen so präzise sein, dass man dasselbe Ereignis in 10 Tagen noch erkennt
+
 **ZEITZONE: Berlin (CEST = UTC+2)** – Immer die aktuelle Berlin-Uhrzeit verwenden!
-WICHTIG: Datei enthält **exakt einen Eintrag** (heute). Keine früheren Tage speichern.
 
 ## Schritt 8 – Push, PR, Merge, Schließen
 
@@ -93,9 +112,10 @@ Dann:
 
 ## Qualitätskriterien
 
-- Min. 10 echte, verifizierte Meldungen (anders als gestern)
+- Min. 10 echte, verifizierte Meldungen (anders als die letzten 10 Tage)
 - Kein Dummy-Inhalt, keine Platzhalter
 - HTML valide, 1 Datei, kein externes CSS/JS
 - Keine CSS-Animationen
-- Design komplett anders als Vortag (journal.md prüfen)
+- Design komplett anders als Vortag (Design-Block in journal.md prüfen)
+- Themen-Block in journal.md: heute oben, max. 10 Tage Archiv, ältere Einträge gestrichen
 - Repo auf main aktuell nach Merge
