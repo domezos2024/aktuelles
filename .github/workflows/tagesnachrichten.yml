@@ -32,11 +32,11 @@ jobs:
         uses: anthropics/claude-code-action@beta
         with:
           mode: agent
-          prompt: |
+          direct_prompt: |
             Führe den Skill tagesnachrichten-lohr-aschaffenburg vollständig aus.
             Heute ist ${{ github.event.inputs.reason || 'automatischer Tagesstart 06:00 Uhr' }}.
             Erstelle die aktuelle Nachrichten.html und aktualisiere journal.md für heute.
             Committe und pushe direkt auf den main-Branch.
-          claude_api_key: ${{ secrets.ANTHROPIC_API_KEY }}
+          anthropic_api_key: ${{ secrets.ANTHROPIC_API_KEY }}
           allowed_tools: "Bash,WebSearch,WebFetch,Read,Write,Edit,Glob,Grep"
-          model: claude-haiku-4-5-20251001
+          model: claude-sonnet-4-6
