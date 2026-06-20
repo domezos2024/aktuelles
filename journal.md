@@ -1,19 +1,35 @@
 # Tagesnachrichten-Journal – domezos2024/aktuelles
 
-## Design – 2026-06-19 – 07:32 Uhr CEST
-- Schema: main-terrazzo
-- Header-Gradient: #7b1d1d → #c44d2e
-- Hintergrund: #fef7f5
-- Karten: #fff8f6
-- Akzentfarben: #c44d2e · #7b1d1d · #e8815a · #f5b8a0 · #3e1a1a
-- Layout: grid-auto-fill (responsive 340px+ Karten)
-- Wetterdaten: BrightSky API (DWD), Lohr am Main 50.0°N 9.57°E, 24h stündlich CEST + 2-Tages-Karten
+## Design – 2026-06-20 – 06:08 Uhr CEST
+- Schema: ozean-blau
+- Header-Gradient: #0f3460 → #0a7ea4
+- Hintergrund: #f0f8ff
+- Karten: #ffffff
+- Akzentfarben: #0a7ea4 · #0f3460 · #16c79a · #48cae4 · #023e8a
+- Layout: grid-3col (responsive 2col/1col)
 
 ---
 
 ## Themen-Archiv (letzte 10 Tage – NICHT wiederholen!)
 
-### 2026-06-19 (YYYY-MM-DD) ← heute, beide Tagesläufe
+### 2026-06-20 (heute)
+- Brand Karlstadt Wernfelder Straße Schuppen Wohnhäuser sechsstellig | https://www.infranken.de/lk/main-spessart/blaulicht/feuer-in-karlstadt-brand-zerstoert-schuppen-und-beschaedigt-wohnhaeuser-art-6369478 | blaulicht | karlstadt
+- Zollkontrolle Taxi Mietwagengewerbe Hauptzollamt Schweinfurt 70 Einsatzkräfte | https://aschaffenburg.news/blaulicht/zollkontrolle-von-taxi-und-mietwagengewerbe.html | blaulicht | regional
+- Rockerkrieg Marktheidenfeld Massenschlägerei 2024 Urteile Analyse | https://www.main-echo.de/region/kreis-main-spessart/ | justiz | main-spessart
+- Bundeswehr Manöver Main-Spessart 29-Juni bis 4-Juli 50 Soldaten | https://www.main-echo.de/region/kreis-main-spessart/truppenuebungen-der-bundeswehr-im-kreis-main-spessart-art-8735307 | sicherheit | main-spessart
+- Suchtpräventionsstelle Jugendliche Landkreis Aschaffenburg Jugendamt Legler | https://aschaffenburg.news/ab/aschaffenburg/aschaffenburg/aschaffenburg-suchtpr%C3%A4ventionsstelle-f%C3%BCr-jugendliche-beschlossen.html | politik | aschaffenburg
+- CMBlu Alzenau Bundeswirtschaftsministerin Reiche Lithiumfreie Energiespeicher | https://www.primavera24.de/aktuelles/news/bundeswirtschaftsministerin-reiche-besucht-cmblu-in-alzenau | wirtschaft | alzenau
+- Mömbris Grundschule Neubau ohne Waschbecken Klassenräume Gemeinderat Streit | https://www.main-echo.de/region/stadt-kreis-aschaffenburg/ | gesellschaft | mömbris
+- Glauber Verbraucherschutz Vorauszahlungen Ministerkonferenz Potsdam Bayern | https://aschaffenburg.news/politik/glauber-bessere-absicherung-bei-vorauszahlungen.html | politik | regional
+- Aschaffenburg 97 Volksfest Eröffnung OB Schlemmer Bieranstich Feuerwerk | https://www.main-echo.de/region/stadt-kreis-aschaffenburg/zwei-schlaege-reichen-neuer-ob-eroeffnet-das-aschaffenburger-volksfest-art-8738140 | kultur | aschaffenburg
+- Volksfestumzug Aschaffenburg ohne Pferdekutschen Hitzeschutz Tiere | https://aschaffenburg.news/ab/aschaffenburg/aschaffenburg/aschaffenburg-volksfestumzug-ohne-pferde.html | gesellschaft | aschaffenburg
+- DWD Hitzewarnung Unterfranken Aschaffenburg 34-Grad Stufe-2 Gewitter | https://www.infranken.de/lk/franken/dwd-warnung-vor-extrem-hitze-und-starken-gewittern-in-franken-starke-waermebelastung-art-5898757 | klima | regional
+- Stadtwerke Aschaffenburg Müllabfuhr frühere Leerung Hitzewelle 22-26-Juni | https://aschaffenburg.news/ab/aschaffenburg/aschaffenburg/aschaffenburg-abfallbeh%C3%A4lter-werden-fr%C3%BCher-bereitgestellt-und-abgeholt.html | gesellschaft | aschaffenburg
+- Hasloch Starkregen Gutachten 3 Jahre Gemeinderat Maßnahmen | https://www.main-echo.de/region/kreis-main-spessart/ | umwelt | hasloch
+- Main-Spessart Bevölkerungsrückgang demografischer Wandel Einwohnerzahlen Analyse | https://www.main-echo.de/region/kreis-main-spessart/ | gesellschaft | main-spessart
+- Lohr Gastronom Jugendzentrum Partyreihe Freitagabende Jugendliche 14-18 | https://www.main-echo.de/region/kreis-main-spessart/ | gesellschaft | lohr
+
+### 2026-06-19
 - Hunger Hydraulik Insolvenz Lohr 68 Jahre 100 Mitarbeitende | https://www.infranken.de/lk/main-spessart/industriebetrieb-hunger-hydraulik-ist-insolvent-68-jaehrige-geschichte-art-6368165 | wirtschaft | lohr
 - Frontalunfall B276 Lohr-Partenstein Frau eingeklemmt Hubschrauber | https://sw1.news/notruf-schweinfurt/schwerer-verkehrsunfall-auf-der-b276-bei-lohr-am-mainr | blaulicht | main-spessart
 - Sozialer Aufstand Demo 27-Juni Theaterparkplatz Aschaffenburg | https://www.meine-news.de/aschaffenburg/c-politik/sozialprotest-in-aschaffenburg-startet-mit-starkem-signal_a237391 | politik | aschaffenburg
