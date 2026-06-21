@@ -1,18 +1,35 @@
 # Tagesnachrichten-Journal – domezos2024/aktuelles
 
-## Design – 2026-06-20 – 06:00 Uhr CEST
-- Schema: ozean-blau
-- Header-Gradient: #0f3460 → #0a7ea4
-- Hintergrund: #f0f8ff
+## Design – 2026-06-21 – 06:09 Uhr CEST
+- Schema: sommersonnenwende
+- Header-Gradient: #1b5e20 → #4caf50
+- Hintergrund: #f1f8e9
 - Karten: #ffffff
-- Akzentfarben: #0a7ea4 · #0f3460 · #16c79a · #48cae4 · #023e8a
-- Layout: grid-3col (responsive 2col/1col)
+- Akzentfarben: #2e7d32 · #f57f17 · #b71c1c · #4a148c · #006064
+- Layout: grid-2col (responsive 1col)
 
 ---
 
 ## Themen-Archiv (letzte 10 Tage – NICHT wiederholen!)
 
-### 2026-06-20 (heute)
+### 2026-06-21 ← heute, neu hinzugefügt
+- Ursula Schleicher CSU Europaabgeordnete Aschaffenburg gestorben 93 Jahre Vizepräsidentin EP | https://www.main-echo.de/region/stadt-kreis-aschaffenburg/ | gesellschaft | aschaffenburg
+- Amerikanische Faulbrut Bienen Sperrbezirke Burgsinn Karlstadt Rieneck Gemünden Main-Spessart | https://www.main-spessart.de/aktuelles/pressemitteilungen/11085.Amerikanische-Faulbrut-der-Bienen-Neue-Sperrbezirke-im-Landkreis-Main-Spessart.html | umwelt | main-spessart
+- Präventionskonferenz Main-Spessart Lohr 120 Fachkräfte Landrat Vogel Masterplan | https://www.main-spessart.de/aktuelles/pressemitteilungen/index.html | gesundheit | lohr
+- Falscher Polizeibeamter Michelrieth Marktheidenfeld Schmuck Bargeld Seniorin Betrug | https://www.meine-news.de/landkreis-main-spessart/c-blaulicht | blaulicht | main-spessart
+- Weißer Engel Unterfranken Gesundheitsministerin Gerlach Würzburg zehn Bürger Ehrenamt | https://aschaffenburg.news/ | ehrenamt | unterfranken
+- SenerTec Schweinfurt Produktionsende Dachs Blockheizkraftwerk 125 Jobs BDR-Thermea | https://www.infranken.de/lk/schweinfurt/schweinfurt-produktions-aus-von-senertec-fix-bittere-nachricht-art-6369169 | wirtschaft | schweinfurt
+- VGH Bayern AfD Verfassungsschutz Beobachtung Herrmann bestätigt rechtmäßig Remigration | https://aschaffenburg.news/politik/herrmann-verfassungsschutz-darf-afd-beobachten.html | politik | bayern
+- Glauber Standard-Depot Private Altersvorsorge öffentliche Institution Bayern | https://aschaffenburg.news/politik/glauber-private-altersvorsorge-staerken.html | politik | bayern
+- Rosenstraße Vollsperrung Aschaffenburg Schachtabdeckung 22-bis-26-Juni | https://aschaffenburg.news/ab/aschaffenburg/aschaffenburg/aschaffenburg-vollsperrung-in-der-rosenstrasse.html | verkehr | aschaffenburg
+- Ehrenzeichen Ministerpräsident Landrat Vogel Main-Spessart Gerlach Muthig Roos Fellen | https://www.main-spessart.de/aktuelles/pressemitteilungen/11078.Auszeichnung-fuer-jahrzehntelanges-Engagement-Landrat-Christoph-Vogel-verleiht-Ehrenzeichen-des-Bayerischen-Ministerpraesident.html | ehrenamt | main-spessart
+- STADTRADELN Main-Spessart Fairtrade-Kaffee-Mobil MainRadweg Sommersonnenwende | https://www.main-spessart.de/aktuelles/pressemitteilungen/11064.STADTRADELN-im-Landkreis-Main-Spessart.-Fahrrad-Kilometer-sammeln-von-14.-Juni-bis-4.-Juli.html | gesellschaft | main-spessart
+- Johannesberg fünf Priester Diamantjubiläum 60-Jahre Priesterweihe Bischof-Stangl 1966 | https://aschaffenburg.news/ab/johannesberg/ | gesellschaft | johannesberg
+- Spaziertreffs Main-Spessart sechs Gruppen Zellingen Partenstein ab-23-Juni | https://www.main-spessart.de/aktuelles/pressemitteilungen/11075.Gemeinsam-in-Bewegung-Offene-Spaziertreffs-im-Landkreis-Main-Spessart-wachsen-weiter.html | gesundheit | main-spessart
+- Naturführung Ruine Homburg Gössenheim Dexter-Rinder Artenschutz Heidelerche Orchideen 17-Juli | https://www.main-spessart.de/aktuelles/pressemitteilungen/11077.Naturfuehrung-Ruine-Homburg-Rinderbeweidung-fuer-den-Artenschutz.html | umwelt | main-spessart
+- Kräuterspaziergang Goldbach Öko-Modellregion Jeanine-Biersack Gaetano-Bergmann Bio-Öle | https://aschaffenburg.news/ab/aschaffenburg/aschaffenburg-kraeuterspaziergang-zum-entdecken-und-erlebena.html | gesellschaft | goldbach
+
+### 2026-06-20
 - Brand Karlstadt Wernfelder Straße Schuppen Wohnhäuser sechsstellig | https://www.infranken.de/lk/main-spessart/blaulicht/feuer-in-karlstadt-brand-zerstoert-schuppen-und-beschaedigt-wohnhaeuser-art-6369478 | blaulicht | karlstadt
 - Zollkontrolle Taxi Mietwagengewerbe Hauptzollamt Schweinfurt 70 Einsatzkräfte | https://aschaffenburg.news/blaulicht/zollkontrolle-von-taxi-und-mietwagengewerbe.html | blaulicht | regional
 - Rockerkrieg Marktheidenfeld Massenschlägerei 2024 Urteile Analyse | https://www.main-echo.de/region/kreis-main-spessart/ | justiz | main-spessart
