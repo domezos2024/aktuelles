@@ -1,18 +1,35 @@
 # Tagesnachrichten-Journal – domezos2024/aktuelles
 
-## Design – 2026-06-21 – 18:00 Uhr CEST
-- Schema: sonnengold-juni
-- Header-Gradient: #5C0E02 → #A63D00 → #E8851A
-- Hintergrund: #FFF8EE
-- Karten: #FFFEF8
-- Akzentfarben: #8B0000 · #C84B00 · #E8851A · #2D7D46 · #1A3A8F
-- Layout: grid-3col (responsive 1col)
+## Design – 2026-06-21 – 20:37 Uhr CEST
+- Schema: sommersonnen-blau-gold
+- Header-Gradient: #0D3B6E → #1565C0 → #42A5F5
+- Hintergrund: #EEF4FC
+- Karten: #FFFFFF
+- Akzentfarben: #1565C0 · #F4B942 · #2E7D32 · #C62828 · #6A1B9A
+- Layout: grid-2col (responsive 1col)
 
 ---
 
 ## Themen-Archiv (letzte 10 Tage – NICHT wiederholen!)
 
-### 2026-06-21 (Ausgabe 4 – 18:00 Uhr) ← heute, neu hinzugefügt
+### 2026-06-21 (Ausgabe 5 – 20:37 Uhr) ← heute, neu hinzugefügt
+- Sommersonnenwende 2026 astronomischer Sommeranfang 10:24 MESZ längster Tag 16h Tageslicht | https://www.nordbayern.de/service/familie/sommersonnenwende-2026-bald-ist-der-langste-tag-des-jahres-und-die-kurzeste-nacht-rep-2-1.15136851 | saisonal | regional
+- Carillon Percussion Festival Aschaffenburg 20-28-Juni Schloss-Johannisburg 48-Glocken LED-Leinwand | https://www.kulturamt-aschaffenburg.de/unsere-festivals/carillon-percussion/programm/ | kultur | aschaffenburg
+- Haibacher St-Johannesverein 125-Jahre Picknickfest 21-Juni ökumenischer-Gottesdienst 400-Kinder 85-Mitarbeitende | https://www.main-echo.de/region/stadt-kreis-aschaffenburg/ein-picknickfest-zum-jubilaeum-haibacher-st-johannesverein-feiert-125-jaehriges-art-8731782 | gesellschaft | haibach
+- FFW Rodenbach 150-Jahre Jubiläum 27-29-Juni Festprogramm WM-Public-Viewing Lohr 1876 | https://www.ffw-rodenbach.de/150-jahre-freiwillige-Feuerwehr-rodenbach/ | gesellschaft | rodenbach-lohr
+- OB Schlemmer Regenbogenfahne Verbot CSD-Kompromiss Scharfeck Eberbrücke Aschaffenburg Pride | https://www.queer.de/detail.php?article_id=58232 | politik | aschaffenburg
+- Bundeswehr Übung Landkreis Miltenberg 8-16-Juli B47 B469 MIL4 Verteidigungsbereitschaft | https://www.meine-news.de/miltenberg/c-blaulicht/bundeswehr-uebt-im-landkreis-miltenberg_a237442 | gesellschaft | miltenberg
+- Klingenberg 750-Jahre Stadtrecht Rotweinstadt Jubiläum 2026 Raritätenweinprobe November | https://www.main-echo.de/region/kreis-miltenberg/das-bewegt-klingenberg-buerger-berichten-reportern-was-gut-ist-und-was-besser-werden-darf-art-8736524 | kultur | klingenberg-miltenberg
+- WM 2026 Deutschland Ecuador 25-Juni 22-Uhr Public-Viewing Volksfest Aschaffenburg | https://www.sportschau.de/fussball/fifa-wm-2026/daten-fakten-termine-so-laeuft-die-fussball-wm-2026,fragen-und-antworten-zur-wm-zwanzigsechsundzwanzig-100.html | sport | regional
+- Urban Priol kabarettistischer Frühschoppen Volksfest 21-Juni 11-Uhr Stadtkapelle Freudenberg | https://www.main-echo.de/region/stadt-kreis-aschaffenburg/volksfest-aschaffenburg-bieranstich-ein-vorgeschmack-von-urban-priol-und-interviews-mit-brauerei-und-festwirtin-art-8738215 | kultur | aschaffenburg
+- Waldbrandgefahr Spessart Miltenberg DWD Hitzewelle 33-Grad Stufe3 Notruf 112 | https://www.landkreis-miltenberg.de/ | klima | miltenberg-spessart
+- Gesundheitsamt Aschaffenburg Hitzeschutz 30-Grad vulnerable Gruppen 116117 Klinikum | https://www.landkreis-aschaffenburg.de/ | gesundheit | aschaffenburg
+- Main-Spessart-Bad Lohr Ansturm Sonnenwende-Hitze 50m-Becken Rutsche Sprungturm Saison ab 23-Mai | https://www.lohr.de/freibad | freizeit | lohr
+- Therapeutisches Schwimmen Main Lohr Flussbaden Strömung Physiotherapie Klinikum | https://www.main-echo.de/region/kreis-main-spessart/ | gesellschaft | lohr
+- Chorkonzert Tonleiter Mensengesäß Eintracht Großkahl Ivo-Zeiger-Haus 20-Juni Mömbris | https://www.main-echo.de/region/stadt-kreis-aschaffenburg/ | kultur | grosskahl-mömbris
+- Johannisfeuer Tradition Franken Bayern 23-24-Juni Johannistag Brauchtum Sonnenwende | https://www.kleiner-kalender.de/event/sommersonnenwende/107861.html | gesellschaft | regional
+
+### 2026-06-21 (Ausgabe 4 – 18:00 Uhr)
 - DWD extreme Hitzewarnung Main-Spessart Miltenberg Aschaffenburg 21-Juni bis 22-Juni-19Uhr | https://www.infranken.de/lk/franken/dwd-warnt-vor-starken-gewittern-in-franken-art-5898757 | klima | regional
 - Großostheim Feuerwehr brennender Baum Gewitterzelle Sonnenwende-Sonntag | https://www.main-echo.de/ressorts/blaulicht/ | blaulicht | grossostheim
 - Goldbach BMW X5 Kompletträder gestohlen Am-Ningesberg Holzklötze Nacht Freitag-Samstag | https://www.meine-news.de/landkreis-aschaffenburg/c-blaulicht/raum-aschaffenburg-komplettraeder-entwendet-unbekannter-hinterlaesst-hohen-sachschaden-garagentor-touchiert-fahrbahndecke-beschaedigt_a237601 | blaulicht | goldbach
