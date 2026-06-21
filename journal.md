@@ -1,18 +1,35 @@
 # Tagesnachrichten-Journal – domezos2024/aktuelles
 
-## Design – 2026-06-22 – 06:00 Uhr CEST
-- Schema: sommerhitze
-- Header-Gradient: #b71c1c → #e53935
-- Hintergrund: #fff8e1
-- Karten: #ffffff
-- Akzentfarben: #c62828 · #f57f17 · #1565c0 · #2e7d32 · #4a148c
-- Layout: grid-2col (responsive 1col)
+## Design – 2026-06-21 – 10:20 Uhr CEST
+- Schema: sonnenwende-spessartgrün
+- Header-Gradient: #1b5e20 → #f9a825
+- Hintergrund: #e8f5e9
+- Karten: #fffde7
+- Akzentfarben: #f9a825 · #1b5e20 · #1565c0 · #6a1b9a · #e65100
+- Layout: grid-3col (responsive 2col/1col)
 
 ---
 
 ## Themen-Archiv (letzte 10 Tage – NICHT wiederholen!)
 
-### 2026-06-22 ← heute, neu hinzugefügt
+### 2026-06-21 (Ausgabe 2 – Sommersonnenwende) ← heute, neu hinzugefügt
+- Unfall A3 Weibersbrunn Gewitterregen Fahrzeug Schrottwert Feuerwehr Fahrer verletzt | https://www.main-echo.de/ressorts/blaulicht/gewitterregen-am-samstagabend-unfall-auf-der-a3-fahrer-verletzt-art-8738324 | blaulicht | regional
+- Windenrettung Rothenfels Hubschrauber Patientin unzugängliches Gelände | https://www.main-echo.de/ressorts/blaulicht/spektakulaere-windenrettung-hubschrauber-hebt-patientin-aus-unwegsamem-gelaende-in-rothenfels-art-8737178 | blaulicht | rothenfels
+- Sparkasse Aschaffenburg Miltenberg Verwaltungsrat Wahl keine Frauen Grüne Kritik 30 Jahre | https://www.meine-news.de/aschaffenburg/c-politik/verwaltungsrat-der-sparkasse-gewaehlt-keine-angemessene-vertretung-von-frauen_a237586 | politik | aschaffenburg
+- WM 2026 Deutschland Elfenbeinküste Public Viewing Volksfest Aschaffenburg Festzelt | https://www.main-echo.de/region/stadt-kreis-aschaffenburg/aschaffenburger-volksfest-2026-alle-tage-alle-bilder-unsere-uebersicht-art-8735972 | sport | aschaffenburg
+- Großostheimer Weinfest 2. Auflage Olympiahain 19-22-Juni vier Tage Weingüter frei | https://www.main-echo.de/region/stadt-kreis-aschaffenburg/grossostheimer-weinfest-zweite-auflage-an-neuem-ort-art-8736439 | kultur | grossostheim
+- Lohr Stadtrat 24-Juni Wasserversorgung Sommerberg Feuerwache Anbau Wombach 2027 Klinik | https://www.main-echo.de/region/kreis-main-spessart/wasserversorgung-und-anbau-an-feuerwache-art-8737813 | politik | lohr
+- BR3-Partyschiff Lohr Main 200 Gäste Flugplatzrennen Wochenend-Highlights Bilder | https://www.main-echo.de/region/stadt-kreis-aschaffenburg/fotos-vom-wochenende-volksfest-in-aschaffenburg-und-mehr-art-8737099 | gesellschaft | regional
+- Philipp von Hahn Gemünden Nachruf Sportler Arzt Kommunalpolitiker verstorben | https://www.main-echo.de/region/kreis-main-spessart/ | gesellschaft | gemünden
+- Stromausfall Main-Spessart Freitag 2000 Haushalte Bayernwerk Störung Gemeinden | https://aktuell.meinestadt.de/kreis-main-spessart | gesellschaft | main-spessart
+- Obernburg 1,6 Promille Fahrer Verkehrskontrolle Führerschein Strafverfahren Miltenberg | https://aschaffenburg.news/ | blaulicht | miltenberg
+- Gräfendorf Wohnanhänger löst sich Fahrt Kupplung Polizei Zeugen | https://aschaffenburg.news/ | blaulicht | main-spessart
+- Gemünden Weidezaungerät Gemüse gestohlen Gartengrundstück Polizei Zeugen | https://aschaffenburg.news/ | blaulicht | gemünden
+- EU-Emissionshandel Bayern Wirtschaftsminister 40 Industriefirmen Brief Wettbewerbsrisiko ETS | https://aschaffenburg.news/politik/eu-emissionshandel-gef%C3%A4hrdet-unsere-wettbewerbsf%C3%A4higkeit.html | wirtschaft | bayern
+- Kreisumlage Main-Spessart Landrat Vogel Bauausgaben 21,7-Millionen anders takten Kommunen | https://www.main-echo.de/region/kreis-main-spessart/ | politik | main-spessart
+- Aschaffenburg Innenstadt Sanierung Rechnungen 220 Eigentümer Bescheide 2027 Beiträge | https://www.main-echo.de/region/stadt-kreis-aschaffenburg/ | gesellschaft | aschaffenburg
+
+### 2026-06-22 ← Vortag-Einträge
 - Vollsperrung Rosenstraße Aschaffenburg startet 22-26-Juni Schachtabdeckung Hitzewelle | https://aschaffenburg.news/ab/aschaffenburg/aschaffenburg/aschaffenburg-vollsperrung-in-der-rosenstrasse.html | verkehr | aschaffenburg
 - Stadtwerke Aschaffenburg Abfallabfuhr Hitzewelle früher bereitstellen 22-26-Juni | https://aschaffenburg.news/ab/aschaffenburg/aschaffenburg/aschaffenburg-abfallbeh%C3%A4lter-werden-fr%C3%BCher-bereitgestellt-und-abgeholt.html | gesellschaft | aschaffenburg
 - Küchenbrand Landingstraße Aschaffenburg Tunnel gesperrt Feuerwehr Samstagmorgen | https://www.main-echo.de/ressorts/blaulicht/landingstrasse-und-tunnel-teilweise-gesperrt-feuerwehreinsatz-am-samstagmorgen-art-8738222 | blaulicht | aschaffenburg
@@ -23,7 +40,7 @@
 - Feuerwehr Karlstadt-Gambach Hausbrand Schuppen Wohnhäuser 120 Einsatzkräfte Wernfelder Straße | https://www.main-echo.de/ressorts/blaulicht/feuerwehr-loescht-zwei-brennende-haeuser-in-karlstadt-gambach-art-8737935 | blaulicht | karlstadt
 - IHK Aschaffenburg Vollversammlungswahl Kandidaturen bis 30-Juni Wirtschaft Selbstverwaltung | https://aschaffenburg.news/ab/aschaffenburg/aschaffenburg/aschaffenburg-wirtschaft-aktiv-mitgestalten-kandidatur-zur-ihk-vollversammlung-noch-bis-30-juni-moeglich.html | wirtschaft | aschaffenburg
 - Bundeswehr Manöver Truppenübungen Main-Spessart 29-Juni bis 4-Juli 50 Soldaten | https://www.main-echo.de/region/kreis-main-spessart/truppenuebungen-der-bundeswehr-im-kreis-main-spessart-art-8735307 | gesellschaft | main-spessart
-- Demo Sozialer Aufstand 27-Juni Theaterparkplatz Aschaffenburg Sozialprotест | https://www.meine-news.de/aschaffenburg/c-politik/sozialprotest-in-aschaffenburg-startet-mit-starkem-signal_a237391 | politik | aschaffenburg
+- Demo Sozialer Aufstand 27-Juni Theaterparkplatz Aschaffenburg Sozialprotest | https://www.meine-news.de/aschaffenburg/c-politik/sozialprotest-in-aschaffenburg-startet-mit-starkem-signal_a237391 | politik | aschaffenburg
 - TH Aschaffenburg Open Campus Festivalatmosphäre Laborbesichtigungen Studieninfo | https://aschaffenburg.news/ab/aschaffenburg/aschaffenburg/ | gesellschaft | aschaffenburg
 - Alzenau Schwalbenkücken Polizei Feuerwehr Rettung Kälberau Michelbacher Straße Artenschutz | https://aschaffenburg.news/ab/alzenau/k%C3%A4lberau/alzenau-polizei-und-feuerwehr-retten-schwalbenjunges.html | gesellschaft | alzenau
 - Main-Spessart Konjunktur 2027 Aufschwung Fachkräftemangel Energiekosten IHK Wirtschaftsverbände | https://www.main-echo.de/region/kreis-main-spessart/wenn-es-2027-mit-dem-aufschwung-nicht-klappt-wann-dann-art-8737213 | wirtschaft | main-spessart
