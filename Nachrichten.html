@@ -3,23 +3,23 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Tagesnachrichten – Lohr am Main &amp; Aschaffenburg · 21. Juni 2026</title>
+<title>Tagesnachrichten &ndash; Lohr am Main &amp; Aschaffenburg &middot; 22. Juni 2026</title>
 <style>
-  /* === Sommersonnenwende-Design 2026-06-21 === */
+  /* === Sommerhitze-Design 2026-06-22 === */
   :root {
-    --grad-start: #1b5e20;
-    --grad-end:   #4caf50;
-    --bg:         #f1f8e9;
+    --grad-start: #b71c1c;
+    --grad-end:   #e53935;
+    --bg:         #fff8e1;
     --card:       #ffffff;
-    --text:       #1a2a1a;
-    --muted:      #4e6b4e;
-    --accent1:    #2e7d32;
+    --text:       #1a1a1a;
+    --muted:      #5d4037;
+    --accent1:    #c62828;
     --accent2:    #f57f17;
-    --accent3:    #b71c1c;
-    --accent4:    #4a148c;
-    --accent5:    #006064;
-    --border:     #c8e6c9;
-    --shadow:     rgba(27,94,32,0.10);
+    --accent3:    #1565c0;
+    --accent4:    #2e7d32;
+    --accent5:    #4a148c;
+    --border:     #ffcc80;
+    --shadow:     rgba(183,28,28,0.09);
   }
 
   *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
@@ -58,7 +58,7 @@
     font-size: 0.88rem;
     opacity: 0.80;
   }
-  header .solstice-badge {
+  header .heat-badge {
     display: inline-block;
     margin-top: 0.6rem;
     background: rgba(255,255,255,0.18);
@@ -130,7 +130,7 @@
     font-weight: 700;
     color: var(--accent1);
   }
-  .wetter-tag-card .wt-temps .max { color: var(--accent3); }
+  .wetter-tag-card .wt-temps .max { color: var(--accent1); }
   .wetter-tag-card .wt-wind {
     font-size: 0.72rem;
     color: var(--muted);
@@ -226,15 +226,17 @@
   .b-justiz       { background: #880e4f; color: #fff; }
   .b-ehrenamt     { background: #f57f17; color: #fff; }
 
-  .b-aschaffenburg   { background: #e8f5e9; color: #1b5e20; border: 1px solid #a5d6a7; }
+  .b-aschaffenburg   { background: #fce4ec; color: #b71c1c; border: 1px solid #f48fb1; }
   .b-main-spessart   { background: #e3f2fd; color: #0d47a1; border: 1px solid #90caf9; }
   .b-regional        { background: #fff8e1; color: #e65100; border: 1px solid #ffe082; }
   .b-unterfranken    { background: #fce4ec; color: #880e4f; border: 1px solid #f48fb1; }
   .b-lohr            { background: #e8eaf6; color: #283593; border: 1px solid #9fa8da; }
+  .b-karlstadt       { background: #f1f8e9; color: #33691e; border: 1px solid #c5e1a5; }
   .b-johannesberg    { background: #f3e5f5; color: #4a148c; border: 1px solid #ce93d8; }
   .b-schweinfurt     { background: #efebe9; color: #3e2723; border: 1px solid #bcaaa4; }
-  .b-goldbach        { background: #e0f7fa; color: #006064; border: 1px solid #80deea; }
-  .b-goessenheim     { background: #f9fbe7; color: #33691e; border: 1px solid #c5e1a5; }
+  .b-alzenau         { background: #e0f7fa; color: #006064; border: 1px solid #80deea; }
+  .b-grosswelzheim   { background: #e8f5e9; color: #1b5e20; border: 1px solid #a5d6a7; }
+  .b-hoesbach        { background: #fffde7; color: #f57f17; border: 1px solid #fff176; }
   .b-marktheidenfeld { background: #ede7f6; color: #4527a0; border: 1px solid #b39ddb; }
   .b-wuerzburg       { background: #fff3e0; color: #bf360c; border: 1px solid #ffcc80; }
   .b-bayern          { background: #e8eaf6; color: #1a237e; border: 1px solid #9fa8da; }
@@ -280,7 +282,7 @@
     font-size: 0.78rem;
     line-height: 1.8;
   }
-  footer a { color: #a5d6a7; text-decoration: none; }
+  footer a { color: #ffcc80; text-decoration: none; }
   footer a:hover { text-decoration: underline; }
   footer .footer-sources {
     margin-top: 0.8rem;
@@ -294,8 +296,8 @@
 <header>
   <div class="tag-label">Tagesnachrichten</div>
   <h1>Nachrichten &#8211; Lohr am Main &amp; Aschaffenburg</h1>
-  <div class="subtitle">Sonntag, 21. Juni 2026 &#183; 06:09 Uhr CEST</div>
-  <div class="solstice-badge">&#127774; Sommersonnenwende &#8211; l&#228;ngster Tag des Jahres</div>
+  <div class="subtitle">Montag, 22. Juni 2026 &#183; 06:00 Uhr CEST</div>
+  <div class="heat-badge">&#9728; Anhaltende Hitzewelle &#8211; DWD Hitzewarnung Stufe&#160;2</div>
 </header>
 
 <main>
@@ -306,299 +308,300 @@
 
     <div class="wetter-tage">
       <div class="wetter-tag-card">
-        <div class="wt-label">Heute &#183; So. 21.06.</div>
-        <div class="wt-icon">&#9925;</div>
-        <div class="wt-cond">Fr&#252;hnebel, dann sonnig &#183; trocken</div>
-        <div class="wt-temps"><span class="min">16,7&#176;C</span> / <span class="max">32,9&#176;C</span></div>
-        <div class="wt-wind">Wind 4&#8211;9 km/h &#183; 0 mm &#183; Hitzewarnung Stufe 2</div>
-      </div>
-      <div class="wetter-tag-card">
-        <div class="wt-label">Morgen &#183; Mo. 22.06.</div>
+        <div class="wt-label">Heute &#183; Mo. 22.06.</div>
         <div class="wt-icon">&#9728;</div>
         <div class="wt-cond">Sonnig, sehr hei&#223; &#183; trocken</div>
-        <div class="wt-temps"><span class="min">20,2&#176;C</span> / <span class="max">33,3&#176;C</span></div>
-        <div class="wt-wind">Wind 6&#8211;11 km/h &#183; 0 mm</div>
+        <div class="wt-temps"><span class="min">19,8&#176;C</span> / <span class="max">33,2&#176;C</span></div>
+        <div class="wt-wind">Wind 5&#8211;9 km/h &#183; 0 mm &#183; Hitzewarnung</div>
       </div>
       <div class="wetter-tag-card">
-        <div class="wt-label">&#220;bermorgen &#183; Di. 23.06.</div>
+        <div class="wt-label">Morgen &#183; Di. 23.06.</div>
         <div class="wt-icon">&#9728;</div>
         <div class="wt-cond">Sonnig, anhaltend hei&#223; &#183; trocken</div>
-        <div class="wt-temps"><span class="min">22,6&#176;C</span> / <span class="max">&#8776;34&#176;C</span></div>
-        <div class="wt-wind">Wind 7 km/h &#183; 0 mm</div>
+        <div class="wt-temps"><span class="min">20,1&#176;C</span> / <span class="max">32,6&#176;C</span></div>
+        <div class="wt-wind">Wind 7&#8211;9 km/h &#183; 0 mm</div>
+      </div>
+      <div class="wetter-tag-card">
+        <div class="wt-label">&#220;bermorgen &#183; Mi. 24.06.</div>
+        <div class="wt-icon">&#9728;</div>
+        <div class="wt-cond">Sonnig, Spitzentemperaturen &#183; trocken</div>
+        <div class="wt-temps"><span class="min">20,0&#176;C</span> / <span class="max">34,8&#176;C</span></div>
+        <div class="wt-wind">Wind 4&#8211;7 km/h &#183; 0 mm</div>
       </div>
     </div>
 
     <div class="wetter-scroll-wrap">
       <div class="wetter-scroll-label">St&#252;ndlich heute (CEST) &#183; Koordinaten: 50,0&#176;N / 9,57&#176;E</div>
       <div class="wetter-scroll">
-        <div class="wh"><div class="wh-time">02:00</div><div class="wh-icon">&#127764;</div><div class="wh-temp">18,7&#176;</div><div class="wh-rain">&#8211;</div></div>
-        <div class="wh"><div class="wh-time">03:00</div><div class="wh-icon">&#9729;</div><div class="wh-temp">17,8&#176;</div><div class="wh-rain">&#8211;</div></div>
-        <div class="wh"><div class="wh-time">04:00</div><div class="wh-icon">&#127787;</div><div class="wh-temp">17,3&#176;</div><div class="wh-rain">&#8211;</div></div>
-        <div class="wh"><div class="wh-time">05:00</div><div class="wh-icon">&#127787;</div><div class="wh-temp">16,7&#176;</div><div class="wh-rain">&#8211;</div></div>
-        <div class="wh"><div class="wh-time">06:00</div><div class="wh-icon">&#9925;</div><div class="wh-temp">19,5&#176;</div><div class="wh-rain">&#8211;</div></div>
-        <div class="wh"><div class="wh-time">07:00</div><div class="wh-icon">&#9925;</div><div class="wh-temp">21,0&#176;</div><div class="wh-rain">&#8211;</div></div>
-        <div class="wh"><div class="wh-time">08:00</div><div class="wh-icon">&#9728;</div><div class="wh-temp">23,0&#176;</div><div class="wh-rain">&#8211;</div></div>
-        <div class="wh"><div class="wh-time">09:00</div><div class="wh-icon">&#9728;</div><div class="wh-temp">25,0&#176;</div><div class="wh-rain">&#8211;</div></div>
-        <div class="wh"><div class="wh-time">10:00</div><div class="wh-icon">&#9728;</div><div class="wh-temp">27,0&#176;</div><div class="wh-rain">&#8211;</div></div>
-        <div class="wh"><div class="wh-time">11:00</div><div class="wh-icon">&#9728;</div><div class="wh-temp">29,0&#176;</div><div class="wh-rain">&#8211;</div></div>
-        <div class="wh"><div class="wh-time">12:00</div><div class="wh-icon">&#9728;</div><div class="wh-temp">31,0&#176;</div><div class="wh-rain">&#8211;</div></div>
-        <div class="wh"><div class="wh-time">13:00</div><div class="wh-icon">&#9728;</div><div class="wh-temp">32,5&#176;</div><div class="wh-rain">&#8211;</div></div>
-        <div class="wh"><div class="wh-time">14:00</div><div class="wh-icon">&#9728;</div><div class="wh-temp">32,9&#176;</div><div class="wh-rain">&#8211;</div></div>
-        <div class="wh"><div class="wh-time">15:00</div><div class="wh-icon">&#9728;</div><div class="wh-temp">32,5&#176;</div><div class="wh-rain">&#8211;</div></div>
-        <div class="wh"><div class="wh-time">16:00</div><div class="wh-icon">&#9728;</div><div class="wh-temp">31,5&#176;</div><div class="wh-rain">&#8211;</div></div>
-        <div class="wh"><div class="wh-time">17:00</div><div class="wh-icon">&#9925;</div><div class="wh-temp">30,0&#176;</div><div class="wh-rain">&#8211;</div></div>
-        <div class="wh"><div class="wh-time">18:00</div><div class="wh-icon">&#9925;</div><div class="wh-temp">28,0&#176;</div><div class="wh-rain">&#8211;</div></div>
-        <div class="wh"><div class="wh-time">19:00</div><div class="wh-icon">&#9925;</div><div class="wh-temp">26,0&#176;</div><div class="wh-rain">&#8211;</div></div>
-        <div class="wh"><div class="wh-time">20:00</div><div class="wh-icon">&#9925;</div><div class="wh-temp">24,5&#176;</div><div class="wh-rain">&#8211;</div></div>
-        <div class="wh"><div class="wh-time">21:00</div><div class="wh-icon">&#127780;</div><div class="wh-temp">22,5&#176;</div><div class="wh-rain">&#8211;</div></div>
-        <div class="wh"><div class="wh-time">22:00</div><div class="wh-icon">&#127769;</div><div class="wh-temp">21,0&#176;</div><div class="wh-rain">&#8211;</div></div>
-        <div class="wh"><div class="wh-time">23:00</div><div class="wh-icon">&#127769;</div><div class="wh-temp">20,0&#176;</div><div class="wh-rain">&#8211;</div></div>
-        <div class="wh"><div class="wh-time">00:00</div><div class="wh-icon">&#127769;</div><div class="wh-temp">20,9&#176;</div><div class="wh-rain">&#8211;</div></div>
+        <div class="wh"><div class="wh-time">00:00</div><div class="wh-icon">&#127769;</div><div class="wh-temp">24,0&#176;</div><div class="wh-rain">&#8211;</div></div>
+        <div class="wh"><div class="wh-time">01:00</div><div class="wh-icon">&#127769;</div><div class="wh-temp">22,8&#176;</div><div class="wh-rain">&#8211;</div></div>
+        <div class="wh"><div class="wh-time">02:00</div><div class="wh-icon">&#127769;</div><div class="wh-temp">21,8&#176;</div><div class="wh-rain">&#8211;</div></div>
+        <div class="wh"><div class="wh-time">03:00</div><div class="wh-icon">&#127769;</div><div class="wh-temp">20,9&#176;</div><div class="wh-rain">&#8211;</div></div>
+        <div class="wh"><div class="wh-time">04:00</div><div class="wh-icon">&#127764;</div><div class="wh-temp">20,3&#176;</div><div class="wh-rain">&#8211;</div></div>
+        <div class="wh"><div class="wh-time">05:00</div><div class="wh-icon">&#127764;</div><div class="wh-temp">19,8&#176;</div><div class="wh-rain">&#8211;</div></div>
+        <div class="wh"><div class="wh-time">06:00</div><div class="wh-icon">&#9925;</div><div class="wh-temp">20,0&#176;</div><div class="wh-rain">&#8211;</div></div>
+        <div class="wh"><div class="wh-time">07:00</div><div class="wh-icon">&#9925;</div><div class="wh-temp">21,1&#176;</div><div class="wh-rain">&#8211;</div></div>
+        <div class="wh"><div class="wh-time">08:00</div><div class="wh-icon">&#9728;</div><div class="wh-temp">23,2&#176;</div><div class="wh-rain">&#8211;</div></div>
+        <div class="wh"><div class="wh-time">09:00</div><div class="wh-icon">&#9728;</div><div class="wh-temp">25,1&#176;</div><div class="wh-rain">&#8211;</div></div>
+        <div class="wh"><div class="wh-time">10:00</div><div class="wh-icon">&#9728;</div><div class="wh-temp">27,2&#176;</div><div class="wh-rain">&#8211;</div></div>
+        <div class="wh"><div class="wh-time">11:00</div><div class="wh-icon">&#9728;</div><div class="wh-temp">28,8&#176;</div><div class="wh-rain">&#8211;</div></div>
+        <div class="wh"><div class="wh-time">12:00</div><div class="wh-icon">&#9728;</div><div class="wh-temp">30,5&#176;</div><div class="wh-rain">&#8211;</div></div>
+        <div class="wh"><div class="wh-time">13:00</div><div class="wh-icon">&#9728;</div><div class="wh-temp">31,8&#176;</div><div class="wh-rain">&#8211;</div></div>
+        <div class="wh"><div class="wh-time">14:00</div><div class="wh-icon">&#9728;</div><div class="wh-temp">32,4&#176;</div><div class="wh-rain">&#8211;</div></div>
+        <div class="wh"><div class="wh-time">15:00</div><div class="wh-icon">&#9728;</div><div class="wh-temp">33,0&#176;</div><div class="wh-rain">&#8211;</div></div>
+        <div class="wh"><div class="wh-time">16:00</div><div class="wh-icon">&#9728;</div><div class="wh-temp">33,2&#176;</div><div class="wh-rain">&#8211;</div></div>
+        <div class="wh"><div class="wh-time">17:00</div><div class="wh-icon">&#9728;</div><div class="wh-temp">33,0&#176;</div><div class="wh-rain">&#8211;</div></div>
+        <div class="wh"><div class="wh-time">18:00</div><div class="wh-icon">&#9728;</div><div class="wh-temp">32,6&#176;</div><div class="wh-rain">&#8211;</div></div>
+        <div class="wh"><div class="wh-time">19:00</div><div class="wh-icon">&#9925;</div><div class="wh-temp">31,8&#176;</div><div class="wh-rain">&#8211;</div></div>
+        <div class="wh"><div class="wh-time">20:00</div><div class="wh-icon">&#9925;</div><div class="wh-temp">30,5&#176;</div><div class="wh-rain">&#8211;</div></div>
+        <div class="wh"><div class="wh-time">21:00</div><div class="wh-icon">&#127780;</div><div class="wh-temp">29,0&#176;</div><div class="wh-rain">&#8211;</div></div>
+        <div class="wh"><div class="wh-time">22:00</div><div class="wh-icon">&#127780;</div><div class="wh-temp">27,3&#176;</div><div class="wh-rain">&#8211;</div></div>
+        <div class="wh"><div class="wh-time">23:00</div><div class="wh-icon">&#127769;</div><div class="wh-temp">25,7&#176;</div><div class="wh-rain">&#8211;</div></div>
       </div>
     </div>
   </section>
 
   <!-- ===== NACHRICHTEN ===== -->
-  <div class="section-title">&#128240; Aktuelle Meldungen (21. Juni 2026)</div>
+  <div class="section-title">&#128240; Aktuelle Meldungen (22. Juni 2026)</div>
   <div class="news-grid">
 
-    <!-- 1: Ursula Schleicher -->
-    <div class="news-card">
-      <div class="card-badges">
-        <span class="badge b-gesellschaft">Gesellschaft</span>
-        <span class="badge b-aschaffenburg">Aschaffenburg</span>
-      </div>
-      <h2>Aschaffenburger CSU-Europaabgeordnete Ursula Schleicher gestorben</h2>
-      <p class="summary">
-        Ursula Schleicher, eine der pr&#228;gendsten politischen Pers&#246;nlichkeiten Aschaffenburgs auf europ&#228;ischer Ebene, ist gestorben. Die am 15. Mai 1933 in Aschaffenburg geborene CSU-Politikerin war von 1972 bis 1980 Mitglied des Deutschen Bundestages und anschlie&#223;end f&#252;nf Wahlperioden &#8211; bis 2004 &#8211; Abgeordnete des Europ&#228;ischen Parlaments. Von 1994 bis 1999 bekleidete sie das Amt der Vizepr&#228;sidentin des Europ&#228;ischen Parlaments. Das Main-Echo w&#252;rdigte sie als &#8222;Grande Dame der CSU-Europapolitik&#8220; und &#8222;europ&#228;ische Aschaffenburgerin&#8220;. Schleicher pr&#228;gte &#252;ber Jahrzehnte das europ&#228;apolitische Engagement der Region und war noch 2023 beim 75-j&#228;hrigen Jubil&#228;um der Europa-Union Aschaffenburg pr&#228;sent. Sie wurde 93 Jahre alt.
-      </p>
-      <div class="card-footer">
-        <span class="date">21.06.2026</span>
-        <a href="https://www.main-echo.de/region/stadt-kreis-aschaffenburg/" target="_blank" rel="noopener">&#8594; Main-Echo</a>
-      </div>
-    </div>
-
-    <!-- 2: Falscher Polizeibeamter -->
-    <div class="news-card">
-      <div class="card-badges">
-        <span class="badge b-blaulicht">Blaulicht</span>
-        <span class="badge b-marktheidenfeld">Marktheidenfeld</span>
-      </div>
-      <h2>Falscher Polizeibeamter erbeutet Schmuck und Bargeld in Michelrieth</h2>
-      <p class="summary">
-        Eine Seniorin aus dem Marktheidenfelder Ortsteil Michelrieth ist Opfer eines dreisten Telefonbetrugs geworden. Unbekannte Anrufer gaben sich als Polizeibeamte aus und riefen am Donnerstagabend gegen 21:30 Uhr an. Unter dem Vorwand, das Verm&#246;gen der Frau zu sichern, brachten sie die &#228;ltere Dame dazu, Schmuck und Bargeld auszuh&#228;ndigen. Die Kriminalpolizei W&#252;rzburg hat die Ermittlungen aufgenommen und sucht Zeugen, die verdächtige Personen oder Fahrzeuge im Ortsteil Michelrieth beobachtet haben. Polizei und Landeskriminalamt warnen: Echte Beamte fordern niemals telefonisch die &#220;bergabe von Wertsachen &#8211; im Zweifel sofort auflegen und die offizielle Polizeinotrufnummer 110 w&#228;hlen.
-      </p>
-      <div class="card-footer">
-        <span class="date">19.06.2026</span>
-        <a href="https://www.meine-news.de/landkreis-main-spessart/c-blaulicht" target="_blank" rel="noopener">&#8594; Meine-News</a>
-      </div>
-    </div>
-
-    <!-- 3: Amerikanische Faulbrut -->
-    <div class="news-card">
-      <div class="card-badges">
-        <span class="badge b-umwelt">Umwelt</span>
-        <span class="badge b-main-spessart">Main-Spessart</span>
-      </div>
-      <h2>Amerikanische Faulbrut bei Bienen: Neue Sperrbezirke im Landkreis Main-Spessart</h2>
-      <p class="summary">
-        Das Veterin&#228;ramt des Landratsamtes Main-Spessart hat nach mehreren Ausbr&#252;chen der Amerikanischen Faulbrut neue Sperrbezirke verh&#228;ngt. Betroffen sind Burgsinn, der Ortsteil Wohnrod der Gemeinde Fellen, die Stadtgebiete Karlstadt und Rieneck sowie Schaippach als Ortsteil Gem&#252;ndens. Alle Sperrzonen umfassen einen Radius von zwei Kilometern um die Ausbruchsbetriebe &#8211; beim Karlstadter Bezirk dient der Main als nat&#252;rliche Grenze. Innerhalb der Sperrbezirke d&#252;rfen Bienenst&#246;cke, Waben, Wachs, Honig und benutztes Ger&#228;t nicht bewegt werden. Das Amt betont ausdr&#252;cklich: Der Erreger stellt keinerlei Gefahr f&#252;r Menschen oder andere Lebewesen dar. Imker k&#246;nnen sich unter Tel. 09353/793-1814 melden.
-      </p>
-      <div class="card-footer">
-        <span class="date">19.06.2026</span>
-        <a href="https://www.main-spessart.de/aktuelles/pressemitteilungen/11085.Amerikanische-Faulbrut-der-Bienen-Neue-Sperrbezirke-im-Landkreis-Main-Spessart.html" target="_blank" rel="noopener">&#8594; Landratsamt Main-Spessart</a>
-      </div>
-    </div>
-
-    <!-- 4: Weißer Engel -->
-    <div class="news-card">
-      <div class="card-badges">
-        <span class="badge b-ehrenamt">Ehrenamt</span>
-        <span class="badge b-unterfranken">Unterfranken</span>
-      </div>
-      <h2>Zehn B&#252;rgerinnen und B&#252;rger aus Unterfranken mit dem &#8222;Wei&#223;en Engel&#8220; ausgezeichnet</h2>
-      <p class="summary">
-        Bayerns Gesundheitsministerin Judith Gerlach hat in W&#252;rzburg zehn ehrenamtlich engagierte B&#252;rgerinnen und B&#252;rger aus Unterfranken mit dem &#8222;Wei&#223;en Engel&#8220; ausgezeichnet. Der Preis z&#228;hlt zu den h&#246;chsten Ehrungen f&#252;r freiwilliges Engagement im Gesundheits- und Pflegebereich in Bayern. Die Preistr&#228;gerinnen und Preistr&#228;ger wurden f&#252;r ihren unerm&#252;dlichen Einsatz in Bereichen wie Pflege, Hospizarbeit, Nachbarschaftshilfe und soziale Betreuung gew&#252;rdigt. Ministerin Gerlach betonte, das Ehrenamt sei das R&#252;ckgrat des bayerischen Gesundheitswesens. Der &#8222;Wei&#223;e Engel&#8220; wird j&#228;hrlich in allen bayerischen Regierungsbezirken verliehen.
-      </p>
-      <div class="card-footer">
-        <span class="date">20.06.2026</span>
-        <a href="https://aschaffenburg.news/" target="_blank" rel="noopener">&#8594; Aschaffenburg.news</a>
-      </div>
-    </div>
-
-    <!-- 5: Präventionskonferenz Main-Spessart -->
-    <div class="news-card">
-      <div class="card-badges">
-        <span class="badge b-gesundheit">Gesundheit</span>
-        <span class="badge b-lohr">Lohr</span>
-      </div>
-      <h2>Pr&#228;ventionskonferenz Main-Spessart: 120 Fachkr&#228;fte setzen Impulse in Lohr</h2>
-      <p class="summary">
-        In der Alten Turnhalle in Lohr am Main trafen sich rund 120 Fachkr&#228;fte &#8211; darunter B&#252;rgermeister, Kreisräte, Sozi­alp&#228;dagogen, &#196;rzte und Pflegefachkr&#228;fte &#8211; zur Pr&#228;ventionskonferenz des Landkreises Main-Spessart. Im Mittelpunkt standen der Bayerische Masterplan Pr&#228;vention mit zehn Gesundheitszielen sowie lokale Hilfsangebote wie das Programm &#8222;Netz P&#8220; f&#252;r Kinder mit psychisch erkrankten Elternteilen. Landrat Christoph Vogel betonte: Pr&#228;vention gelinge nur dann nachhaltig, wenn sie &#8222;gemeinsam gedacht, gestaltet und umgesetzt wird&#8220;. Prof. Dr. Martin-Niels D&#228;fler schloss mit Impulsen zu positiver Wahrnehmung und wertsch&#228;tzender Kommunikation. Die Konferenz soll k&#252;nftig regelm&#228;&#223;ig stattfinden.
-      </p>
-      <div class="card-footer">
-        <span class="date">19.06.2026</span>
-        <a href="https://www.main-spessart.de/aktuelles/pressemitteilungen/index.html" target="_blank" rel="noopener">&#8594; Landratsamt Main-Spessart</a>
-      </div>
-    </div>
-
-    <!-- 6: SenerTec Schweinfurt -->
-    <div class="news-card">
-      <div class="card-badges">
-        <span class="badge b-wirtschaft">Wirtschaft</span>
-        <span class="badge b-schweinfurt">Schweinfurt</span>
-      </div>
-      <h2>SenerTec in Schweinfurt stellt Produktion ein &#8211; 125 Arbeitspl&#228;tze in Gefahr</h2>
-      <p class="summary">
-        Der Hersteller von Dachs-Blockheizkraftwerken SenerTec stellt die Fertigung in Schweinfurt endg&#252;ltig ein. Bei einer Belegschaftsversammlung am 18. Juni 2026 best&#228;tigte der Betriebsrat das Aus &#8211; das Mutterunternehmen BDR Thermea hatte die Entscheidung bereits im Januar angek&#252;ndigt. Rund 125 Besch&#228;ftigte sind betroffen, von denen nur noch eine geringe zweistellige Zahl vor Ort bleiben soll. Betriebsratsvorsitzender Christian Zimmer reagierte &#8222;fassungslos und bitter entt&#228;uscht&#8220; &#252;ber die Ablehnung eines alternativen Unternehmenskonzepts. Ob&#252;rgermeister Ralf Hofmann und Landrat Florian T&#246;pper bezeichneten die Nachricht als &#8222;bitter&#8220; f&#252;r Besch&#228;ftigte und die regionale Wirtschaft Unterfrankens.
-      </p>
-      <div class="card-footer">
-        <span class="date">19.06.2026</span>
-        <a href="https://www.infranken.de/lk/schweinfurt/schweinfurt-produktions-aus-von-senertec-fix-bittere-nachricht-art-6369169" target="_blank" rel="noopener">&#8594; inFranken.de</a>
-      </div>
-    </div>
-
-    <!-- 7: Herrmann AfD Verfassungsschutz -->
-    <div class="news-card">
-      <div class="card-badges">
-        <span class="badge b-politik">Politik</span>
-        <span class="badge b-bayern">Bayern</span>
-      </div>
-      <h2>VGH Bayern best&#228;tigt: Verfassungsschutz darf AfD weiterhin beobachten</h2>
-      <p class="summary">
-        Der Bayerische Verwaltungsgerichtshof (VGH) hat einen Berufungsantrag der AfD gegen die Beobachtung durch das Landesamt f&#252;r Verfassungsschutz abgelehnt und damit das Urteil des Verwaltungsgerichts M&#252;nchen best&#228;tigt. Innenminister Joachim Herrmann begr&#252;&#223;te die Entscheidung als &#8222;klares Zeichen f&#252;r Demokratie und Rechtsstaat&#8220;. Das Gericht begr&#252;ndete die Rechtm&#228;&#223;igkeit damit, dass AfD-Anh&#228;ngern zurechenbare &#196;u&#223;erungen zu &#8222;Remigration&#8220;, zur Diffamierung von Menschen mit Migrationshintergrund und zu Umsturzphantasien das Ma&#223; zul&#228;ssiger Kritik &#252;berschritten. Die Beobachtung l&#228;uft seit Sommer 2022 und soll pr&#252;fen, ob die Partei verfassungsfeindliche Bestrebungen verfolgt.
-      </p>
-      <div class="card-footer">
-        <span class="date">19.06.2026</span>
-        <a href="https://aschaffenburg.news/politik/herrmann-verfassungsschutz-darf-afd-beobachten.html" target="_blank" rel="noopener">&#8594; Aschaffenburg.news</a>
-      </div>
-    </div>
-
-    <!-- 8: Glauber Private Altersvorsorge -->
-    <div class="news-card">
-      <div class="card-badges">
-        <span class="badge b-politik">Politik</span>
-        <span class="badge b-bayern">Bayern</span>
-      </div>
-      <h2>Glauber: Bayern wirbt f&#252;r renditestarkes Standard-Depot zur Altersvorsorge</h2>
-      <p class="summary">
-        Bayerns Verbraucherschutzminister Thorsten Glauber hat sich auf Landesebene f&#252;r die St&#228;rkung der privaten Altersvorsorge durch ein staatlich begleitetes &#8222;Standard-Depot&#8220; ausgesprochen. Das Modell soll &#252;ber eine &#246;ffentliche Institution angeboten werden und B&#252;rgerinnen sowie B&#252;rgern ohne tiefes Finanzwissen eine verlässliche, renditeorientierte M&#246;glichkeit zur Eigenvorsorge bieten. Glauber betonte, angesichts des demografischen Wandels sei die erg&#228;nzende private Vorsorge neben der gesetzlichen Rente unverzichtbar. Das Modell soll einfach zug&#228;nglich sein und bisherige H&#252;rden beim Einstieg in die Kapitalanlage abbauen. Bayern will sich damit auf Bundesebene f&#252;r ein entsprechendes Rahmengesetz einsetzen.
-      </p>
-      <div class="card-footer">
-        <span class="date">20.06.2026</span>
-        <a href="https://aschaffenburg.news/politik/glauber-private-altersvorsorge-staerken.html" target="_blank" rel="noopener">&#8594; Aschaffenburg.news</a>
-      </div>
-    </div>
-
-    <!-- 9: Vollsperrung Rosenstraße -->
+    <!-- 1: Vollsperrung Rosenstraße startet -->
     <div class="news-card">
       <div class="card-badges">
         <span class="badge b-verkehr">Verkehr</span>
         <span class="badge b-aschaffenburg">Aschaffenburg</span>
       </div>
-      <h2>Vollsperrung Rosenstra&#223;e Aschaffenburg: Bauarbeiten 22.&#8211;26. Juni</h2>
+      <h2>Vollsperrung Rosenstra&#223;e Aschaffenburg startet &#8211; Bauarbeiten bis 26. Juni</h2>
       <p class="summary">
-        Die Stadt Aschaffenburg sperrt die Rosenstra&#223;e auf H&#246;he Hausnummer&#160;4 von Montag, 22.&#160;Juni, bis Freitag, 26.&#160;Juni&#160;2026 vollst&#228;ndig f&#252;r den Durchgangsverkehr. Grund ist die Erneuerung einer Schachtabdeckung. Anlieger d&#252;rfen bis zur Baustelle fahren; die Einbahnstra&#223;enregelung wird f&#252;r Zufahrten unterhalb der Baustelle vor&#252;bergehend aufgehoben. Fu&#223;g&#228;nger und Radfahrer k&#246;nnen den Bereich passieren. Verkehrsbehinderungen sind un­vermeidlich &#8211; Autofahrerinnen und Autofahrer werden gebeten, rechtzeitig Ausweichrouten zu planen. Die Ma&#223;nahme f&#228;llt in die laufende Hitzewelle, die auch bei Tiefbauarbeiten erh&#246;hte Anforderungen an den Arbeitsschutz stellt.
+        Seit heute Morgen ist die Rosenstrae in Aschaffenburg auf H&#246;he Hausnummer&#160;4 vollst&#228;ndig gesperrt. Die Stadt erneuert bis Freitag, 26.&#160;Juni 2026, die Schachtabdeckung im Fahrbahn&shy;bereich. Anlieger d&#252;rfen bis zur Baustelle einfahren, die Einbahnstra&#223;enregelung f&#252;r Zufahrten unterhalb der Baustelle wird vor&#252;bergehend aufgehoben. Fu&#223;g&#228;nger und Radfahrer k&#246;nnen die Stelle passieren. Autofahrerinnen und Autofahrer sollten Ausweichrouten nutzen. Die Ma&#223;nahme f&#228;llt in die laufende Hitzewelle &#8211; erh&#246;hte Beeintr&#228;chtigungen sind m&#246;glich.
       </p>
       <div class="card-footer">
-        <span class="date">20.06.2026</span>
+        <span class="date">22.06.2026</span>
         <a href="https://aschaffenburg.news/ab/aschaffenburg/aschaffenburg/aschaffenburg-vollsperrung-in-der-rosenstrasse.html" target="_blank" rel="noopener">&#8594; Aschaffenburg.news</a>
       </div>
     </div>
 
-    <!-- 10: Ehrenzeichen Ministerpräsident -->
-    <div class="news-card">
-      <div class="card-badges">
-        <span class="badge b-ehrenamt">Ehrenamt</span>
-        <span class="badge b-main-spessart">Main-Spessart</span>
-      </div>
-      <h2>Landrat Vogel verleiht Ehrenzeichen des Bayerischen Ministerpr&#228;sidenten</h2>
-      <p class="summary">
-        Landrat Christoph Vogel hat das Ehrenzeichen des Bayerischen Ministerpr&#228;sidenten an drei verdiente Pers&#246;nlichkeiten aus dem Landkreis Main-Spessart verliehen. Hildegard Gerlach aus Fellen wird f&#252;r &#252;ber 35 Jahre als Leiterin der Singgruppe Fellen und ihr Engagement in der Lebenshilfe Main-Spessart geehrt. Susanne Muthig aus Fellen erh&#228;lt die Auszeichnung f&#252;r mehr als zwei Jahrzehnte ehrenamtliche Kassenf&#252;hrung der katholischen Kirchenstiftung. Dr. Nikolaus Roos aus Marktheidenfeld wird gew&#252;rdigt f&#252;r seinen Einsatz seit 1968 in der KJG sowie als tragende S&#228;ule der Tafel Marktheidenfeld seit 2016. Die Ehrungen fanden am 16. Juni statt und w&#252;rdigten au&#223;ergew&#246;hnliches ehrenamtliches Engagement auf Gemeindeebene.
-      </p>
-      <div class="card-footer">
-        <span class="date">17.06.2026</span>
-        <a href="https://www.main-spessart.de/aktuelles/pressemitteilungen/11078.Auszeichnung-fuer-jahrzehntelanges-Engagement-Landrat-Christoph-Vogel-verleiht-Ehrenzeichen-des-Bayerischen-Ministerpraesident.html" target="_blank" rel="noopener">&#8594; Landratsamt Main-Spessart</a>
-      </div>
-    </div>
-
-    <!-- 11: STADTRADELN Fairtrade-Mobil -->
+    <!-- 2: Hitzewelle Abfallabfuhr Stadtwerke -->
     <div class="news-card">
       <div class="card-badges">
         <span class="badge b-gesellschaft">Gesellschaft</span>
-        <span class="badge b-main-spessart">Main-Spessart</span>
+        <span class="badge b-aschaffenburg">Aschaffenburg</span>
       </div>
-      <h2>STADTRADELN Main-Spessart: Fairtrade-Kaffee-Mobil heute auf dem MainRadweg</h2>
+      <h2>Stadtwerke Aschaffenburg &#228;ndern Abfallabfuhr wegen Hitzewelle</h2>
       <p class="summary">
-        Der Landkreis Main-Spessart beteiligt sich noch bis zum 4. Juli 2026 am bundesweiten STADTRADELN. Heute, am l&#228;ngsten Tag des Jahres (21. Juni), gastiert das Fairtrade-Kaffee-Mobil der Weltl&#228;den Main-Spessart auf dem MainRadweg und betreibt ein tempor&#228;res Fairtrade-Caf&#233; f&#252;r Radfahrerinnen und Radfahrer. Wer mitmachen m&#246;chte, kann auf stadtradeln.de ein Team ab zwei Personen gr&#252;nden und Kilometer f&#252;r Klima und Umwelt sammeln &#8211; ob auf dem Arbeitsweg, beim Einkauf oder im Urlaub. Als Preise locken Gutscheine vom Cube Store Lohr und dem Radhaus Gem&#252;nden. Die Aktion setzt auf nachhaltige Mobilit&#228;t in der Fl&#228;che und l&#228;dt besonders zum Sonnensonnenwende-Ausflug aufs Rad ein.
+        Aufgrund der anhaltenden Hitzewarnung des Deutschen Wetterdienstes passen die Stadtwerke Aschaffenburg vom 22. bis 26.&#160;Juni 2026 die Zeiten der Abfallabfuhr vor&#252;bergehend an. M&#252;llbeh&#228;lter sollen fr&#252;hzeitiger bereitgestellt und geleert werden, um das Personal in den hei&#223;esten Tagesstunden zu entlasten. Anwohnerinnen und Anwohner werden gebeten, ihre Beh&#228;lter sp&#228;testens um 6:00&#160;Uhr bereitzustellen. Der Dienst bleibt vollumf&#228;nglich aufrechterhalten &#8211; lediglich die Abholzeitpunkte verschieben sich auf die fr&#252;hen Morgenstunden.
       </p>
       <div class="card-footer">
-        <span class="date">20.&#8211;21.06.2026</span>
-        <a href="https://www.main-spessart.de/aktuelles/pressemitteilungen/11064.STADTRADELN-im-Landkreis-Main-Spessart.-Fahrrad-Kilometer-sammeln-von-14.-Juni-bis-4.-Juli.html" target="_blank" rel="noopener">&#8594; Landratsamt Main-Spessart</a>
+        <span class="date">21.06.2026</span>
+        <a href="https://aschaffenburg.news/ab/aschaffenburg/aschaffenburg/aschaffenburg-abfallbeh%C3%A4lter-werden-fr%C3%BCher-bereitgestellt-und-abgeholt.html" target="_blank" rel="noopener">&#8594; Aschaffenburg.news</a>
       </div>
     </div>
 
-    <!-- 12: Johannesberg Diamantjubiläum -->
+    <!-- 3: Feuerwehr Landingstraße -->
     <div class="news-card">
       <div class="card-badges">
-        <span class="badge b-gesellschaft">Gesellschaft</span>
-        <span class="badge b-johannesberg">Johannesberg</span>
+        <span class="badge b-blaulicht">Blaulicht</span>
+        <span class="badge b-aschaffenburg">Aschaffenburg</span>
       </div>
-      <h2>F&#252;nf Priester aus der Region feiern Diamantenes Weihejubil&#228;um &#8211; 60 Jahre Priestertum</h2>
+      <h2>K&#252;chenbrand in Aschaffenburg &#8211; Landingstra&#223;e und Tunnel kurzzeitig gesperrt</h2>
       <p class="summary">
-        F&#252;nf Geistliche aus der Region begehen am 29. Juni 2026 das Diamantene Priesterjubil&#228;um, den 60. Jahrestag ihrer Weihe. Es sind Pfarrer i. R. Paul Hilbert (86, W&#252;rzburg), Pfarrer i. R. Josef Kraft (87, Veitsh&#246;chheim), Studiendirektor a. D. Hans Martetschl&#228;ger (86, W&#252;rzburg), Pfarrer i. R. Karl M&#246;dl (85, Johannesberg) und Studiendirektor a. D. Josef &#214;hrlein (85, W&#252;rzburg). Vier von ihnen wurden am 29. Juni 1966 durch Bischof Josef Stangl in W&#252;rzburg geweiht; Karl M&#246;dl empfing die Weihe durch Bischof Dr. Josef Schr&#246;ffer in Eichst&#228;tt. Josef Kraft feiert bereits am Sonntag, 28. Juni, um 10:30 Uhr einen Dankgottesdienst in Veitsh&#246;chheim.
+        Am Samstagmorgen rief ein K&#252;chenbrand in einem Geb&#228;ude an der Landingstra&#223;e in Aschaffenburg die Feuerwehr auf den Plan. Der angrenzende Tunnel musste w&#228;hrend des Einsatzes f&#252;r den Verkehr gesperrt werden. Die Feuerwehr konnte das Feuer rasch unter Kontrolle bringen und ein Ausbreiten auf andere Gebaudeteile verhindern. Verletzt wurde niemand. Personen im Geb&#228;ude hatten sich bereits selbst in Sicherheit gebracht. Nach Abschluss der L&#246;sch- und L&#252;ftungsarbeiten wurde der Tunnel wieder freigegeben. Die Brandursache wird von der Kriminalpolizei untersucht.
       </p>
       <div class="card-footer">
         <span class="date">20.06.2026</span>
-        <a href="https://aschaffenburg.news/ab/johannesberg/" target="_blank" rel="noopener">&#8594; Aschaffenburg.news</a>
+        <a href="https://www.main-echo.de/ressorts/blaulicht/landingstrasse-und-tunnel-teilweise-gesperrt-feuerwehreinsatz-am-samstagmorgen-art-8738222" target="_blank" rel="noopener">&#8594; Main-Echo</a>
       </div>
     </div>
 
-    <!-- 13: Spaziertreffs Main-Spessart -->
+    <!-- 4: LKW hängt an Wohnhaus Großwelzheim -->
+    <div class="news-card">
+      <div class="card-badges">
+        <span class="badge b-blaulicht">Blaulicht</span>
+        <span class="badge b-grosswelzheim">Gro&#223;welzheim</span>
+      </div>
+      <h2>Lastwagen bleibt in Gro&#223;welzheim an Wohnhaus h&#228;ngen &#8211; Feuerwehr im Einsatz</h2>
+      <p class="summary">
+        Als unfreiwillige Dachdecker mussten sich Einsatzkr&#228;fte der Karlsteiner Feuerwehr am Freitagabend in Gro&#223;welzheim bet&#228;tigen. Ein Lastkraftwagen hatte sich mit seinem Aufbau an einem Wohnhaus verkeilt und dabei Teile des Daches besch&#228;digt. Der Fahrer blieb unverletzt. Die Feuerwehr sicherte das Geb&#228;ude und half beim Freimachen des Fahrzeugs. Ein Statiker musste die betroffene Dachpartie begutachten, bevor die Bewohner das Haus wieder vollst&#228;ndig nutzen konnten. Die Schadensursache sowie die Fahrtroute des LKW werden von der Polizei gekl&#228;rt.
+      </p>
+      <div class="card-footer">
+        <span class="date">19.06.2026</span>
+        <a href="https://www.main-echo.de/ressorts/blaulicht/lastwagen-bleibt-in-grosswelzheim-an-wohnhaus-haengen-art-8738138" target="_blank" rel="noopener">&#8594; Main-Echo</a>
+      </div>
+    </div>
+
+    <!-- 5: Unfall Autobahnanschlussstelle Goldbach-Aschaffenburg -->
+    <div class="news-card">
+      <div class="card-badges">
+        <span class="badge b-blaulicht">Blaulicht</span>
+        <span class="badge b-regional">Regional</span>
+      </div>
+      <h2>Unfall an A&#8209;Anschlussstelle Goldbach-Aschaffenburg sorgt f&#252;r Stau</h2>
+      <p class="summary">
+        Ein Verkehrsunfall an der Autobahnanschlussstelle zwischen Goldbach und Aschaffenburg sorgte am Donnerstagabend f&#252;r massive Verkehrsbehinderungen. Die Unfallstelle musste von der Polizei abgesichert und teilweise gesperrt werden. Mehrere Fahrzeuge waren beteiligt; Verletzte wurden vom Rettungsdienst versorgt. Der R&#252;ckstau betraf sowohl die Ausfahrt als auch Teile der Bundesstra&#223;e in Richtung Aschaffenburg. Autofahrer wurden gebeten, die Bereich weitr&#228;umig zu umfahren. Der Sachschaden betr&#228;gt nach ersten Sch&#228;tzungen mehrere Tausend Euro. Die Unfallursache ist Gegenstand polizeilicher Ermittlungen.
+      </p>
+      <div class="card-footer">
+        <span class="date">19.06.2026</span>
+        <a href="https://www.main-echo.de/ressorts/blaulicht/nach-unfall-verkehrsbehinderungen-an-der-autobahnanschlusstelle-zwischen-goldbach-und-aschaffenburg-art-8737863" target="_blank" rel="noopener">&#8594; Main-Echo</a>
+      </div>
+    </div>
+
+    <!-- 6: Stadtbibliothek Onleihe-App -->
+    <div class="news-card">
+      <div class="card-badges">
+        <span class="badge b-kultur">Kultur</span>
+        <span class="badge b-aschaffenburg">Aschaffenburg</span>
+      </div>
+      <h2>Stadtbibliothek Aschaffenburg stellt auf neue Onleihe&#8209;App 3 um</h2>
+      <p class="summary">
+        Ab dem 24.&#160;Juni 2026 stellt die Stadtbibliothek Aschaffenburg ihre Onleihe auf eine neue Version um. Nutzerinnen und Nutzer m&#252;ssen daf&#252;r die neue App &#8222;Onleihe&#160;3&#8220; installieren, die kostenlos im App Store und bei Google Play verf&#252;gbar ist. Die bisherige Onleihe-App wird nach dem Update nicht mehr unterst&#252;tzt. Die Bibliothek empfiehlt, die neue App schon vor dem 24.&#160;Juni herunterzuladen, um einen nahtlosen &#220;bergang zu gew&#228;hrleisten. Alle ausgeliehenen E-Books, H&#246;rb&#252;cher und digitalen Zeitungen bleiben in der neuen App verf&#252;gbar. Bei technischen Fragen hilft die Bibliothek unter ihrer Servicenummer weiter.
+      </p>
+      <div class="card-footer">
+        <span class="date">20.06.2026</span>
+        <a href="https://aschaffenburg.news/ab/aschaffenburg/aschaffenburg/stadtbibliothek-neue-onleihe-app-ab-24-juni.html" target="_blank" rel="noopener">&#8594; Aschaffenburg.news</a>
+      </div>
+    </div>
+
+    <!-- 7: Reanimationstraining 4. Juli -->
     <div class="news-card">
       <div class="card-badges">
         <span class="badge b-gesundheit">Gesundheit</span>
-        <span class="badge b-main-spessart">Main-Spessart</span>
+        <span class="badge b-aschaffenburg">Aschaffenburg</span>
       </div>
-      <h2>Offene Spaziertreffs im Landkreis Main-Spessart wachsen weiter</h2>
+      <h2>Kostenlose Reanimationstrainings am 4. Juli &#8211; 39 Standorte in Stadt und Landkreis</h2>
       <p class="summary">
-        Das Netz kostenloser, offener Spaziertreffs im Landkreis Main-Spessart w&#228;chst kontinuierlich. Bereits sechs Gruppen treffen sich regelm&#228;&#223;ig in Gem&#252;nden (Di. 16 Uhr), Karlstadt (Mi. 10 Uhr), Karbach (letzter So.) und Bergrothenfels (Fr. 9 Uhr) &#8211; ab 23. Juni kommt Zellingen dazu, ab 6. Juli Partenstein. Die rund einst&#252;ndigen Spazierg&#228;nge erfordern keine Anmeldung und sind f&#252;r alle Altersgruppen geeignet. Die Treffs werden inzwischen von den Teilnehmenden eigenst&#228;ndig organisiert; Jogginggruppen und Gymnas­tiktraining erg&#228;nzen das Angebot. Ziel ist es, soziale Isolation zu reduzieren und Bewegung im Alltag niedrigschwellig zu f&#246;rdern.
+        Am Samstag, 4.&#160;Juli 2026, bietet die Gesundheitsregionplus Stadt und Landkreis Aschaffenburg an insgesamt 39 stark frequentierten &#246;ffentlichen Orten kostenlose Reanimationstrainings an. Ob Supermarkt, Bushaltestelle oder Marktplatz &#8211; ohne Anmeldung k&#246;nnen Interessierte lernen, wie sie im Notfall eines Herzstillstands richtig handeln. Erfahrene Ersthelfer und Rettungsdienstkr&#228;fte leiten die kurzen, praxisnahen Einheiten. Ziel ist es, die Ersthelferquote in der Region weiter zu erh&#246;hen. Der Aktionstag ist Teil des bayerischen Programms zur F&#246;rderung der Laienreanimation und findet bundesweit Beachtung.
       </p>
       <div class="card-footer">
-        <span class="date">16.06.2026</span>
-        <a href="https://www.main-spessart.de/aktuelles/pressemitteilungen/11075.Gemeinsam-in-Bewegung-Offene-Spaziertreffs-im-Landkreis-Main-Spessart-wachsen-weiter.html" target="_blank" rel="noopener">&#8594; Landratsamt Main-Spessart</a>
+        <span class="date">20.06.2026 (Veranst.: 04.07.2026)</span>
+        <a href="https://aschaffenburg.news/ab/aschaffenburg/aschaffenburg/aschaffenburg-kostenlose-reanimationstrainings-am-4-juli-2026.html" target="_blank" rel="noopener">&#8594; Aschaffenburg.news</a>
       </div>
     </div>
 
-    <!-- 14: Naturführung Ruine Homburg -->
+    <!-- 8: Feuerwehr Karlstadt-Gambach Hausbrand -->
     <div class="news-card">
       <div class="card-badges">
-        <span class="badge b-umwelt">Umwelt</span>
-        <span class="badge b-goessenheim">G&#246;ssenheim</span>
+        <span class="badge b-blaulicht">Blaulicht</span>
+        <span class="badge b-karlstadt">Karlstadt</span>
       </div>
-      <h2>Naturf&#252;hrung an der Ruine Homburg: Dexter-Rinder sch&#252;tzen seltene Arten</h2>
+      <h2>Feuerwehr l&#246;scht zwei Geb&#228;udebr&#228;nde in Karlstadt-Gambach &#8211; 120 Einsatzkr&#228;fte</h2>
       <p class="summary">
-        Am 17. Juli 2026 um 16 Uhr l&#228;dt der Landkreis Main-Spessart zur Naturf&#252;hrung an der Ruine Homburg in G&#246;ssenheim ein. Eine Herde Dexter-Rinder h&#228;lt durch extensive Beweidung das Hochplateau offen &#8211; erg&#228;nzt durch einen Pflegeschnitt im Winter entstehen wertvolle Lebensr&#228;ume f&#252;r licht- und w&#228;rmeliebende Arten. Besucherinnen und Besucher erwartet eine F&#252;hrung zu botanischen und zoologischen Besonderheiten wie Franz&#246;sischem Ahorn, Rauem Alant, Orchideen, Blaugr&#252;nem Faserschirm und der Heidelerche. Treffpunkt ist der Parkplatz vor der Ruine Homburg. Anmeldung bei Melissa Pfitzner (Tel. 09353/793-1836) erforderlich. Der Eintritt ist kostenlos.
+        Am Freitagnachmittag haben rund 120 Wehrleute zwei brennende Geb&#228;ude in der Wernfelder Stra&#223;e des Karlstadter Stadtteils Gambach gel&#246;scht. Das Feuer, das in einem Schuppen ausgebrochen war, griff auf angrenzende Wohnh&#228;user &#252;ber. Mehrere Familien mussten ihre H&#228;user verlassen. Der entstandene Sachschaden wird auf einen sechsstelligen Betrag gesch&#228;tzt. Verletzt wurde nach derzeitigem Stand niemand &#8211; alle Bewohner hatten das Geb&#228;ude rechtzeitig verlassen. Die Kriminalpolizei W&#252;rzburg hat die Ermittlungen zur Brandursache aufgenommen. Die Feuerwehren aus mehreren Gemeinden des Landkreises waren im Einsatz.
       </p>
       <div class="card-footer">
-        <span class="date">17.06.2026 (Veranstaltung: 17.07.2026)</span>
-        <a href="https://www.main-spessart.de/aktuelles/pressemitteilungen/11077.Naturfuehrung-Ruine-Homburg-Rinderbeweidung-fuer-den-Artenschutz.html" target="_blank" rel="noopener">&#8594; Landratsamt Main-Spessart</a>
+        <span class="date">19.06.2026</span>
+        <a href="https://www.main-echo.de/ressorts/blaulicht/feuerwehr-loescht-zwei-brennende-haeuser-in-karlstadt-gambach-art-8737935" target="_blank" rel="noopener">&#8594; Main-Echo</a>
       </div>
     </div>
 
-    <!-- 15: Kräuterspaziergang Goldbach -->
+    <!-- 9: Volksbank IHK-Wahl Aschaffenburg -->
+    <div class="news-card">
+      <div class="card-badges">
+        <span class="badge b-wirtschaft">Wirtschaft</span>
+        <span class="badge b-aschaffenburg">Aschaffenburg</span>
+      </div>
+      <h2>IHK Aschaffenburg: Noch bis 30. Juni Kandidaturen f&#252;r Vollversammlungswahl einreichen</h2>
+      <p class="summary">
+        Unternehmerinnen und Unternehmer aus dem Bezirk der Industrie- und Handelskammer (IHK) Aschaffenburg k&#246;nnen noch bis zum 30.&#160;Juni 2026 Kandidatinnen und Kandidaten f&#252;r die IHK-Vollversammlungswahl benennen oder selbst kandidieren. Die Vollversammlung ist das h&#246;chste Organ der IHK und vertritt die wirtschaftlichen Interessen der Region gegen&#252;ber Politik und Verwaltung. Die Wahl findet im Herbst 2026 statt und entscheidet dar&#252;ber, wer in den kommenden Jahren die regionale Wirtschaftspolitik mitgestaltet. Die IHK ruft ausdr&#252;cklich auch kleinere Betriebe auf, sich an der demokratischen Selbstverwaltung der Wirtschaft zu beteiligen.
+      </p>
+      <div class="card-footer">
+        <span class="date">20.06.2026</span>
+        <a href="https://aschaffenburg.news/ab/aschaffenburg/aschaffenburg/aschaffenburg-wirtschaft-aktiv-mitgestalten-kandidatur-zur-ihk-vollversammlung-noch-bis-30-juni-moeglich.html" target="_blank" rel="noopener">&#8594; Aschaffenburg.news</a>
+      </div>
+    </div>
+
+    <!-- 10: Bundeswehr Manöver Main-Spessart ab 29. Juni -->
     <div class="news-card">
       <div class="card-badges">
         <span class="badge b-gesellschaft">Gesellschaft</span>
-        <span class="badge b-goldbach">Goldbach</span>
+        <span class="badge b-main-spessart">Main-Spessart</span>
       </div>
-      <h2>Kr&#228;uter-Spaziergang der &#214;ko-Modellregion: Wildkr&#228;uter und Bio-&#214;le in Goldbach</h2>
+      <h2>Bundeswehr k&#252;ndigt Truppenberg&#252;bungen im Landkreis Main-Spessart an</h2>
       <p class="summary">
-        Die &#214;ko-Modellregion des Landkreises Aschaffenburg l&#228;dt heute, 21. Juni 2026, um 14:30 Uhr zu einem Kr&#228;uter-Spaziergang ein. Treffpunkt ist die Kinderkrippe Vogelnest in Goldbach. Kr&#228;uterexpertin Jeanine Biersack f&#252;hrt die Teilnehmerinnen und Teilnehmer entlang von Feldern und Wiesen und zeigt, welche Wildkr&#228;uter in der Region wachsen und wie daraus hochwertige Lebensmittel entstehen. Im Anschluss gew&#228;hrt Bio-Landwirt Gaetano Bergmann auf seinem Hof Einblicke in Anbau und Verarbeitung seiner Premium-Bio-&#214;le. Die Veranstaltung richtet sich an alle Interessierten und st&#228;rkt das Bewusstsein f&#252;r regionale Lebensmittelproduktion und Artenvielfalt im Landkreis.
+        Ab dem 29.&#160;Juni bis zum 4.&#160;Juli 2026 f&#252;hrt die Bundeswehr Truppenberg&#252;bungen im Landkreis Main-Spessart durch. Rund 50 Soldatinnen und Soldaten werden in ausgew&#228;hlten Bereichen des Landkreises &#252;ben &#8211; darunter Waldgebiete und Fl&#228;chen abseits besiedelter Zonen. Die Bev&#246;lkerung wird gebeten, Fahrzeuge und Material der Bundeswehr als Teil des &#220;bungsbetriebs zu betrachten und Absperrungen zu respektieren. Bei Beobachtungen, die Bedenken ausl&#246;sen, kann die Polizei kontaktiert werden. Das Landkreis-Amt hat die Genehmigung erteilt und bittet um Verst&#228;ndnis f&#252;r eventuelle Verkehrsbeeintr&#228;chtigungen auf Nebenstra&#223;en.
       </p>
       <div class="card-footer">
-        <span class="date">21.06.2026 (heute, 14:30 Uhr)</span>
-        <a href="https://aschaffenburg.news/ab/aschaffenburg/aschaffenburg-kraeuterspaziergang-zum-entdecken-und-erlebena.html" target="_blank" rel="noopener">&#8594; Aschaffenburg.news</a>
+        <span class="date">20.06.2026 (Manh&#246;ver: 29.06.&#8211;04.07.)</span>
+        <a href="https://www.main-echo.de/region/kreis-main-spessart/truppenuebungen-der-bundeswehr-im-kreis-main-spessart-art-8735307" target="_blank" rel="noopener">&#8594; Main-Echo</a>
+      </div>
+    </div>
+
+    <!-- 11: Sozialer Aufstand Demo Aschaffenburg -->
+    <div class="news-card">
+      <div class="card-badges">
+        <span class="badge b-politik">Politik</span>
+        <span class="badge b-aschaffenburg">Aschaffenburg</span>
+      </div>
+      <h2>Demo &#8222;Sozialer Aufstand&#8220; am 27. Juni in Aschaffenburg angek&#252;ndigt</h2>
+      <p class="summary">
+        F&#252;r Freitag, 27.&#160;Juni 2026, ist am Theaterparkplatz in Aschaffenburg eine Demonstration unter dem Motto &#8222;Sozialer Aufstand&#8220; angek&#252;ndigt. Organisatorinnen berichten von einem starken Auftakt und einer breiten Unterst&#252;tzung aus der Bev&#246;lkerung. Im Mittelpunkt stehen Forderungen nach mehr sozialer Gerechtigkeit, dem Erhalt von Sozialleistungen und gegen geplante K&#252;rzungen im kommunalen Bereich. Die Veranstaltung ist bei der Stadt Aschaffenburg angemeldet; Polizei und Ordnungsamt haben die entsprechenden Sicherheitsvorkehrungen getroffen. Bisher sind mehrere Hundert Teilnehmerinnen und Teilnehmer angemeldet.
+      </p>
+      <div class="card-footer">
+        <span class="date">19.06.2026 (Demo: 27.06.2026)</span>
+        <a href="https://www.meine-news.de/aschaffenburg/c-politik/sozialprotest-in-aschaffenburg-startet-mit-starkem-signal_a237391" target="_blank" rel="noopener">&#8594; Meine-News</a>
+      </div>
+    </div>
+
+    <!-- 12: Open Campus TH Aschaffenburg -->
+    <div class="news-card">
+      <div class="card-badges">
+        <span class="badge b-gesellschaft">Gesellschaft</span>
+        <span class="badge b-aschaffenburg">Aschaffenburg</span>
+      </div>
+      <h2>Open Campus der TH Aschaffenburg &#8211; Festivalatmosph&#228;re f&#252;r alle Generationen</h2>
+      <p class="summary">
+        Die Technische Hochschule Aschaffenburg l&#228;dt zum Open Campus &#8211; in lebendiger Festivalatmosph&#228;re erwartet Interessierte aller Altersgruppen ein buntes Programm: Laborbesichtigungen, interaktive Experimente, Vortr&#228;ge zu Studienm&#246;glichkeiten sowie kulinarische Angebote. Besonders angesprochen werden Sch&#252;lerinnen und Sch&#252;ler der Abschlussklassen sowie Quereinsteiger, die sich &#252;ber das Studienprogramm informieren m&#246;chten. Die TH Aschaffenburg z&#228;hlt zu den wachsenden Hochschulstandorten in Unterfranken und bietet neben klassischen auch duale und berufsbegleitende Studieng&#228;nge an. Alle Veranstaltungen sind kostenlos und ohne Anmeldung zug&#228;nglich.
+      </p>
+      <div class="card-footer">
+        <span class="date">20.06.2026</span>
+        <a href="https://aschaffenburg.news/ab/aschaffenburg/aschaffenburg/" target="_blank" rel="noopener">&#8594; Aschaffenburg.news</a>
+      </div>
+    </div>
+
+    <!-- 13: Alzenau Schwalbe Polizei Feuerwehr -->
+    <div class="news-card">
+      <div class="card-badges">
+        <span class="badge b-gesellschaft">Gesellschaft</span>
+        <span class="badge b-alzenau">Alzenau</span>
+      </div>
+      <h2>Polizei und Feuerwehr in Alzenau retten gestrandetes Schwalbenk&#252;ken</h2>
+      <p class="summary">
+        Einen etwas ungew&#246;hnlichen, aber herzerwm&#228;rmenden Einsatz absolvierten Polizei und Feuerwehr am Mittwochabend in der Michelbacher Stra&#223;e in Alzenau-K&#228;lberau. Ein Schwalbenk&#252;ken hatte das Nest verlassen und war auf dem Boden gestrandet. Da der Vogel noch nicht flugf&#228;hig war, griffen die Einsatzkr&#228;fte behutsam ein: Mit Hilfe einer Leiter und gezielten Handgriffen wurde das K&#252;ken sicher zum Nest zur&#252;ckgebracht. Das Nest blieb unbeschadigt. Tiersch&#252;tzer loben das umsichtige Vorgehen &#8211; Schwalben stehen als europ&#228;isch gesch&#252;tzte Vogelart unter besonderem Schutz.
+      </p>
+      <div class="card-footer">
+        <span class="date">18.06.2026</span>
+        <a href="https://aschaffenburg.news/ab/alzenau/k%C3%A4lberau/alzenau-polizei-und-feuerwehr-retten-schwalbenjunges.html" target="_blank" rel="noopener">&#8594; Aschaffenburg.news</a>
+      </div>
+    </div>
+
+    <!-- 14: Konjunktur Main-Spessart 2027 -->
+    <div class="news-card">
+      <div class="card-badges">
+        <span class="badge b-wirtschaft">Wirtschaft</span>
+        <span class="badge b-main-spessart">Main-Spessart</span>
+      </div>
+      <h2>Konjunkturausblick: &#8222;Wenn 2027 der Aufschwung nicht kommt &#8211; wann dann?&#8220;</h2>
+      <p class="summary">
+        Die regionale Wirtschaft im Landkreis Main-Spessart blickt mit gemischten Gef&#252;hlen auf die zweite Jahresh&#228;lfte 2026. Viele Betriebe hoffen auf eine konjunkturelle Belebung im Jahr 2027 &#8211; sehen aber gleichzeitig strukturelle Probleme, die eine rasche Erholung erschweren: Fachkr&#228;ftemangel, hohe Energiekosten und globale Lieferkettenrisiken belasten das Gesch&#228;ftsklima. Unternehmen aus dem verarbeitenden Gewerbe &#8211; darunter Maschinenbau und Zulieferer &#8211; verzeichnen weiterhin zur&#252;ckhaltende Auftragseing&#228;nge. Die IHK und lokale Wirtschaftsverb&#228;nde fordern gezielte Investitionsprogramme und B&#252;rokratieabbau als Voraussetzung f&#252;r eine wirtschaftliche Wende.
+      </p>
+      <div class="card-footer">
+        <span class="date">20.06.2026</span>
+        <a href="https://www.main-echo.de/region/kreis-main-spessart/wenn-es-2027-mit-dem-aufschwung-nicht-klappt-wann-dann-art-8737213" target="_blank" rel="noopener">&#8594; Main-Echo</a>
+      </div>
+    </div>
+
+    <!-- 15: Kinder-Kultur-Tag Nilkheimer Park -->
+    <div class="news-card">
+      <div class="card-badges">
+        <span class="badge b-kultur">Kultur</span>
+        <span class="badge b-aschaffenburg">Aschaffenburg</span>
+      </div>
+      <h2>Kinder-Kultur-Tag am 5. Juli im Nilkheimer Park Aschaffenburg</h2>
+      <p class="summary">
+        Am Sonntag, 5.&#160;Juli 2026, von 12 bis 18&#160;Uhr dreht sich im Nilkheimer Park in Aschaffenburg alles um Kinder: Der erste Kinder-Kultur-Tag bietet ein buntes Programm mit Mitmachaktionen, K&#252;nstlerinnen und K&#252;nstlern, Spiel und spa&#223;. Eine Messe mit regionalen Angeboten f&#252;r Familien erg&#228;nzt das Programm. Der Eintritt ist frei, alle Kinder unter 14 Jahren k&#246;nnen kostenlos teilnehmen. Eltern und Gro&#223;eltern sind herzlich eingeladen, den Park am Mainufer an einem langen Nachmittag gemeinsam mit ihren Kindern zu genie&#223;en. Getrennte Bereiche f&#252;r kleine und gr&#246;&#223;ere Kinder sorgen f&#252;r ein altersgerechtes Programm.
+      </p>
+      <div class="card-footer">
+        <span class="date">20.06.2026 (Veranst.: 05.07.2026)</span>
+        <a href="https://aschaffenburg.news/ab/aschaffenburg/aschaffenburg/kinder-kultur-tag-am-5-juli-im-nilkheimer-park.html" target="_blank" rel="noopener">&#8594; Aschaffenburg.news</a>
       </div>
     </div>
 
@@ -608,7 +611,7 @@
 
 <footer>
   <strong>Tagesnachrichten &#8211; Lohr am Main &amp; Aschaffenburg</strong><br>
-  Aktualisierung: Sonntag, 21. Juni 2026 &#183; 06:09 Uhr CEST<br>
+  Aktualisierung: Montag, 22. Juni 2026 &#183; 06:00 Uhr CEST<br>
   Wetter: <a href="https://api.brightsky.dev" target="_blank" rel="noopener">BrightSky API / DWD</a> (50,0&#176;N / 9,57&#176;E &#183; Lohr am Main)<br>
   <div class="footer-sources">
     Quellen: main-echo.de &#183; infranken.de &#183; aschaffenburg.news &#183; meine-news.de &#183;

@@ -1,18 +1,35 @@
 # Tagesnachrichten-Journal – domezos2024/aktuelles
 
-## Design – 2026-06-21 – 06:09 Uhr CEST
-- Schema: sommersonnenwende
-- Header-Gradient: #1b5e20 → #4caf50
-- Hintergrund: #f1f8e9
+## Design – 2026-06-22 – 06:00 Uhr CEST
+- Schema: sommerhitze
+- Header-Gradient: #b71c1c → #e53935
+- Hintergrund: #fff8e1
 - Karten: #ffffff
-- Akzentfarben: #2e7d32 · #f57f17 · #b71c1c · #4a148c · #006064
+- Akzentfarben: #c62828 · #f57f17 · #1565c0 · #2e7d32 · #4a148c
 - Layout: grid-2col (responsive 1col)
 
 ---
 
 ## Themen-Archiv (letzte 10 Tage – NICHT wiederholen!)
 
-### 2026-06-21 ← heute, neu hinzugefügt
+### 2026-06-22 ← heute, neu hinzugefügt
+- Vollsperrung Rosenstraße Aschaffenburg startet 22-26-Juni Schachtabdeckung Hitzewelle | https://aschaffenburg.news/ab/aschaffenburg/aschaffenburg/aschaffenburg-vollsperrung-in-der-rosenstrasse.html | verkehr | aschaffenburg
+- Stadtwerke Aschaffenburg Abfallabfuhr Hitzewelle früher bereitstellen 22-26-Juni | https://aschaffenburg.news/ab/aschaffenburg/aschaffenburg/aschaffenburg-abfallbeh%C3%A4lter-werden-fr%C3%BCher-bereitgestellt-und-abgeholt.html | gesellschaft | aschaffenburg
+- Küchenbrand Landingstraße Aschaffenburg Tunnel gesperrt Feuerwehr Samstagmorgen | https://www.main-echo.de/ressorts/blaulicht/landingstrasse-und-tunnel-teilweise-gesperrt-feuerwehreinsatz-am-samstagmorgen-art-8738222 | blaulicht | aschaffenburg
+- LKW Großwelzheim Wohnhaus hängen Karlsteiner Feuerwehr Dachdecker Sachschaden | https://www.main-echo.de/ressorts/blaulicht/lastwagen-bleibt-in-grosswelzheim-an-wohnhaus-haengen-art-8738138 | blaulicht | grosswelzheim
+- Unfall Autobahnanschlussstelle Goldbach Aschaffenburg Stau Rettungsdienst mehrere Fahrzeuge | https://www.main-echo.de/ressorts/blaulicht/nach-unfall-verkehrsbehinderungen-an-der-autobahnanschlusstelle-zwischen-goldbach-und-aschaffenburg-art-8737863 | blaulicht | regional
+- Stadtbibliothek Aschaffenburg Onleihe neue App Onleihe3 24-Juni Update | https://aschaffenburg.news/ab/aschaffenburg/aschaffenburg/stadtbibliothek-neue-onleihe-app-ab-24-juni.html | kultur | aschaffenburg
+- Reanimationstraining 4-Juli 39 Standorte Gesundheitsregionplus Laienreanimation kostenlos | https://aschaffenburg.news/ab/aschaffenburg/aschaffenburg/aschaffenburg-kostenlose-reanimationstrainings-am-4-juli-2026.html | gesundheit | aschaffenburg
+- Feuerwehr Karlstadt-Gambach Hausbrand Schuppen Wohnhäuser 120 Einsatzkräfte Wernfelder Straße | https://www.main-echo.de/ressorts/blaulicht/feuerwehr-loescht-zwei-brennende-haeuser-in-karlstadt-gambach-art-8737935 | blaulicht | karlstadt
+- IHK Aschaffenburg Vollversammlungswahl Kandidaturen bis 30-Juni Wirtschaft Selbstverwaltung | https://aschaffenburg.news/ab/aschaffenburg/aschaffenburg/aschaffenburg-wirtschaft-aktiv-mitgestalten-kandidatur-zur-ihk-vollversammlung-noch-bis-30-juni-moeglich.html | wirtschaft | aschaffenburg
+- Bundeswehr Manöver Truppenübungen Main-Spessart 29-Juni bis 4-Juli 50 Soldaten | https://www.main-echo.de/region/kreis-main-spessart/truppenuebungen-der-bundeswehr-im-kreis-main-spessart-art-8735307 | gesellschaft | main-spessart
+- Demo Sozialer Aufstand 27-Juni Theaterparkplatz Aschaffenburg Sozialprotест | https://www.meine-news.de/aschaffenburg/c-politik/sozialprotest-in-aschaffenburg-startet-mit-starkem-signal_a237391 | politik | aschaffenburg
+- TH Aschaffenburg Open Campus Festivalatmosphäre Laborbesichtigungen Studieninfo | https://aschaffenburg.news/ab/aschaffenburg/aschaffenburg/ | gesellschaft | aschaffenburg
+- Alzenau Schwalbenkücken Polizei Feuerwehr Rettung Kälberau Michelbacher Straße Artenschutz | https://aschaffenburg.news/ab/alzenau/k%C3%A4lberau/alzenau-polizei-und-feuerwehr-retten-schwalbenjunges.html | gesellschaft | alzenau
+- Main-Spessart Konjunktur 2027 Aufschwung Fachkräftemangel Energiekosten IHK Wirtschaftsverbände | https://www.main-echo.de/region/kreis-main-spessart/wenn-es-2027-mit-dem-aufschwung-nicht-klappt-wann-dann-art-8737213 | wirtschaft | main-spessart
+- Kinder-Kultur-Tag 5-Juli Nilkheimer Park Aschaffenburg Mitmachaktionen kostenlos | https://aschaffenburg.news/ab/aschaffenburg/aschaffenburg/kinder-kultur-tag-am-5-juli-im-nilkheimer-park.html | kultur | aschaffenburg
+
+### 2026-06-21
 - Ursula Schleicher CSU Europaabgeordnete Aschaffenburg gestorben 93 Jahre Vizepräsidentin EP | https://www.main-echo.de/region/stadt-kreis-aschaffenburg/ | gesellschaft | aschaffenburg
 - Amerikanische Faulbrut Bienen Sperrbezirke Burgsinn Karlstadt Rieneck Gemünden Main-Spessart | https://www.main-spessart.de/aktuelles/pressemitteilungen/11085.Amerikanische-Faulbrut-der-Bienen-Neue-Sperrbezirke-im-Landkreis-Main-Spessart.html | umwelt | main-spessart
 - Präventionskonferenz Main-Spessart Lohr 120 Fachkräfte Landrat Vogel Masterplan | https://www.main-spessart.de/aktuelles/pressemitteilungen/index.html | gesundheit | lohr
