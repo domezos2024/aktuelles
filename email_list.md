@@ -11,7 +11,7 @@ von `michaelbergfeld1982@gmail.com` mit dem Link zu den aktuellen Tagesnachricht
 
 <!-- Eine E-Mail-Adresse pro Zeile, Format: - adresse@domain.de -->
 <!-- Neue Anmeldungen vom Formular auf Nachrichten.html hier eintragen -->
-
+- michaelbergfeld1982@outlook.de
 
 
 ---
