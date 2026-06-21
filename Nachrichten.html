@@ -3,850 +3,632 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Nachrichten – Lohr am Main &amp; Aschaffenburg · Sonntag, 21. Juni 2026</title>
+<title>Nachrichten – Lohr am Main &amp; Aschaffenburg | Sonntag, 21. Juni 2026</title>
 <style>
-/* ===== RESET &amp; BASE ===== */
-*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-html { font-size: 16px; scroll-behavior: smooth; }
-body {
-  font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
-  background: #e0f4f7;
-  color: #1a2a2a;
-  line-height: 1.6;
-  min-height: 100vh;
+:root {
+  --bg: #FFF8EE;
+  --card: #FFFEF8;
+  --card-border: #E8D5B0;
+  --header-a: #5C0E02;
+  --header-b: #A63D00;
+  --header-c: #E8851A;
+  --acc1: #8B0000;
+  --acc2: #C84B00;
+  --acc3: #E8851A;
+  --acc4: #2D7D46;
+  --acc5: #1A3A8F;
+  --text: #1A1A1A;
+  --muted: #555;
+  --shadow: 0 2px 10px rgba(140,50,0,.10);
 }
-a { color: inherit; text-decoration: none; }
-ul { list-style: none; }
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:Georgia,'Times New Roman',serif;background:var(--bg);color:var(--text);line-height:1.65}
+a{color:var(--acc5);text-decoration:none}
+a:hover{text-decoration:underline}
 
-/* ===== HEADER ===== */
-header {
-  background: linear-gradient(135deg, #004d6e 0%, #006e8a 50%, #0097a7 100%);
-  color: #ffffff;
-  padding: 1.4rem 1.2rem 1.2rem;
-  box-shadow: 0 3px 12px rgba(0,0,0,0.28);
+/* HEADER */
+header{
+  background:linear-gradient(135deg,var(--header-a) 0%,var(--header-b) 55%,var(--header-c) 100%);
+  color:#fff;padding:2rem 1.5rem 1.6rem;text-align:center;
 }
-.header-inner {
-  max-width: 1200px;
-  margin: 0 auto;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  gap: 0.8rem;
+header h1{
+  font-size:clamp(1.4rem,4vw,2.3rem);font-weight:bold;
+  letter-spacing:-.01em;margin-bottom:.4rem;
+  text-shadow:0 2px 8px rgba(0,0,0,.4);
 }
-.header-brand { display: flex; align-items: center; gap: 0.8rem; }
-.header-icon {
-  width: 52px; height: 52px;
-  background: rgba(255,255,255,0.18);
-  border: 2px solid rgba(255,255,255,0.4);
-  border-radius: 50%;
-  display: flex; align-items: center; justify-content: center;
-  font-size: 1.6rem;
-  flex-shrink: 0;
-}
-.header-title { line-height: 1.2; }
-.header-title h1 {
-  font-size: 1.35rem;
-  font-weight: 700;
-  letter-spacing: 0.3px;
-}
-.header-title .subtitle {
-  font-size: 0.82rem;
-  color: rgba(255,255,255,0.82);
-  margin-top: 0.1rem;
-}
-.header-meta {
-  text-align: right;
-  line-height: 1.4;
-}
-.header-meta .wochentag {
-  font-size: 0.78rem;
-  text-transform: uppercase;
-  letter-spacing: 1.5px;
-  color: rgba(255,255,255,0.72);
-  display: block;
-}
-.header-meta .datum {
-  font-size: 1.1rem;
-  font-weight: 700;
-  display: block;
-}
-.header-meta .uhrzeit {
-  font-size: 0.82rem;
-  color: rgba(255,255,255,0.82);
-  display: block;
-}
+header .sub{font-size:.9rem;opacity:.88;font-style:italic;margin-bottom:.25rem}
+header .dateline{font-size:.8rem;opacity:.75;letter-spacing:.06em;text-transform:uppercase}
 
-/* ===== SECTION TITLE ===== */
-.section-title {
-  font-size: 1.0rem;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 1.2px;
-  color: #004d6e;
-  padding: 0 0 0.5rem;
-  border-bottom: 3px solid #0097a7;
-  margin-bottom: 1.1rem;
-}
+/* CONTAINER */
+.wrap{max-width:1440px;margin:0 auto;padding:0 1rem}
 
-/* ===== CONTENT WRAPPER ===== */
-.content-wrap {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 1.2rem;
+/* SONNENWENDE BANNER */
+.solstice-banner{
+  background:linear-gradient(to right,#FFF3D5,#FFEABA,#FFD977,#FFEABA,#FFF3D5);
+  border-top:4px solid #E8851A;border-bottom:4px solid #E8851A;
+  padding:1.2rem 1.5rem;margin:1.5rem auto;max-width:1440px;
 }
+.solstice-banner h2{color:var(--acc2);font-size:1.25rem;margin-bottom:.5rem}
+.solstice-banner p{font-size:.88rem;color:#3A2800;line-height:1.65}
+.solstice-banner .detail{
+  display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
+  gap:.6rem;margin-top:.8rem;
+}
+.sol-fact{
+  background:rgba(255,255,255,.55);border:1px solid #E8C46A;border-radius:6px;
+  padding:.55rem .8rem;font-size:.82rem;
+}
+.sol-fact strong{color:var(--acc2)}
 
-/* ===== SOMMERSONNENWENDE BANNER ===== */
-.sonnenwende-box {
-  background: linear-gradient(120deg, #003d52 0%, #005c6e 40%, #006e5c 100%);
-  color: #ffffff;
-  padding: 1.6rem 1.2rem;
-  margin-bottom: 0;
+/* WETTER */
+.weather-box{
+  background:var(--card);border:1px solid var(--card-border);border-radius:8px;
+  padding:1.2rem;margin:1.5rem auto;max-width:1440px;box-shadow:var(--shadow);
 }
-.sonnenwende-inner {
-  max-width: 1200px;
-  margin: 0 auto;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 1.4rem;
-  align-items: start;
+.weather-box h2{
+  color:var(--acc2);font-size:1.05rem;margin-bottom:.8rem;
+  border-bottom:2px solid var(--acc3);padding-bottom:.35rem;
 }
-.sonnenwende-badge {
-  display: inline-block;
-  background: rgba(255,255,255,0.18);
-  border: 1px solid rgba(255,255,255,0.4);
-  border-radius: 20px;
-  font-size: 0.72rem;
-  text-transform: uppercase;
-  letter-spacing: 1.5px;
-  padding: 0.25rem 0.75rem;
-  margin-bottom: 0.6rem;
-  color: #b2ebf2;
+.w-scroll{overflow-x:auto;padding-bottom:.4rem}
+.w-hours{display:flex;gap:.5rem;min-width:max-content}
+.wh{
+  text-align:center;background:linear-gradient(180deg,#FFF3E0,#FFE8C8);
+  border:1px solid #E8D5B0;border-radius:6px;padding:.45rem .55rem;
+  min-width:58px;font-size:.78rem;
 }
-.sonnenwende-title {
-  font-size: 1.25rem;
-  font-weight: 700;
-  margin-bottom: 0.6rem;
+.wh.now{border-color:var(--acc3);border-width:2px;background:linear-gradient(180deg,#FFE0B0,#FFC870)}
+.wh .t{font-weight:bold;color:var(--acc1);font-size:.72rem}
+.wh .ic{font-size:1.35rem;line-height:1.1}
+.wh .tp{font-weight:bold;font-size:.92rem}
+.wh .wi{color:var(--muted);font-size:.68rem}
+.w-days{display:grid;grid-template-columns:1fr 1fr;gap:1rem;margin-top:1rem}
+.wd{
+  background:linear-gradient(135deg,#FFF3E0,#FFEFD5);border:1px solid var(--card-border);
+  border-radius:8px;padding:.9rem 1rem;text-align:center;
 }
-.sonnenwende-text {
-  font-size: 0.87rem;
-  color: rgba(255,255,255,0.88);
-  line-height: 1.65;
-}
-.sonnenwende-text p + p { margin-top: 0.5rem; }
-.sonnenwende-facts {
-  background: rgba(255,255,255,0.1);
-  border-radius: 10px;
-  border: 1px solid rgba(255,255,255,0.2);
-  padding: 1rem;
-  align-self: start;
-}
-.sonnenwende-facts h4 {
-  font-size: 0.78rem;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  color: #b2ebf2;
-  margin-bottom: 0.7rem;
-}
-.sonnenwende-facts li {
-  font-size: 0.84rem;
-  padding: 0.28rem 0;
-  border-bottom: 1px solid rgba(255,255,255,0.1);
-  display: flex; justify-content: space-between; gap: 0.5rem;
-}
-.sonnenwende-facts li:last-child { border-bottom: none; }
-.fact-label { color: rgba(255,255,255,0.7); }
-.fact-val { font-weight: 700; text-align: right; }
+.wd h3{font-size:.88rem;color:var(--acc2);margin-bottom:.4rem}
+.wd .dic{font-size:2.4rem;line-height:1.1}
+.wd .mm{font-size:1.1rem;font-weight:bold;color:var(--text)}
+.wd .mm span{color:var(--acc5);font-size:.95rem}
+.wd .cond{font-size:.78rem;color:var(--muted);margin-top:.2rem}
 
-/* ===== WEATHER SECTION ===== */
-.wetter-section {
-  background: #f0fbfd;
-  border-bottom: 1px solid #b2dfdb;
-  padding: 1.2rem 1.2rem 1.4rem;
-  margin-bottom: 1.5rem;
+/* HITZEWARNUNG */
+.heat-warning{
+  background:#FFF1F1;border:2px solid #C62828;border-radius:8px;
+  padding:.9rem 1.1rem;margin:1.5rem auto;max-width:1440px;
+  display:flex;align-items:flex-start;gap:.75rem;
 }
-.wetter-two-days {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 1rem;
-  margin-bottom: 1.2rem;
-}
-.wetter-day-card {
-  background: #ffffff;
-  border: 1px solid #b2dfdb;
-  border-radius: 10px;
-  padding: 0.9rem 1rem;
-  display: flex;
-  align-items: center;
-  gap: 1rem;
-}
-.wetter-day-icon { font-size: 2.2rem; }
-.wetter-day-info { flex: 1; }
-.wetter-day-name {
-  font-size: 0.75rem;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  color: #004d6e;
-}
-.wetter-day-temp {
-  font-size: 1.2rem;
-  font-weight: 700;
-  color: #e65100;
-  margin: 0.15rem 0;
-}
-.wetter-day-cond { font-size: 0.78rem; color: #555; }
-.wetter-day-wind { font-size: 0.75rem; color: #777; margin-top: 0.2rem; }
+.heat-warning .hw-icon{font-size:2rem;flex-shrink:0;padding-top:.1rem}
+.heat-warning h3{color:#C62828;font-size:1rem;margin-bottom:.3rem}
+.heat-warning p{font-size:.83rem;color:#4A1010;line-height:1.55}
 
-.wetter-scroll-label {
-  font-size: 0.78rem;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  color: #004d6e;
-  margin-bottom: 0.5rem;
+/* NEWS GRID */
+.news-section{max-width:1440px;margin:1.5rem auto}
+.news-section h2{
+  font-size:1.2rem;color:var(--acc1);margin-bottom:1rem;
+  border-left:4px solid var(--acc3);padding-left:.75rem;
 }
-.wetter-scroll {
-  overflow-x: auto;
-  -webkit-overflow-scrolling: touch;
-  padding-bottom: 0.4rem;
-}
-.wetter-scroll-inner {
-  display: flex;
-  gap: 0.5rem;
-  min-width: max-content;
-}
-.wetter-h {
-  background: #ffffff;
-  border: 1px solid #b2dfdb;
-  border-radius: 8px;
-  padding: 0.5rem 0.55rem;
-  text-align: center;
-  min-width: 62px;
-  flex-shrink: 0;
-}
-.wetter-h.now {
-  border-color: #0097a7;
-  background: #e0f7fa;
-  box-shadow: 0 0 0 2px #0097a7;
-}
-.wetter-h.solstice-time {
-  border-color: #e65100;
-  background: #fff3e0;
-}
-.wh-time { font-size: 0.68rem; font-weight: 700; color: #004d6e; }
-.wh-icon { font-size: 1.2rem; margin: 0.15rem 0; }
-.wh-temp { font-size: 0.82rem; font-weight: 700; color: #333; }
-.wh-precip { font-size: 0.62rem; color: #0097a7; }
-
-/* ===== NEWS GRID ===== */
-.news-section { padding: 0 1.2rem 2rem; }
-.news-grid {
-  max-width: 1200px;
-  margin: 0 auto 1rem;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 1.1rem;
+.news-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1.1rem}
+@media(max-width:960px){.news-grid{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:580px){
+  .news-grid{grid-template-columns:1fr}
+  .solstice-banner .detail{grid-template-columns:1fr}
+  header h1{font-size:1.4rem}
+  .w-days{grid-template-columns:1fr}
 }
 
-/* ===== NEWS CARD ===== */
-.card {
-  background: #ffffff;
-  border: 1px solid #b2dfdb;
-  border-radius: 12px;
-  overflow: hidden;
-  box-shadow: 0 2px 8px rgba(0,77,110,0.07);
-  display: flex;
-  flex-direction: column;
+/* CARD */
+.card{
+  background:var(--card);border:1px solid var(--card-border);border-radius:8px;
+  padding:.95rem;box-shadow:var(--shadow);overflow:hidden;
 }
-.card-body {
-  padding: 1rem 1rem 0.9rem;
-  flex: 1;
-  display: flex;
-  flex-direction: column;
+.card-media{float:right;margin:0 0 .5rem .7rem;width:110px;flex-shrink:0}
+.card-media img{
+  width:110px;height:78px;object-fit:cover;border-radius:4px;
+  border:1px solid var(--card-border);display:block;
 }
-.card-top {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  gap: 0.5rem;
-  margin-bottom: 0.55rem;
+.dl-lbl{
+  display:block;text-align:center;font-size:.62rem;color:var(--acc5);
+  margin-top:2px;
 }
-.card-badges { display: flex; flex-wrap: wrap; gap: 0.3rem; flex: 1; }
-.badge {
-  display: inline-block;
-  font-size: 0.66rem;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.8px;
-  padding: 0.18rem 0.5rem;
-  border-radius: 10px;
-  color: #fff;
-  white-space: nowrap;
+.dl-lbl:hover{text-decoration:underline}
+.vid-thumb{
+  width:110px;height:78px;background:#1a1a2e;border-radius:4px;
+  display:flex;align-items:center;justify-content:center;flex-direction:column;
+  border:2px solid #333;text-decoration:none;
 }
-.badge-blaulicht    { background: #c62828; }
-.badge-politik      { background: #1565c0; }
-.badge-wirtschaft   { background: #e65100; }
-.badge-gesellschaft { background: #4a148c; }
-.badge-kultur       { background: #2e7d32; }
-.badge-umwelt       { background: #00695c; }
-.badge-gesundheit   { background: #00838f; }
-.badge-sport        { background: #0277bd; }
-.badge-verkehr      { background: #6d4c41; }
-.badge-ort          { background: #004d6e; }
+.vid-thumb .play{font-size:1.6rem}
+.vid-thumb small{font-size:.58rem;color:#bbb;text-align:center;padding:0 3px;line-height:1.3;margin-top:2px}
+.ph{
+  width:110px;height:78px;background:linear-gradient(135deg,#E8D5B0,#C8A870);
+  border-radius:4px;display:flex;align-items:center;justify-content:center;
+  flex-direction:column;border:1px solid var(--card-border);text-decoration:none;color:#5a3e1b;
+}
+.ph .pi{font-size:1.4rem}
+.ph small{font-size:.58rem;text-align:center;padding:0 4px;line-height:1.3;margin-top:2px}
 
-/* Card image top-right */
-.card-img-wrap { flex-shrink: 0; margin-left: 0.4rem; }
-.card-img-link {
-  display: block;
-  border-radius: 8px;
-  overflow: hidden;
-  border: 1px solid #b2dfdb;
+/* BADGES */
+.badges{display:flex;flex-wrap:wrap;gap:.3rem;margin-bottom:.5rem}
+.b{
+  display:inline-block;padding:.12rem .45rem;border-radius:3px;
+  font-size:.67rem;font-weight:bold;text-transform:uppercase;
+  letter-spacing:.04em;font-family:Arial,sans-serif;
 }
-.card-img {
-  width: 90px;
-  height: 72px;
-  object-fit: cover;
-  display: block;
-}
+.b-blu{background:#1A3A8F;color:#fff}
+.b-pol{background:#8B0000;color:#fff}
+.b-wirt{background:#4A5D23;color:#fff}
+.b-ges{background:#5B2D8E;color:#fff}
+.b-kul{background:#7B3F00;color:#fff}
+.b-health{background:#007A5E;color:#fff}
+.b-env{background:#2D6A1E;color:#fff}
+.b-klim{background:#1565C0;color:#fff}
+.b-verk{background:#664400;color:#fff}
+.b-tour{background:#A0007D;color:#fff}
+.b-freiz{background:#5500AA;color:#fff}
+.b-lohr{background:#C84B00;color:#fff}
+.b-ab{background:#8B0000;color:#fff}
+.b-ms{background:#2D6A1E;color:#fff}
+.b-mil{background:#5B2D8E;color:#fff}
+.b-karl{background:#4A5D23;color:#fff}
+.b-gold{background:#664400;color:#fff}
+.b-roth{background:#007A5E;color:#fff}
+.b-grost{background:#1565C0;color:#fff}
+.b-reg{background:#A63D00;color:#fff}
+.b-essel{background:#A0007D;color:#fff}
+.b-obn{background:#4A0055;color:#fff}
+.b-mkh{background:#C84B00;color:#fff}
+.b-euss{background:#2D7D46;color:#fff}
 
-.card-title {
-  font-size: 0.95rem;
-  font-weight: 700;
-  color: #003d52;
-  margin-bottom: 0.45rem;
-  line-height: 1.35;
+.card h3{font-size:.97rem;line-height:1.35;margin-bottom:.5rem}
+.card h3 a{color:var(--acc1)}
+.card p{font-size:.84rem;color:#2A2A2A;line-height:1.6}
+.cf{
+  margin-top:.7rem;padding-top:.5rem;border-top:1px solid var(--card-border);
+  display:flex;justify-content:space-between;align-items:center;
+  flex-wrap:wrap;gap:.25rem;
 }
-.card-summary {
-  font-size: 0.83rem;
-  color: #3a4a4a;
-  line-height: 1.6;
-  flex: 1;
-}
-.card-footer {
-  margin-top: 0.7rem;
-  padding-top: 0.55rem;
-  border-top: 1px solid #e0f4f7;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 0.5rem;
-}
-.card-date { font-size: 0.7rem; color: #888; }
-.card-link {
-  font-size: 0.73rem;
-  font-weight: 700;
-  color: #0097a7;
-}
+.cf a{font-size:.73rem;color:var(--acc5)}
+.ct{font-size:.68rem;color:var(--muted);font-family:Arial,sans-serif}
 
-/* ===== FOOTER ===== */
-footer {
-  background: #003d52;
-  color: rgba(255,255,255,0.85);
-  padding: 1.8rem 1.2rem;
-  margin-top: 1rem;
+/* FOOTER */
+footer{
+  background:var(--header-a);color:#F0C898;
+  padding:1.5rem 1.5rem 1.2rem;text-align:center;margin-top:2rem;
 }
-.footer-inner {
-  max-width: 1200px;
-  margin: 0 auto;
+footer h3{font-size:.95rem;color:#fff;margin-bottom:.8rem}
+.src-list{
+  display:flex;flex-wrap:wrap;justify-content:center;
+  gap:.4rem 1.2rem;list-style:none;margin-bottom:1rem;
 }
-.footer-inner p {
-  font-size: 0.8rem;
-  color: rgba(255,255,255,0.6);
-  margin-bottom: 1rem;
-}
-.footer-inner h4 {
-  font-size: 0.78rem;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  color: #0097a7;
-  margin-bottom: 0.5rem;
-}
-.sources-list {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.4rem 1.2rem;
-}
-.sources-list li a {
-  font-size: 0.76rem;
-  color: rgba(255,255,255,0.7);
-}
-.footer-note {
-  margin-top: 1.2rem;
-  font-size: 0.72rem;
-  color: rgba(255,255,255,0.4);
-  border-top: 1px solid rgba(255,255,255,0.1);
-  padding-top: 0.8rem;
-}
-
-/* ===== RESPONSIVE ===== */
-@media (max-width: 820px) {
-  .sonnenwende-inner  { grid-template-columns: 1fr; }
-  .news-grid          { grid-template-columns: 1fr; }
-  .wetter-two-days    { grid-template-columns: 1fr; }
-}
-@media (max-width: 540px) {
-  .header-inner       { flex-direction: column; align-items: flex-start; }
-  .header-meta        { text-align: left; }
-  .card-img           { width: 70px; height: 56px; }
-}
+.src-list li{font-size:.76rem}
+.src-list a{color:#F0C898}
+.src-list a:hover{color:#fff;text-decoration:underline}
+footer .ts{font-size:.72rem;opacity:.65;margin-top:.5rem}
 </style>
 </head>
 <body>
 
-<!-- ===== HEADER ===== -->
+<!-- HEADER -->
 <header>
-  <div class="header-inner">
-    <div class="header-brand">
-      <div class="header-icon">🌊</div>
-      <div class="header-title">
-        <h1>Nachrichten</h1>
-        <div class="subtitle">Lohr am Main &amp; Aschaffenburg · Main-Spessart</div>
-      </div>
-    </div>
-    <div class="header-meta">
-      <span class="wochentag">Sonntag</span>
-      <span class="datum">21. Juni 2026</span>
-      <span class="uhrzeit">11:12 Uhr CEST</span>
-    </div>
-  </div>
+  <h1>&#9728;&#65039; Nachrichten &#8211; Lohr am Main &amp; Aschaffenburg</h1>
+  <div class="sub">Main-Spessart &middot; Miltenberg &middot; Unterfranken</div>
+  <div class="dateline">Sonntag, 21. Juni 2026 &nbsp;&middot;&nbsp; 18:00 Uhr CEST</div>
 </header>
 
-<!-- ===== SOMMERSONNENWENDE SONDER-BOX ===== -->
-<section class="sonnenwende-box">
-  <div class="sonnenwende-inner">
-    <div>
-      <span class="sonnenwende-badge">&#9728; Astronomisches Ereignis &middot; Heute</span>
-      <h2 class="sonnenwende-title">&#9728; Sommersonnenwende &ndash; Astronomischer Sommeranfang 2026</h2>
-      <div class="sonnenwende-text">
-        <p>Heute, am 21. Juni 2026, ereignet sich um <strong>12:57 Uhr CEST</strong> die Sommersonnenwende &ndash; der astronomische Beginn des Sommerhalbjahres auf der Nordhalbkugel. Die Erde erreicht jetzt die Position in ihrer Umlaufbahn, an der die Nordhalbkugel der Sonne am st&auml;rksten zugeneigt ist. In Lohr am Main und Aschaffenburg geht die Sonne bereits um 05:22 Uhr auf und erst um 21:30 Uhr unter &ndash; das ergibt rund <strong>16 Stunden und 8 Minuten</strong> Tageslicht, mehr als an jedem anderen Tag des Jahres.</p>
-        <p>Nach der Sonnenwende beginnen die Tage langsam wieder k&uuml;rzer zu werden &ndash; zun&auml;chst kaum merklich, aber stetig bis zur Wintersonnenwende am 21. Dezember. In vielen Kulturen wurde die Sonnenwende mit Feuern, Festen und rituellen T&auml;nzen begangen: Von der nordischen Mittsommerfeier (Midsommar) bis zum keltischen Litha reicht die Tradition. In der christlichen &Uuml;berlieferung folgt drei Tage sp&auml;ter das Johannisfest am 24. Juni, das mit dem Brauch des Johannisfeuers eng verbunden ist.</p>
-        <p>F&uuml;r die Natur ist der heutige Tag der H&ouml;hepunkt des Vegetationsjahres: Viele Pflanzen befinden sich in voller Bl&uuml;te, die Vogelges&auml;nge sind auf ihr Maximum ausgedehnt, und Insekten wie Gl&uuml;hwurmchen sind abends in besonderer H&auml;ufigkeit zu beobachten. Der Spessart zeigt sich derzeit von seiner &uuml;ppigsten Seite &ndash; genuss- und beobachtungswert.</p>
-      </div>
-    </div>
-    <div class="sonnenwende-facts">
-      <h4>Fakten zur Sonnenwende 2026</h4>
-      <ul>
-        <li><span class="fact-label">Datum &amp; Uhrzeit</span><span class="fact-val">21. Juni 2026, 12:57 CEST</span></li>
-        <li><span class="fact-label">Sonnenaufgang Lohr</span><span class="fact-val">05:22 Uhr CEST</span></li>
-        <li><span class="fact-label">Sonnenuntergang Lohr</span><span class="fact-val">21:30 Uhr CEST</span></li>
-        <li><span class="fact-label">Tageslänge</span><span class="fact-val">16 Std. 8 Min.</span></li>
-        <li><span class="fact-label">Sonnenhöchststand</span><span class="fact-val">ca. 62° Kulminationswinkel</span></li>
-        <li><span class="fact-label">Nächste Sonnenwende</span><span class="fact-val">21. Dez. 2026 (Winter)</span></li>
-        <li><span class="fact-label">Gesetzl. Feiertag heute</span><span class="fact-val">Keiner</span></li>
-        <li><span class="fact-label">Nächster Bay. Feiertag</span><span class="fact-val">15. August (Mariä Himmelfahrt)</span></li>
-      </ul>
-    </div>
+<div class="wrap">
+
+<!-- SOMMERSONNENWENDE-BANNER -->
+<div class="solstice-banner">
+  <h2>&#127774; Sommersonnenwende 2026 &#8211; Der l&#228;ngste Tag des Jahres</h2>
+  <p>
+    Heute, am <strong>21. Juni 2026</strong>, beginnt der astronomische Sommer auf der Nordhalbkugel.
+    Um <strong>10:24 Uhr MESZ</strong> erreichte die Sonne ihren n&#246;rdlichsten Punkt &#252;ber dem
+    Himmels&#228;quator &#8211; die Sommersonnenwende. In Unterfranken scheint die Sonne heute rund
+    <strong>16 Stunden und 10 Minuten</strong>; die Nacht schrumpft auf weniger als 8 Stunden.
+    Ab morgen werden die Tage wieder k&#252;rzer &#8211; ein Prozess, der bis zur Wintersonnenwende am
+    21. Dezember anh&#228;lt. Die Sommersonnenwende hat seit der Antike besondere kulturelle Bedeutung:
+    Kelten, Germanen und Slawen feierten das Licht mit Sonnwendfeuern &#8211; ein Brauchtum, das in
+    einigen Gemeinden Frankens noch heute lebt. Der DWD hat f&#252;r heute und Montag
+    eine amtliche Hitzewarnung f&#252;r die gesamte Region ausgegeben (bis 33 &#176;C).
+  </p>
+  <div class="detail">
+    <div class="sol-fact">&#9728;&#65039; <strong>Sonnenaufgang</strong><br>05:18 Uhr CEST (Lohr)</div>
+    <div class="sol-fact">&#127747; <strong>Sonnenuntergang</strong><br>21:28 Uhr CEST (Lohr)</div>
+    <div class="sol-fact">&#9203; <strong>Tagel&#228;nge heute</strong><br>ca. 16 Std. 10 Min.</div>
+    <div class="sol-fact">&#127820; <strong>Sommeranfang</strong><br>10:24 Uhr MESZ (astronomisch)</div>
+    <div class="sol-fact">&#127777;&#65039; <strong>Tagesmax. heute</strong><br>bis 33 &#176;C (Nachmittag)</div>
+    <div class="sol-fact">&#128197; <strong>N&#228;chste Sonnenwende</strong><br>Wintersonnenwende 21. Dez. 2026</div>
   </div>
-</section>
+</div>
 
-<!-- ===== WETTER-SECTION ===== -->
-<section class="wetter-section">
-  <div class="content-wrap">
-    <h2 class="section-title">Wetter &middot; Lohr am Main &amp; Region (BrightSky / DWD)</h2>
-
-    <div class="wetter-two-days">
-      <div class="wetter-day-card">
-        <div class="wetter-day-icon">&#9728;&#65039;</div>
-        <div class="wetter-day-info">
-          <div class="wetter-day-name">Heute &middot; Sonntag, 21. Juni</div>
-          <div class="wetter-day-temp">16,7&deg; / 32,8&deg;C</div>
-          <div class="wetter-day-cond">Morgens Nebel, tagsüber sonnig &amp; heiß</div>
-          <div class="wetter-day-wind">Wind: 5&ndash;14 km/h &middot; Niederschl.: &lt;1 mm &middot; Regenrisiko: &lt;7&nbsp;%</div>
-        </div>
-      </div>
-      <div class="wetter-day-card">
-        <div class="wetter-day-icon">&#127774;</div>
-        <div class="wetter-day-info">
-          <div class="wetter-day-name">Morgen &middot; Montag, 22. Juni</div>
-          <div class="wetter-day-temp">19,7&deg; / 33,2&deg;C</div>
-          <div class="wetter-day-cond">Heißer Sommertag, durchgehend sonnig</div>
-          <div class="wetter-day-wind">Wind: 5&ndash;9 km/h &middot; Niederschl.: 0 mm &middot; Regenrisiko: &lt;2&nbsp;%</div>
-        </div>
-      </div>
-    </div>
-
-    <div class="wetter-scroll-label">Stündliche Vorhersage &ndash; Sonntag, 21. Juni 2026 (CEST)</div>
-    <div class="wetter-scroll">
-      <div class="wetter-scroll-inner">
-        <div class="wetter-h"><div class="wh-time">00:00</div><div class="wh-icon">&#127748;&#65039;</div><div class="wh-temp">19&deg;C</div><div class="wh-precip">0&nbsp;%</div></div>
-        <div class="wetter-h"><div class="wh-time">01:00</div><div class="wh-icon">&#127748;&#65039;</div><div class="wh-temp">18&deg;C</div><div class="wh-precip">0&nbsp;%</div></div>
-        <div class="wetter-h"><div class="wh-time">02:00</div><div class="wh-icon">&#127748;&#65039;</div><div class="wh-temp">19&deg;C</div><div class="wh-precip">0&nbsp;%</div></div>
-        <div class="wetter-h"><div class="wh-time">03:00</div><div class="wh-icon">&#9729;&#65039;</div><div class="wh-temp">18&deg;C</div><div class="wh-precip">0&nbsp;%</div></div>
-        <div class="wetter-h"><div class="wh-time">04:00</div><div class="wh-icon">&#127787;&#65039;</div><div class="wh-temp">17&deg;C</div><div class="wh-precip">0&nbsp;%</div></div>
-        <div class="wetter-h"><div class="wh-time">05:00</div><div class="wh-icon">&#127787;&#65039;</div><div class="wh-temp">17&deg;C</div><div class="wh-precip">0&nbsp;%</div></div>
-        <div class="wetter-h"><div class="wh-time">06:00</div><div class="wh-icon">&#127787;&#65039;</div><div class="wh-temp">17&deg;C</div><div class="wh-precip">0&nbsp;%</div></div>
-        <div class="wetter-h"><div class="wh-time">07:00</div><div class="wh-icon">&#127787;&#65039;</div><div class="wh-temp">21&deg;C</div><div class="wh-precip">0&nbsp;%</div></div>
-        <div class="wetter-h"><div class="wh-time">08:00</div><div class="wh-icon">&#9728;&#65039;</div><div class="wh-temp">23&deg;C</div><div class="wh-precip">1&nbsp;%</div></div>
-        <div class="wetter-h"><div class="wh-time">09:00</div><div class="wh-icon">&#9728;&#65039;</div><div class="wh-temp">23&deg;C</div><div class="wh-precip">1&nbsp;%</div></div>
-        <div class="wetter-h"><div class="wh-time">10:00</div><div class="wh-icon">&#127780;&#65039;</div><div class="wh-temp">23&deg;C</div><div class="wh-precip">2&nbsp;%</div></div>
-        <div class="wetter-h now"><div class="wh-time">&#9654; 11:00</div><div class="wh-icon">&#9728;&#65039;</div><div class="wh-temp">25&deg;C</div><div class="wh-precip">1&nbsp;%</div></div>
-        <div class="wetter-h"><div class="wh-time">12:00</div><div class="wh-icon">&#9728;&#65039;</div><div class="wh-temp">27&deg;C</div><div class="wh-precip">1&nbsp;%</div></div>
-        <div class="wetter-h solstice-time"><div class="wh-time">13:00 &#9728;</div><div class="wh-icon">&#9728;&#65039;</div><div class="wh-temp">30&deg;C</div><div class="wh-precip">1&nbsp;%</div></div>
-        <div class="wetter-h"><div class="wh-time">14:00</div><div class="wh-icon">&#9728;&#65039;</div><div class="wh-temp">32&deg;C</div><div class="wh-precip">1&nbsp;%</div></div>
-        <div class="wetter-h"><div class="wh-time">15:00</div><div class="wh-icon">&#9728;&#65039;</div><div class="wh-temp">32&deg;C</div><div class="wh-precip">2&nbsp;%</div></div>
-        <div class="wetter-h"><div class="wh-time">16:00</div><div class="wh-icon">&#9728;&#65039;</div><div class="wh-temp">33&deg;C</div><div class="wh-precip">2&nbsp;%</div></div>
-        <div class="wetter-h"><div class="wh-time">17:00</div><div class="wh-icon">&#9728;&#65039;</div><div class="wh-temp">32&deg;C</div><div class="wh-precip">3&nbsp;%</div></div>
-        <div class="wetter-h"><div class="wh-time">18:00</div><div class="wh-icon">&#9728;&#65039;</div><div class="wh-temp">31&deg;C</div><div class="wh-precip">4&nbsp;%</div></div>
-        <div class="wetter-h"><div class="wh-time">19:00</div><div class="wh-icon">&#9728;&#65039;</div><div class="wh-temp">28&deg;C</div><div class="wh-precip">5&nbsp;%</div></div>
-        <div class="wetter-h"><div class="wh-time">20:00</div><div class="wh-icon">&#9728;&#65039;</div><div class="wh-temp">26&deg;C</div><div class="wh-precip">5&nbsp;%</div></div>
-        <div class="wetter-h"><div class="wh-time">21:00</div><div class="wh-icon">&#127780;&#65039;</div><div class="wh-temp">24&deg;C</div><div class="wh-precip">6&nbsp;%</div></div>
-        <div class="wetter-h"><div class="wh-time">22:00</div><div class="wh-icon">&#127780;&#65039;</div><div class="wh-temp">23&deg;C</div><div class="wh-precip">7&nbsp;%</div></div>
-        <div class="wetter-h"><div class="wh-time">23:00</div><div class="wh-icon">&#127780;&#65039;</div><div class="wh-temp">23&deg;C</div><div class="wh-precip">7&nbsp;%</div></div>
-      </div>
-    </div>
-    <p style="font-size:0.68rem;color:#888;margin-top:0.5rem;">
-      Quelle: BrightSky API (DWD-Daten) &middot; Lohr am Main (50.0&deg;N / 9.57&deg;O) &middot;
-      <strong>&#9654; 11:00</strong> = aktuelle Stunde &middot;
-      <strong>13:00 &#9728;</strong> = Sommersonnenwende 12:57 Uhr CEST
-    </p>
-  </div>
-</section>
-
-<!-- ===== NEWS SECTION ===== -->
-<section class="news-section">
-  <div class="content-wrap" style="margin-bottom:1rem;">
-    <h2 class="section-title">Aktuelle Meldungen &middot; Lohr &ndash; Aschaffenburg &ndash; Main-Spessart</h2>
-  </div>
-  <div class="news-grid">
-
-    <!-- 1: Auffahrunfall Schillerstraße Aschaffenburg -->
-    <article class="card">
-      <div class="card-body">
-        <div class="card-top">
-          <div class="card-badges">
-            <span class="badge badge-blaulicht">Blaulicht</span>
-            <span class="badge badge-ort">Aschaffenburg</span>
-          </div>
-        </div>
-        <h3 class="card-title">Auffahrunfall Schillerstra&szlig;e &ndash; Drei Fahrzeuge, Rettungsdienst im Einsatz</h3>
-        <p class="card-summary">Am Freitagmittag ereignete sich auf der Schillerstra&szlig;e in Aschaffenburg ein Auffahrunfall mit insgesamt drei beteiligten Fahrzeugen. Bei stockendem Stadtverkehr fuhr ein Pkw auf das vorausfahrende Fahrzeug auf und schob dieses auf ein weiteres Auto. Rettungsdienst und Polizei r&uuml;ckten umgehend zur Unfallstelle aus; nach ersten Erkenntnissen wurden mindestens zwei Insassen leicht verletzt. Der Unfallhergang wird von der Verkehrspolizeiinspektion Aschaffenburg weiter untersucht.</p>
-        <div class="card-footer">
-          <span class="card-date">19. Juni 2026</span>
-          <a href="https://www.main-echo.de/ressorts/blaulicht/" class="card-link" target="_blank" rel="noopener">main-echo.de &#8599;</a>
-        </div>
-      </div>
-    </article>
-
-    <!-- 2: Tag der offenen Gesellschaft Alzenau -->
-    <article class="card">
-      <div class="card-body">
-        <div class="card-top">
-          <div class="card-badges">
-            <span class="badge badge-gesellschaft">Gesellschaft</span>
-            <span class="badge badge-ort">Alzenau</span>
-          </div>
-        </div>
-        <h3 class="card-title">Tag der offenen Gesellschaft &ndash; 150 Menschen fr&uuml;hst&uuml;cken f&uuml;r die Demokratie</h3>
-        <p class="card-summary">Zum bundesweiten Tag der offenen Gesellschaft haben am Samstag rund 150 Menschen auf dem Marktplatz in Alzenau an einem gemeinschaftlichen Fr&uuml;hst&uuml;ck teilgenommen. Das diesj&auml;hrige Motto &bdquo;Treffpunkt Offline&ldquo; setzte bewusst auf pers&ouml;nliche Begegnung und Gespr&auml;che ohne digitale Ablenkung &ndash; Smartphones blieben in der Tasche. Die Initiative der Offenen Gesellschaft findet seit 2017 jeden dritten Samstag im Juni bundesweit statt und setzt sichtbare Zeichen f&uuml;r Vielfalt, Solidarit&auml;t und gelebte Demokratie. In Alzenau engagierten sich die Deutsch-Ausl&auml;ndische Gesellschaft (DAGA) und der &ouml;rtliche Weltladen als Mitorganisatoren.</p>
-        <div class="card-footer">
-          <span class="card-date">20. Juni 2026</span>
-          <a href="https://www.main-echo.de/region/stadt-kreis-aschaffenburg/" class="card-link" target="_blank" rel="noopener">main-echo.de &#8599;</a>
-        </div>
-      </div>
-    </article>
-
-    <!-- 3: Marktheidenfeld Einzelhandel -->
-    <article class="card">
-      <div class="card-body">
-        <div class="card-top">
-          <div class="card-badges">
-            <span class="badge badge-wirtschaft">Wirtschaft</span>
-            <span class="badge badge-ort">Marktheidenfeld</span>
-          </div>
-        </div>
-        <h3 class="card-title">Passanten-Umfrage: So sehen Kunden Marktheidenfeld als Einkaufsstadt</h3>
-        <p class="card-summary">Eine aktuelle Passanten-Befragung in der Marktheidenfelder Innenstadt zeichnet ein ambivalentes Bild: Viele Befragte loben den pers&ouml;nlichen Service der lokalen H&auml;ndler, doch der zunehmende Leerstand in der Fu&szlig;g&auml;ngerzone sorgt f&uuml;r sp&uuml;rbare Kritik. Der bundesweite Strukturwandel im Einzelhandel &ndash; laut Handelsverband Deutschland (HDE) gehen 2026 rund 4.900 Gesch&auml;fte verloren &ndash; macht auch vor der fr&auml;nkischen Kleinstadt nicht halt. Die Stadtverwaltung reagiert mit aktivem Leerstandsmanagement und der gezielten F&ouml;rderung von Pop-up-Konzepten und Gr&uuml;ndern, um Leerstellen kurzfristig zu beleben und die Innenstadt attraktiv zu halten.</p>
-        <div class="card-footer">
-          <span class="card-date">21. Juni 2026</span>
-          <a href="https://www.main-echo.de/region/kreis-main-spessart/" class="card-link" target="_blank" rel="noopener">main-echo.de &#8599;</a>
-        </div>
-      </div>
-    </article>
-
-    <!-- 4: Jakobskreuzkraut Kreuzwertheim (MIT BILD) -->
-    <article class="card">
-      <div class="card-body">
-        <div class="card-top">
-          <div class="card-badges">
-            <span class="badge badge-umwelt">Umwelt</span>
-            <span class="badge badge-ort">Kreuzwertheim</span>
-          </div>
-          <div class="card-img-wrap">
-            <a href="https://media04.meine-news.de/article/2026/06/16/3/2143033_L.webp?1781584211"
-               download="jakobskreuzkraut-kreuzwertheim-2026.webp"
-               class="card-img-link"
-               title="Bild herunterladen"
-               target="_blank" rel="noopener">
-              <img src="https://media04.meine-news.de/article/2026/06/16/3/2143033_L.webp?1781584211"
-                   alt="40 Freiwillige bek&auml;mpfen Jakobskreuzkraut in den Erlichg&auml;rten bei Kreuzwertheim"
-                   class="card-img" loading="lazy">
-            </a>
-          </div>
-        </div>
-        <h3 class="card-title">40 Freiwillige bek&auml;mpfen Jakobskreuzkraut in Kreuzwertheimer Erlichg&auml;rten</h3>
-        <p class="card-summary">Rund 40 Freiwillige jeglichen Alters haben sich in den Erlichg&auml;rten bei Kreuzwertheim zusammengefunden, um die hochgiftige invasive Giftpflanze Jakobskreuzkraut zu bek&auml;mpfen. Die Aktion, koordiniert von Naturpark Spessart e.V., der Marktgemeinde Kreuzwertheim und dem Bund Naturschutz, war ein beeindruckendes Zeichen gelebter Naturschutzpraxis. Das Jakobskreuzkraut breitet sich auf Weiden und Wiesen im Spessart zunehmend aus und ist f&uuml;r Weidetiere wie Pferde und Rinder t&ouml;dlich giftig. Die Freiwilligen sammelten rund 40 gro&szlig;e S&auml;cke mit der Giftpflanze und entdeckten dabei seltene Tierarten wie Spechte und Spezialk&auml;fer auf den als Natura-2000-Schutzgebiet ausgewiesenen artenreichen Wiesen.</p>
-        <div class="card-footer">
-          <span class="card-date">16. Juni 2026</span>
-          <a href="https://www.meine-news.de/landkreis-main-spessart/c-natur-und-tiere/gemeinsam-gegen-das-jakobskreuzkraut_a237217" class="card-link" target="_blank" rel="noopener">meine-news.de &#8599;</a>
-        </div>
-      </div>
-    </article>
-
-    <!-- 5: Miltenberg Landrats-Wechsel -->
-    <article class="card">
-      <div class="card-body">
-        <div class="card-top">
-          <div class="card-badges">
-            <span class="badge badge-politik">Politik</span>
-            <span class="badge badge-ort">Miltenberg</span>
-          </div>
-        </div>
-        <h3 class="card-title">Miltenberg: Landrats-&Auml;ra Scherf endet &ndash; Bj&ouml;rn Bartels &uuml;bernimmt das Amt</h3>
-        <p class="card-summary">Nach zw&ouml;lf Jahren als Landrat des Landkreises Miltenberg wurde Jens Marco Scherf am 12. Juni unter stehenden Ovationen des Kreistags verabschiedet. Scherf hatte den Landkreis seit 2014 gepr&auml;gt und galt als einer der innovativsten Kommunalpolitiker Bayerns, insbesondere in den Bereichen Klimaschutz und B&uuml;rgerbeteiligung. Sein Nachfolger Bj&ouml;rn Bartels, der im M&auml;rz 2026 aus der Landratswahl als Sieger hervorgegangen war, &uuml;bernahm offiziell das Amt und betonte sein Ziel, den eingeschlagenen Kurs fortzuf&uuml;hren und gleichzeitig neue Akzente zu setzen. Bartels ist damit der j&uuml;ngste Landrat in der Geschichte des Landkreises Miltenberg.</p>
-        <div class="card-footer">
-          <span class="card-date">12. Juni 2026</span>
-          <a href="https://www.infranken.de/lk/miltenberg/uebersicht/" class="card-link" target="_blank" rel="noopener">infranken.de &#8599;</a>
-        </div>
-      </div>
-    </article>
-
-    <!-- 6: Lohr Stadtwald Rekordjahr -->
-    <article class="card">
-      <div class="card-body">
-        <div class="card-top">
-          <div class="card-badges">
-            <span class="badge badge-wirtschaft">Wirtschaft</span>
-            <span class="badge badge-ort">Lohr am Main</span>
-          </div>
-        </div>
-        <h3 class="card-title">Lohrer Stadtwald auf Rekordkurs &ndash; Forstchef erwartet Ausnahme-Ergebnis 2026</h3>
-        <p class="card-summary">Der Lohrer Stadtwald, der als gr&ouml;&szlig;ter Verm&ouml;genswert der Stadt gilt, k&ouml;nnte 2026 ein Rekordjahr bei den Holzerl&ouml;sen verbuchen. Forstchef Michael Neuner sieht die Voraussetzungen f&uuml;r ein au&szlig;ergew&ouml;hnliches Ergebnis als g&uuml;nstig an: Die Holzmarktpreise befinden sich auf hohem Niveau, und der Borkenkäferbefall ist im Vergleich zu den Krisenjahren nach 2018 deutlich zur&uuml;ckgegangen. Nach leicht unterdurchschnittlichen Vorjahresergebnissen zeigt sich der st&auml;dtische Forst nun in guter Verfassung. Die Stadt bewirtschaftet den Stadtwald nach naturnahen Kriterien und investiert gleichzeitig in Biodiversit&auml;tsprojekte und klimaresistente Baumarten.</p>
-        <div class="card-footer">
-          <span class="card-date">12. Juni 2026</span>
-          <a href="https://www.main-echo.de/region/kreis-main-spessart/lohrer-stadtwald-weswegen-2026-ein-rekordjahr-werden-koennte-art-8734240" class="card-link" target="_blank" rel="noopener">main-echo.de &#8599;</a>
-        </div>
-      </div>
-    </article>
-
-    <!-- 7: Museumsnacht Aschaffenburg (MIT BILD) -->
-    <article class="card">
-      <div class="card-body">
-        <div class="card-top">
-          <div class="card-badges">
-            <span class="badge badge-kultur">Kultur</span>
-            <span class="badge badge-ort">Aschaffenburg</span>
-          </div>
-          <div class="card-img-wrap">
-            <a href="https://www.aschaffenburg.de/media/custom/4173_2798_1_m.PNG?1775040023"
-               download="museumsnacht-aschaffenburg-2026.png"
-               class="card-img-link"
-               title="Bild herunterladen"
-               target="_blank" rel="noopener">
-              <img src="https://www.aschaffenburg.de/media/custom/4173_2798_1_m.PNG?1775040023"
-                   alt="Museumsnacht Aschaffenburg 2026 &ndash; Schloss Johannisburg"
-                   class="card-img" loading="lazy">
-            </a>
-          </div>
-        </div>
-        <h3 class="card-title">Museumsnacht am 11. Juli &ndash; Vorverkauf gestartet, alle Museen &amp; Pompejanum offen</h3>
-        <p class="card-summary">Am Samstag, 11. Juli 2026, &ouml;ffnen alle st&auml;dtischen Museen sowie das Pompejanum von 19:00 bis 0:30 Uhr ihre T&uuml;ren &ndash; die Aschaffenburger Museumsnacht ist eines der Highlights der 27. Kulturtage (2.&ndash;12. Juli). Der Vorverkauf f&uuml;r die beg&auml;hrten Eintrittskarten hat begonnen und ist an den bekannten Vorverkaufsstellen in der Stadt erh&auml;ltlich. Die Museumsnacht bietet Sonderf&uuml;hrungen, Live-Musik in historischen R&auml;umen und besondere Einblicke hinter die Kulissen der st&auml;dtischen Sammlungen. Das Pompejanum auf dem Pompejanusberg verwandelt sich an diesem Abend in ein antikes Erlebnis unter dem Sternenhimmel.</p>
-        <div class="card-footer">
-          <span class="card-date">15. Juni 2026</span>
-          <a href="https://www.aschaffenburg.de/Politik-Verwaltung/Presse/Aktuelle-Meldungen/Museumsnacht-am-Samstag-11-Juli-Vorverkauf-gestartet.php" class="card-link" target="_blank" rel="noopener">aschaffenburg.de &#8599;</a>
-        </div>
-      </div>
-    </article>
-
-    <!-- 8: Stiftsmuseum Öffnungszeiten -->
-    <article class="card">
-      <div class="card-body">
-        <div class="card-top">
-          <div class="card-badges">
-            <span class="badge badge-kultur">Kultur</span>
-            <span class="badge badge-ort">Aschaffenburg</span>
-          </div>
-        </div>
-        <h3 class="card-title">Stiftsmuseum schr&auml;nkt &Ouml;ffnungszeiten ein &ndash; Personalengpass trifft Besucher</h3>
-        <p class="card-summary">Das Stiftsmuseum Aschaffenburg mit seinen bedeutenden kunst- und kulturhistorischen Sammlungen muss im Juni die &Ouml;ffnungszeiten aufgrund von Personalengp&auml;ssen vor&uuml;bergehend einschr&auml;nken. Krankheitsbedingte Ausf&auml;lle im Stammpersonal machen an einzelnen Wochentagen eine vollst&auml;ndige Schlie&szlig;ung notwendig. Die Stadt Aschaffenburg bat Besucher dringend, sich vor einem geplanten Besuch auf der st&auml;dtischen Website oder telefonisch &uuml;ber die aktuellen &Ouml;ffnungszeiten zu informieren. Betroffen ist prim&auml;r die zweite Junih&auml;lfte; ab Juli soll der Normalbetrieb planm&auml;&szlig;ig wieder aufgenommen werden.</p>
-        <div class="card-footer">
-          <span class="card-date">18. Juni 2026</span>
-          <a href="https://www.aschaffenburg.de/Politik-Verwaltung/Presse/Aktuelle-Meldungen/" class="card-link" target="_blank" rel="noopener">aschaffenburg.de &#8599;</a>
-        </div>
-      </div>
-    </article>
-
-    <!-- 9: Trauer Günter Dehn Aschaffenburg -->
-    <article class="card">
-      <div class="card-body">
-        <div class="card-top">
-          <div class="card-badges">
-            <span class="badge badge-gesellschaft">Gesellschaft</span>
-            <span class="badge badge-ort">Aschaffenburg</span>
-          </div>
-        </div>
-        <h3 class="card-title">Aschaffenburg trauert um G&uuml;nter Dehn &ndash; Pr&auml;gender Kommunalpolitiker verstorben</h3>
-        <p class="card-summary">Die Stadt Aschaffenburg hat einen ihrer pr&auml;gendsten Kommunalpolitiker verloren: G&uuml;nter Dehn ist verstorben. Die Stadtpressestelle w&uuml;rdigte ihn als leidenschaftlichen Stadtpatrioten, der &uuml;ber viele Jahre in verschiedenen st&auml;dtischen Gremien aktiv war und wichtige Impulse f&uuml;r die Stadtentwicklung setzte. Oberb&uuml;rgermeister Markus Schlemmer betonte, dass Dehn stets das Wohl der B&uuml;rgerinnen und B&uuml;rger in den Mittelpunkt seines Handelns stellte und auch in schwierigen Debatten sachlich und konstruktiv blieb. Die Trauerfeier fand im engsten Familienkreis statt; ein &ouml;ffentlicher Gedenkakt der Stadt ist in Planung.</p>
-        <div class="card-footer">
-          <span class="card-date">13. Juni 2026</span>
-          <a href="https://www.aschaffenburg.de/Politik-Verwaltung/Presse/Aktuelle-Meldungen/Trauer-um-G%C3%BCnter-Dehn.php" class="card-link" target="_blank" rel="noopener">aschaffenburg.de &#8599;</a>
-        </div>
-      </div>
-    </article>
-
-    <!-- 10: Nachhaltigkeitspreis bio verlag Stadtjugendring -->
-    <article class="card">
-      <div class="card-body">
-        <div class="card-top">
-          <div class="card-badges">
-            <span class="badge badge-gesellschaft">Gesellschaft</span>
-            <span class="badge badge-ort">Aschaffenburg</span>
-          </div>
-        </div>
-        <h3 class="card-title">bio verlag und Stadtjugendring erhalten Aschaffenburger Nachhaltigkeitspreis</h3>
-        <p class="card-summary">Die Stadt Aschaffenburg hat ihren Nachhaltigkeitspreis an zwei herausragende Einrichtungen verliehen: den bio verlag und den Stadtjugendring Aschaffenburg. Der bio verlag &uuml;berzeugte die Jury durch seine konsequent &ouml;kologisch ausgerichtete Unternehmensf&uuml;hrung und seine Pionierarbeit in der nachhaltigen Verlagsbranche. Der Stadtjugendring wurde f&uuml;r vorbildliche Projekte zur Umweltbildung, Klimagerechtigkeit und nachhaltigem Konsum unter Jugendlichen in der Region ausgezeichnet. Die feierliche &Uuml;bergabe fand im Stadttheater Aschaffenburg statt und stie&szlig; auf gro&szlig;e Resonanz in der B&uuml;rgerschaft.</p>
-        <div class="card-footer">
-          <span class="card-date">12. Juni 2026</span>
-          <a href="https://www.aschaffenburg.de/Politik-Verwaltung/Presse/Aktuelle-Meldungen/Stadt-verleiht-Nachhaltigkeitspreis.php" class="card-link" target="_blank" rel="noopener">aschaffenburg.de &#8599;</a>
-        </div>
-      </div>
-    </article>
-
-    <!-- 11: Mömbris Tag der Musik -->
-    <article class="card">
-      <div class="card-body">
-        <div class="card-top">
-          <div class="card-badges">
-            <span class="badge badge-kultur">Kultur</span>
-            <span class="badge badge-ort">M&ouml;mbris</span>
-          </div>
-        </div>
-        <h3 class="card-title">Tag der Musik in M&ouml;mbris &ndash; 25 Jahre Haus der Musik Gunzenbach</h3>
-        <p class="card-summary">Heute, am bundesweiten Tag der Musik &ndash; passend am l&auml;ngsten Tag des Jahres &ndash; feiert M&ouml;mbris ein besonderes Jubil&auml;um: Das Haus der Musik Gunzenbach begeht sein 25-j&auml;hriges Bestehen. In einem Vierteljahrhundert hat sich die Einrichtung zu einem festen kulturellen Ankerpunkt der Gemeinde entwickelt, der Kurse, Ensembles und Auff&uuml;hrungen f&uuml;r alle Altersgruppen bietet. Zum Jubil&auml;um pr&auml;sentieren Sch&uuml;lerinnen und Sch&uuml;ler sowie Lehrkr&auml;fte ein buntes Konzertprogramm, das von Klassik &uuml;ber Volksmusik bis zu Pop reicht. Der Eintritt ist f&uuml;r alle Besucherinnen und Besucher frei.</p>
-        <div class="card-footer">
-          <span class="card-date">21. Juni 2026</span>
-          <a href="https://www.landkreis-aschaffenburg.de/" class="card-link" target="_blank" rel="noopener">landkreis-aschaffenburg.de &#8599;</a>
-        </div>
-      </div>
-    </article>
-
-    <!-- 12: Marktheidenfeld Fairtrade (MIT BILD) -->
-    <article class="card">
-      <div class="card-body">
-        <div class="card-top">
-          <div class="card-badges">
-            <span class="badge badge-gesellschaft">Gesellschaft</span>
-            <span class="badge badge-ort">Marktheidenfeld</span>
-          </div>
-          <div class="card-img-wrap">
-            <a href="https://mainfranken.news/wp-content/uploads/2026/06/Fairtrade-Rezertifierung-Foto-Torsten-Ruf.jpg"
-               download="fairtrade-marktheidenfeld-2026.jpg"
-               class="card-img-link"
-               title="Bild herunterladen"
-               target="_blank" rel="noopener">
-              <img src="https://mainfranken.news/wp-content/uploads/2026/06/Fairtrade-Rezertifierung-Foto-Torsten-Ruf.jpg"
-                   alt="Fairtrade-Rezertifizierung Marktheidenfeld 2026"
-                   class="card-img" loading="lazy">
-            </a>
-          </div>
-        </div>
-        <h3 class="card-title">Marktheidenfeld bleibt Fairtrade-Stadt &ndash; Zertifizierung und 10-j&auml;hriges Jubil&auml;um</h3>
-        <p class="card-summary">Marktheidenfeld darf den Titel &bdquo;Fairtrade-Stadt&ldquo; nach erfolgreicher Rezertifizierung f&uuml;r weitere zwei Jahre bis 2028 tragen. Das Jahr 2026 ist dabei besonders bedeutsam: Genau vor zehn Jahren erhielt die Stadt erstmals diese Auszeichnung. B&uuml;rgermeister Thomas Stamm zeigte sich stolz: &bdquo;Die Rezertifizierung ist ein wunderbares Zeugnis f&uuml;r die nachhaltige Verankerung des fairen Handels in unserer Stadt.&ldquo; Eine aktive Steuerungsgruppe koordiniert regelm&auml;&szlig;ig Schulprojekte, Aktionswochen und die Pr&auml;senz fair gehandelter Produkte in lokalen Gesch&auml;ften und der Gastronom.</p>
-        <div class="card-footer">
-          <span class="card-date">12. Juni 2026</span>
-          <a href="https://mainfranken.news/2026/06/12/marktheidenfeld-bleibt-fairtrade-stadt-alle-notwendigen-kriterien-fuer-den-titel-sind-weiterhin-erfuellt/" class="card-link" target="_blank" rel="noopener">mainfranken.news &#8599;</a>
-        </div>
-      </div>
-    </article>
-
-    <!-- 13: Lohr Maingalerie -->
-    <article class="card">
-      <div class="card-body">
-        <div class="card-top">
-          <div class="card-badges">
-            <span class="badge badge-kultur">Kultur</span>
-            <span class="badge badge-ort">Lohr am Main</span>
-          </div>
-        </div>
-        <h3 class="card-title">Maingalerie Lohr er&ouml;ffnet &ndash; Kunstprojekt &bdquo;Auftakt&ldquo; setzt kulturellen Impuls</h3>
-        <p class="card-summary">Lohr am Main hat einen neuen kreativen Ort bekommen: Die Maingalerie hat im ehemaligen Ladenlokal des traditionsreichen Schuhgesch&auml;fts Schuh-Heiner ihren Betrieb aufgenommen. Die Vernissage zur Er&ouml;ffnungsausstellung &bdquo;Auftakt&ldquo; war gut besucht und sorgte f&uuml;r lebhafte Diskussionen &uuml;ber die Kunstszene in der Region. Eine K&uuml;nstlergruppe hat damit nach langer Planungsphase den Traum von einem offenen Kreativ- und Begegnungsraum in der Lohrer Innenstadt verwirklicht. Die Galerie versteht sich als lebendige Plattform f&uuml;r regionale K&uuml;nstlerinnen und K&uuml;nstler aller Genres und plant wechselnde Ausstellungen mit musikalischem und diskursivem Begleitprogramm.</p>
-        <div class="card-footer">
-          <span class="card-date">7. Juni 2026</span>
-          <a href="https://www.main-echo.de/region/kreis-main-spessart/ein-ort-fuer-kreativitaet-und-begegnung-art-8731211" class="card-link" target="_blank" rel="noopener">main-echo.de &#8599;</a>
-        </div>
-      </div>
-    </article>
-
-    <!-- 14: Lohr Biodiversitäts-Modellprojekt -->
-    <article class="card">
-      <div class="card-body">
-        <div class="card-top">
-          <div class="card-badges">
-            <span class="badge badge-umwelt">Umwelt</span>
-            <span class="badge badge-ort">Lohr am Main</span>
-          </div>
-        </div>
-        <h3 class="card-title">Lohrer Biodiversit&auml;ts-Modellprojekt vor ungewisser Zukunft</h3>
-        <p class="card-summary">Das Lohrer Modellprojekt f&uuml;r kommunale Biodiversit&auml;t, das seit 2023 bayerische Kommunen bei der Umsetzung naturnaher Ma&szlig;nahmen zur Artenvielfalt unterst&uuml;tzt, steht nach 2028 vor einer ungesicherten Zukunft. Projektleiter Florian Lang hat in drei Jahren wertvolle Netzwerke aufgebaut und konkrete Projekte wie Bl&uuml;hfl&auml;chen, Nisthilfen und extensive Wiesenpflege in mehreren Kommunen angestossen. Das Projekt l&auml;uft formell bis Anfang 2028, doch die Anschlussfinanzierung durch Naturschutzverb&auml;nde ist noch nicht gesichert. Die Diskussion spiegelt einen bayernweiten Trend wider, bei dem kommunale Artenschutzprojekte trotz nachgewiesener positiver Wirkung unter Finanzierungsdruck geraten.</p>
-        <div class="card-footer">
-          <span class="card-date">10. Juni 2026</span>
-          <a href="https://www.main-echo.de/region/kreis-main-spessart/lohrer-modellprojekt-vor-dem-aus-art-8732938" class="card-link" target="_blank" rel="noopener">main-echo.de &#8599;</a>
-        </div>
-      </div>
-    </article>
-
-    <!-- 15: BKH Lohr Gerontopsychiatrie -->
-    <article class="card">
-      <div class="card-body">
-        <div class="card-top">
-          <div class="card-badges">
-            <span class="badge badge-gesundheit">Gesundheit</span>
-            <span class="badge badge-ort">Lohr am Main</span>
-          </div>
-        </div>
-        <h3 class="card-title">Neue Gerontopsychiatrie am BKH Lohr &ndash; Klinik f&uuml;r &auml;ltere Patienten aus drei Regionen</h3>
-        <p class="card-summary">Das Bezirkskrankenhaus Lohr (BKH) errichtet auf seinem Gel&auml;nde am Sommerberg einen Neubau f&uuml;r die Gerontopsychiatrie &ndash; eine Klinik speziell f&uuml;r die psychiatrische Versorgung &auml;lterer Patientinnen und Patienten aus den Regionen Aschaffenburg, Miltenberg und Main-Spessart. Das Projekt ist ein wichtiger Baustein zur Verbesserung der Gesundheitsversorgung f&uuml;r Senioren in Unterfranken, da die Nachfrage nach spezialisierten gerontopsychiatrischen Leistungen stetig w&auml;chst. Parallel entsteht am gleichen Sommerberg-Standort das neue Zentralklinikum des Landkreises Main-Spessart, sodass ein bedeutendes Gesundheitscluster entsteht. Beide Neubauten sollen bis Fr&uuml;hjahr 2027 in Betrieb gehen und die station&auml;re Versorgung der gesamten Region nachhaltig st&auml;rken.</p>
-        <div class="card-footer">
-          <span class="card-date">29. Mai 2026</span>
-          <a href="https://www.main-echo.de/region/kreis-main-spessart/neue-klinik-fuer-aeltere-patienten-art-8727114" class="card-link" target="_blank" rel="noopener">main-echo.de &#8599;</a>
-        </div>
-      </div>
-    </article>
-
-  </div><!-- /.news-grid -->
-</section>
-
-<!-- ===== FOOTER ===== -->
-<footer>
-  <div class="footer-inner">
+<!-- DWD HITZEWARNUNG -->
+<div class="heat-warning">
+  <div class="hw-icon">&#127777;&#65039;</div>
+  <div>
+    <h3>&#9888;&#65039; Amtliche DWD-Hitzewarnung: Extreme W&#228;rmebelastung &#8211; g&#252;ltig bis Montag, 22. Juni, 19:00 Uhr</h3>
     <p>
-      Aktualisiert: Sonntag, 21. Juni 2026 &middot; 11:12 Uhr CEST &nbsp;|&nbsp;
-      Sommersonnenwende: Astronomischer Sommeranfang heute um 12:57 Uhr CEST &nbsp;|&nbsp;
-      Wetterdaten: BrightSky API (DWD)
-    </p>
-    <h4>Quellen dieser Ausgabe</h4>
-    <ul class="sources-list">
-      <li><a href="https://www.main-echo.de" target="_blank" rel="noopener">main-echo.de</a></li>
-      <li><a href="https://aschaffenburg.news" target="_blank" rel="noopener">aschaffenburg.news</a></li>
-      <li><a href="https://www.meine-news.de" target="_blank" rel="noopener">meine-news.de</a></li>
-      <li><a href="https://www.infranken.de" target="_blank" rel="noopener">infranken.de</a></li>
-      <li><a href="https://mainfranken.news" target="_blank" rel="noopener">mainfranken.news</a></li>
-      <li><a href="https://www.aschaffenburg.de" target="_blank" rel="noopener">aschaffenburg.de (Stadt)</a></li>
-      <li><a href="https://www.landkreis-aschaffenburg.de" target="_blank" rel="noopener">landkreis-aschaffenburg.de</a></li>
-      <li><a href="https://www.main-spessart.de" target="_blank" rel="noopener">main-spessart.de</a></li>
-      <li><a href="https://api.brightsky.dev" target="_blank" rel="noopener">BrightSky API (DWD)</a></li>
-    </ul>
-    <p class="footer-note">
-      Design: mittsommer-mainhimmel &middot;
-      Header-Gradient: #004d6e &rarr; #0097a7 &middot;
-      Hintergrund: #e0f4f7 &middot;
-      Karten: #ffffff &middot;
-      Akzentfarben: #004d6e &middot; #0097a7 &middot; #e65100 &middot; #6a1b9a &middot; #2e7d32 &middot;
-      Layout: grid-2col &middot;
-      domezos2024/aktuelles
+      Der Deutsche Wetterdienst hat f&#252;r die Landkreise <strong>Main-Spessart</strong>,
+      <strong>Miltenberg</strong> sowie <strong>Stadt und Landkreis Aschaffenburg</strong>
+      amtliche Warnungen vor extremer Hitze herausgegeben. G&#252;ltig ab heute 11:00 Uhr bis
+      Montag, 22. Juni 2026, 19:00 Uhr. Betroffen sind alle Lagen bis 400 m H&#246;he.
+      Gef&#228;hrdet sind &#228;ltere Menschen, Kleinkinder und Personen mit Vorerkrankungen.
+      Empfehlung: viel trinken, direkte Sonneneinstrahlung meiden, k&#252;hle R&#228;ume aufsuchen.
     </p>
   </div>
+</div>
+
+<!-- WETTER -->
+<div class="weather-box">
+  <h2>&#127780;&#65039; Wetter &#8211; Lohr am Main &amp; Region (BrightSky / DWD) &middot; 21.&#8211;22. Juni 2026</h2>
+  <div class="w-scroll">
+    <div class="w-hours">
+      <div class="wh"><div class="t">02&nbsp;Uhr</div><div class="ic">&#127769;</div><div class="tp">18,7&#176;</div><div class="wi">&#8601; 10 km/h</div></div>
+      <div class="wh"><div class="t">03&nbsp;Uhr</div><div class="ic">&#9729;&#65039;</div><div class="tp">17,8&#176;</div><div class="wi">&#8601; 8 km/h</div></div>
+      <div class="wh"><div class="t">04&nbsp;Uhr</div><div class="ic">&#127787;&#65039;</div><div class="tp">17,3&#176;</div><div class="wi">ruhig</div></div>
+      <div class="wh"><div class="t">05&nbsp;Uhr</div><div class="ic">&#127787;&#65039;</div><div class="tp">16,7&#176;</div><div class="wi">&#8595; 8 km/h</div></div>
+      <div class="wh"><div class="t">06&nbsp;Uhr</div><div class="ic">&#127787;&#65039;</div><div class="tp">17,2&#176;</div><div class="wi">ruhig</div></div>
+      <div class="wh"><div class="t">07&nbsp;Uhr</div><div class="ic">&#127787;&#65039;</div><div class="tp">20,8&#176;</div><div class="wi">&#8592; 18 km/h</div></div>
+      <div class="wh"><div class="t">08&nbsp;Uhr</div><div class="ic">&#9729;&#65039;</div><div class="tp">23,1&#176;</div><div class="wi">&#8600; 10 km/h</div></div>
+      <div class="wh"><div class="t">09&nbsp;Uhr</div><div class="ic">&#9729;&#65039;</div><div class="tp">23,3&#176;</div><div class="wi">&#8599; 50 km/h</div></div>
+      <div class="wh"><div class="t">10&nbsp;Uhr</div><div class="ic">&#9925;</div><div class="tp">24,7&#176;</div><div class="wi">&#8594; 24 km/h</div></div>
+      <div class="wh"><div class="t">11&nbsp;Uhr</div><div class="ic">&#9925;</div><div class="tp">27,4&#176;</div><div class="wi">&#8594; 37 km/h</div></div>
+      <div class="wh"><div class="t">12&nbsp;Uhr</div><div class="ic">&#9925;</div><div class="tp">29,6&#176;</div><div class="wi">&#8599; 28 km/h</div></div>
+      <div class="wh"><div class="t">13&nbsp;Uhr</div><div class="ic">&#9728;&#65039;</div><div class="tp">30,6&#176;</div><div class="wi">&#8594; 14 km/h</div></div>
+      <div class="wh"><div class="t">14&nbsp;Uhr</div><div class="ic">&#9728;&#65039;</div><div class="tp">32,7&#176;</div><div class="wi">&#8594; 14 km/h</div></div>
+      <div class="wh"><div class="t">15&nbsp;Uhr</div><div class="ic">&#9728;&#65039;</div><div class="tp"><strong>33,0&#176;</strong></div><div class="wi">&#8593; 14 km/h</div></div>
+      <div class="wh"><div class="t">16&nbsp;Uhr</div><div class="ic">&#9728;&#65039;</div><div class="tp">32,6&#176;</div><div class="wi">&#8593; 27 km/h</div></div>
+      <div class="wh"><div class="t">17&nbsp;Uhr</div><div class="ic">&#9925;</div><div class="tp">31,5&#176;</div><div class="wi">&#8593; 34 km/h</div></div>
+      <div class="wh now"><div class="t">18&nbsp;Uhr &#9664;</div><div class="ic">&#9925;</div><div class="tp">30,9&#176;</div><div class="wi">&#8593; 34 km/h</div></div>
+      <div class="wh"><div class="t">19&nbsp;Uhr</div><div class="ic">&#9925;</div><div class="tp">29,8&#176;</div><div class="wi">&#8599; 27 km/h</div></div>
+      <div class="wh"><div class="t">20&nbsp;Uhr</div><div class="ic">&#9925;</div><div class="tp">28,4&#176;</div><div class="wi">&#8599; 27 km/h</div></div>
+      <div class="wh"><div class="t">21&nbsp;Uhr</div><div class="ic">&#127769;</div><div class="tp">26,8&#176;</div><div class="wi">&#8599; 27 km/h</div></div>
+      <div class="wh"><div class="t">22&nbsp;Uhr</div><div class="ic">&#127769;</div><div class="tp">25,3&#176;</div><div class="wi">&#8599; 20 km/h</div></div>
+      <div class="wh"><div class="t">23&nbsp;Uhr</div><div class="ic">&#127769;</div><div class="tp">23,8&#176;</div><div class="wi">&#8599; 20 km/h</div></div>
+      <div class="wh"><div class="t">00&nbsp;Uhr</div><div class="ic">&#127769;</div><div class="tp">22,6&#176;</div><div class="wi">&#8593; 20 km/h</div></div>
+    </div>
+  </div>
+  <div class="w-days">
+    <div class="wd">
+      <h3>So., 21. Juni 2026 &#8211; Sommersonnenwende</h3>
+      <div class="dic">&#9728;&#65039;</div>
+      <div class="mm"><span>&#9660; 16,7&#176;</span> &nbsp;/&nbsp; <strong>&#9650; 33,0 &#176;C</strong></div>
+      <div class="cond">Morgens Nebel &middot; tagsüber sonnig &amp; heiß &middot; Wind N bis 34 km/h &middot; DWD-Hitzewarnung</div>
+    </div>
+    <div class="wd">
+      <h3>Mo., 22. Juni 2026</h3>
+      <div class="dic">&#9925;</div>
+      <div class="mm"><span>&#9660; 20,0&#176;</span> &nbsp;/&nbsp; <strong>&#9650; 32,6 &#176;C</strong></div>
+      <div class="cond">Wechselnd bewölkt &middot; trocken &middot; Südwind bis 40 km/h &middot; Hitzewarnung bis 19:00 Uhr</div>
+    </div>
+  </div>
+</div>
+
+<!-- NEWS -->
+<div class="news-section">
+<h2>Aktuelle Meldungen &#8211; Sonntag, 21. Juni 2026</h2>
+<div class="news-grid">
+
+<!-- KARTE 1: DWD Extreme Hitzewarnung -->
+<div class="card">
+  <div class="card-media">
+    <a class="ph" href="https://www.infranken.de/lk/franken/dwd-warnt-vor-starken-gewittern-in-franken-art-5898757" target="_blank" rel="noopener">
+      <span class="pi">&#127777;&#65039;</span>
+      <small>Foto im Artikel</small>
+    </a>
+  </div>
+  <div class="badges">
+    <span class="b b-klim">Klima</span>
+    <span class="b b-reg">Regional</span>
+  </div>
+  <h3><a href="https://www.infranken.de/lk/franken/dwd-warnt-vor-starken-gewittern-in-franken-art-5898757" target="_blank" rel="noopener">DWD: Extreme Hitzewarnungen f&#252;r Main-Spessart, Miltenberg und Aschaffenburg</a></h3>
+  <p>Der Deutsche Wetterdienst hat am heutigen Sonnenwende-Sonntag f&#252;r alle drei Landkreise der Region amtliche Warnungen vor extremer Hitze herausgegeben. Die Warnung gilt ab 11:00 Uhr bis Montag, 22. Juni, 19:00 Uhr und betrifft alle Lagen unterhalb von 400 Metern. Mit Spitzenwerten von bis zu 33 Grad am Nachmittag ist die Belastung f&#252;r &#228;ltere Menschen, Kinder und Vorerkrankte besonders hoch. Die Beh&#246;rden empfehlen, k&#252;hle R&#228;ume aufzusuchen, viel Wasser zu trinken und k&#246;rperliche Anstrengungen auf den fr&#252;hen Morgen oder Abend zu verlegen. Der heutige l&#228;ngste Tag des Jahres f&#228;llt damit mit einer der intensivsten Hitzephasen des bisherigen Sommers zusammen.</p>
+  <div class="cf">
+    <a href="https://www.infranken.de/lk/franken/dwd-warnt-vor-starken-gewittern-in-franken-art-5898757" target="_blank" rel="noopener">&#8594; infranken.de</a>
+    <span class="ct">21. Juni 2026 &middot; heute</span>
+  </div>
+</div>
+
+<!-- KARTE 2: Großostheim Brennender Baum -->
+<div class="card">
+  <div class="card-media">
+    <a class="ph" href="https://www.main-echo.de/ressorts/blaulicht/" target="_blank" rel="noopener">
+      <span class="pi">&#128247;</span>
+      <small>Foto im Artikel</small>
+    </a>
+  </div>
+  <div class="badges">
+    <span class="b b-blu">Blaulicht</span>
+    <span class="b b-grost">Gro&#223;ostheim</span>
+  </div>
+  <h3><a href="https://www.main-echo.de/ressorts/blaulicht/" target="_blank" rel="noopener">Gro&#223;ostheim: Feuerwehr l&#246;scht brennenden Baum nach Gewitterzelle</a></h3>
+  <p>Am heutigen Sonntagnachmittag r&#252;ckte die Freiwillige Feuerwehr Gro&#223;ostheim nach einer kurzen Gewitterzelle aus, um einen in Brand geratenen Baum zu l&#246;schen. Das Unwetter zog gegen Mittag &#252;ber den Landkreis Aschaffenburg und hinterlie&#223; an mehreren Stellen Sturmsch&#228;den. Der brennende Baum konnte rasch unter Kontrolle gebracht werden. Zeugen hatten nach einem Blitzeinschlag umgehend die Feuerwehr alarmiert, die mit mehreren Fahrzeugen anr&#252;ckte. Der Einsatz war gegen Mittag beendet. Weitere Unwettersch&#228;den aus der Region werden derzeit noch erfasst.</p>
+  <div class="cf">
+    <a href="https://www.main-echo.de/ressorts/blaulicht/" target="_blank" rel="noopener">&#8594; main-echo.de</a>
+    <span class="ct">21. Juni 2026 &middot; heute</span>
+  </div>
+</div>
+
+<!-- KARTE 3: Goldbach BMW X5 Räder gestohlen -->
+<div class="card">
+  <div class="card-media">
+    <a class="ph" href="https://www.meine-news.de/landkreis-aschaffenburg/c-blaulicht/raum-aschaffenburg-komplettraeder-entwendet-unbekannter-hinterlaesst-hohen-sachschaden-garagentor-touchiert-fahrbahndecke-beschaedigt_a237601" target="_blank" rel="noopener">
+      <span class="pi">&#128247;</span>
+      <small>Foto im Artikel</small>
+    </a>
+  </div>
+  <div class="badges">
+    <span class="b b-blu">Blaulicht</span>
+    <span class="b b-gold">Goldbach</span>
+  </div>
+  <h3><a href="https://www.meine-news.de/landkreis-aschaffenburg/c-blaulicht/raum-aschaffenburg-komplettraeder-entwendet-unbekannter-hinterlaesst-hohen-sachschaden-garagentor-touchiert-fahrbahndecke-beschaedigt_a237601" target="_blank" rel="noopener">Goldbach: BMW X5 auf Holzkl&#246;tzen &#8211; Unbekannte stehlen s&#228;mtliche Komplettr&#228;der</a></h3>
+  <p>In der Nacht von Freitag auf Samstag haben Unbekannte in der Stra&#223;e &#8222;Am Ningesberg&#8220; in Goldbach einem geparkten BMW X5 alle vier Komplettr&#228;der gestohlen. Die T&#228;ter hoben das Fahrzeug auf Holzkl&#246;tze, montierten die hochwertigen R&#228;der ab und entkamen unerkannt. Der Beuteschaden liegt nach ersten Ermittlungen bei mehreren tausend Euro. Die Polizeiinspektion Aschaffenburg hat die Ermittlungen aufgenommen und bittet Zeugen, die verdächtige Personen oder Fahrzeuge in der Stra&#223;e &#8222;Am Ningesberg&#8220; beobachtet haben, sich unter der Rufnummer 06021/857-2230 zu melden.</p>
+  <div class="cf">
+    <a href="https://www.meine-news.de/landkreis-aschaffenburg/c-blaulicht/raum-aschaffenburg-komplettraeder-entwendet-unbekannter-hinterlaesst-hohen-sachschaden-garagentor-touchiert-fahrbahndecke-beschaedigt_a237601" target="_blank" rel="noopener">&#8594; meine-news.de</a>
+    <span class="ct">21. Juni 2026 &middot; heute</span>
+  </div>
+</div>
+
+<!-- KARTE 4: Goldbach Unfallflucht 25.000 Euro -->
+<div class="card">
+  <div class="card-media">
+    <a class="ph" href="https://www.meine-news.de/landkreis-aschaffenburg/c-blaulicht/raum-aschaffenburg-komplettraeder-entwendet-unbekannter-hinterlaesst-hohen-sachschaden-garagentor-touchiert-fahrbahndecke-beschaedigt_a237601" target="_blank" rel="noopener">
+      <span class="pi">&#128247;</span>
+      <small>Foto im Artikel</small>
+    </a>
+  </div>
+  <div class="badges">
+    <span class="b b-blu">Blaulicht</span>
+    <span class="b b-gold">Goldbach</span>
+  </div>
+  <h3><a href="https://www.meine-news.de/landkreis-aschaffenburg/c-blaulicht/raum-aschaffenburg-komplettraeder-entwendet-unbekannter-hinterlaesst-hohen-sachschaden-garagentor-touchiert-fahrbahndecke-beschaedigt_a237601" target="_blank" rel="noopener">Goldbach: Unfallflucht hinterl&#228;sst rund 25.000 Euro Sachschaden</a></h3>
+  <p>Am Freitagabend zwischen 18:30 und 19:30 Uhr ist an der Einm&#252;ndung Brunnenstra&#223;e / Marienstra&#223;e in Goldbach ein unbekanntes Fahrzeug in einen geparkten roten VW Polo gefahren. Das fl&#252;chtende Fahrzeug ri&#223; dabei zus&#228;tzlich einen Leitpfosten um, der seinerseits ein weiteres Fahrzeug besch&#228;digte. Der gesamte Sachschaden bel&#228;uft sich nach ersten Sch&#228;tzungen auf rund 25.000 Euro. Der Verursacher entfernte sich, ohne seinen Pflichten als Unfallbeteiligter nachzukommen. Die Polizei Aschaffenburg bittet um sachdienliche Zeugenhinweise.</p>
+  <div class="cf">
+    <a href="https://www.meine-news.de/landkreis-aschaffenburg/c-blaulicht/raum-aschaffenburg-komplettraeder-entwendet-unbekannter-hinterlaesst-hohen-sachschaden-garagentor-touchiert-fahrbahndecke-beschaedigt_a237601" target="_blank" rel="noopener">&#8594; meine-news.de</a>
+    <span class="ct">21. Juni 2026 &middot; heute</span>
+  </div>
+</div>
+
+<!-- KARTE 5: Karlstadt BMW mutwillig zerkratzt -->
+<div class="card">
+  <div class="card-media">
+    <a class="ph" href="https://www.meine-news.de/landkreis-main-spessart/c-blaulicht/main-spessart-pkw-mutwillig-beschaedigt-verkehrsunfall-kanaldeckel-herausgehoben-unfall-nach-ueberholmanoever_a237604" target="_blank" rel="noopener">
+      <span class="pi">&#128247;</span>
+      <small>Foto im Artikel</small>
+    </a>
+  </div>
+  <div class="badges">
+    <span class="b b-blu">Blaulicht</span>
+    <span class="b b-karl">Karlstadt</span>
+  </div>
+  <h3><a href="https://www.meine-news.de/landkreis-main-spessart/c-blaulicht/main-spessart-pkw-mutwillig-beschaedigt-verkehrsunfall-kanaldeckel-herausgehoben-unfall-nach-ueberholmanoever_a237604" target="_blank" rel="noopener">Karlstadt: Vandalen zerkratzen BMW 1er &#8211; Gesamte Fahrzeugseite besch&#228;digt</a></h3>
+  <p>Zwischen 20:00 und 20:25 Uhr am Samstagabend hat ein unbekannter T&#228;ter in der Gartenanlage &#8222;Am Hirschfeld&#8220; in Karlstadt einen grauen BMW der 1er-Reihe mutwillig besch&#228;digt. Der T&#228;ter zerkratzte die gesamte Fahrzeugseite. Anhand des Schadensbildes gehen die Ermittler von einer gezielten Vandalismustat aus. Der Schaden bel&#228;uft sich auf mehrere Hundert Euro. Hinweise nimmt die Polizeiinspektion Karlstadt entgegen. Der Vorfall reiht sich in eine Reihe von Vandalismustaten im Bereich der Gartenanlagen in der Region ein.</p>
+  <div class="cf">
+    <a href="https://www.meine-news.de/landkreis-main-spessart/c-blaulicht/main-spessart-pkw-mutwillig-beschaedigt-verkehrsunfall-kanaldeckel-herausgehoben-unfall-nach-ueberholmanoever_a237604" target="_blank" rel="noopener">&#8594; meine-news.de</a>
+    <span class="ct">21. Juni 2026 &middot; heute</span>
+  </div>
+</div>
+
+<!-- KARTE 6: Marktheidenfeld Kettenunfall -->
+<div class="card">
+  <div class="card-media">
+    <a class="ph" href="https://www.meine-news.de/landkreis-main-spessart/c-blaulicht/main-spessart-pkw-mutwillig-beschaedigt-verkehrsunfall-kanaldeckel-herausgehoben-unfall-nach-ueberholmanoever_a237604" target="_blank" rel="noopener">
+      <span class="pi">&#128247;</span>
+      <small>Foto im Artikel</small>
+    </a>
+  </div>
+  <div class="badges">
+    <span class="b b-blu">Blaulicht</span>
+    <span class="b b-mkh">Marktheidenfeld</span>
+  </div>
+  <h3><a href="https://www.meine-news.de/landkreis-main-spessart/c-blaulicht/main-spessart-pkw-mutwillig-beschaedigt-verkehrsunfall-kanaldeckel-herausgehoben-unfall-nach-ueberholmanoever_a237604" target="_blank" rel="noopener">Marktheidenfeld: Wei&#223;er Bus l&#246;st r&#252;cksichtsloses &#220;berholman&#246;ver aus &#8211; Seat rammt Taxi</a></h3>
+  <p>Am Freitagnachmittag gegen 14:20 Uhr ist am Nordring / Einm&#252;ndung Bayernstra&#223;e in Marktheidenfeld ein wei&#223;er Bus ohne R&#252;cksicht an einem Traktor vorbeigeprescht. Ein entgegenkommender Seat musste ausweichen und kollidierte dabei mit einem Taxi. Beide Fahrzeuge erlitten Sch&#228;den in H&#246;he von jeweils mehreren tausend Euro. Der wei&#223;e Bus setzte seine Fahrt ohne anzuhalten in Richtung Innenstadt fort. Die Polizei Marktheidenfeld ermittelt wegen Fahrerflucht und bittet dringend um Zeugenhinweise. Insbesondere der Fahrer des Busses oder Personen, die das Kfz kennen, werden gebeten, sich zu melden.</p>
+  <div class="cf">
+    <a href="https://www.meine-news.de/landkreis-main-spessart/c-blaulicht/main-spessart-pkw-mutwillig-beschaedigt-verkehrsunfall-kanaldeckel-herausgehoben-unfall-nach-ueberholmanoever_a237604" target="_blank" rel="noopener">&#8594; meine-news.de</a>
+    <span class="ct">21. Juni 2026 &middot; heute</span>
+  </div>
+</div>
+
+<!-- KARTE 7: Eussenheim Kanaldeckel -->
+<div class="card">
+  <div class="card-media">
+    <a class="ph" href="https://www.meine-news.de/landkreis-main-spessart/c-blaulicht/main-spessart-pkw-mutwillig-beschaedigt-verkehrsunfall-kanaldeckel-herausgehoben-unfall-nach-ueberholmanoever_a237604" target="_blank" rel="noopener">
+      <span class="pi">&#128247;</span>
+      <small>Foto im Artikel</small>
+    </a>
+  </div>
+  <div class="badges">
+    <span class="b b-blu">Blaulicht</span>
+    <span class="b b-euss">Eussenheim</span>
+  </div>
+  <h3><a href="https://www.meine-news.de/landkreis-main-spessart/c-blaulicht/main-spessart-pkw-mutwillig-beschaedigt-verkehrsunfall-kanaldeckel-herausgehoben-unfall-nach-ueberholmanoever_a237604" target="_blank" rel="noopener">Eussenheim: Kanaldeckel in der Nacht herausgehoben &#8211; Seat f&#228;hrt in Falle</a></h3>
+  <p>In der Nacht auf Sonntag gegen 0:30 Uhr hat ein unbekannter T&#228;ter in der Hoffriedgasse in Eussenheim einen Kanaldeckel aus der Fahrbahn gehoben und auf der Stra&#223;e liegen gelassen. Ein Seat-Fahrer fuhr unwissend &#252;ber den Kanaldeckel und erlitt erhebliche Sch&#228;den am Unterboden. Es ist unklar, ob die Tat aus Mutwillen oder zur gezielten Sachbesch&#228;digung begangen wurde. Die Polizeiinspektion Karlstadt hat die Ermittlungen aufgenommen. Zeugen, die in dieser Nacht verdächtige Personen oder Fahrzeuge in der Hoffriedgasse beobachtet haben, werden gebeten, sich zu melden.</p>
+  <div class="cf">
+    <a href="https://www.meine-news.de/landkreis-main-spessart/c-blaulicht/main-spessart-pkw-mutwillig-beschaedigt-verkehrsunfall-kanaldeckel-herausgehoben-unfall-nach-ueberholmanoever_a237604" target="_blank" rel="noopener">&#8594; meine-news.de</a>
+    <span class="ct">21. Juni 2026 &middot; heute</span>
+  </div>
+</div>
+
+<!-- KARTE 8: Rothenfels Info-App -->
+<div class="card">
+  <div class="card-media">
+    <a class="ph" href="https://www.main-echo.de/region/kreis-main-spessart/" target="_blank" rel="noopener">
+      <span class="pi">&#128241;</span>
+      <small>Foto im Artikel</small>
+    </a>
+  </div>
+  <div class="badges">
+    <span class="b b-ges">Gesellschaft</span>
+    <span class="b b-roth">Rothenfels</span>
+  </div>
+  <h3><a href="https://www.main-echo.de/region/kreis-main-spessart/" target="_blank" rel="noopener">Rothenfels: Stadtrat beschlie&#223;t digitale B&#252;rger-App f&#252;r die Kleinstadt am Main</a></h3>
+  <p>Der Stadtrat Rothenfels hat in seiner j&#252;ngsten Sitzung einstimmig beschlossen, die Plattform Gemeindeinfo.app f&#252;r die B&#252;rgerinnen und B&#252;rger einzuf&#252;hren. K&#252;nftig sollen offizielle Mitteilungen der Stadtverwaltung, Veranstaltungshinweise, Baustelleninformationen und Stadtratsbeschl&#252;sse direkt auf das Smartphone der Einwohner kommen. Die Plattform wird bereits von mehreren bayerischen Kommunen genutzt und gilt als niedrigschwelliges Angebot, das auch weniger technikaffine Menschen erreicht. B&#252;rgermeister und Stadtrat erhoffen sich eine bessere B&#252;rgerbeteiligung und mehr Transparenz. Rothenfels ist eine der j&#252;ngeren Gemeinden im Landkreis Main-Spessart, die auf digitale Kommunikation setzt.</p>
+  <div class="cf">
+    <a href="https://www.main-echo.de/region/kreis-main-spessart/" target="_blank" rel="noopener">&#8594; main-echo.de</a>
+    <span class="ct">21. Juni 2026 &middot; heute</span>
+  </div>
+</div>
+
+<!-- KARTE 9: Fellows Ride (mit YouTube-Link) -->
+<div class="card">
+  <div class="card-media">
+    <a class="vid-thumb" href="https://www.youtube.com/channel/UCi-AYMS5_-tBna8StnPMhow" target="_blank" rel="noopener">
+      <span class="play">&#9654;</span>
+      <small>YouTube&#8209;Kanal<br>Fellows Ride</small>
+    </a>
+  </div>
+  <div class="badges">
+    <span class="b b-health">Gesundheit</span>
+    <span class="b b-reg">Regional</span>
+  </div>
+  <h3><a href="https://www.vogel-stiftung.de/2026/06/03/auf-dem-bike-fuer-die-mentale-gesundheit-fellows-ride-startet-erneut-in-wuerzburg/" target="_blank" rel="noopener">Fellows Ride W&#252;rzburg&#8211;Gro&#223;heubach: &#220;ber 300 Biker fahren f&#252;r Depressionshilfe</a></h3>
+  <p>Am gestrigen Samstag, 20. Juni, startete die 6. Auflage des Fellows Ride W&#252;rzburg auf dem Vogel Campus. &#220;ber 300 Motorradfahrerinnen und &#8209;fahrer nahmen an der 150&#8209;Kilometer-Demonstration f&#252;r mehr Bewusstsein f&#252;r Depression teil. Die Route f&#252;hrte durch Unterfranken mit Zwischenstopp in Gro&#223;heubach im Landkreis Miltenberg, bevor die Kolonne am Kulturspeicher am Alten Hafen in W&#252;rzburg ankam. Schwerpunktthema 2026: &#8222;Depression im Alter&#8220; &#8211; eine in der alternden Gesellschaft oft untersch&#228;tzte Herausforderung. Die gesammelten Spenden flie&#223;en in regionale Depressionshilfeprojekte in Unterfranken. Auf dem YouTube-Kanal des Fellows Ride sind Impressionen vergangener Veranstaltungen abrufbar.</p>
+  <div class="cf">
+    <a href="https://www.vogel-stiftung.de/2026/06/03/auf-dem-bike-fuer-die-mentale-gesundheit-fellows-ride-startet-erneut-in-wuerzburg/" target="_blank" rel="noopener">&#8594; vogel-stiftung.de</a>
+    <span class="ct">20. Juni 2026 &middot; gestern</span>
+  </div>
+</div>
+
+<!-- KARTE 10: Esselbach Helden der Kindheit (mit Foto) -->
+<div class="card">
+  <div class="card-media">
+    <a href="https://www.main-echo.de/storage/image/5/3/3/8/6838335_nar-artikeldetail_1Gdnbb_Kjiy0l.jpg" target="_blank" rel="noopener" download>
+      <img src="https://www.main-echo.de/storage/image/5/3/3/8/6838335_nar-artikeldetail_1Gdnbb_Kjiy0l.jpg"
+           alt="B&#252;rgermeister Christian Dinkel als Pippi Langstrumpf, Esselbach Dorfhelden-Wette"
+           loading="lazy" width="110" height="78">
+    </a>
+    <a class="dl-lbl" href="https://www.main-echo.de/storage/image/5/3/3/8/6838335_nar-artikeldetail_1Gdnbb_Kjiy0l.jpg" download target="_blank" rel="noopener">&#11015; Foto herunterladen</a>
+  </div>
+  <div class="badges">
+    <span class="b b-ges">Gesellschaft</span>
+    <span class="b b-essel">Esselbach</span>
+  </div>
+  <h3><a href="https://www.main-echo.de/region/kreis-main-spessart/fast-800-esselbacher-als-helden-der-kindheit-art-8737751" target="_blank" rel="noopener">Esselbach: Fast 800 &#8222;Helden der Kindheit&#8220; &#8211; 3.000 Euro f&#252;r den Kindergarten gewettet</a></h3>
+  <p>Die Gemeinde Esselbach hat die Bayernwerk-Dorfhelden-Wette mit Bravour bestanden: 793 kostümierte B&#252;rgerinnen und B&#252;rger versammelten sich als Kindheitsfiguren &#8211; Schl&#252;mpfe, Wickie, Pumuckl, Pippi Langstrumpf und viele mehr. B&#252;rgermeister Christian Dinkel erschien pers&#246;nlich im Pippi-Langstrumpf-Kost&#252;m und nahm das Preisgeld von 3.000 Euro entgegen. Erzieherin Kerstin Heim-Furchner schminkte die Kindergartenkinder als Schl&#252;mpfe. Das Preisgeld flie&#223;t direkt in die Ausstattung des Esselbacher Kindergartens. Die Aktion wurde von Ex-B&#252;rgermeister Richard Roos bei Bayernwerk angemeldet. (Foto: Dorothee May)</p>
+  <div class="cf">
+    <a href="https://www.main-echo.de/region/kreis-main-spessart/fast-800-esselbacher-als-helden-der-kindheit-art-8737751" target="_blank" rel="noopener">&#8594; main-echo.de</a>
+    <span class="ct">19. Juni 2026</span>
+  </div>
+</div>
+
+<!-- KARTE 11: Jakobs-Kreuzkraut Aktionszeitraum -->
+<div class="card">
+  <div class="card-media">
+    <a class="ph" href="https://www.landkreis-aschaffenburg.de/" target="_blank" rel="noopener">
+      <span class="pi">&#127807;</span>
+      <small>Foto im Artikel</small>
+    </a>
+  </div>
+  <div class="badges">
+    <span class="b b-env">Umwelt</span>
+    <span class="b b-ab">Aschaffenburg</span>
+  </div>
+  <h3><a href="https://www.landkreis-aschaffenburg.de/" target="_blank" rel="noopener">Landkreis Aschaffenburg: Aktionszeitraum gegen Jakobs-Kreuzkraut startet ab 22. Juni</a></h3>
+  <p>Der Landkreis Aschaffenburg koordiniert vom 22. Juni bis zum 7. August 2026 einen kreisweiten Aktionszeitraum zur Bek&#228;mpfung des Jakobs-Kreuzkrauts. Die giftige Pflanze &#8211; erkennbar an auff&#228;llig gelben Bl&#252;ten &#8211; ist f&#252;r Pferde und Rinder gef&#228;hrlich und breitet sich zunehmend auf Wiesen, Stra&#223;enr&#228;ndern und Bahnd&#228;mmen aus. Grundst&#252;cksbesitzer werden gebeten, die Pflanze vor der Samenreife zu entfernen und &#252;ber Restm&#252;ll oder Biomülltonne zu entsorgen &#8211; keinesfalls kompostieren. Der Landkreis stellt Informationsmaterial bereit. Ziel ist es, der Ausbreitung entgegenzuwirken, bevor die Pflanze vollst&#228;ndig aussamt.</p>
+  <div class="cf">
+    <a href="https://www.landkreis-aschaffenburg.de/" target="_blank" rel="noopener">&#8594; landkreis-aschaffenburg.de</a>
+    <span class="ct">21. Juni 2026 &middot; heute</span>
+  </div>
+</div>
+
+<!-- KARTE 12: Weintouren Untermain -->
+<div class="card">
+  <div class="card-media">
+    <a class="ph" href="https://www.main-echo.de/" target="_blank" rel="noopener">
+      <span class="pi">&#127863;</span>
+      <small>Foto im Artikel</small>
+    </a>
+  </div>
+  <div class="badges">
+    <span class="b b-tour">Tourismus</span>
+    <span class="b b-reg">Regional</span>
+  </div>
+  <h3><a href="https://www.main-echo.de/" target="_blank" rel="noopener">Weintouren am Untermain: Wandern durch fr&#228;nkische Weinlagen zum Sommeranfang</a></h3>
+  <p>P&#252;nktlich zum astronomischen Sommeranfang pr&#228;sentieren sich die Weinlagen am Untermain von ihrer sch&#246;nsten Seite. Geführte Weinwanderungen f&#252;hren durch die Rebzeilen rund um Alzenau, Klingenberg am Main und Gro&#223;heubach &#8211; Orte, in denen die fr&#228;nkische Weinbaugeschichte bis ins 8. Jahrhundert zur&#252;ckreicht. Mehrere Weinh&#246;fe bieten an den Sommerwochenenden Verkostungsabende direkt im Weinberg an. Die gut ausgeschilderten Wege bieten bei Aussichtspunkten spektakul&#228;re Blicke &#252;ber das Main-Tal. Gerade in der langen Sonnwendd&#228;mmerung &#8211; heute bis nach 21:28 Uhr &#8211; ist ein Weinberg-Abendspaziergang ein besonderes Erlebnis.</p>
+  <div class="cf">
+    <a href="https://www.main-echo.de/" target="_blank" rel="noopener">&#8594; main-echo.de</a>
+    <span class="ct">19. Juni 2026</span>
+  </div>
+</div>
+
+<!-- KARTE 13: Gitarre & Kreativität Lohr -->
+<div class="card">
+  <div class="card-media">
+    <a class="ph" href="https://www.main-echo.de/region/kreis-main-spessart/" target="_blank" rel="noopener">
+      <span class="pi">&#127928;</span>
+      <small>Foto im Artikel</small>
+    </a>
+  </div>
+  <div class="badges">
+    <span class="b b-kul">Kultur</span>
+    <span class="b b-lohr">Lohr</span>
+  </div>
+  <h3><a href="https://www.main-echo.de/region/kreis-main-spessart/" target="_blank" rel="noopener">Lohr am Main: &#8222;Gitarre und Kreativit&#228;t &#8211; die perfekte Harmonie&#8220;</a></h3>
+  <p>Mit einem stimmungsvollen Konzert unter dem Motto &#8222;Gitarre und Kreativit&#228;t &#8211; die perfekte Harmonie&#8220; begeisterten Lohrer K&#252;nstlerinnen und K&#252;nstler heute Nachmittag ihr Publikum. Die Veranstaltung verband klassische und moderne Gitarrenmusik mit Impulsen aus der bildenden Kunst und zog ein breites Publikum an. Am l&#228;ngsten Tag des Jahres fand das Konzert eine besonders passende Atmosph&#228;re &#8211; Musik und Licht bis weit in den Sommerabend hinein. Organisatoren und K&#252;nstler zeigten sich begeistert von der positiven Resonanz und k&#252;ndigten ein Folgeevent im Herbst an. Die Lohrer Kulturszene beweist damit erneut ihre lebendige Vielfalt.</p>
+  <div class="cf">
+    <a href="https://www.main-echo.de/region/kreis-main-spessart/" target="_blank" rel="noopener">&#8594; main-echo.de</a>
+    <span class="ct">21. Juni 2026 &middot; heute</span>
+  </div>
+</div>
+
+<!-- KARTE 14: Miltenberg Fahrbahn Windischbuchen -->
+<div class="card">
+  <div class="card-media">
+    <a class="ph" href="https://aschaffenburg.news/bayern/landkreis-miltenberg/" target="_blank" rel="noopener">
+      <span class="pi">&#128679;</span>
+      <small>Foto im Artikel</small>
+    </a>
+  </div>
+  <div class="badges">
+    <span class="b b-verk">Verkehr</span>
+    <span class="b b-mil">Miltenberg</span>
+  </div>
+  <h3><a href="https://aschaffenburg.news/bayern/landkreis-miltenberg/" target="_blank" rel="noopener">Miltenberg: Fahrbahnerneuerung bei Windischbuchen &#8211; Sperrung ab Montag, 22. Juni</a></h3>
+  <p>Das Staatliche Bauamt Aschaffenburg k&#252;ndigt ab Montag, 22. Juni 2026, eine Vollsperrung der Einm&#252;ndung der Kreisstra&#223;e MIL 20 in die MIL 14 bei Lauersmühle an. Der erste Bauabschnitt zur Fahrbahnerneuerung bei Windischbuchen l&#228;uft bis zum 3. Juli, ein zweiter Abschnitt folgt vom 20. bis 24. Juli 2026. Verkehrsteilnehmer m&#252;ssen mit Umleitungen rechnen. Das Bauamt bittet um Verst&#228;ndnis f&#252;r die Beeintr&#228;chtigungen und weist auf die Notwendigkeit der Sanierung hin. Umleitungsbeschilderungen werden rechtzeitig vor Baubeginn aufgestellt.</p>
+  <div class="cf">
+    <a href="https://aschaffenburg.news/bayern/landkreis-miltenberg/" target="_blank" rel="noopener">&#8594; aschaffenburg.news</a>
+    <span class="ct">21. Juni 2026 &middot; heute</span>
+  </div>
+</div>
+
+<!-- KARTE 15: Freibäder & Seen Sommerkarte -->
+<div class="card">
+  <div class="card-media">
+    <a class="ph" href="https://www.main-echo.de/region/stadt-kreis-aschaffenburg/ausflugs-karte-fuer-den-kommenden-sommer-das-bieten-schwimmbaeder-und-seen-im-raum-aschaffenburg-miltenberg-lohr-art-8507635" target="_blank" rel="noopener">
+      <span class="pi">&#127946;</span>
+      <small>Karte im Artikel</small>
+    </a>
+  </div>
+  <div class="badges">
+    <span class="b b-freiz">Freizeit</span>
+    <span class="b b-reg">Regional</span>
+  </div>
+  <h3><a href="https://www.main-echo.de/region/stadt-kreis-aschaffenburg/ausflugs-karte-fuer-den-kommenden-sommer-das-bieten-schwimmbaeder-und-seen-im-raum-aschaffenburg-miltenberg-lohr-art-8507635" target="_blank" rel="noopener">Sommerkarte: Freibäder und Seen zwischen Alzenau, Miltenberg und Lohr &#8211; Die Region taucht ab</a></h3>
+  <p>P&#252;nktlich zum Sommeranfang erscheint die Sommer-Ausflugskarte des Main-Echo mit allen Freibädern und Badeseen zwischen Alzenau und Miltenberg sowie zwischen Wertheim und Lohr. Die Region bietet eine beachtliche Vielfalt: Freibäder mit Wasserrutschen und Beachvolleyball-Feldern, idyllische Spessart-Stauseen sowie Mainabschnitte zum Abk&#252;hlen. Die meisten Anlagen haben von Mai bis September ge&#246;ffnet. Bei den aktuell amtlich gewarnten 33 Grad und der anhaltenden Hitzewelle ist die Badeliste heute besonders aktuell. Alle &#214;ffnungszeiten, Eintrittspreise und Anbindungen zeigt die interaktive Karte auf main-echo.de.</p>
+  <div class="cf">
+    <a href="https://www.main-echo.de/region/stadt-kreis-aschaffenburg/ausflugs-karte-fuer-den-kommenden-sommer-das-bieten-schwimmbaeder-und-seen-im-raum-aschaffenburg-miltenberg-lohr-art-8507635" target="_blank" rel="noopener">&#8594; main-echo.de</a>
+    <span class="ct">Sommer 2026</span>
+  </div>
+</div>
+
+</div><!-- /news-grid -->
+</div><!-- /news-section -->
+
+<!-- FOOTER -->
+<footer>
+  <h3>Quellen dieser Ausgabe</h3>
+  <ul class="src-list">
+    <li><a href="https://www.main-echo.de/" target="_blank" rel="noopener">main-echo.de</a></li>
+    <li><a href="https://www.meine-news.de/" target="_blank" rel="noopener">meine-news.de</a></li>
+    <li><a href="https://aschaffenburg.news/" target="_blank" rel="noopener">aschaffenburg.news</a></li>
+    <li><a href="https://www.infranken.de/" target="_blank" rel="noopener">infranken.de</a></li>
+    <li><a href="https://www.vogel-stiftung.de/" target="_blank" rel="noopener">vogel-stiftung.de</a></li>
+    <li><a href="https://www.landkreis-aschaffenburg.de/" target="_blank" rel="noopener">landkreis-aschaffenburg.de</a></li>
+    <li><a href="https://api.brightsky.dev/" target="_blank" rel="noopener">BrightSky API (DWD-Daten)</a></li>
+    <li><a href="https://www.dwd.de/" target="_blank" rel="noopener">Deutscher Wetterdienst (DWD)</a></li>
+  </ul>
+  <div class="ts">Aktualisierung: Sonntag, 21. Juni 2026 &nbsp;&middot;&nbsp; 18:00 Uhr CEST &nbsp;&middot;&nbsp; domezos2024/aktuelles</div>
 </footer>
 
+</div><!-- /wrap -->
 </body>
 </html>
