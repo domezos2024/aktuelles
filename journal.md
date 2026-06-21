@@ -1,18 +1,35 @@
 # Tagesnachrichten-Journal – domezos2024/aktuelles
 
-## Design – 2026-06-21 – 10:20 Uhr CEST
-- Schema: sonnenwende-spessartgrün
-- Header-Gradient: #1b5e20 → #f9a825
-- Hintergrund: #e8f5e9
-- Karten: #fffde7
-- Akzentfarben: #f9a825 · #1b5e20 · #1565c0 · #6a1b9a · #e65100
-- Layout: grid-3col (responsive 2col/1col)
+## Design – 2026-06-21 – 11:12 Uhr CEST
+- Schema: mittsommer-mainhimmel
+- Header-Gradient: #004d6e → #0097a7
+- Hintergrund: #e0f4f7
+- Karten: #ffffff
+- Akzentfarben: #004d6e · #0097a7 · #e65100 · #6a1b9a · #2e7d32
+- Layout: grid-2col (responsive 1col)
 
 ---
 
 ## Themen-Archiv (letzte 10 Tage – NICHT wiederholen!)
 
-### 2026-06-21 (Ausgabe 2 – Sommersonnenwende) ← heute, neu hinzugefügt
+### 2026-06-21 (Ausgabe 3 – 11:12 Uhr) ← heute, neu hinzugefügt
+- Auffahrunfall Schillerstraße Aschaffenburg 3 Fahrzeuge Rettungsdienst leicht verletzt | https://www.main-echo.de/ressorts/blaulicht/ | blaulicht | aschaffenburg
+- Tag offene Gesellschaft Alzenau 150 Menschen Demokratie-Frühstück Treffpunkt-Offline DAGA | https://www.main-echo.de/region/stadt-kreis-aschaffenburg/ | gesellschaft | alzenau
+- Marktheidenfeld Passanten-Umfrage Einzelhandel Leerstand Innenstadt Fußgängerzone | https://www.main-echo.de/region/kreis-main-spessart/ | wirtschaft | marktheidenfeld
+- Jakobskreuzkraut Kreuzwertheim Erlichgärten 40 Freiwillige Naturpark Spessart Natura-2000 | https://www.meine-news.de/landkreis-main-spessart/c-natur-und-tiere/gemeinsam-gegen-das-jakobskreuzkraut_a237217 | umwelt | kreuzwertheim
+- Miltenberg Landrat Björn Bartels Amtsübernahme Jens Marco Scherf verabschiedet 12-Jahre | https://www.infranken.de/lk/miltenberg/uebersicht/ | politik | miltenberg
+- Lohr Stadtwald Rekordjahr 2026 Forstchef Neuner Holzerlöse Borkenkäfer zurück | https://www.main-echo.de/region/kreis-main-spessart/lohrer-stadtwald-weswegen-2026-ein-rekordjahr-werden-koennte-art-8734240 | wirtschaft | lohr
+- Museumsnacht Aschaffenburg 11-Juli Vorverkauf gestartet Museen Pompejanum 19-bis-0-Uhr | https://www.aschaffenburg.de/Politik-Verwaltung/Presse/Aktuelle-Meldungen/Museumsnacht-am-Samstag-11-Juli-Vorverkauf-gestartet.php | kultur | aschaffenburg
+- Stiftsmuseum Aschaffenburg Öffnungszeiten Personalengpass Einschränkungen Juni | https://www.aschaffenburg.de/Politik-Verwaltung/Presse/Aktuelle-Meldungen/ | kultur | aschaffenburg
+- Trauer Günter Dehn Aschaffenburg Kommunalpolitiker gestorben prägend Stadtentwicklung | https://www.aschaffenburg.de/Politik-Verwaltung/Presse/Aktuelle-Meldungen/Trauer-um-G%C3%BCnter-Dehn.php | gesellschaft | aschaffenburg
+- Nachhaltigkeitspreis Aschaffenburg bio-verlag Stadtjugendring Stadttheater Umweltbildung | https://www.aschaffenburg.de/Politik-Verwaltung/Presse/Aktuelle-Meldungen/Stadt-verleiht-Nachhaltigkeitspreis.php | gesellschaft | aschaffenburg
+- Mömbris Tag der Musik 25-Jahre Haus-der-Musik Gunzenbach Jubiläum Konzert kostenlos | https://www.landkreis-aschaffenburg.de/ | kultur | mömbris
+- Marktheidenfeld Fairtrade-Stadt Rezertifizierung 2028 zehn-Jahre-Jubiläum Stamm | https://mainfranken.news/2026/06/12/marktheidenfeld-bleibt-fairtrade-stadt-alle-notwendigen-kriterien-fuer-den-titel-sind-weiterhin-erfuellt/ | gesellschaft | marktheidenfeld
+- Lohr Maingalerie eröffnet Auftakt Vernissage Schuh-Heiner Kreativ-Begegnungsraum | https://www.main-echo.de/region/kreis-main-spessart/ein-ort-fuer-kreativitaet-und-begegnung-art-8731211 | kultur | lohr
+- Lohr Biodiversitäts-Modellprojekt Florian-Lang Anschlussfinanzierung ungesichert 2028 | https://www.main-echo.de/region/kreis-main-spessart/lohrer-modellprojekt-vor-dem-aus-art-8732938 | umwelt | lohr
+- BKH Lohr Gerontopsychiatrie Neubau Sommerberg Aschaffenburg Miltenberg Main-Spessart 2027 | https://www.main-echo.de/region/kreis-main-spessart/neue-klinik-fuer-aeltere-patienten-art-8727114 | gesundheit | lohr
+
+### 2026-06-21 (Ausgabe 2 – Sommersonnenwende)
 - Unfall A3 Weibersbrunn Gewitterregen Fahrzeug Schrottwert Feuerwehr Fahrer verletzt | https://www.main-echo.de/ressorts/blaulicht/gewitterregen-am-samstagabend-unfall-auf-der-a3-fahrer-verletzt-art-8738324 | blaulicht | regional
 - Windenrettung Rothenfels Hubschrauber Patientin unzugängliches Gelände | https://www.main-echo.de/ressorts/blaulicht/spektakulaere-windenrettung-hubschrauber-hebt-patientin-aus-unwegsamem-gelaende-in-rothenfels-art-8737178 | blaulicht | rothenfels
 - Sparkasse Aschaffenburg Miltenberg Verwaltungsrat Wahl keine Frauen Grüne Kritik 30 Jahre | https://www.meine-news.de/aschaffenburg/c-politik/verwaltungsrat-der-sparkasse-gewaehlt-keine-angemessene-vertretung-von-frauen_a237586 | politik | aschaffenburg
@@ -29,7 +46,7 @@
 - Kreisumlage Main-Spessart Landrat Vogel Bauausgaben 21,7-Millionen anders takten Kommunen | https://www.main-echo.de/region/kreis-main-spessart/ | politik | main-spessart
 - Aschaffenburg Innenstadt Sanierung Rechnungen 220 Eigentümer Bescheide 2027 Beiträge | https://www.main-echo.de/region/stadt-kreis-aschaffenburg/ | gesellschaft | aschaffenburg
 
-### 2026-06-22 ← Vortag-Einträge
+### 2026-06-22 (aus Vorversion)
 - Vollsperrung Rosenstraße Aschaffenburg startet 22-26-Juni Schachtabdeckung Hitzewelle | https://aschaffenburg.news/ab/aschaffenburg/aschaffenburg/aschaffenburg-vollsperrung-in-der-rosenstrasse.html | verkehr | aschaffenburg
 - Stadtwerke Aschaffenburg Abfallabfuhr Hitzewelle früher bereitstellen 22-26-Juni | https://aschaffenburg.news/ab/aschaffenburg/aschaffenburg/aschaffenburg-abfallbeh%C3%A4lter-werden-fr%C3%BCher-bereitgestellt-und-abgeholt.html | gesellschaft | aschaffenburg
 - Küchenbrand Landingstraße Aschaffenburg Tunnel gesperrt Feuerwehr Samstagmorgen | https://www.main-echo.de/ressorts/blaulicht/landingstrasse-und-tunnel-teilweise-gesperrt-feuerwehreinsatz-am-samstagmorgen-art-8738222 | blaulicht | aschaffenburg
@@ -46,7 +63,7 @@
 - Main-Spessart Konjunktur 2027 Aufschwung Fachkräftemangel Energiekosten IHK Wirtschaftsverbände | https://www.main-echo.de/region/kreis-main-spessart/wenn-es-2027-mit-dem-aufschwung-nicht-klappt-wann-dann-art-8737213 | wirtschaft | main-spessart
 - Kinder-Kultur-Tag 5-Juli Nilkheimer Park Aschaffenburg Mitmachaktionen kostenlos | https://aschaffenburg.news/ab/aschaffenburg/aschaffenburg/kinder-kultur-tag-am-5-juli-im-nilkheimer-park.html | kultur | aschaffenburg
 
-### 2026-06-21
+### 2026-06-21 (Ausgabe 1)
 - Ursula Schleicher CSU Europaabgeordnete Aschaffenburg gestorben 93 Jahre Vizepräsidentin EP | https://www.main-echo.de/region/stadt-kreis-aschaffenburg/ | gesellschaft | aschaffenburg
 - Amerikanische Faulbrut Bienen Sperrbezirke Burgsinn Karlstadt Rieneck Gemünden Main-Spessart | https://www.main-spessart.de/aktuelles/pressemitteilungen/11085.Amerikanische-Faulbrut-der-Bienen-Neue-Sperrbezirke-im-Landkreis-Main-Spessart.html | umwelt | main-spessart
 - Präventionskonferenz Main-Spessart Lohr 120 Fachkräfte Landrat Vogel Masterplan | https://www.main-spessart.de/aktuelles/pressemitteilungen/index.html | gesundheit | lohr
@@ -67,7 +84,6 @@
 - Brand Karlstadt Wernfelder Straße Schuppen Wohnhäuser sechsstellig | https://www.infranken.de/lk/main-spessart/blaulicht/feuer-in-karlstadt-brand-zerstoert-schuppen-und-beschaedigt-wohnhaeuser-art-6369478 | blaulicht | karlstadt
 - Zollkontrolle Taxi Mietwagengewerbe Hauptzollamt Schweinfurt 70 Einsatzkräfte | https://aschaffenburg.news/blaulicht/zollkontrolle-von-taxi-und-mietwagengewerbe.html | blaulicht | regional
 - Rockerkrieg Marktheidenfeld Massenschlägerei 2024 Urteile Analyse | https://www.main-echo.de/region/kreis-main-spessart/ | justiz | main-spessart
-- Bundeswehr Manöver Main-Spessart 29-Juni bis 4-Juli 50 Soldaten | https://www.main-echo.de/region/kreis-main-spessart/truppenuebungen-der-bundeswehr-im-kreis-main-spessart-art-8735307 | sicherheit | main-spessart
 - Suchtpräventionsstelle Jugendliche Landkreis Aschaffenburg Jugendamt Legler | https://aschaffenburg.news/ab/aschaffenburg/aschaffenburg/aschaffenburg-suchtpr%C3%A4ventionsstelle-f%C3%BCr-jugendliche-beschlossen.html | politik | aschaffenburg
 - CMBlu Alzenau Bundeswirtschaftsministerin Reiche Lithiumfreie Energiespeicher | https://www.primavera24.de/aktuelles/news/bundeswirtschaftsministerin-reiche-besucht-cmblu-in-alzenau | wirtschaft | alzenau
 - Mömbris Grundschule Neubau ohne Waschbecken Klassenräume Gemeinderat Streit | https://www.main-echo.de/region/stadt-kreis-aschaffenburg/ | gesellschaft | mömbris
@@ -75,7 +91,6 @@
 - Aschaffenburg 97 Volksfest Eröffnung OB Schlemmer Bieranstich Feuerwerk | https://www.meine-news.de/aschaffenburg/c-kultur/volksfest-eroeffnung-aschaffenburg-19062026_a237463 | kultur | aschaffenburg
 - Volksfestumzug Aschaffenburg ohne Pferdekutschen Hitzeschutz Tiere | https://aschaffenburg.news/ab/aschaffenburg/aschaffenburg/aschaffenburg-volksfestumzug-ohne-pferde.html | gesellschaft | aschaffenburg
 - DWD Hitzewarnung Unterfranken Franken 34-5-Grad Stufe-2 Gewitter | https://www.infranken.de/lk/franken/wetter-in-franken-es-wird-schwuel-heiss-mit-einzelnen-gewittern-art-6369076 | klima | regional
-- Stadtwerke Aschaffenburg Müllabfuhr frühere Leerung Hitzewelle 22-26-Juni | https://aschaffenburg.news/ab/aschaffenburg/aschaffenburg/aschaffenburg-abfallbeh%C3%A4lter-werden-fr%C3%BCher-bereitgestellt-und-abgeholt.html | gesellschaft | aschaffenburg
 - Hasloch Starkregen Gutachten 3 Jahre Gemeinderat Maßnahmen | https://www.main-echo.de/region/kreis-main-spessart/ | umwelt | hasloch
 - Main-Spessart Bevölkerungsrückgang demografischer Wandel Einwohnerzahlen 127600 | https://www.main-echo.de/region/kreis-main-spessart/ | gesellschaft | main-spessart
 - Lohr Gastronom Jugendzentrum Partyreihe Freitagabende Jugendliche 14-18 | https://www.main-echo.de/region/kreis-main-spessart/ | gesellschaft | lohr
