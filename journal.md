@@ -1,6 +1,6 @@
 # Tagesnachrichten-Journal – domezos2024/aktuelles
 
-## Design – 2026-06-22 – 06:27 Uhr CEST
+## Design – 2026-06-22 – 06:00 Uhr CEST (Automatischer Tagesstart)
 - Schema: hochsommer-waldgrün-terrakotta
 - Header-Gradient: #1B5E20 → #388E3C → #BF360C
 - Hintergrund: #F1F8E9
@@ -12,7 +12,7 @@
 
 ## Themen-Archiv (letzte 10 Tage – NICHT wiederholen!)
 
-### 2026-06-22 ← heute, neu hinzugefügt
+### 2026-06-22 (Ausgabe 1 – 06:00 Uhr, Automatischer Tagesstart) ← heute
 - Fahrerflucht Omnibus Marktheidenfeld Polizei Zeugen gesucht | https://www.meine-news.de/marktheidenfeld/c-blaulicht/ | blaulicht | marktheidenfeld
 - DWD Hitzewarnung endet heute 19-Uhr Unterfranken Aufhebung | https://www.dwd.de/DE/wetter/warnungen_aktuell/warnungen_aktuell_node.html | klima | regional
 - Bürgermeister Dirk Rieb Lohr sieben Wochen Auszeit zurück Amt | https://www.main-echo.de/region/kreis-main-spessart/ | politik | lohr
@@ -28,8 +28,10 @@
 - GeDANKEnweg Marktheidenfeld philosophische Stadtführung Sommer | https://www.main-echo.de/region/kreis-main-spessart/ | kultur | marktheidenfeld
 - Mainradweg Ausbau Gebr-Stolz GmbH Hammelburg beauftragt Main-Spessart | https://www.main-echo.de/region/kreis-main-spessart/ | verkehr | main-spessart
 - Spessart Hochsommer Wanderwege Ausflugsziele Tipps Naturpark | https://www.spessart-tourismus.de/ | tourismus | spessart
+- Vollsperrung Rosenstraße Aschaffenburg 22-26-Juni Schachtabdeckung letzte-Woche | https://aschaffenburg.news/ab/aschaffenburg/aschaffenburg/aschaffenburg-vollsperrung-in-der-rosenstrasse.html | verkehr | aschaffenburg
+- Jakobskreuzkraut Aktionszeitraum Landkreis-Aschaffenburg startet-heute 22-Juni bis 7-August | https://www.landkreis-aschaffenburg.de/ | umwelt | aschaffenburg
 
-### 2026-06-21 (Ausgabe 5 – 20:37 Uhr) ← heute, neu hinzugefügt
+### 2026-06-21 (Ausgabe 5 – 20:37 Uhr)
 - Sommersonnenwende 2026 astronomischer Sommeranfang 10:24 MESZ längster Tag 16h Tageslicht | https://www.nordbayern.de/service/familie/sommersonnenwende-2026-bald-ist-der-langste-tag-des-jahres-und-die-kurzeste-nacht-rep-2-1.15136851 | saisonal | regional
 - Carillon Percussion Festival Aschaffenburg 20-28-Juni Schloss-Johannisburg 48-Glocken LED-Leinwand | https://www.kulturamt-aschaffenburg.de/unsere-festivals/carillon-percussion/programm/ | kultur | aschaffenburg
 - Haibacher St-Johannesverein 125-Jahre Picknickfest 21-Juni ökumenischer-Gottesdienst 400-Kinder 85-Mitarbeitende | https://www.main-echo.de/region/stadt-kreis-aschaffenburg/ein-picknickfest-zum-jubilaeum-haibacher-st-johannesverein-feiert-125-jaehriges-art-8731782 | gesellschaft | haibach
