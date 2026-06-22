@@ -5,11 +5,7 @@
  * Aufgaben:
  *  1. Nachrichten.html von GitHub holen → als index.html lokal speichern
  *  2. E-Mail-Adressen aus email_list.md auslesen
- *  3. Professionellen Newsletter per Gmail SMTP an alle Empfänger versenden
- *
- * Benötigte Server-Umgebungsvariablen:
- *   GMAIL_USER         = michaelbergfeld1982@gmail.com
- *   GMAIL_APP_PASSWORD = [16-stelliges Gmail App-Passwort]
+ *  3. Professionellen Newsletter per PHP mail() (Server-MTA) versenden
  */
 declare(strict_types=1);
 
@@ -21,8 +17,8 @@ define('TARGET_FILE',     __DIR__ . '/index.html');
 define('EMAIL_LIST_FILE', __DIR__ . '/email_list.md');
 define('SOURCE_URL',      'https://raw.githubusercontent.com/domezos2024/aktuelles/main/Nachrichten.html');
 define('NEWS_URL',        'https://snote.fun/news');
-define('SMTP_HOST',       'smtp.gmail.com');
-define('SMTP_PORT',       465);
+define('MAIL_FROM',       'newsletter@snote.fun');       // Absender-Adresse des Servers
+define('MAIL_FROM_NAME',  'Tagesnachrichten | DoMeZos-Ware');
 define('REQUEST_TIMEOUT', 20);
 
 /* ═══════════════════════════════════════════════════
@@ -304,139 +300,38 @@ HTML;
 }
 
 /* ═══════════════════════════════════════════════════
-   SCHRITT 4 – SMTP-Versand (Gmail SSL, Port 465)
+   SCHRITT 4 – Versand via PHP mail() (Server-MTA)
 ═══════════════════════════════════════════════════ */
-
-/** Liest eine SMTP-Antwortzeile; gibt Code (int) und Text zurück. */
-function smtp_read($socket): array {
-    $response = '';
-    while (($line = fgets($socket, 512)) !== false) {
-        $response .= $line;
-        if (isset($line[3]) && $line[3] === ' ') break; // Letzte Zeile hat "NNN Text"
-    }
-    $code = (int)substr(trim($response), 0, 3);
-    return [$code, trim($response)];
-}
-
-/** Sendet einen SMTP-Befehl und liest die Antwort. */
-function smtp_cmd($socket, string $cmd): array {
-    fwrite($socket, $cmd . "\r\n");
-    return smtp_read($socket);
-}
-
 function send_newsletter_email(
-    string $smtp_user,
-    string $smtp_pass,
     string $to,
     string $subject,
     string $plain_body,
     string $html_body
 ): bool {
-    $socket = @stream_socket_client(
-        'ssl://' . SMTP_HOST . ':' . SMTP_PORT,
-        $errno, $errstr, 30
-    );
-    if (!$socket) {
-        log_msg('error', "SMTP-Verbindung fehlgeschlagen ({$errno}): {$errstr}");
-        return false;
-    }
-    stream_set_timeout($socket, 30);
-
-    // Begrüßung lesen
-    smtp_read($socket);
-
-    // EHLO
-    [$code] = smtp_cmd($socket, 'EHLO localhost');
-    if ($code !== 250) {
-        // HELO als Fallback
-        smtp_cmd($socket, 'HELO localhost');
-    }
-
-    // AUTH LOGIN
-    [$code] = smtp_cmd($socket, 'AUTH LOGIN');
-    if ($code !== 334) {
-        log_msg('error', "AUTH LOGIN fehlgeschlagen (Code {$code})");
-        fclose($socket);
-        return false;
-    }
-
-    [$code] = smtp_cmd($socket, base64_encode($smtp_user));
-    if ($code !== 334) {
-        log_msg('error', "SMTP-Benutzername nicht akzeptiert (Code {$code})");
-        fclose($socket);
-        return false;
-    }
-
-    [$code, $resp] = smtp_cmd($socket, base64_encode($smtp_pass));
-    if ($code !== 235) {
-        log_msg('error', "SMTP-Authentifizierung fehlgeschlagen (Code {$code})");
-        fclose($socket);
-        return false;
-    }
-
-    // MAIL FROM
-    [$code] = smtp_cmd($socket, "MAIL FROM:<{$smtp_user}>");
-    if ($code !== 250) {
-        log_msg('error', "MAIL FROM abgelehnt (Code {$code})");
-        fclose($socket);
-        return false;
-    }
-
-    // RCPT TO
-    [$code] = smtp_cmd($socket, "RCPT TO:<{$to}>");
-    if ($code !== 250) {
-        log_msg('error', "RCPT TO abgelehnt für {$to} (Code {$code})");
-        fclose($socket);
-        return false;
-    }
-
-    // DATA
-    [$code] = smtp_cmd($socket, 'DATA');
-    if ($code !== 354) {
-        log_msg('error', "DATA-Befehl abgelehnt (Code {$code})");
-        fclose($socket);
-        return false;
-    }
-
-    // MIME-Nachricht aufbauen
     $boundary  = 'ALT_' . bin2hex(random_bytes(12));
-    $from_name = '=?UTF-8?B?' . base64_encode('Tagesnachrichten | DoMeZos-Ware') . '?=';
+    $from_enc  = '=?UTF-8?B?' . base64_encode(MAIL_FROM_NAME) . '?=';
     $subj_enc  = '=?UTF-8?B?' . base64_encode($subject) . '?=';
 
-    $mime  = "Date: " . date('r') . "\r\n";
-    $mime .= "From: {$from_name} <{$smtp_user}>\r\n";
-    $mime .= "To: {$to}\r\n";
-    $mime .= "Subject: {$subj_enc}\r\n";
-    $mime .= "MIME-Version: 1.0\r\n";
-    $mime .= "Content-Type: multipart/alternative; boundary=\"{$boundary}\"\r\n";
-    $mime .= "X-Mailer: DoMeZos-Ware Newsletter Bot\r\n";
-    $mime .= "\r\n";
+    // MIME multipart/alternative: Plaintext + HTML
+    $body  = "--{$boundary}\r\n";
+    $body .= "Content-Type: text/plain; charset=UTF-8\r\n";
+    $body .= "Content-Transfer-Encoding: base64\r\n\r\n";
+    $body .= chunk_split(base64_encode($plain_body), 76, "\r\n");
 
-    // Plaintext-Part
-    $mime .= "--{$boundary}\r\n";
-    $mime .= "Content-Type: text/plain; charset=UTF-8\r\n";
-    $mime .= "Content-Transfer-Encoding: base64\r\n";
-    $mime .= "\r\n";
-    $mime .= chunk_split(base64_encode($plain_body), 76, "\r\n");
+    $body .= "--{$boundary}\r\n";
+    $body .= "Content-Type: text/html; charset=UTF-8\r\n";
+    $body .= "Content-Transfer-Encoding: base64\r\n\r\n";
+    $body .= chunk_split(base64_encode($html_body), 76, "\r\n");
 
-    // HTML-Part
-    $mime .= "--{$boundary}\r\n";
-    $mime .= "Content-Type: text/html; charset=UTF-8\r\n";
-    $mime .= "Content-Transfer-Encoding: base64\r\n";
-    $mime .= "\r\n";
-    $mime .= chunk_split(base64_encode($html_body), 76, "\r\n");
+    $body .= "--{$boundary}--";
 
-    $mime .= "--{$boundary}--\r\n";
-    $mime .= ".\r\n";
+    $headers  = "From: {$from_enc} <" . MAIL_FROM . ">\r\n";
+    $headers .= "Reply-To: " . MAIL_FROM . "\r\n";
+    $headers .= "MIME-Version: 1.0\r\n";
+    $headers .= "Content-Type: multipart/alternative; boundary=\"{$boundary}\"\r\n";
+    $headers .= "X-Mailer: DoMeZos-Ware Newsletter Bot\r\n";
 
-    fwrite($socket, $mime);
-    [$code] = smtp_read($socket);
-    $ok = ($code === 250);
-
-    smtp_cmd($socket, 'QUIT');
-    fclose($socket);
-
-    return $ok;
+    return mail($to, $subj_enc, $body, $headers);
 }
 
 /* ═══════════════════════════════════════════════════
@@ -467,28 +362,17 @@ function main(): void {
         return;
     }
 
-    // 3 – SMTP-Credentials aus ENV
-    $smtp_user = trim((string)getenv('GMAIL_USER'));
-    $smtp_pass = trim((string)getenv('GMAIL_APP_PASSWORD'));
-
-    if ($smtp_user === '' || $smtp_pass === '') {
-        log_msg('error', 'GMAIL_USER oder GMAIL_APP_PASSWORD nicht gesetzt – Versand abgebrochen');
-        http_response_code(500);
-        echo 'FEHLER: SMTP-Credentials fehlen.' . PHP_EOL;
-        return;
-    }
-
-    // 4 – E-Mail-Inhalte erstellen
+    // 3 – E-Mail-Inhalte erstellen
     $subject    = build_subject();
     $plain_body = build_plain($subject);
     $html_body  = build_html($subject);
 
-    // 5 – Versand
+    // 4 – Versand via Server-MTA (php mail())
     $sent   = 0;
     $errors = 0;
     foreach ($recipients as $addr) {
         log_msg('info', "Sende an: {$addr}");
-        $ok = send_newsletter_email($smtp_user, $smtp_pass, $addr, $subject, $plain_body, $html_body);
+        $ok = send_newsletter_email($addr, $subject, $plain_body, $html_body);
         if ($ok) {
             log_msg('info', "OK: {$addr}");
             $sent++;
