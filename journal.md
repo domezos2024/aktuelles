@@ -1,16 +1,33 @@
 # Tagesnachrichten-Journal – domezos2024/aktuelles
 
-## Design – 2026-06-21 – 20:37 Uhr CEST
-- Schema: sommersonnen-blau-gold
-- Header-Gradient: #0D3B6E → #1565C0 → #42A5F5
-- Hintergrund: #EEF4FC
+## Design – 2026-06-22 – 06:27 Uhr CEST
+- Schema: hochsommer-waldgrün-terrakotta
+- Header-Gradient: #1B5E20 → #388E3C → #BF360C
+- Hintergrund: #F1F8E9
 - Karten: #FFFFFF
-- Akzentfarben: #1565C0 · #F4B942 · #2E7D32 · #C62828 · #6A1B9A
-- Layout: grid-2col (responsive 1col)
+- Akzentfarben: #2E7D32 · #E64A19 · #00838F · #C62828 · #0277BD
+- Layout: grid-3col (responsive 2col/1col)
 
 ---
 
 ## Themen-Archiv (letzte 10 Tage – NICHT wiederholen!)
+
+### 2026-06-22 ← heute, neu hinzugefügt
+- Fahrerflucht Omnibus Marktheidenfeld Polizei Zeugen gesucht | https://www.meine-news.de/marktheidenfeld/c-blaulicht/ | blaulicht | marktheidenfeld
+- DWD Hitzewarnung endet heute 19-Uhr Unterfranken Aufhebung | https://www.dwd.de/DE/wetter/warnungen_aktuell/warnungen_aktuell_node.html | klima | regional
+- Bürgermeister Dirk Rieb Lohr sieben Wochen Auszeit zurück Amt | https://www.main-echo.de/region/kreis-main-spessart/ | politik | lohr
+- Maintalbahn Elektrifizierung Fertigstellung 2034 Projektstand Verzögerung | https://www.infranken.de/lk/main-spessart/ | verkehr | main-spessart
+- Nilkheim Anwandeweg 750 Wohnungen 1800 Einwohner Bauphase Aschaffenburg | https://www.main-echo.de/region/stadt-kreis-aschaffenburg/ | wirtschaft | aschaffenburg
+- CSD Aschaffenburg Rekord 1500 Teilnehmende Pride Umzug Juni | https://www.meine-news.de/aschaffenburg/c-politik/ | gesellschaft | aschaffenburg
+- WM 2026 Argentinien Österreich Frankreich Irak Gruppenspiele heute | https://www.sportschau.de/fussball/fifa-wm-2026/ | sport | national
+- Deutsche MTB-Meisterschaft Lohr-Wombach 17-19-Juli RV-Viktoria viertes-Mal | https://www.rv-viktoria-wombach.de/ | sport | lohr
+- Digital-Sprechstunde Schlaue-Graue Nilkheim verschoben nachgeholt kostenlos | https://aschaffenburg.news/ab/aschaffenburg/aschaffenburg/ | gesellschaft | aschaffenburg
+- Binnenschiff Fillonnerie Frankreich Main Lohr Richtung Rumänien Donau-Kanal | https://www.main-echo.de/region/kreis-main-spessart/ | gesellschaft | lohr
+- Universelles Leben Ulrich Seifert neuer Prophet Altfeld Lohr | https://www.main-echo.de/region/kreis-main-spessart/ | gesellschaft | lohr
+- Dreifachsporthalle Marktheidenfeld 13-5-Mio-Euro Fertigstellung Ende-2026 | https://www.main-echo.de/region/kreis-main-spessart/ | gesellschaft | marktheidenfeld
+- GeDANKEnweg Marktheidenfeld philosophische Stadtführung Sommer | https://www.main-echo.de/region/kreis-main-spessart/ | kultur | marktheidenfeld
+- Mainradweg Ausbau Gebr-Stolz GmbH Hammelburg beauftragt Main-Spessart | https://www.main-echo.de/region/kreis-main-spessart/ | verkehr | main-spessart
+- Spessart Hochsommer Wanderwege Ausflugsziele Tipps Naturpark | https://www.spessart-tourismus.de/ | tourismus | spessart
 
 ### 2026-06-21 (Ausgabe 5 – 20:37 Uhr) ← heute, neu hinzugefügt
 - Sommersonnenwende 2026 astronomischer Sommeranfang 10:24 MESZ längster Tag 16h Tageslicht | https://www.nordbayern.de/service/familie/sommersonnenwende-2026-bald-ist-der-langste-tag-des-jahres-und-die-kurzeste-nacht-rep-2-1.15136851 | saisonal | regional
@@ -97,7 +114,7 @@
 - Naturführung Ruine Homburg Gössenheim Dexter-Rinder Artenschutz Heidelerche Orchideen 17-Juli | https://www.main-spessart.de/aktuelles/pressemitteilungen/11077.Naturfuehrung-Ruine-Homburg-Rinderbeweidung-fuer-den-Artenschutz.html | umwelt | main-spessart
 - Kräuterspaziergang Goldbach Öko-Modellregion Jeanine-Biersack Gaetano-Bergmann Bio-Öle | https://aschaffenburg.news/ab/aschaffenburg/aschaffenburg-kraeuterspaziergang-zum-entdecken-und-erlebena.html | gesellschaft | goldbach
 
-### 2026-06-22 (aus Vorversion)
+### 2026-06-21 (Vorversion – aus früherer Ausgabe)
 - Vollsperrung Rosenstraße Aschaffenburg startet 22-26-Juni Schachtabdeckung Hitzewelle | https://aschaffenburg.news/ab/aschaffenburg/aschaffenburg/aschaffenburg-vollsperrung-in-der-rosenstrasse.html | verkehr | aschaffenburg
 - Stadtwerke Aschaffenburg Abfallabfuhr Hitzewelle früher bereitstellen 22-26-Juni | https://aschaffenburg.news/ab/aschaffenburg/aschaffenburg/aschaffenburg-abfallbeh%C3%A4lter-werden-fr%C3%BCher-bereitgestellt-und-abgeholt.html | gesellschaft | aschaffenburg
 - Küchenbrand Landingstraße Aschaffenburg Tunnel gesperrt Feuerwehr Samstagmorgen | https://www.main-echo.de/ressorts/blaulicht/landingstrasse-und-tunnel-teilweise-gesperrt-feuerwehreinsatz-am-samstagmorgen-art-8738222 | blaulicht | aschaffenburg
