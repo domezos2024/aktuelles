@@ -10,7 +10,7 @@ von `michaelbergfeld1982@gmail.com` mit dem Link zu den aktuellen Tagesnachricht
 ## Aktive Empfänger
 
 <!-- Eine E-Mail-Adresse pro Zeile, Format: - adresse@domain.de -->
-<!-- Neue Anmeldungen vom Formular auf Nachrichten.html hier eintragen -->
+<!-- Neue Anmeldungen vom Formular auf index.html hier eintragen -->
 - michaelbergfeld1982@outlook.de
 
 
