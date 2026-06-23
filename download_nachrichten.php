@@ -3,7 +3,7 @@
  * download_nachrichten.php
  *
  * Aufgaben:
- *  1. Nachrichten.html von GitHub holen → als index.html lokal speichern
+ *  1. index.html von GitHub holen → als index.html lokal speichern
  *  2. E-Mail-Adressen aus email_list.md auslesen
  *  3. Professionellen Newsletter per PHP mail() (Server-MTA) versenden
  */
@@ -15,7 +15,7 @@ declare(strict_types=1);
 define('LOG_FILE',        __DIR__ . '/download_nachrichten.log');
 define('TARGET_FILE',     __DIR__ . '/index.html');
 define('EMAIL_LIST_FILE', __DIR__ . '/email_list.md');
-define('SOURCE_URL',      'https://raw.githubusercontent.com/domezos2024/aktuelles/main/Nachrichten.html');
+define('SOURCE_URL',      'https://raw.githubusercontent.com/domezos2024/aktuelles/main/index.html');
 define('NEWS_URL',        'https://snote.fun/news');
 define('MAIL_FROM',       'newsletter@snote.fun');       // Absender-Adresse des Servers
 define('MAIL_FROM_NAME',  'Tagesnachrichten | DoMeZos-Ware');
@@ -357,7 +357,7 @@ function main(): void {
     if (empty($recipients)) {
         log_msg('info', 'Keine Empfänger gefunden – Versand übersprungen');
         log_msg('info', '════════ Script beendet ════════');
-        echo $dl_ok ? 'OK: Nachrichten.html aktualisiert. Keine Empfänger.' . PHP_EOL
+        echo $dl_ok ? 'OK: index.html aktualisiert. Keine Empfänger.' . PHP_EOL
                     : 'WARNUNG: Download fehlgeschlagen, keine Empfänger.' . PHP_EOL;
         return;
     }

@@ -40,7 +40,7 @@ Für jede Meldung:
 - Keine URL, kein Thema/Ereignis das bereits in einem der letzten 10 Journal-Einträge steht
 - Bei Zweifeln: Schlagwort aus journal.md mit Suchbegriff abgleichen, lieber eine neue Meldung wählen
 
-## Schritt 6 – Nachrichten.html neu schreiben (komplett ersetzen)
+## Schritt 6 – index.html neu schreiben (komplett ersetzen)
 
 Anforderungen:
 - Inline CSS, responsive, valide HTML5, eine Datei
@@ -94,14 +94,14 @@ Format:
 ## Schritt 8 – Push, PR, Merge, Schließen
 
 ```bash
-git add Nachrichten.html journal.md .claude/
+git add index.html journal.md .claude/
 git commit -m "Tagesnachrichten YYYY-MM-DD – HH:MM Uhr CEST"
 git push -u origin <branch>
 ```
 
 **Zeitstempel-Hinweis:** Immer die aktuelle Berlin-Zeit (CEST, UTC+2) in allen drei Stellen angeben:
-1. Nachrichten.html Header (Montag, 16. Juni 2026 · HH:MM Uhr CEST)
-2. Nachrichten.html Footer (Aktualisierung: Montag, 16. Juni 2026 · HH:MM Uhr CEST)
+1. index.html Header (Montag, 16. Juni 2026 · HH:MM Uhr CEST)
+2. index.html Footer (Aktualisierung: Montag, 16. Juni 2026 · HH:MM Uhr CEST)
 3. journal.md Header (## 2026-06-16 – HH:MM Uhr CEST)
 
 Dann:

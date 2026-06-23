@@ -1,7 +1,7 @@
 <?php
 /**
  * Newsletter-Anmeldung – speichert E-Mail-Adressen in email_list.md
- * Aufruf via POST von Nachrichten.html (https://snote.fun/news/Nachrichten.html)
+ * Aufruf via POST von index.html (https://snote.fun/news/index.html)
  */
 declare(strict_types=1);
 header('X-Content-Type-Options: nosniff');
@@ -30,7 +30,7 @@ if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
     http_response_code(405);
     html_page('Fehler', '<h2>&#10060; Methode nicht erlaubt</h2>'
         . '<p>Dieses Skript akzeptiert nur POST-Anfragen.</p>'
-        . '<a href="Nachrichten.html">&#8592; Zurück</a>');
+        . '<a href="index.html">&#8592; Zurück</a>');
     exit;
 }
 
@@ -42,7 +42,7 @@ if (!$email || strlen($email) > 254) {
     http_response_code(400);
     html_page('Ungültige Eingabe', '<h2>&#10060; Ungültige E-Mail-Adresse</h2>'
         . '<p>Bitte geben Sie eine gültige E-Mail-Adresse ein.</p>'
-        . '<a href="Nachrichten.html">&#8592; Zurück</a>');
+        . '<a href="index.html">&#8592; Zurück</a>');
     exit;
 }
 
@@ -54,7 +54,7 @@ if (stripos($content, $email) !== false) {
     html_page('Bereits angemeldet',
         '<h2>&#10003; Bereits angemeldet</h2>'
         . '<p><strong>' . htmlspecialchars($email) . '</strong> ist bereits in der Empfängerliste.</p>'
-        . '<a href="Nachrichten.html">&#8592; Zurück zu den Nachrichten</a>');
+        . '<a href="index.html">&#8592; Zurück zu den Nachrichten</a>');
     exit;
 }
 
@@ -63,7 +63,7 @@ $date = date('Y-m-d');
 
 if (strpos($content, '## Aktive Empfänger') !== false) {
     // Neue Zeile direkt nach dem Kommentar einfügen
-    $insert_marker = "<!-- Neue Anmeldungen vom Formular auf Nachrichten.html hier eintragen -->\n";
+    $insert_marker = "<!-- Neue Anmeldungen vom Formular auf index.html hier eintragen -->\n";
     $new_line      = $insert_marker . '- ' . $email . "\n";
     $content       = str_replace($insert_marker, $new_line, $content);
 } else {
@@ -81,17 +81,17 @@ if (file_put_contents($email_file, $content, LOCK_EX) === false) {
     http_response_code(500);
     html_page('Serverfehler', '<h2>&#10060; Speicherfehler</h2>'
         . '<p>Die E-Mail-Adresse konnte nicht gespeichert werden. Bitte versuchen Sie es später erneut.</p>'
-        . '<a href="Nachrichten.html">&#8592; Zurück</a>');
+        . '<a href="index.html">&#8592; Zurück</a>');
     exit;
 }
 
 /* ---------- Erfolg ---------- */
-header('Refresh: 4; url=Nachrichten.html');
+header('Refresh: 4; url=index.html');
 html_page('Angemeldet!',
     '<h2>&#10003; Erfolgreich angemeldet!</h2>'
     . '<p><strong>' . htmlspecialchars($email) . '</strong><br>'
     . 'Sie erhalten ab sofort täglich um <strong>7&nbsp;Uhr CEST</strong> den Newsletter '
     . 'mit den aktuellen Nachrichten aus Aschaffenburg, Lohr am Main und der Region.</p>'
     . '<p style="font-size:.82rem;color:#78909C">Abmeldung: Antwort auf die Newsletter-E-Mail mit dem Wort <em>abmelden</em></p>'
-    . '<a href="Nachrichten.html">&#8592; Zurück zu den Nachrichten</a>'
+    . '<a href="index.html">&#8592; Zurück zu den Nachrichten</a>'
     . '<p style="font-size:.72rem;color:#B0BEC5;margin-top:1rem">Sie werden in 4 Sekunden weitergeleitet …</p>');
