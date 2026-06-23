@@ -1,8 +1,9 @@
 # Tagesnachrichten-Journal – domezos2024/aktuelles
 
-## Design – 2026-06-23 – 06:13 Uhr CEST
-- Schema: johannisnacht-indigo-bernstein
+## Design – 2026-06-24 – 06:00 Uhr CEST
+- Schema: johannistag-hochsommer-feuerrot
 - Header-Gradient: #0D47A1 → #1976D2 → #F57F17
+- Seasonal-Banner: #E65100 → #FF8F00 → #FFD54F (Feuerrot-Hochsommer)
 - Hintergrund: #EDE7F6
 - Karten: #FFFFFF
 - Akzentfarben: #283593 · #F57F17 · #00695C · #AD1457 · #4A148C
@@ -12,7 +13,23 @@
 
 ## Themen-Archiv (letzte 10 Tage – NICHT wiederholen!)
 
-### 2026-06-23 (Ausgabe – 06:13 Uhr CEST) ← heute
+### 2026-06-24 (Ausgabe 1 – 06:00 Uhr, Automatischer Tagesstart) ← heute
+- Stadtbibliothek Aschaffenburg Onleihe3-App startet heute Update notwendig | https://aschaffenburg.news/ab/aschaffenburg/aschaffenburg/stadtbibliothek-neue-onleihe-app-ab-24-juni.html | kultur | aschaffenburg
+- Stadtrat Lohr Sitzung Wasserversorgung Sommerberg Feuerwache Anbau Wombach 2027 | https://www.main-echo.de/region/kreis-main-spessart/wasserversorgung-und-anbau-an-feuerwache-art-8737813 | politik | lohr
+- WM 2026 Deutschland Ecuador Public Viewing Volksfest Aschaffenburg vorletzter Tag | https://www.sportschau.de/fussball/fifa-wm-2026/ | sport | aschaffenburg
+- DWD Hitzewarnung Stufe2 Unterfranken 34Grad Johannistag heißester Tag 2026 | https://www.dwd.de/DE/wetter/warnungen_aktuell/warnungen_aktuell_node.html | klima | regional
+- FFW Rodenbach 150 Jahre Jubiläum Festwochenende 27-29-Juni Public Viewing | https://www.ffw-rodenbach.de/150-jahre-freiwillige-Feuerwehr-rodenbach/ | gesellschaft | rodenbach-lohr
+- Demo Sozialer Aufstand 27-Juni Theaterparkplatz Aschaffenburg Programm bekannt | https://www.meine-news.de/aschaffenburg/c-politik/sozialprotest-in-aschaffenburg-startet-mit-starkem-signal_a237391 | politik | aschaffenburg
+- Museumsnacht Aschaffenburg 11-Juli Tickets Vorverkauf Pompejanum Schloss-Johannisburg | https://www.aschaffenburg.de/Politik-Verwaltung/Presse/Aktuelle-Meldungen/Museumsnacht-am-Samstag-11-Juli-Vorverkauf-gestartet.php | kultur | aschaffenburg
+- Maintalbahn Elektrifizierung Fertigstellung 2034 Planungsengpässe Verzögerung | https://www.infranken.de/lk/main-spessart/ | verkehr | main-spessart
+- Bundeswehr Truppenübungen Main-Spessart 29-Juni bis 4-Juli 50-Soldaten Landstraßen | https://www.main-echo.de/region/kreis-main-spessart/truppenuebungen-der-bundeswehr-im-kreis-main-spessart-art-8735307 | gesellschaft | main-spessart
+- Nilkheim Anwandeweg 750-Wohnungen 1800-Einwohner Baufortschritt planmäßig | https://www.main-echo.de/region/stadt-kreis-aschaffenburg/ | wirtschaft | aschaffenburg
+- IHK Vollversammlungswahl Aschaffenburg Kandidatur bis 30-Juni | https://aschaffenburg.news/ab/aschaffenburg/aschaffenburg/aschaffenburg-wirtschaft-aktiv-mitgestalten-kandidatur-zur-ihk-vollversammlung-noch-bis-30-juni-moeglich.html | wirtschaft | aschaffenburg
+- STADTRADELN Landkreis Aschaffenburg Endspurt bis 28-Juni Ergebnisse | https://www.landkreis-aschaffenburg.de/ | gesellschaft | aschaffenburg
+- Jakobskreuzkraut Aktionszeitraum Landkreis-Aschaffenburg seit 22-Juni bis 7-August | https://www.landkreis-aschaffenburg.de/ | umwelt | aschaffenburg
+- Carillon Percussion Festival Aschaffenburg vorletzter Tag Schloss-Johannisburg bis 28-Juni | https://www.kulturamt-aschaffenburg.de/unsere-festivals/carillon-percussion/programm/ | kultur | aschaffenburg
+
+### 2026-06-23 (Ausgabe – 06:13 Uhr CEST)
 - BKH Lohr Forensik Infoveranstaltung Sicherheitsmaßnahmen Nachbarschaft | https://www.main-echo.de/dossiers/lohrer-forensik/ | gesellschaft | lohr
 - Mainschwimmer Mathias Alt 470km Main Schwimmtour Therapie Schlaganfall | https://www.main-echo.de/region/kreis-main-spessart/der-main-als-therapie-art-8738439 | gesellschaft | main-spessart
 - Polizeibericht Main-Spessart Randale Lohr Körperverletzung Marktheidenfeld 22-Juni | https://www.meine-news.de/landkreis-main-spessart/c-blaulicht/main-spessart-randale-polizei-nimmt-31-jaehrigen-in-gewahrsam-und-weitere-meldungen_a237703 | blaulicht | main-spessart
