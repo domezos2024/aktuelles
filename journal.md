@@ -1,18 +1,33 @@
 # Tagesnachrichten-Journal – domezos2024/aktuelles
 
-## Design – 2026-06-22 – 06:00 Uhr CEST (Automatischer Tagesstart)
-- Schema: hochsommer-waldgrün-terrakotta
-- Header-Gradient: #1B5E20 → #388E3C → #BF360C
-- Hintergrund: #F1F8E9
+## Design – 2026-06-23 – 06:13 Uhr CEST
+- Schema: johannisnacht-indigo-bernstein
+- Header-Gradient: #0D47A1 → #1976D2 → #F57F17
+- Hintergrund: #EDE7F6
 - Karten: #FFFFFF
-- Akzentfarben: #2E7D32 · #E64A19 · #00838F · #C62828 · #0277BD
-- Layout: grid-3col (responsive 2col/1col)
+- Akzentfarben: #283593 · #F57F17 · #00695C · #AD1457 · #4A148C
+- Layout: grid-2col (responsive 1col)
 
 ---
 
 ## Themen-Archiv (letzte 10 Tage – NICHT wiederholen!)
 
-### 2026-06-22 (Ausgabe 1 – 06:00 Uhr, Automatischer Tagesstart) ← heute
+### 2026-06-23 (Ausgabe – 06:13 Uhr CEST) ← heute
+- BKH Lohr Forensik Infoveranstaltung Sicherheitsmaßnahmen Nachbarschaft | https://www.main-echo.de/dossiers/lohrer-forensik/ | gesellschaft | lohr
+- Mainschwimmer Mathias Alt 470km Main Schwimmtour Therapie Schlaganfall | https://www.main-echo.de/region/kreis-main-spessart/der-main-als-therapie-art-8738439 | gesellschaft | main-spessart
+- Polizeibericht Main-Spessart Randale Lohr Körperverletzung Marktheidenfeld 22-Juni | https://www.meine-news.de/landkreis-main-spessart/c-blaulicht/main-spessart-randale-polizei-nimmt-31-jaehrigen-in-gewahrsam-und-weitere-meldungen_a237703 | blaulicht | main-spessart
+- Brand Sportheim Albstadt 70 Feuerwehrkräfte Dach Totalschaden 22-Juni | https://www.meine-news.de/albstadt/c-blaulicht/brand-am-sportheim-in-albstadt-am-22062026_a237727 | blaulicht | albstadt
+- Mömlingen Mercedes Baum Frontalunfall B469 Unfall | https://www.main-echo.de/ressorts/blaulicht/ | blaulicht | mömlingen
+- Obernburg Nötigung Überholmanöver Strafanzeige Eskalation Straße | https://www.meine-news.de/obernburg-amain/c-blaulicht/obernburg-nach-streitigkeit-und-ueberholmanoever-strafanzeigen-gestellt_a237714 | blaulicht | obernburg
+- Polizeibericht Aschaffenburg Kahl Essen Herd vergessen Rauch Wohnung | https://www.meine-news.de/aschaffenburg/c-blaulicht/aschaffenburgkahl-essen-auf-dem-herd-vergessen-und-weitere-blaulichtmeldungen_a237720 | blaulicht | aschaffenburg
+- Kommunen am Limit Strukturreformen Landkreis Main-Spessart Haushalt | https://www.main-spessart.de/aktuelles/pressemitteilungen/11087.Kommunen-am-Limit.html | politik | main-spessart
+- Haibach Sommerstraße Freiheitstraße Umgestaltung Spielstraße Anwohner | https://www.main-echo.de/region/stadt-kreis-aschaffenburg/ | gesellschaft | haibach
+- Spieletreff SAM Karlstadt vier Standorte Senioren Karten | https://www.main-spessart.de/aktuelles/pressemitteilungen/11089.Spieletreff-SAM-Karlstadt.html | gesellschaft | karlstadt
+- EMiL Mediennachmittag 15-Juli Jugendliche helfen Erwachsene Digitalkompetenz | https://www.main-spessart.de/aktuelles/pressemitteilungen/11088.Jugendliche-helfen-Erwachsenen.html | gesellschaft | main-spessart
+- AVG Stromnetzausbau Ringsperre Aschaffenburg Vollsperrung Stadtteile | https://www.main-echo.de/region/stadt-kreis-aschaffenburg/avg-netzausbau-sperrungen-aschaffenburg-art-8738439 | verkehr | aschaffenburg
+- Schulen Hitzewelle Unterrichtsanpassung Hitzeplan Bayern Unterfranken | https://www.main-echo.de/region/ | gesellschaft | regional
+
+### 2026-06-22 (Ausgabe 1 – 06:00 Uhr, Automatischer Tagesstart)
 - Fahrerflucht Omnibus Marktheidenfeld Polizei Zeugen gesucht | https://www.meine-news.de/marktheidenfeld/c-blaulicht/ | blaulicht | marktheidenfeld
 - DWD Hitzewarnung endet heute 19-Uhr Unterfranken Aufhebung | https://www.dwd.de/DE/wetter/warnungen_aktuell/warnungen_aktuell_node.html | klima | regional
 - Bürgermeister Dirk Rieb Lohr sieben Wochen Auszeit zurück Amt | https://www.main-echo.de/region/kreis-main-spessart/ | politik | lohr
