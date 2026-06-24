@@ -31,6 +31,20 @@ Suchanfragen:
 
 WebFetch (letzte 48h): main-echo.de, infranken.de, aschaffenburg.news, meine-news.de, br.de/nachrichten/bayern
 
+### Bilder & Videos zu jeder Meldung extrahieren
+
+Für jede ausgewählte Meldung via WebFetch die Artikel-Seite aufrufen und extrahieren:
+- **Bild**: `<meta property="og:image" content="...">` oder erstes `<img>` im Artikel-Body → URL merken
+- **Video**: Suche nach YouTube-Embed (`youtube.com/embed/VIDEO_ID` oder `youtu.be/VIDEO_ID`) auf der Seite ODER gezielt suchen: `"[Thema] [Ort] youtube"` via WebSearch
+  - YouTube-Thumbnail-URL: `https://img.youtube.com/vi/{VIDEO_ID}/hqdefault.jpg`
+  - Video-Link: `https://www.youtube.com/watch?v={VIDEO_ID}`
+
+**Regeln:**
+- Kein Placeholder wenn kein echtes Bild/Video gefunden wurde → Medien-Box einfach weglassen
+- Bild-URL muss öffentlich zugänglich sein (kein Login, kein Paywall-Token)
+- Funktioniert kein `og:image`? → nächste `<img src>` im Artikel probieren
+- Für Tagesschau: `https://www.tagesschau.de/suche?searchText=[Ort]+[Thema]` prüfen
+
 ## Schritt 5 – Top 15 Meldungen auswählen (lokal → regional)
 
 Für jede Meldung:
@@ -48,6 +62,9 @@ Anforderungen:
 - Header: Wochentag, Datum, Uhrzeit (Berlin CEST, UTC+2) + "Nachrichten – Lohr am Main & Aschaffenburg"
 - Wetter-Box: 24h stündlich scrollbar + 2-Tage-Karten
 - 15 News-Karten: Kategorie-Badge, Regions-Badge, Titel, Zusammenfassung, Quelle-Link
+- **Bilder in Karten:** Echtes `<img src="URL">` oben rechts (float:right, max 120×90px), anklickbar zur Vollansicht via CSS `:target`-Lightbox (kein JS). Nur einbauen wenn URL gefunden – KEIN Placeholder.
+- **Video-Standbild in Karten:** YouTube-Thumbnail (`https://img.youtube.com/vi/{ID}/hqdefault.jpg`) als `<img>` oben rechts mit Spielsymbol-Overlay (▶ rein via CSS ::after), klickbar als Link zu `https://www.youtube.com/watch?v={ID}`. Nur einbauen wenn konkrete Video-ID gefunden.
+- **CSS-Lightbox:** `<a href="#img-N" id="img-N"><img ...></a>` + `<div id="lb-N">` (position:fixed, target-Selektor blendet ein). Pro Bild ein Overlay. Kein JS.
 - **Design täglich wechseln** (Farben, Header-Gradient, Hintergrund ≠ journal.md)
 - Zeitstempel und Quellenliste im Footer
 
@@ -114,6 +131,8 @@ Dann:
 
 - Min. 10 echte, verifizierte Meldungen (anders als die letzten 10 Tage)
 - Kein Dummy-Inhalt, keine Platzhalter
+- **Bilder/Videos:** Echte URLs verwenden (og:image, img-Tag, YouTube-Thumbnail). Kein gefundenes Bild → keine Medien-Box (besser leer als Platzhalter)
+- **CSS-Lightbox** für Bilder funktioniert ohne JavaScript (`:target`-Selektor)
 - HTML valide, 1 Datei, kein externes CSS/JS
 - Keine CSS-Animationen
 - Design komplett anders als Vortag (Design-Block in journal.md prüfen)
