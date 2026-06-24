@@ -13,7 +13,24 @@
 
 ## Themen-Archiv (letzte 10 Tage – NICHT wiederholen!)
 
-### 2026-06-24 (Ausgabe 2 – 06:08 Uhr CEST) ← heute, neu hinzufügen
+### 2026-06-24 (Ausgabe 3 – Automatischer Tagesstart 06:00 Uhr) ← heute, neu hinzufügen
+- Hösbach B26 Hauptstraße Wiedereröffnung 26-Juni elf-Jahre 12-Millionen Festakt Pfarreizentrum | https://www.main-echo.de/region/stadt-kreis-aschaffenburg/aufatmen-nach-elf-jahren-ist-hoesbachs-hauptstrasse-endlich-fertig-art-8737147 | verkehr | hösbach
+- Stadtrat Lohr Sitzung Wasserversorgung Sommerberg Feuerwache Anbau Wombach 2027 | https://www.main-echo.de/region/kreis-main-spessart/wasserversorgung-und-anbau-an-feuerwache-art-8737813 | politik | lohr
+- Stadtbibliothek Aschaffenburg Onleihe3-App startet heute Update notwendig | https://aschaffenburg.news/ab/aschaffenburg/aschaffenburg/stadtbibliothek-neue-onleihe-app-ab-24-juni.html | kultur | aschaffenburg
+- WM 2026 Deutschland Ecuador Public Viewing Volksfest Aschaffenburg heute Nacht 22-Uhr | https://www.sportschau.de/fussball/fifa-wm-2026/ | sport | aschaffenburg
+- DWD Hitzewarnung Stufe2 Unterfranken 34Grad Johannistag heißester Tag 2026 | https://www.dwd.de/DE/wetter/warnungen_aktuell/warnungen_aktuell_node.html | klima | regional
+- FFW Rodenbach 150 Jahre Jubiläum Festwochenende 27-29-Juni Public Viewing | https://www.ffw-rodenbach.de/150-jahre-freiwillige-Feuerwehr-rodenbach/ | gesellschaft | rodenbach-lohr
+- Demo Sozialer Aufstand 27-Juni Theaterparkplatz Aschaffenburg Programm bekannt | https://www.meine-news.de/aschaffenburg/c-politik/sozialprotest-in-aschaffenburg-startet-mit-starkem-signal_a237391 | politik | aschaffenburg
+- Museumsnacht Aschaffenburg 11-Juli Tickets Vorverkauf Pompejanum Schloss-Johannisburg | https://www.aschaffenburg.de/Politik-Verwaltung/Presse/Aktuelle-Meldungen/Museumsnacht-am-Samstag-11-Juli-Vorverkauf-gestartet.php | kultur | aschaffenburg
+- Maintalbahn Elektrifizierung Fertigstellung 2034 Planungsengpässe Verzögerung | https://www.infranken.de/lk/main-spessart/ | verkehr | main-spessart
+- Bundeswehr Truppenübungen Main-Spessart 29-Juni bis 4-Juli 50-Soldaten Landstraßen | https://www.main-echo.de/region/kreis-main-spessart/truppenuebungen-der-bundeswehr-im-kreis-main-spessart-art-8735307 | gesellschaft | main-spessart
+- Nilkheim Anwandeweg 750-Wohnungen 1800-Einwohner Baufortschritt planmäßig | https://www.main-echo.de/region/stadt-kreis-aschaffenburg/ | wirtschaft | aschaffenburg
+- IHK Vollversammlungswahl Aschaffenburg Kandidatur bis 30-Juni | https://aschaffenburg.news/ab/aschaffenburg/aschaffenburg/aschaffenburg-wirtschaft-aktiv-mitgestalten-kandidatur-zur-ihk-vollversammlung-noch-bis-30-juni-moeglich.html | wirtschaft | aschaffenburg
+- STADTRADELN Landkreis Aschaffenburg Endspurt bis 28-Juni Ergebnisse | https://www.landkreis-aschaffenburg.de/ | gesellschaft | aschaffenburg
+- Jakobskreuzkraut Aktionszeitraum Landkreis-Aschaffenburg seit 22-Juni bis 7-August | https://www.landkreis-aschaffenburg.de/ | umwelt | aschaffenburg
+- Carillon Percussion Festival Aschaffenburg vorletzter Tag Schloss-Johannisburg bis 28-Juni | https://www.kulturamt-aschaffenburg.de/unsere-festivals/carillon-percussion/programm/ | kultur | aschaffenburg
+
+### 2026-06-24 (Ausgabe 2 – 06:08 Uhr CEST)
 - Pfefferspray Eisenstange Aschaffenburg Streitigkeit Hanauer-Straße Syrer festgenommen | https://aschaffenburg.news/ab/aschaffenburg/stadtmitte/aschaffenburg-nach-streitigkeit-im-strassenverkehr-pfefferspray-eingesetzt.html | blaulicht | aschaffenburg
 - Smartphone-Diebstahl Herstallstraße Aschaffenburg drei-Geräte 3000-Euro Zeugenaufruf | https://aschaffenburg.news/ab/aschaffenburg/stadtmitte/aschaffenburg-diebstahl-von-drei-mobiltelefonen.html | blaulicht | aschaffenburg
 - Falscher-Dachdecker Karlstadt Bodelschwinghstraße Handtasche 55-Jährige Trickdiebstahl | https://www.meine-news.de/landkreis-main-spessart/c-blaulicht/main-spessart-falscher-handwerker-entwendet-handtasche-zu-zweit-auf-e-scooter-unterwegs-und-verunfallt-unfallfluchten-nach-pkw-beschaedigung_a237775 | blaulicht | karlstadt

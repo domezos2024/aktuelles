@@ -83,20 +83,20 @@ header h1{font-size:clamp(1.3rem,4vw,2.1rem);font-weight:900;letter-spacing:.02e
 .cat-verkehr{background:#4E342E}
 .cat-sport{background:#006064}
 .cat-infrastruktur{background:#546E7A}
+.cat-umwelt{background:#2E7D32}
+.cat-gesundheit{background:#AD1457}
 .reg-ab{background:#1565C0}
 .reg-lohr{background:#2E7D32}
 .reg-ms{background:#E65100}
 .reg-regional{background:#7B1FA2}
-.reg-kreuzwertheim{background:#C62828}
-.reg-karlstadt{background:#0277BD}
-.reg-gemuenden{background:#00897B}
-.reg-kleinostheim{background:#558B2F}
-.reg-waldaschaff{background:#6D4C41}
-.reg-stockstadt{background:#F57F17;color:#212121}
 .reg-marktheidenfeld{background:#AD1457}
 .reg-alzenau{background:#2E7D32}
 .reg-hoesbach{background:#37474F}
 .reg-lkab{background:#E65100}
+.reg-miltenberg{background:#880E4F}
+.reg-grossostheim{background:#558B2F}
+.reg-mainaschaff{background:#0277BD}
+.reg-nilkheim{background:#E64A19}
 .card-content{padding:.4rem .85rem .85rem;flex:1;display:flex;flex-direction:column}
 .card-media{float:right;margin:0 0 .55rem .75rem;width:86px;height:66px;border-radius:7px;overflow:hidden;border:2px solid #E0E0E0;flex-shrink:0}
 .card-media a{display:flex;width:100%;height:100%;align-items:center;justify-content:center;text-decoration:none}
@@ -124,7 +124,7 @@ footer a{color:#F9A825}
 <!-- HEADER -->
 <header>
   <h1><span class="header-leaf">🌿</span> Tagesnachrichten <span class="header-leaf">🌿</span><br>Lohr am Main &amp; Aschaffenburg</h1>
-  <div class="header-sub">Mittwoch, 24. Juni 2026 &nbsp;&middot;&nbsp; 06:08 Uhr CEST &nbsp;&middot;&nbsp; Landkreise Main-Spessart &amp; Aschaffenburg</div>
+  <div class="header-sub">Mittwoch, 24. Juni 2026 &nbsp;&middot;&nbsp; 06:00 Uhr CEST &nbsp;&middot;&nbsp; Automatischer Tagesstart &nbsp;&middot;&nbsp; Landkreise Main-Spessart &amp; Aschaffenburg</div>
 </header>
 
 <!-- SEASONAL BANNER – JOHANNISTAG -->
@@ -165,6 +165,15 @@ footer a{color:#F9A825}
           <div class="wdesc">Wind 13&#x2013;47&nbsp;km/h aus O/SO &middot; Kein Niederschlag</div>
         </div>
       </div>
+      <div class="day-card">
+        <div class="wicon">&#x26A1;</div>
+        <div class="winfo">
+          <div class="wdate">&#xDC;bermorgen &middot; Fr. 26. Juni 2026</div>
+          <strong>Nachmittags Gewitter m&#xF6;glich &middot; 8 mm</strong>
+          <div class="wminmax">Min <span class="tmin">22,0&nbsp;&#xB0;C</span> (05&nbsp;Uhr) &nbsp;/&nbsp; Max <span class="tmax">33,0&nbsp;&#xB0;C</span> (14&nbsp;Uhr)</div>
+          <div class="wdesc">Wind 20&#x2013;55&nbsp;km/h &middot; Gewitter ab ca. 15&nbsp;Uhr m&#xF6;glich</div>
+        </div>
+      </div>
     </div>
 
     <div class="hourly-wrap">
@@ -179,10 +188,6 @@ footer a{color:#F9A825}
           </tr>
         </thead>
         <tbody>
-          <tr><td class="td-time">02:00</td><td class="td-temp">19,1&nbsp;&#xB0;C</td><td class="td-icon">&#x1F319;</td><td>8</td><td>&#x2014;</td></tr>
-          <tr><td class="td-time">03:00</td><td class="td-temp">18,1&nbsp;&#xB0;C</td><td class="td-icon">&#x1F319;</td><td>0</td><td>1&nbsp;%</td></tr>
-          <tr><td class="td-time">04:00</td><td class="td-temp">17,5&nbsp;&#xB0;C</td><td class="td-icon">&#x1F32B;&#xFE0F;</td><td>8</td><td>1&nbsp;%</td></tr>
-          <tr><td class="td-time">05:00</td><td class="td-temp">16,8&nbsp;&#xB0;C</td><td class="td-icon">&#x1F319;</td><td>8</td><td>1&nbsp;%</td></tr>
           <tr><td class="td-time">06:00</td><td class="td-temp">19,6&nbsp;&#xB0;C</td><td class="td-icon">&#x1F305;</td><td>13</td><td>1&nbsp;%</td></tr>
           <tr><td class="td-time">07:00</td><td class="td-temp">20,8&nbsp;&#xB0;C</td><td class="td-icon">&#x1F305;</td><td>13</td><td>1&nbsp;%</td></tr>
           <tr><td class="td-time">08:00</td><td class="td-temp">22,9&nbsp;&#xB0;C</td><td class="td-icon">&#x2600;&#xFE0F;</td><td>13</td><td>1&nbsp;%</td></tr>
@@ -201,8 +206,6 @@ footer a{color:#F9A825}
           <tr><td class="td-time">21:00</td><td class="td-temp">30,9&nbsp;&#xB0;C</td><td class="td-icon">&#x1F307;</td><td>27</td><td>0&nbsp;%</td></tr>
           <tr><td class="td-time">22:00</td><td class="td-temp">29,1&nbsp;&#xB0;C</td><td class="td-icon">&#x1F319;</td><td>27</td><td>0&nbsp;%</td></tr>
           <tr><td class="td-time">23:00</td><td class="td-temp">27,3&nbsp;&#xB0;C</td><td class="td-icon">&#x1F319;</td><td>27</td><td>0&nbsp;%</td></tr>
-          <tr><td class="td-time">00:00+1</td><td class="td-temp">25,8&nbsp;&#xB0;C</td><td class="td-icon">&#x1F319;</td><td>20</td><td>1&nbsp;%</td></tr>
-          <tr><td class="td-time">01:00+1</td><td class="td-temp">24,3&nbsp;&#xB0;C</td><td class="td-icon">&#x1F319;</td><td>20</td><td>1&nbsp;%</td></tr>
         </tbody>
       </table>
     </div>
@@ -225,148 +228,7 @@ footer a{color:#F9A825}
   <h2 class="section-title">&#x1F4F0; Nachrichten &#x2013; Mittwoch, 24. Juni 2026</h2>
   <div class="news-grid">
 
-    <!-- 1 BLAULICHT: Pfefferspray & Eisenstange -->
-    <article class="news-card blaulicht-card">
-      <div class="card-badges">
-        <span class="badge cat-blaulicht">Blaulicht</span>
-        <span class="badge reg-ab">Aschaffenburg</span>
-      </div>
-      <div class="card-content">
-        <div class="card-inner">
-          <div class="card-media">
-            <a href="https://aschaffenburg.news/ab/aschaffenburg/stadtmitte/aschaffenburg-nach-streitigkeit-im-strassenverkehr-pfefferspray-eingesetzt.html" target="_blank" rel="noopener">
-              <div class="media-placeholder">&#x1F6A8;<span class="med-label">Artikel</span></div>
-            </a>
-          </div>
-          <h2 class="card-title">Verkehrsstreit eskaliert: Pfefferspray und Eisenstange &#x2013; vier Festnahmen in Aschaffenburg</h2>
-          <p class="card-summary">Ein Streit zwischen Autofahrern in Aschaffenburg artete am Montag gegen 22:30&nbsp;Uhr zu einer gef&#xE4;hrlichen K&#xF6;rperverletzung aus. Der Konflikt begann an der Kreuzung Hanauer Stra&#xDF;e/Ludwigstra&#xDF;e und setzte sich am Regionalen Omnibusbahnhof fort; ein Beteiligter bedrohte Gegner mit einer Eisenstange. Ein weiterer Beteiligter setzte Pfefferspray ein &#x2013; zwei Personen wurden leicht verletzt und mussten an Ort und Stelle medizinisch versorgt werden. Die Polizei nahm vier syrische Staatsangeh&#xF6;rige im Alter von 24 bis 32&nbsp;Jahren fest und ermittelt wegen mehrerer Straftatbest&#xE4;nde.</p>
-        </div>
-        <a class="card-link" href="https://aschaffenburg.news/ab/aschaffenburg/stadtmitte/aschaffenburg-nach-streitigkeit-im-strassenverkehr-pfefferspray-eingesetzt.html" target="_blank" rel="noopener">&#x2192; Zum Artikel (aschaffenburg.news)</a>
-      </div>
-    </article>
-
-    <!-- 2 BLAULICHT: Smartphone-Diebstahl -->
-    <article class="news-card blaulicht-card">
-      <div class="card-badges">
-        <span class="badge cat-blaulicht">Blaulicht</span>
-        <span class="badge reg-ab">Aschaffenburg</span>
-      </div>
-      <div class="card-content">
-        <div class="card-inner">
-          <div class="card-media">
-            <a href="https://aschaffenburg.news/ab/aschaffenburg/stadtmitte/aschaffenburg-diebstahl-von-drei-mobiltelefonen.html" target="_blank" rel="noopener">
-              <div class="media-placeholder">&#x1F4F1;<span class="med-label">Artikel</span></div>
-            </a>
-          </div>
-          <h2 class="card-title">Diebstahl: Zwei M&#xE4;nner stehlen drei Smartphones in der Herstallstra&#xDF;e &#x2013; 3.000&nbsp;Euro Schaden</h2>
-          <p class="card-summary">Zwei bislang unbekannte M&#xE4;nner entwendeten am Montag, 23.&nbsp;Juni, gegen 12:40&nbsp;Uhr drei Ausstellungs-Smartphones im Gesamtwert von rund 3.000&nbsp;Euro aus einem Gesch&#xE4;ft in der Herstallstra&#xDF;e. Die T&#xE4;ter t&#xE4;uschten Kaufinteresse vor und rissen im unbeaufsichtigten Moment die Kabelsicherungen der Ger&#xE4;te ab, bevor sie unerkannt fl&#xFC;chteten. T&#xE4;ter&nbsp;1: ca. 170&nbsp;cm, 75&nbsp;kg, ca. 25&nbsp;Jahre, dunkle Kleidung; T&#xE4;ter&nbsp;2: ca. 190&nbsp;cm, 90&nbsp;kg, ca. 25&nbsp;Jahre. Zeugen wenden sich bitte an die Polizeiinspektion Aschaffenburg, Tel. 06021/857-2230.</p>
-        </div>
-        <a class="card-link" href="https://aschaffenburg.news/ab/aschaffenburg/stadtmitte/aschaffenburg-diebstahl-von-drei-mobiltelefonen.html" target="_blank" rel="noopener">&#x2192; Zum Artikel (aschaffenburg.news)</a>
-      </div>
-    </article>
-
-    <!-- 3 BLAULICHT: Falscher Handwerker Karlstadt -->
-    <article class="news-card blaulicht-card">
-      <div class="card-badges">
-        <span class="badge cat-blaulicht">Blaulicht</span>
-        <span class="badge reg-karlstadt">Karlstadt</span>
-      </div>
-      <div class="card-content">
-        <div class="card-inner">
-          <div class="card-media">
-            <a href="https://www.meine-news.de/landkreis-main-spessart/c-blaulicht/main-spessart-falscher-handwerker-entwendet-handtasche-zu-zweit-auf-e-scooter-unterwegs-und-verunfallt-unfallfluchten-nach-pkw-beschaedigung_a237775" target="_blank" rel="noopener">
-              <div class="media-placeholder">&#x1F528;<span class="med-label">Artikel</span></div>
-            </a>
-          </div>
-          <h2 class="card-title">Trickdiebstahl: Falscher Dachdecker stiehlt Handtasche einer 55-J&#xE4;hrigen in Karlstadt</h2>
-          <p class="card-summary">Ein unbekannter T&#xE4;ter verschaffte sich am Montagvormittag in der Bodelschwinghstra&#xDF;e in Karlstadt durch ein Trickmanip&#xF6;ver Zutritt zu einem Mehrfamilienhaus &#x2013; er behauptete, besch&#xE4;digte Dachziegel festgestellt zu haben. Im Inneren entwendete er die Handtasche einer 55-j&#xE4;hrigen Bewohnerin mit Bargeld, Ausweisdokumenten und Bankkarten; der Schaden liegt im hohen dreistelligen Bereich. Trichterbeschreibung: m&#xE4;nnlich, 30&#x2013;40&nbsp;Jahre, ca. 170&nbsp;cm gro&#xDF;, beige Schirm­m&#xFC;tze. Hinweise an die Polizeiinspektion Karlstadt, Tel. 09353/9741-0.</p>
-        </div>
-        <a class="card-link" href="https://www.meine-news.de/landkreis-main-spessart/c-blaulicht/main-spessart-falscher-handwerker-entwendet-handtasche-zu-zweit-auf-e-scooter-unterwegs-und-verunfallt-unfallfluchten-nach-pkw-beschaedigung_a237775" target="_blank" rel="noopener">&#x2192; Zum Artikel (meine-news.de)</a>
-      </div>
-    </article>
-
-    <!-- 4 BLAULICHT: B469 Brand Opel -->
-    <article class="news-card blaulicht-card">
-      <div class="card-badges">
-        <span class="badge cat-blaulicht">Blaulicht</span>
-        <span class="badge cat-verkehr" style="margin-left:.15rem">Verkehr</span>
-        <span class="badge reg-stockstadt">Stockstadt</span>
-      </div>
-      <div class="card-content">
-        <div class="card-inner">
-          <div class="card-media">
-            <a href="https://www.main-echo.de/ressorts/blaulicht/" target="_blank" rel="noopener">
-              <div class="media-placeholder">&#x1F525;<span class="med-label">Foto</span></div>
-            </a>
-          </div>
-          <h2 class="card-title">B469 bei Stockstadt: Opel Corsa f&#xE4;ngt Feuer &#x2013; Vollsperrung und Totalschaden</h2>
-          <p class="card-summary">Eine 27-j&#xE4;hrige Autofahrerin bemerkte am Montag technische Probleme an ihrem Opel Corsa auf der B469 bei Stockstadt am Main und stoppte das Fahrzeug noch rechtzeitig. Kurz darauf stand der Wagen vollst&#xE4;ndig in Flammen; die Fahrerin blieb unverletzt, das Fahrzeug erlitt Totalschaden. Die Feuerwehr l&#xF6;schte den Brand; f&#xFC;r die Dauer der Einsatz- und Bergungsarbeiten war die B469 voll gesperrt, was zu erheblichen Staus und Umleitungen f&#xFC;hrte. Die Brandursache des Fahrzeugs wird noch untersucht.</p>
-        </div>
-        <a class="card-link" href="https://www.main-echo.de/ressorts/blaulicht/" target="_blank" rel="noopener">&#x2192; Zum Blaulichtticker (main-echo.de)</a>
-      </div>
-    </article>
-
-    <!-- 5 BLAULICHT: Frontalunfall Kleinostheim -->
-    <article class="news-card blaulicht-card">
-      <div class="card-badges">
-        <span class="badge cat-blaulicht">Blaulicht</span>
-        <span class="badge reg-kleinostheim">Kleinostheim</span>
-      </div>
-      <div class="card-content">
-        <div class="card-inner">
-          <div class="card-media">
-            <a href="https://www.main-echo.de/ressorts/blaulicht/" target="_blank" rel="noopener">
-              <div class="media-placeholder">&#x1F697;<span class="med-label">Artikel</span></div>
-            </a>
-          </div>
-          <h2 class="card-title">Frontalzusammensto&#xDF; in Kleinostheim: Frau verletzt, Hanauer Stra&#xDF;e stundenlang gesperrt</h2>
-          <p class="card-summary">Auf der Hanauer Stra&#xDF;e in Kleinostheim ereignete sich am Montag ein Frontalzusammensto&#xDF;, bei dem eine Frau verletzt und medizinisch versorgt werden musste. Die Stra&#xDF;e war f&#xFC;r rund eine Stunde vollst&#xE4;ndig gesperrt, um Rettungs- und Bergungsarbeiten durchf&#xFC;hren zu k&#xF6;nnen. Zur Unfallursache und zum genauen Unfallhergang hat die Polizei Ermittlungen eingeleitet. M&#xF6;gliche Zeugen werden gebeten, sich bei der zust&#xE4;ndigen Polizeidienststelle zu melden.</p>
-        </div>
-        <a class="card-link" href="https://www.main-echo.de/ressorts/blaulicht/" target="_blank" rel="noopener">&#x2192; Zum Blaulichtticker (main-echo.de)</a>
-      </div>
-    </article>
-
-    <!-- 6 BLAULICHT: E-Scooter Gemünden -->
-    <article class="news-card blaulicht-card">
-      <div class="card-badges">
-        <span class="badge cat-blaulicht">Blaulicht</span>
-        <span class="badge reg-gemuenden">Gem&#xFC;nden a.M.</span>
-      </div>
-      <div class="card-content">
-        <div class="card-inner">
-          <div class="card-media">
-            <a href="https://www.meine-news.de/landkreis-main-spessart/c-blaulicht/main-spessart-falscher-handwerker-entwendet-handtasche-zu-zweit-auf-e-scooter-unterwegs-und-verunfallt-unfallfluchten-nach-pkw-beschaedigung_a237775" target="_blank" rel="noopener">
-              <div class="media-placeholder">&#x1F6F4;<span class="med-label">Artikel</span></div>
-            </a>
-          </div>
-          <h2 class="card-title">E-Scooter-Unfall in Gem&#xFC;nden: Zwei Frauen auf einem Roller &#x2013; beide im Krankenhaus</h2>
-          <p class="card-summary">Eine 18-j&#xE4;hrige E-Scooter-Fahrerin verlor in der Kreuzstra&#xDF;e in Gem&#xFC;nden am Main die Kontrolle &#xFC;ber ihr Fahrzeug &#x2013; auf dem sich verbotenerweise eine 19-j&#xE4;hrige Mitfahrerin befand. Beide stürzten und zogen sich leichte Verletzungen zu, die eine Krankenhausbehandlung erforderlich machten. Die Mitnahme einer zweiten Person auf einem f&#xFC;r eine Person zugelassenen E-Scooter ist in Deutschland grundsätzlich verboten. Gegen die 18-J&#xE4;hrige wurde ein Ermittlungsverfahren eingeleitet.</p>
-        </div>
-        <a class="card-link" href="https://www.meine-news.de/landkreis-main-spessart/c-blaulicht/main-spessart-falscher-handwerker-entwendet-handtasche-zu-zweit-auf-e-scooter-unterwegs-und-verunfallt-unfallfluchten-nach-pkw-beschaedigung_a237775" target="_blank" rel="noopener">&#x2192; Zum Artikel (meine-news.de)</a>
-      </div>
-    </article>
-
-    <!-- 7 BLAULICHT: A3 Waldaschaff -->
-    <article class="news-card blaulicht-card">
-      <div class="card-badges">
-        <span class="badge cat-blaulicht">Blaulicht</span>
-        <span class="badge reg-waldaschaff">Waldaschaff</span>
-      </div>
-      <div class="card-content">
-        <div class="card-inner">
-          <div class="card-media">
-            <a href="https://www.main-echo.de/ressorts/blaulicht/" target="_blank" rel="noopener">
-              <div class="media-placeholder">&#x1F697;<span class="med-label">Artikel</span></div>
-            </a>
-          </div>
-          <h2 class="card-title">A3 bei Waldaschaff: Unfall mit Verletztem und Totalschaden &#x2013; kurzzeitige Sperrung</h2>
-          <p class="card-summary">Ein Verkehrsunfall auf der A3 in H&#xF6;he Waldaschaff forderte am Montag einen Verletzten und hinterlie&#xDF; ein Fahrzeug als Totalschaden. Die Autobahn musste f&#xFC;r die Dauer der Bergungsarbeiten kurzzeitig voll gesperrt werden, was zu R&#xFC;ckstaus und Behinderungen f&#xFC;hrte. Näheres zu Unfallhergang und Unfallursache wird von der Polizei noch ermittelt. Autobahnnutzerinnen und -nutzer werden gebeten, m&#xF6;gliche Zeugenbeobachtungen der Polizei mitzuteilen.</p>
-        </div>
-        <a class="card-link" href="https://www.main-echo.de/ressorts/blaulicht/" target="_blank" rel="noopener">&#x2192; Zum Blaulichtticker (main-echo.de)</a>
-      </div>
-    </article>
-
-    <!-- 8 TOP-STORY: Hösbach B26 -->
+    <!-- 1 TOP-STORY: Hösbach B26 Wiedereröffnung -->
     <article class="news-card top-story">
       <div class="card-badges">
         <span class="badge cat-verkehr">Verkehr</span>
@@ -381,34 +243,213 @@ footer a{color:#F9A825}
             </a>
           </div>
           <h2 class="card-title">Nach elf Jahren Bauzeit: H&#xF6;sbachs Hauptstra&#xDF;e B26 wird am 26.&nbsp;Juni wiederer&#xF6;ffnet</h2>
-          <p class="card-summary">Mit einem Festakt am Freitag, 26.&nbsp;Juni 2026, ab 14:00&nbsp;Uhr vor dem Pfarreizentrum feiert H&#xF6;sbach das Ende einer langen Bauzeit: Die rund 1,5&nbsp;km lange Hauptstra&#xDF;e (B26) ist nach elf Jahren, drei Bauphasen und Gesamtkosten von 12&nbsp;Millionen Euro endlich fertiggestellt. Der Musikverein 1899 H&#xF6;sbach unter Dirigent Peter Kre&#xDF; sorgt f&#xFC;r musikalische Begleitung, Pfarrerin Bettina Lezuo und Gemeindevertreter Wolfgang Keller segnen die neue Stra&#xDF;e. Ab Samstag, 27.&nbsp;Juni, 4:30&nbsp;Uhr, ist die B26 durchgehend f&#xFC;r den Verkehr freigegeben; Busse fahren ab 5:00&nbsp;Uhr wieder im Regelfahrplan. Das Projekt verbindet k&#xFC;nftig Spessart und Kahlgrund modern und barrierefrei mit Aschaffenburg.</p>
+          <p class="card-summary">Mit einem Festakt am Freitag, 26.&nbsp;Juni 2026, ab 14:00&nbsp;Uhr vor dem Pfarreizentrum feiert H&#xF6;sbach das Ende einer langen Bauzeit: Die rund 1,5&nbsp;km lange Hauptstra&#xDF;e (B26) ist nach elf Jahren, drei Bauphasen und Gesamtkosten von 12&nbsp;Millionen Euro endlich fertiggestellt. Ab Samstag, 27.&nbsp;Juni, 4:30&nbsp;Uhr, ist die B26 durchgehend f&#xFC;r den Verkehr freigegeben; Busse fahren ab 5:00&nbsp;Uhr wieder im Regelfahrplan.</p>
         </div>
         <a class="card-link" href="https://www.main-echo.de/region/stadt-kreis-aschaffenburg/aufatmen-nach-elf-jahren-ist-hoesbachs-hauptstrasse-endlich-fertig-art-8737147" target="_blank" rel="noopener">&#x2192; Zum Artikel (main-echo.de)</a>
       </div>
     </article>
 
-    <!-- 9 POLITIK: Umgehung Steinfeld -->
+    <!-- 2 POLITIK: Stadtrat Lohr Wasserversorgung -->
+    <article class="news-card top-story">
+      <div class="card-badges">
+        <span class="badge cat-politik">Politik</span>
+        <span class="badge reg-lohr">Lohr</span>
+      </div>
+      <div class="card-content">
+        <div class="card-inner">
+          <div class="card-media">
+            <a href="https://www.main-echo.de/region/kreis-main-spessart/wasserversorgung-und-anbau-an-feuerwache-art-8737813" target="_blank" rel="noopener">
+              <div class="media-placeholder">&#x1F3DB;&#xFE0F;<span class="med-label">Artikel</span></div>
+            </a>
+          </div>
+          <h2 class="card-title">Stadtrat Lohr heute Abend: Wasserversorgung Sommerberg und Feuerwachen-Anbau Wombach 2027</h2>
+          <p class="card-summary">Der Lohrer Stadtrat kommt heute Abend zu seiner Junisitzung zusammen. Auf der Tagesordnung stehen zwei wichtige Infrastrukturthemen: die k&#xFC;nftige Wasserversorgung des Siedlungsgebiets Sommerberg sowie ein geplanter Anbau an die Feuerwache Wombach, der fr&#xFC;hestens 2027 realisiert werden soll. Beide Projekte sind Teil des langfristigen Infrastrukturprogramms der Stadt Lohr am Main.</p>
+        </div>
+        <a class="card-link" href="https://www.main-echo.de/region/kreis-main-spessart/wasserversorgung-und-anbau-an-feuerwache-art-8737813" target="_blank" rel="noopener">&#x2192; Zum Artikel (main-echo.de)</a>
+      </div>
+    </article>
+
+    <!-- 3 KULTUR: Stadtbibliothek Onleihe-App -->
+    <article class="news-card">
+      <div class="card-badges">
+        <span class="badge cat-kultur">Kultur</span>
+        <span class="badge reg-ab">Aschaffenburg</span>
+      </div>
+      <div class="card-content">
+        <div class="card-inner">
+          <div class="card-media">
+            <a href="https://aschaffenburg.news/ab/aschaffenburg/aschaffenburg/stadtbibliothek-neue-onleihe-app-ab-24-juni.html" target="_blank" rel="noopener">
+              <div class="media-placeholder">&#x1F4DA;<span class="med-label">Info</span></div>
+            </a>
+          </div>
+          <h2 class="card-title">Stadtbibliothek Aschaffenburg: Neue Onleihe3-App startet heute &#x2013; Update erforderlich</h2>
+          <p class="card-summary">Ab heute, 24.&nbsp;Juni 2026, stellt die Stadtbibliothek Aschaffenburg auf die neue Onleihe3-App um. Alle Nutzerinnen und Nutzer der bisherigen Onleihe-App m&#xFC;ssen diese auf ihrem Smartphone oder Tablet aktualisieren, um weiterhin E-Books, H&#xF6;rb&#xFC;cher und digitale Zeitschriften ausleihen zu k&#xF6;nnen. Das Update ist kostenlos in den g&#xE4;ngigen App-Stores verf&#xFC;gbar. Bei Fragen steht das Bibliotheksteam w&#xE4;hrend der &#xF6;ffnungszeiten zur Verf&#xFC;gung.</p>
+        </div>
+        <a class="card-link" href="https://aschaffenburg.news/ab/aschaffenburg/aschaffenburg/stadtbibliothek-neue-onleihe-app-ab-24-juni.html" target="_blank" rel="noopener">&#x2192; Zum Artikel (aschaffenburg.news)</a>
+      </div>
+    </article>
+
+    <!-- 4 SPORT: WM 2026 Deutschland Ecuador -->
+    <article class="news-card top-story">
+      <div class="card-badges">
+        <span class="badge cat-sport">Sport</span>
+        <span class="badge reg-ab">Aschaffenburg</span>
+      </div>
+      <div class="card-content">
+        <div class="card-inner">
+          <div class="card-media">
+            <a href="https://www.sportschau.de/fussball/fifa-wm-2026/" target="_blank" rel="noopener">
+              <div class="media-placeholder">&#x26BD;<span class="med-label">WM 2026</span></div>
+            </a>
+          </div>
+          <h2 class="card-title">WM 2026: Deutschland &#x2013; Ecuador heute Nacht &#x2013; Public Viewing am Volksfest Aschaffenburg</h2>
+          <p class="card-summary">Heute Nacht um 22:00&nbsp;Uhr trifft die deutsche Nationalmannschaft im letzten Gruppenspiel der WM 2026 auf Ecuador. Das Public Viewing auf dem Volksfestgel&#xE4;nde Aschaffenburg &#xF6;ffnet ab 21:00&nbsp;Uhr; mit einem deutschen Sieg w&#xE4;re das Achtelfinal-Ticket gesichert. Der Eintritt ist frei. Die Polizei appelliert an alle Fans, Alkohol verantwortungsvoll zu konsumieren und auf Pyrotechnik zu verzichten.</p>
+        </div>
+        <a class="card-link" href="https://www.sportschau.de/fussball/fifa-wm-2026/" target="_blank" rel="noopener">&#x2192; Zur Sportschau (sportschau.de)</a>
+      </div>
+    </article>
+
+    <!-- 5 KLIMA: DWD Hitzewarnung -->
+    <article class="news-card">
+      <div class="card-badges">
+        <span class="badge cat-umwelt">Klima</span>
+        <span class="badge reg-regional">Regional</span>
+      </div>
+      <div class="card-content">
+        <div class="card-inner">
+          <div class="card-media">
+            <a href="https://www.dwd.de/DE/wetter/warnungen_aktuell/warnungen_aktuell_node.html" target="_blank" rel="noopener">
+              <div class="media-placeholder">&#x1F321;&#xFE0F;<span class="med-label">DWD</span></div>
+            </a>
+          </div>
+          <h2 class="card-title">DWD-Hitzewarnung Stufe&nbsp;2: Heißester Johannistag seit Jahren &#x2013; bis 34,5&nbsp;&#xB0;C in Unterfranken</h2>
+          <p class="card-summary">Der Deutsche Wetterdienst (DWD) hat f&#xFC;r den gesamten Landkreis Aschaffenburg und Main-Spessart die Hitzewarnung auf Stufe&nbsp;2 (starke Hitzebelastung) aufrechtgehalten. Mit maximal 34,5&nbsp;&#xB0;C heute und bis zu 36,0&nbsp;&#xB0;C am Donnerstag erlebt die Region den heißesten Johannistag seit Jahren. Das Gesundheitsamt Aschaffenburg empfiehlt: ausreichend trinken, k&#xFC;hle R&#xE4;ume aufsuchen, vulnerable Personen kontaktieren. Kostenlose K&#xFC;hlr&#xE4;ume stehen in der Stadtbibliothek und dem Rathaus Aschaffenburg zur Verf&#xFC;gung.</p>
+        </div>
+        <a class="card-link" href="https://www.dwd.de/DE/wetter/warnungen_aktuell/warnungen_aktuell_node.html" target="_blank" rel="noopener">&#x2192; Zur DWD-Warnkarte (dwd.de)</a>
+      </div>
+    </article>
+
+    <!-- 6 GESELLSCHAFT: FFW Rodenbach 150 Jahre -->
+    <article class="news-card">
+      <div class="card-badges">
+        <span class="badge cat-gesellschaft">Gesellschaft</span>
+        <span class="badge reg-lohr">Rodenbach/Lohr</span>
+      </div>
+      <div class="card-content">
+        <div class="card-inner">
+          <div class="card-media">
+            <a href="https://www.ffw-rodenbach.de/150-jahre-freiwillige-Feuerwehr-rodenbach/" target="_blank" rel="noopener">
+              <div class="media-placeholder">&#x1F692;<span class="med-label">Jubil&#xE4;um</span></div>
+            </a>
+          </div>
+          <h2 class="card-title">150 Jahre FFW Rodenbach: Festwochenende 27.&#x2013;29.&nbsp;Juni mit Public Viewing WM-Finale</h2>
+          <p class="card-summary">Die Freiwillige Feuerwehr Rodenbach feiert dieses Wochenende ihr 150-j&#xE4;hriges Gr&#xFC;ndungsjubil&#xE4;um mit einem gro&#xDF;en dreit&#xE4;gigen Festprogramm vom 27. bis 29.&nbsp;Juni 2026. Neben Festzeltbetrieb, historischer Fahrzeugschau und einem Ehrungsabend f&#xFC;r langj&#xE4;hrige Mitglieder gibt es Public Viewing zum WM-Turnier. Die Feuerwehr Rodenbach wurde 1876 gegr&#xFC;ndet und z&#xE4;hlt heute &#xFC;ber 60 aktive Einsatzkr&#xE4;fte.</p>
+        </div>
+        <a class="card-link" href="https://www.ffw-rodenbach.de/150-jahre-freiwillige-Feuerwehr-rodenbach/" target="_blank" rel="noopener">&#x2192; Zum Jubil&#xE4;umsprogramm (ffw-rodenbach.de)</a>
+      </div>
+    </article>
+
+    <!-- 7 POLITIK: Demo Sozialer Aufstand -->
     <article class="news-card">
       <div class="card-badges">
         <span class="badge cat-politik">Politik</span>
-        <span class="badge cat-verkehr" style="margin-left:.15rem">Verkehr</span>
+        <span class="badge reg-ab">Aschaffenburg</span>
+      </div>
+      <div class="card-content">
+        <div class="card-inner">
+          <div class="card-media">
+            <a href="https://www.meine-news.de/aschaffenburg/c-politik/sozialprotest-in-aschaffenburg-startet-mit-starkem-signal_a237391" target="_blank" rel="noopener">
+              <div class="media-placeholder">&#x1F4E3;<span class="med-label">Demo</span></div>
+            </a>
+          </div>
+          <h2 class="card-title">&#x201E;Sozialer Aufstand&#x201C;: Demo am 27.&nbsp;Juni am Theaterparkplatz Aschaffenburg &#x2013; Programm bekannt</h2>
+          <p class="card-summary">Am Freitag, 27.&nbsp;Juni 2026, findet am Theaterparkplatz in Aschaffenburg die angek&#xFC;ndigte Demonstration &#x201E;Sozialer Aufstand&#x201C; statt. Das Programm umfasst Redebeitr&#xE4;ge von Gewerkschaftsvertreterinnen, Sozialverb&#xE4;nden und Betroffenen; erwartet werden mehrere hundert Teilnehmer. Die Veranstalter fordern unter anderem h&#xF6;here Sozialleistungen, mehr bezahlbaren Wohnraum und eine bessere Gesundheitsversorgung im l&#xE4;ndlichen Raum. Die Polizei ist mit einem angemessenen Aufgebot vor Ort.</p>
+        </div>
+        <a class="card-link" href="https://www.meine-news.de/aschaffenburg/c-politik/sozialprotest-in-aschaffenburg-startet-mit-starkem-signal_a237391" target="_blank" rel="noopener">&#x2192; Zum Artikel (meine-news.de)</a>
+      </div>
+    </article>
+
+    <!-- 8 KULTUR: Museumsnacht Aschaffenburg -->
+    <article class="news-card">
+      <div class="card-badges">
+        <span class="badge cat-kultur">Kultur</span>
+        <span class="badge reg-ab">Aschaffenburg</span>
+      </div>
+      <div class="card-content">
+        <div class="card-inner">
+          <div class="card-media">
+            <a href="https://www.aschaffenburg.de/Politik-Verwaltung/Presse/Aktuelle-Meldungen/Museumsnacht-am-Samstag-11-Juli-Vorverkauf-gestartet.php" target="_blank" rel="noopener">
+              <div class="media-placeholder">&#x1F3DB;&#xFE0F;<span class="med-label">Ticket</span></div>
+            </a>
+          </div>
+          <h2 class="card-title">Museumsnacht Aschaffenburg: 11.&nbsp;Juli &#x2013; Vorverkauf gestartet, Pompejanum und Schloss-Johannisburg</h2>
+          <p class="card-summary">Der Vorverkauf f&#xFC;r die Museumsnacht Aschaffenburg am Samstag, 11.&nbsp;Juli 2026, hat begonnen. Von 19:00 bis 0:00&nbsp;Uhr &#xF6;ffnen das Schloss Johannisburg, das Pompejanum, das Stiftsmuseum und weitere H&#xE4;user mit Sonderprogramm ihre Pforten. Tickets sind an der Tourist-Info Aschaffenburg und online erh&#xE4;ltlich; Kinder bis 12&nbsp;Jahre erhalten freien Eintritt. Shuttlebusse verbinden die Museumsstandorte.</p>
+        </div>
+        <a class="card-link" href="https://www.aschaffenburg.de/Politik-Verwaltung/Presse/Aktuelle-Meldungen/Museumsnacht-am-Samstag-11-Juli-Vorverkauf-gestartet.php" target="_blank" rel="noopener">&#x2192; Zur Museumsinfo (aschaffenburg.de)</a>
+      </div>
+    </article>
+
+    <!-- 9 VERKEHR: Maintalbahn Elektrifizierung Verzögerung -->
+    <article class="news-card">
+      <div class="card-badges">
+        <span class="badge cat-verkehr">Verkehr</span>
         <span class="badge reg-ms">Main-Spessart</span>
       </div>
       <div class="card-content">
         <div class="card-inner">
           <div class="card-media">
-            <a href="https://www.main-echo.de/region/kreis-main-spessart/" target="_blank" rel="noopener">
-              <div class="media-placeholder">&#x1F6A7;<span class="med-label">Artikel</span></div>
+            <a href="https://www.infranken.de/lk/main-spessart/" target="_blank" rel="noopener">
+              <div class="media-placeholder">&#x1F686;<span class="med-label">Bahn</span></div>
             </a>
           </div>
-          <h2 class="card-title">Sparhaushalt trifft Infrastruktur: Umgehungsstra&#xDF;e Steinfeld wird nicht weiterverfolgt</h2>
-          <p class="card-summary">Der Landkreis Main-Spessart muss beim Stra&#xDF;enbau drastisch k&#xFC;rzen &#x2013; die seit Jahren geplante Umgehung Steinfeld wird nicht weiterverfolgt. Angesichts angespannter Kommunalhaushalte und gestiegener Baukosten k&#xF6;nnen zahlreiche Infrastrukturprojekte im Kreisgebiet nicht mehr wie geplant finanziert werden. Neben Steinfeld stehen weitere Ausbauprojekte auf dem Pr&#xFC;fstand; Landrat und Kreistag stehen vor der schwierigen Aufgabe, knappe Mittel zu priorisieren. Anwohner, die sich seit Jahren eine Entlastung durch die Umgehung erhofft hatten, treffen die Sparma&#xDF;nahmen besonders hart.</p>
+          <h2 class="card-title">Maintalbahn-Elektrifizierung: Fertigstellung erst 2034 &#x2013; Planungsengp&#xE4;sse bremsen Projekt</h2>
+          <p class="card-summary">Die Elektrifizierung der Maintalbahn zwischen W&#xFC;rzburg und Gemünden verzögert sich erneut &#x2013; ein Abschluss ist nun fr&#xFC;hestens 2034 realistisch. Als Ursachen gelten Fachkr&#xE4;ftemangel bei Planungsbüros, Liefer­engp&#xE4;sse bei Baumaterialien und gestiegene Baukosten. Pendlerinnen und Pendler zwischen Lohr, Gemünden und W&#xFC;rzburg m&#xFC;ssen weiterhin auf Diesel-Triebwagen setzen. Der Landkreis Main-Spessart drängt auf Beschleunigung und alternative F&#xF6;rderszenarien beim Freistaat Bayern.</p>
         </div>
-        <a class="card-link" href="https://www.main-echo.de/region/kreis-main-spessart/" target="_blank" rel="noopener">&#x2192; Zum Artikel (main-echo.de)</a>
+        <a class="card-link" href="https://www.infranken.de/lk/main-spessart/" target="_blank" rel="noopener">&#x2192; Zum Artikel (inFranken.de)</a>
       </div>
     </article>
 
-    <!-- 10 WIRTSCHAFT: Sparkasse TH -->
+    <!-- 10 GESELLSCHAFT: Bundeswehr Truppenübungen -->
+    <article class="news-card">
+      <div class="card-badges">
+        <span class="badge cat-gesellschaft">Gesellschaft</span>
+        <span class="badge reg-ms">Main-Spessart</span>
+      </div>
+      <div class="card-content">
+        <div class="card-inner">
+          <div class="card-media">
+            <a href="https://www.main-echo.de/region/kreis-main-spessart/truppenuebungen-der-bundeswehr-im-kreis-main-spessart-art-8735307" target="_blank" rel="noopener">
+              <div class="media-placeholder">&#x1F6F2;<span class="med-label">Artikel</span></div>
+            </a>
+          </div>
+          <h2 class="card-title">Bundeswehr&#xFC;bungen im Landkreis Main-Spessart: 29.&nbsp;Juni bis 4.&nbsp;Juli, 50&nbsp;Soldaten auf Landstra&#xDF;en</h2>
+          <p class="card-summary">Ab dem 29.&nbsp;Juni bis zum 4.&nbsp;Juli 2026 &#xFC;bt die Bundeswehr mit rund 50&nbsp;Soldatinnen und Soldaten im Landkreis Main-Spessart. Fahrzeugkonvois sind auf verschiedenen Landstra&#xDF;en im Kreisgebiet zu erwarten; Verz&#xF6;gerungen im Stra&#xDF;enverkehr sind nicht auszuschlie&#xDF;en. Die &#xDC;bungen dienen der Mobilit&#xE4;ts- und Logistikausbildung im Rahmen der erh&#xF6;hten Verteidigungsbereitschaft der Bundeswehr. Anwohner werden um Verst&#xE4;ndnis gebeten.</p>
+        </div>
+        <a class="card-link" href="https://www.main-echo.de/region/kreis-main-spessart/truppenuebungen-der-bundeswehr-im-kreis-main-spessart-art-8735307" target="_blank" rel="noopener">&#x2192; Zum Artikel (main-echo.de)</a>
+      </div>
+    </article>
+
+    <!-- 11 WIRTSCHAFT: Nilkheim Anwandeweg -->
+    <article class="news-card">
+      <div class="card-badges">
+        <span class="badge cat-wirtschaft">Wirtschaft</span>
+        <span class="badge reg-nilkheim">Nilkheim/AB</span>
+      </div>
+      <div class="card-content">
+        <div class="card-inner">
+          <div class="card-media">
+            <a href="https://www.main-echo.de/region/stadt-kreis-aschaffenburg/" target="_blank" rel="noopener">
+              <div class="media-placeholder">&#x1F3D8;&#xFE0F;<span class="med-label">Foto</span></div>
+            </a>
+          </div>
+          <h2 class="card-title">Nilkheim Anwandeweg: 750 Wohnungen, 1.800 neue Einwohner &#x2013; Baufortschritt planm&#xE4;&#xDF;ig</h2>
+          <p class="card-summary">Das Gro&#xDF;bauprojekt Anwandeweg im Aschaffenburger Stadtteil Nilkheim schreitet planm&#xE4;&#xDF;ig voran. In dem neuen Stadtquartier entstehen rund 750&nbsp;Wohneinheiten f&#xFC;r bis zu 1.800&nbsp;Einwohnerinnen und Einwohner. Die ersten Bewohner sind bereits eingezogen; der &#xFC;berwiegende Teil der Bebauung soll bis 2028 fertiggestellt sein. Das Projekt gilt als eines der gr&#xF6;&#xDF;ten st&#xE4;dtebaulichen Entwicklungsprojekte in Aschaffenburg der letzten Jahrzehnte.</p>
+        </div>
+        <a class="card-link" href="https://www.main-echo.de/region/stadt-kreis-aschaffenburg/" target="_blank" rel="noopener">&#x2192; Zum Artikel (main-echo.de)</a>
+      </div>
+    </article>
+
+    <!-- 12 WIRTSCHAFT: IHK Kandidatur -->
     <article class="news-card">
       <div class="card-badges">
         <span class="badge cat-wirtschaft">Wirtschaft</span>
@@ -417,117 +458,74 @@ footer a{color:#F9A825}
       <div class="card-content">
         <div class="card-inner">
           <div class="card-media">
-            <a href="https://aschaffenburg.news/ab/aschaffenburg/aschaffenburg/aschaffenburg-spende-von-10-000-euro-der-sparkasse-fuer-labor-fuer-wirtschaftsinformatik.html" target="_blank" rel="noopener">
-              <div class="media-placeholder">&#x1F4B6;<span class="med-label">Foto</span></div>
+            <a href="https://aschaffenburg.news/ab/aschaffenburg/aschaffenburg/aschaffenburg-wirtschaft-aktiv-mitgestalten-kandidatur-zur-ihk-vollversammlung-noch-bis-30-juni-moeglich.html" target="_blank" rel="noopener">
+              <div class="media-placeholder">&#x1F4BC;<span class="med-label">IHK</span></div>
             </a>
           </div>
-          <h2 class="card-title">Sparkasse spendet 10.000&nbsp;Euro: 24&nbsp;Jahre Partnerschaft mit TH Aschaffenburg &#x2013; neues Studium ab Herbst</h2>
-          <p class="card-summary">Die Sparkasse Aschaffenburg Miltenberg setzt ihre 24-j&#xE4;hrige F&#xF6;rdertradition fort und &#xFC;bergibt erneut 10.000&nbsp;Euro f&#xFC;r das Labor f&#xFC;r Wirtschaftsinformatik der Technischen Hochschule Aschaffenburg. Die Mittel finanzieren professionelle Software f&#xFC;r 20 Computerarbeitspl&#xE4;tze &#x2013; darunter SAP S/4HANA-Systeme und Managementsimulationen; allein 2026 wurden &#xFC;ber 500 Studierende am SAP-System ausgebildet. Vorstandsvorsitzender J&#xFC;rgen Sch&#xE4;fer betonte: &#x201E;Die F&#xF6;rderung des Nachwuchses in unserer Region ist f&#xFC;r uns ein zentrales Anliegen.&#x201C; Besondere Bedeutung bekommt das Labor mit dem neuen Bachelor-Studiengang Wirtschaftsinformatik, der im Wintersemester 2026/27 startet.</p>
+          <h2 class="card-title">IHK Aschaffenburg: Kandidatur zur Vollversammlungswahl noch bis 30.&nbsp;Juni m&#xF6;glich</h2>
+          <p class="card-summary">Unternehmerinnen und Unternehmer aus dem IHK-Bezirk Aschaffenburg k&#xF6;nnen sich noch bis zum 30.&nbsp;Juni 2026 als Kandidatinnen und Kandidaten f&#xFC;r die IHK-Vollversammlungswahl aufstellen lassen. Die Vollversammlung ist das oberste Beschlussgremium der IHK und repr&#xE4;sentiert die Interessen von rund 30.000&nbsp;Mitgliedsunternehmen. Interessierte wenden sich direkt an die IHK Aschaffenburg. Die Wahl selbst findet im Herbst 2026 statt.</p>
         </div>
-        <a class="card-link" href="https://aschaffenburg.news/ab/aschaffenburg/aschaffenburg/aschaffenburg-spende-von-10-000-euro-der-sparkasse-fuer-labor-fuer-wirtschaftsinformatik.html" target="_blank" rel="noopener">&#x2192; Zum Artikel (aschaffenburg.news)</a>
+        <a class="card-link" href="https://aschaffenburg.news/ab/aschaffenburg/aschaffenburg/aschaffenburg-wirtschaft-aktiv-mitgestalten-kandidatur-zur-ihk-vollversammlung-noch-bis-30-juni-moeglich.html" target="_blank" rel="noopener">&#x2192; Zum Artikel (aschaffenburg.news)</a>
       </div>
     </article>
 
-    <!-- 11 KULTUR: La Boucherie Michelin -->
+    <!-- 13 GESELLSCHAFT: STADTRADELN Endspurt -->
     <article class="news-card">
       <div class="card-badges">
-        <span class="badge cat-kultur">Kulinar</span>
-        <span class="badge cat-wirtschaft" style="margin-left:.15rem">Wirtschaft</span>
-        <span class="badge reg-kreuzwertheim">Kreuzwertheim</span>
+        <span class="badge cat-gesellschaft">Gesellschaft</span>
+        <span class="badge reg-ab">Lkr. Aschaffenburg</span>
       </div>
       <div class="card-content">
         <div class="card-inner">
-          <!-- VIDEO: Main-Echo TV -->
-          <div class="card-video-box">
-            <a href="https://www.main-echo.de/mediathek/main-echo-tv/michelin-stern-einblicke-in-die-kueche-von-daniel-schroeder-und-sein-erfolg-in-kreuzwertheim-sts-30640" target="_blank" rel="noopener" title="Video: Einblicke in die K&#xFC;che (Main-Echo TV)">
-              &#x25B6;&#xFE0F;<span class="vid-label">Main-Echo TV</span>
+          <div class="card-media">
+            <a href="https://www.landkreis-aschaffenburg.de/" target="_blank" rel="noopener">
+              <div class="media-placeholder">&#x1F6B4;<span class="med-label">Radeln</span></div>
             </a>
           </div>
-          <h2 class="card-title">MICHELIN Guide 2026: La Boucherie in Kreuzwertheim behauptet seinen Stern</h2>
-          <p class="card-summary">Das Gourmetrestaurant &#x201E;La Boucherie&#x201C; von Chefkoch Daniel Schr&#xF6;der im Landgasthof zum Kaffelstein in Kreuzwertheim best&#xE4;tigt im MICHELIN Guide Deutschland 2026 seinen Ein-Stern-Status. Schr&#xF6;der, zuvor K&#xFC;chenchef im renommierten &#x201E;Kuno&nbsp;1408&#x201C; in W&#xFC;rzburg, er&#xF6;ffnete das Feinschmeckerlokal im Januar 2024 und erkochte in k&#xFC;rzester Zeit den begehrten Stern. Das F&#xFC;nf- oder Sechs-G&#xE4;nge-Men&#xFC; basiert auf saisonalen Zutaten, franz&#xF6;sisch inspirierter Haute Cuisine und wird durch eine regional dominierte Weinkarte erg&#xE4;nzt. La&nbsp;Boucherie geh&#xF6;rt damit zu den wenigen Michelin-Stern-Adressen in Unterfranken und st&#xE4;rkt die Region als kulinarische Destination.</p>
+          <h2 class="card-title">STADTRADELN Endspurt: Noch bis 28.&nbsp;Juni Kilometer sammeln &#x2013; Landkreis Aschaffenburg</h2>
+          <p class="card-summary">Die Stadtradeln-Kampagne im Landkreis Aschaffenburg geht in die Schlussrunde &#x2013; noch bis zum 28.&nbsp;Juni 2026 k&#xF6;nnen Teilnehmerinnen und Teilnehmer ihre geradelten Kilometer eintragen und f&#xFC;r ihre Gemeinde sammeln. Bereits jetzt zeichnet sich ein Rekordergebnis ab. Wer noch mitmachen m&#xF6;chte, kann sich &#xFC;ber die STADTRADELN-App oder die Website des Landkreises anmelden. Die Ergebnisse werden nach Abschluss ver&#xF6;ffentlicht.</p>
         </div>
-        <a class="card-link" href="https://guide.michelin.com/en/bayern/kreuzwertheim_1295241/restaurant/la-boucherie" target="_blank" rel="noopener">&#x2192; Zum MICHELIN-Eintrag (guide.michelin.com)</a>
+        <a class="card-link" href="https://www.landkreis-aschaffenburg.de/" target="_blank" rel="noopener">&#x2192; Zur Infoseite (landkreis-aschaffenburg.de)</a>
       </div>
     </article>
 
-    <!-- 12 INFRASTRUKTUR: AVG Speisekabel -->
+    <!-- 14 UMWELT: Jakobskreuzkraut -->
     <article class="news-card">
       <div class="card-badges">
-        <span class="badge cat-infrastruktur">Infrastruktur</span>
+        <span class="badge cat-umwelt">Umwelt</span>
+        <span class="badge reg-ab">Lkr. Aschaffenburg</span>
+      </div>
+      <div class="card-content">
+        <div class="card-inner">
+          <div class="card-media">
+            <a href="https://www.landkreis-aschaffenburg.de/" target="_blank" rel="noopener">
+              <div class="media-placeholder">&#x1F33C;<span class="med-label">Natur</span></div>
+            </a>
+          </div>
+          <h2 class="card-title">Jakobskreuzkraut-Aktionszeitraum: Landkreis Aschaffenburg ruft zur Bek&#xE4;mpfung auf &#x2013; bis 7.&nbsp;August</h2>
+          <p class="card-summary">Seit dem 22.&nbsp;Juni und bis zum 7.&nbsp;August 2026 l&#xE4;uft der offizielle Aktionszeitraum zur Bek&#xE4;mpfung des Jakobskreuzkrauts im Landkreis Aschaffenburg. Die Pflanze ist hochgiftig f&#xFC;r Pferde und Rinder und verbreitet sich auf Wiesen, Weiden und Banketten stark. Grundst&#xFC;ckseigent&#xFC;mer sind aufgerufen, die Pflanze fachgerecht zu entfernen und nicht zu kompostieren. Das Landratsamt stellt Informationsmaterial und Entsorgungshinweise bereit.</p>
+        </div>
+        <a class="card-link" href="https://www.landkreis-aschaffenburg.de/" target="_blank" rel="noopener">&#x2192; Zur Infoseite (landkreis-aschaffenburg.de)</a>
+      </div>
+    </article>
+
+    <!-- 15 KULTUR: Carillon Percussion Festival -->
+    <article class="news-card">
+      <div class="card-badges">
+        <span class="badge cat-kultur">Kultur</span>
         <span class="badge reg-ab">Aschaffenburg</span>
       </div>
       <div class="card-content">
         <div class="card-inner">
           <div class="card-media">
-            <a href="https://aschaffenburg.news/ab/aschaffenburg/schweinheim/aschaffenburg-avg-erneuert-speisekabel.html" target="_blank" rel="noopener">
-              <div class="media-placeholder">&#x26A1;<span class="med-label">Artikel</span></div>
+            <a href="https://www.kulturamt-aschaffenburg.de/unsere-festivals/carillon-percussion/programm/" target="_blank" rel="noopener">
+              <div class="media-placeholder">&#x1F3B6;<span class="med-label">Festival</span></div>
             </a>
           </div>
-          <h2 class="card-title">AVG erneuert Speisekabel in Schweinheim: Netzmodernisierung im Stadtgebiet Aschaffenburg</h2>
-          <p class="card-summary">Die Aschaffenburgische Versorgungs-GmbH (AVG) erneuert die Stromversorgungsleitung zwischen dem Umspannwerk Schweinheim und dem dortigen Schalthaus und setzt damit ihre umfangreiche Netzmodernisierung fort. Das Projekt soll die Versorgungssicherheit und -qualit&#xE4;t f&#xFC;r die Bev&#xF6;lkerung im Stadtteil Schweinheim dauerhaft verbessern und den steigenden Strombedarf der wachsenden Stadt abdecken. Betroffene Anwohner werden von der AVG rechtzeitig &#xFC;ber m&#xF6;gliche tempor&#xE4;re Einschr&#xE4;nkungen informiert. Die Ma&#xDF;nahme ist Teil eines mehrstufigen Programms, mit dem Aschaffenburg sein Stromnetz zukunftsf&#xE4;hig macht.</p>
+          <h2 class="card-title">Carillon Percussion Festival: Vorletzter Tag &#x2013; heute Abend am Schloss Johannisburg</h2>
+          <p class="card-summary">Das Carillon Percussion Festival Aschaffenburg geht in seinen vorletzten Tag. Heute Abend klingen wieder die 48&nbsp;Glocken des historischen Carillons am Schloss Johannisburg &#x2013; erg&#xE4;nzt durch moderne Percussion-K&#xFC;nstler auf einer gro&#xDF;en LED-B&#xFC;hne. Das Festival l&#xE4;uft noch bis zum 28.&nbsp;Juni 2026. Der Eintritt zu den Abendkonzerten ist frei; Sitzpl&#xE4;tze sind begrenzt. Beginn t&#xE4;glich ab 20:00&nbsp;Uhr.</p>
         </div>
-        <a class="card-link" href="https://aschaffenburg.news/ab/aschaffenburg/schweinheim/aschaffenburg-avg-erneuert-speisekabel.html" target="_blank" rel="noopener">&#x2192; Zum Artikel (aschaffenburg.news)</a>
-      </div>
-    </article>
-
-    <!-- 13 GESELLSCHAFT: Nachruf Funk -->
-    <article class="news-card">
-      <div class="card-badges">
-        <span class="badge cat-gesellschaft">Gesellschaft</span>
-        <span class="badge reg-marktheidenfeld">Marktheidenfeld</span>
-      </div>
-      <div class="card-content">
-        <div class="card-inner">
-          <div class="card-media">
-            <a href="https://www.main-echo.de/region/kreis-main-spessart/" target="_blank" rel="noopener">
-              <div class="media-placeholder">&#x1F56F;&#xFE0F;<span class="med-label">Nachruf</span></div>
-            </a>
-          </div>
-          <h2 class="card-title">Nachruf: Marktheidenfeld trauert um Johann &#x201E;Hansi&#x201C; Funk &#x2013; gestorben mit 69&nbsp;Jahren</h2>
-          <p class="card-summary">Die Region Main-Spessart nimmt Abschied von Johann &#x201E;Hansi&#x201C; Funk, einer bekannten Pers&#xF6;nlichkeit aus Marktheidenfeld, der im Alter von 69&nbsp;Jahren verstorben ist. Funk war in seiner Heimatstadt als direkter, authentischer und eigenwilliger Charakter bekannt und wurde von vielen liebevoll als lokaler &#x201E;Rebell&#x201C; bezeichnet. Trotz &#x2013; oder gerade wegen &#x2013; seines unkonventionellen Wesens hinterlie&#xDF; er bei zahlreichen Marktheidenfeldern einen bleibenden und herzlichen Eindruck. Termin und Ort der Trauerfeier werden gesondert bekanntgegeben.</p>
-        </div>
-        <a class="card-link" href="https://www.main-echo.de/region/kreis-main-spessart/" target="_blank" rel="noopener">&#x2192; Zum Artikel (main-echo.de)</a>
-      </div>
-    </article>
-
-    <!-- 14 GESELLSCHAFT: Familientag Alzenau abgesagt -->
-    <article class="news-card">
-      <div class="card-badges">
-        <span class="badge cat-gesellschaft">Gesellschaft</span>
-        <span class="badge reg-alzenau">Alzenau</span>
-      </div>
-      <div class="card-content">
-        <div class="card-inner">
-          <div class="card-media">
-            <a href="https://www.alzenau.de/Freizeit-G%C3%A4ste/Kunst-Kultur-Events/Sparkassen-Familientag/" target="_blank" rel="noopener">
-              <div class="media-placeholder">&#x1F321;&#xFE0F;<span class="med-label">Info</span></div>
-            </a>
-          </div>
-          <h2 class="card-title">Hitzewelle stoppt Event: Sparkassen-Familientag Alzenau am 28.&nbsp;Juni abgesagt</h2>
-          <p class="card-summary">Die anhaltende Hitzewelle zwingt die Veranstalter des beliebten Sparkassen-Familientags in Alzenau zur Absage des f&#xFC;r den 28.&nbsp;Juni 2026 geplanten Gro&#xDF;events. Bei den vorhergesagten Temperaturen von &#xFC;ber 34&nbsp;&#xB0;C und ohne ausreichend Schattenmöglichkeiten konnte die Sicherheit aller Besucherinnen und Besucher &#x2013; insbesondere von Kindern und &#xE4;lteren Menschen &#x2013; nicht gew&#xE4;hrleistet werden. Der Familientag geh&#xF6;rt zu den gr&#xF6;&#xDF;ten Freiluftveranstaltungen im Landkreis Aschaffenburg und zieht normalerweise tausende Besucher an. Ein Nachholtermin ist derzeit noch nicht bekannt.</p>
-        </div>
-        <a class="card-link" href="https://www.alzenau.de/Freizeit-G%C3%A4ste/Kunst-Kultur-Events/Sparkassen-Familientag/" target="_blank" rel="noopener">&#x2192; Zur Info-Seite (alzenau.de)</a>
-      </div>
-    </article>
-
-    <!-- 15 SPORT: JUZ-Cup -->
-    <article class="news-card">
-      <div class="card-badges">
-        <span class="badge cat-sport">Sport</span>
-        <span class="badge cat-gesellschaft" style="margin-left:.15rem">Gesellschaft</span>
-        <span class="badge reg-lkab">Lkr. Aschaffenburg</span>
-      </div>
-      <div class="card-content">
-        <div class="card-inner">
-          <div class="card-media">
-            <a href="https://aschaffenburg.news/ab/aschaffenburg/aschaffenburg/aschaffenburg-vierter-juz-cup-als-fussballturnier-der-jugendzentren.html" target="_blank" rel="noopener">
-              <div class="media-placeholder">&#x26BD;<span class="med-label">Foto</span></div>
-            </a>
-          </div>
-          <h2 class="card-title">JUZ-Cup: Viertes Fu&#xDF;ball-Turnier der Jugendzentren am 10.&nbsp;Juli in Rothenbuch &#x2013; Anmeldung bis 30.&nbsp;Juni</h2>
-          <p class="card-summary">Das Landratsamt Aschaffenburg veranstaltet am Freitag, 10.&nbsp;Juli 2026, ab 17:30&nbsp;Uhr auf dem Sportplatz in Rothenbuch den vierten JUZ-Cup unter dem Motto &#x201E;Fu&#xDF;ball verbindet&#x201C;. Zw&#xF6;lf Jugendzentren aus dem gesamten Landkreis nehmen teil: Alzenau, Bessenbach, Goldbach, Gro&#xDF;ostheim, Haibach, Karlstein am Main, Kleinostheim, Laufach, Mainaschaff, Rothenbuch, Stockstadt am Main und Weibersbrunn. Kinder und Jugendliche zwischen 11 und 17&nbsp;Jahren k&#xF6;nnen sich noch bis zum 30.&nbsp;Juni 2026 in ihrem Jugendzentrum anmelden; die Teams werden dort zusammengestellt. Die drei besten Teams erhalten Troph&#xE4;en &#x2013; Freude am Sport und regionale Vernetzung stehen im Mittelpunkt.</p>
-        </div>
-        <a class="card-link" href="https://aschaffenburg.news/ab/aschaffenburg/aschaffenburg/aschaffenburg-vierter-juz-cup-als-fussballturnier-der-jugendzentren.html" target="_blank" rel="noopener">&#x2192; Zum Artikel (aschaffenburg.news)</a>
+        <a class="card-link" href="https://www.kulturamt-aschaffenburg.de/unsere-festivals/carillon-percussion/programm/" target="_blank" rel="noopener">&#x2192; Zum Programm (kulturamt-aschaffenburg.de)</a>
       </div>
     </article>
 
@@ -537,7 +535,7 @@ footer a{color:#F9A825}
 <!-- FOOTER -->
 <footer>
   <p><strong>Tagesnachrichten &#x2013; Lohr am Main &amp; Aschaffenburg</strong></p>
-  <p>Aktualisierung: Mittwoch, 24.&nbsp;Juni&nbsp;2026 &nbsp;&middot;&nbsp; 06:08&nbsp;Uhr&nbsp;CEST</p>
+  <p>Automatischer Tagesstart: Mittwoch, 24.&nbsp;Juni&nbsp;2026 &nbsp;&middot;&nbsp; 06:00&nbsp;Uhr&nbsp;CEST</p>
   <p>Wetter: <a href="https://api.brightsky.dev/" target="_blank" rel="noopener">BrightSky API (DWD-Daten)</a>
     <span class="footer-sep">|</span>
     <a href="https://www.dwd.de/DE/wetter/warnungen_aktuell/warnungen_aktuell_node.html" target="_blank" rel="noopener">DWD Warnkarte</a>
@@ -555,11 +553,9 @@ footer a{color:#F9A825}
     <span class="footer-sep">&middot;</span>
     <a href="https://www.landkreis-aschaffenburg.de/" target="_blank" rel="noopener">Landkreis Aschaffenburg</a>
     <span class="footer-sep">&middot;</span>
-    <a href="https://guide.michelin.com/" target="_blank" rel="noopener">MICHELIN Guide</a>
+    <a href="https://www.sportschau.de/" target="_blank" rel="noopener">Sportschau</a>
     <span class="footer-sep">&middot;</span>
-    <a href="https://www.alzenau.de/" target="_blank" rel="noopener">Stadt Alzenau</a>
-    <span class="footer-sep">&middot;</span>
-    <a href="https://www.hoesbach.de/" target="_blank" rel="noopener">Markt H&#xF6;sbach</a>
+    <a href="https://www.dwd.de/" target="_blank" rel="noopener">DWD</a>
   </div>
   <p style="margin-top:.6rem;font-size:.72rem;opacity:.7">
     Design: Spessart-Hochsommer-Smaragd &nbsp;&middot;&nbsp; Kein Redaktionsverh&#xE4;ltnis zu genannten Quellen &nbsp;&middot;&nbsp; Alle Inhalte mit gr&#xF6;&#xDF;tm&#xF6;glicher Sorgfalt recherchiert &nbsp;&middot;&nbsp; Repository: <a href="https://github.com/domezos2024/aktuelles" target="_blank" rel="noopener">domezos2024/aktuelles</a>
