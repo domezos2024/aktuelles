@@ -1,19 +1,36 @@
 # Tagesnachrichten-Journal – domezos2024/aktuelles
 
-## Design – 2026-06-24 – 06:00 Uhr CEST
-- Schema: johannistag-hochsommer-feuerrot
-- Header-Gradient: #0D47A1 → #1976D2 → #F57F17
-- Seasonal-Banner: #E65100 → #FF8F00 → #FFD54F (Feuerrot-Hochsommer)
-- Hintergrund: #EDE7F6
+## Design – 2026-06-24 – 06:08 Uhr CEST
+- Schema: spessart-hochsommer-smaragd
+- Header-Gradient: #1B5E20 → #2E7D32 → #F9A825 (Waldgrün zu Sonnengold)
+- Seasonal-Banner: #F57F17 → #F9A825 → #FDD835 (Johannistag-Feuergelb)
+- Hintergrund: #F1F8E9
 - Karten: #FFFFFF
-- Akzentfarben: #283593 · #F57F17 · #00695C · #AD1457 · #4A148C
-- Layout: grid-2col (responsive 1col)
+- Akzentfarben: #1B5E20 · #F9A825 · #C62828 · #01579B · #4E342E · #6A1B9A · #E65100
+- Layout: grid-3col (responsive 1col)
 
 ---
 
 ## Themen-Archiv (letzte 10 Tage – NICHT wiederholen!)
 
-### 2026-06-24 (Ausgabe 1 – 06:00 Uhr, Automatischer Tagesstart) ← heute
+### 2026-06-24 (Ausgabe 2 – 06:08 Uhr CEST) ← heute, neu hinzufügen
+- Pfefferspray Eisenstange Aschaffenburg Streitigkeit Hanauer-Straße Syrer festgenommen | https://aschaffenburg.news/ab/aschaffenburg/stadtmitte/aschaffenburg-nach-streitigkeit-im-strassenverkehr-pfefferspray-eingesetzt.html | blaulicht | aschaffenburg
+- Smartphone-Diebstahl Herstallstraße Aschaffenburg drei-Geräte 3000-Euro Zeugenaufruf | https://aschaffenburg.news/ab/aschaffenburg/stadtmitte/aschaffenburg-diebstahl-von-drei-mobiltelefonen.html | blaulicht | aschaffenburg
+- Falscher-Dachdecker Karlstadt Bodelschwinghstraße Handtasche 55-Jährige Trickdiebstahl | https://www.meine-news.de/landkreis-main-spessart/c-blaulicht/main-spessart-falscher-handwerker-entwendet-handtasche-zu-zweit-auf-e-scooter-unterwegs-und-verunfallt-unfallfluchten-nach-pkw-beschaedigung_a237775 | blaulicht | karlstadt
+- B469-Sperrung Stockstadt Opel-Corsa Brand Vollsperrung 27-Jährige Totalschaden | https://www.main-echo.de/ressorts/blaulicht/ | blaulicht | stockstadt
+- Frontalzusammenstoß Kleinostheim Hanauer-Straße Frau-verletzt Sperrung | https://www.main-echo.de/ressorts/blaulicht/ | blaulicht | kleinostheim
+- A3-Unfall Waldaschaff Verletzter Totalschaden Kurzsperrung | https://www.main-echo.de/ressorts/blaulicht/ | blaulicht | waldaschaff
+- E-Scooter-Unfall Gemünden Kreuzstraße zwei-Verletzte Mitfahrerin verboten | https://www.meine-news.de/landkreis-main-spessart/c-blaulicht/main-spessart-falscher-handwerker-entwendet-handtasche-zu-zweit-auf-e-scooter-unterwegs-und-verunfallt-unfallfluchten-nach-pkw-beschaedigung_a237775 | blaulicht | gemünden
+- Hösbach B26 Hauptstraße Wiedereröffnung 26-Juni elf-Jahre 12-Millionen Festakt Pfarreizentrum | https://www.main-echo.de/region/stadt-kreis-aschaffenburg/aufatmen-nach-elf-jahren-ist-hoesbachs-hauptstrasse-endlich-fertig-art-8737147 | verkehr | hösbach
+- Umgehung Steinfeld gestrichen Straßenbau Spardruck Landkreis-Main-Spessart | https://www.main-echo.de/region/kreis-main-spessart/ | politik | main-spessart
+- Sparkasse TH-Aschaffenburg 10000-Euro Labor-Wirtschaftsinformatik SAP 24-Jahre Förderung | https://aschaffenburg.news/ab/aschaffenburg/aschaffenburg/aschaffenburg-spende-von-10-000-euro-der-sparkasse-fuer-labor-fuer-wirtschaftsinformatik.html | wirtschaft | aschaffenburg
+- La-Boucherie Kreuzwertheim Michelin-Stern-2026 Daniel-Schröder Kaffelstein bestätigt | https://guide.michelin.com/en/bayern/kreuzwertheim_1295241/restaurant/la-boucherie | kultur | kreuzwertheim
+- AVG Speisekabel Schweinheim Umspannwerk Netzmodernisierung Aschaffenburg | https://aschaffenburg.news/ab/aschaffenburg/schweinheim/aschaffenburg-avg-erneuert-speisekabel.html | infrastruktur | aschaffenburg
+- Nachruf Johann-Hansi-Funk Marktheidenfeld 69-Jahre Rebell verstorben | https://www.main-echo.de/region/kreis-main-spessart/ | gesellschaft | marktheidenfeld
+- Sparkassen-Familientag Alzenau 28-Juni abgesagt Hitzewelle Sicherheit | https://www.alzenau.de/ | gesellschaft | alzenau
+- JUZ-Cup 10-Juli Rothenbuch Jugendzentren Fußball zwölf-Zentren Anmeldung-bis-30-Juni | https://aschaffenburg.news/ab/aschaffenburg/aschaffenburg/aschaffenburg-vierter-juz-cup-als-fussballturnier-der-jugendzentren.html | sport | lkr-aschaffenburg
+
+### 2026-06-24 (Ausgabe 1 – 06:00 Uhr, Automatischer Tagesstart)
 - Stadtbibliothek Aschaffenburg Onleihe3-App startet heute Update notwendig | https://aschaffenburg.news/ab/aschaffenburg/aschaffenburg/stadtbibliothek-neue-onleihe-app-ab-24-juni.html | kultur | aschaffenburg
 - Stadtrat Lohr Sitzung Wasserversorgung Sommerberg Feuerwache Anbau Wombach 2027 | https://www.main-echo.de/region/kreis-main-spessart/wasserversorgung-und-anbau-an-feuerwache-art-8737813 | politik | lohr
 - WM 2026 Deutschland Ecuador Public Viewing Volksfest Aschaffenburg vorletzter Tag | https://www.sportschau.de/fussball/fifa-wm-2026/ | sport | aschaffenburg
@@ -147,23 +164,6 @@
 - Spaziertreffs Main-Spessart sechs Gruppen Zellingen Partenstein ab-23-Juni | https://www.main-spessart.de/aktuelles/pressemitteilungen/11075.Gemeinsam-in-Bewegung-Offene-Spaziertreffs-im-Landkreis-Main-Spessart-wachsen-weiter.html | gesundheit | main-spessart
 - Naturführung Ruine Homburg Gössenheim Dexter-Rinder Artenschutz Heidelerche Orchideen 17-Juli | https://www.main-spessart.de/aktuelles/pressemitteilungen/11077.Naturfuehrung-Ruine-Homburg-Rinderbeweidung-fuer-den-Artenschutz.html | umwelt | main-spessart
 - Kräuterspaziergang Goldbach Öko-Modellregion Jeanine-Biersack Gaetano-Bergmann Bio-Öle | https://aschaffenburg.news/ab/aschaffenburg/aschaffenburg-kraeuterspaziergang-zum-entdecken-und-erlebena.html | gesellschaft | goldbach
-
-### 2026-06-21 (Vorversion – aus früherer Ausgabe)
-- Vollsperrung Rosenstraße Aschaffenburg startet 22-26-Juni Schachtabdeckung Hitzewelle | https://aschaffenburg.news/ab/aschaffenburg/aschaffenburg/aschaffenburg-vollsperrung-in-der-rosenstrasse.html | verkehr | aschaffenburg
-- Stadtwerke Aschaffenburg Abfallabfuhr Hitzewelle früher bereitstellen 22-26-Juni | https://aschaffenburg.news/ab/aschaffenburg/aschaffenburg/aschaffenburg-abfallbeh%C3%A4lter-werden-fr%C3%BCher-bereitgestellt-und-abgeholt.html | gesellschaft | aschaffenburg
-- Küchenbrand Landingstraße Aschaffenburg Tunnel gesperrt Feuerwehr Samstagmorgen | https://www.main-echo.de/ressorts/blaulicht/landingstrasse-und-tunnel-teilweise-gesperrt-feuerwehreinsatz-am-samstagmorgen-art-8738222 | blaulicht | aschaffenburg
-- LKW Großwelzheim Wohnhaus hängen Karlsteiner Feuerwehr Dachdecker Sachschaden | https://www.main-echo.de/ressorts/blaulicht/lastwagen-bleibt-in-grosswelzheim-an-wohnhaus-haengen-art-8738138 | blaulicht | grosswelzheim
-- Unfall Autobahnanschlussstelle Goldbach Aschaffenburg Stau Rettungsdienst mehrere Fahrzeuge | https://www.main-echo.de/ressorts/blaulicht/nach-unfall-verkehrsbehinderungen-an-der-autobahnanschlusstelle-zwischen-goldbach-und-aschaffenburg-art-8737863 | blaulicht | regional
-- Stadtbibliothek Aschaffenburg Onleihe neue App Onleihe3 24-Juni Update | https://aschaffenburg.news/ab/aschaffenburg/aschaffenburg/stadtbibliothek-neue-onleihe-app-ab-24-juni.html | kultur | aschaffenburg
-- Reanimationstraining 4-Juli 39 Standorte Gesundheitsregionplus Laienreanimation kostenlos | https://aschaffenburg.news/ab/aschaffenburg/aschaffenburg/aschaffenburg-kostenlose-reanimationstrainings-am-4-juli-2026.html | gesundheit | aschaffenburg
-- Feuerwehr Karlstadt-Gambach Hausbrand Schuppen Wohnhäuser 120 Einsatzkräfte Wernfelder Straße | https://www.main-echo.de/ressorts/blaulicht/feuerwehr-loescht-zwei-brennende-haeuser-in-karlstadt-gambach-art-8737935 | blaulicht | karlstadt
-- IHK Aschaffenburg Vollversammlungswahl Kandidaturen bis 30-Juni Wirtschaft Selbstverwaltung | https://aschaffenburg.news/ab/aschaffenburg/aschaffenburg/aschaffenburg-wirtschaft-aktiv-mitgestalten-kandidatur-zur-ihk-vollversammlung-noch-bis-30-juni-moeglich.html | wirtschaft | aschaffenburg
-- Bundeswehr Manöver Truppenübungen Main-Spessart 29-Juni bis 4-Juli 50 Soldaten | https://www.main-echo.de/region/kreis-main-spessart/truppenuebungen-der-bundeswehr-im-kreis-main-spessart-art-8735307 | gesellschaft | main-spessart
-- Demo Sozialer Aufstand 27-Juni Theaterparkplatz Aschaffenburg Sozialprotest | https://www.meine-news.de/aschaffenburg/c-politik/sozialprotest-in-aschaffenburg-startet-mit-starkem-signal_a237391 | politik | aschaffenburg
-- TH Aschaffenburg Open Campus Festivalatmosphäre Laborbesichtigungen Studieninfo | https://aschaffenburg.news/ab/aschaffenburg/aschaffenburg/ | gesellschaft | aschaffenburg
-- Alzenau Schwalbenkücken Polizei Feuerwehr Rettung Kälberau Michelbacher Straße Artenschutz | https://aschaffenburg.news/ab/alzenau/k%C3%A4lberau/alzenau-polizei-und-feuerwehr-retten-schwalbenjunges.html | gesellschaft | alzenau
-- Main-Spessart Konjunktur 2027 Aufschwung Fachkräftemangel Energiekosten IHK Wirtschaftsverbände | https://www.main-echo.de/region/kreis-main-spessart/wenn-es-2027-mit-dem-aufschwung-nicht-klappt-wann-dann-art-8737213 | wirtschaft | main-spessart
-- Kinder-Kultur-Tag 5-Juli Nilkheimer Park Aschaffenburg Mitmachaktionen kostenlos | https://aschaffenburg.news/ab/aschaffenburg/aschaffenburg/kinder-kultur-tag-am-5-juli-im-nilkheimer-park.html | kultur | aschaffenburg
 
 ### 2026-06-20
 - Brand Karlstadt Wernfelder Straße Schuppen Wohnhäuser sechsstellig | https://www.infranken.de/lk/main-spessart/blaulicht/feuer-in-karlstadt-brand-zerstoert-schuppen-und-beschaedigt-wohnhaeuser-art-6369478 | blaulicht | karlstadt
