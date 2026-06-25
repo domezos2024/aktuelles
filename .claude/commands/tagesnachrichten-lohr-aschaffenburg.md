@@ -50,7 +50,7 @@ Für jede ausgewählte Meldung via WebFetch die Artikel-Seite aufrufen und extra
 Für jede Meldung:
 - Titel | Zusammenfassung (min. 4 Sätze) | URL | Kategorie (farbig) | Ort (farbig)
 - Prioritäten: Blaulicht/Kriminalität > Politik > Wirtschaft > Gesellschaft/Kultur/Sport
-- Mindestens 10 echte, von den letzten 10 Tagen VERSCHIEDENE Meldungen (≤48h alt)
+- Mindestens 15 echte, von den letzten 10 Tagen VERSCHIEDENE Meldungen (≤48h alt)
 - Keine URL, kein Thema/Ereignis das bereits in einem der letzten 10 Journal-Einträge steht
 - Bei Zweifeln: Schlagwort aus journal.md mit Suchbegriff abgleichen, lieber eine neue Meldung wählen
 
@@ -65,8 +65,8 @@ Anforderungen:
 - **Bilder in Karten:** Echtes `<img src="URL">` oben rechts (float:right, max 120×90px), anklickbar zur Vollansicht via CSS `:target`-Lightbox (kein JS). Nur einbauen wenn URL gefunden – KEIN Placeholder.
 - **Video-Standbild in Karten:** YouTube-Thumbnail (`https://img.youtube.com/vi/{ID}/hqdefault.jpg`) als `<img>` oben rechts mit Spielsymbol-Overlay (▶ rein via CSS ::after), klickbar als Link zu `https://www.youtube.com/watch?v={ID}`. Nur einbauen wenn konkrete Video-ID gefunden.
 - **CSS-Lightbox:** `<a href="#img-N" id="img-N"><img ...></a>` + `<div id="lb-N">` (position:fixed, target-Selektor blendet ein). Pro Bild ein Overlay. Kein JS.
-- **Design täglich wechseln** (Farben, Header-Gradient, Hintergrund ≠ journal.md)
-- Zeitstempel und Quellenliste im Footer
+- **Design täglich wechseln** (Font (auf gute Leserlichkeit achten), Farben, Header-Gradient, Hintergrund ≠ journal.md)
+- Zeitstempel und "Impressum: Coding der Seite erstellt/überwacht von Michael Bergfeld Email: info@domezos-ware.de" und eine Erklärung das die Angaben ohne Gewähr sind und auf deren Quellen zurückzuführen sind. Quellenliste im Footer
 
 ## Schritt 7 – journal.md neu schreiben (rollierende 10-Tage-Historie)
 
@@ -129,7 +129,7 @@ Dann:
 
 ## Qualitätskriterien
 
-- Min. 10 echte, verifizierte Meldungen (anders als die letzten 10 Tage)
+- Min. 15 echte, verifizierte Meldungen (anders als die letzten 10 Tage)
 - Kein Dummy-Inhalt, keine Platzhalter
 - **Bilder/Videos:** Echte URLs verwenden (og:image, img-Tag, YouTube-Thumbnail). Kein gefundenes Bild → keine Medien-Box (besser leer als Platzhalter)
 - **CSS-Lightbox** für Bilder funktioniert ohne JavaScript (`:target`-Selektor)
