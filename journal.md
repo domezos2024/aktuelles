@@ -13,7 +13,25 @@
 
 ## Themen-Archiv (letzte 10 Tage – NICHT wiederholen!)
 
-### 2026-06-25 (Ausgabe 1 – 06:12 Uhr CEST) ← heute, neu hinzufügen
+### 2026-06-25 (Ausgabe 2 – Automatischer Tagesstart 06:00 Uhr) ← aktuell
+- Retzbach Zellingen 66-Jährige tot aufgefunden Vermisstensuche Waldgebiet Kriminalpolizei | https://www.meine-news.de/zellingen/c-blaulicht/retzbach-widerruf-der-vermisstenfahndung-66-jaehrige-tot-aufgefunden_a237913 | blaulicht | main-spessart
+- Karlstadt Falsche-Spendensammler Drogerie Würzburger-Straße Betrug Zeugen | https://www.meine-news.de/karlstadt/c-blaulicht/karlstadt-mutmassliche-spendensammler-versuchen-kundin-zu-taeuschen-polizei-sucht-zeugen_a237937 | blaulicht | karlstadt
+- Schöllkrippen Explosionsdrohung Gewerbebetrieb Polizei Großeinsatz Evakuierung | https://www.main-echo.de/ressorts/blaulicht/ | blaulicht | lkr-aschaffenburg
+- Elsenfeld 14-Jähriger E-Scooter manipuliert Smartphone-App Polizeiflucht | https://aschaffenburg.news/bayern/landkreis-miltenberg/elsenfeld-jugendlicher-flüchtet-mit-manipuliertem-e-scooter-vor-polizeikontrolle.html | blaulicht | miltenberg
+- Marktheidenfeld Feuerverbot Trockenheit Waldbrandgefahr Spessart Stufe3-DWD | https://www.main-echo.de/region/kreis-main-spessart/ | umwelt | marktheidenfeld
+- Aschaffenburg Müllabfuhr ab-5-Uhr Hitzeschutz DWD-Hitzewarnung Lkr-Aschaffenburg | https://aschaffenburg.news/ab/aschaffenburg/aschaffenburg/aschaffenburg-müllabfuhr-bereits-ab-5-00-uhr.html | gesellschaft | aschaffenburg
+- Lohr Altstadtparkhaus Sanierung unvorhergesehene-Mängel Verzögerung | https://www.main-echo.de/region/kreis-main-spessart/ | wirtschaft | lohr
+- Lohr Spatenstich Personalwohnungen Sommerberg BKH Fachkräfte 2027 | https://www.main-echo.de/region/kreis-main-spessart/ | gesellschaft | lohr
+- Tegut Partenstein Schließung Franken 36-Filialen Bundeskartellamt Edeka Rewe | https://www.infranken.de/lk/franken/einkaufen/tegut-aus-was-passiert-mit-restlichen-filialen-in-franken-art-6368358 | wirtschaft | partenstein
+- Kälberau Pallottinerpater Bernhard-Pieler gestorben 96-Jahre Wallfahrt | https://aschaffenburg.news/ab/alzenau/kälberau/alzenau-pallottinerpater-bernhard-pieler-gestorben.html | gesellschaft | alzenau
+- Bayern Funklöcher Messwoche Wirtschaftsminister Bundesnetzagentur App Spessart | https://aschaffenburg.news/politik/bayerns-wirtschaftsminister-bittet-bürger-um-mithilfe-bei-der-suche-nach-funklöchern.html | politik | bayern
+- Aschaffenburg Netzwerkkonferenz globaler-Wandel Untermain 30-September LINDE-Arena | https://aschaffenburg.news/ab/aschaffenburg/aschaffenburg/globaler-wandel-trifft-den-bayerischen-untermain.html | politik | aschaffenburg
+- Social-Media Mindestalter 13-Jahre Prien Expertenrat Bundesgesetz Jugendschutz | https://www.main-echo.de/region/kreis-main-spessart/ | gesellschaft | national
+- Hitzewelle Bayern 5-Tipps kühles-Zuhause Verbraucherzentrale 35-Grad 116117 | https://aschaffenburg.news/verbraucher/hitze-in-bayern-5-tipps-für-ein-kühles-zuhause.html | verbraucher | bayern
+- FFW-Rodenbach 150-Jahre Jubiläum Festwochenende 27-29-Juni Public-Viewing WM | https://www.ffw-rodenbach.de/150-jahre-freiwillige-Feuerwehr-rodenbach/ | gesellschaft | rodenbach-lohr
+- Demo Sozialer-Aufstand 27-Juni Theaterparkplatz Aschaffenburg Programm bekannt | https://www.meine-news.de/aschaffenburg/c-politik/sozialprotest-in-aschaffenburg-startet-mit-starkem-signal_a237391 | politik | aschaffenburg
+
+### 2026-06-25 (Ausgabe 1 – 06:12 Uhr CEST)
 - Retzbach Zellingen 66-Jährige tot aufgefunden Vermisstensuche Waldgebiet Kriminalpolizei | https://www.meine-news.de/zellingen/c-blaulicht/retzbach-widerruf-der-vermisstenfahndung-66-jaehrige-tot-aufgefunden_a237913 | blaulicht | main-spessart
 - Karlstadt Falsche-Spendensammler Drogerie Würzburger-Straße Betrug Zeugen | https://www.meine-news.de/karlstadt/c-blaulicht/karlstadt-mutmassliche-spendensammler-versuchen-kundin-zu-taeuschen-polizei-sucht-zeugen_a237937 | blaulicht | karlstadt
 - Schöllkrippen Explosionsdrohung Gewerbebetrieb Polizei Großeinsatz | https://www.main-echo.de/ressorts/blaulicht/ | blaulicht | lkr-aschaffenburg
