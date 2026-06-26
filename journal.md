@@ -1,19 +1,37 @@
 # Tagesnachrichten-Journal – domezos2024/aktuelles
 
-## Design – 2026-06-25 – 06:12 Uhr CEST
-- Schema: main-mondblau-sommer
-- Header-Gradient: #0D2137 → #1B3A5C → #1975BB (Mitternachtsblau zu Himmelblau)
-- Seasonal-Banner: #7B1900 → #C0350A → #E65100 (Glutorange Hitzewelle)
-- Hintergrund: #EEF3FA
+## Design – 2026-06-26 – 06:10 Uhr CEST
+- Schema: waldgruen-creme-sommer
+- Header-Gradient: #1A3C2E → #2D6A4F → #52B788 (Dunkelwald zu Salbeigrün)
+- Seasonal-Banner: #6B2D0F → #B83B0A → #E08210 (Ziegelrot zu Bernsteinorange)
+- Hintergrund: #FDF8EC
 - Karten: #FFFFFF
-- Akzentfarben: #1B3A5C · #C0392B · #E67E22 · #27AE60 · #8E44AD · #16A085 · #795548
-- Layout: grid-2col (responsive 1col)
+- Akzentfarben: #2D6A4F · #C5460A · #E9A823 · #2C5F8A · #8B1F4A · #1D7A3E · #5E3B1C
+- Layout: card-stream (grid-3col, responsive 2col/1col)
+- Fonts: Georgia serif (Überschriften) · Verdana sans-serif (Fließtext)
 
 ---
 
 ## Themen-Archiv (letzte 10 Tage – NICHT wiederholen!)
 
-### 2026-06-25 (Ausgabe 2 – Automatischer Tagesstart 06:00 Uhr) ← aktuell
+### 2026-06-26 ← heute, neu hinzugefügt
+- Johannesberg Wald 60-goldene-Ringe Kinder-Fund Einmachglas Hochzeitsdaten Kriminalpolizei | https://www.infranken.de/lk/aschaffenburg/blaulicht/kreis-aschaffenburg-mysterioeser-schmuckfund-im-wald-gibt-raetsel-auf-art-6371831 | blaulicht | lkr-aschaffenburg
+- Aschaffenburg 13-Jähriger Busbahnhof-ROB angegriffen Jugendliche Gelderpressung Zeugen | https://aschaffenburg.news/ab/aschaffenburg/stadtmitte/aschaffenburg-13-j%C3%A4hriger-am-busbahnhof-angegriffen.html | blaulicht | aschaffenburg
+- Aschaffenburg Betrüger-Gehörlose Spendentrick-Innenstadt Polizei Bargeld Passanten | https://aschaffenburg.news/ab/aschaffenburg/stadtmitte/aschaffenburg-mutma%C3%9Fliche-betr%C3%BCger-geben-sich-als-geh%C3%B6rlose-aus.html | blaulicht | aschaffenburg
+- Karlstadt Einbrechertrio-Berlin Gericht-verurteilt gemeinschaftlicher-Einbruch Sicherheitskameras | https://www.main-echo.de/region/main-spessart/karlstadt/art_819865 | justiz | karlstadt
+- Marktheidenfeld Pedelec-Unfall gesperrter-Waldweg schwer-verletzt Rettungshubschrauber Polizei | https://www.meine-news.de/landkreis-main-spessart/c-blaulicht/ | blaulicht | marktheidenfeld
+- BFV Fußball-Absage Bayern Wochenende 4400-Juniorenspiele Hitzewelle Christoph-Kern | https://aschaffenburg.news/fussball/der-bayerische-fu%C3%9Fball-verband-setzt-die-spiele-am-wochenende-im-freistaat-ab.html | sport | bayern
+- Alarmplan-Main Unterfranken Warnstufe Wassertemperatur-26-Grad Kleinostheim-Belüftung Kahl | https://www.regierung.unterfranken.bayern.de/presse/pressemitteilungen/archiv/2026/040/index.html | klima | unterfranken
+- Penny-Schafe Burgsinn Wilma erstes-Foto 700-Tiere Patenschaft Supermarkt-Januar | https://www.main-echo.de/region/main-spessart/burgsinn/art_819843 | gesellschaft | burgsinn
+- Lohr Fischerviertel Fachwerkhaus-1620 Sanierung Dornröschenschlaf Fischer-Flößer Schmuckstück | https://www.main-echo.de/region/main-spessart/lohr/art_819835 | kultur | lohr
+- BKH-Lohr Krankenhausdirektor Krankenhausreform Stellrädchen Leistungsgruppen Finanzierung | https://www.main-echo.de/region/main-spessart/lohr/art_819825 | gesundheit | lohr
+- Spargelsaison-Ende Johannistag Erdbeerernte-zufriedenstellend Trockenheit Mais Kartoffeln | https://www.main-echo.de/region/main-spessart/art_819828 | wirtschaft | regional
+- Veranstaltungen-abgesagt Hitzewelle Wochenende Outdoor-Vereinsfeste Freibad Hitzeschutz | https://www.main-echo.de/region/art_819824 | gesellschaft | regional
+- Miltenberg Fahrräder-Gymnasium gestohlen Polizei Sommer-Diebstahlserie Schloss Seriennummer | https://aschaffenburg.news/bayern/landkreis-miltenberg/miltenberg-drei-fahrr%C3%A4der-vor-gymnasium-entwendet.html | blaulicht | miltenberg
+- Glauber Klimaschutzgesetz-Bayern Klimaneutralität Bundesziele Erneuerbare Hitzewelle | https://aschaffenburg.news/politik/glauber-unser-ziel-ist-und-bleibt-ein-klimaneutrales-bayern.html | politik | bayern
+- Alzenau Recyclinghof verkürzte-Öffnungszeiten 26-27-Juni Hitzeschutz Mitarbeiter Abkühlung-30-Juni | https://aschaffenburg.news/ab/alzenau/alzenau/alzenau-verk%C3%BCrzte-%C3%B6ffnungszeiten-recyclinghof-am-26-und-27-juni-2026.html | gesellschaft | alzenau
+
+### 2026-06-25 (Ausgabe 2 – Automatischer Tagesstart 06:00 Uhr)
 - Retzbach Zellingen 66-Jährige tot aufgefunden Vermisstensuche Waldgebiet Kriminalpolizei | https://www.meine-news.de/zellingen/c-blaulicht/retzbach-widerruf-der-vermisstenfahndung-66-jaehrige-tot-aufgefunden_a237913 | blaulicht | main-spessart
 - Karlstadt Falsche-Spendensammler Drogerie Würzburger-Straße Betrug Zeugen | https://www.meine-news.de/karlstadt/c-blaulicht/karlstadt-mutmassliche-spendensammler-versuchen-kundin-zu-taeuschen-polizei-sucht-zeugen_a237937 | blaulicht | karlstadt
 - Schöllkrippen Explosionsdrohung Gewerbebetrieb Polizei Großeinsatz Evakuierung | https://www.main-echo.de/ressorts/blaulicht/ | blaulicht | lkr-aschaffenburg
@@ -81,7 +99,7 @@
 - Sparkassen-Familientag Alzenau 28-Juni abgesagt Hitzewelle Sicherheit | https://www.alzenau.de/ | gesellschaft | alzenau
 - JUZ-Cup 10-Juli Rothenbuch Jugendzentren Fußball zwölf-Zentren Anmeldung-bis-30-Juni | https://aschaffenburg.news/ab/aschaffenburg/aschaffenburg/aschaffenburg-vierter-juz-cup-als-fussballturnier-der-jugendzentren.html | sport | lkr-aschaffenburg
 
-### 2026-06-24 (Ausgabe 1 – 06:00 Uhr, Automatischer Tagesstart)
+### 2026-06-24 (Ausgabe 1 – 06:00 Uhr)
 - Stadtbibliothek Aschaffenburg Onleihe3-App startet heute Update notwendig | https://aschaffenburg.news/ab/aschaffenburg/aschaffenburg/stadtbibliothek-neue-onleihe-app-ab-24-juni.html | kultur | aschaffenburg
 - Stadtrat Lohr Sitzung Wasserversorgung Sommerberg Feuerwache Anbau Wombach 2027 | https://www.main-echo.de/region/kreis-main-spessart/wasserversorgung-und-anbau-an-feuerwache-art-8737813 | politik | lohr
 - WM 2026 Deutschland Ecuador Public Viewing Volksfest Aschaffenburg vorletzter Tag | https://www.sportschau.de/fussball/fifa-wm-2026/ | sport | aschaffenburg
@@ -112,7 +130,7 @@
 - AVG Stromnetzausbau Ringsperre Aschaffenburg Vollsperrung Stadtteile | https://www.main-echo.de/region/stadt-kreis-aschaffenburg/avg-netzausbau-sperrungen-aschaffenburg-art-8738439 | verkehr | aschaffenburg
 - Schulen Hitzewelle Unterrichtsanpassung Hitzeplan Bayern Unterfranken | https://www.main-echo.de/region/ | gesellschaft | regional
 
-### 2026-06-22 (Ausgabe 1 – 06:00 Uhr, Automatischer Tagesstart)
+### 2026-06-22 (Ausgabe 1 – 06:00 Uhr)
 - Fahrerflucht Omnibus Marktheidenfeld Polizei Zeugen gesucht | https://www.meine-news.de/marktheidenfeld/c-blaulicht/ | blaulicht | marktheidenfeld
 - DWD Hitzewarnung endet heute 19-Uhr Unterfranken Aufhebung | https://www.dwd.de/DE/wetter/warnungen_aktuell/warnungen_aktuell_node.html | klima | regional
 - Bürgermeister Dirk Rieb Lohr sieben Wochen Auszeit zurück Amt | https://www.main-echo.de/region/kreis-main-spessart/ | politik | lohr
