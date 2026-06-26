@@ -14,7 +14,24 @@
 
 ## Themen-Archiv (letzte 10 Tage – NICHT wiederholen!)
 
-### 2026-06-26 ← heute, neu hinzugefügt
+### 2026-06-26 (Ausgabe 2 – Automatischer Tagesstart 06:00 Uhr) ← heute, neu hinzugefügt
+- Demo Sozialer-Aufstand 27-Juni Theaterparkplatz Aschaffenburg 14-Uhr Programm Hitze-Hinweis | https://www.meine-news.de/aschaffenburg/c-politik/sozialprotest-in-aschaffenburg-startet-mit-starkem-signal_a237391 | politik | aschaffenburg
+- FFW-Rodenbach 150-Jahre Jubiläumsfest 27-29-Juni Public-Viewing-WM Lohr Ehrenamt | https://www.ffw-rodenbach.de/150-jahre-freiwillige-Feuerwehr-rodenbach/ | gesellschaft | rodenbach-lohr
+- Alarmplan-Main Warnstufe-bleibt 26-Grad Kleinostheim-Belüftung Bereitschaftsmodus Kahl-Gefährdet | https://www.regierung.unterfranken.bayern.de/presse/pressemitteilungen/archiv/2026/040/index.html | klima | unterfranken
+- BFV-Generalabsage 4400-Spiele Wochenende Extremhitze MTB-Meisterschaft-Lohr-Juli-unberührt | https://aschaffenburg.news/fussball/der-bayerische-fu%C3%9Fball-verband-setzt-die-spiele-am-wochenende-im-freistaat-ab.html | sport | bayern
+- Lohr Fischerviertel-Sanierung Fachwerkhaus-1620 Fortschritte Originalbalken Eiche Kopfsteinpflaster | https://www.main-echo.de/region/main-spessart/lohr/art_819835 | kultur | lohr
+- BKH-Lohr Krankenhausreform-Kritik Leistungsgruppen Personalwohnungen-Sommerberg-2027 Fachkräfte | https://www.main-echo.de/region/main-spessart/lohr/art_819825 | gesundheit | lohr
+- Bundeswehr-Übungen Main-Spessart 29-Juni-bis-4-Juli Truppenkonvois Landstraßen-Verzögerungen | https://www.main-echo.de/region/kreis-main-spessart/truppenuebungen-der-bundeswehr-im-kreis-main-spessart-art-8735307 | gesellschaft | main-spessart
+- Alzenau Recyclinghof-verkürzt 26-27-Juni Hitzeschutz ab-30-Juni-normal | https://aschaffenburg.news/ab/alzenau/alzenau/alzenau-verk%C3%BCrzte-%C3%B6ffnungszeiten-recyclinghof-am-26-und-27-juni-2026.html | gesellschaft | alzenau
+- Karlstadt Einbrechertrio-Berlin Urteil-rechtskräftig Sicherheitskameras Einbruchdiebstahl | https://www.main-echo.de/region/main-spessart/karlstadt/art_819865 | justiz | karlstadt
+- Johannesberg Goldringe-Ermittlung Kriminalpolizei Eigentümer-gesucht polizei.bayern.de | https://www.infranken.de/lk/aschaffenburg/blaulicht/kreis-aschaffenburg-mysterioeser-schmuckfund-im-wald-gibt-raetsel-auf-art-6371831 | blaulicht | lkr-aschaffenburg
+- Spargelsaison-Bilanz Erdbeerernte-gut Mais-Kartoffeln-Trockenheit Bewässerung-Kostentreiber | https://www.main-echo.de/region/main-spessart/art_819828 | wirtschaft | regional
+- Glauber Klimaneutralität-Bayern Schwammstadt Hitzeschutzpläne Kommunen Reform-Klimaschutzgesetz | https://aschaffenburg.news/politik/glauber-unser-ziel-ist-und-bleibt-ein-klimaneutrales-bayern.html | politik | bayern
+- Miltenberg Fahrraddiebstahl-Gymnasium Sommer-Serie Rahmennummer ADFC | https://aschaffenburg.news/bayern/landkreis-miltenberg/miltenberg-drei-fahrr%C3%A4der-vor-gymnasium-entwendet.html | blaulicht | miltenberg
+- Burgsinn Penny-Schafe-Wilma-Foto 6-Monate-später Herde-wohlauf Patenschaft | https://www.main-echo.de/region/main-spessart/burgsinn/art_819843 | gesellschaft | burgsinn
+- Aschaffenburg 13-Jähriger-ROB Zeugenaufruf-weiter Ermittlungen Gelderpressung | https://aschaffenburg.news/ab/aschaffenburg/stadtmitte/aschaffenburg-13-j%C3%A4hriger-am-busbahnhof-angegriffen.html | blaulicht | aschaffenburg
+
+### 2026-06-26 ← (Ausgabe 1 – 06:10 Uhr CEST)
 - Johannesberg Wald 60-goldene-Ringe Kinder-Fund Einmachglas Hochzeitsdaten Kriminalpolizei | https://www.infranken.de/lk/aschaffenburg/blaulicht/kreis-aschaffenburg-mysterioeser-schmuckfund-im-wald-gibt-raetsel-auf-art-6371831 | blaulicht | lkr-aschaffenburg
 - Aschaffenburg 13-Jähriger Busbahnhof-ROB angegriffen Jugendliche Gelderpressung Zeugen | https://aschaffenburg.news/ab/aschaffenburg/stadtmitte/aschaffenburg-13-j%C3%A4hriger-am-busbahnhof-angegriffen.html | blaulicht | aschaffenburg
 - Aschaffenburg Betrüger-Gehörlose Spendentrick-Innenstadt Polizei Bargeld Passanten | https://aschaffenburg.news/ab/aschaffenburg/stadtmitte/aschaffenburg-mutma%C3%9Fliche-betr%C3%BCger-geben-sich-als-geh%C3%B6rlose-aus.html | blaulicht | aschaffenburg
