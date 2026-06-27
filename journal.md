@@ -1,20 +1,37 @@
 # Tagesnachrichten-Journal – domezos2024/aktuelles
 
-## Design – 2026-06-26 – 06:10 Uhr CEST
-- Schema: waldgruen-creme-sommer
-- Header-Gradient: #1A3C2E → #2D6A4F → #52B788 (Dunkelwald zu Salbeigrün)
-- Seasonal-Banner: #6B2D0F → #B83B0A → #E08210 (Ziegelrot zu Bernsteinorange)
-- Hintergrund: #FDF8EC
-- Karten: #FFFFFF
-- Akzentfarben: #2D6A4F · #C5460A · #E9A823 · #2C5F8A · #8B1F4A · #1D7A3E · #5E3B1C
-- Layout: card-stream (grid-3col, responsive 2col/1col)
-- Fonts: Georgia serif (Überschriften) · Verdana sans-serif (Fließtext)
+## Design – 2026-06-27 – 06:14 Uhr CEST
+- Schema: nachtblau-sandstein
+- Header-Gradient: #0D2240 → #1A4A7A → #2E7CB8 (Nacht-Navy zu Kobaltblau zu Cornflower)
+- Seasonal-Banner: #7B1C00 → #B54D00 → #E8780A (Ziegelrot zu Terrakotta zu Amber)
+- Hintergrund: #FAF6EE
+- Karten: #FFFFFF, border #DFD8C8
+- Akzentfarben: #F4A23D · #D44000 · #1A4A7A · #2E7D32 · #5E35B1 · #004D40 · #0D2240
+- Layout: grid-2col (responsive 1col)
+- Fonts: Trebuchet MS sans-serif (Überschriften) · Palatino Linotype serif (Fließtext)
 
 ---
 
 ## Themen-Archiv (letzte 10 Tage – NICHT wiederholen!)
 
-### 2026-06-26 (Ausgabe 2 – Automatischer Tagesstart 06:00 Uhr) ← heute, neu hinzugefügt
+### 2026-06-27 ← heute, neu hinzugefügt
+- Kahl-am-Main Zwei-15-Jährige-ohne-Fahrerlaubnis Nacht Reizstoffsprühgeräte Ermittlung | https://aschaffenburg.news/kahl-am-main/kahl-am-main-polizei-stoppt-zwei-15-j%C3%A4hrige-ohne-fahrerlaubnis.html | blaulicht | kahl
+- Goldbach Kleinkind-18Monate-Hitzeauto-eingeschlossen Großmutter Scheibe-eingeschlagen Rettungsdienst | https://www.infranken.de/lk/aschaffenburg/blaulicht/goldbach-eingeschlossenes-kleinkind-mit-gewalt-aus-auto-befreit-art-6372372 | blaulicht | goldbach
+- Klingenberg Schwimmbad-Kokain 40-Jähriger-festgenommen Haschisch Survival-Schaufel Waffen | https://aschaffenburg.news/bayern/landkreis-miltenberg/klingenberg-kokain-auf-schwimmbad-toilette-konsumiert.html | blaulicht | miltenberg
+- Feuerverbot-Ausweitung Gemünden Burgsinn Spessart Waldbrandgefahr-Stufe3 DWD | https://www.main-echo.de/region/kreis-main-spessart/immer-mehr-orte-erlassen-feuerverbote-art-8740455 | klima | main-spessart
+- Wasserampel-Rot Landkreis-Aschaffenburg ZWA Trockenheit Pool-Rasen-Autowaschen-verboten | https://www.main-echo.de/region/stadt-kreis-aschaffenburg/ | gesellschaft | lkr-aschaffenburg
+- Volksfest-Aschaffenburg-97 Schausteller-60Prozent-Verlust Hitze Familientag-28-Juni Feuerwerk-29-Juni | https://www.main-echo.de/region/stadt-kreis-aschaffenburg/aschaffenburger-volksfest-wie-die-hitze-den-schaustellern-zusetzt-art-8534563 | kultur | aschaffenburg
+- Roland-Eller-90-Geburtstag Alt-Landrat-30-Jahre Gebietsreform-1972 Lkr-Aschaffenburg | https://www.main-echo.de/region/stadt-kreis-aschaffenburg/ | politik | aschaffenburg
+- Omnibus-Überholunfall Main-Spessart 20-Jährige Taxi zwei-Verletzte Fahrerflucht weiß-grüner-Bus | https://www.meine-news.de/landkreis-main-spessart/c-blaulicht/main-spessart-unfall-nach-ueberholmanoever-eines-omnibusses-diebstahl-mehrerer-smartphones-mutmassliche-kupferdiebe-gestoert-brand-einer-waermepumpe-gartenzaun-beschaedigt-unfallflucht_a238108 | blaulicht | main-spessart
+- Smartphone-Diebstahl Telekom-Filiale Main-Spessart vier-Apple-Geräte 4900-Euro Petzoltstraße | https://www.meine-news.de/landkreis-main-spessart/c-blaulicht/main-spessart-unfall-nach-ueberholmanoever-eines-omnibusses-diebstahl-mehrerer-smartphones-mutmassliche-kupferdiebe-gestoert-brand-einer-waermepumpe-gartenzaun-beschaedigt-unfallflucht_a238108 | blaulicht | main-spessart
+- Wärmepumpe-Brand Rieneck Einfamilienhaus 50000-Euro technischer-Defekt Feuerwehr | https://www.meine-news.de/landkreis-main-spessart/c-blaulicht/main-spessart-unfall-nach-ueberholmanoever-eines-omnibusses-diebstahl-mehrerer-smartphones-mutmassliche-kupferdiebe-gestoert-brand-einer-waermepumpe-gartenzaun-beschaedigt-unfallflucht_a238108 | blaulicht | rieneck
+- Kupferdiebe-Wertstoffhof Main-Spessart Zeugin rumänische-Staatsangehörige vorläufig-festgenommen | https://www.meine-news.de/landkreis-main-spessart/c-blaulicht/main-spessart-unfall-nach-ueberholmanoever-eines-omnibusses-diebstahl-mehrerer-smartphones-mutmassliche-kupferdiebe-gestoert-brand-einer-waermepumpe-gartenzaun-beschaedigt-unfallflucht_a238108 | blaulicht | main-spessart
+- Spessartmuseum Lohr Sonderausstellung Was-zieh-ich-nur-an Fototermine 1-9-Juli Kleidung | https://spessartmuseum.de/de/das-museum/sonderausstellungen | kultur | lohr
+- M2-Schwimmbad-Marktheidenfeld neue-Preisstruktur Stadtrat Wonnemar-Nachfolger | https://www.main-echo.de/region/kreis-main-spessart/ | gesellschaft | marktheidenfeld
+- Traditionsmetzgerei-Trennfeld Triefenstein vor-dem-Aus Nachfolger-gesucht Familienbetrieb | https://www.main-echo.de/region/kreis-main-spessart/ | wirtschaft | triefenstein
+- Miltenberg-Tunnel Großheubach Wartungssperrung 1-Juli ganztägig Umleitungen | https://aschaffenburg.news/bayern/landkreis-miltenberg/miltenberg-verkehrsbehinderung-wegen-wartungsarbeiten.html | verkehr | miltenberg
+
+### 2026-06-26 (Ausgabe 2 – Automatischer Tagesstart 06:00 Uhr)
 - Demo Sozialer-Aufstand 27-Juni Theaterparkplatz Aschaffenburg 14-Uhr Programm Hitze-Hinweis | https://www.meine-news.de/aschaffenburg/c-politik/sozialprotest-in-aschaffenburg-startet-mit-starkem-signal_a237391 | politik | aschaffenburg
 - FFW-Rodenbach 150-Jahre Jubiläumsfest 27-29-Juni Public-Viewing-WM Lohr Ehrenamt | https://www.ffw-rodenbach.de/150-jahre-freiwillige-Feuerwehr-rodenbach/ | gesellschaft | rodenbach-lohr
 - Alarmplan-Main Warnstufe-bleibt 26-Grad Kleinostheim-Belüftung Bereitschaftsmodus Kahl-Gefährdet | https://www.regierung.unterfranken.bayern.de/presse/pressemitteilungen/archiv/2026/040/index.html | klima | unterfranken
@@ -116,22 +133,6 @@
 - Sparkassen-Familientag Alzenau 28-Juni abgesagt Hitzewelle Sicherheit | https://www.alzenau.de/ | gesellschaft | alzenau
 - JUZ-Cup 10-Juli Rothenbuch Jugendzentren Fußball zwölf-Zentren Anmeldung-bis-30-Juni | https://aschaffenburg.news/ab/aschaffenburg/aschaffenburg/aschaffenburg-vierter-juz-cup-als-fussballturnier-der-jugendzentren.html | sport | lkr-aschaffenburg
 
-### 2026-06-24 (Ausgabe 1 – 06:00 Uhr)
-- Stadtbibliothek Aschaffenburg Onleihe3-App startet heute Update notwendig | https://aschaffenburg.news/ab/aschaffenburg/aschaffenburg/stadtbibliothek-neue-onleihe-app-ab-24-juni.html | kultur | aschaffenburg
-- Stadtrat Lohr Sitzung Wasserversorgung Sommerberg Feuerwache Anbau Wombach 2027 | https://www.main-echo.de/region/kreis-main-spessart/wasserversorgung-und-anbau-an-feuerwache-art-8737813 | politik | lohr
-- WM 2026 Deutschland Ecuador Public Viewing Volksfest Aschaffenburg vorletzter Tag | https://www.sportschau.de/fussball/fifa-wm-2026/ | sport | aschaffenburg
-- DWD Hitzewarnung Stufe2 Unterfranken 34Grad Johannistag heißester Tag 2026 | https://www.dwd.de/DE/wetter/warnungen_aktuell/warnungen_aktuell_node.html | klima | regional
-- FFW Rodenbach 150 Jahre Jubiläum Festwochenende 27-29-Juni Public Viewing | https://www.ffw-rodenbach.de/150-jahre-freiwillige-Feuerwehr-rodenbach/ | gesellschaft | rodenbach-lohr
-- Demo Sozialer Aufstand 27-Juni Theaterparkplatz Aschaffenburg Programm bekannt | https://www.meine-news.de/aschaffenburg/c-politik/sozialprotest-in-aschaffenburg-startet-mit-starkem-signal_a237391 | politik | aschaffenburg
-- Museumsnacht Aschaffenburg 11-Juli Tickets Vorverkauf Pompejanum Schloss-Johannisburg | https://www.aschaffenburg.de/Politik-Verwaltung/Presse/Aktuelle-Meldungen/Museumsnacht-am-Samstag-11-Juli-Vorverkauf-gestartet.php | kultur | aschaffenburg
-- Maintalbahn Elektrifizierung Fertigstellung 2034 Planungsengpässe Verzögerung | https://www.infranken.de/lk/main-spessart/ | verkehr | main-spessart
-- Bundeswehr Truppenübungen Main-Spessart 29-Juni bis 4-Juli 50-Soldaten Landstraßen | https://www.main-echo.de/region/kreis-main-spessart/truppenuebungen-der-bundeswehr-im-kreis-main-spessart-art-8735307 | gesellschaft | main-spessart
-- Nilkheim Anwandeweg 750-Wohnungen 1800-Einwohner Baufortschritt planmäßig | https://www.main-echo.de/region/stadt-kreis-aschaffenburg/ | wirtschaft | aschaffenburg
-- IHK Vollversammlungswahl Aschaffenburg Kandidatur bis 30-Juni | https://aschaffenburg.news/ab/aschaffenburg/aschaffenburg/aschaffenburg-wirtschaft-aktiv-mitgestalten-kandidatur-zur-ihk-vollversammlung-noch-bis-30-juni-moeglich.html | wirtschaft | aschaffenburg
-- STADTRADELN Landkreis Aschaffenburg Endspurt bis 28-Juni Ergebnisse | https://www.landkreis-aschaffenburg.de/ | gesellschaft | aschaffenburg
-- Jakobskreuzkraut Aktionszeitraum Landkreis-Aschaffenburg seit 22-Juni bis 7-August | https://www.landkreis-aschaffenburg.de/ | umwelt | aschaffenburg
-- Carillon Percussion Festival Aschaffenburg vorletzter Tag Schloss-Johannisburg bis 28-Juni | https://www.kulturamt-aschaffenburg.de/unsere-festivals/carillon-percussion/programm/ | kultur | aschaffenburg
-
 ### 2026-06-23 (Ausgabe – 06:13 Uhr CEST)
 - BKH Lohr Forensik Infoveranstaltung Sicherheitsmaßnahmen Nachbarschaft | https://www.main-echo.de/dossiers/lohrer-forensik/ | gesellschaft | lohr
 - Mainschwimmer Mathias Alt 470km Main Schwimmtour Therapie Schlaganfall | https://www.main-echo.de/region/kreis-main-spessart/der-main-als-therapie-art-8738439 | gesellschaft | main-spessart
@@ -163,95 +164,3 @@
 - GeDANKEnweg Marktheidenfeld philosophische Stadtführung Sommer | https://www.main-echo.de/region/kreis-main-spessart/ | kultur | marktheidenfeld
 - Mainradweg Ausbau Gebr-Stolz GmbH Hammelburg beauftragt Main-Spessart | https://www.main-echo.de/region/kreis-main-spessart/ | verkehr | main-spessart
 - Vollsperrung Rosenstraße Aschaffenburg 22-26-Juni Schachtabdeckung letzte-Woche | https://aschaffenburg.news/ab/aschaffenburg/aschaffenburg/aschaffenburg-vollsperrung-in-der-rosenstrasse.html | verkehr | aschaffenburg
-
-### 2026-06-21 (Ausgabe 5 – 20:37 Uhr)
-- Sommersonnenwende 2026 astronomischer Sommeranfang 10:24 MESZ längster Tag 16h Tageslicht | https://www.nordbayern.de/service/familie/sommersonnenwende-2026-bald-ist-der-langste-tag-des-jahres-und-die-kurzeste-nacht-rep-2-1.15136851 | saisonal | regional
-- Carillon Percussion Festival Aschaffenburg 20-28-Juni Schloss-Johannisburg 48-Glocken LED-Leinwand | https://www.kulturamt-aschaffenburg.de/unsere-festivals/carillon-percussion/programm/ | kultur | aschaffenburg
-- Haibacher St-Johannesverein 125-Jahre Picknickfest 21-Juni ökumenischer-Gottesdienst 400-Kinder 85-Mitarbeitende | https://www.main-echo.de/region/stadt-kreis-aschaffenburg/ein-picknickfest-zum-jubilaeum-haibacher-st-johannesverein-feiert-125-jaehriges-art-8731782 | gesellschaft | haibach
-- FFW Rodenbach 150-Jahre Jubiläum 27-29-Juni Festprogramm WM-Public-Viewing Lohr 1876 | https://www.ffw-rodenbach.de/150-jahre-freiwillige-Feuerwehr-rodenbach/ | gesellschaft | rodenbach-lohr
-- OB Schlemmer Regenbogenfahne Verbot CSD-Kompromiss Scharfeck Eberbrücke Aschaffenburg Pride | https://www.queer.de/detail.php?article_id=58232 | politik | aschaffenburg
-- Bundeswehr Übung Landkreis Miltenberg 8-16-Juli B47 B469 MIL4 Verteidigungsbereitschaft | https://www.meine-news.de/miltenberg/c-blaulicht/bundeswehr-uebt-im-landkreis-miltenberg_a237442 | gesellschaft | miltenberg
-- Klingenberg 750-Jahre Stadtrecht Rotweinstadt Jubiläum 2026 Raritätenweinprobe November | https://www.main-echo.de/region/kreis-miltenberg/das-bewegt-klingenberg-buerger-berichten-reportern-was-gut-ist-und-was-besser-werden-darf-art-8736524 | kultur | klingenberg-miltenberg
-- WM 2026 Deutschland Ecuador 25-Juni 22-Uhr Public-Viewing Volksfest Aschaffenburg | https://www.sportschau.de/fussball/fifa-wm-2026/daten-fakten-termine-so-laeuft-die-fussball-wm-2026,fragen-und-antworten-zur-wm-zwanzigsechsundzwanzig-100.html | sport | regional
-- Urban Priol kabarettistischer Frühschoppen Volksfest 21-Juni 11-Uhr Stadtkapelle Freudenberg | https://www.main-echo.de/region/stadt-kreis-aschaffenburg/volksfest-aschaffenburg-bieranstich-ein-vorgeschmack-von-urban-priol-und-interviews-mit-brauerei-und-festwirtin-art-8738215 | kultur | aschaffenburg
-- Waldbrandgefahr Spessart Miltenberg DWD Hitzewelle 33-Grad Stufe3 Notruf 112 | https://www.landkreis-miltenberg.de/ | klima | miltenberg-spessart
-- Gesundheitsamt Aschaffenburg Hitzeschutz 30-Grad vulnerable Gruppen 116117 Klinikum | https://www.landkreis-aschaffenburg.de/ | gesundheit | aschaffenburg
-- Main-Spessart-Bad Lohr Ansturm Sonnenwende-Hitze 50m-Becken Rutsche Sprungturm Saison ab 23-Mai | https://www.lohr.de/freibad | freizeit | lohr
-- Therapeutisches Schwimmen Main Lohr Flussbaden Strömung Physiotherapie Klinikum | https://www.main-echo.de/region/kreis-main-spessart/ | gesellschaft | lohr
-- Chorkonzert Tonleiter Mensengesäß Eintracht Großkahl Ivo-Zeiger-Haus 20-Juni Mömbris | https://www.main-echo.de/region/stadt-kreis-aschaffenburg/ | kultur | grosskahl-mömbris
-- Johannisfeuer Tradition Franken Bayern 23-24-Juni Johannistag Brauchtum Sonnenwende | https://www.kleiner-kalender.de/event/sommersonnenwende/107861.html | gesellschaft | regional
-
-### 2026-06-21 (Ausgabe 4 – 18:00 Uhr)
-- DWD extreme Hitzewarnung Main-Spessart Miltenberg Aschaffenburg 21-Juni bis 22-Juni-19Uhr | https://www.infranken.de/lk/franken/dwd-warnt-vor-starken-gewittern-in-franken-art-5898757 | klima | regional
-- Großostheim Feuerwehr brennender Baum Gewitterzelle Sonnenwende-Sonntag | https://www.main-echo.de/ressorts/blaulicht/ | blaulicht | grossostheim
-- Goldbach BMW X5 Kompletträder gestohlen Am-Ningesberg Holzklötze Nacht Freitag-Samstag | https://www.meine-news.de/landkreis-aschaffenburg/c-blaulicht/raum-aschaffenburg-komplettraeder-entwendet-unbekannter-hinterlaesst-hohen-sachschaden-garagentor-touchiert-fahrbahndecke-beschaedigt_a237601 | blaulicht | goldbach
-- Goldbach Unfallflucht 25000-Euro Brunnenstraße Marienstraße VW-Polo Leitpfosten Freitagabend | https://www.meine-news.de/landkreis-aschaffenburg/c-blaulicht/raum-aschaffenburg-komplettraeder-entwendet-unbekannter-hinterlaesst-hohen-sachschaden-garagentor-touchiert-fahrbahndecke-beschaedigt_a237601 | blaulicht | goldbach
-- Karlstadt BMW-1er zerkratzt Am-Hirschfeld Gartenanlage Vandalismustat Samstagabend | https://www.meine-news.de/landkreis-main-spessart/c-blaulicht/main-spessart-pkw-mutwillig-beschaedigt-verkehrsunfall-kanaldeckel-herausgehoben-unfall-nach-ueberholmanoever_a237604 | blaulicht | karlstadt
-- Esselbach Kanaldeckel herausgehoben Hoffriedgasse Seat Unterbodenschaden Sabotage Nacht | https://www.meine-news.de/landkreis-main-spessart/c-blaulicht/main-spessart-pkw-mutwillig-beschaedigt-verkehrsunfall-kanaldeckel-herausgehoben-unfall-nach-ueberholmanoever_a237604 | blaulicht | eussenheim
-- Rothenfels Gemeindeinfo-App Stadtrat digitale Bürger-App Gemeindekommunikation | https://www.main-echo.de/region/kreis-main-spessart/ | gesellschaft | rothenfels
-- Fellows Ride Würzburg Großheubach Miltenberg 300-Motorräder Depression-im-Alter Vogel-Stiftung 20-Juni | https://www.vogel-stiftung.de/2026/06/03/auf-dem-bike-fuer-die-mentale-gesundheit-fellows-ride-startet-erneut-in-wuerzburg/ | gesundheit | regional
-- Esselbach Dorfhelden-Wette 793-Kostümierte 3000-Euro Kindergarten Bayernwerk Pippi-Langstrumpf Bürgermeister Dinkel | https://www.main-echo.de/region/kreis-main-spessart/fast-800-esselbacher-als-helden-der-kindheit-art-8737751 | gesellschaft | esselbach
-- Miltenberg Fahrbahnerneuerung Windischbuchen MIL20 MIL14 Lauersmühle Sperrung ab 22-Juni | https://aschaffenburg.news/bayern/landkreis-miltenberg/ | verkehr | miltenberg
-
-### 2026-06-21 (Ausgabe 3 – 11:12 Uhr)
-- Auffahrunfall Schillerstraße Aschaffenburg 3 Fahrzeuge Rettungsdienst leicht verletzt | https://www.main-echo.de/ressorts/blaulicht/ | blaulicht | aschaffenburg
-- Tag offene Gesellschaft Alzenau 150 Menschen Demokratie-Frühstück Treffpunkt-Offline DAGA | https://www.main-echo.de/region/stadt-kreis-aschaffenburg/ | gesellschaft | alzenau
-- Marktheidenfeld Passanten-Umfrage Einzelhandel Leerstand Innenstadt Fußgängerzone | https://www.main-echo.de/region/kreis-main-spessart/ | wirtschaft | marktheidenfeld
-- Jakobskreuzkraut Kreuzwertheim Erlichgärten 40 Freiwillige Naturpark Spessart Natura-2000 | https://www.meine-news.de/landkreis-main-spessart/c-natur-und-tiere/gemeinsam-gegen-das-jakobskreuzkraut_a237217 | umwelt | kreuzwertheim
-- Miltenberg Landrat Björn Bartels Amtsübernahme Jens Marco Scherf verabschiedet 12-Jahre | https://www.infranken.de/lk/miltenberg/uebersicht/ | politik | miltenberg
-- Lohr Stadtwald Rekordjahr 2026 Forstchef Neuner Holzerlöse Borkenkäfer zurück | https://www.main-echo.de/region/kreis-main-spessart/lohrer-stadtwald-weswegen-2026-ein-rekordjahr-werden-koennte-art-8734240 | wirtschaft | lohr
-- Museumsnacht Aschaffenburg 11-Juli Vorverkauf gestartet Museen Pompejanum 19-bis-0-Uhr | https://www.aschaffenburg.de/Politik-Verwaltung/Presse/Aktuelle-Meldungen/Museumsnacht-am-Samstag-11-Juli-Vorverkauf-gestartet.php | kultur | aschaffenburg
-- Stiftsmuseum Aschaffenburg Öffnungszeiten Personalengpass Einschränkungen Juni | https://www.aschaffenburg.de/Politik-Verwaltung/Presse/Aktuelle-Meldungen/ | kultur | aschaffenburg
-- Trauer Günter Dehn Aschaffenburg Kommunalpolitiker gestorben prägend Stadtentwicklung | https://www.aschaffenburg.de/Politik-Verwaltung/Presse/Aktuelle-Meldungen/Trauer-um-G%C3%BCnter-Dehn.php | gesellschaft | aschaffenburg
-- Nachhaltigkeitspreis Aschaffenburg bio-verlag Stadtjugendring Stadttheater Umweltbildung | https://www.aschaffenburg.de/Politik-Verwaltung/Presse/Aktuelle-Meldungen/Stadt-verleiht-Nachhaltigkeitspreis.php | gesellschaft | aschaffenburg
-- Mömbris Tag der Musik 25-Jahre Haus-der-Musik Gunzenbach Jubiläum Konzert kostenlos | https://www.landkreis-aschaffenburg.de/ | kultur | mömbris
-- Lohr Maingalerie eröffnet Auftakt Vernissage Schuh-Heiner Kreativ-Begegnungsraum | https://www.main-echo.de/region/kreis-main-spessart/ein-ort-fuer-kreativitaet-und-begegnung-art-8731211 | kultur | lohr
-- Lohr Biodiversitäts-Modellprojekt Florian-Lang Anschlussfinanzierung ungesichert 2028 | https://www.main-echo.de/region/kreis-main-spessart/lohrer-modellprojekt-vor-dem-aus-art-8732938 | umwelt | lohr
-- BKH Lohr Gerontopsychiatrie Neubau Sommerberg Aschaffenburg Miltenberg Main-Spessart 2027 | https://www.main-echo.de/region/kreis-main-spessart/neue-klinik-fuer-aeltere-patienten-art-8727114 | gesundheit | lohr
-
-### 2026-06-21 (Ausgabe 2 – Sommersonnenwende)
-- Unfall A3 Weibersbrunn Gewitterregen Fahrzeug Schrottwert Feuerwehr Fahrer verletzt | https://www.main-echo.de/ressorts/blaulicht/gewitterregen-am-samstagabend-unfall-auf-der-a3-fahrer-verletzt-art-8738324 | blaulicht | regional
-- Windenrettung Rothenfels Hubschrauber Patientin unzugängliches Gelände | https://www.main-echo.de/ressorts/blaulicht/spektakulaere-windenrettung-hubschrauber-hebt-patientin-aus-unwegsamem-gelaende-in-rothenfels-art-8737178 | blaulicht | rothenfels
-- Sparkasse Aschaffenburg Miltenberg Verwaltungsrat Wahl keine Frauen Grüne Kritik 30 Jahre | https://www.meine-news.de/aschaffenburg/c-politik/verwaltungsrat-der-sparkasse-gewaehlt-keine-angemessene-vertretung-von-frauen_a237586 | politik | aschaffenburg
-- WM 2026 Deutschland Elfenbeinküste Public Viewing Volksfest Aschaffenburg Festzelt | https://www.main-echo.de/region/stadt-kreis-aschaffenburg/aschaffenburger-volksfest-2026-alle-tage-alle-bilder-unsere-uebersicht-art-8735972 | sport | aschaffenburg
-- Großostheimer Weinfest 2. Auflage Olympiahain 19-22-Juni vier Tage Weingüter frei | https://www.main-echo.de/region/stadt-kreis-aschaffenburg/grossostheimer-weinfest-zweite-auflage-an-neuem-ort-art-8736439 | kultur | grossostheim
-- BR3-Partyschiff Lohr Main 200 Gäste Flugplatzrennen Wochenend-Highlights Bilder | https://www.main-echo.de/region/stadt-kreis-aschaffenburg/fotos-vom-wochenende-volksfest-in-aschaffenburg-und-mehr-art-8737099 | gesellschaft | regional
-- Philipp von Hahn Gemünden Nachruf Sportler Arzt Kommunalpolitiker verstorben | https://www.main-echo.de/region/kreis-main-spessart/ | gesellschaft | gemünden
-- Stromausfall Main-Spessart Freitag 2000 Haushalte Bayernwerk Störung Gemeinden | https://aktuell.meinestadt.de/kreis-main-spessart | gesellschaft | main-spessart
-- Obernburg 1,6 Promille Fahrer Verkehrskontrolle Führerschein Strafverfahren Miltenberg | https://aschaffenburg.news/ | blaulicht | miltenberg
-- Gräfendorf Wohnanhänger löst sich Fahrt Kupplung Polizei Zeugen | https://aschaffenburg.news/ | blaulicht | main-spessart
-- Kreisumlage Main-Spessart Landrat Vogel Bauausgaben 21,7-Millionen anders takten Kommunen | https://www.main-echo.de/region/kreis-main-spessart/ | politik | main-spessart
-
-### 2026-06-20
-- Brand Karlstadt Wernfelder Straße Schuppen Wohnhäuser sechsstellig | https://www.infranken.de/lk/main-spessart/blaulicht/feuer-in-karlstadt-brand-zerstoert-schuppen-und-beschaedigt-wohnhaeuser-art-6369478 | blaulicht | karlstadt
-- Zollkontrolle Taxi Mietwagengewerbe Hauptzollamt Schweinfurt 70 Einsatzkräfte | https://aschaffenburg.news/blaulicht/zollkontrolle-von-taxi-und-mietwagengewerbe.html | blaulicht | regional
-- Rockerkrieg Marktheidenfeld Massenschlägerei 2024 Urteile Analyse | https://www.main-echo.de/region/kreis-main-spessart/ | justiz | main-spessart
-- Suchtpräventionsstelle Jugendliche Landkreis Aschaffenburg Jugendamt Legler | https://aschaffenburg.news/ab/aschaffenburg/aschaffenburg/aschaffenburg-suchtpr%C3%A4ventionsstelle-f%C3%BCr-jugendliche-beschlossen.html | politik | aschaffenburg
-- CMBlu Alzenau Bundeswirtschaftsministerin Reiche Lithiumfreie Energiespeicher | https://www.primavera24.de/aktuelles/news/bundeswirtschaftsministerin-reiche-besucht-cmblu-in-alzenau | wirtschaft | alzenau
-- Mömbris Grundschule Neubau ohne Waschbecken Klassenräume Gemeinderat Streit | https://www.main-echo.de/region/stadt-kreis-aschaffenburg/ | gesellschaft | mömbris
-- Aschaffenburg 97 Volksfest Eröffnung OB Schlemmer Bieranstich Feuerwerk | https://www.meine-news.de/aschaffenburg/c-kultur/volksfest-eroeffnung-aschaffenburg-19062026_a237463 | kultur | aschaffenburg
-- Volksfestumzug Aschaffenburg ohne Pferdekutschen Hitzeschutz Tiere | https://aschaffenburg.news/ab/aschaffenburg/aschaffenburg/aschaffenburg-volksfestumzug-ohne-pferde.html | gesellschaft | aschaffenburg
-- DWD Hitzewarnung Unterfranken Franken 34-5-Grad Stufe-2 Gewitter | https://www.infranken.de/lk/franken/wetter-in-franken-es-wird-schwuel-heiss-mit-einzelnen-gewittern-art-6369076 | klima | regional
-- Hasloch Starkregen Gutachten 3 Jahre Gemeinderat Maßnahmen | https://www.main-echo.de/region/kreis-main-spessart/ | umwelt | hasloch
-- Main-Spessart Bevölkerungsrückgang demografischer Wandel Einwohnerzahlen 127600 | https://www.main-echo.de/region/kreis-main-spessart/ | gesellschaft | main-spessart
-- Lohr Gastronom Jugendzentrum Partyreihe Freitagabende Jugendliche 14-18 | https://www.main-echo.de/region/kreis-main-spessart/ | gesellschaft | lohr
-- Frontalunfall B276 Lohr Sattelzug Frau eingeklemmt schwer verletzt Hubschrauber | https://www.infranken.de/lk/main-spessart/blaulicht/lohr-auto-kracht-frontal-in-lkw-frau-eingeklemmt-und-schwer-verletzt-art-6368852 | blaulicht | main-spessart
-- Göbig Erodier-Service GmbH Heinrichsthal Firmenauflösung 1280 Artikel Versteigerung restlos.com | https://www.infranken.de/lk/aschaffenburg/firmenaufloesung-in-heinrichsthal-goebig-gmbh-mit-grosser-versteigerung-art-6366720 | wirtschaft | heinrichsthal
-- Sailauf Rastplatz Birkenhain A3 Diesel abgezapft drei Lkw Verkehrspolizei | https://www.meine-news.de/sailauf/c-blaulicht/sailauf-unbekannte-zapfen-dieselkraftstoff-ab_a237457 | blaulicht | sailauf
-
-### 2026-06-19
-- Hunger Hydraulik Insolvenz Lohr 68 Jahre 100 Mitarbeitende | https://www.infranken.de/lk/main-spessart/industriebetrieb-hunger-hydraulik-ist-insolvent-68-jaehrige-geschichte-art-6368165 | wirtschaft | lohr
-- Frontalunfall B276 Lohr-Partenstein Frau eingeklemmt Hubschrauber | https://sw1.news/notruf-schweinfurt/schwerer-verkehrsunfall-auf-der-b276-bei-lohr-am-mainr | blaulicht | main-spessart
-- Sozialer Aufstand Demo 27-Juni Theaterparkplatz Aschaffenburg | https://www.meine-news.de/aschaffenburg/c-politik/sozialprotest-in-aschaffenburg-startet-mit-starkem-signal_a237391 | politik | aschaffenburg
-- Nilkheim Bahnunterführung Stadtrat Neubau Vollsperrung 2027 | https://www.main-echo.de/region/stadt-kreis-aschaffenburg/aschaffenburger-stadtrat-macht-den-weg-fuer-neue-unterfuehrung-in-nilkheim-frei-ein-jahr-vollsperrung-art-8737288 | verkehr | aschaffenburg
-- Hösbach Hauptstraße B26 Wiedereröffnung 26-Juni 12-Millionen | https://www.main-echo.de/region/stadt-kreis-aschaffenburg/ | verkehr | regional
-- Mainaschaff evangelische Kirche Gemeindezentrum Verkauf droht | https://www.main-echo.de/ | gesellschaft | regional
-- Miltenberg Burgmuseum Neuausrichtung historisch Stadtrat 250000 | https://www.main-echo.de/ | kultur | miltenberg
-- Kennzeichendiebstahl A3 Rastplatz Kohlsberg Süd Marktheidenfeld Audi | https://www.meine-news.de/marktheidenfeld/c-blaulicht/marktheidenfeld-kennzeichen-entwendet_a237349 | blaulicht | main-spessart
-- Kellerbrand Aschaffenburg 12 Verletzte Feuerwehr Rettungsaktion | https://www.infranken.de/lk/aschaffenburg/blaulicht/ | blaulicht | aschaffenburg
-- A45-Sperrung Mainbrücke Kleinostheim Arbeiten Umleitungen | https://www.infranken.de/lk/aschaffenburg/ | verkehr | regional
-- Messerangriff Elsenfeld Frau tödlich verletzt Bahnhof | https://aschaffenburg.news/nachrichten.html | blaulicht | regional
-- Tötungsdelikt Elsenfeld U-Haft 27-jährig Amtsgericht Gemünden | https://aschaffenburg.news/blaulicht/ | justiz | regional
-- Akkubrand E-Auto-Zulieferer Karlstein Lagerhallen Millionenschaden | https://www.infranken.de/lk/aschaffenburg/blaulicht/ | blaulicht | regional
-- Kulturtage Aschaffenburg 27-Auflage 2-12-Juli Programm | https://kulturtage.kulturamt-aschaffenburg.de/ | kultur | aschaffenburg
-- Mordprozess Sabine B. Landgericht Würzburg Cold Case | https://www.main-echo.de/region/kreis-main-spessart/ | justiz | main-spessart
