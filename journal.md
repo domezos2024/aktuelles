@@ -1,20 +1,37 @@
 # Tagesnachrichten-Journal – domezos2024/aktuelles
 
-## Design – 2026-06-28 – 06:25 Uhr CEST
-- Schema: smaragdgrün-kalk
-- Header-Gradient: #1B5E20 → #2E7D32 → #388E3C (Dunkelgrün zu Smaragd zu Frühlingsgrün)
-- Seasonal-Banner: #FF6D00 → #F57C00 → #FFB300 (Orange zu Bernstein – Peter & Paul / Hitzewelle)
-- Hintergrund: #F3F8EE
-- Karten: #FFFFFF, border #B2DFDB
-- Akzentfarben: #1B5E20 · #2E7D32 · #FF8F00 · #BF360C · #1565C0 · #4527A0 · #00695C
+## Design – 2026-06-28 – 12:05 Uhr CEST
+- Schema: Tiefblau-Sommergold (Mediterranean Summer Blue)
+- Header-Gradient: #1A237E → #283593 → #3949AB (Deep Indigo zu Kobalt zu Blau)
+- Seasonal-Banner: #F57F17 → #F9A825 → #FFB300 (Bernstein/Gold – Sieben Schläfer, Peter & Paul)
+- Hintergrund: #EFF3FF
+- Karten: #FFFFFF, border #C5CAE9
+- Akzentfarben: #1A237E · #3949AB · #F9A825 · #C62828 · #6A1B9A · #4527A0 · #880E4F
 - Layout: grid-3col (responsive 2col/1col)
-- Fonts: Georgia serif (Überschriften) · Tahoma sans-serif (Fließtext)
+- Fonts: Palatino Linotype serif (Überschriften) · Verdana sans-serif (Fließtext)
 
 ---
 
 ## Themen-Archiv (letzte 10 Tage – NICHT wiederholen!)
 
-### 2026-06-28 ← heute, neu hinzugefügt
+### 2026-06-28 (Ausgabe 2 – 12:05 Uhr CEST) ← heute, neu hinzugefügt
+- Gasflasche-Balkon Aschaffenburg-Damm Brand Evakuierung Kriminalpolizei-Ermittlung | https://www.main-echo.de/ressorts/blaulicht/ | blaulicht | aschaffenburg
+- Sulzbach Skoda Radweg 19-Jähriger ohne Führerschein Alkohol Baum-Unfall Kreisklinik | https://www.main-echo.de/region/stadt-kreis-aschaffenburg/ | blaulicht | lkr-aschaffenburg
+- Waldbrandgefahr Bayern Stufe-5 DWD Spessart Unterfranken Drohnenpatrouille StMI | https://www.stmi.bayern.de/ | klima | spessart
+- Waldbrandübung Gemünden zehn-Feuerwehren 180-Kräfte Schlauchstrecken Spessart | https://www.main-echo.de/region/kreis-main-spessart/ | feuerwehr | gemünden
+- Erthal-Gymnasium Lohr Abitur 82-Absolventen Stadthalle Jahrgang-2026 | https://www.main-echo.de/region/kreis-main-spessart/ | bildung | lohr
+- Friedrich-List-Gymnasium Gemünden Abitur 68-Absolventen Kulturforum Jahrgang-2026 | https://www.main-echo.de/region/kreis-main-spessart/ | bildung | gemünden
+- Popchor Frammersbach Sommerserenade Abschied Vollmuth 14-Jahre Dirigent Marktplatz | https://www.meine-news.de/frammersbach/ | kultur | frammersbach
+- Sound-of-Summer Alzenau-Michelbach Rosengarten 1000-Besucher Open-Air Gratiskonzert | https://aschaffenburg.news/ | kultur | alzenau
+- Denk-mal-Rad-mal Laufach Heigenbrücken LEADER Themenradrouten QR-Codes Tourismus | https://www.meine-news.de/laufach/ | freizeit | lkr-aschaffenburg
+- Bodenrichtwerte-2026 Aschaffenburg Gutachterausschuss stabil 2-4-Prozent-Steigerung | https://aschaffenburg.news/ | wirtschaft | aschaffenburg
+- Stadtkapelle-Gemünden Sommernachtskonzert Schlossgarten 600-Besucher 125-Jahre-Bestehen | https://www.main-echo.de/region/kreis-main-spessart/ | kultur | gemünden
+- ÖPNV-digital Goldbach Infoabend-30-Juni Echtzeit-Tracking Buslinien App Herbst-2026 | https://aschaffenburg.news/ab/goldbach/ | verkehr | goldbach
+- Temposünder-Bayern eine-Million Verkehrsüberwachung-2025 A3-Aschaffenburg Herrmann | https://www.infranken.de/lk/main-spessart/ | polizei | bayern
+- Drüsenameise Lasius-fuliginosus Aschaffenburg-Leider Ausbreitung Bekämpfung Umweltamt | https://aschaffenburg.news/ab/aschaffenburg/ | gesellschaft | aschaffenburg
+- Peter-und-Paul-Hochfest 29-Juni Apostel Dom-Aschaffenburg Pontifikalamt Bauernregel | https://www.bistum-wuerzburg.de/ | kirchlich | regional
+
+### 2026-06-28 (Ausgabe 1 – 06:25 Uhr CEST)
 - Anneliese-Michel 50-Todestag Klingenberg Exorzismus Pilgerort Hollywood-Film 1-Juli-1976 | https://www.main-echo.de/region/kreis-main-spessart/ | kultur | miltenberg
 - Aquaphobie-Festival 10-Jahre-Jubiläum Erlenbach-am-Main Open-Air Mainufer Musik Bands | https://www.meine-news.de/erlenbach-amain/ | kultur | erlenbach
 - WM-2026-Deutschland-Paraguay Gruppenphase Public-Viewing Volksfest-Aschaffenburg Nagelsmann | https://www.sportschau.de/fussball/fifa-wm-2026/ | sport | national
@@ -65,7 +82,7 @@
 - Burgsinn Penny-Schafe-Wilma-Foto 6-Monate-später Herde-wohlauf Patenschaft | https://www.main-echo.de/region/main-spessart/burgsinn/art_819843 | gesellschaft | burgsinn
 - Aschaffenburg 13-Jähriger-ROB Zeugenaufruf-weiter Ermittlungen Gelderpressung | https://aschaffenburg.news/ab/aschaffenburg/stadtmitte/aschaffenburg-13-j%C3%A4hriger-am-busbahnhof-angegriffen.html | blaulicht | aschaffenburg
 
-### 2026-06-26 ← (Ausgabe 1 – 06:10 Uhr CEST)
+### 2026-06-26 (Ausgabe 1 – 06:10 Uhr CEST)
 - Johannesberg Wald 60-goldene-Ringe Kinder-Fund Einmachglas Hochzeitsdaten Kriminalpolizei | https://www.infranken.de/lk/aschaffenburg/blaulicht/kreis-aschaffenburg-mysterioeser-schmuckfund-im-wald-gibt-raetsel-auf-art-6371831 | blaulicht | lkr-aschaffenburg
 - Aschaffenburg 13-Jähriger Busbahnhof-ROB angegriffen Jugendliche Gelderpressung Zeugen | https://aschaffenburg.news/ab/aschaffenburg/stadtmitte/aschaffenburg-13-j%C3%A4hriger-am-busbahnhof-angegriffen.html | blaulicht | aschaffenburg
 - Aschaffenburg Betrüger-Gehörlose Spendentrick-Innenstadt Polizei Bargeld Passanten | https://aschaffenburg.news/ab/aschaffenburg/stadtmitte/aschaffenburg-mutma%C3%9Fliche-betr%C3%BCger-geben-sich-als-geh%C3%B6rlose-aus.html | blaulicht | aschaffenburg
@@ -98,7 +115,6 @@
 - Social-Media Mindestalter 13-Jahre Prien Expertenrat Bundesgesetz Jugendschutz | https://www.main-echo.de/region/kreis-main-spessart/ | gesellschaft | national
 - Hitzewelle Bayern 5-Tipps kühles-Zuhause Verbraucherzentrale 35-Grad 116117 | https://aschaffenburg.news/verbraucher/hitze-in-bayern-5-tipps-für-ein-kühles-zuhause.html | verbraucher | bayern
 - FFW-Rodenbach 150-Jahre Jubiläum Festwochenende 27-29-Juni Public-Viewing WM | https://www.ffw-rodenbach.de/150-jahre-freiwillige-Feuerwehr-rodenbach/ | gesellschaft | rodenbach-lohr
-- Demo Sozialer-Aufstand 27-Juni Theaterparkplatz Aschaffenburg Programm bekannt | https://www.meine-news.de/aschaffenburg/c-politik/sozialprotest-in-aschaffenburg-startet-mit-starkem-signal_a237391 | politik | aschaffenburg
 
 ### 2026-06-25 (Ausgabe 1 – 06:12 Uhr CEST)
 - Retzbach Zellingen 66-Jährige tot aufgefunden Vermisstensuche Waldgebiet Kriminalpolizei | https://www.meine-news.de/zellingen/c-blaulicht/retzbach-widerruf-der-vermisstenfahndung-66-jaehrige-tot-aufgefunden_a237913 | blaulicht | main-spessart
