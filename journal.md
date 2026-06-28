@@ -1,20 +1,37 @@
 # Tagesnachrichten-Journal – domezos2024/aktuelles
 
-## Design – 2026-06-27 – 06:14 Uhr CEST
-- Schema: nachtblau-sandstein
-- Header-Gradient: #0D2240 → #1A4A7A → #2E7CB8 (Nacht-Navy zu Kobaltblau zu Cornflower)
-- Seasonal-Banner: #7B1C00 → #B54D00 → #E8780A (Ziegelrot zu Terrakotta zu Amber)
-- Hintergrund: #FAF6EE
-- Karten: #FFFFFF, border #DFD8C8
-- Akzentfarben: #F4A23D · #D44000 · #1A4A7A · #2E7D32 · #5E35B1 · #004D40 · #0D2240
-- Layout: grid-2col (responsive 1col)
-- Fonts: Trebuchet MS sans-serif (Überschriften) · Palatino Linotype serif (Fließtext)
+## Design – 2026-06-28 – 06:25 Uhr CEST
+- Schema: smaragdgrün-kalk
+- Header-Gradient: #1B5E20 → #2E7D32 → #388E3C (Dunkelgrün zu Smaragd zu Frühlingsgrün)
+- Seasonal-Banner: #FF6D00 → #F57C00 → #FFB300 (Orange zu Bernstein – Peter & Paul / Hitzewelle)
+- Hintergrund: #F3F8EE
+- Karten: #FFFFFF, border #B2DFDB
+- Akzentfarben: #1B5E20 · #2E7D32 · #FF8F00 · #BF360C · #1565C0 · #4527A0 · #00695C
+- Layout: grid-3col (responsive 2col/1col)
+- Fonts: Georgia serif (Überschriften) · Tahoma sans-serif (Fließtext)
 
 ---
 
 ## Themen-Archiv (letzte 10 Tage – NICHT wiederholen!)
 
-### 2026-06-27 ← heute, neu hinzugefügt
+### 2026-06-28 ← heute, neu hinzugefügt
+- Anneliese-Michel 50-Todestag Klingenberg Exorzismus Pilgerort Hollywood-Film 1-Juli-1976 | https://www.main-echo.de/region/kreis-main-spessart/ | kultur | miltenberg
+- Aquaphobie-Festival 10-Jahre-Jubiläum Erlenbach-am-Main Open-Air Mainufer Musik Bands | https://www.meine-news.de/erlenbach-amain/ | kultur | erlenbach
+- WM-2026-Deutschland-Paraguay Gruppenphase Public-Viewing Volksfest-Aschaffenburg Nagelsmann | https://www.sportschau.de/fussball/fifa-wm-2026/ | sport | national
+- TC-Blankenbach Padel-Platz-Eröffnung Trendsport Glasfeld Kurse Lkr-Aschaffenburg | https://aschaffenburg.news/ | sport | blankenbach
+- Bezirkstagspräsident-Dotzel krankes-System Krankenhausreform Eingliederungshilfe Unterfranken | https://www.infranken.de/lk/main-spessart/ | politik | unterfranken
+- Lohr-Bahnhof Hostel-Umbau Reisende-Pendler Baugenehmigung Eröffnung-Sommer-2026 | https://www.main-echo.de/region/kreis-main-spessart/ | gesellschaft | lohr
+- Kahl-am-Main Audi-Opel-Kreuzungscrash drei-Verletzte Vorfahrt-Missachtung Abschleppdienst | https://www.main-echo.de/ressorts/blaulicht/ | blaulicht | kahl
+- Glascontainer-Südspessart Abbau Zweckverband Miltenberg Anwohner-Protest Recycling | https://www.main-echo.de/region/kreis-main-spessart/ | gesellschaft | miltenberg
+- Benefiz-Rudelsingen Aschaffenburg Innenstadt sozialer-Zweck Gesang Gemeinschaft | https://www.meine-news.de/aschaffenburg/ | kultur | aschaffenburg
+- Zollämter-schließen 1-Juli Strukturreform Bundesfinanzdirektion Hauptzollamt-Schweinfurt IHK | https://www.main-echo.de/region/stadt-kreis-aschaffenburg/ | verwaltung | regional
+- Maintalhof-Erlach Sommerführung Biobauernhof Permakultur Alte-Rassen Kinder-Familien | https://www.meine-news.de/landkreis-main-spessart/ | natur | erlach
+- Ringstraße-Aschaffenburg Nachtbaustelle Vollsperrung Asphalt-Erneuerung Juli-2026 | https://aschaffenburg.news/ab/aschaffenburg/aschaffenburg/ | verkehr | aschaffenburg
+- Buslinie-9-Aschaffenburg Umleitung Glattbach Straßenbau zwei-Wochen Ersatzhaltestellen | https://aschaffenburg.news/ab/glattbach/glattbach/ | verkehr | aschaffenburg
+- Glauber-Bayern KommKlimaFöR Hitzeschutz-Kommunen Trinkbrunnen Begrünung Förderantrag | https://aschaffenburg.news/politik/ | umwelt | bayern
+- Kupferdiebe-Laufach-Hain Festnahme frische-Tat Baustromverteiler Kupferkabel Einbruchswerkzeug | https://aschaffenburg.news/ab/ | blaulicht | laufach
+
+### 2026-06-27
 - Kahl-am-Main Zwei-15-Jährige-ohne-Fahrerlaubnis Nacht Reizstoffsprühgeräte Ermittlung | https://aschaffenburg.news/kahl-am-main/kahl-am-main-polizei-stoppt-zwei-15-j%C3%A4hrige-ohne-fahrerlaubnis.html | blaulicht | kahl
 - Goldbach Kleinkind-18Monate-Hitzeauto-eingeschlossen Großmutter Scheibe-eingeschlagen Rettungsdienst | https://www.infranken.de/lk/aschaffenburg/blaulicht/goldbach-eingeschlossenes-kleinkind-mit-gewalt-aus-auto-befreit-art-6372372 | blaulicht | goldbach
 - Klingenberg Schwimmbad-Kokain 40-Jähriger-festgenommen Haschisch Survival-Schaufel Waffen | https://aschaffenburg.news/bayern/landkreis-miltenberg/klingenberg-kokain-auf-schwimmbad-toilette-konsumiert.html | blaulicht | miltenberg
