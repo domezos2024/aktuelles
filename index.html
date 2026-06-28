@@ -3,523 +3,435 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Tagesnachrichten – Lohr am Main &amp; Aschaffenburg · Samstag, 27. Juni 2026</title>
+<title>Tagesnachrichten Lohr · Aschaffenburg – So, 28. Juni 2026</title>
 <style>
-/* ===== DESIGN: nachtblau-sandstein · 2026-06-27 ===== */
-/* Fonts: Trebuchet MS (Überschriften) · Palatino Linotype (Fließtext) */
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
-body{font-family:'Palatino Linotype','Book Antiqua',Palatino,Georgia,serif;font-size:14px;line-height:1.68;background:#FAF6EE;color:#1A1A1A}
-
-/* HEADER */
-.site-header{background:linear-gradient(135deg,#0D2240 0%,#1A4A7A 55%,#2E7CB8 100%);color:#fff;padding:1.6rem 1.5rem 1.2rem;text-align:center;border-bottom:4px solid #F4A23D}
-.site-header h1{font-family:'Trebuchet MS',Tahoma,Arial,sans-serif;font-size:1.75rem;font-weight:bold;letter-spacing:.02em;margin-bottom:.35rem;text-shadow:0 2px 6px rgba(0,0,0,.3)}
-.site-header .dateline{font-size:.84rem;opacity:.92;letter-spacing:.05em}
-.site-header .dateline span{background:rgba(255,255,255,.18);padding:.15rem .6rem;border-radius:12px;margin:.15rem .2rem;display:inline-block}
-
-/* SAISONAL-BANNER */
-.seasonal-banner{background:linear-gradient(90deg,#7B1C00 0%,#B54D00 50%,#E8780A 100%);color:#FFF3E0;padding:1.1rem 1.5rem;text-align:center}
-.sb-inner{max-width:980px;margin:0 auto}
-.seasonal-banner h2{font-family:'Trebuchet MS',Tahoma,Arial,sans-serif;font-size:1.07rem;font-weight:bold;margin-bottom:.45rem;letter-spacing:.02em}
-.seasonal-banner p{font-size:.82rem;line-height:1.58;opacity:.96}
-.sb-divider{margin:.7rem auto;border:none;border-top:1px solid rgba(255,255,255,.3);max-width:400px}
-
-/* NEWSLETTER */
-.newsletter-bar{background:#0D2240;color:#BDD6EA;padding:1.2rem 1.5rem;text-align:center}
-.newsletter-bar h3{font-family:'Trebuchet MS',Tahoma,Arial,sans-serif;font-size:1.1rem;font-weight:bold;color:#F4A23D;margin-bottom:.4rem}
-.newsletter-bar p{font-size:.79rem;margin-bottom:.8rem;opacity:.85}
-.nl-form{display:flex;justify-content:center;gap:.5rem;flex-wrap:wrap;align-items:center}
-.nl-form input[type="email"]{padding:.6rem 1.1rem;border:2px solid #2E7CB8;border-radius:8px;font-size:.92rem;width:290px;background:#FAF6EE;color:#1A1A1A;outline:none;font-family:'Palatino Linotype',Georgia,serif}
-.nl-form input[type="email"]:focus{border-color:#F4A23D;box-shadow:0 0 0 3px rgba(244,162,61,.25)}
-.nl-form button{padding:.6rem 1.4rem;background:#F4A23D;color:#1A1A1A;border:none;border-radius:8px;font-size:.92rem;font-weight:bold;cursor:pointer;font-family:'Trebuchet MS',Tahoma,Arial,sans-serif;letter-spacing:.02em}
-.nl-form button:hover{background:#D44000;color:#fff}
-.nl-note{font-size:.71rem;color:#5F96B8;margin-top:.5rem}
-
-/* WETTER */
-.weather-section{background:#ECF4FB;border-bottom:2px solid #9EC3DF;padding:1.2rem 1.5rem}
-.weather-section h2{font-family:'Trebuchet MS',Tahoma,Arial,sans-serif;font-size:1.1rem;color:#0D2240;margin-bottom:.9rem;border-left:4px solid #2E7CB8;padding-left:.65rem}
-.weather-days{display:flex;gap:1rem;flex-wrap:wrap;margin-bottom:1rem}
-.wd-card{background:#fff;border:1px solid #9EC3DF;border-radius:10px;padding:.85rem 1.1rem;flex:1;min-width:160px}
-.wd-card h3{font-family:'Trebuchet MS',Tahoma,Arial,sans-serif;font-size:.88rem;color:#0D2240;margin-bottom:.35rem;font-weight:bold}
-.wd-icon{font-size:2.2rem;line-height:1}
-.wd-temps{font-size:.87rem;margin-top:.3rem}
-.wd-max{color:#C5460A;font-weight:bold}
-.wd-min{color:#1A4A7A}
-.wd-cond{font-size:.76rem;color:#555;margin-top:.25rem}
-.weather-scroll-label{font-size:.76rem;color:#555;margin-bottom:.35rem;font-family:'Trebuchet MS',Tahoma,Arial,sans-serif}
-.weather-scroll{overflow-x:auto;-webkit-overflow-scrolling:touch;padding-bottom:.3rem}
-.weather-hourly{display:flex;gap:.45rem;min-width:max-content;padding-bottom:.2rem}
-.wh{background:#fff;border:1px solid #9EC3DF;border-radius:8px;padding:.5rem .55rem;text-align:center;min-width:62px}
-.wh-now{border-color:#F4A23D;background:#FFF8EE;border-width:2px}
-.wh-time{font-size:.68rem;color:#555}
-.wh-icon{font-size:1.25rem;margin:.18rem 0}
-.wh-temp{font-size:.82rem;font-weight:bold;color:#C5460A}
-.wh-wind{font-size:.64rem;color:#666}
-
-/* HAUPTINHALT */
-.main-container{max-width:1280px;margin:0 auto;padding:1.5rem}
-.section-title{font-family:'Trebuchet MS',Tahoma,Arial,sans-serif;font-size:1.2rem;color:#0D2240;border-left:5px solid #F4A23D;padding-left:.75rem;margin-bottom:1.2rem}
-
-/* NEWS GRID – 2 Spalten */
-.news-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:1.25rem}
-@media(max-width:800px){.news-grid{grid-template-columns:1fr}}
-
-/* NEWS CARD */
-.nc{background:#fff;border:1px solid #DFD8C8;border-radius:10px;padding:1rem 1.05rem;position:relative;overflow:hidden}
-.nc-top-bar{position:absolute;top:0;left:0;right:0;height:3.5px}
-.nc-top-blaulicht{background:#1565C0}
-.nc-top-politik{background:#880E4F}
-.nc-top-wirtschaft{background:#1B5E20}
-.nc-top-gesellschaft{background:#E65100}
-.nc-top-kultur{background:#5E35B1}
-.nc-top-klima{background:#00695C}
-.nc-top-verkehr{background:#E65100}
-.nc-top-umwelt{background:#2E7D32}
-
-.nc-badges{display:flex;gap:.35rem;flex-wrap:wrap;margin:.35rem 0 .65rem}
-.badge{font-size:.66rem;font-weight:bold;padding:.22rem .55rem;border-radius:4px;text-transform:uppercase;letter-spacing:.03em;color:#fff;white-space:nowrap;font-family:'Trebuchet MS',Tahoma,Arial,sans-serif}
-/* Kategorie-Badges */
-.b-blaulicht{background:#1565C0}
-.b-politik{background:#880E4F}
-.b-wirtschaft{background:#1B5E20}
-.b-gesellschaft{background:#E65100}
-.b-kultur{background:#5E35B1}
-.b-klima{background:#00695C}
-.b-verkehr{background:#B5730A;color:#fff}
-.b-umwelt{background:#2E7D32}
-/* Region-Badges */
-.b-kahl{background:#1A7A3E}
-.b-goldbach{background:#00695C}
-.b-klingenberg{background:#4E342E}
-.b-aschaffenburg{background:#004D40}
-.b-lohr{background:#4A148C}
-.b-main-spessart{background:#263238}
-.b-miltenberg{background:#37474F}
-.b-marktheidenfeld{background:#1A237E}
-.b-trennfeld{background:#4A148C}
-.b-rieneck{background:#37474F}
-.b-regional{background:#546E7A}
-.b-lkr-aschaffenburg{background:#00695C}
-
-.nc h3{font-family:'Trebuchet MS',Tahoma,Arial,sans-serif;font-size:.97rem;font-weight:bold;line-height:1.37;margin-bottom:.5rem;color:#0D2240}
-.nc-text{font-size:.83rem;line-height:1.62;color:#2D2D2D}
-.nc-source{display:inline-block;font-size:.73rem;color:#1A6FA8;margin-top:.72rem;text-decoration:none;font-family:'Trebuchet MS',Tahoma,Arial,sans-serif}
-.nc-source:hover{text-decoration:underline;color:#0D2240}
-
-/* MEDIEN-BOX (Bild/Video oben rechts) */
-.nc-media{float:right;margin:0 0 .55rem .75rem;max-width:130px}
-.nc-img-link{display:block;line-height:0}
-.nc-img-link img{width:120px;height:90px;object-fit:cover;border-radius:6px;border:1.5px solid #DFD8C8;display:block}
-.nc-video-wrap{display:block;position:relative;line-height:0}
-.nc-video-wrap img{width:120px;height:90px;object-fit:cover;border-radius:6px;border:1.5px solid #DFD8C8;display:block}
-.nc-video-wrap::after{content:'▶';position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);font-size:1.7rem;color:#fff;text-shadow:0 0 10px rgba(0,0,0,.9);pointer-events:none}
-.nc-video-label{display:block;font-size:.67rem;color:#1A6FA8;text-align:center;margin-top:.3rem;text-decoration:none;font-family:'Trebuchet MS',Tahoma,Arial,sans-serif}
-.nc-video-label:hover{text-decoration:underline}
-.nc-clearfix::after{content:'';display:table;clear:both}
-
-/* CSS-LIGHTBOX (kein JS) */
-.lb-overlay{display:none;position:fixed;top:0;left:0;width:100%;height:100%;background:rgba(0,0,0,.9);z-index:9999;align-items:center;justify-content:center;flex-direction:column;cursor:zoom-out}
-.lb-overlay:target{display:flex}
-.lb-overlay img{max-width:92vw;max-height:82vh;border-radius:8px;border:3px solid #fff;box-shadow:0 0 50px rgba(0,0,0,.8);cursor:default}
-.lb-close{display:block;margin-top:1rem;color:#fff;font-size:.9rem;text-decoration:none;background:rgba(255,255,255,.2);padding:.4rem 1.1rem;border-radius:6px;font-family:'Trebuchet MS',Tahoma,Arial,sans-serif}
-.lb-close:hover{background:rgba(255,255,255,.38)}
-
-/* FOOTER */
-.site-footer{background:#0D2240;color:#9BBDD4;padding:1.6rem 1.5rem 2.5rem;font-size:.76rem;line-height:1.75;margin-top:2rem}
-.site-footer a{color:#63B3D8;text-decoration:none}
-.site-footer a:hover{text-decoration:underline;color:#F4A23D}
-.footer-inner{max-width:980px;margin:0 auto}
-.footer-inner h4{color:#F4A23D;font-family:'Trebuchet MS',Tahoma,Arial,sans-serif;font-size:.8rem;margin:.95rem 0 .3rem;text-transform:uppercase;letter-spacing:.06em}
-.footer-inner h4:first-child{margin-top:0}
-.footer-sources{columns:2;column-gap:2rem}
-@media(max-width:580px){.footer-sources{columns:1}}
-
-/* RESPONSIVE FEINHEITEN */
-@media(max-width:480px){
-  .site-header h1{font-size:1.3rem}
-  .nl-form input[type="email"]{width:220px}
-  .nc-media{max-width:90px}
-  .nc-img-link img,.nc-video-wrap img{width:80px;height:60px}
-  .nc-video-wrap::after{font-size:1.3rem}
-}
+body{font-family:Tahoma,Geneva,sans-serif;background:#F3F8EE;color:#1A2E1A;line-height:1.6}
+header{background:linear-gradient(135deg,#1B5E20 0%,#2E7D32 50%,#388E3C 100%);color:#fff;padding:1.6rem 1.2rem 1.2rem;text-align:center}
+header h1{font-family:Georgia,'Times New Roman',serif;font-size:clamp(1.25rem,4vw,2rem);letter-spacing:.4px}
+header .meta{font-size:.87rem;opacity:.9;margin-top:.35rem}
+.seasonal{background:linear-gradient(90deg,#FF6D00,#F57C00 50%,#FFB300);color:#fff;padding:.9rem 1.2rem;text-align:center}
+.seasonal h2{font-family:Georgia,serif;font-size:1.05rem;margin-bottom:.35rem}
+.seasonal p{font-size:.83rem;line-height:1.65;max-width:900px;margin:0 auto}
+main{max-width:1300px;margin:0 auto;padding:1.2rem}
+section{margin-bottom:1.8rem}
+section>h2{font-family:Georgia,serif;color:#1B5E20;font-size:1.12rem;margin-bottom:.75rem;padding-bottom:.3rem;border-bottom:2px solid #B2DFDB}
+.weather-days{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:.7rem;margin-bottom:.9rem}
+.wd{background:#fff;border:1px solid #B2DFDB;border-radius:10px;padding:.8rem;text-align:center}
+.wd.hot{border-color:#BF360C;background:#FFF3E0}
+.wd-name{font-weight:bold;font-size:.86rem;color:#1B5E20}
+.wd.hot .wd-name{color:#BF360C}
+.wd-icon{font-size:1.55rem;margin:.3rem 0}
+.wd-temp{font-size:1.1rem;font-weight:bold;color:#BF360C}
+.wd-desc{font-size:.76rem;color:#555;margin-top:.2rem}
+.hourly-wrap{overflow-x:auto;padding-bottom:.4rem}
+.ht{border-collapse:collapse;min-width:850px;font-size:.78rem;width:100%}
+.ht th{background:#2E7D32;color:#fff;padding:.42rem .55rem;text-align:center;white-space:nowrap}
+.ht td{padding:.38rem .55rem;text-align:center;border-bottom:1px solid #E8F5E9;white-space:nowrap}
+.ht tr:hover td{background:#F1F8E9}
+.ht tr.now td{background:#E8F5E9;font-weight:bold}
+.th{color:#BF360C;font-weight:bold}
+.tw{color:#E65100}
+.tm{color:#2E7D32}
+.src-note{font-size:.74rem;color:#888;margin-top:.4rem}
+.nl{background:linear-gradient(135deg,#1B5E20,#2E7D32);border-radius:12px;padding:1.4rem 1.6rem;color:#fff;text-align:center}
+.nl h2{font-family:Georgia,serif;font-size:1.18rem;margin-bottom:.35rem}
+.nl p{font-size:.85rem;opacity:.9;margin-bottom:.9rem}
+.nl-form{display:flex;gap:.5rem;flex-wrap:wrap;justify-content:center;max-width:480px;margin:0 auto}
+.nl-form input[type=email]{flex:1 1 200px;padding:.65rem 1rem;border:none;border-radius:6px;font-size:.9rem;outline:none;min-width:170px}
+.nl-form button{background:#FF8F00;color:#fff;border:none;border-radius:6px;padding:.65rem 1.3rem;font-size:.9rem;font-weight:bold;cursor:pointer}
+.nl-form button:hover{background:#F57C00}
+.nl-note{font-size:.74rem;opacity:.78;margin-top:.55rem}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1rem}
+@media(max-width:960px){.grid{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:600px){.grid{grid-template-columns:1fr}}
+.card{background:#fff;border:1px solid #B2DFDB;border-radius:10px;padding:1rem;display:flex;flex-direction:column}
+.card::after{content:'';display:table;clear:both}
+.badges{display:flex;flex-wrap:wrap;gap:.3rem;margin-bottom:.55rem}
+.b{font-size:.67rem;font-weight:bold;padding:.18rem .5rem;border-radius:4px;color:#fff;white-space:nowrap}
+.b-bl{background:#C62828}.b-po{background:#1565C0}.b-wi{background:#E65100}.b-ge{background:#4527A0}
+.b-ku{background:#00695C}.b-sp{background:#2E7D32}.b-ve{background:#827717}.b-um{background:#558B2F}
+.b-gs{background:#AD1457}.b-vw{background:#37474F}
+.b-ab{background:#1565C0}.b-lo{background:#6A1B9A}.b-la{background:#0277BD}.b-ms{background:#00838F}
+.b-mi{background:#EF6C00}.b-uf{background:#C62828}.b-rg{background:#388E3C}.b-na{background:#37474F}
+.b-by{background:#BF360C}.b-xx{background:#546E7A}
+.media{float:right;margin:0 0 .5rem .8rem;max-width:120px}
+.media a{display:block;position:relative}
+.media img{width:120px;height:90px;object-fit:cover;border-radius:6px;border:1px solid #ddd;display:block}
+.media a.vid::after{content:'\25B6';position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);font-size:1.9rem;color:#fff;text-shadow:0 0 6px rgba(0,0,0,.8);pointer-events:none}
+.lightbox{display:none;position:fixed;inset:0;background:rgba(0,0,0,.86);z-index:999;align-items:center;justify-content:center}
+.lightbox:target{display:flex}
+.lightbox img{max-width:90vw;max-height:90vh;border-radius:8px;box-shadow:0 0 30px rgba(0,0,0,.5)}
+.lb-x{position:absolute;top:1rem;right:1.4rem;color:#fff;font-size:2rem;text-decoration:none;line-height:1}
+.card h3{font-family:Georgia,serif;font-size:.97rem;color:#1A2E1A;margin-bottom:.4rem;line-height:1.4}
+.card p{font-size:.82rem;color:#3A4A3A;line-height:1.62;flex:1}
+.cf{margin-top:.75rem;padding-top:.45rem;border-top:1px solid #E8F5E9;display:flex;justify-content:space-between;align-items:center}
+.cf a{font-size:.77rem;color:#2E7D32;text-decoration:none;font-weight:bold}
+.cf a:hover{text-decoration:underline}
+.cf span{font-size:.69rem;color:#9E9E9E}
+footer{background:#1B5E20;color:#C8E6C9;padding:1.4rem 1.2rem;margin-top:2rem;font-size:.79rem}
+footer .fi{max-width:1300px;margin:0 auto}
+footer h3{color:#A5D6A7;font-size:.86rem;margin-bottom:.35rem;margin-top:.75rem}
+footer h3:first-child{margin-top:0}
+footer p{line-height:1.7;margin-bottom:.4rem}
+footer a{color:#80CBC4}
+.sl{list-style:none;padding:0;display:flex;flex-wrap:wrap;gap:.35rem .75rem}
+.sl li::before{content:'· '}
+.ts{margin-top:.9rem;color:#A5D6A7;font-style:italic}
 </style>
 </head>
 <body>
 
-<!-- HEADER -->
-<header class="site-header">
-  <h1>Tagesnachrichten – Lohr am Main &amp; Aschaffenburg</h1>
-  <div class="dateline">
-    <span>Samstag, 27. Juni 2026</span>
-    <span>06:14 Uhr CEST</span>
-    <span>Lohr am Main · Aschaffenburg · Main-Spessart</span>
-  </div>
+<!-- Lightboxes -->
+<div class="lightbox" id="lb-7"><a class="lb-x" href="#">&#x2715;</a><img src="https://www.main-echo.de/storage/image/4/0/4/5/6845404_26-06-2026-kahl-verkehrsunfall_nar-artikeldetail_1GfGQ9_EaObIL.jpg" alt="Verkehrsunfall Kahl am Main"></div>
+<div class="lightbox" id="lb-8"><a class="lb-x" href="#">&#x2715;</a><img src="https://www.main-echo.de/storage/image/4/9/1/5/6845194_nar-artikeldetail_1GfF2i_Ltdi66.jpg" alt="Glascontainer Südspessart"></div>
+<div class="lightbox" id="lb-9"><a class="lb-x" href="#">&#x2715;</a><img src="https://media04.meine-news.de/article/2026/06/26/2/2152972_L.webp?1782456154" alt="Benefiz-Rudelsingen Aschaffenburg"></div>
+<div class="lightbox" id="lb-11"><a class="lb-x" href="#">&#x2715;</a><img src="https://media04.meine-news.de/article/2026/06/26/8/2153008_L.webp?1782458526" alt="Maintalhof Erlach Sommerführung"></div>
+
+<header>
+  <h1>Tagesnachrichten &#8211; Lohr am Main &amp; Aschaffenburg</h1>
+  <div class="meta">Sonntag, 28. Juni 2026 &middot; 06:25 Uhr CEST &middot; Landkreis Main-Spessart &amp; Landkreis Aschaffenburg</div>
 </header>
 
-<!-- SAISONALER EVENT-BANNER: Hochsommer + Hitzewelle + Peter und Paul -->
-<section class="seasonal-banner" aria-label="Saisonales Ereignis">
-  <div class="sb-inner">
-    <h2>🌡 Historische Hitzewelle im Hochsommer 2026 &mdash; bis zu 39 °C heute in Unterfranken</h2>
-    <p>
-      Wir befinden uns im <strong>Hochsommer</strong> – dem intensivsten Abschnitt der warmen Jahreszeit, der einige Wochen nach der Sommersonnenwende (21. Juni) beginnt. In Bayern und Unterfranken herrscht derzeit eine <strong>außergewöhnliche Hitzewelle</strong>: Für heute werden Höchsttemperaturen bis zu <strong>39 °C</strong> erwartet – eine der extremsten Hitzeperioden seit Beginn der Wetteraufzeichnungen.
-      Der Deutsche Wetterdienst (DWD) hat Waldbrand-Warnstufe 3 ausgegeben; Kommunen verhängen Feuerverbote.
-    </p>
-    <hr class="sb-divider">
-    <p>
-      <strong>🕊 Peter und Paul – Sonntag, 29. Juni:</strong> Übermorgen ist das Fest der Heiligen Apostel Petrus und Paulus, einer der ältesten christlichen Feiertage. In Bayern war dieser Tag früher ein gesetzlicher Feiertag und ist bis heute ein wichtiger Termin im Kirchenkalender. Die Bauernregel dazu lautet: <em>„Wenn's an Peter und Paul regnet, bleibt der Herbst lang gesegnet."</em> Nach dem heutigen Hochdruckwetter sind Gewitter ab Montag nicht ausgeschlossen.
-    </p>
-  </div>
-</section>
-
-<!-- NEWSLETTER-ANMELDUNG -->
-<section class="newsletter-bar" aria-label="Newsletter-Anmeldung">
-  <h3>📩 Täglich informiert – Jetzt Newsletter abonnieren</h3>
-  <p>Erhalten Sie jeden Morgen um 7 Uhr CEST die aktuellen Nachrichten aus Lohr am Main, Aschaffenburg und der Region direkt in Ihr Postfach.</p>
-  <form class="nl-form" action="save_email.php" method="post" accept-charset="UTF-8">
-    <input type="email" name="email" placeholder="Ihre E-Mail-Adresse" required maxlength="254" autocomplete="email">
-    <button type="submit">Anmelden</button>
-  </form>
-  <p class="nl-note">Kein Spam · Kostenlos · Jederzeit abmeldbar &middot; Ihre E-Mail wird ausschließlich für diesen Newsletter verwendet.</p>
-</section>
-
-<!-- WETTER -->
-<section class="weather-section" aria-label="Wettervorhersage">
-  <h2>🌤 Wetter – Lohr am Main &amp; Region (Quelle: BrightSky / DWD)</h2>
-
-  <!-- 2-Tages-Karten -->
-  <div class="weather-days">
-    <div class="wd-card">
-      <h3>Heute · Sa. 27. Juni</h3>
-      <div class="wd-icon">☀️</div>
-      <div class="wd-temps">
-        <span class="wd-max">Max 39 °C</span> &nbsp;|&nbsp; <span class="wd-min">Min 18 °C</span>
-      </div>
-      <div class="wd-cond">☀ Sonnig &amp; trocken · Extremhitze</div>
-      <div class="wd-cond">Wind: S 10 km/h · Niederschlag: 0 mm</div>
-    </div>
-    <div class="wd-card">
-      <h3>Morgen · So. 28. Juni</h3>
-      <div class="wd-icon">🌤</div>
-      <div class="wd-temps">
-        <span class="wd-max">Max 36 °C</span> &nbsp;|&nbsp; <span class="wd-min">Min 23 °C</span>
-      </div>
-      <div class="wd-cond">☀ Überwiegend sonnig &amp; trocken</div>
-      <div class="wd-cond">Wind: W 15 km/h · Niederschlag: 0 mm</div>
-    </div>
-  </div>
-
-  <!-- 24h-Stundenansicht (scrollbar, CEST) -->
-  <p class="weather-scroll-label">Stundenvorhersage heute (CEST) – zum Scrollen wischen:</p>
-  <div class="weather-scroll">
-    <div class="weather-hourly">
-      <div class="wh wh-now"><div class="wh-time">06:00</div><div class="wh-icon">🌅</div><div class="wh-temp">22°</div><div class="wh-wind">S 4</div></div>
-      <div class="wh"><div class="wh-time">07:00</div><div class="wh-icon">☀️</div><div class="wh-temp">25°</div><div class="wh-wind">S 4</div></div>
-      <div class="wh"><div class="wh-time">08:00</div><div class="wh-icon">☀️</div><div class="wh-temp">28°</div><div class="wh-wind">S 5</div></div>
-      <div class="wh"><div class="wh-time">09:00</div><div class="wh-icon">☀️</div><div class="wh-temp">31°</div><div class="wh-wind">SO 7</div></div>
-      <div class="wh"><div class="wh-time">10:00</div><div class="wh-icon">☀️</div><div class="wh-temp">33°</div><div class="wh-wind">S 8</div></div>
-      <div class="wh"><div class="wh-time">11:00</div><div class="wh-icon">☀️</div><div class="wh-temp">35°</div><div class="wh-wind">S 9</div></div>
-      <div class="wh"><div class="wh-time">12:00</div><div class="wh-icon">☀️</div><div class="wh-temp">36°</div><div class="wh-wind">S 10</div></div>
-      <div class="wh"><div class="wh-time">13:00</div><div class="wh-icon">☀️</div><div class="wh-temp">37°</div><div class="wh-wind">S 11</div></div>
-      <div class="wh"><div class="wh-time">14:00</div><div class="wh-icon">🌡️</div><div class="wh-temp">38°</div><div class="wh-wind">S 11</div></div>
-      <div class="wh"><div class="wh-time">15:00</div><div class="wh-icon">🌡️</div><div class="wh-temp">39°</div><div class="wh-wind">S 11</div></div>
-      <div class="wh"><div class="wh-time">16:00</div><div class="wh-icon">☀️</div><div class="wh-temp">38°</div><div class="wh-wind">SO 10</div></div>
-      <div class="wh"><div class="wh-time">17:00</div><div class="wh-icon">☀️</div><div class="wh-temp">37°</div><div class="wh-wind">SO 9</div></div>
-      <div class="wh"><div class="wh-time">18:00</div><div class="wh-icon">☀️</div><div class="wh-temp">36°</div><div class="wh-wind">S 9</div></div>
-      <div class="wh"><div class="wh-time">19:00</div><div class="wh-icon">🌤</div><div class="wh-temp">35°</div><div class="wh-wind">S 8</div></div>
-      <div class="wh"><div class="wh-time">20:00</div><div class="wh-icon">🌅</div><div class="wh-temp">33°</div><div class="wh-wind">S 7</div></div>
-      <div class="wh"><div class="wh-time">21:00</div><div class="wh-icon">🌆</div><div class="wh-temp">31°</div><div class="wh-wind">S 6</div></div>
-      <div class="wh"><div class="wh-time">22:00</div><div class="wh-icon">🌙</div><div class="wh-temp">29°</div><div class="wh-wind">S 5</div></div>
-      <div class="wh"><div class="wh-time">23:00</div><div class="wh-icon">🌙</div><div class="wh-temp">27°</div><div class="wh-wind">S 5</div></div>
-      <div class="wh"><div class="wh-time">00:00</div><div class="wh-icon">🌙</div><div class="wh-temp">25°</div><div class="wh-wind">S 4</div></div>
-      <div class="wh"><div class="wh-time">01:00</div><div class="wh-icon">🌙</div><div class="wh-temp">24°</div><div class="wh-wind">SO 3</div></div>
-      <div class="wh"><div class="wh-time">02:00</div><div class="wh-icon">🌙</div><div class="wh-temp">23°</div><div class="wh-wind">SO 3</div></div>
-      <div class="wh"><div class="wh-time">03:00</div><div class="wh-icon">🌙</div><div class="wh-temp">23°</div><div class="wh-wind">SO 3</div></div>
-      <div class="wh"><div class="wh-time">04:00</div><div class="wh-icon">🌙</div><div class="wh-temp">23°</div><div class="wh-wind">S 3</div></div>
-      <div class="wh"><div class="wh-time">05:00</div><div class="wh-icon">🌅</div><div class="wh-temp">24°</div><div class="wh-wind">S 4</div></div>
-    </div>
-  </div>
-</section>
-
-<!-- LIGHTBOX-OVERLAY für Bild-Vollansicht -->
-<div id="lb-1" class="lb-overlay" role="dialog" aria-modal="true" aria-label="Bild vergrößert">
-  <img src="https://media04.meine-news.de/article/2026/06/26/3/2153293_L.webp" alt="Polizeieinsatz Main-Spessart – Wärmepumpe Brand Rieneck">
-  <a href="#" class="lb-close">✕ Schließen</a>
+<div class="seasonal">
+  <h2>&#127807; Hochfest Peter und Paul &#8211; morgen, 29. Juni &nbsp;|&nbsp; &#127777;&#65039; Hitzewelle-Höhepunkt heute: bis 37 °C!</h2>
+  <p>
+    <strong>Peter und Paul (29. Juni):</strong> Das Hochfest der Apostel Petrus und Paulus ist in den katholisch geprägten Teilen Unterfrankens ein besonderer Festtag. In Bayern war der 29. Juni bis ins 20. Jahrhundert vielerorts gesetzlicher Feiertag &#8211; heute wird er festlich in Pfarreien und Kirchen begangen. In Klingenberg am Main, Lohr und Aschaffenburg finden Festgottesdienste und Gemeinschaftsfeiern statt. &nbsp;·&nbsp;
+    <strong>Hitzewelle-Höhepunkt:</strong> Heute erreicht die Hitzewelle mit bis zu <strong>37 °C</strong> ihren absoluten Scheitelpunkt in der Region. Ab morgen bringt ein atlantisches Tief spürbar kühlere Luft &#8211; Temperaturen fallen auf 25&#8211;26 °C. DWD-Hitzewarnung Stufe&nbsp;2 gilt heute ganztägig für Unterfranken.
+  </p>
 </div>
 
-<!-- NACHRICHTEN -->
-<main class="main-container">
-  <h2 class="section-title">Aktuelle Meldungen – Samstag, 27. Juni 2026</h2>
+<main>
 
-  <div class="news-grid">
+  <!-- WETTER -->
+  <section>
+    <h2>&#127780;&#65039; Wetter &#8211; Lohr am Main &amp; Aschaffenburg</h2>
+    <div class="weather-days">
+      <div class="wd hot">
+        <div class="wd-name">So, 28.06. &#8211; Heute</div>
+        <div class="wd-icon">&#9728;&#65039;</div>
+        <div class="wd-temp">21° / 37°C</div>
+        <div class="wd-desc">Sonnig · DWD-Hitzewarnung! · Wind 8&#8211;16 km/h</div>
+      </div>
+      <div class="wd">
+        <div class="wd-name">Mo, 29.06. &#8211; Peter &amp; Paul</div>
+        <div class="wd-icon">&#9925;</div>
+        <div class="wd-temp">18° / 26°C</div>
+        <div class="wd-desc">Wechselhaft · Gewitter möglich · Abkühlung</div>
+      </div>
+      <div class="wd">
+        <div class="wd-name">Di, 30.06.</div>
+        <div class="wd-icon">&#127782;&#65039;</div>
+        <div class="wd-temp">16° / 23°C</div>
+        <div class="wd-desc">Schauer möglich · kühl &amp; bewölkt</div>
+      </div>
+    </div>
+    <div class="hourly-wrap">
+      <table class="ht">
+        <thead><tr><th>Uhrzeit (CEST)</th><th>Temp.</th><th>Bedingung</th><th>Niederschlag</th><th>Regenrisiko</th><th>Wind km/h</th></tr></thead>
+        <tbody>
+          <tr><td>02:00</td><td class="tm">24°C</td><td>Klar</td><td>0 mm</td><td>0 %</td><td>8</td></tr>
+          <tr><td>03:00</td><td class="tm">23°C</td><td>Klar</td><td>0 mm</td><td>0 %</td><td>6</td></tr>
+          <tr><td>04:00</td><td class="tm">22°C</td><td>Klar</td><td>0 mm</td><td>0 %</td><td>5</td></tr>
+          <tr><td>05:00</td><td class="tm">21°C</td><td>Klar</td><td>0 mm</td><td>0 %</td><td>5</td></tr>
+          <tr class="now"><td>06:00 &#9664; jetzt</td><td class="tm">22°C</td><td>Sonnig</td><td>0 mm</td><td>0 %</td><td>7</td></tr>
+          <tr><td>07:00</td><td class="tm">24°C</td><td>Sonnig</td><td>0 mm</td><td>0 %</td><td>8</td></tr>
+          <tr><td>08:00</td><td class="tw">27°C</td><td>Sonnig</td><td>0 mm</td><td>0 %</td><td>10</td></tr>
+          <tr><td>09:00</td><td class="tw">29°C</td><td>Sonnig</td><td>0 mm</td><td>0 %</td><td>12</td></tr>
+          <tr><td>10:00</td><td class="tw">31°C</td><td>Heiter</td><td>0 mm</td><td>0 %</td><td>14</td></tr>
+          <tr><td>11:00</td><td class="th">33°C</td><td>Sonnig</td><td>0 mm</td><td>0 %</td><td>15</td></tr>
+          <tr><td>12:00</td><td class="th">34°C</td><td>Sonnig</td><td>0 mm</td><td>0 %</td><td>16</td></tr>
+          <tr><td>13:00</td><td class="th">36°C</td><td>Sonnig</td><td>0 mm</td><td>0 %</td><td>15</td></tr>
+          <tr><td>14:00 &#128293; Spitze</td><td class="th">37°C</td><td>Sonnig</td><td>0 mm</td><td>0 %</td><td>14</td></tr>
+          <tr><td>15:00</td><td class="th">36°C</td><td>Sonnig</td><td>0 mm</td><td>0 %</td><td>12</td></tr>
+          <tr><td>16:00</td><td class="th">35°C</td><td>Heiter</td><td>0 mm</td><td>0 %</td><td>10</td></tr>
+          <tr><td>17:00</td><td class="th">34°C</td><td>Heiter</td><td>0 mm</td><td>5 %</td><td>8</td></tr>
+          <tr><td>18:00</td><td class="tw">32°C</td><td>Heiter&#8211;wolkig</td><td>0 mm</td><td>5 %</td><td>8</td></tr>
+          <tr><td>19:00</td><td class="tw">30°C</td><td>Wolkig</td><td>0 mm</td><td>10 %</td><td>6</td></tr>
+          <tr><td>20:00</td><td class="tw">28°C</td><td>Wolkig</td><td>0 mm</td><td>10 %</td><td>5</td></tr>
+          <tr><td>21:00</td><td class="tw">27°C</td><td>Wolkig</td><td>0 mm</td><td>10 %</td><td>5</td></tr>
+          <tr><td>22:00</td><td class="tm">26°C</td><td>Klar</td><td>0 mm</td><td>0 %</td><td>4</td></tr>
+          <tr><td>23:00</td><td class="tm">25°C</td><td>Klar</td><td>0 mm</td><td>0 %</td><td>4</td></tr>
+          <tr><td>00:00 (+1)</td><td class="tm">24°C</td><td>Klar</td><td>0 mm</td><td>0 %</td><td>4</td></tr>
+          <tr><td>01:00 (+1)</td><td class="tm">23°C</td><td>Klar</td><td>0 mm</td><td>0 %</td><td>3</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="src-note">Quelle: BrightSky API / Deutscher Wetterdienst (DWD) · Alle Zeiten CEST (UTC+2) · Angaben ohne Gewähr</p>
+  </section>
 
-    <!-- 1 · Kahl: 15-Jährige ohne Fahrerlaubnis -->
-    <article class="nc">
-      <div class="nc-top-bar nc-top-blaulicht"></div>
-      <div class="nc-badges">
-        <span class="badge b-blaulicht">🚔 Blaulicht</span>
-        <span class="badge b-kahl">Kahl am Main</span>
-      </div>
-      <h3>Polizei Kahl stoppt zwei 15-Jährige ohne Fahrerlaubnis – Reizgas sichergestellt</h3>
-      <p class="nc-text">
-        In der Nacht zum Freitag, gegen 03:30 Uhr, stoppte eine Streife in Kahl am Main zwei auffällig fahrende Pkw, nachdem Hinweise auf gefährliche Fahrweise im Bereich des Campingplatzes eingegangen waren. Bei der anschließenden Kontrolle stellte sich heraus, dass beide Fahrer erst 15 Jahre alt waren – ein Deutscher und ein Italiener – und aufgrund ihres Alters keine Fahrerlaubnis besitzen konnten. Die Jugendlichen hatten zunächst nicht auf die Anhaltezeichen reagiert und mussten von den Beamten zum Stopp gebracht werden. Zusätzlich stellten die Polizisten mehrere Reizstoffsprühgeräte sicher; Ermittlungsverfahren wegen Fahrens ohne Fahrerlaubnis und möglicher Verstöße gegen das Waffenrecht wurden eingeleitet.
-      </p>
-      <a class="nc-source" href="https://aschaffenburg.news/kahl-am-main/kahl-am-main-polizei-stoppt-zwei-15-j%C3%A4hrige-ohne-fahrerlaubnis.html" target="_blank" rel="noopener">→ Quelle: aschaffenburg.news</a>
-    </article>
+  <!-- NEWSLETTER -->
+  <section class="nl">
+    <h2>&#128236; Kostenloser Tages-Newsletter</h2>
+    <p>Täglich um <strong>7:00 Uhr CEST</strong> die wichtigsten Nachrichten aus Lohr am Main, Aschaffenburg und der Region &#8211; direkt in Ihr Postfach.</p>
+    <form class="nl-form" action="save_email.php" method="POST">
+      <input type="email" name="email" placeholder="Ihre E-Mail-Adresse" required>
+      <button type="submit">Jetzt anmelden &#8250;</button>
+    </form>
+    <p class="nl-note">Abmeldung jederzeit per Antwort auf den Newsletter mit dem Wort <em>abmelden</em>. Kein Spam, keine Weitergabe an Dritte.</p>
+  </section>
 
-    <!-- 2 · Goldbach: Kleinkind im Hitze-Auto -->
-    <article class="nc">
-      <div class="nc-top-bar nc-top-blaulicht"></div>
-      <div class="nc-badges">
-        <span class="badge b-blaulicht">🚔 Blaulicht</span>
-        <span class="badge b-goldbach">Goldbach</span>
-        <span class="badge b-lkr-aschaffenburg">Lkr. Aschaffenburg</span>
-      </div>
-      <h3>Kleinkind bei 30 °C Hitze im Auto eingeschlossen – Polizei schlägt Scheibe ein</h3>
-      <p class="nc-text">
-        Am 25. Juni 2026 wurde ein 18 Monate altes Kleinkind in Goldbach (Landkreis Aschaffenburg) versehentlich von seiner Großmutter im Auto eingeschlossen. Das Fahrzeug verriegelte sich mit dem Schlüssel innen, während die Außentemperaturen über 30 °C lagen – innerhalb weniger Minuten drohen in solchen Situationen lebensbedrohliche Temperaturen im Fahrzeuginnenraum. Die Polizei schlug die Seitenscheibe ein und befreite das Kind unverletzt; der Rettungsdienst war vorsorglich vor Ort und bestätigte den guten Zustand des Kindes. Der Vorfall ereignete sich kurz nach einem tragischen Tod eines Kleinkindes im Raum Stuttgart unter ähnlichen Umständen – die Polizei Unterfranken warnt eindringlich: Niemals Kinder oder Tiere allein im Auto zurücklassen!
-      </p>
-      <a class="nc-source" href="https://www.infranken.de/lk/aschaffenburg/blaulicht/goldbach-eingeschlossenes-kleinkind-mit-gewalt-aus-auto-befreit-art-6372372" target="_blank" rel="noopener">→ Quelle: infranken.de</a>
-    </article>
+  <!-- NACHRICHTEN -->
+  <section>
+    <h2>&#128240; Aktuelle Meldungen &#8211; Sonntag, 28. Juni 2026</h2>
+    <div class="grid">
 
-    <!-- 3 · Klingenberg: Kokain im Schwimmbad -->
-    <article class="nc">
-      <div class="nc-top-bar nc-top-blaulicht"></div>
-      <div class="nc-badges">
-        <span class="badge b-blaulicht">🚔 Blaulicht</span>
-        <span class="badge b-klingenberg">Klingenberg</span>
-        <span class="badge b-miltenberg">Lkr. Miltenberg</span>
+      <!-- 1: Anneliese Michel -->
+      <div class="card">
+        <div class="badges">
+          <span class="b b-ku">Kultur &amp; Geschichte</span>
+          <span class="b b-mi">Klingenberg a.M.</span>
+        </div>
+        <h3>50. Todestag von Anneliese Michel &#8211; Weltbekanntes Schicksal aus dem Landkreis Miltenberg</h3>
+        <p>Am 1. Juli 1976 starb Anneliese Michel in Klingenberg am Main im Alter von nur 23 Jahren &#8211; ihr Tod nach einem umstrittenen Exorzismus sorgte weltweit für Aufsehen und bewegt die Menschen bis heute. In diesem Jahr jährt sich der Todestag zum 50. Mal. Die junge Unterfränkin litt unter schweren epileptischen Anfällen; Priester und Familie glaubten an eine Besessenheit. Ihr Schicksal inspirierte mehrere Hollywood-Produktionen, darunter „The Exorcism of Emily Rose" (2005), sowie zahlreiche Bücher und Dokumentationen. Ihr Grab auf dem Klingenberger Friedhof ist bis heute ein vielbesuchter Wallfahrtsort, zu dem jährlich tausende Pilger und Neugierige aus aller Welt anreisen. Die Diözese Würzburg bereitet zum Gedenktag besondere Gottesdienste vor.</p>
+        <div class="cf">
+          <a href="https://www.main-echo.de/region/kreis-main-spessart/" target="_blank" rel="noopener">Quelle: Main-Echo &#8250;</a>
+          <span>#1</span>
+        </div>
       </div>
-      <h3>Kokainkonsum auf Schwimmbadtoilette: Drei Männer festgenommen – Drogen und Waffen sichergestellt</h3>
-      <p class="nc-text">
-        Im Schwimmbad Klingenberg am Main wurden drei Männer festgenommen, nachdem Zeugen gemeldet hatten, dass Badegäste auf der Toilette Kokain konsumierten. Die Polizei Obernburg rückte gegen 13:00 Uhr aus und stellte bei der Kontrolle Kokain, Haschisch und eine verbotene Survival-Schaufel sicher. Die beiden Begleiter des 40-jährigen Hauptverdächtigen (28 und 31 Jahre alt) führten darüber hinaus verbotene Einhandmesser und einen Elektroschocker mit sich. Alle drei Männer müssen sich nun wegen Verstößen gegen das Betäubungsmittelgesetz sowie das Waffengesetz verantworten; die Gegenstände wurden beschlagnahmt.
-      </p>
-      <a class="nc-source" href="https://aschaffenburg.news/bayern/landkreis-miltenberg/klingenberg-kokain-auf-schwimmbad-toilette-konsumiert.html" target="_blank" rel="noopener">→ Quelle: aschaffenburg.news</a>
-    </article>
 
-    <!-- 4 · Feuerverbote Region (mit Video Hitzewelle) -->
-    <article class="nc">
-      <div class="nc-top-bar nc-top-klima"></div>
-      <div class="nc-badges">
-        <span class="badge b-klima">🌡 Klima</span>
-        <span class="badge b-umwelt">Umwelt</span>
-        <span class="badge b-regional">Regional</span>
+      <!-- 2: Aquaphobie Festival – Video -->
+      <div class="card">
+        <div class="badges">
+          <span class="b b-ku">Musik &amp; Kultur</span>
+          <span class="b b-ms">Erlenbach a.M.</span>
+        </div>
+        <div class="media">
+          <a class="vid" href="https://www.youtube.com/watch?v=sOLc3L-3xZc" target="_blank" rel="noopener" title="Video auf YouTube ansehen">
+            <img src="https://img.youtube.com/vi/sOLc3L-3xZc/hqdefault.jpg" alt="Aquaphobie Festival Video">
+          </a>
+        </div>
+        <h3>10 Jahre Aquaphobie Festival &#8211; Jubiläum am Mainufer in Erlenbach am Main</h3>
+        <p>Das Aquaphobie Open-Air Festival in Erlenbach am Main feiert in diesem Jahr sein zehnjähriges Bestehen. Seit einer Dekade lockt das beliebte Kulturfestival am Ufer des Mains Fans alternativer Musik und Kulturbegeisterte aus ganz Unterfranken und darüber hinaus an. Zum Jubiläum haben die Veranstalter ein besonders abwechslungsreiches Programm zusammengestellt: Mehrere Bühnen, regionale Nachwuchskünstler und überregionale Acts aus verschiedenen Genres sorgen für ein Festival-Wochenende der Extraklasse. Kulinarik, Kunstinstallationen und das einmalige Ambiente direkt am Main runden das Erlebnis ab. Restkarten sind an der Abendkasse erhältlich.</p>
+        <div class="cf">
+          <a href="https://www.meine-news.de/erlenbach-amain/" target="_blank" rel="noopener">Quelle: meine-news.de &#8250;</a>
+          <span>#2</span>
+        </div>
       </div>
-      <!-- VIDEO: Hitzewelle in Bayern -->
-      <div class="nc-media">
-        <a class="nc-video-wrap" href="https://www.youtube.com/watch?v=bfJvB77f5j4" target="_blank" rel="noopener" title="YouTube: Hitzewelle in Bayern ansehen">
-          <img src="https://img.youtube.com/vi/bfJvB77f5j4/hqdefault.jpg" alt="Hitzewelle in Bayern: Was hilft bei hohen Temperaturen?">
-        </a>
-        <a class="nc-video-label" href="https://www.youtube.com/watch?v=bfJvB77f5j4" target="_blank" rel="noopener">▶ YouTube: Hitzewelle Bayern</a>
-      </div>
-      <h3>Waldbrandgefahr Stufe 3: Immer mehr Gemeinden im Spessart verhängen Feuerverbote</h3>
-      <p class="nc-text nc-clearfix">
-        Die anhaltende Hitzewelle und extreme Trockenheit im Landkreis Main-Spessart veranlasst immer mehr Kommunen, generelle Feuerverbote auszusprechen. Die Stadt Gemünden und die Verwaltungsgemeinschaft Burgsinn haben mit sofortiger Wirkung jegliches offene Feuer verboten; in der Verwaltungsgemeinschaft Marktheidenfeld gilt ein ähnliches Verbot bereits seit Tagen. Der Deutsche Wetterdienst (DWD) hat für den Spessart Waldbrand-Warnstufe 3 ausgegeben; das Grillen mit Holzkohle bleibt in manchen Ortschaften innerorts erlaubt, offenes Feuer im Wald und in Waldnähe ist strikt verboten. Die Bevölkerung wird dringend gebeten, die Regelungen einzuhalten – bei Verstößen drohen empfindliche Bußgelder.
-      </p>
-      <a class="nc-source" href="https://www.main-echo.de/region/kreis-main-spessart/immer-mehr-orte-erlassen-feuerverbote-art-8740455" target="_blank" rel="noopener">→ Quelle: main-echo.de</a>
-    </article>
 
-    <!-- 5 · Wasserampel Rot Aschaffenburg -->
-    <article class="nc">
-      <div class="nc-top-bar nc-top-gesellschaft"></div>
-      <div class="nc-badges">
-        <span class="badge b-gesellschaft">Gesellschaft</span>
-        <span class="badge b-umwelt">Umwelt</span>
-        <span class="badge b-aschaffenburg">Lkr. Aschaffenburg</span>
+      <!-- 3: WM Deutschland vs Paraguay -->
+      <div class="card">
+        <div class="badges">
+          <span class="b b-sp">Sport · WM 2026</span>
+          <span class="b b-na">National</span>
+        </div>
+        <h3>FIFA WM 2026: Deutschland trifft heute auf Paraguay &#8211; Public Viewing in der Region</h3>
+        <p>Bei der Fußball-Weltmeisterschaft 2026 in Nordamerika steht für die deutsche Nationalmannschaft heute das Gruppenspiel gegen Paraguay auf dem Programm. Nach dem bisherigen Turnierverlauf sind die Erwartungen hoch &#8211; ein Sieg würde den Einzug ins Achtelfinale vorzeitig sichern. Fans in der Region können die Partie live bei öffentlichen Übertragungen verfolgen: Das Volksfest Aschaffenburg bietet wieder eine Großleinwand, zahlreiche Gaststätten und Biergärten zeigen das Spiel ebenfalls. Bundestrainer Julian Nagelsmann betont die Bedeutung des Ergebnisses für den weiteren Turnierverlauf. In Lohr am Main überträgt das FFW-Rodenbach-Jubiläumsfest die Partie auf Leinwand.</p>
+        <div class="cf">
+          <a href="https://www.sportschau.de/fussball/fifa-wm-2026/" target="_blank" rel="noopener">Quelle: Sportschau / ARD &#8250;</a>
+          <span>#3</span>
+        </div>
       </div>
-      <h3>Hitze und Dürre: Wasserampeln im Landkreis Aschaffenburg springen auf Rot</h3>
-      <p class="nc-text">
-        Wegen der anhaltenden extremen Trockenheit sind die Wasserampeln im Landkreis Aschaffenburg auf die höchste Alarmstufe – Rot – gewechselt. Der Trinkwasserzweckverband (ZWA) ruft alle Bürgerinnen und Bürger dringend auf, Wasser sparsam zu verbrauchen und auf das Befüllen von Pools, das Bewässern von Rasenflächen sowie das Waschen von Kraftfahrzeugen zu verzichten. Mehrere Gemeinden im Verbandsgebiet sind betroffen; lediglich Eichenberg mit eigenem Tiefbrunnen ist von den Einschränkungen ausgenommen. Sanktionen plant der Verband derzeit nicht – die Verantwortlichen hoffen auf die Einsicht der Bevölkerung und den ersehnten Regen, der laut Wetterprognose frühestens ab Montag möglich ist.
-      </p>
-      <a class="nc-source" href="https://www.main-echo.de/region/stadt-kreis-aschaffenburg/" target="_blank" rel="noopener">→ Quelle: main-echo.de</a>
-    </article>
 
-    <!-- 6 · Volksfest Aschaffenburg Schausteller Hitze (mit Video) -->
-    <article class="nc">
-      <div class="nc-top-bar nc-top-kultur"></div>
-      <div class="nc-badges">
-        <span class="badge b-kultur">Kultur</span>
-        <span class="badge b-aschaffenburg">Aschaffenburg</span>
+      <!-- 4: TC Blankenbach Padel -->
+      <div class="card">
+        <div class="badges">
+          <span class="b b-sp">Sport</span>
+          <span class="b b-la">Blankenbach</span>
+        </div>
+        <h3>TC Blankenbach eröffnet neuen Padel-Platz &#8211; Trendsport jetzt auch im Landkreis Aschaffenburg</h3>
+        <p>Der Tennisclub Blankenbach im Landkreis Aschaffenburg weiht heute seinen neuen Padel-Platz ein und reagiert damit auf einen der größten Sporttrends der letzten Jahre. Padel &#8211; eine Kreuzung aus Tennis und Squash auf kleinerem Glasfeld &#8211; gilt als besonders einsteigerfreundlich und gesellig. Der TC Blankenbach bietet ab sofort auch Einsteigerkurse und Turnierformate an. Die Eröffnungsfeier umfasst Demonstrationsspiele der Vereinsmitglieder und ein kleines Gemeinschaftsfest für die Dorfbevölkerung. Mit dem Angebot wächst das Padel-Netz in Unterfranken weiter und macht den Vereinssport attraktiver für Familien und Quereinsteiger aller Altersgruppen.</p>
+        <div class="cf">
+          <a href="https://aschaffenburg.news" target="_blank" rel="noopener">Quelle: aschaffenburg.news &#8250;</a>
+          <span>#4</span>
+        </div>
       </div>
-      <!-- VIDEO: Aschaffenburg Volksfest 2026 -->
-      <div class="nc-media">
-        <a class="nc-video-wrap" href="https://www.youtube.com/watch?v=fneMG78io4M" target="_blank" rel="noopener" title="YouTube: Aschaffenburg Volksfest 2026 ansehen">
-          <img src="https://img.youtube.com/vi/fneMG78io4M/hqdefault.jpg" alt="Aschaffenburg Volksfest 2026">
-        </a>
-        <a class="nc-video-label" href="https://www.youtube.com/watch?v=fneMG78io4M" target="_blank" rel="noopener">▶ YouTube: Volksfest 2026</a>
-      </div>
-      <h3>97. Aschaffenburger Volksfest: Extreme Hitze setzt Schaustellern massiv zu</h3>
-      <p class="nc-text nc-clearfix">
-        Beim 97. Aschaffenburger Volksfest (19.–29. Juni 2026) auf dem Volksfestplatz direkt am Main kämpfen die Schausteller mit gravierenden Umsatzeinbußen von bis zu 60 Prozent – die anhaltende Extremhitze hält Besucher fern. Statt um Sonne beten die Betreiber jetzt um Abkühlung: ein trauriger Wandel, den viele Schaussteller in dieser Form noch nicht erlebt haben. Das Volksfest läuft noch bis Montag, 29. Juni 2026, und endet mit einem Abschlussfeuerwerk. Am morgigen Sonntag (28. Juni) ist Familientag mit ermäßigten Preisen – eine letzte Chance, das Volksfest in besonderer Atmosphäre zu erleben, bevor es für ein weiteres Jahr schließt.
-      </p>
-      <a class="nc-source" href="https://www.main-echo.de/region/stadt-kreis-aschaffenburg/aschaffenburger-volksfest-wie-die-hitze-den-schaustellern-zusetzt-art-8534563" target="_blank" rel="noopener">→ Quelle: main-echo.de</a>
-    </article>
 
-    <!-- 7 · Roland Eller 90. Geburtstag -->
-    <article class="nc">
-      <div class="nc-top-bar nc-top-politik"></div>
-      <div class="nc-badges">
-        <span class="badge b-politik">Politik</span>
-        <span class="badge b-aschaffenburg">Aschaffenburg</span>
+      <!-- 5: Bezirkstagspräsident -->
+      <div class="card">
+        <div class="badges">
+          <span class="b b-po">Politik</span>
+          <span class="b b-uf">Unterfranken</span>
+        </div>
+        <h3>Bezirkstagspräsident Dotzel: „Das System ist krank" &#8211; Scharfe Kritik an Krankenhaus- und Sozialpolitik</h3>
+        <p>Erwin Dotzel, Präsident des Bezirkstags Unterfranken, hat in einem vielbeachteten Interview die Zustände in der deutschen Sozialpolitik und Krankenhausfinanzierung scharf kritisiert. Er bezeichnete das aktuelle System der psychiatrischen Versorgung und Eingliederungshilfe als „systemisch krank" und forderte grundlegende Reformen. Konkret kritisierte er, dass der Bezirk Unterfranken &#8211; zuständig für Einrichtungen wie das BKH Lohr &#8211; trotz wachsender Aufgaben immer weniger Mittel erhalte. Dotzel appellierte an Bundes- und Landespolitiker, die Finanzierung der Bezirke neu zu regeln. Seine Äußerungen lösten in Fachkreisen und Medien eine breite Diskussion aus.</p>
+        <div class="cf">
+          <a href="https://www.infranken.de/lk/main-spessart/" target="_blank" rel="noopener">Quelle: infranken.de &#8250;</a>
+          <span>#5</span>
+        </div>
       </div>
-      <h3>„Mit Weitblick" – Alt-Landrat Roland Eller feiert 90. Geburtstag: 30 Jahre formte er den Landkreis</h3>
-      <p class="nc-text">
-        Roland Eller, der erste Landrat des nach der Gebietsreform 1972 neu geformten Landkreises Aschaffenburg, feiert am 28. Juni 2026 seinen 90. Geburtstag. In 30 Amtsjahren bis 2002 prägte Eller die kommunale Infrastruktur, förderte die wirtschaftliche Entwicklung und galt als treibende Kraft beim Aufbau moderner Verwaltungsstrukturen in der Region Untermain. Ehrengäste aus Kommunalpolitik, Wirtschaft und der Gesellschaft gratulierten dem Altlandrat zu diesem besonderen Jubiläum. Sein Wirken wird bis heute als Fundament für die positive Entwicklung des Landkreises Aschaffenburg gewürdigt – ein Lebenswerk, das Generationen geprägt hat.
-      </p>
-      <a class="nc-source" href="https://www.main-echo.de/region/stadt-kreis-aschaffenburg/" target="_blank" rel="noopener">→ Quelle: main-echo.de</a>
-    </article>
 
-    <!-- 8 · Omnibus-Überholunfall Main-Spessart -->
-    <article class="nc">
-      <div class="nc-top-bar nc-top-blaulicht"></div>
-      <div class="nc-badges">
-        <span class="badge b-blaulicht">🚔 Blaulicht</span>
-        <span class="badge b-main-spessart">Main-Spessart</span>
+      <!-- 6: Lohr Bahnhof Hostel -->
+      <div class="card">
+        <div class="badges">
+          <span class="b b-ge">Gesellschaft</span>
+          <span class="b b-lo">Lohr am Main</span>
+        </div>
+        <h3>Rätsel am Lohrer Bahnhof gelöst: Umbau zu Hostel für Reisende und Pendler geplant</h3>
+        <p>Monatelang rätselten Lohrer Bürgerinnen und Bürger über die Umbauarbeiten an einem Gebäude nahe des Bahnhofs. Lokale Medien haben nun recherchiert: Das Objekt soll zu einem einfachen Hostel für Durchreisende und Pendler umgebaut werden. Baugenehmigungsunterlagen der Stadt Lohr lassen auf eine baldige Fertigstellung schließen. Für die Kleinstadt am Main wäre ein Hostel eine willkommene Bereicherung des Übernachtungsangebots &#8211; besonders für Tagestouristen, Wanderer und Radsportler, die den Spessart erkunden. Der Betreiber hat sich noch nicht öffentlich geäußert; Name und Konzept des Hauses bleiben vorerst unbekannt. Die Eröffnung soll noch in diesem Sommer erfolgen.</p>
+        <div class="cf">
+          <a href="https://www.main-echo.de/region/kreis-main-spessart/" target="_blank" rel="noopener">Quelle: Main-Echo &#8250;</a>
+          <span>#6</span>
+        </div>
       </div>
-      <h3>Omnibus überholt gefährlich – 20-Jährige weicht aus und kracht in Taxi: Zwei Verletzte</h3>
-      <p class="nc-text">
-        Im Landkreis Main-Spessart kam es zu einem Verkehrsunfall, bei dem eine 20-jährige Pkw-Fahrerin einem rücksichtslos überholenden Omnibus ausweichen musste und dabei mit einem entgegenkommenden Taxi kollidierte. Beide Pkw-Fahrerinnen wurden leicht verletzt und von Rettungskräften versorgt; an beiden Fahrzeugen entstand erheblicher Sachschaden. Der Omnibusfahrer verließ die Unfallstelle, ohne Hilfe zu leisten oder seine Personalien anzugeben – ein strafbares Verhalten (unerlaubtes Entfernen vom Unfallort). Die Polizei sucht nach einem weiß-grünen Bus und bittet Zeugen dringend, sich unter der Telefonnummer der zuständigen Polizeiinspektion zu melden.
-      </p>
-      <a class="nc-source" href="https://www.meine-news.de/landkreis-main-spessart/c-blaulicht/main-spessart-unfall-nach-ueberholmanoever-eines-omnibusses-diebstahl-mehrerer-smartphones-mutmassliche-kupferdiebe-gestoert-brand-einer-waermepumpe-gartenzaun-beschaedigt-unfallflucht_a238108" target="_blank" rel="noopener">→ Quelle: meine-news.de</a>
-    </article>
 
-    <!-- 9 · Smartphone-Diebstahl Telekom-Filiale -->
-    <article class="nc">
-      <div class="nc-top-bar nc-top-blaulicht"></div>
-      <div class="nc-badges">
-        <span class="badge b-blaulicht">🚔 Blaulicht</span>
-        <span class="badge b-main-spessart">Main-Spessart</span>
+      <!-- 7: Kahl Audi-Opel Crash – mit Bild -->
+      <div class="card">
+        <div class="badges">
+          <span class="b b-bl">Blaulicht</span>
+          <span class="b b-la">Kahl am Main</span>
+        </div>
+        <div class="media">
+          <a href="#lb-7" title="Bild vergrößern">
+            <img src="https://www.main-echo.de/storage/image/4/0/4/5/6845404_26-06-2026-kahl-verkehrsunfall_nar-artikeldetail_1GfGQ9_EaObIL.jpg" alt="Verkehrsunfall Kahl am Main">
+          </a>
+        </div>
+        <h3>Kreuzungscrash in Kahl am Main: Audi trifft Opel &#8211; drei Verletzte, zwei ins Krankenhaus</h3>
+        <p>Bei einem schweren Verkehrsunfall am Freitagabend in Kahl am Main wurden drei Personen verletzt, zwei davon mussten ins Krankenhaus gebracht werden. Ein Audi und ein Opel kollidierten an einer innerörtlichen Kreuzung, weil nach ersten Erkenntnissen der Polizei einer der Fahrer die Vorfahrt missachtete. Die Freiwillige Feuerwehr Kahl sicherte die Unfallstelle; der Rettungsdienst war mit mehreren Fahrzeugen im Einsatz. Beide Fahrzeuge wurden so stark beschädigt, dass sie abgeschleppt werden mussten. Der Sachschaden beläuft sich auf geschätzte 30.000 bis 40.000 Euro. Die Ermittlungen der Polizeiinspektion Alzenau dauern an.</p>
+        <div class="cf">
+          <a href="https://www.main-echo.de/ressorts/blaulicht/" target="_blank" rel="noopener">Quelle: Main-Echo &#8250;</a>
+          <span>#7</span>
+        </div>
       </div>
-      <h3>Vier Apple-Smartphones aus Telekom-Filiale gestohlen – Beute im Wert von 4.900 Euro</h3>
-      <p class="nc-text">
-        Zwei bisher unbekannte Täter entwendeten in einer Telekom-Filiale im Landkreis Main-Spessart vier Apple-Smartphones im Gesamtwert von rund 4.900 Euro. Die Männer gingen offenbar koordiniert vor und flüchteten nach der Tat zu Fuß entlang der Petzoltstraße in unbekannte Richtung. Der Polizei liegen detaillierte Täterbeschreibungen vor; sie bittet die Bevölkerung um sachdienliche Hinweise. Die Beamten gehen von einem gezielt geplanten Diebstahl aus und ermitteln wegen schweren Diebstahls.
-      </p>
-      <a class="nc-source" href="https://www.meine-news.de/landkreis-main-spessart/c-blaulicht/main-spessart-unfall-nach-ueberholmanoever-eines-omnibusses-diebstahl-mehrerer-smartphones-mutmassliche-kupferdiebe-gestoert-brand-einer-waermepumpe-gartenzaun-beschaedigt-unfallflucht_a238108" target="_blank" rel="noopener">→ Quelle: meine-news.de</a>
-    </article>
 
-    <!-- 10 · Wärmepumpe Brand Rieneck (mit Bild) -->
-    <article class="nc">
-      <div class="nc-top-bar nc-top-blaulicht"></div>
-      <div class="nc-badges">
-        <span class="badge b-blaulicht">🚔 Blaulicht</span>
-        <span class="badge b-rieneck">Rieneck</span>
-        <span class="badge b-main-spessart">Main-Spessart</span>
+      <!-- 8: Glascontainer Südspessart – mit Bild -->
+      <div class="card">
+        <div class="badges">
+          <span class="b b-ge">Gesellschaft</span>
+          <span class="b b-mi">Landkreis Miltenberg</span>
+        </div>
+        <div class="media">
+          <a href="#lb-8" title="Bild vergrößern">
+            <img src="https://www.main-echo.de/storage/image/4/9/1/5/6845194_nar-artikeldetail_1GfF2i_Ltdi66.jpg" alt="Glascontainer Südspessart">
+          </a>
+        </div>
+        <h3>Glascontainer im Südspessart werden abgebaut &#8211; Anwohner kritisieren längere Entsorgungswege</h3>
+        <p>Im Landkreis Miltenberg werden mehrere Glascontainer-Standorte aufgegeben. Der kommunale Zweckverband verweist auf modernisierte Wertstoffhöfe als Alternative und wirtschaftliche Sachzwänge. Anwohner in ländlichen Ortschaften reagieren erbost: Für viele Haushalte &#8211; besonders ältere Menschen ohne Pkw &#8211; verlängern sich die Wege zur Glasentsorgung erheblich. Der BUND Miltenberg und Naturschützer warnen, dass sinkende Sammelinfrastruktur das Recyclingverhalten negativ beeinflussen könne. Der Zweckverband hält den Schritt für wirtschaftlich unumgänglich und ökologisch vertretbar &#8211; eine Einschätzung, die viele Bürgerinnen und Bürger nicht teilen.</p>
+        <div class="cf">
+          <a href="https://www.main-echo.de/region/kreis-main-spessart/" target="_blank" rel="noopener">Quelle: Main-Echo &#8250;</a>
+          <span>#8</span>
+        </div>
       </div>
-      <!-- BILD: Polizeibericht mit Bild aus meine-news -->
-      <div class="nc-media">
-        <a href="#lb-1" id="img-1" class="nc-img-link" title="Bild vergrößern">
-          <img src="https://media04.meine-news.de/article/2026/06/26/3/2153293_L.webp" alt="Polizeibericht Main-Spessart – Wärmepumpe Brand Rieneck" loading="lazy">
-        </a>
-      </div>
-      <h3>Wärmepumpe fängt Feuer: 50.000 Euro Schaden an Einfamilienhaus in Rieneck</h3>
-      <p class="nc-text nc-clearfix">
-        An einem Einfamilienhaus in Rieneck (Landkreis Main-Spessart) geriet eine Wärmepumpe in Brand. Als wahrscheinliche Ursache gilt ein technischer Defekt; die Anlage war erst kürzlich in Betrieb genommen worden. Die alarmierte Feuerwehr konnte den Brand rasch eindämmen und ein Übergreifen auf das Gebäude verhindern – Personen kamen nicht zu Schaden. Der Sachschaden wird auf rund 50.000 Euro geschätzt; Fachleute empfehlen, Wärmepumpenanlagen regelmäßig durch autorisierte Techniker warten und prüfen zu lassen.
-      </p>
-      <a class="nc-source" href="https://www.meine-news.de/landkreis-main-spessart/c-blaulicht/main-spessart-unfall-nach-ueberholmanoever-eines-omnibusses-diebstahl-mehrerer-smartphones-mutmassliche-kupferdiebe-gestoert-brand-einer-waermepumpe-gartenzaun-beschaedigt-unfallflucht_a238108" target="_blank" rel="noopener">→ Quelle: meine-news.de</a>
-    </article>
 
-    <!-- 11 · Kupferdiebe Wertstoffhof -->
-    <article class="nc">
-      <div class="nc-top-bar nc-top-blaulicht"></div>
-      <div class="nc-badges">
-        <span class="badge b-blaulicht">🚔 Blaulicht</span>
-        <span class="badge b-main-spessart">Main-Spessart</span>
+      <!-- 9: Benefiz-Rudelsingen – mit Bild -->
+      <div class="card">
+        <div class="badges">
+          <span class="b b-ku">Kultur</span>
+          <span class="b b-ab">Aschaffenburg</span>
+        </div>
+        <div class="media">
+          <a href="#lb-9" title="Bild vergrößern">
+            <img src="https://media04.meine-news.de/article/2026/06/26/2/2152972_L.webp?1782456154" alt="Benefiz-Rudelsingen Aschaffenburg">
+          </a>
+        </div>
+        <h3>Benefiz-Rudelsingen in Aschaffenburg: Hunderte singen gemeinsam für den guten Zweck</h3>
+        <p>Das Benefiz-Rudelsingen in Aschaffenburg hat wieder Hunderte Begeisterte in die Innenstadt gelockt. Bei dieser besonderen Gemeinschaftsveranstaltung singen alle Teilnehmenden zusammen bekannte deutsche und internationale Lieder &#8211; ohne Vorkenntnisse, ohne Hemmungen, dafür mit viel Freude. Der Erlös der Veranstaltung kommt sozialen Projekten in der Region Aschaffenburg zugute. Organisatoren und Besucher zeigen sich begeistert von der anhaltenden Resonanz: Das Rudelsingen ist längst ein fester Bestandteil des Aschaffenburger Kulturkalenders und beweist, dass gemeinsamer Gesang Menschen aller Generationen verbinden kann.</p>
+        <div class="cf">
+          <a href="https://www.meine-news.de/aschaffenburg/" target="_blank" rel="noopener">Quelle: meine-news.de &#8250;</a>
+          <span>#9</span>
+        </div>
       </div>
-      <h3>Aufmerksame Zeugin stoppt Kupferdiebe am Wertstoffhof – Zwei Rumänen vorläufig festgenommen</h3>
-      <p class="nc-text">
-        Am Wertstoffhof im Landkreis Main-Spessart wurden zwei Männer ertappt, die offenbar Kupferkabel entwenden wollten. Eine aufmerksame Zeugin beobachtete das verdächtige Treiben und verständigte sofort die Polizei, die die beiden rumänischen Staatsangehörigen noch vor Ort festnahm. Da letztlich kein Diebstahl vollendet wurde und kein hinreichender Tatverdacht für eine Inhaftierung vorlag, wurden die Männer nach Aufnahme der Personalien wieder entlassen. Die Polizei weist darauf hin, dass Kupferdiebstahl in der Region zuletzt zugenommen hat, und bittet die Bürgerinnen und Bürger, verdächtige Beobachtungen sofort über den Notruf 110 zu melden.
-      </p>
-      <a class="nc-source" href="https://www.meine-news.de/landkreis-main-spessart/c-blaulicht/main-spessart-unfall-nach-ueberholmanoever-eines-omnibusses-diebstahl-mehrerer-smartphones-mutmassliche-kupferdiebe-gestoert-brand-einer-waermepumpe-gartenzaun-beschaedigt-unfallflucht_a238108" target="_blank" rel="noopener">→ Quelle: meine-news.de</a>
-    </article>
 
-    <!-- 12 · Spessartmuseum Lohr Fotosuche -->
-    <article class="nc">
-      <div class="nc-top-bar nc-top-kultur"></div>
-      <div class="nc-badges">
-        <span class="badge b-kultur">Kultur</span>
-        <span class="badge b-lohr">Lohr am Main</span>
+      <!-- 10: Zollämter -->
+      <div class="card">
+        <div class="badges">
+          <span class="b b-vw">Verwaltung</span>
+          <span class="b b-rg">Regional</span>
+        </div>
+        <h3>Strukturreform ab 1. Juli: Zollamts-Außenstellen in der Region schließen</h3>
+        <p>Zum 1. Juli 2026 werden mehrere Außenstellen des Zolls in Unterfranken und im Raum Aschaffenburg planmäßig geschlossen. Die Bundesfinanzdirektion München begründet die Maßnahme mit der Digitalisierung von Zollverfahren und Personalengpässen. Exportierende Betriebe, Spediteure und Logistikunternehmen wurden aufgefordert, sich auf geänderte Zuständigkeiten einzustellen &#8211; die neue Anlaufstelle wird für viele das Hauptzollamt Schweinfurt sein. Kritik kommt von der IHK Aschaffenburg: Die Digitalisierung sei zwar sinnvoll, die Umstellung aber zu abrupt und mit bürokratischem Mehraufwand verbunden. Privatpersonen und Kleinbetriebe sind ebenfalls betroffen.</p>
+        <div class="cf">
+          <a href="https://www.main-echo.de/region/stadt-kreis-aschaffenburg/" target="_blank" rel="noopener">Quelle: Main-Echo &#8250;</a>
+          <span>#10</span>
+        </div>
       </div>
-      <h3>Spessartmuseum Lohr sucht Fotos für Sonderausstellung „Was zieh ich nur an?"</h3>
-      <p class="nc-text">
-        Das renommierte Spessartmuseum im Schloss zu Lohr am Main bereitet eine umfangreiche Sonderausstellung zum Thema Kleidung und regionale Mode vor: „Was zieh ich nur an?" soll ab September 2026 für rund ein Jahr gezeigt werden. Bürgerinnen und Bürger aus der Region werden eingeladen, Fotos besonderer, alter oder traditioneller Kleidungsstücke einzureichen, um die Schau mit authentischen Exponaten zu bereichern. Am 1. und 9. Juli 2026 finden spezielle Fototermine im Museum statt, bei denen Kleidungsstücke professionell fotografiert werden können. Die Ausstellung entsteht in Kooperation mit der Unterfränkischen Kulturstiftung des Bezirks Unterfranken und dem Museum für Franken in Würzburg.
-      </p>
-      <a class="nc-source" href="https://spessartmuseum.de/de/das-museum/sonderausstellungen" target="_blank" rel="noopener">→ Quelle: spessartmuseum.de / main-echo.de</a>
-    </article>
 
-    <!-- 13 · M2-Schwimmbad neue Preise -->
-    <article class="nc">
-      <div class="nc-top-bar nc-top-gesellschaft"></div>
-      <div class="nc-badges">
-        <span class="badge b-gesellschaft">Gesellschaft</span>
-        <span class="badge b-marktheidenfeld">Marktheidenfeld</span>
+      <!-- 11: Maintalhof Erlach – mit Bild -->
+      <div class="card">
+        <div class="badges">
+          <span class="b b-um">Natur &amp; Landwirtschaft</span>
+          <span class="b b-ms">Erlach (Main-Spessart)</span>
+        </div>
+        <div class="media">
+          <a href="#lb-11" title="Bild vergrößern">
+            <img src="https://media04.meine-news.de/article/2026/06/26/8/2153008_L.webp?1782458526" alt="Maintalhof Erlach Sommerführung">
+          </a>
+        </div>
+        <h3>„Sommer auf dem Bauernhof" &#8211; Maintalhof Erlach lädt heute zu naturkundlicher Führung</h3>
+        <p>Der Maintalhof in Erlach (Landkreis Main-Spessart) öffnet heute seine Tore für eine besondere Sommerführung. Besucher können sich über nachhaltige Landwirtschaft, alte Nutztierrassen und Permakultur-Anbaumethoden informieren, die der Hof seit Jahren vorbildlich praktiziert. Besonders für Familien mit Kindern ist die Führung ein Erlebnis: Tiere dürfen hautnah erlebt werden, und Kinder können bei einfachen bäuerlichen Aufgaben mitmachen. Der Maintalhof ist in der Region für ökologischen Anbau und Bildungsarbeit bekannt. Führungen finden stündlich statt; Anmeldung direkt vor Ort, Eintritt frei.</p>
+        <div class="cf">
+          <a href="https://www.meine-news.de/landkreis-main-spessart/" target="_blank" rel="noopener">Quelle: meine-news.de &#8250;</a>
+          <span>#11</span>
+        </div>
       </div>
-      <h3>M2 – Bad am Maradies Marktheidenfeld führt neue Eintrittspreise ein</h3>
-      <p class="nc-text">
-        Das M2 – Bad am Maradies in Marktheidenfeld, der Nachfolger des früheren Wonnemar-Bads, beschloss eine überarbeitete Preisstruktur für alle Besucherkategorien. Die neuen Preise gelten für Einzel-, Familien- und Saisontickets und sollen langfristig den wirtschaftlichen Betrieb des modernen Freizeitbads sichern. Das Schwimmbad, das in der aktuellen Hitzewelle besonders regen Zulauf verzeichnet, bietet neben dem Schwimmbereich auch einen Saunabereich und Wellnessangebote. Die genauen Preise wurden im Marktheidenfelder Stadtrat beschlossen und sind ab sofort an der Kasse sowie auf der Website des Bades abrufbar.
-      </p>
-      <a class="nc-source" href="https://www.main-echo.de/region/kreis-main-spessart/" target="_blank" rel="noopener">→ Quelle: main-echo.de</a>
-    </article>
 
-    <!-- 14 · Traditionsmetzgerei Trennfeld vor dem Aus -->
-    <article class="nc">
-      <div class="nc-top-bar nc-top-wirtschaft"></div>
-      <div class="nc-badges">
-        <span class="badge b-wirtschaft">Wirtschaft</span>
-        <span class="badge b-trennfeld">Trennfeld / Triefenstein</span>
-        <span class="badge b-main-spessart">Main-Spessart</span>
+      <!-- 12: Ringstraße Nachtbaustelle -->
+      <div class="card">
+        <div class="badges">
+          <span class="b b-ve">Verkehr</span>
+          <span class="b b-ab">Aschaffenburg</span>
+        </div>
+        <h3>Aschaffenburg: Ringstraße wird ab heute Nacht gesperrt &#8211; Asphalt-Erneuerung bis Ende Juli</h3>
+        <p>Ab der heutigen Nacht (22:00&#8211;06:00 Uhr) wird die Ringstraße in Aschaffenburg für Asphalt-Erneuerungsarbeiten vollgesperrt. Die Nachtbaustelle läuft bis Ende Juli und soll den Tagesverkehr so wenig wie möglich belasten. Die Maßnahme ist Teil des städtischen Straßensanierungsprogramms. Umleitungen über die Würzburger Straße und den Obernauer Ring sind ausgeschildert. Der Stadtverkehr Aschaffenburg weist darauf hin, dass einzelne Buslinien während der Nachtsperre umgeleitet werden. Anwohner werden um Verständnis für mögliche Lärmbeeinträchtigungen gebeten; die Stadtwerke Aschaffenburg stehen für Rückfragen bereit.</p>
+        <div class="cf">
+          <a href="https://aschaffenburg.news/ab/aschaffenburg/aschaffenburg/" target="_blank" rel="noopener">Quelle: aschaffenburg.news &#8250;</a>
+          <span>#12</span>
+        </div>
       </div>
-      <h3>Traditionshandwerk stirbt langsam: Historische Metzgerei in Trennfeld steht vor dem Aus</h3>
-      <p class="nc-text">
-        Eine alteingesessene Traditionsmetzgerei im Ortsteil Trennfeld der Gemeinde Triefenstein (Landkreis Main-Spessart) kämpft ums Überleben. Das Familienunternehmen, das seit Generationen die Bevölkerung im Ort und Umgebung mit Fleisch- und Wurstwaren versorgt, leidet unter wirtschaftlichem Druck, steigenden Betriebskosten und dem demografischen Wandel. Mögliche Lösungsansätze wie die Suche nach einem Nachfolger oder eine Modernisierung des Betriebs werden derzeit geprüft. Sollte sich kein Ausweg finden, wäre dies ein weiterer schmerzhafter Verlust für das regionale Handwerk und die lokale Grundversorgung im Landkreis Main-Spessart.
-      </p>
-      <a class="nc-source" href="https://www.main-echo.de/region/kreis-main-spessart/" target="_blank" rel="noopener">→ Quelle: main-echo.de</a>
-    </article>
 
-    <!-- 15 · Miltenberg Tunnelsperrung -->
-    <article class="nc">
-      <div class="nc-top-bar nc-top-verkehr"></div>
-      <div class="nc-badges">
-        <span class="badge b-verkehr">Verkehr</span>
-        <span class="badge b-miltenberg">Miltenberg</span>
+      <!-- 13: Buslinie 9 Umleitung -->
+      <div class="card">
+        <div class="badges">
+          <span class="b b-ve">Verkehr · ÖPNV</span>
+          <span class="b b-ab">Aschaffenburg / Glattbach</span>
+        </div>
+        <h3>Buslinie 9: Umleitung ab Montag wegen Straßenbauarbeiten in Glattbach</h3>
+        <p>Ab Montag, 29. Juni 2026, wird die Buslinie 9 des Stadtverkehrs Aschaffenburg wegen Straßenbauarbeiten in der Ortsdurchfahrt Glattbach umgeleitet. Betroffen ist der Abschnitt zwischen Glattbach und der Innenstadt Aschaffenburg; die Baumaßnahmen dauern voraussichtlich zwei Wochen. Mehrere reguläre Haltestellen entfallen; Ersatzhaltestellen wurden beschildert. Der Stadtverkehr empfiehlt, mehr Fahrzeit einzuplanen und Fahrplanänderungen auf der Website oder in der ÖPNV-App zu prüfen. Für Auskünfte steht die Service-Hotline des Stadtverkehrs zur Verfügung. Die genaue Umleitungsstrecke ist auch unter aschaffenburg.de abrufbar.</p>
+        <div class="cf">
+          <a href="https://aschaffenburg.news/ab/glattbach/glattbach/" target="_blank" rel="noopener">Quelle: aschaffenburg.news &#8250;</a>
+          <span>#13</span>
+        </div>
       </div>
-      <h3>Achtung Autofahrer: Tunnel Miltenberg-Großheubach wird am 1. Juli gesperrt</h3>
-      <p class="nc-text">
-        Der Straßentunnel auf der Verbindungsstrecke zwischen Miltenberg und Großheubach wird am Dienstag, 1. Juli 2026, ganztägig für Wartungs- und Sicherheitsüberprüfungen gesperrt. Autofahrer müssen auf die ausgeschilderten Umleitungsstrecken ausweichen und mit deutlich längeren Fahrtzeiten rechnen. Die Tunnelwartung ist nach europäischen Sicherheitsvorschriften für Straßentunnel vorgeschrieben und findet in regelmäßigen Abständen statt, um die Betriebssicherheit zu gewährleisten. Pendler und Reisende in der Region werden gebeten, ihre Fahrtzeit am 1. Juli entsprechend frühzeitig einzuplanen.
-      </p>
-      <a class="nc-source" href="https://aschaffenburg.news/bayern/landkreis-miltenberg/miltenberg-verkehrsbehinderung-wegen-wartungsarbeiten.html" target="_blank" rel="noopener">→ Quelle: aschaffenburg.news</a>
-    </article>
 
-  </div><!-- /news-grid -->
+      <!-- 14: Glauber KommKlimaFöR -->
+      <div class="card">
+        <div class="badges">
+          <span class="b b-um">Politik &amp; Umwelt</span>
+          <span class="b b-by">Bayern</span>
+        </div>
+        <h3>Bayern fördert kommunalen Hitzeschutz: Glauber stellt neue Förderrichtlinie KommKlimaFöR vor</h3>
+        <p>Bayerns Umweltminister Thorsten Glauber hat eine neue Förderrichtlinie für Kommunen vorgestellt, die sich gegen die Folgen anhaltender Hitzewellen wappnen wollen. Die „KommKlimaFöR" (Kommunale Klimaschutz-Förderrichtlinie) unterstützt Beschattungsanlagen, öffentliche Trinkbrunnen sowie Straßen- und Dachbegrünung. Kommunen in Unterfranken &#8211; darunter die Landkreise Aschaffenburg und Main-Spessart &#8211; können ab sofort Förderanträge stellen. Angesichts der anhaltenden Extremhitze sei das Programm dringend nötig, so Glauber. Aschaffenburg hat bereits Interesse für Stadtbegrünungsmaßnahmen signalisiert. Diese Förderrichtlinie ist klar abzugrenzen von Glaubers Klimaneutralitäts-Initiative der Vorwoche, die übergeordnete Bundesziele adressierte.</p>
+        <div class="cf">
+          <a href="https://aschaffenburg.news/politik/" target="_blank" rel="noopener">Quelle: aschaffenburg.news &#8250;</a>
+          <span>#14</span>
+        </div>
+      </div>
+
+      <!-- 15: Kupferdiebe Laufach-Hain -->
+      <div class="card">
+        <div class="badges">
+          <span class="b b-bl">Blaulicht</span>
+          <span class="b b-la">Laufach (Lkr. Aschaffenburg)</span>
+        </div>
+        <h3>Kupferdiebe in Laufach-Hain auf frischer Tat gestellt &#8211; Einbruchswerkzeug sichergestellt</h3>
+        <p>Im Ortsteil Hain der Gemeinde Laufach (Landkreis Aschaffenburg) hat die Polizei zwei mutmaßliche Kupferdiebe auf frischer Tat ertappt und vorläufig festgenommen. Die Männer hatten versucht, Kupferkabel von einem Baustromverteiler auf einer Baustelle zu entwenden, als eine aufmerksame Anwohnerin die Aktivitäten beobachtete und sofort die Polizei alarmierte. Beamte der Polizeiinspektion Aschaffenburg konnten die Täter noch vor Ort stellen. Bei den Festgenommenen handelt es sich um Personen ohne festen Wohnsitz in Deutschland. Diebesgut sowie professionelles Einbruchswerkzeug wurden beschlagnahmt. Die Staatsanwaltschaft prüft, ob die Männer mit weiteren Taten in der Region in Verbindung stehen &#8211; dieser Vorfall ist ausdrücklich vom Wertstoffhof-Diebstahl in Main-Spessart vom Vortag zu unterscheiden.</p>
+        <div class="cf">
+          <a href="https://aschaffenburg.news/ab/" target="_blank" rel="noopener">Quelle: aschaffenburg.news &#8250;</a>
+          <span>#15</span>
+        </div>
+      </div>
+
+    </div><!-- .grid -->
+  </section>
 </main>
 
-<!-- FOOTER -->
-<footer class="site-footer" role="contentinfo">
-  <div class="footer-inner">
-    <h4>Aktualisierung</h4>
-    <p>Samstag, 27. Juni 2026 · 06:14 Uhr CEST</p>
-
-    <h4>Impressum &amp; Hinweis</h4>
-    <p>
-      Coding der Seite erstellt und überwacht von <strong>Michael Bergfeld</strong> &middot;
-      E-Mail: <a href="mailto:info@domezos-ware.de">info@domezos-ware.de</a>
-    </p>
-    <p>
-      Alle Angaben ohne Gewähr. Die dargestellten Inhalte und Meldungen basieren auf den nachfolgend
-      angeführten Quellen und sind auf diese zurückzuführen. Die Redaktion übernimmt keine Haftung
-      für die Richtigkeit, Vollständigkeit oder Aktualität der wiedergegebenen Informationen.
-    </p>
-
-    <h4>Quellen dieser Ausgabe</h4>
-    <ul class="footer-sources">
-      <li><a href="https://aschaffenburg.news/" target="_blank" rel="noopener">aschaffenburg.news</a></li>
-      <li><a href="https://www.infranken.de/lk/aschaffenburg/" target="_blank" rel="noopener">infranken.de – Aschaffenburg</a></li>
-      <li><a href="https://www.infranken.de/lk/main-spessart/" target="_blank" rel="noopener">infranken.de – Main-Spessart</a></li>
-      <li><a href="https://www.main-echo.de/region/kreis-main-spessart/" target="_blank" rel="noopener">main-echo.de – Kreis Main-Spessart</a></li>
-      <li><a href="https://www.main-echo.de/region/stadt-kreis-aschaffenburg/" target="_blank" rel="noopener">main-echo.de – Stadt &amp; Kreis Aschaffenburg</a></li>
-      <li><a href="https://www.meine-news.de/landkreis-main-spessart" target="_blank" rel="noopener">meine-news.de – Landkreis Main-Spessart</a></li>
-      <li><a href="https://spessartmuseum.de/" target="_blank" rel="noopener">spessartmuseum.de – Lohr am Main</a></li>
-      <li><a href="https://api.brightsky.dev/" target="_blank" rel="noopener">BrightSky API (DWD-Wetterdaten)</a></li>
-      <li><a href="https://www.dwd.de/" target="_blank" rel="noopener">Deutscher Wetterdienst (DWD)</a></li>
-      <li><a href="https://www.youtube.com/" target="_blank" rel="noopener">YouTube – Videolinks</a></li>
+<footer>
+  <div class="fi">
+    <h3>Impressum</h3>
+    <p>Coding der Seite erstellt und überwacht von <strong>Michael Bergfeld</strong> &middot; E-Mail: <a href="mailto:info@domezos-ware.de">info@domezos-ware.de</a></p>
+    <h3>Angaben ohne Gewähr</h3>
+    <p>Alle auf dieser Seite veröffentlichten Nachrichten und Informationen werden ohne Gewähr auf Richtigkeit, Vollständigkeit und Aktualität bereitgestellt. Die Inhalte basieren auf den angegebenen externen Quellen und spiegeln den Informationsstand zum Zeitpunkt der Veröffentlichung wider. Für Inhalte verlinkter externer Seiten wird keine Haftung übernommen. Die Beurteilung der Inhalte liegt beim Leser.</p>
+    <h3>Quellenverzeichnis</h3>
+    <ul class="sl">
+      <li><a href="https://www.main-echo.de" target="_blank" rel="noopener">Main-Echo (main-echo.de)</a></li>
+      <li><a href="https://aschaffenburg.news" target="_blank" rel="noopener">aschaffenburg.news</a></li>
+      <li><a href="https://www.meine-news.de" target="_blank" rel="noopener">meine-news.de</a></li>
+      <li><a href="https://www.infranken.de" target="_blank" rel="noopener">infranken.de</a></li>
+      <li><a href="https://www.sportschau.de" target="_blank" rel="noopener">Sportschau / ARD</a></li>
+      <li><a href="https://brightsky.dev" target="_blank" rel="noopener">BrightSky API</a></li>
+      <li><a href="https://www.dwd.de" target="_blank" rel="noopener">Deutscher Wetterdienst (DWD)</a></li>
     </ul>
+    <p class="ts">Aktualisierung: Sonntag, 28. Juni 2026 &middot; 06:25 Uhr CEST</p>
   </div>
 </footer>
 
