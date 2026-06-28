@@ -15,6 +15,7 @@ on:
 jobs:
   tagesnachrichten:
     runs-on: ubuntu-latest
+    timeout-minutes: 30
     permissions:
       contents: write
       pull-requests: write
@@ -26,17 +27,39 @@ jobs:
         uses: actions/checkout@v4
         with:
           ref: main
-          fetch-depth: 1
+          fetch-depth: 0
+
+      - name: Git-Konfiguration
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
 
       - name: Tagesnachrichten – Claude Code
+        id: claude
         uses: anthropics/claude-code-action@beta
         with:
           mode: agent
           direct_prompt: |
-            Führe den Skill tagesnachrichten-lohr-aschaffenburg vollständig aus.
-            Heute ist ${{ github.event.inputs.reason || 'automatischer Tagesstart 06:00 Uhr' }}.
-            Erstelle die aktuelle index.html und aktualisiere journal.md für heute.
-            Committe und pushe direkt auf den main-Branch.
+            Führe den Skill tagesnachrichten-lohr-aschaffenburg vollständig aus (Schritte 1–8).
+            Hinweis: ${{ github.event.inputs.reason || 'automatischer Tagesstart 06:00 Uhr' }}.
+            Git-Konfiguration (name/email) ist bereits gesetzt.
+            Erstelle alle Änderungen auf einem neuen Branch, committe, pushe und erstelle einen Pull Request nach main.
+            Merge den PR anschließend selbst (squash merge).
           anthropic_api_key: ${{ secrets.ANTHROPIC_API_KEY }}
           allowed_tools: "Bash,WebSearch,WebFetch,Read,Write,Edit,Glob,Grep"
           model: claude-sonnet-4-6
+
+      - name: Benachrichtigung bei Fehler (GitHub Issue)
+        if: failure()
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const runUrl = `https://github.com/${context.repo.owner}/${context.repo.repo}/actions/runs/${context.runId}`;
+            const today = new Date().toISOString().slice(0, 10);
+            await github.rest.issues.create({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              title: `❌ Tagesnachrichten-Workflow fehlgeschlagen – ${today}`,
+              body: `## Automatischer Workflow fehlgeschlagen\n\n**Datum:** ${today}\n**Run:** [Logs ansehen](${runUrl})\n\n### Mögliche Ursachen\n- Anthropic API-Guthaben aufgebraucht → [Guthaben aufladen](https://console.anthropic.com/)\n- Netzwerkfehler bei Nachrichtenquellen\n- GitHub-Berechtigungsproblem\n\n### Nächste Schritte\n1. Logs prüfen (Link oben)\n2. Guthaben ggf. aufladen\n3. Workflow manuell neu starten: [workflow_dispatch](https://github.com/${context.repo.owner}/${context.repo.repo}/actions/workflows/tagesnachrichten.yml)\n\n_Dieses Issue wurde automatisch erstellt._`,
+              labels: ['workflow-fehler']
+            });
