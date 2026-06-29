@@ -1,20 +1,37 @@
 # Tagesnachrichten-Journal – domezos2024/aktuelles
 
-## Design – 2026-06-28 – 12:05 Uhr CEST
-- Schema: Tiefblau-Sommergold (Mediterranean Summer Blue)
-- Header-Gradient: #1A237E → #283593 → #3949AB (Deep Indigo zu Kobalt zu Blau)
-- Seasonal-Banner: #F57F17 → #F9A825 → #FFB300 (Bernstein/Gold – Sieben Schläfer, Peter & Paul)
-- Hintergrund: #EFF3FF
-- Karten: #FFFFFF, border #C5CAE9
-- Akzentfarben: #1A237E · #3949AB · #F9A825 · #C62828 · #6A1B9A · #4527A0 · #880E4F
-- Layout: grid-3col (responsive 2col/1col)
-- Fonts: Palatino Linotype serif (Überschriften) · Verdana sans-serif (Fließtext)
+## Design – 2026-06-29 – 06:03 Uhr CEST
+- Schema: Spessart Sommergrün (Walddunkel + Terrakotta)
+- Header-Gradient: #1B5E20 → #2E7D32 → #33691E (Waldgrün satt)
+- Seasonal-Banner: #B71C1C → #D84315 → #E64A19 → #FF5722 (Feuerrot-Terrakotta – Peter und Paul)
+- Hintergrund: #F1F8E9
+- Karten: #FFFFFF, border #C8E6C9
+- Akzentfarben: #1B5E20 · #2E7D32 · #33691E · #B71C1C · #FF5722 · #1565C0 · #6A1B9A
+- Layout: grid-2col (responsive 1col)
+- Fonts: Trebuchet MS sans-serif (Überschriften) · Arial Helvetica sans-serif (Fließtext)
 
 ---
 
 ## Themen-Archiv (letzte 10 Tage – NICHT wiederholen!)
 
-### 2026-06-28 (Ausgabe 2 – 12:05 Uhr CEST) ← heute, neu hinzugefügt
+### 2026-06-29 (Ausgabe – 06:03 Uhr CEST) ← heute, neu hinzugefügt
+- Volksfest-Aschaffenburg-97-Abschluss Feuerwerk-29-Juni 22:30-Uhr Schloss-Johannisburg Wasserfall-Effekt | https://www.main-echo.de/region/stadt-kreis-aschaffenburg/aschaffenburger-volksfest-2026-alle-tage-alle-bilder-unsere-uebersicht-art-8735972 | freizeit | aschaffenburg
+- Mittelalter-Skelette-34 Kirche Lkr-Main-Spessart Ausgrabung 1408 Landesamt-Denkmalpflege Würzburg | https://www.infranken.de/lk/main-spessart/kreis-main-spessart-ueber-30-skelette-gefunden-blick-ins-mittelalter-art-6371827 | archäologie | lkr-main-spessart
+- Gemünden-Fahrraddiebstahl EDEKA-Parkplatz Winkelschleifer Cowboyhut Zeugenaufruf Polizei | https://www.meine-news.de/gemuenden-amain/c-blaulicht/gemuenden-fahrraddiebstahl_a238168 | blaulicht | gemünden
+- Elsenfeld 58-Jähriger verfassungswidrige-Geste §86a-StGB Strafverfahren Unterfranken | https://aschaffenburg.news/bayern/landkreis-miltenberg/elsenfeld-58-j%C3%A4hriger-zeigt-verfassungswidrige-geste.html | blaulicht | miltenberg
+- Miltenberg PKW-Grundstücksmauer Sachschaden Feuerwehr Betriebsflüssigkeiten Ermittlung | https://aschaffenburg.news/bayern/landkreis-miltenberg/miltenberg-pkw-f%C3%A4hrt-gegen-grundst%C3%BCcksmauer.html | blaulicht | miltenberg
+- Buslinie-11-Aschaffenburg Daimlerstraße Bauarbeiten Umleitung Schwalbenrainweg Ersatzhalt stwab | https://aschaffenburg.news/ab/aschaffenburg/aschaffenburg/aschaffenburg-umleitung-der-buslinie-11-ab-29-juni-2026.html | verkehr | aschaffenburg
+- Buslinie-14-Mainaschaff Behringstraße Wohngebiet Mittelweg Ersatzhalt Mainparkstraße stwab | https://aschaffenburg.news/ab/mainaschaff/mainaschaff/mainaschaff-ge%C3%A4nderte-umleitung-der-buslinie-14-ab-29-juni-2026.html | verkehr | mainaschaff
+- Müllabfuhr-Aschaffenburg reguläre-Zeiten Hitzeregelung-beendet Stadtwerke 5-Uhr-Ende | https://aschaffenburg.news/ab/aschaffenburg/aschaffenburg/aschaffenburg-m%C3%BCllabfuhr-kehrt-ab-29-juni-zu-den-regul%C3%A4ren-zeiten-zur%C3%BCck.html | service | aschaffenburg
+- AVG-Stromnetzausbau Wermbachstraße Alexandrastraße Bauabschnitt-1 Wärmepumpen Ladesäulen 10-Juli | https://aschaffenburg.news/ab/aschaffenburg/stadtmitte/aschaffenburg-avg-setzt-stromnetzausbau-mit-angepasstem-bauablauf-fort.html | infrastruktur | aschaffenburg
+- Fairtrade-Kaffee-Mobil Mainradweg Lastenrad 60km Marktheidenfeld-Zellingen STADTRADELN Weltläden | https://www.main-spessart.de/aktuelles/pressemitteilungen/11109.Ein-Fairtrade-Landkreis-fuenf-Weltlaeden-60-km-mit-dem-Lastenrad--Kaffee-Mobil-unterwegs-auf-dem-Mainradweg.html | gesellschaft | lkr-main-spessart
+- Agroforstsysteme Lkr-Main-Spessart Exkursion Bäume-Acker Klimaanpassung Hemmersheim-Wald21 | https://www.main-spessart.de/aktuelles/pressemitteilungen/11100.Agroforstsysteme--doppelte-Nutzung-und-Mehrwert-fuer-die-Klimaanpassung.html | umwelt | lkr-main-spessart
+- Hafenfest-Neustadt-a.Main Hoffnung-schenken 10-Jahre-Jubiläum Mainufer Verein Livin-4-Moment | https://www.neustadt-erlach.de/events/hafenfest-neustadt-a-main/ | kultur | neustadt-amain
+- Landradtstour-33 19-September Karbach-Kreuzwertheim 60km Main-Spessart Anmeldung-ab-20-Juli | https://www.main-spessart.de/aktuelles/pressemitteilungen/11098.Jetzt-vormerken-Landradtstour-am-19.-September-2026--Entlang-des-Mains-ueber-Bruecken-und-Grenzen.html | freizeit | lkr-main-spessart
+- Gesundheitswarnung-Fernreisen Bayern Gerlach reisemedizinische-Vorsorge Tropenkrankheiten Sommer | https://aschaffenburg.news/politik/vor-fernreisen-rechtzeitig-%C3%BCber-gesundheitsrisiken-informieren.html | gesundheit | bayern
+- Herrmann Verkehrssicherheit-Bayern Kontrollen Prävention A3-Aschaffenburg Tempoverstöße 2030 | https://aschaffenburg.news/politik/herrmann-setzt-sich-f%C3%BCr-mehr-sicherheit-im-stra%C3%9Fenverkehr-ein.html | politik | bayern
+
+### 2026-06-28 (Ausgabe 2 – 12:05 Uhr CEST)
 - Gasflasche-Balkon Aschaffenburg-Damm Brand Evakuierung Kriminalpolizei-Ermittlung | https://www.main-echo.de/ressorts/blaulicht/ | blaulicht | aschaffenburg
 - Sulzbach Skoda Radweg 19-Jähriger ohne Führerschein Alkohol Baum-Unfall Kreisklinik | https://www.main-echo.de/region/stadt-kreis-aschaffenburg/ | blaulicht | lkr-aschaffenburg
 - Waldbrandgefahr Bayern Stufe-5 DWD Spessart Unterfranken Drohnenpatrouille StMI | https://www.stmi.bayern.de/ | klima | spessart
