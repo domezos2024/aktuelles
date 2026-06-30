@@ -1,20 +1,37 @@
 # Tagesnachrichten-Journal – domezos2024/aktuelles
 
-## Design – 2026-06-29 – 06:03 Uhr CEST
-- Schema: Spessart Sommergrün (Walddunkel + Terrakotta)
-- Header-Gradient: #1B5E20 → #2E7D32 → #33691E (Waldgrün satt)
-- Seasonal-Banner: #B71C1C → #D84315 → #E64A19 → #FF5722 (Feuerrot-Terrakotta – Peter und Paul)
-- Hintergrund: #F1F8E9
-- Karten: #FFFFFF, border #C8E6C9
-- Akzentfarben: #1B5E20 · #2E7D32 · #33691E · #B71C1C · #FF5722 · #1565C0 · #6A1B9A
-- Layout: grid-2col (responsive 1col)
-- Fonts: Trebuchet MS sans-serif (Überschriften) · Arial Helvetica sans-serif (Fließtext)
+## Design – 2026-06-30 – 06:09 Uhr CEST
+- Schema: Mainblau Halbjahr (Tiefblau + Gold – Jahreshälfte-Ausgabe)
+- Header-Gradient: #0D2E4F → #1A4E7D → #2A6EA0 (tiefes Mainblau)
+- Seasonal-Banner: #7B4F00 → #C9941A → #E8B621 → #C9941A (Gold – Jahreshälfte)
+- Hintergrund: #EEF3F9
+- Karten: #FFFFFF, border #BDD4E8
+- Akzentfarben: #0D2E4F · #C9941A · #E8B621 · #D32F2F · #2E7D32 · #6A1B9A
+- Layout: grid-3col (responsive 2col / 1col)
+- Fonts: Georgia 'Times New Roman' serif (Überschriften) · Verdana Geneva sans-serif (Fließtext)
 
 ---
 
 ## Themen-Archiv (letzte 10 Tage – NICHT wiederholen!)
 
-### 2026-06-29 (Ausgabe – 06:03 Uhr CEST) ← heute, neu hinzugefügt
+### 2026-06-30 (Ausgabe – 06:09 Uhr CEST) ← heute, neu hinzugefügt
+- Mordfall-Maria-Köhler Cold-Case 42-Jahre Nazmi-G Lebenslang Landgericht-Aschaffenburg Aktenzeichen-XY DNA | https://www.main-echo.de/region/stadt-kreis-aschaffenburg/tatort-schwesternwohnheim-prozess-um-marias-tod-vor-fast-42-jahren-geht-zu-ende-art-8742385 | justiz | aschaffenburg
+- Triefenstein-16-Jährige-Kradfahrerin Tödlicher-Motorradunfall St2299 Homburg-Bettingen VW-Golf frontal | https://www.meine-news.de/triefenstein/c-blaulicht/triefenstein-toedlicher-verkehrsunfall-auf-staatsstrasse-16-jaehrige-kradfahrerin-im-krankenhaus-verstorben_a238216 | blaulicht | main-spessart
+- Kleinostheim-Zug-Notbremsung Personen-im-Gleis HLB-Hessische-Landesbahn Bundespolizei Bahnstrecke-gesperrt | https://www.main-echo.de/ressorts/blaulicht/mehrere-personen-im-gleis-zug-notbremsung-bei-kleinostheim-art-8742870 | blaulicht | kleinostheim
+- Telefonbetrüger-Warnung Unterfranken Callcenter-Betrug falsche-Polizisten PP-Unterfranken Wertgegenstände | https://www.infranken.de/lk/aschaffenburg/aschaffenburg-polizeipraesidium-unterfranken-warnt-vor-telefonbetruegern-art-6373352 | blaulicht | unterfranken
+- Karlstadt-Papiermülltonne-Brand Kreuzwertheim-Illegale-Müllentsorgung Waldweg-KR32 Sofa Tapetenreste | https://www.meine-news.de/karlstadt/c-blaulicht/karlstadtkreuzwertheim-papiermuelltonne-in-brand-illegale-muellentsorgung_a238249 | blaulicht | karlstadt
+- Goldbach-Gyros-Diebstahl 20kg Kühlanhänger FFW-Unterafferbach Holder-Fahrzeug 110Euro | https://aschaffenburg.news/ab/markt-goldbach/unterafferbach/goldbach-20-kilogramm-gyros-aus-kühlanhänger-entwendet.html | blaulicht | goldbach
+- Kreistag-Main-Spessart Fachausschuss-Zentralklinikum Neugründung Transparenz Begleitgremium | https://www.main-echo.de/region/kreis-main-spessart/ | politik | main-spessart
+- Bundeswehr-Übungen-Juli Main-Spessart Lohr Marktheidenfeld Gräfendorf Rieneck Nachtmarsch-Wassertraining | https://www.main-spessart.de/aktuelles/pressemitteilungen/11128.Uebungen-der-Bundeswehr-im-Juli.html | gesellschaft | main-spessart
+- Raiba-Main-Spessart Thomas-Rauch Vorstandserweiterung Genossenschaftsbank Beratungskapazitäten | https://www.main-echo.de/region/kreis-main-spessart/ | wirtschaft | main-spessart
+- Hubertus-Apotheke-Lohr 90-Jahre-Jubiläum Ludwigstraße Tasci-Wohlfart 2024-Neuleitung | https://www.main-echo.de/region/kreis-main-spessart/ | wirtschaft | lohr
+- Kreuzwertheim-Schlosspark Rosenzauber Fürstin-Löwenstein-Wertheim-Freudenberg Rosengarten-exklusiv 70-Bilder | https://www.main-echo.de/region/kreis-main-spessart/ | kultur | kreuzwertheim
+- Künstlergruppe-FISH Aschaffenburg Gruppenausstellung Malerei Skulptur Schmuck-Vernissage | https://www.main-echo.de/region/stadt-kreis-aschaffenburg/ | kultur | aschaffenburg
+- Agenda-21-Kino-Juli Im-Osten-was-Neues Marktheidenfeld-Karlstadt WIR-Diversity-Preis Eichstätt-FC-Pio | https://www.main-spessart.de/aktuelles/pressemitteilungen/11127.Agenda-21-Kino-im-Juli-IM-OSTEN-WAS-NEUES.html | kultur | main-spessart
+- Zulassungsstelle-Lohr Personalengpass geschlossen Landratsamt-Main-Spessart Ersatz-Marktheidenfeld | https://www.main-spessart.de/aktuelles/pressemitteilungen/8585.Personalengpass-Zulassungsstelle-Lohr-heute-geschlossen.html | service | lohr
+- Rastplätze-Bayern A3-Spessart Müll-Flut Autobahn-GmbH Umweltverschmutzung Sommer | https://www.main-echo.de/ | gesellschaft | bayern
+
+### 2026-06-29 (Ausgabe – 06:03 Uhr CEST)
 - Volksfest-Aschaffenburg-97-Abschluss Feuerwerk-29-Juni 22:30-Uhr Schloss-Johannisburg Wasserfall-Effekt | https://www.main-echo.de/region/stadt-kreis-aschaffenburg/aschaffenburger-volksfest-2026-alle-tage-alle-bilder-unsere-uebersicht-art-8735972 | freizeit | aschaffenburg
 - Mittelalter-Skelette-34 Kirche Lkr-Main-Spessart Ausgrabung 1408 Landesamt-Denkmalpflege Würzburg | https://www.infranken.de/lk/main-spessart/kreis-main-spessart-ueber-30-skelette-gefunden-blick-ins-mittelalter-art-6371827 | archäologie | lkr-main-spessart
 - Gemünden-Fahrraddiebstahl EDEKA-Parkplatz Winkelschleifer Cowboyhut Zeugenaufruf Polizei | https://www.meine-news.de/gemuenden-amain/c-blaulicht/gemuenden-fahrraddiebstahl_a238168 | blaulicht | gemünden
@@ -166,37 +183,6 @@
 - STADTRADELN Landkreis Aschaffenburg Endspurt bis 28-Juni Ergebnisse | https://www.landkreis-aschaffenburg.de/ | gesellschaft | aschaffenburg
 - Jakobskreuzkraut Aktionszeitraum Landkreis-Aschaffenburg seit 22-Juni bis 7-August | https://www.landkreis-aschaffenburg.de/ | umwelt | aschaffenburg
 - Carillon Percussion Festival Aschaffenburg vorletzter Tag Schloss-Johannisburg bis 28-Juni | https://www.kulturamt-aschaffenburg.de/unsere-festivals/carillon-percussion/programm/ | kultur | aschaffenburg
-
-### 2026-06-24 (Ausgabe 2 – 06:08 Uhr CEST)
-- Pfefferspray Eisenstange Aschaffenburg Streitigkeit Hanauer-Straße Syrer festgenommen | https://aschaffenburg.news/ab/aschaffenburg/stadtmitte/aschaffenburg-nach-streitigkeit-im-strassenverkehr-pfefferspray-eingesetzt.html | blaulicht | aschaffenburg
-- Smartphone-Diebstahl Herstallstraße Aschaffenburg drei-Geräte 3000-Euro Zeugenaufruf | https://aschaffenburg.news/ab/aschaffenburg/stadtmitte/aschaffenburg-diebstahl-von-drei-mobiltelefonen.html | blaulicht | aschaffenburg
-- Falscher-Dachdecker Karlstadt Bodelschwinghstraße Handtasche 55-Jährige Trickdiebstahl | https://www.meine-news.de/landkreis-main-spessart/c-blaulicht/main-spessart-falscher-handwerker-entwendet-handtasche-zu-zweit-auf-e-scooter-unterwegs-und-verunfallt-unfallfluchten-nach-pkw-beschaedigung_a237775 | blaulicht | karlstadt
-- B469-Sperrung Stockstadt Opel-Corsa Brand Vollsperrung 27-Jährige Totalschaden | https://www.main-echo.de/ressorts/blaulicht/ | blaulicht | stockstadt
-- Frontalzusammenstoß Kleinostheim Hanauer-Straße Frau-verletzt Sperrung | https://www.main-echo.de/ressorts/blaulicht/ | blaulicht | kleinostheim
-- A3-Unfall Waldaschaff Verletzter Totalschaden Kurzsperrung | https://www.main-echo.de/ressorts/blaulicht/ | blaulicht | waldaschaff
-- E-Scooter-Unfall Gemünden Kreuzstraße zwei-Verletzte Mitfahrerin verboten | https://www.meine-news.de/landkreis-main-spessart/c-blaulicht/main-spessart-falscher-handwerker-entwendet-handtasche-zu-zweit-auf-e-scooter-unterwegs-und-verunfallt-unfallfluchten-nach-pkw-beschaedigung_a237775 | blaulicht | gemünden
-- Umgehung Steinfeld gestrichen Straßenbau Spardruck Landkreis-Main-Spessart | https://www.main-echo.de/region/kreis-main-spessart/ | politik | main-spessart
-- Sparkasse TH-Aschaffenburg 10000-Euro Labor-Wirtschaftsinformatik SAP 24-Jahre Förderung | https://aschaffenburg.news/ab/aschaffenburg/aschaffenburg/aschaffenburg-spende-von-10-000-euro-der-sparkasse-fuer-labor-fuer-wirtschaftsinformatik.html | wirtschaft | aschaffenburg
-- La-Boucherie Kreuzwertheim Michelin-Stern-2026 Daniel-Schröder Kaffelstein bestätigt | https://guide.michelin.com/en/bayern/kreuzwertheim_1295241/restaurant/la-boucherie | kultur | kreuzwertheim
-- AVG Speisekabel Schweinheim Umspannwerk Netzmodernisierung Aschaffenburg | https://aschaffenburg.news/ab/aschaffenburg/schweinheim/aschaffenburg-avg-erneuert-speisekabel.html | infrastruktur | aschaffenburg
-- Nachruf Johann-Hansi-Funk Marktheidenfeld 69-Jahre Rebell verstorben | https://www.main-echo.de/region/kreis-main-spessart/ | gesellschaft | marktheidenfeld
-- Sparkassen-Familientag Alzenau 28-Juni abgesagt Hitzewelle Sicherheit | https://www.alzenau.de/ | gesellschaft | alzenau
-- JUZ-Cup 10-Juli Rothenbuch Jugendzentren Fußball zwölf-Zentren Anmeldung-bis-30-Juni | https://aschaffenburg.news/ab/aschaffenburg/aschaffenburg/aschaffenburg-vierter-juz-cup-als-fussballturnier-der-jugendzentren.html | sport | lkr-aschaffenburg
-
-### 2026-06-23 (Ausgabe – 06:13 Uhr CEST)
-- BKH Lohr Forensik Infoveranstaltung Sicherheitsmaßnahmen Nachbarschaft | https://www.main-echo.de/dossiers/lohrer-forensik/ | gesellschaft | lohr
-- Mainschwimmer Mathias Alt 470km Main Schwimmtour Therapie Schlaganfall | https://www.main-echo.de/region/kreis-main-spessart/der-main-als-therapie-art-8738439 | gesellschaft | main-spessart
-- Polizeibericht Main-Spessart Randale Lohr Körperverletzung Marktheidenfeld 22-Juni | https://www.meine-news.de/landkreis-main-spessart/c-blaulicht/main-spessart-randale-polizei-nimmt-31-jaehrigen-in-gewahrsam-und-weitere-meldungen_a237703 | blaulicht | main-spessart
-- Brand Sportheim Albstadt 70 Feuerwehrkräfte Dach Totalschaden 22-Juni | https://www.meine-news.de/albstadt/c-blaulicht/brand-am-sportheim-in-albstadt-am-22062026_a237727 | blaulicht | albstadt
-- Mömlingen Mercedes Baum Frontalunfall B469 Unfall | https://www.main-echo.de/ressorts/blaulicht/ | blaulicht | mömlingen
-- Obernburg Nötigung Überholmanöver Strafanzeige Eskalation Straße | https://www.meine-news.de/obernburg-amain/c-blaulicht/obernburg-nach-streitigkeit-und-ueberholmanoever-strafanzeigen-gestellt_a237714 | blaulicht | obernburg
-- Polizeibericht Aschaffenburg Kahl Essen Herd vergessen Rauch Wohnung | https://www.meine-news.de/aschaffenburg/c-blaulicht/aschaffenburgkahl-essen-auf-dem-herd-vergessen-und-weitere-blaulichtmeldungen_a237720 | blaulicht | aschaffenburg
-- Kommunen am Limit Strukturreformen Landkreis Main-Spessart Haushalt | https://www.main-spessart.de/aktuelles/pressemitteilungen/11087.Kommunen-am-Limit.html | politik | main-spessart
-- Haibach Sommerstraße Freiheitstraße Umgestaltung Spielstraße Anwohner | https://www.main-echo.de/region/stadt-kreis-aschaffenburg/ | gesellschaft | haibach
-- Spieletreff SAM Karlstadt vier Standorte Senioren Karten | https://www.main-spessart.de/aktuelles/pressemitteilungen/11089.Spieletreff-SAM-Karlstadt.html | gesellschaft | karlstadt
-- EMiL Mediennachmittag 15-Juli Jugendliche helfen Erwachsene Digitalkompetenz | https://www.main-spessart.de/aktuelles/pressemitteilungen/11088.Jugendliche-helfen-Erwachsenen.html | gesellschaft | main-spessart
-- AVG Stromnetzausbau Ringsperre Aschaffenburg Vollsperrung Stadtteile | https://www.main-echo.de/region/stadt-kreis-aschaffenburg/avg-netzausbau-sperrungen-aschaffenburg-art-8738439 | verkehr | aschaffenburg
-- Schulen Hitzewelle Unterrichtsanpassung Hitzeplan Bayern Unterfranken | https://www.main-echo.de/region/ | gesellschaft | regional
 
 ### 2026-06-22 (Ausgabe 1 – 06:00 Uhr)
 - Fahrerflucht Omnibus Marktheidenfeld Polizei Zeugen gesucht | https://www.meine-news.de/marktheidenfeld/c-blaulicht/ | blaulicht | marktheidenfeld
