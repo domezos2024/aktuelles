@@ -1,20 +1,37 @@
 # Tagesnachrichten-Journal – domezos2024/aktuelles
 
-## Design – 2026-06-30 – 06:09 Uhr CEST
-- Schema: Mainblau Halbjahr (Tiefblau + Gold – Jahreshälfte-Ausgabe)
-- Header-Gradient: #0D2E4F → #1A4E7D → #2A6EA0 (tiefes Mainblau)
-- Seasonal-Banner: #7B4F00 → #C9941A → #E8B621 → #C9941A (Gold – Jahreshälfte)
-- Hintergrund: #EEF3F9
-- Karten: #FFFFFF, border #BDD4E8
-- Akzentfarben: #0D2E4F · #C9941A · #E8B621 · #D32F2F · #2E7D32 · #6A1B9A
-- Layout: grid-3col (responsive 2col / 1col)
-- Fonts: Georgia 'Times New Roman' serif (Überschriften) · Verdana Geneva sans-serif (Fließtext)
+## Design – 2026-07-01 – 06:11 Uhr CEST
+- Schema: Kupfer-Lagune (Petrol/Türkis + Kupfer – Hochsommer-Ausgabe)
+- Header-Gradient: #0B3D3D → #157F73 → #2FB6A3 (Petrol/Türkis)
+- Seasonal-Banner: #6B3410 → #B5651D → #E08A4D → #B5651D (Kupfer)
+- Hintergrund: #FBF6EE
+- Karten: #FFFFFF, border #E4D8C4
+- Akzentfarben: #0B3D3D · #E08A4D · #C1272D · #1B6FA8 · #5C7A3D · #7A4FA0 · #2F8F7A
+- Layout: grid-2col (responsive 1col)
+- Fonts: 'Trebuchet MS' 'Lucida Sans Unicode' sans-serif (Überschriften) · 'Segoe UI' Tahoma Geneva sans-serif (Fließtext)
 
 ---
 
 ## Themen-Archiv (letzte 10 Tage – NICHT wiederholen!)
 
-### 2026-06-30 (Ausgabe – 06:09 Uhr CEST) ← heute, neu hinzugefügt
+### 2026-07-01 (Ausgabe – 06:11 Uhr CEST) ← heute, neu hinzugefügt
+- Tiefenthal-Katze-Luftgewehr Erlenbach-Marktheidenfeld Esselbach-A3-Vollbrand Retzbach-Kamera-Diebstahl Lohr-Unfallflucht | https://www.meine-news.de/landkreis-main-spessart/c-blaulicht/main-spessart-katze-mutmasslich-mit-luftgewehr-angeschossen-pkw-geraet-auf-der-a3-in-vollbrand-ueberwachungskameras-an-der-schranke-abgeschlagen-und-entwendet-unfallflucht_a238369 | blaulicht | main-spessart
+- Großostheim-Mömbris-Wohnungseinbrüche 40-Jähriger-Festnahme Haftbefehl Kripo-Aschaffenburg | https://www.meine-news.de/grossostheim/c-blaulicht/grossostheimmoembris-ermittlungserfolg-nach-wohnungseinbruechen-tatverdaechtiger-in-haft_a238375 | blaulicht | lkr-aschaffenburg
+- Karlstein-Dettingen Reifen-zerstochen Kennzeichen-gestohlen Smart-Kirchweg-4000Euro | https://www.main-echo.de/ressorts/blaulicht/sachbeschaedigung-in-karlstein-am-main-art-8742785 | blaulicht | karlstein
+- Alarmplan-Main Alarm-ausgerufen Regierung-Unterfranken Erlabrunn-30,2Grad Rekord-Wassertemperatur Fischsterben | https://www.meine-news.de/landkreis-miltenberg/c-blaulicht/alarmplan-main-regierung-von-unterfranken-loest-fuer-den-gesamten-unterfraenkischen-main-alarm-aus_a238390 | umwelt | unterfranken
+- Aschaffenburg-Friedrichstraße-B26 Bauphase3 Vollsperrung Luitpoldstraße-Herstallturm bis-24-Juli | https://www.main-echo.de/region/stadt-kreis-aschaffenburg/kurzfristiger-baubeginn-aschaffenburger-friedrichstrasse-zwischen-einmuendung-der-luitpoltstrasse-und-dem-herstallturm-voll-gesperrt-art-8743581 | verkehr | aschaffenburg
+- Mainbrücke-Obernburg-Elsenfeld Mittelspannungsleitung-beschädigt Sperrung-verlängert | https://www.main-echo.de/region/kreis-miltenberg/kurzfristige-sperrung-der-obernburger-mainbruecke-dauert-laenger-art-8743329 | verkehr | obernburg-elsenfeld
+- Herrmann-Sicherheitskonferenz-Donaustaaten Sofia Bulgarien Demerdzhiev Polizei-Kooperation | https://aschaffenburg.news/politik/herrmann-bei-der-4-sicherheitskonferenz-der-donaustaaten-in-sofia.html | politik | bayern
+- SPD-Unterfranken-Doppelspitze Pamela-Nembach Manuel-Michniok Bezirksparteitag-4-Juli Bad-Königshofen | https://aschaffenburg.news/ab/aschaffenburg/aschaffenburg/aschaffenburg-pamela-nembach-und-manuel-michniok-kandidieren-als-doppelspitz.html | politik | unterfranken
+- Arbeitsmarkt-Bayern-4Prozent-stabil Aiwanger-strukturelle-Reformen Fachkräftemangel-2036 | https://aschaffenburg.news/politik/arbeitsmarkt-in-bayern-bleibt-stabil-aiwanger-fordert-strukturelle-verbesserungen.html | wirtschaft | bayern
+- Frammersbach-neuer-Einkaufsmarkt Nahversorgung-geprüft 600qm-Erweiterung-bestehender-Markt | https://www.main-echo.de/region/kreis-main-spessart/ | wirtschaft | frammersbach
+- Ortsumgehung-Pflaumheim Brückenbauwerke-Mühlbach-Pflaumbach Bachrenaturierung-Mitte-Juli | https://www.meine-news.de/landkreis-aschaffenburg/c-auto-und-co/ortsumgehung-pflaumheim_a238258 | verkehr | pflaumheim
+- TV-Großwallstadt Dmytro-Redkyn Vertragsverlängerung-2028 Ukraine-Flucht-2022 Handball-2Bundesliga | https://aschaffenburg.news/handball/tv-großwallstadt-dmytro-redkyn-unterschreibt-vertrag-bis-juni-2028.html | sport | großwallstadt
+- Harald-Diller-Schöllkrippen Weißer-Engel Selbsthilfeverein-Depression-1984 Lebenswerk | https://www.main-echo.de/region/stadt-kreis-aschaffenburg/ | gesellschaft | schöllkrippen
+- Sonnwendlauf-Großostheim 2-Schlappeseppel 264-Teilnehmer Hitze-Streckenanpassung | https://www.main-echo.de/region/stadt-kreis-aschaffenburg/so-viele-nahmen-am-sonnwendlauf-rund-um-grossostheim-teil-art-8742852 | sport | großostheim
+- Kreuzwertheim-Amphibien-Paradies Gregor-Wobschall 150-Tümpel Grasfrosch-verdreifacht | https://www.main-echo.de/region/kreis-main-spessart/ | umwelt | kreuzwertheim
+
+### 2026-06-30 (Ausgabe – 06:09 Uhr CEST)
 - Mordfall-Maria-Köhler Cold-Case 42-Jahre Nazmi-G Lebenslang Landgericht-Aschaffenburg Aktenzeichen-XY DNA | https://www.main-echo.de/region/stadt-kreis-aschaffenburg/tatort-schwesternwohnheim-prozess-um-marias-tod-vor-fast-42-jahren-geht-zu-ende-art-8742385 | justiz | aschaffenburg
 - Triefenstein-16-Jährige-Kradfahrerin Tödlicher-Motorradunfall St2299 Homburg-Bettingen VW-Golf frontal | https://www.meine-news.de/triefenstein/c-blaulicht/triefenstein-toedlicher-verkehrsunfall-auf-staatsstrasse-16-jaehrige-kradfahrerin-im-krankenhaus-verstorben_a238216 | blaulicht | main-spessart
 - Kleinostheim-Zug-Notbremsung Personen-im-Gleis HLB-Hessische-Landesbahn Bundespolizei Bahnstrecke-gesperrt | https://www.main-echo.de/ressorts/blaulicht/mehrere-personen-im-gleis-zug-notbremsung-bei-kleinostheim-art-8742870 | blaulicht | kleinostheim
