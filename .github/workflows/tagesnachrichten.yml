@@ -29,6 +29,7 @@ jobs:
           fetch-depth: 1
 
       - name: Tagesnachrichten – Claude Code
+        id: claude
         uses: anthropics/claude-code-action@beta
         with:
           mode: agent
@@ -37,6 +38,37 @@ jobs:
             Heute ist ${{ github.event.inputs.reason || 'automatischer Tagesstart 06:00 Uhr' }}.
             Erstelle die aktuelle index.html und aktualisiere journal.md für heute.
             Committe und pushe direkt auf den main-Branch.
+          # WICHTIG: CLAUDE_CODE_OAUTH_TOKEN läuft ab / kann ungültig werden.
+          # Neu erzeugen mit `claude setup-token` und unter
+          # Settings → Secrets and variables → Actions → CLAUDE_CODE_OAUTH_TOKEN hinterlegen,
+          # falls der Workflow mit "401 Invalid authentication credentials" fehlschlägt.
           claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
           allowed_tools: "Bash,WebSearch,WebFetch,Read,Write,Edit,Glob,Grep"
           model: claude-sonnet-4-6
+
+      - name: Benachrichtigung bei Fehler (GitHub Issue)
+        if: failure()
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const runUrl = `https://github.com/${context.repo.owner}/${context.repo.repo}/actions/runs/${context.runId}`;
+            const today = new Date().toISOString().slice(0, 10);
+            const title = `Tagesnachrichten-Workflow fehlgeschlagen – ${today}`;
+
+            const existing = await github.rest.issues.listForRepo({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              state: 'open',
+              labels: 'workflow-fehler',
+            });
+            if (existing.data.some(issue => issue.title === title)) {
+              return;
+            }
+
+            await github.rest.issues.create({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              title,
+              body: `## Automatischer Workflow fehlgeschlagen\n\n**Datum:** ${today}\n**Run:** [Logs ansehen](${runUrl})\n\n### Mögliche Ursachen\n- \`CLAUDE_CODE_OAUTH_TOKEN\` ungültig/abgelaufen (Fehler "401 Invalid authentication credentials") → neu erzeugen mit \`claude setup-token\` und als Secret hinterlegen\n- Anthropic API-Guthaben aufgebraucht (falls \`anthropic_api_key\` genutzt wird) → [Guthaben aufladen](https://console.anthropic.com/)\n- Netzwerkfehler bei Nachrichtenquellen\n- GitHub-Berechtigungsproblem\n\n### Nächste Schritte\n1. Logs prüfen (Link oben)\n2. Secret ggf. erneuern\n3. Workflow manuell neu starten: [workflow_dispatch](https://github.com/${context.repo.owner}/${context.repo.repo}/actions/workflows/tagesnachrichten.yml)\n\n_Dieses Issue wurde automatisch erstellt._`,
+              labels: ['workflow-fehler'],
+            });
