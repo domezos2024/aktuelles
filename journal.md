@@ -1,20 +1,37 @@
 # Tagesnachrichten-Journal – domezos2024/aktuelles
 
-## Design – 2026-07-01 – 06:11 Uhr CEST
-- Schema: Kupfer-Lagune (Petrol/Türkis + Kupfer – Hochsommer-Ausgabe)
-- Header-Gradient: #0B3D3D → #157F73 → #2FB6A3 (Petrol/Türkis)
-- Seasonal-Banner: #6B3410 → #B5651D → #E08A4D → #B5651D (Kupfer)
-- Hintergrund: #FBF6EE
-- Karten: #FFFFFF, border #E4D8C4
-- Akzentfarben: #0B3D3D · #E08A4D · #C1272D · #1B6FA8 · #5C7A3D · #7A4FA0 · #2F8F7A
-- Layout: grid-2col (responsive 1col)
-- Fonts: 'Trebuchet MS' 'Lucida Sans Unicode' sans-serif (Überschriften) · 'Segoe UI' Tahoma Geneva sans-serif (Fließtext)
+## Design – 2026-07-02 – 06:16 Uhr CEST
+- Schema: Jahresmitte – Gold & Mitternachtsblau (Halbjahreswechsel-Ausgabe)
+- Header-Gradient: #F2A900 → #D4770D → #1B2A4A (Gold/Bernstein → Mitternachtsblau)
+- Seasonal-Banner: #1B2A4A → #2C4270 → #4A5D8A (Mitternachtsblau, Gegenpol zum Header)
+- Hintergrund: #F4F6F8
+- Karten: #FFFFFF, border #DCE3EA
+- Akzentfarben: #1B2A4A · #D4770D · #B3261E · #2C4270 · #7C6B2A · #6A4C93 · #A8471F · #0E7C86 · #3F7D4D · #C9A227
+- Layout: grid-3col (responsive 2col/1col)
+- Fonts: Georgia Cambria 'Times New Roman' serif (Überschriften) · Verdana Arial Helvetica sans-serif (Fließtext)
 
 ---
 
 ## Themen-Archiv (letzte 10 Tage – NICHT wiederholen!)
 
-### 2026-07-01 (Ausgabe – 06:11 Uhr CEST) ← heute, neu hinzugefügt
+### 2026-07-02 (Ausgabe – 06:16 Uhr CEST) ← heute, neu hinzugefügt
+- Unwetter-Gewitterfront Aschaffenburg-Main-Spessart 300-Feuerwehreinsätze Bahnverkehr-gestört Kanaldeckel | https://www.main-echo.de/ressorts/blaulicht/unwetter-trifft-aschaffenburg-zahlreiche-einsaetze-in-stadt-und-landkreis-art-8743933 | blaulicht | aschaffenburg
+- Kellerbrand-Kleinostheim Hellbühlstraße Drehleiter-Rettung zwei-Personen technischer-Defekt | https://www.main-echo.de/ressorts/blaulicht/kellerbrand-in-kleinostheim-abgeloescht-art-8743934 | blaulicht | kleinostheim
+- ICE-Aschaffenburg Zugbegleiterin-angegriffen 51-Jährige 2,6-Promille Ladendiebstahl-Bahnhof | https://www.infranken.de/lk/aschaffenburg/blaulicht/in-ice-nach-aschaffenburg-frau-greift-zugbegleiterin-an-und-klaut-in-bahnhof-art-6374454 | blaulicht | aschaffenburg
+- A3-Weibersbrunn Verkehrskontrolle Kosmetikprodukte-15000Euro rumänische-Staatsangehörige Hehlerei | https://www.meine-news.de/weibersbrunn/c-blaulicht/weibersbrunn-verkehrskontrolle-auf-a3-mutmassliches-diebesgut-im-wert-von-rund-15000-euro-sichergestellt_a238438 | blaulicht | weibersbrunn
+- Trennfeld-Lohr E-Bike-Fahrer-73-schwer-verletzt Schulwegunfall E-Scooter-Pkw 14-Jährige | https://www.meine-news.de/trennfeld/c-blaulicht/trennfeldlohr-a-main-alleinbeteiligt-gestuerzt-e-bike-fahrer-schwer-verletzt-schulwegunfall-zwischen-e-scooter-und-pkw-14-jaehrige-leicht-verletzt-ausweichunfall-mountainbike-entwendet_a238435 | blaulicht | lohr
+- Wörth-am-Main Rollerfahrer-Sturz BMW-Fahrerin-gesucht Unfallflucht Frühlingstraße | https://www.main-echo.de/ressorts/blaulicht/suche-nach-bmw-fahrerin-nach-unfall-in-woerth-am-main-art-8743452 | blaulicht | wörth-am-main
+- Tollwut-Fledermäuse-Haibach Europäisches-Fledermaus-Lyssavirus1 erster-Fall Landratsamt-Aschaffenburg | https://www.main-echo.de/region/stadt-kreis-aschaffenburg/tollwut-bei-fledermaeusen-nachgewiesen-landratsamt-aschaffenburg-gibt-verhaltenstipps-art-8744098 | gesundheit | haibach
+- Ortssprecherwahl-Pflochsbach-Rodenbach 14-und-16-Juli Stadt-Lohr konstituierende-Sitzung | https://www.main-echo.de/region/kreis-main-spessart/am-14-und-16-juli-pflochsbach-und-rodenbach-koennen-ihre-ortssprecher-waehlen-art-8741583 | politik | lohr
+- Pietät-Heldt-Bestattungsinstitut schließt-1-Juli Lohr Terminvergabe-Sorge | https://www.main-echo.de/region/kreis-main-spessart/wie-es-ohne-pietaet-heldt-mit-bestattungen-in-lohr-weitergeht-art-8742768 | wirtschaft | lohr
+- 27-Aschaffenburger-Kulturtage Eröffnung-heute 125-Jahre-Damm Martin-Palmeri-Tango-Oratorium-5-Juli | https://kulturtage.kulturamt-aschaffenburg.de/ | kultur | aschaffenburg
+- Kinder-Kultur-Tag-Nilkheimer-Park 5-Juli 30-Vereine Mitmachangebote | https://www.main-echo.de/region/stadt-kreis-aschaffenburg/was-beim-kinderkulturtag-neu-ist-art-8743531 | gesellschaft | aschaffenburg
+- Bundeswehr-Gefechtsübung-Lkr-Aschaffenburg 6-bis-9-Juli Mespelbrunn-Rothenbuch-Waldaschaff-Weibersbrunn | https://www.meine-news.de/landkreis-aschaffenburg/c-blaulicht/bundeswehr-uebt-im-landkreis-aschaffenburg_a238225 | gesellschaft | lkr-aschaffenburg
+- WasserWochen-Main-Spessart zweite-Auflage 700-Besucher 30-Veranstaltungen Erfolgsbilanz | https://www.main-spessart.de/aktuelles/pressemitteilungen/10879.Grosses-Interesse-an-den-zweiten-WasserWochen-im-Landkreis-Main-Spessart.html | umwelt | main-spessart
+- Kreisjugendring-Aschaffenburg Jugendleiter-Schulung-Bessenbach Juleica Aufsichtspflicht | https://aschaffenburg.news/ab/aschaffenburg/aschaffenburg-schulung-zu-rechtlichen-grundlagen-der-jugendarbeit.html | gesellschaft | bessenbach
+- Main-Echo-Redaktion-vor-Ort Elsenfeld Shell-Areal Café-Levante Bürgergespräch | https://www.main-echo.de/region/kreis-miltenberg/redaktion-vor-ort-am-1-juli-in-elsenfeld-was-laeuft-gut-was-koennte-noch-besser-laufen-art-8742965 | gesellschaft | elsenfeld
+
+### 2026-07-01 (Ausgabe – 06:11 Uhr CEST)
 - Tiefenthal-Katze-Luftgewehr Erlenbach-Marktheidenfeld Esselbach-A3-Vollbrand Retzbach-Kamera-Diebstahl Lohr-Unfallflucht | https://www.meine-news.de/landkreis-main-spessart/c-blaulicht/main-spessart-katze-mutmasslich-mit-luftgewehr-angeschossen-pkw-geraet-auf-der-a3-in-vollbrand-ueberwachungskameras-an-der-schranke-abgeschlagen-und-entwendet-unfallflucht_a238369 | blaulicht | main-spessart
 - Großostheim-Mömbris-Wohnungseinbrüche 40-Jähriger-Festnahme Haftbefehl Kripo-Aschaffenburg | https://www.meine-news.de/grossostheim/c-blaulicht/grossostheimmoembris-ermittlungserfolg-nach-wohnungseinbruechen-tatverdaechtiger-in-haft_a238375 | blaulicht | lkr-aschaffenburg
 - Karlstein-Dettingen Reifen-zerstochen Kennzeichen-gestohlen Smart-Kirchweg-4000Euro | https://www.main-echo.de/ressorts/blaulicht/sachbeschaedigung-in-karlstein-am-main-art-8742785 | blaulicht | karlstein
@@ -201,19 +218,3 @@
 - Jakobskreuzkraut Aktionszeitraum Landkreis-Aschaffenburg seit 22-Juni bis 7-August | https://www.landkreis-aschaffenburg.de/ | umwelt | aschaffenburg
 - Carillon Percussion Festival Aschaffenburg vorletzter Tag Schloss-Johannisburg bis 28-Juni | https://www.kulturamt-aschaffenburg.de/unsere-festivals/carillon-percussion/programm/ | kultur | aschaffenburg
 
-### 2026-06-22 (Ausgabe 1 – 06:00 Uhr)
-- Fahrerflucht Omnibus Marktheidenfeld Polizei Zeugen gesucht | https://www.meine-news.de/marktheidenfeld/c-blaulicht/ | blaulicht | marktheidenfeld
-- DWD Hitzewarnung endet heute 19-Uhr Unterfranken Aufhebung | https://www.dwd.de/DE/wetter/warnungen_aktuell/warnungen_aktuell_node.html | klima | regional
-- Bürgermeister Dirk Rieb Lohr sieben Wochen Auszeit zurück Amt | https://www.main-echo.de/region/kreis-main-spessart/ | politik | lohr
-- Maintalbahn Elektrifizierung Fertigstellung 2034 Projektstand Verzögerung | https://www.infranken.de/lk/main-spessart/ | verkehr | main-spessart
-- Nilkheim Anwandeweg 750 Wohnungen 1800 Einwohner Bauphase Aschaffenburg | https://www.main-echo.de/region/stadt-kreis-aschaffenburg/ | wirtschaft | aschaffenburg
-- CSD Aschaffenburg Rekord 1500 Teilnehmende Pride Umzug Juni | https://www.meine-news.de/aschaffenburg/c-politik/ | gesellschaft | aschaffenburg
-- WM 2026 Argentinien Österreich Frankreich Irak Gruppenspiele heute | https://www.sportschau.de/fussball/fifa-wm-2026/ | sport | national
-- Deutsche MTB-Meisterschaft Lohr-Wombach 17-19-Juli RV-Viktoria viertes-Mal | https://www.rv-viktoria-wombach.de/ | sport | lohr
-- Digital-Sprechstunde Schlaue-Graue Nilkheim verschoben nachgeholt kostenlos | https://aschaffenburg.news/ab/aschaffenburg/aschaffenburg/ | gesellschaft | aschaffenburg
-- Binnenschiff Fillonnerie Frankreich Main Lohr Richtung Rumänien Donau-Kanal | https://www.main-echo.de/region/kreis-main-spessart/ | gesellschaft | lohr
-- Universelles Leben Ulrich Seifert neuer Prophet Altfeld Lohr | https://www.main-echo.de/region/kreis-main-spessart/ | gesellschaft | lohr
-- Dreifachsporthalle Marktheidenfeld 13-5-Mio-Euro Fertigstellung Ende-2026 | https://www.main-echo.de/region/kreis-main-spessart/ | gesellschaft | marktheidenfeld
-- GeDANKEnweg Marktheidenfeld philosophische Stadtführung Sommer | https://www.main-echo.de/region/kreis-main-spessart/ | kultur | marktheidenfeld
-- Mainradweg Ausbau Gebr-Stolz GmbH Hammelburg beauftragt Main-Spessart | https://www.main-echo.de/region/kreis-main-spessart/ | verkehr | main-spessart
-- Vollsperrung Rosenstraße Aschaffenburg 22-26-Juni Schachtabdeckung letzte-Woche | https://aschaffenburg.news/ab/aschaffenburg/aschaffenburg/aschaffenburg-vollsperrung-in-der-rosenstrasse.html | verkehr | aschaffenburg
