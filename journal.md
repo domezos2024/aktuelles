@@ -1,19 +1,36 @@
 # Tagesnachrichten-Journal – domezos2024/aktuelles
 
-## Design – 2026-07-02 – 08:15 Uhr CEST
-- Schema: Sommergrün & Tiefviolett (Jahresmitte-Frische)
-- Header-Gradient: #2E7D32 → #1B5E20 → #4A148C (Waldgrün → Dunkelgrün → Tiefviolett)
-- Hintergrund: #F0F4F0
-- Karten: #FFFFFF, border #C8D8C8
-- Akzentfarben: #2E7D32 · #388E3C · #5E35B1 · #C62828 · #0277BD · #1B5E20 · #4A148C · #33691E · #263238 · #880E4F
-- Layout: grid-3col (responsive 2col/1col)
-- Fonts: 'Palatino Linotype' Palatino 'Book Antiqua' Georgia serif (Überschriften) · 'Trebuchet MS' 'Lucida Sans Unicode' 'Lucida Grande' sans-serif (Fließtext)
+## Design – 2026-07-03 – 06:20 Uhr CEST
+- Schema: Bernsteinglut & Tiefsee (Hochsommer-Kiliani-Ausgabe)
+- Header-Gradient: #FB8C00 → #E64A19 → #004D40 (Amber → Feuerorange → Tiefsee-Petrol)
+- Hintergrund: #FFF8F0
+- Karten: #FFFFFF, border #F3DCC0
+- Akzentfarben: #FB8C00 · #E64A19 · #004D40 · #00695C · #6A1B9A · #1565C0 · #2E7D32 · #AD1457 · #37474F · #C62828
+- Layout: grid-2col (responsive 1col mobil)
+- Fonts: Georgia Cambria 'Times New Roman' serif (Überschriften) · Verdana 'Segoe UI' Tahoma sans-serif (Fließtext)
 
 ---
 
 ## Themen-Archiv (letzte 10 Tage – NICHT wiederholen!)
 
-### 2026-07-02 (Ausgabe – 08:15 Uhr CEST) ← heute, neu hinzugefügt
+### 2026-07-03 (Ausgabe – 06:20 Uhr CEST) ← heute, neu hinzugefügt
+- VermisstBenjaminKeil-Urspringen-11-Jaehriger-Fahrrad-Suchaktion | https://aschaffenburg.news/main-spessart/vermisst-wo-ist-der-11-j%C3%A4hrige-benjamin-keil-aus-urspringen.html | blaulicht | urspringen-main-spessart
+- A3-Marktheidenfeld-Rettungswagen-Reifenplatzer-Gepaeck-Totalschaden | https://www.main-echo.de/ressorts/blaulicht/schwerer-unfall-auf-der-a3-bei-marktheidenfeld-rettungswagen-nur-noch-schrott-art-8745062 | blaulicht | marktheidenfeld-main-spessart
+- Lotus-Sportwagen-A3-Rohrbrunn-Weibersbrunn-Brand-140000Euro-Nordschleife | https://www.main-echo.de/ressorts/blaulicht/140000-euro-gehen-in-flammen-auf-fahrt-zur-nordschleife-findet-auf-der-a3-vorzeitiges-ende-art-8744673 | verkehr | weibersbrunn-lkr-aschaffenburg
+- Gemuenden-Bahnhof-Messerattacke-Prozess-Landgericht-Wuerzburg-Mordversuch | https://www.main-echo.de/region/kreis-main-spessart/tatort-bahnhof-gemuenden-war-es-versuchter-mord-art-8744784 | justiz | gemünden-main-spessart
+- Karlstadt-Jugendliche-Schlaegerei-Helfenstein-sieben-Tatverdaechtige | https://www.main-echo.de/ressorts/blaulicht/auseinandersetzung-unter-jugendlichen-in-karlstadt-zeugen-gesucht-art-8744732 | blaulicht | karlstadt-main-spessart
+- Lohr-Gartenzwerg-Hammer-Seniorin-verletzt-Gewahrsam-Klinik | https://www.main-echo.de/region/kreis-main-spessart/topthemen/tumult-in-lohrs-innenstadt-das-ist-der-stand-der-polizeilichen-ermittlungen-art-8744766 | blaulicht | lohr
+- Erlenbach-Katze-Luftgewehr-Roentgenbild-eingeschlaefert-Tierschutzgesetz | https://www.infranken.de/lk/main-spessart/blaulicht/erlenbach-katze-kehrt-schwerst-verletzt-heim-roentgenbild-zeigt-grausame-tat-art-6374344 | justiz | erlenbach-main-spessart
+- Segeljolle-Kleinostheim-gekentert-Wasserschutzpolizei-Uebung-Skipper | https://www.meine-news.de/kleinostheim/c-blaulicht/kleinostheim-segeljolle-gekentert-rettungskraefte-aufgrund-einer-uebung-gleich-vor-ort_a238534 | blaulicht | kleinostheim
+- Gewalt-Polizeibeamte-Bayern-Lagebild2025-Hoechststand-Herrmann-Eisenreich | https://aschaffenburg.news/politik/gewalt-gegen-polizeibeamte-in-bayern-bleibt-auf-hohem-niveau.html | politik | bayern
+- Shishas-Lohr-Startup-Alexander-Schmidt-Weltspitze-Luxussegment | https://www.main-echo.de/region/kreis-main-spessart/shishas-fuer-1000-und-eine-nacht-vom-startup-in-lohr-zur-weltspitze-art-8743743 | wirtschaft | lohr
+- ADHS-Selbsthilfegruppe-Aschaffenburg-Bildungsbuero-Erwachsene | https://aschaffenburg.news/ab/aschaffenburg/aschaffenburg/aschaffenburg-neue-selbsthilfegruppe-für-menschen-mit-adhs.html | gesundheit | aschaffenburg
+- Oeko-Modellregion-Ruecksichtnahme-Landwirtschaft-Kampagne-Lkr-Aschaffenburg | https://www.meine-news.de/landkreis-aschaffenburg/c-auto-und-co/ruecksichtnahme-fuer-die-landwirtschaft_a238507 | umwelt | lkr-aschaffenburg
+- Klimaspaziergaenge-Karlstadt-Marktheidenfeld-Hitze-Trockenheit-Energieagentur | https://www.main-spessart.de/aktuelles/pressemitteilungen/11146.Klimaspaziergaenge-in-Karlstadt-und-Marktheidenfeld-Was-tun-bei-Hitze-und-Trockenheit.html | umwelt | karlstadt-marktheidenfeld-main-spessart
+- Alzenau-White-Night-Sommerabend-Weiss-GHG-Innenstadt | https://www.main-echo.de/region/stadt-kreis-aschaffenburg/ein-sommerabend-ganz-in-weiss-art-8740167 | kultur | alzenau
+- Frammersbacher-Festtage-2026-Tag-des-Rocks-Bierumzug-Fool-Moon-Fever | https://www.main-echo.de/freizeit/veranstaltungen/frammersbacher-festtage-2026-evt-4271525 | kultur | frammersbach
+
+### 2026-07-02 (Ausgabe – 08:15 Uhr CEST)
 - PV-Brand-Mömbris-Fronhofen Kabelbrand-Photovoltaikanlage Industriegebäude Feuerwehr-Drehleiter-Atemschutz | https://www.main-echo.de/ressorts/blaulicht/feuerwehr-loescht-brennende-photovoltaikanlage-in-moembris-art-8744153 | blaulicht | mömbris-lkr-aschaffenburg
 - Waldbad-Triefenstein-Rekord 3000-Gäste 1700-Samstag Lengfurt Hitze-Freibad | https://www.main-echo.de/region/kreis-main-spessart/ueber-3000-badegaeste-im-waldbad-triefenstein-so-viele-wie-seit-jahren-nicht-art-8744161 | freizeit | triefenstein-main-spessart
 - Partenstein-Lebensmittelversorgung Nahversorgung-gesichert 200-Einwohner Jugendheim-Infoabend | https://www.main-echo.de/region/kreis-main-spessart/wie-es-mit-der-lebensmittelversorgung-in-partenstein-weitergeht-art-8744065 | wirtschaft | partenstein-main-spessart
