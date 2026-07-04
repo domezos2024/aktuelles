@@ -3,41 +3,41 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Tagesnachrichten – Lohr am Main &amp; Aschaffenburg · Donnerstag, 3. Juli 2026</title>
+<title>Tagesnachrichten – Lohr am Main &amp; Aschaffenburg · Samstag, 4. Juli 2026</title>
 <style>
   *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
   body {
-    font-family: 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', Arial, sans-serif;
-    background: #E8F4F8;
-    color: #1A2B3C;
+    font-family: Verdana, 'Segoe UI', Arial, sans-serif;
+    background: #FFF8E1;
+    color: #3E2723;
     font-size: 15px;
     line-height: 1.6;
   }
 
   header {
-    background: linear-gradient(135deg, #0D47A1 0%, #1565C0 30%, #0097A7 70%, #00796B 100%);
+    background: linear-gradient(120deg, #B71C1C 0%, #D84315 35%, #EF6C00 65%, #FBC02D 100%);
     color: #fff;
     padding: 1.4rem 1.2rem 1rem;
     text-align: center;
-    border-bottom: 4px solid #00BCD4;
+    border-bottom: 4px solid #FBC02D;
   }
   header h1 {
-    font-family: 'Trebuchet MS', Arial, sans-serif;
-    font-size: 1.7rem;
+    font-family: Georgia, 'Cambria', 'Times New Roman', serif;
+    font-size: 1.75rem;
     font-weight: 700;
-    letter-spacing: 0.03em;
-    text-shadow: 0 2px 6px rgba(0,0,0,0.4);
+    letter-spacing: 0.02em;
+    text-shadow: 0 2px 6px rgba(0,0,0,0.35);
   }
   header .subline {
     font-size: 0.9rem;
-    opacity: 0.88;
+    opacity: 0.92;
     margin-top: 0.3rem;
   }
   header .timestamp {
     display: inline-block;
     margin-top: 0.5rem;
-    background: rgba(255,255,255,0.15);
+    background: rgba(255,255,255,0.18);
     border-radius: 20px;
     padding: 0.2rem 0.9rem;
     font-size: 0.85rem;
@@ -45,25 +45,44 @@
   }
 
   .container {
-    max-width: 1200px;
+    max-width: 1100px;
     margin: 0 auto;
     padding: 1rem;
+  }
+
+  .season-box {
+    background: linear-gradient(160deg, #FFF3E0, #FFECB3);
+    border: 1px solid #FFCC80;
+    border-left: 6px solid #EF6C00;
+    border-radius: 10px;
+    padding: 0.9rem 1.1rem;
+    margin-bottom: 1.4rem;
+  }
+  .season-box h2 {
+    font-family: Georgia, serif;
+    font-size: 1.05rem;
+    color: #BF360C;
+    margin-bottom: 0.5rem;
+  }
+  .season-box p {
+    font-size: 0.87rem;
+    color: #4E342E;
   }
 
   .weather-section {
     background: #fff;
     border-radius: 10px;
-    border: 1px solid #B0D8E8;
-    box-shadow: 0 2px 8px rgba(13,71,161,0.08);
+    border: 1px solid #FFE0B2;
+    box-shadow: 0 2px 8px rgba(183,28,28,0.08);
     margin-bottom: 1.4rem;
     overflow: hidden;
   }
   .weather-section h2 {
-    background: linear-gradient(90deg, #0D47A1, #0097A7);
+    background: linear-gradient(90deg, #B71C1C, #EF6C00);
     color: #fff;
     padding: 0.6rem 1rem;
     font-size: 1rem;
-    font-family: 'Trebuchet MS', Arial, sans-serif;
+    font-family: Georgia, serif;
   }
   .weather-day-cards {
     display: flex;
@@ -73,21 +92,21 @@
   }
   .weather-day-card {
     flex: 1;
-    min-width: 180px;
-    background: linear-gradient(160deg, #E3F2FD, #E0F7FA);
-    border: 1px solid #B0D8E8;
+    min-width: 190px;
+    background: linear-gradient(160deg, #FFF3E0, #FFF8E1);
+    border: 1px solid #FFCC80;
     border-radius: 8px;
     padding: 0.8rem 1rem;
     text-align: center;
   }
-  .weather-day-card .day-name { font-weight: 700; color: #0D47A1; font-size: 1rem; }
-  .weather-day-card .temps { font-size: 1.3rem; font-weight: 700; color: #00796B; margin: 0.3rem 0; }
-  .weather-day-card .cond { font-size: 0.85rem; color: #546E7A; }
-  .weather-day-card .wind { font-size: 0.8rem; color: #78909C; margin-top: 0.2rem; }
+  .weather-day-card .day-name { font-weight: 700; color: #B71C1C; font-size: 1rem; }
+  .weather-day-card .temps { font-size: 1.3rem; font-weight: 700; color: #E65100; margin: 0.3rem 0; }
+  .weather-day-card .cond { font-size: 0.85rem; color: #6D4C41; }
+  .weather-day-card .wind { font-size: 0.8rem; color: #8D6E63; margin-top: 0.2rem; }
   .hourly-label {
     padding: 0.4rem 1rem 0.1rem;
     font-size: 0.85rem;
-    color: #546E7A;
+    color: #6D4C41;
     font-weight: 600;
   }
   .hourly-scroll {
@@ -101,56 +120,104 @@
     font-size: 0.8rem;
   }
   .hourly-table th {
-    background: #E3F2FD;
-    color: #0D47A1;
+    background: #FFF3E0;
+    color: #B71C1C;
     padding: 0.3rem 0.4rem;
     text-align: center;
     font-weight: 600;
-    border: 1px solid #B0D8E8;
+    border: 1px solid #FFCC80;
   }
   .hourly-table td {
     padding: 0.25rem 0.4rem;
     text-align: center;
-    border: 1px solid #E8EEF2;
-    color: #37474F;
+    border: 1px solid #F5E6CE;
+    color: #4E342E;
   }
-  .hourly-table tr:nth-child(even) td { background: #F5FBFF; }
+  .hourly-table tr:nth-child(even) td { background: #FFFCF5; }
 
   .section-title {
-    font-family: 'Trebuchet MS', Arial, sans-serif;
+    font-family: Georgia, serif;
     font-size: 1.15rem;
     font-weight: 700;
-    color: #0D47A1;
+    color: #B71C1C;
     margin: 1.2rem 0 0.7rem;
     padding-left: 0.4rem;
-    border-left: 4px solid #00BCD4;
+    border-left: 4px solid #FBC02D;
+  }
+
+  .newsletter-box {
+    background: linear-gradient(120deg, #FFE0B2, #FFF3E0);
+    border: 1px solid #FFB74D;
+    border-radius: 10px;
+    padding: 1rem 1.2rem;
+    margin-bottom: 1.4rem;
+    text-align: center;
+  }
+  .newsletter-box h2 {
+    font-family: Georgia, serif;
+    font-size: 1.05rem;
+    color: #BF360C;
+    margin-bottom: 0.4rem;
+  }
+  .newsletter-box p {
+    font-size: 0.83rem;
+    color: #4E342E;
+    margin-bottom: 0.7rem;
+  }
+  .newsletter-form {
+    display: flex;
+    gap: 0.5rem;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .newsletter-form input[type="email"] {
+    padding: 0.55rem 0.8rem;
+    border: 1px solid #FFB74D;
+    border-radius: 6px;
+    font-size: 0.9rem;
+    min-width: 250px;
+    font-family: Verdana, Arial, sans-serif;
+  }
+  .newsletter-form button {
+    padding: 0.55rem 1.3rem;
+    background: #B71C1C;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    font-size: 0.9rem;
+    font-weight: 700;
+    cursor: pointer;
+  }
+  .newsletter-form button:hover { background: #8E1414; }
+  .newsletter-box .fine-print {
+    font-size: 0.72rem;
+    color: #8D6E63;
+    margin-top: 0.5rem;
   }
 
   .news-grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 1rem;
   }
-  @media (max-width: 900px) {
-    .news-grid { grid-template-columns: repeat(2, 1fr); }
-  }
-  @media (max-width: 580px) {
+  @media (max-width: 700px) {
     .news-grid { grid-template-columns: 1fr; }
-    header h1 { font-size: 1.25rem; }
+    header h1 { font-size: 1.3rem; }
+    .newsletter-form input[type="email"] { min-width: 0; width: 100%; }
   }
 
   .news-card {
     background: #fff;
-    border: 1px solid #C5DCE8;
+    border: 1px solid #FFE0B2;
     border-radius: 10px;
-    box-shadow: 0 2px 6px rgba(13,71,161,0.06);
+    box-shadow: 0 2px 6px rgba(183,28,28,0.06);
     padding: 0.9rem 0.9rem 0.8rem;
     display: flex;
     flex-direction: column;
     overflow: hidden;
   }
   .news-card:hover {
-    box-shadow: 0 4px 14px rgba(13,71,161,0.14);
+    box-shadow: 0 4px 14px rgba(183,28,28,0.14);
   }
 
   .card-badges {
@@ -168,21 +235,21 @@
     text-transform: uppercase;
     letter-spacing: 0.04em;
   }
-  .badge-blaulicht  { background: #D32F2F; color: #fff; }
-  .badge-justiz     { background: #6A1B9A; color: #fff; }
-  .badge-politik    { background: #1565C0; color: #fff; }
-  .badge-wirtschaft { background: #2E7D32; color: #fff; }
-  .badge-gesellschaft { background: #E65100; color: #fff; }
-  .badge-kultur     { background: #AD1457; color: #fff; }
-  .badge-sport      { background: #00695C; color: #fff; }
-  .badge-verkehr    { background: #37474F; color: #fff; }
-  .badge-gesundheit { background: #00838F; color: #fff; }
-  .badge-umwelt     { background: #558B2F; color: #fff; }
-  .badge-freizeit   { background: #F57C00; color: #fff; }
+  .badge-blaulicht    { background: #C62828; color: #fff; }
+  .badge-justiz       { background: #4527A0; color: #fff; }
+  .badge-politik      { background: #00695C; color: #fff; }
+  .badge-wirtschaft   { background: #EF6C00; color: #fff; }
+  .badge-gesellschaft { background: #AD1457; color: #fff; }
+  .badge-kultur       { background: #6A1B9A; color: #fff; }
+  .badge-sport        { background: #2E7D32; color: #fff; }
+  .badge-verkehr      { background: #37474F; color: #fff; }
+  .badge-gesundheit   { background: #00838F; color: #fff; }
+  .badge-umwelt       { background: #558B2F; color: #fff; }
+  .badge-freizeit     { background: #F9A825; color: #fff; }
   .badge-region {
-    background: #E3F2FD;
-    color: #0D47A1;
-    border: 1px solid #90CAF9;
+    background: #FFF3E0;
+    color: #BF360C;
+    border: 1px solid #FFB74D;
   }
 
   .card-img-wrap {
@@ -196,20 +263,20 @@
     height: 80px;
     object-fit: cover;
     border-radius: 6px;
-    border: 1px solid #C5DCE8;
+    border: 1px solid #FFE0B2;
   }
 
   .card-title {
-    font-family: 'Trebuchet MS', Arial, sans-serif;
-    font-size: 0.95rem;
+    font-family: Georgia, serif;
+    font-size: 0.97rem;
     font-weight: 700;
-    color: #0D47A1;
+    color: #B71C1C;
     margin-bottom: 0.4rem;
     line-height: 1.35;
   }
   .card-summary {
     font-size: 0.82rem;
-    color: #37474F;
+    color: #4E342E;
     line-height: 1.55;
     flex: 1;
     margin-bottom: 0.5rem;
@@ -219,7 +286,7 @@
     margin-top: auto;
   }
   .card-source a {
-    color: #0097A7;
+    color: #D84315;
     text-decoration: none;
     font-weight: 600;
   }
@@ -253,21 +320,21 @@
   }
 
   footer {
-    background: #0D47A1;
-    color: #B0C4DE;
+    background: #B71C1C;
+    color: #FFE0B2;
     padding: 1.5rem 1.2rem;
     margin-top: 2rem;
     font-size: 0.8rem;
     line-height: 1.7;
   }
-  footer .footer-inner { max-width: 1200px; margin: 0 auto; }
-  footer strong { color: #E3F2FD; }
-  footer a { color: #80DEEA; text-decoration: none; }
+  footer .footer-inner { max-width: 1100px; margin: 0 auto; }
+  footer strong { color: #FFF3E0; }
+  footer a { color: #FFCC80; text-decoration: none; }
   footer a:hover { text-decoration: underline; }
   footer .sources {
     margin-top: 0.8rem;
     padding-top: 0.7rem;
-    border-top: 1px solid rgba(255,255,255,0.15);
+    border-top: 1px solid rgba(255,255,255,0.2);
     font-size: 0.76rem;
   }
 </style>
@@ -277,25 +344,36 @@
 <header>
   <h1>Nachrichten &#8211; Lohr am Main &amp; Aschaffenburg</h1>
   <div class="subline">Lohr &#183; Aschaffenburg &#183; Main-Spessart &#183; Unterfranken</div>
-  <div class="timestamp">Donnerstag, 3. Juli 2026 &nbsp;&#183;&nbsp; 06:00 Uhr CEST</div>
+  <div class="timestamp">Samstag, 4. Juli 2026 &nbsp;&#183;&nbsp; 06:00 Uhr CEST</div>
 </header>
 
 <div class="container">
+
+  <div class="season-box">
+    <h2>&#9728; Kein Feiertag heute &#8211; aber der Bauernkalender hat ein Wort mitzureden</h2>
+    <p>Weder bundesweit noch in Bayern steht heute ein Feiertag im Kalender &#8211; der 4.&#160;Juli 2026 ist ein ganz gewöhnlicher Samstag. Interessant wird der Blick zurück: Am 27.&#160;Juni war Siebenschläfertag, an dem in der Region Werte von 36 bis 38&#160;Grad gemessen wurden. Die alte Bauernregel &#8222;Das Wetter am Siebenschläfertag noch sieben Wochen bleiben mag&#8220; hat einen realen meteorologischen Kern: Der Jetstream stabilisiert sich um diese Jahreszeit häufig, sodass sich Hoch- und Tiefdrucklagen über Wochen kaum verschieben. Genau eine Woche später zeigt sich das Muster bereits bestätigt &#8211; anhaltende Hitze, Wasserknappheit in einzelnen Gemeinden und Waldbrandgefahr der Stufe&#160;5 prägen seit Tagen die Region. Wer durchhalten will: Bayerns Sommerferien beginnen exakt in vier Wochen, am 3.&#160;August 2026.</p>
+  </div>
 
   <div class="weather-section">
     <h2>Wetter &#8211; Lohr am Main &amp; Raum Aschaffenburg (DWD via BrightSky)</h2>
     <div class="weather-day-cards">
       <div class="weather-day-card">
-        <div class="day-name">Donnerstag, 3. Juli</div>
-        <div class="temps">13,6 &#176;C / 23,7 &#176;C</div>
-        <div class="cond">Sonnig, trocken</div>
-        <div class="wind">Wind: bis 15 km/h &nbsp;&#183;&nbsp; Niederschlag: 0 mm</div>
+        <div class="day-name">Samstag, 4. Juli</div>
+        <div class="temps">9,7 &#176;C / 25,2 &#176;C</div>
+        <div class="cond">Heiter bis sonnig, trocken</div>
+        <div class="wind">Wind: bis 17 km/h &nbsp;&#183;&nbsp; Niederschlag: 0 mm</div>
       </div>
       <div class="weather-day-card">
-        <div class="day-name">Freitag, 4. Juli</div>
-        <div class="temps">13,3 &#176;C / 24,9 &#176;C</div>
-        <div class="cond">Heiter bis wolkig, trocken</div>
-        <div class="wind">Wind: bis 17 km/h &nbsp;&#183;&nbsp; Niederschlag: 0 mm</div>
+        <div class="day-name">Sonntag, 5. Juli</div>
+        <div class="temps">17,1 &#176;C / 23,2 &#176;C</div>
+        <div class="cond">Wolkig, einzelne Schauer möglich</div>
+        <div class="wind">Wind: bis 19 km/h &nbsp;&#183;&nbsp; Regenwahrsch.: bis 21&#160;%</div>
+      </div>
+      <div class="weather-day-card">
+        <div class="day-name">Montag, 6. Juli</div>
+        <div class="temps">16,1 &#176;C / 25,6 &#176;C</div>
+        <div class="cond">Wechselhaft bewölkt, überwiegend trocken</div>
+        <div class="wind">Wind: bis 24 km/h &nbsp;&#183;&nbsp; Regenwahrsch.: bis 16&#160;%</div>
       </div>
     </div>
     <div class="hourly-label">St&#252;ndlicher Verlauf heute (CEST = UTC+2):</div>
@@ -305,266 +383,259 @@
           <tr>
             <th>Uhr CEST</th>
             <th>02:00</th><th>04:00</th><th>06:00</th><th>08:00</th><th>10:00</th><th>12:00</th>
-            <th>14:00</th><th>16:00</th><th>18:00</th><th>20:00</th><th>22:00</th><th>24:00</th>
+            <th>14:00</th><th>16:00</th><th>18:00</th><th>20:00</th><th>22:00</th><th>23:00</th>
           </tr>
         </thead>
         <tbody>
           <tr>
             <td><strong>Temp. &#176;C</strong></td>
-            <td>15,5</td><td>13,6</td><td>16,1</td><td>18,8</td><td>20,8</td><td>22,3</td>
-            <td>23,4</td><td>23,7</td><td>22,6</td><td>19,9</td><td>17,3</td><td>16,2</td>
+            <td>11,7</td><td>10,1</td><td>12,9</td><td>15,6</td><td>18,9</td><td>21,3</td>
+            <td>23,3</td><td>24,9</td><td>25,2</td><td>24,5</td><td>22,0</td><td>20,8</td>
           </tr>
           <tr>
             <td><strong>Wetter</strong></td>
-            <td>klar</td><td>klar</td><td>sonnig</td><td>sonnig</td><td>sonnig</td><td>sonnig</td>
-            <td>sonnig</td><td>sonnig</td><td>heiter</td><td>heiter</td><td>klar</td><td>klar</td>
+            <td>gering bew.</td><td>klar</td><td>heiter</td><td>heiter</td><td>heiter</td><td>heiter</td>
+            <td>heiter</td><td>heiter</td><td>heiter</td><td>heiter</td><td>gering bew.</td><td>gering bew.</td>
           </tr>
           <tr>
             <td><strong>Regen %</strong></td>
-            <td>0</td><td>0</td><td>1</td><td>1</td><td>1</td><td>2</td>
-            <td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>2</td>
+            <td>0</td><td>1</td><td>2</td><td>3</td><td>2</td><td>4</td>
+            <td>4</td><td>3</td><td>2</td><td>3</td><td>5</td><td>5</td>
           </tr>
         </tbody>
       </table>
     </div>
   </div>
 
-  <div class="section-title">Aktuelle Meldungen &#8211; 3. Juli 2026</div>
+  <div class="newsletter-box">
+    <h2>&#9993; Newsletter abonnieren</h2>
+    <p>Jeden Morgen um 7&#160;Uhr die aktuellen Nachrichten aus Lohr, Aschaffenburg und der Region direkt ins Postfach &#8211; kostenlos und jederzeit kündbar.</p>
+    <form class="newsletter-form" action="save_email.php" method="post">
+      <input type="email" name="email" placeholder="ihre.email@beispiel.de" required maxlength="254">
+      <button type="submit">Jetzt anmelden</button>
+    </form>
+    <div class="fine-print">Ihre E-Mail-Adresse wird ausschließlich für den Nachrichten-Newsletter verwendet. Abmeldung jederzeit per Antwort-E-Mail mit dem Wort &#8222;abmelden&#8220;.</div>
+  </div>
+
+  <div class="section-title">Aktuelle Meldungen &#8211; 4. Juli 2026</div>
 
   <div class="news-grid">
 
     <div class="news-card">
       <div class="card-badges">
         <span class="badge badge-blaulicht">Blaulicht</span>
-        <span class="badge badge-region">Lkr. Aschaffenburg</span>
+        <span class="badge badge-region">Kleinostheim / Lkr. Aschaffenburg</span>
       </div>
-      <div class="card-img-wrap">
-        <a href="#lb-1" id="img-1"><img src="https://www.main-echo.de/storage/image/9/8/9/9/6009989_jugendfeuerwehr-frankfurt_facebook_1CsK6b_8VrcHq.jpg" alt="Feuerwehr Dauereinsatz" loading="lazy"></a>
-      </div>
-      <div class="card-title">Feuerwehren im Landkreis Aschaffenburg stundenlang im Dauereinsatz nach Unwetter</div>
-      <div class="card-summary">Nach dem schweren Unwetter in der Nacht zum Mittwoch waren die Feuerwehren im Landkreis Aschaffenburg auch tagsüber massiv gefordert. Vollgelaufene Keller, Straßenschäden und umgefallene Bäume beschäftigten dutzende Einsatzkräfte. In Haibach gerieten in einem Gewerbebetrieb zwei Akkupakete nach Überflutung in Brand &#8211; 30 Einsatzkräfte brachten das Feuer unter Kontrolle. Insgesamt wurden im Laufe des Tages mehr als 100 Einsätze im gesamten Landkreis abgearbeitet.</div>
-      <div class="card-source">Quelle: <a href="https://www.main-echo.de/ressorts/blaulicht/feuerwehren-im-landkreis-aschaffenburg-weiter-im-dauereinsatz-nach-unwettern-art-8744596" target="_blank" rel="noopener">Main-Echo</a></div>
+      <div class="card-title">Neunjähriger fährt unerlaubt Traktor und verursacht Unfall in Kleinostheim</div>
+      <div class="card-summary">Ein neunjähriger Junge saß am Donnerstagnachmittag gegen 16:20 Uhr am Steuer eines Fendt-Traktors und wollte vom Lachweg in den Mittelweg abbiegen. Dabei überfuhr er mehrere Steine und kollidierte anschließend mit einem Verkehrsschild, das dabei beschädigt wurde. Ein 67-jähriger Mann, der auf dem Kotflügel des Traktors mitfuhr, stürzte durch den Zusammenstoß herunter und wurde leicht verletzt; er kam vorsorglich mit dem Rettungsdienst ins Krankenhaus. Die Polizei ermittelt gegen den 67-Jährigen wegen des Verdachts, das Führen eines Fahrzeugs ohne die erforderliche Fahrerlaubnis zugelassen zu haben.</div>
+      <div class="card-source">Quelle: <a href="https://aschaffenburg.news/ab/kleinostheim/kleinostheim/kleinostheim-neunjähriger-verursacht-unfall-mit-traktor.html" target="_blank" rel="noopener">aschaffenburg.news</a></div>
     </div>
 
     <div class="news-card">
       <div class="card-badges">
         <span class="badge badge-blaulicht">Blaulicht</span>
-        <span class="badge badge-region">A45 / Aschaffenburg</span>
+        <span class="badge badge-region">Aschaffenburg (Stadtmitte)</span>
       </div>
-      <div class="card-img-wrap">
-        <a href="#lb-2" id="img-2"><img src="https://www.main-echo.de/storage/image/1/6/7/6/6666761_eilmeldung-verkehr_facebook_1F5Mls_q50jH3.jpg" alt="Stau A45" loading="lazy"></a>
-      </div>
-      <div class="card-title">Auffahrunfall auf A45 sorgt für Stau im Berufsverkehr</div>
-      <div class="card-summary">Ein Auffahrunfall auf der A45 in Richtung Aschaffenburg hat am Donnerstagmorgen erhebliche Verkehrsbehinderungen verursacht. Zeitweise bildete sich ein mehrere Kilometer langer Stau, da zwei Fahrzeuge abgeschleppt werden mussten und zwei Spuren gesperrt waren. Der Berufsverkehr in der Region wurde dadurch merklich ausgebremst. Gegen Vormittag löste sich der Stau auf; Verletzte wurden nicht gemeldet.</div>
-      <div class="card-source">Quelle: <a href="https://www.main-echo.de/ressorts/blaulicht/stau-auf-a45-am-freitagmorgen-art-8745218" target="_blank" rel="noopener">Main-Echo</a></div>
+      <div class="card-title">Zwölfjähriger nach Schulwegunfall in Aschaffenburg verletzt &#8211; BMW-Fahrer flüchtet</div>
+      <div class="card-summary">Ein zwölfjähriger Schüler befuhr am Donnerstagmorgen gegen 8:35 Uhr mit einem Tretroller den Gehweg der Stadelmannstraße in Richtung Brentano-Schule. An der Kreuzung zur Hettingerstraße fuhr er auf die Fahrbahn und kollidierte mit einem von rechts kommenden, bevorrechtigten blauen BMW. Nach einem kurzen Wortwechsel mit dem Fahrer setzte der Junge zunächst ohne Datenaustausch seinen Schulweg fort, meldete den Vorfall aber später dem Schulpersonal und wurde vorsorglich ins Krankenhaus gebracht. Die Polizei Aschaffenburg sucht nun den unbekannten BMW-Fahrer sowie Zeugen unter der Telefonnummer 06021/857-2230.</div>
+      <div class="card-source">Quelle: <a href="https://aschaffenburg.news/ab/aschaffenburg/stadtmitte/aschaffenburg-zwölfjähriger-nach-verkehrsunfall-leicht-verletzt.html" target="_blank" rel="noopener">aschaffenburg.news</a></div>
     </div>
 
     <div class="news-card">
       <div class="card-badges">
         <span class="badge badge-blaulicht">Blaulicht</span>
-        <span class="badge badge-region">A3 / Goldbach</span>
+        <span class="badge badge-region">Wasserlos / Alzenau</span>
       </div>
       <div class="card-img-wrap">
-        <a href="#lb-3" id="img-3"><img src="https://www.main-echo.de/storage/image/2/6/4/0/6620462_polizei-sichert-unfallstelle_facebook_1EO0um_FXcUu4.jpg" alt="Unfallstelle A3" loading="lazy"></a>
+        <a href="#lb-1" id="img-1"><img src="https://media04.meine-news.de/article/2026/07/03/5/2158855_L.webp" alt="Polizeieinsatz Raum Aschaffenburg" loading="lazy"></a>
       </div>
-      <div class="card-title">Auffahrunfall auf A3 bei Goldbach &#8211; Stau in Richtung W&#252;rzburg</div>
-      <div class="card-summary">Auf der A3 bei Goldbach/Aschaffenburg Ost kam es in Fahrtrichtung Würzburg zu einem Auffahrunfall, bei dem zwei Fahrzeuge ineinanderfuhren. Beide Pkw mussten abgeschleppt werden; vorübergehend waren zwei Fahrspuren gesperrt. Der Stau erstreckte sich auf mehrere Kilometer und behinderte den Verkehr auf einer der wichtigsten Fernstraßen Nordbayerns. Nach Bergung der Fahrzeuge war die Autobahn wieder vollständig freigegeben.</div>
-      <div class="card-source">Quelle: <a href="https://www.main-echo.de/ressorts/blaulicht/unfall-auf-der-a3-bei-goldbach-in-fahrtrichtung-wuerzburg-art-8744827" target="_blank" rel="noopener">Main-Echo</a></div>
+      <div class="card-title">Einbrecher in Wasserlos bei Alzenau auf frischer Tat überrascht</div>
+      <div class="card-summary">In der Nacht zum Freitag gegen 1:30 Uhr entdeckte ein Zeuge im Finkenweg in Wasserlos einen unbekannten Mann auf einem Hausdach. Als der Täter bemerkte, dass er gesehen wurde, flüchtete er durch den rückwärtigen Garten des Grundstücks. Die Polizei stellte fest, dass eine Kellertür aufgebrochen und der Keller durchwühlt worden war; zudem hatte der Unbekannte offenbar erfolglos versucht, über den Dachboden weiter einzudringen. Beschrieben wird der Täter als auffallend groß und mit weißen Schuhen bekleidet.</div>
+      <div class="card-source">Quelle: <a href="https://www.meine-news.de/landkreis-aschaffenburg/c-blaulicht/raum-aschaffenburg-zwoelfjaehriger-nach-verkehrsunfall-leicht-verletzt-einbrecher-auf-frischer-tat-ueberrascht-neunjaehriger-verursacht-unfall-mit-traktor-unfallflucht-kraftfahrzeugrennen_a238642" target="_blank" rel="noopener">Meine-News.de</a></div>
     </div>
 
     <div class="news-card">
       <div class="card-badges">
         <span class="badge badge-blaulicht">Blaulicht</span>
-        <span class="badge badge-region">Mosbach / Main-Spessart</span>
+        <span class="badge badge-region">A3 / Aschaffenburg</span>
       </div>
-      <div class="card-img-wrap">
-        <a href="#lb-4" id="img-4"><img src="https://www.main-echo.de/storage/image/8/6/0/2/6492068_polizeitautos-mit-blaulicht_facebook_1DWWVd_BNBBEs.jpg" alt="Polizei Blaulicht" loading="lazy"></a>
-      </div>
-      <div class="card-title">Mann bedroht Frau in Linienbus in Mosbach &#8211; Polizei sucht Zeugen</div>
-      <div class="card-summary">In einem &#246;ffentlichen Linienbus in Mosbach hat ein m&#228;nnlicher Fahrgast eine Frau verbal bedroht und eingesch&#252;chtert. Andere Fahrgäste alarmierten die Polizei, doch der Tatverdächtige hatte das Fahrzeug bereits verlassen. Die Polizei bittet Zeugen des Vorfalls, sich zu melden, um den Sachverhalt vollständig aufklären zu können. Einschüchterungen im öffentlichen Nahverkehr werden konsequent strafrechtlich verfolgt.</div>
-      <div class="card-source">Quelle: <a href="https://www.main-echo.de/ressorts/blaulicht/mosbach-mann-bedroht-frau-in-linienbus-art-8744648" target="_blank" rel="noopener">Main-Echo</a></div>
+      <div class="card-title">Illegales Kraftfahrzeugrennen auf der A3 Richtung Nürnberg</div>
+      <div class="card-summary">Am Donnerstagmorgen gegen 6:45 Uhr fielen zwei Motorradfahrer auf der A3 in Richtung Nürnberg durch riskantes Fahrverhalten auf. Die beiden überholten laut Polizei mehrere Fahrzeuge auch über den Standstreifen und fuhren dabei mit deutlich überhöhter Geschwindigkeit. Zeugen alarmierten die Polizei, die nun wegen des Verdachts eines verbotenen Kraftfahrzeugrennens ermittelt. Die Fahrer konnten bislang nicht identifiziert werden, weitere Zeugenhinweise werden erbeten.</div>
+      <div class="card-source">Quelle: <a href="https://www.meine-news.de/landkreis-aschaffenburg/c-blaulicht/raum-aschaffenburg-zwoelfjaehriger-nach-verkehrsunfall-leicht-verletzt-einbrecher-auf-frischer-tat-ueberrascht-neunjaehriger-verursacht-unfall-mit-traktor-unfallflucht-kraftfahrzeugrennen_a238642" target="_blank" rel="noopener">Meine-News.de</a></div>
     </div>
 
     <div class="news-card">
       <div class="card-badges">
-        <span class="badge badge-justiz">Justiz</span>
-        <span class="badge badge-region">Aschaffenburg</span>
+        <span class="badge badge-blaulicht">Blaulicht</span>
+        <span class="badge badge-region">Zellingen / Lkr. Main-Spessart</span>
       </div>
-      <div class="card-img-wrap">
-        <a href="#lb-5" id="img-5"><img src="https://www.main-echo.de/storage/image/3/8/7/4/6744783_instagram_facebook_1FBLk__K8u966.jpg" alt="Gericht" loading="lazy"></a>
-      </div>
-      <div class="card-title">25-J&#228;hriger in Aschaffenburg wegen Aufforderung zu Straftaten verurteilt</div>
-      <div class="card-summary">Das Amtsgericht Aschaffenburg hat einen 25-jährigen Mann wegen öffentlicher Aufforderung zu Straftaten (&#167;&#160;111 StGB) verurteilt. Der Angeklagte hatte in sozialen Netzwerken Inhalte verbreitet, die andere zur Gewalt aufriefen. Die Richter befanden den Tatbestand als erfüllt und verhängten eine entsprechende Strafe. Der Fall zeigt, dass digitale Hetze und Online-Aufrufe zur Gewalt auch strafrechtlich geahndet werden.</div>
-      <div class="card-source">Quelle: <a href="https://www.main-echo.de/region/stadt-kreis-aschaffenburg/gericht-verurteilt-25-jaehrigen-wegen-aufforderung-zu-straftaten-art-8744708" target="_blank" rel="noopener">Main-Echo</a></div>
+      <div class="card-title">Faustschlag nach Streit zwischen Autofahrern in Zellingen</div>
+      <div class="card-summary">Am Donnerstagabend kam es an der Kreuzung Staatsstraße 2300/Würzburger Straße in Zellingen zu einer handfesten Auseinandersetzung zwischen zwei Verkehrsteilnehmern. Ein 33-Jähriger hupte, weil der vor ihm stehende schwarze Opel Astra bei Grünlicht nicht losfuhr; daraufhin stieg dessen Fahrer aus, schlug dem 33-Jährigen unvermittelt ins Gesicht und flüchtete anschließend. Das Opfer erlitt leichte Verletzungen im Gesicht. Die Polizeiinspektion Karlstadt ermittelt wegen Körperverletzung und sucht Zeugen unter 09353/9741-0.</div>
+      <div class="card-source">Quelle: <a href="https://aschaffenburg.news/main-spessart/zellingen-auseinandersetzung-zwischen-pkw-fahrern.html" target="_blank" rel="noopener">aschaffenburg.news</a></div>
     </div>
 
     <div class="news-card">
       <div class="card-badges">
-        <span class="badge badge-wirtschaft">Wirtschaft</span>
-        <span class="badge badge-region">Pflaumheim / Lkr. Aschaffenburg</span>
+        <span class="badge badge-blaulicht">Blaulicht</span>
+        <span class="badge badge-region">Markt Retzbach / Main-Spessart</span>
       </div>
       <div class="card-img-wrap">
-        <a href="#lb-6" id="img-6"><img src="https://www.main-echo.de/storage/image/5/7/0/3/6793075_facebook_1FXzve_68KorA.jpg" alt="Nahversorgung Supermarkt" loading="lazy"></a>
+        <a href="#lb-2" id="img-2"><img src="https://media04.meine-news.de/article/2026/07/03/7/2158867_L.webp" alt="Polizeieinsatz Main-Spessart" loading="lazy"></a>
       </div>
-      <div class="card-title">Tegut-Nachfolge in Pflaumheim: B&#252;rger m&#252;ssen aktiv mitgestalten</div>
-      <div class="card-summary">Nach dem angekündigten Rückzug von Tegut aus Pflaumheim sucht die Gemeinde gemeinsam mit der Bevölkerung nach einem Nachfolger für die Nahversorgung. Ohne bürgerschaftliches Engagement werden Alternativen wie Genossenschaftsmärkte oder andere Handelskooperationen schwer umsetzbar, warnen Verantwortliche. Eine Arbeitsgruppe aus Gemeinderäten und Bürgern prüft verschiedene Lösungsmodelle. Eine öffentliche Informationsveranstaltung ist in Kürze geplant.</div>
-      <div class="card-source">Quelle: <a href="https://www.main-echo.de/region/stadt-kreis-aschaffenburg/pflaumheimer-tegut-nachfolgemarkt-die-buerger-muessen-mitmachen-art-8745138" target="_blank" rel="noopener">Main-Echo</a></div>
+      <div class="card-title">Kupferkabel von Baustelle in Markt Retzbach gestohlen</div>
+      <div class="card-summary">In der Nacht von Mittwoch auf Donnerstag entwendeten Unbekannte von einer Baustelle in der Oberen Hauptstraße in Markt Retzbach rund 25 Meter Kupferkabel sowie diverses Werkzeug. Die Täter verschafften sich Zugang zum abgesperrten Baustellenbereich und blieben unentdeckt. Der entstandene Schaden und Diebstahlswert wird von der Polizei noch beziffert, die Ermittlungen laufen. Die Polizeiinspektion Karlstadt bittet um Hinweise von Zeugen, die verdächtige Beobachtungen gemacht haben.</div>
+      <div class="card-source">Quelle: <a href="https://www.meine-news.de/landkreis-main-spessart/c-blaulicht/main-spessart-auseinandersetzung-zwischen-pkw-fahrern-kupferkabel-entwendet-unfallflucht_a238648" target="_blank" rel="noopener">Meine-News.de</a></div>
     </div>
 
     <div class="news-card">
       <div class="card-badges">
-        <span class="badge badge-wirtschaft">Wirtschaft</span>
-        <span class="badge badge-region">Spessart</span>
+        <span class="badge badge-blaulicht">Blaulicht</span>
+        <span class="badge badge-region">Lohr am Main</span>
       </div>
-      <div class="card-img-wrap">
-        <a href="#lb-7" id="img-7"><img src="https://www.main-echo.de/storage/image/2/3/3/0/6850332_goede_facebook_1GhBZt_FcbBKQ.jpg" alt="Weltmarke Spessart" loading="lazy"></a>
-      </div>
-      <div class="card-title">Weltmarke l&#228;sst sich im Spessart nieder &#8211; neue Arbeitspl&#228;tze in der Region</div>
-      <div class="card-summary">Ein international führendes Unternehmen hat sich im Spessart angesiedelt und schafft damit wichtige neue Arbeitsplätze in der Region. Das Unternehmen gilt in seiner Branche weltweit als Marktführer und sieht in der Spessartlage ideale Voraussetzungen. Die Ansiedlung wird als bedeutender Wirtschaftsimpuls für den Landkreis Main-Spessart gewertet, der zuletzt intensiv um Gewerbeansiedlungen geworben hatte. Regionale Wirtschaftsförderung und Landratsamt hatten den Prozess monatelang begleitet.</div>
-      <div class="card-source">Quelle: <a href="https://www.main-echo.de/region/stadt-kreis-aschaffenburg/weltmarke-jetzt-im-spessart-daheim-einblicke-in-ein-reizvolles-geschaeftsfeld-art-8744682" target="_blank" rel="noopener">Main-Echo</a></div>
+      <div class="card-title">E-Scooter in der Lohrer Vorstadtstraße gestohlen</div>
+      <div class="card-summary">Zwischen Dienstagabend, 19 Uhr, und Mittwochmittag, 13 Uhr, wurde in der Vorstadtstraße in Lohr am Main ein E-Scooter im Wert von rund 300 Euro entwendet. Der oder die Täter blieben bislang unerkannt, konkrete Spuren liegen der Polizei nicht vor. Die Polizeiinspektion Lohr hat Ermittlungen wegen Diebstahls aufgenommen. Zeugen, die im Tatzeitraum verdächtige Personen im Bereich der Vorstadtstraße beobachtet haben, werden gebeten, sich zu melden.</div>
+      <div class="card-source">Quelle: <a href="https://www.meine-news.de/landkreis-main-spessart/c-blaulicht/main-spessart-auseinandersetzung-zwischen-pkw-fahrern-kupferkabel-entwendet-unfallflucht_a238648" target="_blank" rel="noopener">Meine-News.de</a></div>
     </div>
 
     <div class="news-card">
       <div class="card-badges">
-        <span class="badge badge-verkehr">Verkehr</span>
-        <span class="badge badge-region">A45 / Main-Br&#252;cke</span>
-      </div>
-      <div class="card-img-wrap">
-        <a href="#lb-8" id="img-8"><img src="https://www.main-echo.de/storage/image/7/0/4/0/6850407_facebook_1GhDjA_TR2oYY.jpg" alt="Autobahnbrücke A45 Pylon" loading="lazy"></a>
-      </div>
-      <div class="card-title">Neue Autobahnbr&#252;cke an der A45 &#252;ber den Main: Erster Pylon entsteht</div>
-      <div class="card-summary">Am Bau der neuen Mainbrücke an der A45 sind sichtbare Fortschritte zu verzeichnen: Der erste große Pylon der geplanten Schrägseilbrücke wird derzeit aufgestellt. Das Großbauwerk soll die marode alte Mainbrücke ersetzen und die Verkehrskapazität langfristig sichern. Bis zur Fertigstellung und Inbetriebnahme sind noch mehrere Bauphasen geplant. Es handelt sich um eines der bedeutendsten Autobahnprojekte Unterfrankens in diesem Jahrzehnt.</div>
-      <div class="card-source">Quelle: <a href="https://www.main-echo.de/region/stadt-kreis-aschaffenburg/neue-autobahnbruecke-an-der-a45-ueber-den-main-der-erste-pylon-entsteht-art-8744810" target="_blank" rel="noopener">Main-Echo</a></div>
-    </div>
-
-    <div class="news-card">
-      <div class="card-badges">
-        <span class="badge badge-gesellschaft">Gesellschaft</span>
-        <span class="badge badge-region">Aschaffenburg</span>
-      </div>
-      <div class="card-img-wrap">
-        <a href="#lb-9" id="img-9"><img src="https://www.main-echo.de/storage/image/3/5/3/0/6850353_aktionstag-der-wasserschutzpolizei-in-miltenberg_facebook_1GhCuC_xzo184.jpg" alt="Wasserschutzpolizei" loading="lazy"></a>
-      </div>
-      <div class="card-title">Wasserschutzpolizei l&#228;dt zum Aktionstag in Aschaffenburg und Miltenberg</div>
-      <div class="card-summary">Die Wasserschutzpolizei Aschaffenburg l&#228;dt alle Wasserbegeisterten zu ihren j&#228;hrlichen Aktionstagen ein. Am 19.&#160;Juli findet der erste Tag am Fahrgastanleger in Miltenberg statt, ein weiterer Termin in Aschaffenburg folgt. Besucher erwarten Vorführungen von Einsatzbooten, Infos zu Aufgaben der Wasserschutzpolizei und die Möglichkeit, Ausrüstung aus nächster Nähe zu besichtigen. Der Eintritt ist frei; Wassersportler können ihre Boote zur Kontrolle mitbringen.</div>
-      <div class="card-source">Quelle: <a href="https://www.main-echo.de/ressorts/blaulicht/aktionstag-der-wasserschutzpolizei-in-aschaffenburg-art-8744775" target="_blank" rel="noopener">Main-Echo</a></div>
-    </div>
-
-    <div class="news-card">
-      <div class="card-badges">
-        <span class="badge badge-gesundheit">Gesundheit</span>
-        <span class="badge badge-region">Aschaffenburg</span>
-      </div>
-      <div class="card-img-wrap">
-        <a href="#lb-10" id="img-10"><img src="https://www.main-echo.de/storage/image/4/9/3/0/6850394_facebook_1GhD2Q_3uy9wX.jpg" alt="Tierheim Wildvögel" loading="lazy"></a>
-      </div>
-      <div class="card-title">Tierheim Aschaffenburg hat keine Kapazit&#228;ten mehr f&#252;r Wildv&#246;gel</div>
-      <div class="card-summary">Das Tierheim Aschaffenburg muss für diesen Sommer Kapazitätsprobleme bei Wildvögeln eingestehen. Durch den Hitzesommer finden geschwächte oder verletzte Wildvögel vermehrt den Weg ins Tierheim, das an seine Ressourcengrenzen stößt. Die Einrichtung bittet Bürger, aufgefundene Wildvögel nur in wirklichen Notfällen vorbeizubringen und vorher telefonisch Rücksprache zu halten. Dringend gesucht werden ehrenamtliche Helfer für die Wildvogelpflege.</div>
-      <div class="card-source">Quelle: <a href="https://www.main-echo.de/region/stadt-kreis-aschaffenburg/bei-wildvoegeln-hat-aschaffenburger-tierheim-kapazitaetsgrenze-erreicht-art-8744796" target="_blank" rel="noopener">Main-Echo</a></div>
-    </div>
-
-    <div class="news-card">
-      <div class="card-badges">
-        <span class="badge badge-gesellschaft">Gesellschaft</span>
-        <span class="badge badge-region">Main-Spessart</span>
-      </div>
-      <div class="card-img-wrap">
-        <a href="#lb-11" id="img-11"><img src="https://www.main-echo.de/storage/image/8/2/8/0/6850828_facebook_1GhS1n_bQqRfH.jpg" alt="THW Main-Spessart" loading="lazy"></a>
-      </div>
-      <div class="card-title">THW Main-Spessart: Im Notfall ist Hilfe in der Region gesichert</div>
-      <div class="card-summary">Das Technische Hilfswerk (THW) in der Region Main-Spessart ist auch nach den jüngsten Unwetterereignissen gut aufgestellt. Die ehrenamtlichen Kräfte bewiesen in der vergangenen Woche, dass sie schnell und professionell auf Extremwetter reagieren können. Ausrüstung und Einsatzbereitschaft der Ortsverbände wurden gezielt aufgestockt. Enge Zusammenarbeit mit Feuerwehr und Rettungsdiensten sei der Schlüssel für einen funktionierenden regionalen Katastrophenschutz, betont der THW-Koordinator.</div>
-      <div class="card-source">Quelle: <a href="https://www.main-echo.de/region/kreis-main-spessart/thw-im-notfall-ist-hilfe-in-der-region-gesichert-art-8745227" target="_blank" rel="noopener">Main-Echo</a></div>
-    </div>
-
-    <div class="news-card">
-      <div class="card-badges">
-        <span class="badge badge-gesellschaft">Gesellschaft</span>
-        <span class="badge badge-region">Main-Spessart</span>
-      </div>
-      <div class="card-img-wrap">
-        <a href="#lb-12" id="img-12"><img src="https://www.main-echo.de/storage/image/3/4/4/0/6850443_facebook_1GhDIb_PyyNFP.jpg" alt="Dorf räumt nach Unwetter auf" loading="lazy"></a>
-      </div>
-      <div class="card-title">Nach dem Unwetter: Dorf im Main-Spessart r&#228;umt gemeinsam auf</div>
-      <div class="card-summary">Ein Dorf im Landkreis Main-Spessart hat nach den heftigen Unwettern der vergangenen Tage eine groß angelegte Aufräumaktion gestartet. Nachbarn und Freiwillige rückten mit Schaufeln, Pumpen und Traktoren aus, um vollgelaufene Keller zu leeren und Schlamm von Straßen zu räumen. Bürgermeister und Pfarrer lobten ausdrücklich die Solidarität der Dorfgemeinschaft. Größere Sachschäden wurden gemeldet, Menschen kamen glücklicherweise nicht zu Schaden.</div>
-      <div class="card-source">Quelle: <a href="https://www.main-echo.de/region/kreis-main-spessart/nach-dem-unwetter-ein-dorf-raeumt-auf-art-8744829" target="_blank" rel="noopener">Main-Echo</a></div>
-    </div>
-
-    <div class="news-card">
-      <div class="card-badges">
-        <span class="badge badge-kultur">Kultur</span>
-        <span class="badge badge-region">Aschaffenburg</span>
-      </div>
-      <div class="card-img-wrap">
-        <a href="#lb-13" id="img-13"><img src="https://www.main-echo.de/storage/image/2/6/3/0/6850362_facebook_1GhCEm_fmHFyO.jpg" alt="BUZZ Festival Hip Hop" loading="lazy"></a>
-      </div>
-      <div class="card-title">Hip-Hop-Star kommt im August zum BUZZ-Festival in Aschaffenburg</div>
-      <div class="card-summary">Das BUZZ-Festival in Aschaffenburg präsentiert im August eine namhafte Größe der deutschen und internationalen Hip-Hop-Szene. Das beliebte Open-Air-Festival hat sich in den vergangenen Jahren zu einem festen Termin für Musikfans aus der ganzen Region entwickelt und zieht jährlich Tausende Besucher an. Neben dem Headliner werden weitere Acts aus Rap, R&amp;B und Urban Music erwartet. Karten sind ab sofort im Vorverkauf erhältlich.</div>
-      <div class="card-source">Quelle: <a href="https://www.main-echo.de/region/stadt-kreis-aschaffenburg/welche-hip-hop-groesse-im-august-zum-buzz-festival-in-aschaffenburg-kommt-art-8744776" target="_blank" rel="noopener">Main-Echo</a></div>
-    </div>
-
-    <div class="news-card">
-      <div class="card-badges">
-        <span class="badge badge-kultur">Kultur</span>
+        <span class="badge badge-blaulicht">Blaulicht</span>
         <span class="badge badge-region">Marktheidenfeld / Main-Spessart</span>
       </div>
-      <div class="card-img-wrap">
-        <a href="#lb-14" id="img-14"><img src="https://www.main-echo.de/storage/image/7/8/5/6/6776587_facebook_1FPk4-_xdLBff.jpg" alt="Lorbser Faschingsverein" loading="lazy"></a>
-      </div>
-      <div class="card-title">Lorbser Narren feiern 55-j&#228;hriges Jubil&#228;um mit Sommerfest in Marktheidenfeld</div>
-      <div class="card-summary">Der Faschingsverein Lorbser Marktheidenfeld feiert sein 55-j&#228;hriges Bestehen mit einem dreit&#228;gigen Jubil&#228;umsfest vom 10. bis 12.&#160;Juli auf der Rothenbücher Wiese. Den Auftakt bildet am Freitag ein Beatabend mit DJ Panes und DJ Redskin; am Samstag tritt die Live-Band &#8222;Die Hopferstädter&#8220; auf. Kulinarisch sorgen Die Heunischs mit ihren Foodtrucks für Abwechslung. Der Eintritt zum Fest ist frei.</div>
-      <div class="card-source">Quelle: <a href="https://www.main-echo.de/region/kreis-main-spessart/lorbser-feiern-jubilaeum-art-8744162" target="_blank" rel="noopener">Main-Echo</a></div>
-    </div>
-
-    <div class="news-card">
-      <div class="card-badges">
-        <span class="badge badge-gesellschaft">Gesellschaft</span>
-        <span class="badge badge-region">Alzenau / Lkr. Aschaffenburg</span>
-      </div>
-      <div class="card-img-wrap">
-        <a href="#lb-15" id="img-15"><img src="https://www.main-echo.de/storage/image/8/5/3/0/6850358_facebook_1GhCAb_tw9Wwn.jpg" alt="Caritas Alzenau 50 Jahre" loading="lazy"></a>
-      </div>
-      <div class="card-title">Alzenauer Caritas-Sozialstation feiert 50-j&#228;hriges Bestehen</div>
-      <div class="card-summary">Die Caritas-Sozialstation in Alzenau feiert ein halbes Jahrhundert ambulanter Pflege und sozialer Betreuung. Seit ihrer Gründung hat die Station Tausende pflegebedürftige Menschen und Familien in der Region begleitet. Mit einem Festakt &#8211; zu dem auch Gäste aus Politik und Kirche erwartet werden &#8211; soll das Jubiläum feierlich begangen werden. Gleichzeitig wirbt die Einrichtung angesichts wachsenden Bedarfs aktiv um Pflegenachwuchs.</div>
-      <div class="card-source">Quelle: <a href="https://www.main-echo.de/region/stadt-kreis-aschaffenburg/ein-halbes-jahrhundert-hilfe-im-alltag-alzenauer-caritas-sozialstation-feiert-50-jaehriges-bestehen-art-8744769" target="_blank" rel="noopener">Main-Echo</a></div>
-    </div>
-
-    <div class="news-card">
-      <div class="card-badges">
-        <span class="badge badge-umwelt">Umwelt</span>
-        <span class="badge badge-region">Sommerkahl / Lkr. Aschaffenburg</span>
-      </div>
-      <div class="card-img-wrap">
-        <a href="#lb-16" id="img-16"><img src="https://www.main-echo.de/storage/image/8/1/9/0/6800918_ein-trinkglas-mit-leitungswasser-befuellt_facebook_1F-62t_lHNcGR.jpg" alt="Trinkwasser sparen" loading="lazy"></a>
-      </div>
-      <div class="card-title">Wassermangel im Sommer: Sommerkahl ruft zum sparsamen Umgang auf</div>
-      <div class="card-summary">Angesichts anhaltender Hitze und geringer Niederschl&#228;ge ruft die Gemeinde Sommerkahl ihre Bürger zu einem sorgsamen Umgang mit Trinkwasser auf. Kampagnen und Infomaterial sollen helfen, unnötigen Verbrauch beim Poolbefüllen oder Rasenwässern zu reduzieren. Die Wasserreserven sind aktuell noch ausreichend, könnten bei weiterer Trockenheit aber knapp werden. Im Ernstfall soll ein koordiniertes Vorgehen mit dem zuständigen Zweckverband eine schnelle Reaktion ermöglichen.</div>
-      <div class="card-source">Quelle: <a href="https://www.main-echo.de/region/stadt-kreis-aschaffenburg/knappe-ressource-sommerkahler-fuer-sparsamen-umgang-mit-wasser-sensibilisieren-art-8744797" target="_blank" rel="noopener">Main-Echo</a></div>
-    </div>
-
-    <div class="news-card">
-      <div class="card-badges">
-        <span class="badge badge-freizeit">Freizeit</span>
-        <span class="badge badge-region">Gro&#223;ostheim</span>
-      </div>
-      <div class="card-img-wrap">
-        <a href="#lb-17" id="img-17"><img src="https://www.main-echo.de/storage/image/2/4/8/2/6842842_lan2607goh-bachgau_facebook_1GeW7A_KMPCwh.jpg" alt="Bachgaufest Großostheim" loading="lazy"></a>
-      </div>
-      <div class="card-title">Bachgaufest in Gro&#223;ostheim: Programm und Attraktionen bekanntgegeben</div>
-      <div class="card-summary">Das traditionelle Bachgaufest in Gro&#223;ostheim steht vor der T&#252;r &#8211; die Veranstalter haben das Programm mit Musik, regionaler Kulinarik und Familienunterhaltung bekanntgegeben. In diesem Jahr werden wieder mehrere Tausend Besucher aus der Region Aschaffenburg und darüber hinaus erwartet. Neben Live-Musik und regionalen Spezialitäten sorgen Attraktionen für Jung und Alt für ein abwechslungsreiches Festerlebnis. Alle Infos zu Terminen und Eintritt sind auf der offiziellen Festseite abrufbar.</div>
-      <div class="card-source">Quelle: <a href="https://www.main-echo.de/region/stadt-kreis-aschaffenburg/das-erwartet-besucher-beim-bachgaufest-in-grossostheim-art-8744570" target="_blank" rel="noopener">Main-Echo</a></div>
+      <div class="card-title">Auto in Marktheidenfeld mutwillig zerkratzt</div>
+      <div class="card-summary">In der Ludwigstraße in Marktheidenfeld wurde am Donnerstag die Motorhaube eines geparkten Toyota Yaris vorsätzlich zerkratzt. Der Schaden am Fahrzeug beläuft sich nach ersten Schätzungen auf rund 3.000 Euro. Ein Tatverdächtiger konnte bislang nicht ermittelt werden. Die Polizeiinspektion Marktheidenfeld hat die Ermittlungen wegen Sachbeschädigung aufgenommen und bittet unter 09391/9841-0 um Zeugenhinweise.</div>
+      <div class="card-source">Quelle: <a href="https://www.meine-news.de/landkreis-main-spessart/c-blaulicht/main-spessart-auseinandersetzung-zwischen-pkw-fahrern-kupferkabel-entwendet-unfallflucht_a238648" target="_blank" rel="noopener">Meine-News.de</a></div>
     </div>
 
     <div class="news-card">
       <div class="card-badges">
         <span class="badge badge-politik">Politik</span>
-        <span class="badge badge-region">Bischbrunn / Main-Spessart</span>
+        <span class="badge badge-region">Landratsamt Aschaffenburg</span>
+      </div>
+      <div class="card-title">Fachveranstaltung zur Wohnraumverdichtung am Untermain im Landratsamt Aschaffenburg</div>
+      <div class="card-summary">Über 60 Mitglieder des Regionalen Planungsverbands kamen zu einer Fachveranstaltung zusammen, bei der es um qualitätsvolle Innenentwicklung bei gleichzeitigem Flächenschutz ging. Anne Weiß von der Regierung von Unterfranken erläuterte die landesplanerischen Vorgaben und wies darauf hin, dass jeder Einwohner im Schnitt rund 54 Quadratmeter Wohnfläche belegt. Die Stadtplanerin Barbara Hummel betonte, gesunde Wohnquartiere sollten verschiedene Wohnformen mischen, damit Menschen unterschiedlicher Lebensphasen voneinander profitieren. Melanie Eisner stellte gelungene Beispiele verdichteten Bauens vor, und die Sommeracher Bürgermeisterin Elisabeth Drescher schilderte, wie ein altes Scheunenviertel zu modernem, generationenübergreifendem Wohnraum umgebaut wurde.</div>
+      <div class="card-source">Quelle: <a href="https://aschaffenburg.news/aktuelles/untermain-fachveranstaltung-des-regionalen-planungsverbands-zur-wohnraumverdichtungb.html" target="_blank" rel="noopener">aschaffenburg.news</a></div>
+    </div>
+
+    <div class="news-card">
+      <div class="card-badges">
+        <span class="badge badge-gesellschaft">Gesellschaft</span>
+        <span class="badge badge-region">Aschaffenburg</span>
+      </div>
+      <div class="card-title">Aschaffenburg feiert 70 Jahre Städtepartnerschaft mit Perth</div>
+      <div class="card-summary">Aschaffenburg und die schottische Stadt Perth begehen am 18. Juli 2026 ab 10 Uhr auf dem Theaterplatz das 70-jährige Bestehen ihrer Städtepartnerschaft. Oberbürgermeister Markus Schlemmer und Provost Xander McDade führen die Feierlichkeiten an, an denen Vereine aus beiden Städten beteiligt sind. Die Stadt Aschaffenburg wird McDade im Namen der Bürgerschaft Perths mit der Bürgermedaille auszeichnen, als Gegenzug zu der &#8222;Freedom of the City&#8220;, die Perth im Mai an Aschaffenburger Bürger verliehen hatte. Der Freundeskreis Perth-Aschaffenburg hat für das Fest Auftritte von Pipe Bands, Tanzschulen, Blaskapellen und Gesangvereinen aus beiden Orten organisiert.</div>
+      <div class="card-source">Quelle: <a href="https://aschaffenburg.news/ab/aschaffenburg/aschaffenburg/aschaffenburg-70-jahre-städtepartnerschaft-mit-perth.html" target="_blank" rel="noopener">aschaffenburg.news</a></div>
+    </div>
+
+    <div class="news-card">
+      <div class="card-badges">
+        <span class="badge badge-gesundheit">Gesundheit</span>
+        <span class="badge badge-region">Bayern</span>
+      </div>
+      <div class="card-title">Bornavirus: Infektionsrisiko trotz leichtem Anstieg der Fälle weiterhin gering</div>
+      <div class="card-summary">Gesundheitsministerin Judith Gerlach hat mitgeteilt, dass das Infektionsrisiko durch das Bornavirus trotz eines leichten Fallanstiegs weiterhin als gering eingestuft wird. In diesem Jahr wurden in Bayern bislang fünf Fälle dokumentiert, drei mehr als im Vergleichszeitraum 2025; alle fünf Infizierten sind an der Erkrankung verstorben. Das Bornavirus (BoDV-1) verursacht eine schwere Gehirnentzündung, gegen die es bislang weder spezifische Therapie noch Impfstoff gibt, sodass nur eine intensivmedizinische Behandlung möglich ist. Übertragen wird der Erreger vor allem über Kontakt mit Feldspitzmäusen und deren Ausscheidungen; die Behörden raten daher zu Vorsichtsmaßnahmen wie dem Tragen von Handschuhen und Masken bei der Reinigung möglicherweise kontaminierter Bereiche.</div>
+      <div class="card-source">Quelle: <a href="https://aschaffenburg.news/politik/infektionsrisiko-beim-bornavirus-trotz-leichten-anstiegs-der-fälle-weiterhin-gering.html" target="_blank" rel="noopener">aschaffenburg.news</a></div>
+    </div>
+
+    <div class="news-card">
+      <div class="card-badges">
+        <span class="badge badge-verkehr">Verkehr</span>
+        <span class="badge badge-region">Stockstadt&#8211;Gro&#223;ostheim / Lkr. Aschaffenburg</span>
       </div>
       <div class="card-img-wrap">
-        <a href="#lb-18" id="img-18"><img src="https://www.main-echo.de/storage/image/9/3/2/0/6850239_facebook_1GhA5k_UzmXTG.jpg" alt="Feuerwehr Löschfahrzeug" loading="lazy"></a>
+        <a href="#lb-3" id="img-3"><img src="https://media04.meine-news.de/article/2026/07/03/0/2158870_L.webp" alt="Baustelle B469" loading="lazy"></a>
       </div>
-      <div class="card-title">Bischbrunn z&#246;gert bei Anschaffung eines neuen L&#246;schfahrzeugs</div>
-      <div class="card-summary">Die Gemeinde Bischbrunn diskutiert kontrovers über die Beschaffung eines neuen Löschfahrzeugs für die Freiwillige Feuerwehr. Angesichts knapper Haushaltsmittel und gestiegener Fahrzeugpreise zögert der Gemeinderat trotz des veralteten Bestands. Feuerwehr und Bevölkerung pochen auf die Einsatzbereitschaft im Ernstfall; Kritiker warnen vor dem Risiko eines Ausfalls. Die Entscheidung über das rund 600.000&#160;Euro teure Fahrzeug soll in einer der nächsten Sitzungen fallen.</div>
-      <div class="card-source">Quelle: <a href="https://www.main-echo.de/region/kreis-main-spessart/bischbrunn-zoegert-beim-loeschfahrzeug-art-8744683" target="_blank" rel="noopener">Main-Echo</a></div>
+      <div class="card-title">Verkehrsbeschränkungen auf der B469 zwischen Stockstadt und Großostheim</div>
+      <div class="card-summary">Das Staatliche Bauamt kündigt für den Zeitraum vom 6. bis 10. Juli 2026 Fahrbahnunterhaltungsarbeiten auf der B469 zwischen der Anschlussstelle Stockstadt-Nord und der Anschlussstelle Großostheim an. Vom 6. bis 8. Juli wird auf der Richtungsfahrbahn Seligenstadt das Tempo auf 60 km/h reduziert, vom 8. bis 10. Juli gilt auf der Richtungsfahrbahn Miltenberg Tempo 40. Die mobile Baustelle der Straßenmeisterei Mainaschaff soll Schäden an der Fahrbahnnaht, Schlaglöcher und die Entwässerung beheben. Autofahrer werden um besondere Vorsicht und Rücksichtnahme im Baustellenbereich gebeten.</div>
+      <div class="card-source">Quelle: <a href="https://www.meine-news.de/landkreis-aschaffenburg/c-blaulicht/b-469-anschlussstelle-stockstadt-nord-anschlussstelle-grossostheim-verkehrsbeschraenkungen-infolge-von-fahrbahninstandhaltung_a238651" target="_blank" rel="noopener">Meine-News.de</a></div>
+    </div>
+
+    <div class="news-card">
+      <div class="card-badges">
+        <span class="badge badge-wirtschaft">Wirtschaft</span>
+        <span class="badge badge-region">Lohr am Main</span>
+      </div>
+      <div class="card-img-wrap">
+        <a href="#lb-4" id="img-4"><img src="https://www.main-echo.de/storage/image/0/9/2/1/6851290_original2560_1GhZJH_n7HYlb.jpg" alt="Klinikums-Neubau Lohr" loading="lazy"></a>
+      </div>
+      <div class="card-title">Klinikums-Neubau: 220 Lohrer Lärchen für Fassade gefällt</div>
+      <div class="card-summary">Der Lohrer Stadtrat unternahm am Mittwochnachmittag eine Waldfahrt mit ungewöhnlichem Ziel: die Baustelle des neuen Zentralklinikums Main-Spessart in Lohr. Dort erfuhren die Stadträte, dass für die Fassade des Klinikneubaus 220 Lärchen aus dem Lohrer Stadtwald gefällt und im Landkreis weiterverarbeitet werden. Das Zentralklinikum entsteht auf dem Gelände des bisherigen Bezirkskrankenhauses und soll die stationäre Gesundheitsversorgung im Landkreis Main-Spessart langfristig sichern. Mit der Verwendung von heimischem Spessartholz für die Fassade verbindet das Bauprojekt regionale Wertschöpfung mit einem der größten Infrastrukturvorhaben der Region.</div>
+      <div class="card-source">Quelle: <a href="https://www.main-echo.de/region/kreis-main-spessart/nur-die-besten-fuers-klinikum-art-8745601" target="_blank" rel="noopener">Main-Echo</a></div>
+    </div>
+
+    <div class="news-card">
+      <div class="card-badges">
+        <span class="badge badge-umwelt">Umwelt</span>
+        <span class="badge badge-region">Rothenfels / Main-Spessart</span>
+      </div>
+      <div class="card-img-wrap">
+        <a href="#lb-5" id="img-5"><img src="https://www.main-echo.de/storage/image/8/6/9/0/6850968_original2560_1GhUp5_OCV3uF.jpg" alt="Schafschur Rothenfels" loading="lazy"></a>
+      </div>
+      <div class="card-title">Schwer zu vermarktendes Naturprodukt: Wohin mit der Wolle?</div>
+      <div class="card-summary">Wenn es wärmer wird, ist für Schafe die Zeit gekommen, ihren dicken Wollpulli abzulegen &#8211; dafür braucht es den Schafscherer. Der Beitrag aus Rothenfels zeigt anschaulich, wie eine Schafschur abläuft und welcher Aufwand dahintersteckt. Im Mittelpunkt steht dabei die Frage, was anschließend mit der geschorenen Wolle geschieht, denn das Naturprodukt lässt sich heute nur noch schwer wirtschaftlich vermarkten. Viele Schafhalter in der Region stehen laut dem Bericht vor dem Problem, dass die Erlöse aus dem Wollverkauf die Kosten der Schur kaum noch decken.</div>
+      <div class="card-source">Quelle: <a href="https://www.main-echo.de/region/kreis-main-spessart/wohin-mit-der-wolle-art-8745309" target="_blank" rel="noopener">Main-Echo</a></div>
+    </div>
+
+    <div class="news-card">
+      <div class="card-badges">
+        <span class="badge badge-kultur">Kultur</span>
+        <span class="badge badge-region">Gemünden a.Main</span>
+      </div>
+      <div class="card-img-wrap">
+        <a href="#lb-6" id="img-6"><img src="https://www.main-echo.de/storage/image/0/5/0/1/6851050_original2560_1GhV_y_cZRJZL.jpg" alt="Scherenburgfestspiele Kleine Hexe" loading="lazy"></a>
+      </div>
+      <div class="card-title">&#8222;Kleine Hexe&#8220; begeistert auf der Scherenburg</div>
+      <div class="card-summary">Die Scherenburgfestspiele in Gemünden a.Main sind in ihre 36. Saison gestartet, die unter dem Motto &#8222;Hexen, Meister, Detektive&#8220; steht und noch bis 16. August läuft. Zum Auftakt feierte die Familieninszenierung &#8222;Die kleine Hexe&#8220; nach dem Kinderbuchklassiker von Otfried Preußler großen Anklang beim Publikum. Auf der Freilichtbühne der Burgruine wird der Hexensabbat auf dem Blocksberg als wildes, kunterbuntes Spektakel mit modernen, verrückten Fahrzeugen statt Besen inszeniert, die Oberhexe kommt sogar auf dem Motorrad angeknattert. Neben &#8222;Die kleine Hexe&#8220; gehört in dieser Saison auch &#8222;Sherlock Holmes&#8220; zum Programm der Freilichtbühne.</div>
+      <div class="card-source">Quelle: <a href="https://www.main-echo.de/region/kreis-main-spessart/kleine-hexe-begeistert-auf-der-scherenburg-art-8745397" target="_blank" rel="noopener">Main-Echo</a></div>
+    </div>
+
+    <div class="news-card">
+      <div class="card-badges">
+        <span class="badge badge-kultur">Kultur</span>
+        <span class="badge badge-region">Lohr am Main</span>
+      </div>
+      <div class="card-img-wrap">
+        <a href="#lb-7" id="img-7"><img src="https://www.main-echo.de/storage/image/5/3/1/1/6851135_original2560_1GhXn__t9K4jN.jpg" alt="Ruth Radecker VHS-Kammerchor Lohr" loading="lazy"></a>
+      </div>
+      <div class="card-title">Ruth Radecker dirigiert seit 30 Jahren den VHS-Kammerchor Lohr</div>
+      <div class="card-summary">Die studierte Musikerin und Musiklehrerin Ruth Radecker feiert ein besonderes Jubiläum: Seit nunmehr 30 Jahren steht sie dem Kammerchor der Volkshochschule Lohr als Dirigentin vor. Die Chormusik hat die Lohrerin ihr ganzes Leben lang begleitet, was sich in ihrem langjährigen Engagement für den Chor widerspiegelt. Der VHS-Kammerchor Lohr besteht bereits seit Jahrzehnten und hat sich zu einem festen Bestandteil des Lohrer Kulturlebens entwickelt. Mit Radeckers Dirigat verbindet sich seit drei Jahrzehnten ein breites Repertoire, das der Chor bei Konzerten in der Region zur Aufführung bringt.</div>
+      <div class="card-source">Quelle: <a href="https://www.main-echo.de/region/kreis-main-spessart/ruth-radecker-dirigiert-seit-30-jahren-den-vhs-kammerchor-lohr-art-8745448" target="_blank" rel="noopener">Main-Echo</a></div>
+    </div>
+
+    <div class="news-card">
+      <div class="card-badges">
+        <span class="badge badge-kultur">Kultur</span>
+        <span class="badge badge-region">Lohr am Main</span>
+      </div>
+      <div class="card-img-wrap">
+        <a href="#lb-8" id="img-8"><img src="https://www.main-echo.de/storage/image/3/2/0/1/6851023_loh2906loh-festwoche_original2560_1GhV9n_WNu0tS.jpg" alt="Lohrer Spessartfestwoche" loading="lazy"></a>
+      </div>
+      <div class="card-title">Warum für die Spessartfestwoche heuer mit einem Besucherschub gerechnet wird</div>
+      <div class="card-summary">Nur noch wenige Wochen, dann beginnt die Lohrer Spessartfestwoche, die als &#8222;fünfte Jahreszeit&#8220; der Stadt gilt und traditionell auf die bewährte Mischung aus Geselligkeit im Bierzelt und einem üppigen Vergnügungspark setzt. Die Organisatoren rechnen in diesem Jahr aus zwei konkreten Gründen mit spürbar mehr Besucherandrang als in den Vorjahren. Der Bericht blickt auf das diesjährige Programm sowie die Besonderheiten der Festwoche und ordnet ein, was sich im Vergleich zu früheren Jahren verändert hat. Als eines der größten Volksfeste der Region hat die Festwoche auch wirtschaftliche Bedeutung für örtliche Gastronomen und Schausteller.</div>
+      <div class="card-source">Quelle: <a href="https://www.main-echo.de/region/kreis-main-spessart/geben-zwei-aktionstage-der-lohrer-festwoche-einen-besucherschub-art-8745297" target="_blank" rel="noopener">Main-Echo</a></div>
+    </div>
+
+    <div class="news-card">
+      <div class="card-badges">
+        <span class="badge badge-sport">Sport</span>
+        <span class="badge badge-region">Haibach / Lkr. Aschaffenburg</span>
+      </div>
+      <div class="card-img-wrap">
+        <a href="#lb-9" id="img-9"><img src="https://www.main-echo.de/storage/image/4/7/4/8/6308474_original2560_1DoHwP_WJEFXS.jpg" alt="Alemannia Haibach Fußball" loading="lazy"></a>
+      </div>
+      <div class="card-title">&#8222;Viel zu chaotisch&#8220;: Alemannia Haibach und die Gratwanderung</div>
+      <div class="card-summary">Trotz eines 3:1-Auswärtssiegs gegen Neuhütten/Wiesthal in Altfeld war Haibachs Trainer Daniel Diaconu am Donnerstagabend alles andere als zufrieden. Nach der Partie in der Landesliga Nordwest übte er deutliche Kritik an Auftritten seiner Mannschaft, die er als &#8222;viel zu chaotisch&#8220; bezeichnete. Zufrieden zeigte sich Diaconu dagegen mit der Leistung eines seiner Verteidiger, der als Spieler des Spiels ausgezeichnet wurde. Der Artikel beschreibt damit die Gratwanderung, auf der sich der SV Alemannia Haibach in der laufenden Saison der Landesliga Nordwest bewegt &#8211; Siege trotz chaotischer Spielphasen.</div>
+      <div class="card-source">Quelle: <a href="https://www.main-echo.de/sport/fussball/franken/landesliga-nordwest/viel-zu-chaotisch-haibach-und-die-gratwanderung-art-8745442" target="_blank" rel="noopener">Main-Echo</a></div>
+    </div>
+
+    <div class="news-card">
+      <div class="card-badges">
+        <span class="badge badge-freizeit">Freizeit</span>
+        <span class="badge badge-region">Aschaffenburg</span>
+      </div>
+      <div class="card-title">&#8222;Bewegung im Park&#8220; startet ab 1. August wieder in Aschaffenburg</div>
+      <div class="card-summary">Das städtische Gesundheitsmanagement Aschaffenburg legt vom 1. August bis 12. September erneut mit dem kostenlosen Fitnessangebot &#8222;Bewegung im Park 2026&#8220; los. Die Kurse finden an zwei Wochentagen an mehreren Standorten statt: donnerstags von 17:30 bis 20:15 Uhr am Damm nahe dem Aschaffgrünzug sowie samstags von 9 bis 11:45 Uhr auf der Großmutterwiese und im Schöntal. Angeboten werden unter anderem Yoga, Qi Gong, Pilates, allgemeines Fitnesstraining, Functional Training, Mobility, Hyrox und Coretraining für alle Altersgruppen. Eine Anmeldung ist nicht nötig, die Stadt will damit die Bevölkerung zu mehr Bewegung im Alltag motivieren und knüpft an den Erfolg der Vorjahre an.</div>
+      <div class="card-source">Quelle: <a href="https://aschaffenburg.news/ab/aschaffenburg/aschaffenburg/aschaffenburg-bewegung-im-park-ab-1-august.html" target="_blank" rel="noopener">aschaffenburg.news</a></div>
     </div>
 
   </div>
@@ -572,28 +643,19 @@
 </div>
 
 <!-- CSS-Lightboxen (kein JavaScript) -->
-<div id="lb-1" class="lightbox-overlay"><a href="#" class="lb-close">&#10005;</a><img src="https://www.main-echo.de/storage/image/9/8/9/9/6009989_jugendfeuerwehr-frankfurt_facebook_1CsK6b_8VrcHq.jpg" alt="Feuerwehr Dauereinsatz"></div>
-<div id="lb-2" class="lightbox-overlay"><a href="#" class="lb-close">&#10005;</a><img src="https://www.main-echo.de/storage/image/1/6/7/6/6666761_eilmeldung-verkehr_facebook_1F5Mls_q50jH3.jpg" alt="Stau A45"></div>
-<div id="lb-3" class="lightbox-overlay"><a href="#" class="lb-close">&#10005;</a><img src="https://www.main-echo.de/storage/image/2/6/4/0/6620462_polizei-sichert-unfallstelle_facebook_1EO0um_FXcUu4.jpg" alt="Unfallstelle A3"></div>
-<div id="lb-4" class="lightbox-overlay"><a href="#" class="lb-close">&#10005;</a><img src="https://www.main-echo.de/storage/image/8/6/0/2/6492068_polizeitautos-mit-blaulicht_facebook_1DWWVd_BNBBEs.jpg" alt="Polizei Blaulicht"></div>
-<div id="lb-5" class="lightbox-overlay"><a href="#" class="lb-close">&#10005;</a><img src="https://www.main-echo.de/storage/image/3/8/7/4/6744783_instagram_facebook_1FBLk__K8u966.jpg" alt="Gericht"></div>
-<div id="lb-6" class="lightbox-overlay"><a href="#" class="lb-close">&#10005;</a><img src="https://www.main-echo.de/storage/image/5/7/0/3/6793075_facebook_1FXzve_68KorA.jpg" alt="Nahversorgung"></div>
-<div id="lb-7" class="lightbox-overlay"><a href="#" class="lb-close">&#10005;</a><img src="https://www.main-echo.de/storage/image/2/3/3/0/6850332_goede_facebook_1GhBZt_FcbBKQ.jpg" alt="Weltmarke Spessart"></div>
-<div id="lb-8" class="lightbox-overlay"><a href="#" class="lb-close">&#10005;</a><img src="https://www.main-echo.de/storage/image/7/0/4/0/6850407_facebook_1GhDjA_TR2oYY.jpg" alt="Autobahnbrücke A45"></div>
-<div id="lb-9" class="lightbox-overlay"><a href="#" class="lb-close">&#10005;</a><img src="https://www.main-echo.de/storage/image/3/5/3/0/6850353_aktionstag-der-wasserschutzpolizei-in-miltenberg_facebook_1GhCuC_xzo184.jpg" alt="Wasserschutzpolizei"></div>
-<div id="lb-10" class="lightbox-overlay"><a href="#" class="lb-close">&#10005;</a><img src="https://www.main-echo.de/storage/image/4/9/3/0/6850394_facebook_1GhD2Q_3uy9wX.jpg" alt="Tierheim Wildvögel"></div>
-<div id="lb-11" class="lightbox-overlay"><a href="#" class="lb-close">&#10005;</a><img src="https://www.main-echo.de/storage/image/8/2/8/0/6850828_facebook_1GhS1n_bQqRfH.jpg" alt="THW Main-Spessart"></div>
-<div id="lb-12" class="lightbox-overlay"><a href="#" class="lb-close">&#10005;</a><img src="https://www.main-echo.de/storage/image/3/4/4/0/6850443_facebook_1GhDIb_PyyNFP.jpg" alt="Dorf räumt auf"></div>
-<div id="lb-13" class="lightbox-overlay"><a href="#" class="lb-close">&#10005;</a><img src="https://www.main-echo.de/storage/image/2/6/3/0/6850362_facebook_1GhCEm_fmHFyO.jpg" alt="BUZZ Festival"></div>
-<div id="lb-14" class="lightbox-overlay"><a href="#" class="lb-close">&#10005;</a><img src="https://www.main-echo.de/storage/image/7/8/5/6/6776587_facebook_1FPk4-_xdLBff.jpg" alt="Lorbser Jubiläum"></div>
-<div id="lb-15" class="lightbox-overlay"><a href="#" class="lb-close">&#10005;</a><img src="https://www.main-echo.de/storage/image/8/5/3/0/6850358_facebook_1GhCAb_tw9Wwn.jpg" alt="Caritas Alzenau"></div>
-<div id="lb-16" class="lightbox-overlay"><a href="#" class="lb-close">&#10005;</a><img src="https://www.main-echo.de/storage/image/8/1/9/0/6800918_ein-trinkglas-mit-leitungswasser-befuellt_facebook_1F-62t_lHNcGR.jpg" alt="Trinkwasser sparen"></div>
-<div id="lb-17" class="lightbox-overlay"><a href="#" class="lb-close">&#10005;</a><img src="https://www.main-echo.de/storage/image/2/4/8/2/6842842_lan2607goh-bachgau_facebook_1GeW7A_KMPCwh.jpg" alt="Bachgaufest Großostheim"></div>
-<div id="lb-18" class="lightbox-overlay"><a href="#" class="lb-close">&#10005;</a><img src="https://www.main-echo.de/storage/image/9/3/2/0/6850239_facebook_1GhA5k_UzmXTG.jpg" alt="Feuerwehr Bischbrunn"></div>
+<div id="lb-1" class="lightbox-overlay"><a href="#" class="lb-close">&#10005;</a><img src="https://media04.meine-news.de/article/2026/07/03/5/2158855_L.webp" alt="Polizeieinsatz Raum Aschaffenburg"></div>
+<div id="lb-2" class="lightbox-overlay"><a href="#" class="lb-close">&#10005;</a><img src="https://media04.meine-news.de/article/2026/07/03/7/2158867_L.webp" alt="Polizeieinsatz Main-Spessart"></div>
+<div id="lb-3" class="lightbox-overlay"><a href="#" class="lb-close">&#10005;</a><img src="https://media04.meine-news.de/article/2026/07/03/0/2158870_L.webp" alt="Baustelle B469"></div>
+<div id="lb-4" class="lightbox-overlay"><a href="#" class="lb-close">&#10005;</a><img src="https://www.main-echo.de/storage/image/0/9/2/1/6851290_original2560_1GhZJH_n7HYlb.jpg" alt="Klinikums-Neubau Lohr"></div>
+<div id="lb-5" class="lightbox-overlay"><a href="#" class="lb-close">&#10005;</a><img src="https://www.main-echo.de/storage/image/8/6/9/0/6850968_original2560_1GhUp5_OCV3uF.jpg" alt="Schafschur Rothenfels"></div>
+<div id="lb-6" class="lightbox-overlay"><a href="#" class="lb-close">&#10005;</a><img src="https://www.main-echo.de/storage/image/0/5/0/1/6851050_original2560_1GhV_y_cZRJZL.jpg" alt="Scherenburgfestspiele"></div>
+<div id="lb-7" class="lightbox-overlay"><a href="#" class="lb-close">&#10005;</a><img src="https://www.main-echo.de/storage/image/5/3/1/1/6851135_original2560_1GhXn__t9K4jN.jpg" alt="Ruth Radecker Kammerchor Lohr"></div>
+<div id="lb-8" class="lightbox-overlay"><a href="#" class="lb-close">&#10005;</a><img src="https://www.main-echo.de/storage/image/3/2/0/1/6851023_loh2906loh-festwoche_original2560_1GhV9n_WNu0tS.jpg" alt="Lohrer Spessartfestwoche"></div>
+<div id="lb-9" class="lightbox-overlay"><a href="#" class="lb-close">&#10005;</a><img src="https://www.main-echo.de/storage/image/4/7/4/8/6308474_original2560_1DoHwP_WJEFXS.jpg" alt="Alemannia Haibach"></div>
 
 <footer>
   <div class="footer-inner">
-    <p><strong>Aktualisierung:</strong> Donnerstag, 3. Juli 2026 &nbsp;&#183;&nbsp; 06:00 Uhr CEST</p>
+    <p><strong>Aktualisierung:</strong> Samstag, 4. Juli 2026 &nbsp;&#183;&nbsp; 06:00 Uhr CEST</p>
     <p style="margin-top:0.4rem;"><strong>Impressum:</strong> Coding der Seite erstellt/&#252;berwacht von Michael Bergfeld &nbsp;&#183;&nbsp; E-Mail: <a href="mailto:info@domezos-ware.de">info@domezos-ware.de</a></p>
     <p style="margin-top:0.3rem;"><em>Alle Angaben ohne Gew&#228;hr. Die Inhalte dieser Seite basieren auf den verlinkten Quellen und sind auf diese zur&#252;ckzuf&#252;hren. F&#252;r die Richtigkeit, Vollst&#228;ndigkeit und Aktualit&#228;t der Informationen wird keine Haftung &#252;bernommen.</em></p>
     <div class="sources">
