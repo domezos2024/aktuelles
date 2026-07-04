@@ -1,19 +1,40 @@
 # Tagesnachrichten-Journal – domezos2024/aktuelles
 
-## Design – 2026-07-03 – 06:00 Uhr CEST
-- Schema: Atlantik-Blau & Meeresgrün (Sommertag-Edition)
-- Header-Gradient: #0D47A1 → #1565C0 → #0097A7 → #00796B (Kobaltblau → Ozeanblau → Teal → Smaragd)
-- Hintergrund: #E8F4F8
-- Karten: #FFFFFF, border #C5DCE8
-- Akzentfarben: #0D47A1 · #1565C0 · #0097A7 · #00796B · #00BCD4 · #D32F2F · #2E7D32 · #6A1B9A · #AD1457 · #E65100
-- Layout: grid-3col (responsive 2col / 1col mobil)
-- Fonts: 'Trebuchet MS' 'Lucida Grande' 'Lucida Sans Unicode' Arial sans-serif (gesamt)
+## Design – 2026-07-04 – 06:00 Uhr CEST
+- Schema: Sonnenglut & Kornfeld (Hochsommer-Ausgabe)
+- Header-Gradient: #B71C1C → #D84315 → #EF6C00 → #FBC02D (Karminrot → Ziegelorange → Bernstein → Gold)
+- Hintergrund: #FFF8E1
+- Karten: #FFFFFF, border #FFE0B2
+- Akzentfarben: #C62828 · #4527A0 · #00695C · #EF6C00 · #AD1457 · #6A1B9A · #2E7D32 · #37474F · #00838F · #558B2F · #F9A825
+- Layout: grid-2col (responsive 1col mobil)
+- Fonts: Georgia/Cambria/Times New Roman serif (Headlines) · Verdana/Segoe UI/Arial sans-serif (Fließtext)
 
 ---
 
 ## Themen-Archiv (letzte 10 Tage – NICHT wiederholen!)
 
-### 2026-07-03 (Ausgabe – 06:00 Uhr CEST) ← heute, neu hinzugefügt
+### 2026-07-04 (Ausgabe – 06:00 Uhr CEST) ← heute, neu hinzugefügt
+- Traktor-Unfall-Kleinostheim-9-Jähriger-Fendt-67-Jähriger-verletzt | https://aschaffenburg.news/ab/kleinostheim/kleinostheim/kleinostheim-neunjähriger-verursacht-unfall-mit-traktor.html | blaulicht | kleinostheim
+- Schulwegunfall-Aschaffenburg-12-Jähriger-Tretroller-BMW-Fahrerflucht | https://aschaffenburg.news/ab/aschaffenburg/stadtmitte/aschaffenburg-zwölfjähriger-nach-verkehrsunfall-leicht-verletzt.html | blaulicht | aschaffenburg
+- Einbrecher-Wasserlos-Alzenau-Hausdach-Kellertür-aufgebrochen-Flucht | https://www.meine-news.de/landkreis-aschaffenburg/c-blaulicht/raum-aschaffenburg-zwoelfjaehriger-nach-verkehrsunfall-leicht-verletzt-einbrecher-auf-frischer-tat-ueberrascht-neunjaehriger-verursacht-unfall-mit-traktor-unfallflucht-kraftfahrzeugrennen_a238642 | blaulicht | wasserlos-alzenau
+- Illegales-Kfz-Rennen-A3-Aschaffenburg-Nürnberg-Motorradfahrer-Standstreifen | https://www.meine-news.de/landkreis-aschaffenburg/c-blaulicht/raum-aschaffenburg-zwoelfjaehriger-nach-verkehrsunfall-leicht-verletzt-einbrecher-auf-frischer-tat-ueberrascht-neunjaehriger-verursacht-unfall-mit-traktor-unfallflucht-kraftfahrzeugrennen_a238642 | blaulicht | a3-aschaffenburg
+- Faustschlag-Zellingen-Streit-Autofahrer-Opel-Astra-Grünlicht | https://aschaffenburg.news/main-spessart/zellingen-auseinandersetzung-zwischen-pkw-fahrern.html | blaulicht | zellingen-main-spessart
+- Kupferkabel-Diebstahl-Markt-Retzbach-Baustelle-25-Meter | https://www.meine-news.de/landkreis-main-spessart/c-blaulicht/main-spessart-auseinandersetzung-zwischen-pkw-fahrern-kupferkabel-entwendet-unfallflucht_a238648 | blaulicht | retzbach-main-spessart
+- E-Scooter-Diebstahl-Lohr-Vorstadtstraße-300Euro | https://www.meine-news.de/landkreis-main-spessart/c-blaulicht/main-spessart-auseinandersetzung-zwischen-pkw-fahrern-kupferkabel-entwendet-unfallflucht_a238648 | blaulicht | lohr
+- Auto-zerkratzt-Marktheidenfeld-Ludwigstraße-Toyota-Yaris-3000Euro | https://www.meine-news.de/landkreis-main-spessart/c-blaulicht/main-spessart-auseinandersetzung-zwischen-pkw-fahrern-kupferkabel-entwendet-unfallflucht_a238648 | blaulicht | marktheidenfeld-main-spessart
+- Wohnraumverdichtung-Untermain-Fachveranstaltung-Landratsamt-Aschaffenburg-Regionaler-Planungsverband | https://aschaffenburg.news/aktuelles/untermain-fachveranstaltung-des-regionalen-planungsverbands-zur-wohnraumverdichtungb.html | politik | landratsamt-aschaffenburg
+- Aschaffenburg-Perth-70-Jahre-Städtepartnerschaft-Theaterplatz-18-Juli | https://aschaffenburg.news/ab/aschaffenburg/aschaffenburg/aschaffenburg-70-jahre-städtepartnerschaft-mit-perth.html | gesellschaft | aschaffenburg
+- Bornavirus-Bayern-Gerlach-fünf-Fälle-2026-Infektionsrisiko-gering | https://aschaffenburg.news/politik/infektionsrisiko-beim-bornavirus-trotz-leichten-anstiegs-der-fälle-weiterhin-gering.html | gesundheit | bayern
+- B469-Stockstadt-Großostheim-Fahrbahnsanierung-6-bis-10-Juli-Tempolimit | https://www.meine-news.de/landkreis-aschaffenburg/c-blaulicht/b-469-anschlussstelle-stockstadt-nord-anschlussstelle-grossostheim-verkehrsbeschraenkungen-infolge-von-fahrbahninstandhaltung_a238651 | verkehr | stockstadt-grossostheim
+- Klinikums-Neubau-Lohr-220-Lärchen-Fassade-Stadtwald | https://www.main-echo.de/region/kreis-main-spessart/nur-die-besten-fuers-klinikum-art-8745601 | wirtschaft | lohr
+- Schafschur-Rothenfels-Wollvermarktung-Naturprodukt-Erlöse | https://www.main-echo.de/region/kreis-main-spessart/wohin-mit-der-wolle-art-8745309 | umwelt | rothenfels-main-spessart
+- Scherenburgfestspiele-Gemünden-36-Saison-Kleine-Hexe-Preußler | https://www.main-echo.de/region/kreis-main-spessart/kleine-hexe-begeistert-auf-der-scherenburg-art-8745397 | kultur | gemünden-main-spessart
+- Ruth-Radecker-VHS-Kammerchor-Lohr-30-Jahre-Dirigentin-Jubiläum | https://www.main-echo.de/region/kreis-main-spessart/ruth-radecker-dirigiert-seit-30-jahren-den-vhs-kammerchor-lohr-art-8745448 | kultur | lohr
+- Spessartfestwoche-Lohr-Besucherschub-fünfte-Jahreszeit-Bierzelt | https://www.main-echo.de/region/kreis-main-spessart/geben-zwei-aktionstage-der-lohrer-festwoche-einen-besucherschub-art-8745297 | kultur | lohr
+- Alemannia-Haibach-Landesliga-Nordwest-Diaconu-Sieg-Neuhütten-Wiesthal | https://www.main-echo.de/sport/fussball/franken/landesliga-nordwest/viel-zu-chaotisch-haibach-und-die-gratwanderung-art-8745442 | sport | haibach-lkr-aschaffenburg
+- Bewegung-im-Park-Aschaffenburg-1-August-Yoga-Fitness-Gesundheitsmanagement | https://aschaffenburg.news/ab/aschaffenburg/aschaffenburg/aschaffenburg-bewegung-im-park-ab-1-august.html | freizeit | aschaffenburg
+
+### 2026-07-03 (Ausgabe – 06:00 Uhr CEST)
 - Feuerwehr-Dauereinsatz-Aschaffenburg-Landkreis-Unwetter-100-Einsätze-Haibach-Akku-Brand | https://www.main-echo.de/ressorts/blaulicht/feuerwehren-im-landkreis-aschaffenburg-weiter-im-dauereinsatz-nach-unwettern-art-8744596 | blaulicht | lkr-aschaffenburg
 - Auffahrunfall-A45-Stau-Berufsverkehr-Aschaffenburg | https://www.main-echo.de/ressorts/blaulicht/stau-auf-a45-am-freitagmorgen-art-8745218 | blaulicht | aschaffenburg
 - Auffahrunfall-A3-Goldbach-Stau-Richtung-Würzburg | https://www.main-echo.de/ressorts/blaulicht/unfall-auf-der-a3-bei-goldbach-in-fahrtrichtung-wuerzburg-art-8744827 | blaulicht | goldbach-lkr-aschaffenburg
