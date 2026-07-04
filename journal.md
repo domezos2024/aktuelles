@@ -1,19 +1,36 @@
 # Tagesnachrichten-Journal – domezos2024/aktuelles
 
 ## Design – 2026-07-04 – 06:00 Uhr CEST
-- Schema: Sonnenglut & Kornfeld (Hochsommer-Ausgabe)
-- Header-Gradient: #B71C1C → #D84315 → #EF6C00 → #FBC02D (Karminrot → Ziegelorange → Bernstein → Gold)
-- Hintergrund: #FFF8E1
-- Karten: #FFFFFF, border #FFE0B2
-- Akzentfarben: #C62828 · #4527A0 · #00695C · #EF6C00 · #AD1457 · #6A1B9A · #2E7D32 · #37474F · #00838F · #558B2F · #F9A825
-- Layout: grid-2col (responsive 1col mobil)
-- Fonts: Georgia/Cambria/Times New Roman serif (Headlines) · Verdana/Segoe UI/Arial sans-serif (Fließtext)
+- Schema: Spessart-Nacht (Nachtblau/Teal-Ausgabe)
+- Header-Gradient: #0a3d5c → #0d5e7a → #117a6f → #1a9e7c (Nachtblau → Dunkelblaugrün → Waldgrün → Teal)
+- Hintergrund: #0d1b2a
+- Karten: #102535, border #1a4a60
+- Akzentfarben: #4dd0e1 · #80deea · #b2ebf2 · #e0f7fa · #b71c1c · #4a148c · #006064 · #880e4f · #1a237e · #37474f · #bf360c
+- Layout: grid-3col (responsive 2col/1col mobil)
+- Fonts: Segoe UI/Ubuntu/Roboto/Arial sans-serif (Headlines + Fließtext)
 
 ---
 
 ## Themen-Archiv (letzte 10 Tage – NICHT wiederholen!)
 
 ### 2026-07-04 (Ausgabe – 06:00 Uhr CEST) ← heute, neu hinzugefügt
+- SEK-Einsatz-Aschaffenburg-Damm-Haidstraße-55-Jähriger-42-Jährige-Ukrainerin-Messerangriff-tot | https://aschaffenburg.news/ab/aschaffenburg/damm/sek-einsatz-in-aschaffenburg-messerstecher-tot-in-wohnung-aufgefunden.html | blaulicht | aschaffenburg
+- Badeunfall-Kahler-Badesee-40-Jähriger-Rumäne-Wasserwacht-Taucher-verstorben | https://aschaffenburg.news/ab/kahl-am-main/aktuelles/badeunfall-am-kahler-badesee-40-jähriger-verstorben.html | blaulicht | kahl-am-main
+- Brand-Schimborn-Mömbris-Mann-Hund-Schwellbrand-Küche-Rauchentwicklung-gestorben | https://aschaffenburg.news/ab/markt-mömbris/schimborn/mömbris-mann-und-hund-sterben-bei-brand-in-schimborn.html | blaulicht | mömbris-schimborn
+- Heigenbrücken-Motorradfahrerin-28-lebensgefährlich-BMW-Fahrer-25-illegales-Autorennen-St2317 | https://aschaffenburg.news/ab/heigenbrücken/heigenbrücken-28-jährige-lebensgefährlich-verletzt-–-ermittlungen-wegen-illegalem-autorennen.html | blaulicht | heigenbrücken-lkr-aschaffenburg
+- Kellerbrand-Aschaffenburg-Schweinheim-Mitscherlichweg-Kleinkinder-Leitern-Rauchgasvergiftung | https://aschaffenburg.news/ab/aschaffenburg/schweinheim/aschaffenburg-massiver-kellerbrand-anwohner,-darunter-auch-kleinkinder-über-leitern-gerettet.html | blaulicht | aschaffenburg-schweinheim
+- Kleinostheim-vermisster-20-Jähriger-leblos-aufgefunden-Kripo-kein-Fremdverschulden | https://aschaffenburg.news/ab/kleinostheim/kleinostheim/kleinostheim-vermisster-20-jähriger-leblos-aufgefunden.html | blaulicht | kleinostheim
+- A3-Bessenbach-Sattelzug-Mittelabtrennung-Betonleitplanke-sechsstelliger-Schaden-Autokran | https://aschaffenburg.news/ab/bessenbach/bessenbach/bessenbach-sattelzug-landet-nach-unfall-auf-der-a3-auf-der-mittelabtrennung.html | blaulicht | bessenbach-a3
+- Großostheim-Friedensstraße-Akku-Verpuffung-Mauerteile-Gehweg-Einsturzgefahr-Kripo | https://aschaffenburg.news/ab/markt-großostheim/großostheim/großostheim-defekter-akku-setzt-wohnhausanbau-in-brand.html | blaulicht | großostheim-lkr-aschaffenburg
+- Johannesberg-Kinder-60-goldene-Ringe-Wald-Einmachglas-Kripo-Besitzer-gesucht | https://aschaffenburg.news/ab/johannesberg/johannesberg-kinder-finden-über-60-goldene-ringe-im-wald.html | gesellschaft | johannesberg-lkr-aschaffenburg
+- Reanimationstraining-Aschaffenburg-39-Orte-4-Juli-Frauen-Gesundheitsregion-plus | https://aschaffenburg.news/ab/aschaffenburg/aschaffenburg/aschaffenburg-kostenlose-reanimationstrainings-mit-schwerpunkt-auf-der-reanimation-von-frauen.html | gesundheit | aschaffenburg
+- Peggy-Spatz-Malteser-Aschaffenburg-25-Jahre-Notfallsanitäterin-Jubiläum-PSNV | https://aschaffenburg.news/ab/aschaffenburg/aschaffenburg/aschaffenburg-notfallsanitäterin-mit-herz.html | gesellschaft | aschaffenburg
+- Pallottinerpater-Bernhard-Pieler-96-Kälberau-Alzenau-Wallfahrtsseelsorge-gestorben | https://aschaffenburg.news/ab/alzenau/kälberau/alzenau-pallottinerpater-bernhard-pieler-gestorben.html | gesellschaft | kälberau-alzenau
+- CSU-Bezirksparteitag-Unterfranken-Söder-11-Juli-Dettelbach-Kitzingen-145-Delegierte | https://aschaffenburg.news/politik/parteivorsitzender-dr-markus-söder-beim-bezirksparteitag-der-csu-unterfranken.html | politik | unterfranken
+- HPV-Impfwoche-8-Bayern-Gerlach-Gebärmutterhalskrebs-Papillomviren-Vorsorge-3-Juli | https://aschaffenburg.news/politik/gerlach-wirbt-für-hpv-impfungen.html | gesundheit | bayern
+- Waldaschaff-Kunstrasenplatz-517500-Euro-Bund-Lindholz-Sanierung-Sportstaetten | https://aschaffenburg.news/ab/waldaschaff/waldaschaff-517-500-euro-vom-bund-für-kunstrasenplatz.html | sport | waldaschaff-lkr-aschaffenburg
+
+### 2026-07-04 (Ausgabe – 06:00 Uhr CEST)
 - Traktor-Unfall-Kleinostheim-9-Jähriger-Fendt-67-Jähriger-verletzt | https://aschaffenburg.news/ab/kleinostheim/kleinostheim/kleinostheim-neunjähriger-verursacht-unfall-mit-traktor.html | blaulicht | kleinostheim
 - Schulwegunfall-Aschaffenburg-12-Jähriger-Tretroller-BMW-Fahrerflucht | https://aschaffenburg.news/ab/aschaffenburg/stadtmitte/aschaffenburg-zwölfjähriger-nach-verkehrsunfall-leicht-verletzt.html | blaulicht | aschaffenburg
 - Einbrecher-Wasserlos-Alzenau-Hausdach-Kellertür-aufgebrochen-Flucht | https://www.meine-news.de/landkreis-aschaffenburg/c-blaulicht/raum-aschaffenburg-zwoelfjaehriger-nach-verkehrsunfall-leicht-verletzt-einbrecher-auf-frischer-tat-ueberrascht-neunjaehriger-verursacht-unfall-mit-traktor-unfallflucht-kraftfahrzeugrennen_a238642 | blaulicht | wasserlos-alzenau
@@ -155,38 +172,4 @@
 - Landradtstour-33 19-September Karbach-Kreuzwertheim 60km Main-Spessart Anmeldung-ab-20-Juli | https://www.main-spessart.de/aktuelles/pressemitteilungen/11098.Jetzt-vormerken-Landradtstour-am-19.-September-2026--Entlang-des-Mains-ueber-Bruecken-und-Grenzen.html | freizeit | lkr-main-spessart
 - Gesundheitswarnung-Fernreisen Bayern Gerlach reisemedizinische-Vorsorge Tropenkrankheiten Sommer | https://aschaffenburg.news/politik/vor-fernreisen-rechtzeitig-%C3%BCber-gesundheitsrisiken-informieren.html | gesundheit | bayern
 - Herrmann Verkehrssicherheit-Bayern Kontrollen Prävention A3-Aschaffenburg Tempoverstöße 2030 | https://aschaffenburg.news/politik/herrmann-setzt-sich-f%C3%BCr-mehr-sicherheit-im-stra%C3%9Fenverkehr-ein.html | politik | bayern
-
-### 2026-06-28 (Ausgabe 2 – 12:05 Uhr CEST)
-- Gasflasche-Balkon Aschaffenburg-Damm Brand Evakuierung Kriminalpolizei-Ermittlung | https://www.main-echo.de/ressorts/blaulicht/ | blaulicht | aschaffenburg
-- Sulzbach Skoda Radweg 19-Jähriger ohne Führerschein Alkohol Baum-Unfall Kreisklinik | https://www.main-echo.de/region/stadt-kreis-aschaffenburg/ | blaulicht | lkr-aschaffenburg
-- Waldbrandgefahr Bayern Stufe-5 DWD Spessart Unterfranken Drohnenpatrouille StMI | https://www.stmi.bayern.de/ | klima | spessart
-- Waldbrandübung Gemünden zehn-Feuerwehren 180-Kräfte Schlauchstrecken Spessart | https://www.main-echo.de/region/kreis-main-spessart/ | feuerwehr | gemünden
-- Erthal-Gymnasium Lohr Abitur 82-Absolventen Stadthalle Jahrgang-2026 | https://www.main-echo.de/region/kreis-main-spessart/ | bildung | lohr
-- Friedrich-List-Gymnasium Gemünden Abitur 68-Absolventen Kulturforum Jahrgang-2026 | https://www.main-echo.de/region/kreis-main-spessart/ | bildung | gemünden
-- Popchor Frammersbach Sommerserenade Abschied Vollmuth 14-Jahre Dirigent Marktplatz | https://www.meine-news.de/frammersbach/ | kultur | frammersbach
-- Sound-of-Summer Alzenau-Michelbach Rosengarten 1000-Besucher Open-Air Gratiskonzert | https://aschaffenburg.news/ | kultur | alzenau
-- Denk-mal-Rad-mal Laufach Heigenbrücken LEADER Themenradrouten QR-Codes Tourismus | https://www.meine-news.de/laufach/ | freizeit | lkr-aschaffenburg
-- Bodenrichtwerte-2026 Aschaffenburg Gutachterausschuss stabil 2-4-Prozent-Steigerung | https://aschaffenburg.news/ | wirtschaft | aschaffenburg
-- Stadtkapelle-Gemünden Sommernachtskonzert Schlossgarten 600-Besucher 125-Jahre-Bestehen | https://www.main-echo.de/region/kreis-main-spessart/ | kultur | gemünden
-- ÖPNV-digital Goldbach Infoabend-30-Juni Echtzeit-Tracking Buslinien App Herbst-2026 | https://aschaffenburg.news/ab/goldbach/ | verkehr | goldbach
-- Temposünder-Bayern eine-Million Verkehrsüberwachung-2025 A3-Aschaffenburg Herrmann | https://www.infranken.de/lk/main-spessart/ | polizei | bayern
-- Drüsenameise Lasius-fuliginosus Aschaffenburg-Leider Ausbreitung Bekämpfung Umweltamt | https://aschaffenburg.news/ab/aschaffenburg/ | gesellschaft | aschaffenburg
-- Peter-und-Paul-Hochfest 29-Juni Apostel Dom-Aschaffenburg Pontifikalamt Bauernregel | https://www.bistum-wuerzburg.de/ | kirchlich | regional
-
-### 2026-06-28 (Ausgabe 1 – 06:25 Uhr CEST)
-- Anneliese-Michel 50-Todestag Klingenberg Exorzismus Pilgerort Hollywood-Film 1-Juli-1976 | https://www.main-echo.de/region/kreis-main-spessart/ | kultur | miltenberg
-- Aquaphobie-Festival 10-Jahre-Jubiläum Erlenbach-am-Main Open-Air Mainufer Musik Bands | https://www.meine-news.de/erlenbach-amain/ | kultur | erlenbach
-- WM-2026-Deutschland-Paraguay Gruppenphase Public-Viewing Volksfest-Aschaffenburg Nagelsmann | https://www.sportschau.de/fussball/fifa-wm-2026/ | sport | national
-- TC-Blankenbach Padel-Platz-Eröffnung Trendsport Glasfeld Kurse Lkr-Aschaffenburg | https://aschaffenburg.news/ | sport | blankenbach
-- Bezirkstagspräsident-Dotzel krankes-System Krankenhausreform Eingliederungshilfe Unterfranken | https://www.infranken.de/lk/main-spessart/ | politik | unterfranken
-- Lohr-Bahnhof Hostel-Umbau Reisende-Pendler Baugenehmigung Eröffnung-Sommer-2026 | https://www.main-echo.de/region/kreis-main-spessart/ | gesellschaft | lohr
-- Kahl-am-Main Audi-Opel-Kreuzungscrash drei-Verletzte Vorfahrt-Missachtung Abschleppdienst | https://www.main-echo.de/ressorts/blaulicht/ | blaulicht | kahl
-- Glascontainer-Südspessart Abbau Zweckverband Miltenberg Anwohner-Protest Recycling | https://www.main-echo.de/region/kreis-main-spessart/ | gesellschaft | miltenberg
-- Benefiz-Rudelsingen Aschaffenburg Innenstadt sozialer-Zweck Gesang Gemeinschaft | https://www.meine-news.de/aschaffenburg/ | kultur | aschaffenburg
-- Zollämter-schließen 1-Juli Strukturreform Bundesfinanzdirektion Hauptzollamt-Schweinfurt IHK | https://www.main-echo.de/region/stadt-kreis-aschaffenburg/ | verwaltung | regional
-- Maintalhof-Erlach Sommerführung Biobauernhof Permakultur Alte-Rassen Kinder-Familien | https://www.meine-news.de/landkreis-main-spessart/ | natur | erlach
-- Ringstraße-Aschaffenburg Nachtbaustelle Vollsperrung Asphalt-Erneuerung Juli-2026 | https://aschaffenburg.news/ab/aschaffenburg/aschaffenburg/ | verkehr | aschaffenburg
-- Buslinie-9-Aschaffenburg Umleitung Glattbach Straßenbau zwei-Wochen Ersatzhaltestellen | https://aschaffenburg.news/ab/glattbach/glattbach/ | verkehr | aschaffenburg
-- Glauber-Bayern KommKlimaFöR Hitzeschutz-Kommunen Trinkbrunnen Begrünung Förderantrag | https://aschaffenburg.news/politik/ | umwelt | bayern
-- Kupferdiebe-Laufach-Hain Festnahme frische-Tat Baustromverteiler Kupferkabel Einbruchswerkzeug | https://aschaffenburg.news/ab/ | blaulicht | laufach
 
