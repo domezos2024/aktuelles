@@ -1,19 +1,37 @@
 # Tagesnachrichten-Journal – domezos2024/aktuelles
 
-## Design – 2026-07-04 – 06:00 Uhr CEST
-- Schema: Spessart-Nacht (Nachtblau/Teal-Ausgabe)
-- Header-Gradient: #0a3d5c → #0d5e7a → #117a6f → #1a9e7c (Nachtblau → Dunkelblaugrün → Waldgrün → Teal)
-- Hintergrund: #0d1b2a
-- Karten: #102535, border #1a4a60
-- Akzentfarben: #4dd0e1 · #80deea · #b2ebf2 · #e0f7fa · #b71c1c · #4a148c · #006064 · #880e4f · #1a237e · #37474f · #bf360c
-- Layout: grid-3col (responsive 2col/1col mobil)
-- Fonts: Segoe UI/Ubuntu/Roboto/Arial sans-serif (Headlines + Fließtext)
+## Design – 2026-07-05 – 06:30 Uhr CEST
+- Schema: Sommerglut am Main (warmes Hochsommer-Design, helles Layout)
+- Header-Gradient: #7f1d0a → #bf360c → #e65100 → #f57f17 → #ffb300 (Kastanienbraun → Ziegelrot → Orange → Bernstein → Gold)
+- Hintergrund: #fff8e1 (helles Creme, Tagesdesign statt Dunkelmodus)
+- Karten: #ffffff, border #ffcc80, linker Akzentrand #e65100
+- Akzentfarben: #c62828 · #1565c0 · #6a1b9a · #ad1457 · #00695c · #d84315 · #4527a0 · #f9a825 · #558b2f · #37474f
+- Layout: card-stream (einspaltiger Kartenfluss, Bilder rechts oben eingebettet)
+- Fonts: Georgia/Times New Roman serif (Headlines) + Verdana/Tahoma sans-serif (Fließtext)
 
 ---
 
 ## Themen-Archiv (letzte 10 Tage – NICHT wiederholen!)
 
-### 2026-07-04 (Ausgabe – 06:00 Uhr CEST) ← heute, neu hinzugefügt
+### 2026-07-05 (Ausgabe – 06:30 Uhr CEST) ← heute, neu hinzugefügt
+- Wiesen-Motorradunfall-70-Jähriger-Staatsstraße2305-Frontalkollision-Frammersbach-tödlich | https://www.meine-news.de/wiesen/c-blaulicht/wiesen-toedlicher-verkehrsunfall-auf-staatsstrasse-70-jaehriger-motorradfahrer-verstorben_a238696 | blaulicht | wiesen-lkr-aschaffenburg
+- Leidersbach-Kirchenmauer-62-Jähriger-2,1-Promille-Marienplatz-Sachschaden | https://www.main-echo.de/ressorts/blaulicht/alkoholisierter-fahrer-prallt-gegen-kirchenmauer-in-leidersbach-art-8745327 | blaulicht | leidersbach-lkr-miltenberg
+- Shishakohle-Feuerwehreinsatz-Lohr-Asylunterkunft-Rauchmelder-Fehlalarm | https://www.main-echo.de/ressorts/blaulicht/shishakohle-loest-feuerwehreinsatz-in-lohr-aus-art-8745821 | blaulicht | lohr
+- E-Call-Notruf-Lohr-Lindig-Feuerwehr-19-Einsatzkräfte-Fahrzeugsuche-Beilsteinweg | https://www.main-echo.de/ressorts/blaulicht/e-call-feuerwehr-sucht-verungluecktes-fahrzeug-in-lohr-lindig-art-8745440 | blaulicht | lohr-lindig
+- Wohnhauseinbruch-Obernburg-Untere-Gasse-Terrassentür-Zeugenaufruf | https://www.main-echo.de/ressorts/blaulicht/wohnhauseinbruch-in-obernburg-zeugen-gesucht-art-8745326 | blaulicht | obernburg-lkr-miltenberg
+- Tatort-Wiesenfeld-Mordfall-Sabine-B-32-Jahre-Wiederaufnahmeprozess-Zeugen-BGH | https://www.main-echo.de/region/kreis-main-spessart/tatort-wiesenfeld-gericht-hoert-weiter-zeugen-an-art-8745436 | justiz | karlstadt-wiesenfeld-main-spessart
+- Gerlach-KI-Medizin-Hartmannbund-Würzburg-Landesdelegiertenversammlung | https://www.nachrichten-heute.net/1698655-gerlach-fordert-mehr-kuenstliche-intelligenz-in-der-medizin.html | politik | würzburg-unterfranken
+- Gerlach-telefonische-Krankschreibung-Kritik-Koalition-Antenne-Bayern | https://www.main-echo.de/region/franken-bayern/gerlach-kritisiert-aus-fuer-telefonische-krankschreibung-art-8745537 | politik | aschaffenburg-bayern
+- Nöthigsgut-Großostheim-Fäulnis-Pilzbefall-Sanierung-Marktgemeinderat | https://www.main-echo.de/region/stadt-kreis-aschaffenburg/faeulnis-pilz-und-insektenbefall-wo-grossostheims-noethigsgut-total-marode-ist-art-8745418 | politik | großostheim
+- Tollwut-Fledermäuse-Haibach-Lyssavirus1-erste-Fälle-Lkr-Aschaffenburg | https://aschaffenburg.news/ab/aschaffenburg/aschaffenburg/aschaffenburg-tollwut-bei-flederm%C3%A4usen-nachgewiesen.html | gesundheit | haibach-lkr-aschaffenburg
+- Kippenburgfest-58-Aschaffenburg-Schlemmer-Ozapft-is-Godelsberg | https://www.main-echo.de/region/stadt-kreis-aschaffenburg/ozapft-is-ob-markus-schlemmer-eroeffnet-aschaffenburger-kippenburgfest-art-8745703 | gesellschaft | aschaffenburg
+- Jugendzentrum-Lohr-AWO-Vorstand-komplett-Schwaiger-Jahreshauptversammlung | https://www.main-echo.de/region/kreis-main-spessart/aufatmen-im-lohrer-jugendzentrum-art-8745314 | gesellschaft | lohr
+- Gunter-Ullrich-Preis-Kirchnerhaus-Aschaffenburg-100-Kinder-Kunstpädagogik | https://www.main-echo.de/region/stadt-kreis-aschaffenburg/werke-von-100-kindern-im-aschaffenburger-kirchnerhaus-art-8745435 | kultur | aschaffenburg
+- Kulturtage-27-Aschaffenburg-Damm-125-Jahre-Eingemeindung-Schere-Stein-Papier | https://www.main-echo.de/region/stadt-kreis-aschaffenburg/so-feierte-damm-die-eroeffnung-der-aschaffenburger-kulturtage-art-8745338 | kultur | aschaffenburg-damm
+- ReRide1926-Hortig-Hench-Bürgstadt-TourDeFrance-Nachfahrt-5745km-BIKEAID | https://www.meine-news.de/buergstadt/c-sport/christoph-hench-und-timm-hortig-fahren-die-tour-von-1926-nach_a238552 | sport | bürgstadt-lkr-miltenberg
+- Sommerwanderung-Schönbusch-Oberbessenbach-19km-Wiesenfest-19-Juli-SpessartEcho | https://www.meine-news.de/aschaffenburg/c-vereine/sommerwanderung-zum-wiesenfest-am-sonntag-19-juli_a238708 | freizeit | aschaffenburg-oberbessenbach
+
+### 2026-07-04 (Ausgabe – 06:00 Uhr CEST)
 - SEK-Einsatz-Aschaffenburg-Damm-Haidstraße-55-Jähriger-42-Jährige-Ukrainerin-Messerangriff-tot | https://aschaffenburg.news/ab/aschaffenburg/damm/sek-einsatz-in-aschaffenburg-messerstecher-tot-in-wohnung-aufgefunden.html | blaulicht | aschaffenburg
 - Badeunfall-Kahler-Badesee-40-Jähriger-Rumäne-Wasserwacht-Taucher-verstorben | https://aschaffenburg.news/ab/kahl-am-main/aktuelles/badeunfall-am-kahler-badesee-40-jähriger-verstorben.html | blaulicht | kahl-am-main
 - Brand-Schimborn-Mömbris-Mann-Hund-Schwellbrand-Küche-Rauchentwicklung-gestorben | https://aschaffenburg.news/ab/markt-mömbris/schimborn/mömbris-mann-und-hund-sterben-bei-brand-in-schimborn.html | blaulicht | mömbris-schimborn
