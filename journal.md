@@ -1,19 +1,36 @@
 # Tagesnachrichten-Journal – domezos2024/aktuelles
 
-## Design – 2026-07-05 – 06:30 Uhr CEST
-- Schema: Sommerglut am Main (warmes Hochsommer-Design, helles Layout)
-- Header-Gradient: #7f1d0a → #bf360c → #e65100 → #f57f17 → #ffb300 (Kastanienbraun → Ziegelrot → Orange → Bernstein → Gold)
-- Hintergrund: #fff8e1 (helles Creme, Tagesdesign statt Dunkelmodus)
-- Karten: #ffffff, border #ffcc80, linker Akzentrand #e65100
-- Akzentfarben: #c62828 · #1565c0 · #6a1b9a · #ad1457 · #00695c · #d84315 · #4527a0 · #f9a825 · #558b2f · #37474f
-- Layout: card-stream (einspaltiger Kartenfluss, Bilder rechts oben eingebettet)
-- Fonts: Georgia/Times New Roman serif (Headlines) + Verdana/Tahoma sans-serif (Fließtext)
+## Design – 2026-07-05 – 08:00 Uhr CEST
+- Schema: Spessart-Blau (kühles, frisches Blaugrün-Design)
+- Header-Gradient: #003366 → #005599 → #0077bb → #00a0c0 → #00bcd4 (Nachtblau → Mittelblau → Himmelblau → Türkis → Cyan)
+- Hintergrund: #ddeef7 (helles Eisblau)
+- Karten: #ffffff, border #b8d8ee, akzentränder je nach Position (rot/blaugrün/grün/braun)
+- Akzentfarben: #b81000 · #5c1090 · #1a237e · #1b5520 · #014476 · #880e4f · #c84a00 · #5a1490 · #2e6e30 · #005c50
+- Layout: card-stream (einspaltiger Kartenfluss, Bilder rechts eingebettet)
+- Fonts: Segoe UI / Roboto / Helvetica Neue / Arial (moderne serifenlose Schriften)
 
 ---
 
 ## Themen-Archiv (letzte 10 Tage – NICHT wiederholen!)
 
-### 2026-07-05 (Ausgabe – 06:30 Uhr CEST) ← heute, neu hinzugefügt
+### 2026-07-05 (Ausgabe – 08:00 Uhr CEST) ← heute, neu hinzugefügt
+- Streit-Ampel-Zellingen-33-Jähriger-Faustschlag-Staatsstraße2300-Würzburger-Straße | https://www.main-echo.de/ressorts/blaulicht/streit-an-ampel-in-zellingen-33-jaehriger-verletzt-art-8745328 | blaulicht | zellingen-main-spessart
+- Motorradfahrer-A3-Aschaffenburg-illegalem-Rennen-Standstreifen-Überholen-Verkehrspolizei | https://www.main-echo.de/ressorts/blaulicht/zeugen-gesucht-rasante-motorradfahrer-auf-der-a3-bei-aschaffenburg-art-8745335 | blaulicht | a3-aschaffenburg
+- Messerattacke-Gemündener-Bahnhof-frühere-Freundin-Zeugenaussage-Tatwaffe-Motiv-offen | https://www.main-echo.de/region/kreis-main-spessart/messerattacke-am-gemuendener-bahnhof-fruehere-freundin-macht-neue-angaben-zur-mutmasslichen-tatwaffe-motiv-bleibt-offen-art-8745514 | justiz | gemünden-main-spessart
+- Neues-Logo-Main-Spessart-Corporate-Design-Debatte-Kosten | https://www.main-echo.de/region/kreis-main-spessart/neues-logo-fuer-viel-geld-ist-doch-logo-oder-was-hat-sich-der-main-spessart-kreis-da-geleistet-art-8745927 | politik | lkr-main-spessart
+- Kulturpreis-Kommz-Aschaffenburg-Parade-Mini-Festival-Kommunikationszentrum | https://www.main-echo.de/region/stadt-kreis-aschaffenburg/kulturpreis-fuers-kommz-mini-festival-und-parade-art-8745885 | kultur | aschaffenburg
+- SanLucar-Ladies-Open-ITF-Tennis-Schönbusch-Aschaffenburg-Kulissen | https://www.main-echo.de/sport/weitere/sanlucar-ladies-open-ein-blick-hinter-die-kulissen-des-itf-turniers-am-schoenbusch-art-8745527 | sport | aschaffenburg-schönbusch
+- Niko-Ilicevic-Eintracht-Aschaffenburg-Vertragsverlängerung-Goldbach | https://www.main-echo.de/sport/fussball/mehr_fussball/samt-geschenk-der-goldbacher-niko-ilicevic-verlaengert-bei-der-eintracht-art-8745457 | sport | goldbach-aschaffenburg
+- Miltenberger-Kreispokal-Faulbach-Elsenfeld-Türk-Miltenberg-Überraschung | https://www.main-echo.de/sport/fussball/mehr_fussball/meisterteams-trumpfen-ganz-gross-auf-art-8745758 | sport | lkr-miltenberg
+- FC-Lohr-U17-Relegation-Aufstieg-verpasst-Junioren-Fußball | https://www.main-echo.de/sport/fussball/junioren/fussballjuniorenmsp/lohrer-u-17-verpasst-den-aufstieg-art-8745751 | sport | lohr
+- Dekanat-Lohr-kirchliche-Einheit-Diözese-Würzburg-Strukturreform | https://www.main-echo.de/region/kreis-main-spessart/dekanat-lohr-geht-in-grosser-einheit-auf-art-8745343 | gesellschaft | lohr-main-spessart
+- Karl-Heinz-Hofmann-VG-Partenstein-neuer-Leiter-Verwaltungsgemeinschaft | https://www.main-echo.de/region/kreis-main-spessart/karl-heinz-hofmann-leitet-vg-partenstein-art-8745282 | politik | partenstein-main-spessart
+- B469-Stockstadt-Großostheim-Einschränkungen-Instandhaltung-Tempolimit | https://www.main-echo.de/region/stadt-kreis-aschaffenburg/einschraenkungen-auf-der-b469-bei-stockstadt-das-muessen-autofahrer-wissen-art-8745353 | verkehr | stockstadt-lkr-aschaffenburg
+- Geisenhöfer-Straße-Aschaffenburg-Königshofen-Baustelle-verschoben | https://www.main-echo.de/region/stadt-kreis-aschaffenburg/geisenhoefer-strasse-baustelle-auf-spaeteren-zeitpunkt-verschoben-art-8745263 | verkehr | aschaffenburg-königshofen
+- Reinhold-Möller-88-Jahre-gestorben-Telearbeit-Gründerservicenetz-Retzbach | https://www.main-echo.de/region/kreis-main-spessart/reinhold-moeller-ist-im-alter-von-88-jahren-gestorben-art-8745308 | gesellschaft | retzbach-main-spessart
+- Juni-2026-Schafskälte-Hitzewelle-Tropentage-Klimarekord-Main-Spessart | https://www.main-echo.de/region/kreis-main-spessart/juni-mit-schafskaelte-und-extremer-hitzewelle-art-8745434 | umwelt | lohr-main-spessart
+
+### 2026-07-05 (Ausgabe – 06:30 Uhr CEST)
 - Wiesen-Motorradunfall-70-Jähriger-Staatsstraße2305-Frontalkollision-Frammersbach-tödlich | https://www.meine-news.de/wiesen/c-blaulicht/wiesen-toedlicher-verkehrsunfall-auf-staatsstrasse-70-jaehriger-motorradfahrer-verstorben_a238696 | blaulicht | wiesen-lkr-aschaffenburg
 - Leidersbach-Kirchenmauer-62-Jähriger-2,1-Promille-Marienplatz-Sachschaden | https://www.main-echo.de/ressorts/blaulicht/alkoholisierter-fahrer-prallt-gegen-kirchenmauer-in-leidersbach-art-8745327 | blaulicht | leidersbach-lkr-miltenberg
 - Shishakohle-Feuerwehreinsatz-Lohr-Asylunterkunft-Rauchmelder-Fehlalarm | https://www.main-echo.de/ressorts/blaulicht/shishakohle-loest-feuerwehreinsatz-in-lohr-aus-art-8745821 | blaulicht | lohr
@@ -23,7 +40,7 @@
 - Gerlach-KI-Medizin-Hartmannbund-Würzburg-Landesdelegiertenversammlung | https://www.nachrichten-heute.net/1698655-gerlach-fordert-mehr-kuenstliche-intelligenz-in-der-medizin.html | politik | würzburg-unterfranken
 - Gerlach-telefonische-Krankschreibung-Kritik-Koalition-Antenne-Bayern | https://www.main-echo.de/region/franken-bayern/gerlach-kritisiert-aus-fuer-telefonische-krankschreibung-art-8745537 | politik | aschaffenburg-bayern
 - Nöthigsgut-Großostheim-Fäulnis-Pilzbefall-Sanierung-Marktgemeinderat | https://www.main-echo.de/region/stadt-kreis-aschaffenburg/faeulnis-pilz-und-insektenbefall-wo-grossostheims-noethigsgut-total-marode-ist-art-8745418 | politik | großostheim
-- Tollwut-Fledermäuse-Haibach-Lyssavirus1-erste-Fälle-Lkr-Aschaffenburg | https://aschaffenburg.news/ab/aschaffenburg/aschaffenburg/aschaffenburg-tollwut-bei-flederm%C3%A4usen-nachgewiesen.html | gesundheit | haibach-lkr-aschaffenburg
+- Tollwut-Fledermäuse-Haibach-Lyssavirus1-erste-Fälle-Lkr-Aschaffenburg | https://aschaffenburg.news/ab/aschaffenburg/aschaffenburg/aschaffenburg-tollwut-bei-fledermäusen-nachgewiesen.html | gesundheit | haibach-lkr-aschaffenburg
 - Kippenburgfest-58-Aschaffenburg-Schlemmer-Ozapft-is-Godelsberg | https://www.main-echo.de/region/stadt-kreis-aschaffenburg/ozapft-is-ob-markus-schlemmer-eroeffnet-aschaffenburger-kippenburgfest-art-8745703 | gesellschaft | aschaffenburg
 - Jugendzentrum-Lohr-AWO-Vorstand-komplett-Schwaiger-Jahreshauptversammlung | https://www.main-echo.de/region/kreis-main-spessart/aufatmen-im-lohrer-jugendzentrum-art-8745314 | gesellschaft | lohr
 - Gunter-Ullrich-Preis-Kirchnerhaus-Aschaffenburg-100-Kinder-Kunstpädagogik | https://www.main-echo.de/region/stadt-kreis-aschaffenburg/werke-von-100-kindern-im-aschaffenburger-kirchnerhaus-art-8745435 | kultur | aschaffenburg
@@ -190,4 +207,3 @@
 - Landradtstour-33 19-September Karbach-Kreuzwertheim 60km Main-Spessart Anmeldung-ab-20-Juli | https://www.main-spessart.de/aktuelles/pressemitteilungen/11098.Jetzt-vormerken-Landradtstour-am-19.-September-2026--Entlang-des-Mains-ueber-Bruecken-und-Grenzen.html | freizeit | lkr-main-spessart
 - Gesundheitswarnung-Fernreisen Bayern Gerlach reisemedizinische-Vorsorge Tropenkrankheiten Sommer | https://aschaffenburg.news/politik/vor-fernreisen-rechtzeitig-%C3%BCber-gesundheitsrisiken-informieren.html | gesundheit | bayern
 - Herrmann Verkehrssicherheit-Bayern Kontrollen Prävention A3-Aschaffenburg Tempoverstöße 2030 | https://aschaffenburg.news/politik/herrmann-setzt-sich-f%C3%BCr-mehr-sicherheit-im-stra%C3%9Fenverkehr-ein.html | politik | bayern
-
