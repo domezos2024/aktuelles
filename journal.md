@@ -1,19 +1,37 @@
 # Tagesnachrichten-Journal – domezos2024/aktuelles
 
-## Design – 2026-07-05 – 08:00 Uhr CEST
-- Schema: Spessart-Blau (kühles, frisches Blaugrün-Design)
-- Header-Gradient: #003366 → #005599 → #0077bb → #00a0c0 → #00bcd4 (Nachtblau → Mittelblau → Himmelblau → Türkis → Cyan)
-- Hintergrund: #ddeef7 (helles Eisblau)
-- Karten: #ffffff, border #b8d8ee, akzentränder je nach Position (rot/blaugrün/grün/braun)
-- Akzentfarben: #b81000 · #5c1090 · #1a237e · #1b5520 · #014476 · #880e4f · #c84a00 · #5a1490 · #2e6e30 · #005c50
-- Layout: card-stream (einspaltiger Kartenfluss, Bilder rechts eingebettet)
-- Fonts: Segoe UI / Roboto / Helvetica Neue / Arial (moderne serifenlose Schriften)
+## Design – 2026-07-06 – 06:15 Uhr CEST
+- Schema: Kuss-Glut (warmes Rose-Koralle-Gold-Sonnenuntergangsdesign, Anlass: Weltkusstag)
+- Header-Gradient: #3f0d28 → #7a1f3d → #b8354f → #d8683a → #f2ab4e (Weinrot → Rose → Koralle → Orange → Gold)
+- Hintergrund: #fdf1e2 (warmes Creme)
+- Karten: #fffdf9, border #f0d8c0, akzentränder je nach Position (rot/navy/gold/grün/pink/orange/lila/oliv/bordeaux/braun)
+- Akzentfarben: #b83227 · #1a3a6b · #b8860b · #2e7d5b · #8e3b6b · #c2680d · #6a1b9a · #4a6b3a · #7d1128 · #a0522d
+- Layout: grid-2col (zweispaltiges Karten-Grid, Bilder rechts eingebettet)
+- Fonts: Georgia/Palatino (Headlines, Serif) + Verdana/Tahoma (Fließtext, Sans-Serif)
 
 ---
 
 ## Themen-Archiv (letzte 10 Tage – NICHT wiederholen!)
 
-### 2026-07-05 (Ausgabe – 08:00 Uhr CEST) ← heute, neu hinzugefügt
+### 2026-07-06 (Ausgabe – 06:15 Uhr CEST) ← heute, neu hinzugefügt
+- Callcenterbetrug-falscher-Arzt-Lohr-Sendelbach-Veilchenweg-Krebsdiagnose | https://www.meine-news.de/landkreis-main-spessart/c-blaulicht/main-spessart-erfolgreicher-callcenterbetrug-falscher-arzt-ruft-an-seitenspiegel-eines-geparkten-vw-multivan-abgefahren-hydraulikoel-in-einen-brueckenpfosten-gefuellt_a238717 | blaulicht | lohr-main-spessart
+- Fahrertausch-Polizeikontrolle-A3-Stockstadt-Drogenverdacht-Blutentnahme | https://www.main-echo.de/ressorts/blaulicht/fahrertausch-vor-polizeikontrolle-auf-a3-bei-stockstadt-art-8745949 | blaulicht | stockstadt-aschaffenburg
+- Wohnmobil-umgestuerzt-A3-Marktheidenfeld-Vollsperrung-Bergung | https://www.main-echo.de/ressorts/blaulicht/wohnmobil-lag-auf-der-fahrbahn-behinderungen-auf-a3-art-8746029 | blaulicht | marktheidenfeld-main-spessart
+- Brandstiftungsverdacht-Eschau-Moenchberger-Weg-mehrere-Feuerstellen-Kripo | https://www.meine-news.de/landkreis-miltenberg/c-blaulicht/kreis-miltenberg-mehrere-brandstellen-durch-feuerwehr-geloescht-kriminalpolizei-ermittelt-wegen-brandstiftung-mann-entbloesst-sich-vor-zwei-jugendlichen-bmw-x1-angefahren_a238720 | blaulicht | eschau-miltenberg
+- Exhibitionist-Obernburg-Roemerstrasse-zwei-Jugendliche-26-Jaehriger | https://aschaffenburg.news/bayern/landkreis-miltenberg/obernburg-mann-entbl%C3%B6%C3%9Ft-sich-vor-zwei-jugendlichen.html | blaulicht | obernburg-miltenberg
+- Fahrerflucht-Grossostheim-Zum-Hoenig-Mini-Cooper-Opel-Astra-40000Euro | https://aschaffenburg.news/ab/markt-gro%C3%9Fostheim/gro%C3%9Fostheim/gro%C3%9Fostheim-unfallverursacher-entfernt-sich-unerlaubt.html | blaulicht | grossostheim-aschaffenburg
+- Herrmann-Schwerpunktwochen-Landstrassensicherheit-31869-Verstoesse-Bilanz | https://aschaffenburg.news/politik/herrmann-schwerpunktwochen-zur-landstra%C3%9Fensicherheit-beendet.html | politik | bayern
+- Herrmann-1300-neue-Polizisten-vereidigt-Nuernberg-Frankenhalle-Soeder | https://aschaffenburg.news/politik/herrmann-fast-1-300-neue-polizistinnen-und-polizisten-vereidigt.html | politik | nuernberg-bayern
+- SPD-Unterfranken-Doppelspitze-Nembach-Michniok-Bad-Koenigshofen-Ruetzel-Nachfolge | https://www.main-echo.de/region/kreis-main-spessart/topthemen/unterfrankens-spd-jetzt-mit-doppelspitze-die-so-nicht-absehbar-war-art-8745929 | politik | bad-koenigshofen-unterfranken
+- Schoellkrippen-Hundekot-Hundehalter-Kasse-Marktgemeinderat | https://www.main-echo.de/region/stadt-kreis-aschaffenburg/frust-ueber-kot-auf-wiesen-und-wegen-schoellkrippen-will-hundehalter-staerker-zur-kasse-bitten-art-8745967 | politik | schoellkrippen-aschaffenburg
+- Waldaschaff-Parkkonzept-Dauerparken-Kindergarten-Gemeinderat | https://www.main-echo.de/region/stadt-kreis-aschaffenburg/waldaschaff-will-mit-neuem-parkkonzept-das-dauerparken-vor-dem-kindergarten-loesen-art-8746024 | politik | waldaschaff-aschaffenburg
+- Waldstadt-Kleinostheim-kein-Glasfasernetz-Anschluss-Investor-Foerderung | https://www.main-echo.de/region/stadt-kreis-aschaffenburg/waldstadt-kleinostheim-noch-kein-anschluss-ans-glasfasernetz-in-sicht-art-8746025 | wirtschaft | kleinostheim-aschaffenburg
+- Adelsberg-KI-Staedtevergleich-37-Standorte-Darmstadt-Freiburg-Tuebingen | https://www.meine-news.de/adelsberg/c-wirtschaft/warum-kleinere-staedte-ploetzlich-ueberraschen_a238666 | wirtschaft | adelsberg-main-spessart
+- Tsukahara-Festival-Sailauf-23-Ausgabe-1200-Besucher-Volleyball-Rock | https://www.main-echo.de/region/stadt-kreis-aschaffenburg/familienspass-volleyball-und-rock-tsukahara-festival-in-sailauf-lockt-knapp-1200-besucher-art-8745956 | kultur | sailauf-aschaffenburg
+- Sandhasenrock-Kahl-33-Ausgabe-1000-Besucher-Waldseebad | https://www.main-echo.de/region/stadt-kreis-aschaffenburg/die-einen-chillen-die-anderen-rocken-ab-eindruecke-vom-sandhasenrock-mit-vielen-fotos-art-8745985 | kultur | kahl-aschaffenburg
+- Maria-Ward-Open-Air-Aschaffenburg-600-Besucher-Vier-Gewinnt-Tribute-Band | https://www.main-echo.de/region/stadt-kreis-aschaffenburg/aschaffenburg-maria-ward-open-air-mit-600-besuchern-art-8745974 | kultur | aschaffenburg
+
+### 2026-07-05 (Ausgabe – 08:00 Uhr CEST)
 - Streit-Ampel-Zellingen-33-Jähriger-Faustschlag-Staatsstraße2300-Würzburger-Straße | https://www.main-echo.de/ressorts/blaulicht/streit-an-ampel-in-zellingen-33-jaehriger-verletzt-art-8745328 | blaulicht | zellingen-main-spessart
 - Motorradfahrer-A3-Aschaffenburg-illegalem-Rennen-Standstreifen-Überholen-Verkehrspolizei | https://www.main-echo.de/ressorts/blaulicht/zeugen-gesucht-rasante-motorradfahrer-auf-der-a3-bei-aschaffenburg-art-8745335 | blaulicht | a3-aschaffenburg
 - Messerattacke-Gemündener-Bahnhof-frühere-Freundin-Zeugenaussage-Tatwaffe-Motiv-offen | https://www.main-echo.de/region/kreis-main-spessart/messerattacke-am-gemuendener-bahnhof-fruehere-freundin-macht-neue-angaben-zur-mutmasslichen-tatwaffe-motiv-bleibt-offen-art-8745514 | justiz | gemünden-main-spessart
