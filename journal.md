@@ -1,19 +1,36 @@
 # Tagesnachrichten-Journal – domezos2024/aktuelles
 
-## Design – 2026-07-06 – 06:00 Uhr CEST
-- Schema: Spessart-Grün (frisches Waldgrün-Thema, ruhig und lesbar)
-- Header-Gradient: #0d2b0f → #1a4a1e → #2e7d32 → #558b2f → #8bc34a (Dunkelwald → Waldgrün → Grasgrün → Hellgrün → Gelbgrün)
-- Hintergrund: #eef4ed (zartes Mintgrün)
-- Karten: #f7fbf6, border #c2d9be, akzentstreifen links je Kategorie
-- Akzentfarben: #b71c1c · #1565c0 · #f57f17 · #6a1b9a · #00695c · #0277bd · #4e342e · #33691e · #ad1457 · #4a148c
-- Layout: grid-2col (zweispaltiges Karten-Grid)
-- Fonts: Georgia/Times (Headlines, Serif) + Trebuchet MS/Lucida Grande (Fließtext, Sans-Serif)
+## Design – 2026-07-07 – 06:30 Uhr CEST
+- Schema: Kakao-Karamell (warmes Schokoladen-Thema zum Weltschokoladentag, hochsommerlich)
+- Header-Gradient: #2b1710 → #4e2a13 → #7c4a1f → #b17b3a → #e8b463 (Dunkle Kakaobohne → Karamell → Vanille-Gold)
+- Hintergrund: #fbf1e4 (warmes Vanille-Creme)
+- Karten: #fffaf2, border #e3c9a0, akzentstreifen links je Kategorie
+- Akzentfarben: #d32f2f · #283593 · #ef6c00 · #f9a825 · #00838f · #2e7d32 · #795548 · #7cb342 · #c2185b · #512da8
+- Layout: grid-3col (auto-fit, dreispaltiges Karten-Grid)
+- Fonts: Rockwell/Georgia (Headlines, Slab-/Serif) + Verdana/Tahoma (Fließtext, Sans-Serif)
 
 ---
 
 ## Themen-Archiv (letzte 10 Tage – NICHT wiederholen!)
 
-### 2026-07-06 (Ausgabe – 06:00 Uhr CEST) ← heute, neu hinzugefügt
+### 2026-07-07 (Ausgabe – 06:30 Uhr CEST) ← heute, neu hinzugefügt
+- Schwerer-A3-Unfall-Weibersbrunn-Auto-ueberschlaegt-sich-Leitplanke-durchbrochen | https://aschaffenburg.news/ab/weibersbrunn/weibersbrunn-schwerer-verkehrsunfall-drei-menschen-teils-schwer-verletzt.html | blaulicht | weibersbrunn-lkr-aschaffenburg
+- Mordfall-Maria-Koehler-Aschaffenburg-Verurteilter-Revision-42-Jahre-Cold-Case | https://www.infranken.de/lk/aschaffenburg/maria-koehler-urteil-nach-42-jahren-ist-noch-immer-nicht-das-ende-art-6108923 | justiz | aschaffenburg
+- Hoesbach-Kind-6-stuerzt-zweiter-Stock-Garagendach-leichte-Verletzungen | https://www.primavera24.de/aktuelles/news/schock-in-hoesbach-kind-stuerzt-aus-zweitem-stock-auf-garagendach | blaulicht | hösbach-lkr-aschaffenburg
+- Raum-Aschaffenburg-Arbeitstasche-gestohlen-Reizstoff-besprueht-Kia-angefahren | https://www.meine-news.de/landkreis-aschaffenburg/c-blaulicht/raum-aschaffenburg-arbeitstasche-samt-inhalt-aus-pkw-entwendet-unbekannte-bespruehen-mann-mit-reizstoff-fahrzeug-angefahren-und-beschaedigt_a238789 | blaulicht | aschaffenburg-lkr-aschaffenburg
+- Steinbach-Marktheidenfeld-Hund-toetet-Kaninchen-Kennzeichen-gestohlen | https://www.meine-news.de/steinbach-lohr-amain/c-blaulicht/steinbachmarktheidenfeld-hund-toetet-kaninchen-unbekannter-stiehlt-kennzeichen_a238792 | blaulicht | steinbach-main-spessart
+- Himmelstadt-Zellingen-Retzbach-Aussenspiegel-abgefahren-Hydraulikoel-Bruecke | https://www.meine-news.de/landkreis-main-spessart/c-blaulicht/main-spessart-erfolgreicher-callcenterbetrug-falscher-arzt-ruft-an-seitenspiegel-eines-geparkten-vw-multivan-abgefahren-hydraulikoel-in-einen-brueckenpfosten-gefuellt_a238717 | blaulicht | himmelstadt-main-spessart
+- Alzenau-Klima-Dashboard-Stadtrat-Streit-Transparenz-Kosten-15000Euro | https://www.main-echo.de/region/stadt-kreis-aschaffenburg/stadt-alzenau-streitet-um-klima-dashboard-transparenz-tool-oder-spielerei-art-8743490 | politik | alzenau-lkr-aschaffenburg
+- Bahntrassen-Streit-Italo-DB-InfraGO-ICE-Aschaffenburg-Halt-in-Gefahr | https://www.main-echo.de/region/franken-bayern/kampf-um-freie-trassen-befuerchtet-art-8746066 | wirtschaft | aschaffenburg
+- Obernburg-Traditionsgeschaeft-schliesst-Roemerstrasse-Einzelhandel-Sterben | https://www.main-echo.de/region/kreis-miltenberg/neuer-schock-in-obernburg-wieder-macht-ein-traditionsgeschaeft-zu-art-8746590 | wirtschaft | obernburg-miltenberg
+- SGA-Tennisteams-Alzenau-Bezirksmeister-Maedchen-Jungen-Halbfinale | https://www.main-echo.de/unser-echo/gruppen/sga-tennis-teams-sind-bezirksmeister-art-8746270 | sport | alzenau-lkr-aschaffenburg
+- Aschaffenburger-Stadtrennen-700-Laeufer-Rekord-Zeichen-gegen-Gewalt-Frauen | https://www.primavera24.de/aktuelles/news/laufen-gegen-die-gewalt-an-frauen | gesellschaft | aschaffenburg
+- Laurenzi-Messe-2026-Marktheidenfeld-76-Auflage-Bier-Preis-Volksfest | https://www.main-echo.de/region/kreis-main-spessart/laurenzi-messe-das-muessen-besucher-zum-grossen-fest-in-marktheidenfeld-wissen-art-8741580 | kultur | marktheidenfeld-main-spessart
+- Dracula-Musical-Klingenberg-Clingenburg-Freilichtbuehne-MainMusical-Premiere | https://www.primavera24.de/aktuelles/news/dracula-ist-weit-mehr-als-horror-und-blut | kultur | klingenberg-miltenberg
+- Husky-Trail-Heinrichsthal-2026-Rueckkehr-Gemeinderat-Schlittenhunde-Spessart | https://www.primavera24.de/aktuelles/news/heinrichsthal-kommt-der-husky-trail-zurueck-in-den-spessart | freizeit | heinrichsthal-lkr-aschaffenburg
+- RambaZamba-im-Park-Elsenfeld-Kinder-Familienfest-Elsavapark-5-Ausgabe | https://www.meine-news.de/elsenfeld/c-mann-frau-und-familie/kinder-und-familienfest-rambazamba-im-park_a237418 | freizeit | elsenfeld-miltenberg
+
+### 2026-07-06 (Ausgabe – 06:00 Uhr CEST)
 - Lagerhallenbrand-Kleinheubach-Miltenberg-Nacht-zu-Montag-Großaufgebot | https://www.main-echo.de/ressorts/blaulicht/lagerhalle-zwischen-kleinheubach-und-miltenberg-lichterloh-in-flammen-art-8746403 | blaulicht | kleinheubach-miltenberg
 - A3-Sperrung-Rohrbrunn-Weibersbrunn-Unfall-Richtung-Frankfurt | https://www.main-echo.de/ressorts/blaulicht/sperrung-nach-unfall-auf-a3-art-8746454 | blaulicht | a3-spessart
 - Unfallflucht-REWE-Parkplatz-Obernburg-Eisenbach-Zeugenaufruf | https://www.main-echo.de/ressorts/blaulicht/unfallflucht-auf-rewe-parkplatz-in-obernburg-eisenbach-art-8745950 | blaulicht | obernburg-miltenberg
