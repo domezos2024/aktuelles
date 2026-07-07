@@ -1,19 +1,36 @@
 # Tagesnachrichten-Journal – domezos2024/aktuelles
 
-## Design – 2026-07-07 – 06:30 Uhr CEST
-- Schema: Kakao-Karamell (warmes Schokoladen-Thema zum Weltschokoladentag, hochsommerlich)
-- Header-Gradient: #2b1710 → #4e2a13 → #7c4a1f → #b17b3a → #e8b463 (Dunkle Kakaobohne → Karamell → Vanille-Gold)
-- Hintergrund: #fbf1e4 (warmes Vanille-Creme)
-- Karten: #fffaf2, border #e3c9a0, akzentstreifen links je Kategorie
-- Akzentfarben: #d32f2f · #283593 · #ef6c00 · #f9a825 · #00838f · #2e7d32 · #795548 · #7cb342 · #c2185b · #512da8
-- Layout: grid-3col (auto-fit, dreispaltiges Karten-Grid)
-- Fonts: Rockwell/Georgia (Headlines, Slab-/Serif) + Verdana/Tahoma (Fließtext, Sans-Serif)
+## Design – 2026-07-07 – 06:00 Uhr CEST
+- Schema: Ozean-Aqua (kühles Blau/Türkis, maritime Frische)
+- Header-Gradient: #0a4c6a → #0891b2 → #0e7490 (Tiefsee-Blau → Ozean-Türkis)
+- Hintergrund: #e8f4f8 (helles Aqua-Grau)
+- Karten: #ffffff, border #b8dce8, linker Akzentstreifen je Kategorie
+- Akzentfarben: #c62828 · #1565c0 · #e65100 · #558b2f · #6a1b9a · #00695c · #4527a0 · #ad1457 · #37474f · #2e7d32
+- Layout: grid-2col (auto-fit, zweispaltiges Karten-Grid, min 320px)
+- Fonts: Georgia/'Times New Roman' (Headlines, Serif) + 'Segoe UI'/Inter/Tahoma (Fließtext, Sans-Serif)
 
 ---
 
 ## Themen-Archiv (letzte 10 Tage – NICHT wiederholen!)
 
-### 2026-07-07 (Ausgabe – 06:30 Uhr CEST) ← heute, neu hinzugefügt
+### 2026-07-07 (Ausgabe – 06:00 Uhr CEST) ← heute, neu hinzugefügt
+- ICE-Zellingen-960-Fahrgaeste-evakuiert-Regionalbahn-Main-Spessart | https://www.main-echo.de/region/kreis-main-spessart/retter-holen-920-fahrgaeste-aus-ice-bei-zellingen-art-8746636 | blaulicht | zellingen-main-spessart
+- Traktor-Mainbullau-Anhaenger-verkeilt-Gefaellstrecke-MIL5-Miltenberg | https://www.main-echo.de/ressorts/blaulicht/mainbullau-traktor-mit-zwei-anhaengern-verkeilt-sich-auf-gefaellstrecke-art-8746964 | blaulicht | mainbullau-miltenberg
+- Zugbegleiter-Regionalbahn-RB58064-Wuerzburg-Gemuenden-Ellenbogenschlag | https://www.main-echo.de/ressorts/blaulicht/zugbegleiter-in-regionalbahn-angegriffen-art-8746619 | blaulicht | gemünden-main-spessart
+- Babenhausen-Hakenkrenze-Schmierereien-Strasse-der-Toleranz-Volksverhetzung | https://www.main-echo.de/ressorts/blaulicht/erneut-farbschmierereien-an-mehreren-gebaeuden-in-babenhausen-art-8746622 | blaulicht | babenhausen-darmstadt-dieburg
+- Aschaffenburg-Diebstaehle-Ueberfaelle-Wochenende-Kleberstrasse-Volvo | https://www.main-echo.de/ressorts/blaulicht/mehrere-diebstaehle-und-ueberfaelle-in-aschaffenburg-und-umgebung-art-8746508 | blaulicht | aschaffenburg
+- Mainaschaff-Einbruch-Firmengebaeude-Kriminalpolizei-Spuren | https://aschaffenburg.news/ab/mainaschaff/mainaschaff-einbruch-in-firmengeb%C3%A4ude.html | blaulicht | mainaschaff-lkr-aschaffenburg
+- Aschaffenburg-Leider-Norma-Parkplatz-Pruegerei-Koerperverletzung | https://aschaffenburg.news/ab/aschaffenburg/leider/aschaffenburg-auseinandersetzung-auf-einem-kundenparkplatz.html | blaulicht | aschaffenburg-leider
+- Grossostheim-Moembris-Ermittlungserfolg-Wohnungseinbrueche-Tatverdaechtiger-Haft | https://www.meine-news.de/grossostheim/c-blaulicht/grossostheimmoembris-ermittlungserfolg-nach-wohnungseinbruechen-tatverdaechtiger-in-haft_a238375 | justiz | grossostheim-mömbris-lkr-aschaffenburg
+- Heimbuchenthal-Polizei-warnt-unserioese-Handwerker-Hauptstrasse | https://aschaffenburg.news/ab/heimbuchenthal/heimbuchenthal/heimbuchthal-polizei-warnt-vor-unseri%C3%B6sen-handwerkern.html | gesellschaft | heimbuchenthal-lkr-aschaffenburg
+- Haibach-Fledermaus-Lyssavirus-EBLV1-erster-Nachweis-Landkreis-Aschaffenburg | https://www.meine-news.de/landkreis-aschaffenburg/c-gesundheit-und-wellness/tollwut-bei-fledermaeusen-nachgewiesen_a238447 | gesundheit | haibach-lkr-aschaffenburg
+- Weibersbrunn-A3-Kontrolle-Diebesgut-15000-Euro-Kosmetik-Rumaenen | https://www.meine-news.de/weibersbrunn/c-blaulicht/weibersbrunn-verkehrskontrolle-auf-a3-mutmassliches-diebesgut-im-wert-von-rund-15-000-euro-sichergestellt_a238438 | blaulicht | weibersbrunn-a3-spessart
+- Wirtshaus-Spessart-Theatrium-Hammermuseum-Hasloch-Spessartbrauerei-Kreuzwertheim | https://www.main-echo.de/region/kreis-main-spessart/das-wirtshaus-im-spessart-gastiert-im-hammermuseum-und-in-spessartbrauerei-art-8746559 | kultur | hasloch-kreuzwertheim-main-spessart
+- Kiliani-Wuerzburg-2026-Eroeffnung-400-VIP-Gaeste-Gruss-Untermain | https://www.main-echo.de/region/kreis-main-spessart/topthemen/unterfrankens-groesstes-volksfest-so-war-die-kiliani-eroeffnung-mit-400-vip-gaesten-und-einem-gruss-richtung-untermain-art-8746493 | kultur | würzburg-unterfranken
+- Aschaffenburg-Jugendbefragung-2026-13-17-Jahre-Stadtentwicklung | https://aschaffenburg.news/ab/aschaffenburg/aschaffenburg/aschaffenburg-jugendbefragung-2026.html | gesellschaft | aschaffenburg
+- HWK-Unterfranken-138-Vollversammlung-Bissert-Fachkraefte-Ausbildung | https://aschaffenburg.news/aktuelles/138-vollversammlung-der-handwerkskammer-f%C3%BCr-unterfranken.html | wirtschaft | würzburg-unterfranken
+
+### 2026-07-07 (Ausgabe – 06:30 Uhr CEST)
 - Schwerer-A3-Unfall-Weibersbrunn-Auto-ueberschlaegt-sich-Leitplanke-durchbrochen | https://aschaffenburg.news/ab/weibersbrunn/weibersbrunn-schwerer-verkehrsunfall-drei-menschen-teils-schwer-verletzt.html | blaulicht | weibersbrunn-lkr-aschaffenburg
 - Mordfall-Maria-Koehler-Aschaffenburg-Verurteilter-Revision-42-Jahre-Cold-Case | https://www.infranken.de/lk/aschaffenburg/maria-koehler-urteil-nach-42-jahren-ist-noch-immer-nicht-das-ende-art-6108923 | justiz | aschaffenburg
 - Hoesbach-Kind-6-stuerzt-zweiter-Stock-Garagendach-leichte-Verletzungen | https://www.primavera24.de/aktuelles/news/schock-in-hoesbach-kind-stuerzt-aus-zweitem-stock-auf-garagendach | blaulicht | hösbach-lkr-aschaffenburg
@@ -174,20 +191,3 @@
 - Klimaspaziergaenge-Karlstadt-Marktheidenfeld-Hitze-Trockenheit-Energieagentur | https://www.main-spessart.de/aktuelles/pressemitteilungen/11146.Klimaspaziergaenge-in-Karlstadt-und-Marktheidenfeld-Was-tun-bei-Hitze-und-Trockenheit.html | umwelt | karlstadt-marktheidenfeld-main-spessart
 - Alzenau-White-Night-Sommerabend-Weiss-GHG-Innenstadt | https://www.main-echo.de/region/stadt-kreis-aschaffenburg/ein-sommerabend-ganz-in-weiss-art-8740167 | kultur | alzenau
 - Frammersbacher-Festtage-2026-Tag-des-Rocks-Bierumzug-Fool-Moon-Fever | https://www.main-echo.de/freizeit/veranstaltungen/frammersbacher-festtage-2026-evt-4271525 | kultur | frammersbach
-
-### 2026-07-02 (Ausgabe – 08:15 Uhr CEST)
-- PV-Brand-Mömbris-Fronhofen Kabelbrand-Photovoltaikanlage Industriegebäude Feuerwehr-Drehleiter-Atemschutz | https://www.main-echo.de/ressorts/blaulicht/feuerwehr-loescht-brennende-photovoltaikanlage-in-moembris-art-8744153 | blaulicht | mömbris-lkr-aschaffenburg
-- Waldbad-Triefenstein-Rekord 3000-Gäste 1700-Samstag Lengfurt Hitze-Freibad | https://www.main-echo.de/region/kreis-main-spessart/ueber-3000-badegaeste-im-waldbad-triefenstein-so-viele-wie-seit-jahren-nicht-art-8744161 | freizeit | triefenstein-main-spessart
-- Partenstein-Lebensmittelversorgung Nahversorgung-gesichert 200-Einwohner Jugendheim-Infoabend | https://www.main-echo.de/region/kreis-main-spessart/wie-es-mit-der-lebensmittelversorgung-in-partenstein-weitergeht-art-8744065 | wirtschaft | partenstein-main-spessart
-- Sefra-Lauf-Aschaffenburg 5-Juli Luitpoldstraße-10Uhr Gewalt-Protest ÖPNV-Umleitungen | https://www.main-echo.de/region/stadt-kreis-aschaffenburg/sefra-lauf-gegen-gewalt-in-aschaffenburg-einschraenkungen-und-umleitungen-art-8744105 | gesellschaft | aschaffenburg
-- Kopp-Areal-Kahl-Bebauungsplan B-Plan-Hürde vierteiliger-Gebäudekomplex Nachtabschaltung | https://www.main-echo.de/region/stadt-kreis-aschaffenburg/kopp-areal-b-plan-nimmt-naechste-huerde-art-8743981 | wirtschaft | kahl-lkr-aschaffenburg
-- SPD-Unterfranken-Rützel-Nachfolge Bezirksparteitag-4-Juli-Bad-Königshofen Main-Spessart-Aschaffenburg-Duo | https://www.main-echo.de/region/kreis-main-spessart/zwei-sozialdemokraten-aus-main-spessart-und-aschaffenburg-wollen-bernd-ruetzel-als-spd-bezirksvorsitzenden-beerben-art-8744101 | politik | unterfranken-main-spessart
-- Ex-Partnerin-Gürtelschlag-Einsperren Amtsgericht-Gemünden Richter-Krischker Bewährungsstrafe | https://www.main-echo.de/region/kreis-main-spessart/ex-partnerin-eingesperrt-und-geschlagen-bewaehrungsstrafe-art-8744146 | justiz | gemünden-main-spessart
-- Schulweghelfer-Marktheidenfeld-135 Dankesurkunde Polizei kein-Kind-verunglückt Bischbrunn-Karbach-Esselbach | https://www.main-echo.de/ressorts/blaulicht/grosses-dankeschoen-an-135-schulweghelfer-in-marktheidenfeld-art-8744188 | gesellschaft | marktheidenfeld-main-spessart
-- Aschaffradweg-Damm-DS-Smith gesperrt 18-September Inselstraße Dyroffstraße Rad-Fußweg | https://www.main-echo.de/region/stadt-kreis-aschaffenburg/aschaffenburg-aschaffradweg-bis-18-september-gesperrt-art-8744168 | verkehr | aschaffenburg
-- Deutschlandticket-Marktheidenfeld-100Euro Zuschuss Azubis-Studierende-Freiwilligendienst | https://www.main-echo.de/region/kreis-main-spessart/stadt-marktheidenfeld-bezuschusst-ermaessigtes-deutschlandticket-es-gibt-100-euro-jaehrlich-art-8744163 | verkehr | marktheidenfeld-main-spessart
-- Aschaffenburg-ist-bunt-Orga-Team CSU-Schlemmer-OB Vakanz-beendet Rassismus-Vielfalt | https://www.main-echo.de/region/stadt-kreis-aschaffenburg/orga-team-von-aschaffenburg-ist-bunt-wieder-komplett-art-8744049 | politik | aschaffenburg
-- Digitalisierung-Stadtgeschichte-Aschaffenburg vier-Projekte Digitalisierungssenat Archiv-Karten | https://www.main-echo.de/region/stadt-kreis-aschaffenburg/nicht-nur-fuer-geschichts-nerds-so-wird-historie-in-aschaffenburg-digital-art-8744147 | kultur | aschaffenburg
-- Lerchenfenster-Albstadt Feldlerche-Schutz Landwirte Umspannwerk-verhindert Naturschutz | https://www.main-echo.de/region/stadt-kreis-aschaffenburg/retten-lerchenfenster-albstadt-vor-dem-drohenden-umspannwerk-art-8744139 | umwelt | albstadt-lkr-aschaffenburg
-- Stadtbus-Marktheidenfeld neue-Route Georg-Mayr-Straße Dillberg-ÖPNV Stadtrat-Beschluss | https://www.main-echo.de/region/kreis-main-spessart/stadtbus-in-marktheidenfeld-neue-route-soll-maerkte-in-der-georg-mayr-strasse-anbinden-art-8744158 | verkehr | marktheidenfeld-main-spessart
-- Trinkwasser-Marktheidenfeld-37Grad kein-Verbot ausreichend-Reserven Hitze-Sommer | https://www.main-echo.de/region/kreis-main-spessart/trinkwasser-bereitet-stadt-keine-sorgen-art-8744230 | gesundheit | marktheidenfeld-main-spessart
