@@ -1,20 +1,36 @@
 # Tagesnachrichten-Journal – domezos2024/aktuelles
 
-## Design – 2026-07-08 – 06:20 Uhr CEST
-- Schema: Kornfeld-Sommergold (warmes Amber/Terrakotta, Hochsommer-Stimmung)
-- Header-Gradient: #b45309 → #d97706 → #92400e (Bernstein → tiefes Terrakotta-Braun)
-- Hintergrund: #fdf6e3 (warmes Creme/Weizen)
-- Karten: #fffdf8, border #e8d5a3, abgerundete 14px-Ecken mit Schlagschatten, linker Akzentstreifen je Kategorie
-- Akzentfarben: #b91c1c · #7c3aed · #1d4ed8 · #c2410c · #57534e · #be185d · #4d7c0f · #0f766e · #44403c · #6d28d9 · #15803d
-- Layout: grid-3col (feste dreispaltige Karten-Grid, Breakpoints bei 900px/600px)
-- Fonts: Verdana/Tahoma (Headlines, Sans-Serif) + 'Palatino Linotype'/'Book Antiqua' (Fließtext, Serif)
-- Zusatzelemente: Newsletter-Anmeldebox (Amber-Verlauf) unter dem Header, Jahreszeit-Info-Box (Feiertage/Ferien)
+## Design – 2026-07-08 – 08:00 Uhr CEST
+- Schema: Spessart-Waldgrün (tiefes Tannengrün, Naturgrau, frisches Hellgrün)
+- Header-Gradient: #1b5e20 → #2e7d32 → #388e3c → #1b5e20 (Tannengrün diagonal)
+- Hintergrund: #e8f5e9 (helles Mintgrün)
+- Karten: #ffffff, border-top farbig je Kategorie, abgerundete 12px-Ecken, Schlagschatten
+- Akzentfarben: #1565c0 · #6a1b9a · #bf360c · #e65100 · #37474f · #ad1457 · #558b2f · #00695c · #2e7d32 · #0277bd · #6d4c41
+- Layout: grid-3col (Breakpoints bei 900px/600px)
+- Fonts: Arial/Helvetica (Headlines, Sans-Serif) + Georgia/'Times New Roman' (Fließtext, Serif)
 
 ---
 
 ## Themen-Archiv (letzte 10 Tage – NICHT wiederholen!)
 
-### 2026-07-08 (Ausgabe – 06:20 Uhr CEST) ← heute, neu hinzugefügt
+### 2026-07-08 (Ausgabe – 08:00 Uhr CEST) ← heute, neu hinzugefügt
+- Motorradflucht-Partenstein-Polizeikontrolle-Tatverdaechtiger-ermittelt | https://www.main-echo.de/ressorts/blaulicht/motorradflucht-vor-polizei-in-partenstein-tatverdaechtiger-ermittelt-art-8747087 | blaulicht | partenstein-main-spessart
+- Muellauto-Brand-Explosion-Markt-Retzbach-Feuerwehr-Grosseinsatz | https://www.main-echo.de/ressorts/blaulicht/markt-retzbach-brand-nach-explosion-in-muellfahrzeug-art-8747068 | blaulicht | retzbach-main-spessart
+- Ueberholmanoever-B27-Karlstadt-Strassenverkehrsgefaehrdung-Zeugen | https://www.main-echo.de/ressorts/blaulicht/gefaehrliches-ueberholmanoever-auf-der-b27-bei-karlstadt-art-8747067 | blaulicht | karlstadt-main-spessart
+- EScooter-Baggerloeffel-Werkzeug-Diebstahl-Kreis-Main-Spessart | https://www.main-echo.de/ressorts/blaulicht/kreis-main-spessart-unbekannte-entwenden-e-scooter-baggerloeffel-und-mehr-art-8747069 | blaulicht | lkr-main-spessart
+- Seniorin-Hang-Wertheim-Eichel-Feuerwehr-Bergung-Seile | https://www.main-echo.de/ressorts/blaulicht/wertheim-eichel-seniorin-aus-steilem-hang-gerettet-art-8747143 | blaulicht | wertheim-eichel
+- Explosion-Rathaus-Michelstadt-Kripo-Zeugen-Denkmalschutz | https://www.main-echo.de/ressorts/blaulicht/explosion-am-historischen-rathaus-in-michelstadt-art-8746987 | blaulicht | michelstadt-odenwald
+- A3-Stockstadt-Polizei-Fahrmanöver-Strassenverkehrsgefaehrdung | https://www.infranken.de/lk/aschaffenburg/blaulicht/a3-bei-stockstadt-polizei-beobachtet-irre-aktion-art-6376107 | blaulicht | stockstadt-lkr-aschaffenburg
+- Social-Media-Herausforderung-Schulen-Kultusministerin-Stolz-Bayern | https://www.main-echo.de/region/kreis-main-spessart/topthemen/die-social-media-herausforderung-frau-ministerin-was-muss-jetzt-die-schule-tun-art-8747258 | politik | lkr-main-spessart-bayern
+- Krombacher-Gemeinderat-Ostheimer-CSU-Nachwahl-Hug | https://www.main-echo.de/region/stadt-kreis-aschaffenburg/krombacher-gemeinderat-ostheimer-rueckt-fuer-hug-nach-art-8747594 | politik | krombach-lkr-aschaffenburg
+- Klimarundgang-Aschaffenburg-Mehnert-Wolf-Klimaanpassung | https://www.main-echo.de/region/stadt-kreis-aschaffenburg/klimarundgang-in-aschaffenburg-art-8747009 | umwelt | aschaffenburg
+- Waermeplanung-Heinrichsthal-Nahwaerme-Erneuerbare-Energien-CO2 | https://www.main-echo.de/region/stadt-kreis-aschaffenburg/wie-es-um-die-kommunale-waermeplanung-in-heinrichsthal-steht-art-8747123 | wirtschaft | heinrichsthal-lkr-aschaffenburg
+- Kuhstall-Concept-Store-Albstadt-Umnutzung-Dorfentwicklung | https://www.main-echo.de/region/stadt-kreis-aschaffenburg/in-albstatt-wurde-aus-einem-kuhstall-ein-concept-store-art-8746977 | wirtschaft | albstadt-lkr-aschaffenburg
+- Eckertsmuehlen-Open-Air-2026-Aschaffenburg-Bands-Programm | https://www.main-echo.de/region/stadt-kreis-aschaffenburg/diese-bands-spielen-beim-diesjaehrigen-aschaffenburger-eckertsmuehlen-open-air-art-8746643 | kultur | aschaffenburg
+- Abituria-100-Jahre-Friedrich-Dessauer-Gymnasium-Aschaffenburg | https://www.main-echo.de/region/stadt-kreis-aschaffenburg/seit-100-jahren-gibt-es-die-ehemaligenvereinigung-abituria-am-aschaffenburger-friedrich-dessauer-gymnasium-art-8747101 | gesellschaft | aschaffenburg
+- Loewenapotheke-Aschaffenburg-Zeitzeuge-Erinnerungen-Geschichte | https://www.main-echo.de/region/stadt-kreis-aschaffenburg/einziger-noch-lebender-ehemaliger-bewohner-der-frueheren-aschaffenburger-loewenapotheke-erinnert-sich-art-8747213 | gesellschaft | aschaffenburg
+
+### 2026-07-08 (Ausgabe – 06:20 Uhr CEST)
 - Alzenau-Kälberau-Regionalzug-Radfahrerin-toedlich-Bahnuebergang-Kahlgrundbahn | https://www.infranken.de/lk/aschaffenburg/blaulicht/alzenau-regionalzug-ueberrollt-radfahrerin-tragischer-tod-art-6376633 | blaulicht | alzenau-kälberau-lkr-aschaffenburg
 - A3-Bischbrunn-Wohnmobil-Brand-77Jaehriger-verletzt-Vollsperrung | https://www.infranken.de/lk/main-spessart/blaulicht/a3-bei-bischbrunn-gesperrt-wohnmobil-brennt-rettungshubschrauber-alarmiert-art-6376578 | blaulicht | bischbrunn-main-spessart
 - Karlstadt-Motorradunfall-MSP8-36Jaehriger-schwer-verletzt-Hubschrauber | https://www.infranken.de/lk/main-spessart/blaulicht/unfall-bei-karlstadt-biker-erleidet-schwere-verletzungen-art-6376529 | blaulicht | karlstadt-main-spessart
@@ -149,29 +165,8 @@
 - Peggy-Spatz-Malteser-Aschaffenburg-25-Jahre-Notfallsanitäterin-Jubiläum-PSNV | https://aschaffenburg.news/ab/aschaffenburg/aschaffenburg/aschaffenburg-notfallsanitäterin-mit-herz.html | gesellschaft | aschaffenburg
 - Pallottinerpater-Bernhard-Pieler-96-Kälberau-Alzenau-Wallfahrtsseelsorge-gestorben | https://aschaffenburg.news/ab/alzenau/kälberau/alzenau-pallottinerpater-bernhard-pieler-gestorben.html | gesellschaft | kälberau-alzenau
 - CSU-Bezirksparteitag-Unterfranken-Söder-11-Juli-Dettelbach-Kitzingen-145-Delegierte | https://aschaffenburg.news/politik/parteivorsitzender-dr-markus-söder-beim-bezirksparteitag-der-csu-unterfranken.html | politik | unterfranken
-- HPV-Impfwoche-8-Bayern-Gerlach-Gebärmutterhalskrebs-Papillomviren-Vorsorge-3-Juli | https://aschaffenburg.news/politik/gerlach-wirbt-für-hpv-impfungen.html | gesundheit | bayern
-- Waldaschaff-Kunstrasenplatz-517500-Euro-Bund-Lindholz-Sanierung-Sportstaetten | https://aschaffenburg.news/ab/waldaschaff/waldaschaff-517-500-euro-vom-bund-für-kunstrasenplatz.html | sport | waldaschaff-lkr-aschaffenburg
-
-### 2026-07-04 (Ausgabe – 06:00 Uhr CEST)
-- Traktor-Unfall-Kleinostheim-9-Jähriger-Fendt-67-Jähriger-verletzt | https://aschaffenburg.news/ab/kleinostheim/kleinostheim/kleinostheim-neunjähriger-verursacht-unfall-mit-traktor.html | blaulicht | kleinostheim
-- Schulwegunfall-Aschaffenburg-12-Jähriger-Tretroller-BMW-Fahrerflucht | https://aschaffenburg.news/ab/aschaffenburg/stadtmitte/aschaffenburg-zwölfjähriger-nach-verkehrsunfall-leicht-verletzt.html | blaulicht | aschaffenburg
-- Einbrecher-Wasserlos-Alzenau-Hausdach-Kellertür-aufgebrochen-Flucht | https://www.meine-news.de/landkreis-aschaffenburg/c-blaulicht/raum-aschaffenburg-zwoelfjaehriger-nach-verkehrsunfall-leicht-verletzt-einbrecher-auf-frischer-tat-ueberrascht-neunjaehriger-verursacht-unfall-mit-traktor-unfallflucht-kraftfahrzeugrennen_a238642 | blaulicht | wasserlos-alzenau
-- Illegales-Kfz-Rennen-A3-Aschaffenburg-Nürnberg-Motorradfahrer-Standstreifen | https://www.meine-news.de/landkreis-aschaffenburg/c-blaulicht/raum-aschaffenburg-zwoelfjaehriger-nach-verkehrsunfall-leicht-verletzt-einbrecher-auf-frischer-tat-ueberrascht-neunjaehriger-verursacht-unfall-mit-traktor-unfallflucht-kraftfahrzeugrennen_a238642 | blaulicht | a3-aschaffenburg
-- Faustschlag-Zellingen-Streit-Autofahrer-Opel-Astra-Grünlicht | https://aschaffenburg.news/main-spessart/zellingen-auseinandersetzung-zwischen-pkw-fahrern.html | blaulicht | zellingen-main-spessart
-- Kupferkabel-Diebstahl-Markt-Retzbach-Baustelle-25-Meter | https://www.meine-news.de/landkreis-main-spessart/c-blaulicht/main-spessart-auseinandersetzung-zwischen-pkw-fahrern-kupferkabel-entwendet-unfallflucht_a238648 | blaulicht | retzbach-main-spessart
-- E-Scooter-Diebstahl-Lohr-Vorstadtstraße-300Euro | https://www.meine-news.de/landkreis-main-spessart/c-blaulicht/main-spessart-auseinandersetzung-zwischen-pkw-fahrern-kupferkabel-entwendet-unfallflucht_a238648 | blaulicht | lohr
-- Auto-zerkratzt-Marktheidenfeld-Ludwigstraße-Toyota-Yaris-3000Euro | https://www.meine-news.de/landkreis-main-spessart/c-blaulicht/main-spessart-auseinandersetzung-zwischen-pkw-fahrern-kupferkabel-entwendet-unfallflucht_a238648 | blaulicht | marktheidenfeld-main-spessart
-- Wohnraumverdichtung-Untermain-Fachveranstaltung-Landratsamt-Aschaffenburg-Regionaler-Planungsverband | https://aschaffenburg.news/aktuelles/untermain-fachveranstaltung-des-regionalen-planungsverbands-zur-wohnraumverdichtungb.html | politik | landratsamt-aschaffenburg
-- Aschaffenburg-Perth-70-Jahre-Städtepartnerschaft-Theaterplatz-18-Juli | https://aschaffenburg.news/ab/aschaffenburg/aschaffenburg/aschaffenburg-70-jahre-städtepartnerschaft-mit-perth.html | gesellschaft | aschaffenburg
-- Bornavirus-Bayern-Gerlach-fünf-Fälle-2026-Infektionsrisiko-gering | https://aschaffenburg.news/politik/infektionsrisiko-beim-bornavirus-trotz-leichten-anstiegs-der-fälle-weiterhin-gering.html | gesundheit | bayern
-- B469-Stockstadt-Großostheim-Fahrbahnsanierung-6-bis-10-Juli-Tempolimit | https://www.meine-news.de/landkreis-aschaffenburg/c-blaulicht/b-469-anschlussstelle-stockstadt-nord-anschlussstelle-grossostheim-verkehrsbeschraenkungen-infolge-von-fahrbahninstandhaltung_a238651 | verkehr | stockstadt-grossostheim
-- Klinikums-Neubau-Lohr-220-Lärchen-Fassade-Stadtwald | https://www.main-echo.de/region/kreis-main-spessart/nur-die-besten-fuers-klinikum-art-8745601 | wirtschaft | lohr
-- Schafschur-Rothenfels-Wollvermarktung-Naturprodukt-Erlöse | https://www.main-echo.de/region/kreis-main-spessart/wohin-mit-der-wolle-art-8745309 | umwelt | rothenfels-main-spessart
-- Scherenburgfestspiele-Gemünden-36-Saison-Kleine-Hexe-Preußler | https://www.main-echo.de/region/kreis-main-spessart/kleine-hexe-begeistert-auf-der-scherenburg-art-8745397 | kultur | gemünden-main-spessart
-- Ruth-Radecker-VHS-Kammerchor-Lohr-30-Jahre-Dirigentin-Jubiläum | https://www.main-echo.de/region/kreis-main-spessart/ruth-radecker-dirigiert-seit-30-jahren-den-vhs-kammerchor-lohr-art-8745448 | kultur | lohr
-- Spessartfestwoche-Lohr-Besucherschub-fünfte-Jahreszeit-Bierzelt | https://www.main-echo.de/region/kreis-main-spessart/geben-zwei-aktionstage-der-lohrer-festwoche-einen-besucherschub-art-8745297 | kultur | lohr
-- Alemannia-Haibach-Landesliga-Nordwest-Diaconu-Sieg-Neuhütten-Wiesthal | https://www.main-echo.de/sport/fussball/franken/landesliga-nordwest/viel-zu-chaotisch-haibach-und-die-gratwanderung-art-8745442 | sport | haibach-lkr-aschaffenburg
-- Bewegung-im-Park-Aschaffenburg-1-August-Yoga-Fitness-Gesundheitsmanagement | https://aschaffenburg.news/ab/aschaffenburg/aschaffenburg/aschaffenburg-bewegung-im-park-ab-1-august.html | freizeit | aschaffenburg
+- HPV-Impfwoche-8-Bayern-Gerlach-Gebärmutterhalskrebs-Papillomviren-Vorsorge-3-Juli | https://aschaffenburg.news/politik/gerlach-wirbt-fuer-hpv-impfungen.html | gesundheit | bayern
+- Waldaschaff-Kunstrasenplatz-517500-Euro-Bund-Lindholz-Sanierung-Sportstaetten | https://aschaffenburg.news/ab/waldaschaff/waldaschaff-517-500-euro-vom-bund-fuer-kunstrasenplatz.html | sport | waldaschaff-lkr-aschaffenburg
 
 ### 2026-07-03 (Ausgabe – 06:00 Uhr CEST)
 - Feuerwehr-Dauereinsatz-Aschaffenburg-Landkreis-Unwetter-100-Einsätze-Haibach-Akku-Brand | https://www.main-echo.de/ressorts/blaulicht/feuerwehren-im-landkreis-aschaffenburg-weiter-im-dauereinsatz-nach-unwettern-art-8744596 | blaulicht | lkr-aschaffenburg
@@ -192,20 +187,3 @@
 - Sommerkahl-Wasserknappheit-Trinkwasser-sparen-Hitzesommer | https://www.main-echo.de/region/stadt-kreis-aschaffenburg/knappe-ressource-sommerkahler-fuer-sparsamen-umgang-mit-wasser-sensibilisieren-art-8744797 | umwelt | sommerkahl-lkr-aschaffenburg
 - Bachgaufest-Grossostheim-Programm-Familienunterhaltung | https://www.main-echo.de/region/stadt-kreis-aschaffenburg/das-erwartet-besucher-beim-bachgaufest-in-grossostheim-art-8744570 | freizeit | grossostheim
 - Bischbrunn-Löschfahrzeug-Haushalt-Feuerwehr-Gemeinderatsbeschluss | https://www.main-echo.de/region/kreis-main-spessart/bischbrunn-zoegert-beim-loeschfahrzeug-art-8744683 | politik | bischbrunn-main-spessart
-
-### 2026-07-03 (Ausgabe – 06:20 Uhr CEST)
-- VermisstBenjaminKeil-Urspringen-11-Jaehriger-Fahrrad-Suchaktion | https://aschaffenburg.news/main-spessart/vermisst-wo-ist-der-11-j%C3%A4hrige-benjamin-keil-aus-urspringen.html | blaulicht | urspringen-main-spessart
-- A3-Marktheidenfeld-Rettungswagen-Reifenplatzer-Gepaeck-Totalschaden | https://www.main-echo.de/ressorts/blaulicht/schwerer-unfall-auf-der-a3-bei-marktheidenfeld-rettungswagen-nur-noch-schrott-art-8745062 | blaulicht | marktheidenfeld-main-spessart
-- Lotus-Sportwagen-A3-Rohrbrunn-Weibersbrunn-Brand-140000Euro-Nordschleife | https://www.main-echo.de/ressorts/blaulicht/140000-euro-gehen-in-flammen-auf-fahrt-zur-nordschleife-findet-auf-der-a3-vorzeitiges-ende-art-8744673 | verkehr | weibersbrunn-lkr-aschaffenburg
-- Gemuenden-Bahnhof-Messerattacke-Prozess-Landgericht-Wuerzburg-Mordversuch | https://www.main-echo.de/region/kreis-main-spessart/tatort-bahnhof-gemuenden-war-es-versuchter-mord-art-8744784 | justiz | gemünden-main-spessart
-- Karlstadt-Jugendliche-Schlaegerei-Helfenstein-sieben-Tatverdaechtige | https://www.main-echo.de/ressorts/blaulicht/auseinandersetzung-unter-jugendlichen-in-karlstadt-zeugen-gesucht-art-8744732 | blaulicht | karlstadt-main-spessart
-- Lohr-Gartenzwerg-Hammer-Seniorin-verletzt-Gewahrsam-Klinik | https://www.main-echo.de/region/kreis-main-spessart/topthemen/tumult-in-lohrs-innenstadt-das-ist-der-stand-der-polizeilichen-ermittlungen-art-8744766 | blaulicht | lohr
-- Erlenbach-Katze-Luftgewehr-Roentgenbild-eingeschlaefert-Tierschutzgesetz | https://www.infranken.de/lk/main-spessart/blaulicht/erlenbach-katze-kehrt-schwerst-verletzt-heim-roentgenbild-zeigt-grausame-tat-art-6374344 | justiz | erlenbach-main-spessart
-- Segeljolle-Kleinostheim-gekentert-Wasserschutzpolizei-Uebung-Skipper | https://www.meine-news.de/kleinostheim/c-blaulicht/kleinostheim-segeljolle-gekentert-rettungskraefte-aufgrund-einer-uebung-gleich-vor-ort_a238534 | blaulicht | kleinostheim
-- Gewalt-Polizeibeamte-Bayern-Lagebild2025-Hoechststand-Herrmann-Eisenreich | https://aschaffenburg.news/politik/gewalt-gegen-polizeibeamte-in-bayern-bleibt-auf-hohem-niveau.html | politik | bayern
-- Shishas-Lohr-Startup-Alexander-Schmidt-Weltspitze-Luxussegment | https://www.main-echo.de/region/kreis-main-spessart/shishas-fuer-1000-und-eine-nacht-vom-startup-in-lohr-zur-weltspitze-art-8743743 | wirtschaft | lohr
-- ADHS-Selbsthilfegruppe-Aschaffenburg-Bildungsbuero-Erwachsene | https://aschaffenburg.news/ab/aschaffenburg/aschaffenburg/aschaffenburg-neue-selbsthilfegruppe-für-menschen-mit-adhs.html | gesundheit | aschaffenburg
-- Oeko-Modellregion-Ruecksichtnahme-Landwirtschaft-Kampagne-Lkr-Aschaffenburg | https://www.meine-news.de/landkreis-aschaffenburg/c-auto-und-co/ruecksichtnahme-fuer-die-landwirtschaft_a238507 | umwelt | lkr-aschaffenburg
-- Klimaspaziergaenge-Karlstadt-Marktheidenfeld-Hitze-Trockenheit-Energieagentur | https://www.main-spessart.de/aktuelles/pressemitteilungen/11146.Klimaspaziergaenge-in-Karlstadt-und-Marktheidenfeld-Was-tun-bei-Hitze-und-Trockenheit.html | umwelt | karlstadt-marktheidenfeld-main-spessart
-- Alzenau-White-Night-Sommerabend-Weiss-GHG-Innenstadt | https://www.main-echo.de/region/stadt-kreis-aschaffenburg/ein-sommerabend-ganz-in-weiss-art-8740167 | kultur | alzenau
-- Frammersbacher-Festtage-2026-Tag-des-Rocks-Bierumzug-Fool-Moon-Fever | https://www.main-echo.de/freizeit/veranstaltungen/frammersbacher-festtage-2026-evt-4271525 | kultur | frammersbach
