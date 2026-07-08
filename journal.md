@@ -1,19 +1,37 @@
 # Tagesnachrichten-Journal – domezos2024/aktuelles
 
-## Design – 2026-07-07 – 06:00 Uhr CEST
-- Schema: Ozean-Aqua (kühles Blau/Türkis, maritime Frische)
-- Header-Gradient: #0a4c6a → #0891b2 → #0e7490 (Tiefsee-Blau → Ozean-Türkis)
-- Hintergrund: #e8f4f8 (helles Aqua-Grau)
-- Karten: #ffffff, border #b8dce8, linker Akzentstreifen je Kategorie
-- Akzentfarben: #c62828 · #1565c0 · #e65100 · #558b2f · #6a1b9a · #00695c · #4527a0 · #ad1457 · #37474f · #2e7d32
-- Layout: grid-2col (auto-fit, zweispaltiges Karten-Grid, min 320px)
-- Fonts: Georgia/'Times New Roman' (Headlines, Serif) + 'Segoe UI'/Inter/Tahoma (Fließtext, Sans-Serif)
+## Design – 2026-07-08 – 06:20 Uhr CEST
+- Schema: Kornfeld-Sommergold (warmes Amber/Terrakotta, Hochsommer-Stimmung)
+- Header-Gradient: #b45309 → #d97706 → #92400e (Bernstein → tiefes Terrakotta-Braun)
+- Hintergrund: #fdf6e3 (warmes Creme/Weizen)
+- Karten: #fffdf8, border #e8d5a3, abgerundete 14px-Ecken mit Schlagschatten, linker Akzentstreifen je Kategorie
+- Akzentfarben: #b91c1c · #7c3aed · #1d4ed8 · #c2410c · #57534e · #be185d · #4d7c0f · #0f766e · #44403c · #6d28d9 · #15803d
+- Layout: grid-3col (feste dreispaltige Karten-Grid, Breakpoints bei 900px/600px)
+- Fonts: Verdana/Tahoma (Headlines, Sans-Serif) + 'Palatino Linotype'/'Book Antiqua' (Fließtext, Serif)
+- Zusatzelemente: Newsletter-Anmeldebox (Amber-Verlauf) unter dem Header, Jahreszeit-Info-Box (Feiertage/Ferien)
 
 ---
 
 ## Themen-Archiv (letzte 10 Tage – NICHT wiederholen!)
 
-### 2026-07-07 (Ausgabe – 06:00 Uhr CEST) ← heute, neu hinzugefügt
+### 2026-07-08 (Ausgabe – 06:20 Uhr CEST) ← heute, neu hinzugefügt
+- Alzenau-Kälberau-Regionalzug-Radfahrerin-toedlich-Bahnuebergang-Kahlgrundbahn | https://www.infranken.de/lk/aschaffenburg/blaulicht/alzenau-regionalzug-ueberrollt-radfahrerin-tragischer-tod-art-6376633 | blaulicht | alzenau-kälberau-lkr-aschaffenburg
+- A3-Bischbrunn-Wohnmobil-Brand-77Jaehriger-verletzt-Vollsperrung | https://www.infranken.de/lk/main-spessart/blaulicht/a3-bei-bischbrunn-gesperrt-wohnmobil-brennt-rettungshubschrauber-alarmiert-art-6376578 | blaulicht | bischbrunn-main-spessart
+- Karlstadt-Motorradunfall-MSP8-36Jaehriger-schwer-verletzt-Hubschrauber | https://www.infranken.de/lk/main-spessart/blaulicht/unfall-bei-karlstadt-biker-erleidet-schwere-verletzungen-art-6376529 | blaulicht | karlstadt-main-spessart
+- Gemuenden-Amtsgericht-Vergewaltigung-Minderjaehrige-Fussfessel-23Jaehriger-Prozess | https://www.main-echo.de/region/kreis-main-spessart/noch-im-gerichtssaal-faellt-die-fussfessel-art-8747196 | justiz | gemünden-main-spessart
+- Aschaffenburg-Feuerverbot-offenes-Feuer-Trockenheit-Brandgefahr-Stadtgebiet | https://www.main-echo.de/region/stadt-kreis-aschaffenburg/ab-sofort-offenes-feuer-ausserhalb-des-bebauten-stadtgebiets-in-aschaffenburg-art-8747146 | umwelt | aschaffenburg
+- Partenstein-Bahnhof-Aufzug-Umbau-pausiert-TUEV-Pruefung-sechs-Wochen | https://www.main-echo.de/region/kreis-main-spessart/arbeiten-am-partensteiner-bahnhof-pausieren-art-8747109 | verkehr | partenstein-main-spessart
+- Kahlgrund-Rad-Demo-sechste-Staatsstrassenausbau-Alzenau-Protest | https://www.main-echo.de/region/stadt-kreis-aschaffenburg/kahlgrund-wieder-rad-demo-gegen-staatsstrassenausbau-art-8746635 | verkehr | kahlgrund-alzenau-lkr-aschaffenburg
+- Lohr-Ostlandstrasse-Sperrung-21-Juli-Bauarbeiten | https://www.main-echo.de/region/kreis-main-spessart/sperrung-der-ostlandstrasse-in-lohr-art-8747010 | verkehr | lohr-main-spessart
+- Kirchnerhaus-Brigitte-Schad-Bayerischer-Verdienstorden-Kunsthalle-Jesuitenkirche | https://www.main-echo.de/region/stadt-kreis-aschaffenburg/kirchnerhaus-vereinsgruenderin-brigitte-schad-mit-bayerischem-verdienstorden-gewuerdigt-art-8747185 | kultur | aschaffenburg-kirchnerhaus
+- Kirchner-erste-Zeichnung-1884-Eisenbahnszene-Schenkung-Sensation | https://www.main-echo.de/region/stadt-kreis-aschaffenburg/eine-sensation-das-erste-bild-ernst-ludwig-kirchners-nun-in-aschaffenburg-art-8747164 | kultur | aschaffenburg-kirchnerhaus
+- Aschaffenburg-Damm-fuenf-XXL-Murals-Wandgemaelde-Streetart | https://www.main-echo.de/region/stadt-kreis-aschaffenburg/wo-in-aschaffenburg-fuenf-murals-entstehen-art-8747204 | kultur | aschaffenburg-damm
+- Mainaschaff-Mainparkcenter-Aufzugsausfall-seit-April-Aerztehaus-Haertefall | https://www.main-echo.de/region/stadt-kreis-aschaffenburg/haertefall-im-mainaschaffer-mainparkcenter-aufzugsausfall-belastet-patienten-und-dienstleister-art-8747076 | gesundheit | mainaschaff-lkr-aschaffenburg
+- Ludger-Kiesler-Stadtwald-Aschaffenburg-34-Jahre-Ruhestand-Forstamt-Fasanerie | https://www.main-echo.de/region/stadt-kreis-aschaffenburg/34-jahre-lang-im-aschaffenburger-stadtwald-gewirkt-von-900000-baumpflaenzchen-und-totem-holz-art-8747222 | gesellschaft | aschaffenburg-stadtwald
+- Lohr-Kinderbetreuung-Bedarfsplanung-Stadtrat-einstimmig-Ausschuss | https://www.main-echo.de/region/kreis-main-spessart/bedarf-fuer-kinderbetreuung-in-lohr-waechst-art-8747020 | gesellschaft | lohr-main-spessart
+- Walter-Kunkel-Lohr-Nachruf-91-Jahre-Schreiner-Maennerballett-Musiker | https://www.main-echo.de/region/kreis-main-spessart/moebel-musik-und-maennerballett-art-8747223 | gesellschaft | lohr-main-spessart
+
+### 2026-07-07 (Ausgabe – 06:00 Uhr CEST)
 - ICE-Zellingen-960-Fahrgaeste-evakuiert-Regionalbahn-Main-Spessart | https://www.main-echo.de/region/kreis-main-spessart/retter-holen-920-fahrgaeste-aus-ice-bei-zellingen-art-8746636 | blaulicht | zellingen-main-spessart
 - Traktor-Mainbullau-Anhaenger-verkeilt-Gefaellstrecke-MIL5-Miltenberg | https://www.main-echo.de/ressorts/blaulicht/mainbullau-traktor-mit-zwei-anhaengern-verkeilt-sich-auf-gefaellstrecke-art-8746964 | blaulicht | mainbullau-miltenberg
 - Zugbegleiter-Regionalbahn-RB58064-Wuerzburg-Gemuenden-Ellenbogenschlag | https://www.main-echo.de/ressorts/blaulicht/zugbegleiter-in-regionalbahn-angegriffen-art-8746619 | blaulicht | gemünden-main-spessart
