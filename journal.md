@@ -1,19 +1,37 @@
 # Tagesnachrichten-Journal – domezos2024/aktuelles
 
-## Design – 2026-07-08 – 08:00 Uhr CEST
-- Schema: Spessart-Waldgrün (tiefes Tannengrün, Naturgrau, frisches Hellgrün)
-- Header-Gradient: #1b5e20 → #2e7d32 → #388e3c → #1b5e20 (Tannengrün diagonal)
-- Hintergrund: #e8f5e9 (helles Mintgrün)
-- Karten: #ffffff, border-top farbig je Kategorie, abgerundete 12px-Ecken, Schlagschatten
-- Akzentfarben: #1565c0 · #6a1b9a · #bf360c · #e65100 · #37474f · #ad1457 · #558b2f · #00695c · #2e7d32 · #0277bd · #6d4c41
-- Layout: grid-3col (Breakpoints bei 900px/600px)
-- Fonts: Arial/Helvetica (Headlines, Sans-Serif) + Georgia/'Times New Roman' (Fließtext, Serif)
+## Design – 2026-07-09 – 06:20 Uhr CEST
+- Schema: Hochsommer-Gold (warmes Bernstein/Amber, Sonnenblumengelb, warme Creme)
+- Header-Gradient: #92400E → #B45309 → #D97706 → #F59E0B → #FBBF24 (Bernstein diagonal)
+- Hintergrund: #FFFBEB (warmes Creme)
+- Karten: #ffffff, border-top farbig je Kategorie, abgerundete 10px-Ecken, Schlagschatten
+- Akzentfarben: #1D4ED8 · #B91C1C · #C2410C · #0369A1 · #0F766E · #4D7C0F · #44403C · #6D28D9 · #BE185D · #92400E
+- Layout: grid-2col (Breakpoint bei 700px)
+- Fonts: Verdana/Geneva/Tahoma (Headlines, Sans-Serif) + Palatino Linotype/Book Antiqua (Fließtext, Serif)
+- Zusatzelemente: Info-Box „Hochsommer & Kiliani-Volksfest" (Feiertage/Saison-Erklärung), Newsletter-Anmeldebox (amberfarben)
 
 ---
 
 ## Themen-Archiv (letzte 10 Tage – NICHT wiederholen!)
 
-### 2026-07-08 (Ausgabe – 08:00 Uhr CEST) ← heute, neu hinzugefügt
+### 2026-07-09 (Ausgabe – 06:20 Uhr CEST) ← heute, neu hinzugefügt
+- Wohnhausbrand-Alzenau-Maerkerstrasse-Vollbrand-vier-Verletzte | https://www.meine-news.de/alzenau/c-blaulicht/wohnhausbrand-in-alzenau-am-08072026_a239077 | blaulicht | alzenau-lkr-aschaffenburg
+- EScooter-Diebstahl-Aschaffenburg-Damm-Daemmer-Tor | https://www.meine-news.de/damm/c-blaulicht/damm-unbekannter-entwendet-e-scooter_a239041 | blaulicht | aschaffenburg-damm
+- Kleinbrand-Karlburg-Delle-Arnstein-Fahrerflucht-Marktheidenfeld-Zigarette | https://www.meine-news.de/landkreis-main-spessart/c-blaulicht/main-spessart-glimmende-zigarette-verursacht-kleinbrand-auf-balkon-unbekannter-verursacht-dellen-in-der-karosserie-unbekannter-faehrt-pkw-an-und-fluechtet_a239047 | blaulicht | karlburg-arnstein-marktheidenfeld-main-spessart
+- Leidersbach-Verkehrskontrolle-Cannabisverdacht-Aufenthaltsstatus-Brasilianer | https://aschaffenburg.news/bayern/landkreis-miltenberg/leidersbach-verkehrskontrolle-f%C3%BChrt-zu-mehreren-straf-und-ordnungswidrigkeitenverfahren.html | blaulicht | leidersbach-lkr-miltenberg
+- Mayors-for-Peace-Flagge-Aschaffenburg-Rathaus-Atomwaffen-Beflaggungsdebatte | https://www.main-echo.de/region/stadt-kreis-aschaffenburg/aschaffenburg-warum-die-fahne-gegen-atomwaffen-wehen-darf-art-8747842 | politik | aschaffenburg
+- XXL-Wasserleitungsbau-Aschaffenburg-DS-Smith-20-Millionen-Damm-Strietwald | https://www.main-echo.de/region/stadt-kreis-aschaffenburg/xxl-wasserleitungsbau-in-aschaffenburg-wie-man-baustellen-umfahren-kann-art-8747791 | wirtschaft | aschaffenburg-damm-strietwald
+- Vollsperrung-MSP16-Karsbach-B27-14-bis-17-Juli-Strassenbau | https://www.main-spessart.de/aktuelles/pressemitteilungen/11157.Vollsperrung-der-Kreisstrasse-MSP-16-zwischen-Karsbach-und-Abzweig-B-27.html | verkehr | karsbach-main-spessart
+- Rad-Check-Karlstadt-86-Fahrraeder-STADTRADELN-Sicherheitspruefung | https://www.main-spessart.de/aktuelles/pressemitteilungen/11153.86-Fahrraeder-beim-kostenlosen-Rad-Check-ueberprueft.html | verkehr | karlstadt-main-spessart
+- Pflegekonferenz-Lohr-Landrat-Vogel-Fachkraeftemangel-Pflege | https://www.main-spessart.de/aktuelles/pressemitteilungen/11156.Pflegekonferenz-in-Lohr-Landrat-Vogel-will-dem-Fachkraeftemangel-in-der-Pflege-entgegensteuern.html | gesundheit | lohr-main-spessart
+- Ameisen-Alarm-Hoesbach-Grosse-Druesenameise-Tapinoma-Friedhof-Heisswasser | https://www.infranken.de/lk/aschaffenburg/ameisen-alarm-in-hoesbach-fraenkische-gemeinde-kaempft-gegen-ausbreitung-art-6376991 | umwelt | hoesbach-lkr-aschaffenburg
+- Online-Umfrage-Klimawandel-Main-Spessart-Regionalmanagement-Buergerbeteiligung | https://www.main-spessart.de/aktuelles/pressemitteilungen/11154.Online-Umfrage-zum-Klimawandel-in-Main-Spessart--Erfahrungen-der-Buergerinnen-und-Buerger-wichtig--Jetzt-mitmachen.html | umwelt | lkr-main-spessart
+- Zulassungsstelle-Lohr-geschlossen-13-bis-17-Juli-Elektroarbeiten | https://www.main-spessart.de/aktuelles/pressemitteilungen/11151.Zulassungsstelle-Lohr-bleibt-von-13.-bis-17.-Juli-voruebergehend-geschlossen.html | gesellschaft | lohr-main-spessart
+- JEG-Elsenfeld-Partnerschule-ZDF-goes-Schule-Medienbildung | https://www.meine-news.de/elsenfeld/c-schule-und-bildung/jeg-ist-neue-partnerschule-bei-zdf-goes-schule_a239065 | bildung | elsenfeld-lkr-miltenberg
+- Naturparkfuehrertreffen-Schloss-Waechtersbach-Spessart-Hessen-Bayern | https://www.meine-news.de/landkreis-main-spessart/c-kultur/naturparkfuehrende-erkunden-schloss-waechtersbach-und-tauschen-erfahrungen-aus_a239044 | kultur | spessart-grenzueberschreitend
+- Fraenkische-Perle-Amorbach-schoenste-Kleinstadt-Deutschlands-Abteikirche | https://www.infranken.de/lk/miltenberg/ausflug/fraenkische-perle-kleinstadt-ist-eine-der-schoensten-deutschlands-art-6371924 | freizeit | amorbach-lkr-miltenberg
+
+### 2026-07-08 (Ausgabe – 08:00 Uhr CEST)
 - Motorradflucht-Partenstein-Polizeikontrolle-Tatverdaechtiger-ermittelt | https://www.main-echo.de/ressorts/blaulicht/motorradflucht-vor-polizei-in-partenstein-tatverdaechtiger-ermittelt-art-8747087 | blaulicht | partenstein-main-spessart
 - Muellauto-Brand-Explosion-Markt-Retzbach-Feuerwehr-Grosseinsatz | https://www.main-echo.de/ressorts/blaulicht/markt-retzbach-brand-nach-explosion-in-muellfahrzeug-art-8747068 | blaulicht | retzbach-main-spessart
 - Ueberholmanoever-B27-Karlstadt-Strassenverkehrsgefaehrdung-Zeugen | https://www.main-echo.de/ressorts/blaulicht/gefaehrliches-ueberholmanoever-auf-der-b27-bei-karlstadt-art-8747067 | blaulicht | karlstadt-main-spessart
