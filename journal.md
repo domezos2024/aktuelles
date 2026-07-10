@@ -1,20 +1,36 @@
 # Tagesnachrichten-Journal – domezos2024/aktuelles
 
-## Design – 2026-07-10 – 06:20 Uhr CEST
-- Schema: Sonnengold-Terrakotta (Hochsommer-Hitze, warme Cremetöne, Terrakotta/Gold)
-- Header-Gradient: #6A1B0A → #B5460A → #E76F00 → #FFB703 (Sonnenuntergangs-Diagonale)
-- Hintergrund: #FFF8ED (warmes Creme, helles Theme statt Vortag-Dunkelblau)
-- Karten: #FFFFFF, border-top 5px farbig je Kategorie, abgerundete 12px-Ecken, weicher Schlagschatten
-- Akzentfarben: #C1121F · #6A040F · #E85D04 · #003049 · #6A4C93 · #A6720A · #588157 · #9C6644 · #2A9D8F · #FFB703
-- Layout: grid auto-fit minmax(420px,1fr) (2-spaltig Desktop, 1-spaltig mobil – anders als Vortag)
-- Fonts: Verdana/Tahoma (Fließtext, Sans-Serif) + Trebuchet MS/Segoe UI (Headlines, Sans-Serif) – reines Sans-Serif-Duo statt Vortag-Serif/Sans-Mix
-- Zusatzelemente: CSS-Lightbox per :target, scrollbare Stunden-Wetterleiste, 3 Forecast-Karten, Sommerkalender-Infobox, Newsletter-Anmeldeformular (POST an save_email.php)
+## Design – 2026-07-10 – 06:00 Uhr CEST
+- Schema: Küstenblau-Minze (marines Blau-Grün, frisches helles Theme – komplett anders als Vortag Sonnengold-Terrakotta)
+- Header-Gradient: #003F5C → #0B6E8C → #2A9D8F (marines Blau-Grün-Diagonal)
+- Hintergrund: #EEF7F9 (helles Eisblau-Creme)
+- Karten: #FFFFFF, border-top 5px farbig je Kategorie, border-radius 12px, leichter Blau-Schatten
+- Akzentfarben: #2A9D8F · #005F73 · #0A9396 · #94D2BD · #C1121F · #E85D04 · #40916C · #0077B6 · #7B2D8B · #D4A017
+- Layout: grid auto-fit minmax(400px,1fr) (2-spaltig Desktop, 1-spaltig mobil)
+- Fonts: Gill Sans / Trebuchet MS (Fließtext, Sans-Serif) + Century Gothic / Futura (Headlines, Sans-Serif) – reines maritim-modernes Sans-Serif-Duo
 
 ---
 
 ## Themen-Archiv (letzte 10 Tage – NICHT wiederholen!)
 
-### 2026-07-10 (Ausgabe – 06:20 Uhr CEST) ← heute, neu hinzugefügt
+### 2026-07-10 (Ausgabe – 06:00 Uhr CEST) ← heute, neu hinzugefügt
+- Johannesberg-Rueckersbach-42-Jaehriger-vermisst-Fahrrad-Suchaktion-Polizei | https://www.meine-news.de/rueckersbach/c-blaulicht/johannesberg-ot-rueckersbach-42-jaehriger-vermisst-wer-kann-hinweise-geben_a239191 | blaulicht | johannesberg-lkr-aschaffenburg
+- Johannesberg-Ringe-Fund-Kripo-neue-Erkenntnisse-Jahrtausendwende-Schmuck | https://www.main-echo.de/ressorts/blaulicht/neue-erkenntnisse-zum-ringe-fund-in-johannesberg-art-8748406 | blaulicht | johannesberg-lkr-aschaffenburg
+- Parkplatzunfaelle-Erlenbach-Buergstadt-Zeugen-Fahrerflucht-Lkr-Miltenberg | https://www.main-echo.de/ressorts/blaulicht/zeugen-gesucht-nach-parkplatzunfaellen-in-erlenbach-und-buergstadt-art-8748281 | blaulicht | erlenbach-buergstadt-lkr-miltenberg
+- Diebstahl-Brand-Zerstoerungen-Landkreis-Main-Spessart-E-Scooter | https://www.main-echo.de/ressorts/blaulicht/zeugen-gesucht-diebstahl-brand-und-zerstoerungen-im-landkreis-main-spessart-art-8748282 | blaulicht | lkr-main-spessart
+- Wasserrohrbruch-Egerer-Strasse-Lohr-gesperrt-bis-17-Juli | https://www.main-echo.de/region/kreis-main-spessart/wasserrohrbruch-strasse-in-lohr-gesperrt-art-8748819 | verkehr | lohr-main-spessart
+- Marode-Bruecke-Triefenstein-Handlungsbedarf-Sanierung | https://www.main-echo.de/region/kreis-main-spessart/marode-bruecke-in-triefenstein-art-8748811 | verkehr | triefenstein-main-spessart
+- Trockene-Baeume-Totholz-Stadtwald-Marktheidenfeld-Gefahr-Hitze | https://www.main-echo.de/region/kreis-main-spessart/trockene-baeume-gefahr-im-stadtwald-art-8748364 | umwelt | marktheidenfeld-main-spessart
+- Pfarrbueros-Pastoraler-Raum-Lohr-bleiben-Diözese-Wuerzburg | https://www.main-echo.de/region/kreis-main-spessart/kein-rueckzug-aus-der-flaeche-geplant-art-8748238 | gesellschaft | lohr-main-spessart
+- Krankschreibung-erstem-Tag-Telefon-Aerzte-Region-neue-Regelung | https://www.main-echo.de/region/stadt-kreis-aschaffenburg/krankschreibung-ab-dem-ersten-tag-und-nicht-mehr-per-telefon-was-aerzte-aus-der-region-dazu-sagen-art-8748469 | gesundheit | aschaffenburg-main-spessart
+- Klimakatastrophe-Klassenzimmer-Hitzeschutzplan-Schulen-Aschaffenburg | https://www.main-echo.de/region/stadt-kreis-aschaffenburg/klimakatastrophe-klassenzimmer-kurzstunden-homeschooling-hitzeschutzplan-welche-loesungen-es-jetzt-braucht-art-8748818 | gesellschaft | aschaffenburg
+- Kita-Hafenlohr-MINT-Auszeichnung-Naturwissenschaften-Main-Spessart | https://www.main-echo.de/region/kreis-main-spessart/kita-hafenlohr-erhaelt-mint-auszeichnung-art-8748363 | bildung | hafenlohr-main-spessart
+- Foerderung-570000-Euro-Kita-Anbau-Krombach-Krippengruppen | https://www.main-echo.de/region/stadt-kreis-aschaffenburg/foerderung-fuer-kita-anbau-in-krombach-art-8748376 | gesellschaft | krombach-lkr-aschaffenburg
+- Fest-Vielfalt-2026-Aschaffenburg-Programm-interkulturell | https://www.main-echo.de/region/stadt-kreis-aschaffenburg/wie-es-mit-dem-fest-fuer-vielfalt-weiter-geht-art-8748326 | kultur | aschaffenburg
+- Kleinkahl-Feuerwehr-150-Jahre-Jubilaeum-Feuereimergeld-Braeutigame | https://www.main-echo.de/region/stadt-kreis-aschaffenburg/als-die-braeutigame-noch-feuereimergeld-zahlten-kleinkahler-feuerwehr-feiert-150-jaehriges-art-8748380 | gesellschaft | kleinkahl-lkr-aschaffenburg
+- Heidnueckelfest-Waldeslust-Laufach-75-Jahre-Vereinsjubilaeum | https://www.main-echo.de/region/stadt-kreis-aschaffenburg/wieder-heidnueckelfest-im-jubilaeumsjahr-waldeslust-laufach-feiert-75-jaehriges-art-8748304 | freizeit | laufach-lkr-aschaffenburg
+
+### 2026-07-10 (Ausgabe – 06:20 Uhr CEST)
 - Main-Spessart-Trickdiebe-Schmuck-Seniorin-Schweinfurt-Lohr-Sendelbach-gescheitert | https://www.meine-news.de/landkreis-main-spessart/c-blaulicht/main-spessart-dreist-agierende-diebe-seniorin-wird-schmuck-und-bargeld-entwendet-e-scooter-entwendet-busch-brannte-briefkasten-beschaedigt_a239128 | blaulicht | lohr-main-spessart
 - Kupferdiebe-silberner-VW-Golf-Waldaschaff-Aschaffenburg-Stockstadt-Schiffsfuehrer-Drogen | https://www.meine-news.de/landkreis-aschaffenburg/c-blaulicht/raum-aschaffenburg-kupferdiebstaehle-durch-unbekannte-frachtschiff-kontrolle-durch-wasserschutzpolizei-schiffsfuehrer-unter-drogeneinfluss_a239137 | blaulicht | waldaschaff-lkr-aschaffenburg
 - Kletterunfall-Steinbruch-Miltenberg-58-Jaehrige-fuenf-Meter-Sturz-Rettungshubschrauber | https://www.meine-news.de/landkreis-miltenberg/c-blaulicht/kreis-miltenberg-kletterunfall-im-steinbruch-58-jaehrige-schwer-verletzt-pkws-angefahren-unfallfluchten_a239140 | blaulicht | miltenberg-lkr-miltenberg
@@ -149,20 +165,3 @@
 - Waldaschaff-Bauturbo-Leitplanken-Gemeinderat-vereinfachtes-Verfahren | https://www.main-echo.de/region/stadt-kreis-aschaffenburg/waldaschaff-setzt-leitplanken-fuer-den-bauturbo-vereinfachtes-bauverfahren-nicht-in-allen-faellen-art-8746039 | politik | waldaschaff-aschaffenburg
 - Kleinostheim-E-Ladestationen-Weihnachtsmarkt-Buergerversammlung | https://www.main-echo.de/region/stadt-kreis-aschaffenburg/e-ladestationen-weihnachtsmarkt-und-buergerversammlung-art-8746034 | wirtschaft | kleinostheim-aschaffenburg
 - Jugendbefragung-Aschaffenburg-bis-26-Juli-Lebensrealitaet-Stadtentwicklung | https://www.main-echo.de/region/stadt-kreis-aschaffenburg/jugend-in-aschaffenburg-wird-befragt-art-8746455 | gesellschaft | aschaffenburg
-
-### 2026-07-06 (Ausgabe – 06:15 Uhr CEST)
-- Callcenterbetrug-falscher-Arzt-Lohr-Sendelbach-Veilchenweg-Krebsdiagnose | https://www.meine-news.de/landkreis-main-spessart/c-blaulicht/main-spessart-erfolgreicher-callcenterbetrug-falscher-arzt-ruft-an-seitenspiegel-eines-geparkten-vw-multivan-abgefahren-hydraulikoel-in-einen-brueckenpfosten-gefuellt_a238717 | blaulicht | lohr-main-spessart
-- Fahrertausch-Polizeikontrolle-A3-Stockstadt-Drogenverdacht-Blutentnahme | https://www.main-echo.de/ressorts/blaulicht/fahrertausch-vor-polizeikontrolle-auf-a3-bei-stockstadt-art-8745949 | blaulicht | stockstadt-aschaffenburg
-- Wohnmobil-umgestuerzt-A3-Marktheidenfeld-Vollsperrung-Bergung | https://www.main-echo.de/ressorts/blaulicht/wohnmobil-lag-auf-der-fahrbahn-behinderungen-auf-a3-art-8746029 | blaulicht | marktheidenfeld-main-spessart
-- Brandstiftungsverdacht-Eschau-Moenchberger-Weg-mehrere-Feuerstellen-Kripo | https://www.meine-news.de/landkreis-miltenberg/c-blaulicht/kreis-miltenberg-mehrere-brandstellen-durch-feuerwehr-geloescht-kriminalpolizei-ermittelt-wegen-brandstiftung-mann-entbloesst-sich-vor-zwei-jugendlichen-bmw-x1-angefahren_a238720 | blaulicht | eschau-miltenberg
-- Exhibitionist-Obernburg-Roemerstrasse-zwei-Jugendliche-26-Jaehriger | https://aschaffenburg.news/bayern/landkreis-miltenberg/obernburg-mann-entbl%C3%B6%C3%9Ft-sich-vor-zwei-jugendlichen.html | blaulicht | obernburg-miltenberg
-- Fahrerflucht-Grossostheim-Zum-Hoenig-Mini-Cooper-Opel-Astra-40000Euro | https://aschaffenburg.news/ab/markt-gro%C3%9Fostheim/gro%C3%9Fostheim/gro%C3%9Fostheim-unfallverursacher-entfernt-sich-unerlaubt.html | blaulicht | grossostheim-aschaffenburg
-- Herrmann-Schwerpunktwochen-Landstrassensicherheit-31869-Verstoesse-Bilanz | https://aschaffenburg.news/politik/herrmann-schwerpunktwochen-zur-landstra%C3%9Fensicherheit-beendet.html | politik | bayern
-- Herrmann-1300-neue-Polizisten-vereidigt-Nuernberg-Frankenhalle-Soeder | https://aschaffenburg.news/politik/herrmann-fast-1-300-neue-polizistinnen-und-polizisten-vereidigt.html | politik | nuernberg-bayern
-- SPD-Unterfranken-Doppelspitze-Nembach-Michniok-Bad-Koenigshofen-Ruetzel-Nachfolge | https://www.main-echo.de/region/kreis-main-spessart/topthemen/unterfrankens-spd-jetzt-mit-doppelspitze-die-so-nicht-absehbar-war-art-8745929 | politik | bad-koenigshofen-unterfranken
-- Schoellkrippen-Hundekot-Hundehalter-Kasse-Marktgemeinderat | https://www.main-echo.de/region/stadt-kreis-aschaffenburg/frust-ueber-kot-auf-wiesen-und-wegen-schoellkrippen-will-hundehalter-staerker-zur-kasse-bitten-art-8745967 | politik | schoellkrippen-aschaffenburg
-- Waldaschaff-Parkkonzept-Dauerparken-Kindergarten-Gemeinderat | https://www.main-echo.de/region/stadt-kreis-aschaffenburg/waldaschaff-will-mit-neuem-parkkonzept-das-dauerparken-vor-dem-kindergarten-loesen-art-8746024 | politik | waldaschaff-aschaffenburg
-- Waldstadt-Kleinostheim-kein-Glasfasernetz-Anschluss-Investor-Foerderung | https://www.main-echo.de/region/stadt-kreis-aschaffenburg/waldstadt-kleinostheim-noch-kein-anschluss-ans-glasfasernetz-in-sicht-art-8746025 | wirtschaft | kleinostheim-aschaffenburg
-- Adelsberg-KI-Staedtevergleich-37-Standorte-Darmstadt-Freiburg-Tuebingen | https://www.meine-news.de/adelsberg/c-wirtschaft/warum-kleinere-staedte-ploetzlich-ueberraschen_a238666 | wirtschaft | adelsberg-main-spessart
-- Tsukahara-Festival-Sailauf-23-Ausgabe-1200-Besucher-Volleyball-Rock | https://www.main-echo.de/region/stadt-kreis-aschaffenburg/familienspass-volleyball-und-rock-tsukahara-festival-in-sailauf-lockt-knapp-1200-besucher-art-8745956 | kultur | sailauf-aschaffenburg
-- Sandhasenrock-Kahl-33-Ausgabe-1000-Besucher-Waldseebad | https://www.main-echo.de/region/stadt-kreis-aschaffenburg/die-einen-chillen-die-anderen-rocken-ab-eindruecke-vom-sandhasenrock-mit-vielen-fotos-art-8745985 | kultur | kahl-aschaffenburg
