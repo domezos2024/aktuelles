@@ -1,20 +1,37 @@
 # Tagesnachrichten-Journal – domezos2024/aktuelles
 
-## Design – 2026-07-09 – 08:00 Uhr CEST
-- Schema: Mitternachtsblau-Ozean (Tiefseeblau, Ozean-Türkis, Eisblau)
-- Header-Gradient: #0B1E3D → #1A3A5C → #0E4D6B → #086B79 → #0A8080 (Tiefsee diagonal)
-- Hintergrund: #0F1C2E (Mitternachtsblau)
-- Karten: #112233, border-top 4px farbig je Kategorie, abgerundete 8px-Ecken, Schlagschatten
-- Akzentfarben: #E63946 · #3A7BD5 · #2ECC71 · #27AE60 · #9B59B6 · #E67E22 · #1ABC9C · #E91E63 · #00BCD4 · #FF9800 · #5BC0EB · #8FD3F4
-- Layout: grid auto-fill minmax(340px,1fr) (responsive, 3-2-1-spaltig)
-- Fonts: Georgia/Garamond (Fließtext, Serif) + Arial Narrow/Arial (Headlines, Sans-Serif)
-- Zusatzelemente: CSS-Lightbox per :target, scrollbare Stunden-Wetterleiste, 3 Forecast-Karten
+## Design – 2026-07-10 – 06:20 Uhr CEST
+- Schema: Sonnengold-Terrakotta (Hochsommer-Hitze, warme Cremetöne, Terrakotta/Gold)
+- Header-Gradient: #6A1B0A → #B5460A → #E76F00 → #FFB703 (Sonnenuntergangs-Diagonale)
+- Hintergrund: #FFF8ED (warmes Creme, helles Theme statt Vortag-Dunkelblau)
+- Karten: #FFFFFF, border-top 5px farbig je Kategorie, abgerundete 12px-Ecken, weicher Schlagschatten
+- Akzentfarben: #C1121F · #6A040F · #E85D04 · #003049 · #6A4C93 · #A6720A · #588157 · #9C6644 · #2A9D8F · #FFB703
+- Layout: grid auto-fit minmax(420px,1fr) (2-spaltig Desktop, 1-spaltig mobil – anders als Vortag)
+- Fonts: Verdana/Tahoma (Fließtext, Sans-Serif) + Trebuchet MS/Segoe UI (Headlines, Sans-Serif) – reines Sans-Serif-Duo statt Vortag-Serif/Sans-Mix
+- Zusatzelemente: CSS-Lightbox per :target, scrollbare Stunden-Wetterleiste, 3 Forecast-Karten, Sommerkalender-Infobox, Newsletter-Anmeldeformular (POST an save_email.php)
 
 ---
 
 ## Themen-Archiv (letzte 10 Tage – NICHT wiederholen!)
 
-### 2026-07-09 (Ausgabe – 08:00 Uhr CEST) ← heute, neu hinzugefügt
+### 2026-07-10 (Ausgabe – 06:20 Uhr CEST) ← heute, neu hinzugefügt
+- Main-Spessart-Trickdiebe-Schmuck-Seniorin-Schweinfurt-Lohr-Sendelbach-gescheitert | https://www.meine-news.de/landkreis-main-spessart/c-blaulicht/main-spessart-dreist-agierende-diebe-seniorin-wird-schmuck-und-bargeld-entwendet-e-scooter-entwendet-busch-brannte-briefkasten-beschaedigt_a239128 | blaulicht | lohr-main-spessart
+- Kupferdiebe-silberner-VW-Golf-Waldaschaff-Aschaffenburg-Stockstadt-Schiffsfuehrer-Drogen | https://www.meine-news.de/landkreis-aschaffenburg/c-blaulicht/raum-aschaffenburg-kupferdiebstaehle-durch-unbekannte-frachtschiff-kontrolle-durch-wasserschutzpolizei-schiffsfuehrer-unter-drogeneinfluss_a239137 | blaulicht | waldaschaff-lkr-aschaffenburg
+- Kletterunfall-Steinbruch-Miltenberg-58-Jaehrige-fuenf-Meter-Sturz-Rettungshubschrauber | https://www.meine-news.de/landkreis-miltenberg/c-blaulicht/kreis-miltenberg-kletterunfall-im-steinbruch-58-jaehrige-schwer-verletzt-pkws-angefahren-unfallfluchten_a239140 | blaulicht | miltenberg-lkr-miltenberg
+- Aschaffenburg-Einbruchsprozess-vertagt-neue-Beweisantraege-Landgericht | https://www.main-echo.de/region/stadt-kreis-aschaffenburg/neue-beweisantraege-einbruchsprozess-vertagt-art-8748629 | justiz | aschaffenburg
+- A3-Stockstadt-Auffahrunfall-Sattelzug-Ford-Fiesta-lange-Staus | https://www.main-echo.de/ressorts/blaulicht/lange-staus-nach-unfall-auf-der-a3-bei-stockstadt-art-8748397 | verkehr | stockstadt-lkr-aschaffenburg
+- Himmelstadt-Buergermeisterwahl-Hemmelmann-eine-Stimme-Vorsprung-gueltig | https://www.main-echo.de/region/kreis-main-spessart/wahl-des-buergermeisters-ist-gueltig-art-8748387 | politik | himmelstadt-main-spessart
+- Nahost-Konflikt-Engin-Dogan-Aschaffenburg-Gaza-Flottille-Rueckkehr | https://www.main-echo.de/region/stadt-kreis-aschaffenburg/nahost-konflikt-graffiti-kuenstler-engin-dogan-ist-wieder-in-aschaffenburg-und-erhebt-schwere-vorwuerfe-gegen-israel-art-8748475 | gesellschaft | aschaffenburg
+- Zego-Cyberangriff-Insolvenz-Textilveredler-Aschaffenburg | https://www.main-echo.de/region/stadt-kreis-aschaffenburg/cyberangriff-treibt-aschaffenburger-textil-betrieb-in-die-pleite-art-8748474 | wirtschaft | aschaffenburg
+- Pflaumheim-Tante-Enso-Genossenschaft-Nahversorger-Tegut-Schliessung | https://www.main-echo.de/region/stadt-kreis-aschaffenburg/pflaumheim-grosses-interesse-an-nahversorger-genossenschaftsmodell-doch-die-zeit-draengt-art-8748357 | wirtschaft | grossostheim-pflaumheim-lkr-aschaffenburg
+- Lohr-Postgebaeude-Vergabeverfahren-Investor-Ludwigstrasse | https://www.main-echo.de/region/kreis-main-spessart/stadt-lohr-sucht-investor-fuer-prominente-lage-art-8748315 | wirtschaft | lohr-main-spessart
+- B8-Sperrung-Marktheidenfeld-Erlenbach-ab-3-August-drei-Monate | https://www.main-echo.de/region/kreis-main-spessart/b-8-fuer-drei-monate-gesperrt-art-8748217 | verkehr | marktheidenfeld-main-spessart
+- Asiatische-Hornisse-Kreuzwertheim-Schule-Sichtung | https://www.main-echo.de/region/kreis-main-spessart/asiatische-hornisse-an-schule-gesichtet-art-8748373 | umwelt | kreuzwertheim-main-spessart
+- Muellkalender-Main-Spessart-App-Umstellung-ab-2027 | https://www.main-echo.de/region/kreis-main-spessart/muellkalender-nicht-fuer-die-tonne-art-8748404 | gesellschaft | lkr-main-spessart
+- Uschi-Glas-Filmdreh-Alzenau-Max-wilde-7-Geister-Oma | https://www.main-echo.de/region/stadt-kreis-aschaffenburg/filmdreh-mit-uschi-glas-in-alzenau-das-ist-der-stand-der-dinge-art-8748498 | kultur | alzenau-lkr-aschaffenburg
+- Scherenburgfestspiele-Gemuenden-Sherlock-Holmes-Premiere-VIP | https://www.main-echo.de/region/kreis-main-spessart/topthemen/scherenburgfestspiele-2026-die-sherlock-holmes-premiere-mit-vip-gaesten-erste-foto-impressionen-art-8748192 | kultur | gemuenden-main-spessart
+
+### 2026-07-09 (Ausgabe – 08:00 Uhr CEST)
 - Audi-Brand-Niedernberg-vollstaendig-ausgebrannt-Nacht-Donnerstag | https://www.main-echo.de/ressorts/blaulicht/audi-in-niedernberg-lichterloh-in-flammen-art-8748149 | blaulicht | niedernberg-lkr-miltenberg
 - Kleinostheim-9-Jaehriger-Traktor-Unfall-67-Jaehriger-verletzt-Fahrerlaubnis | https://aschaffenburg.news/ab/kleinostheim/kleinostheim/kleinostheim-neunjähriger-verursacht-unfall-mit-traktor.html | blaulicht | kleinostheim-lkr-aschaffenburg
 - Aschaffenburg-12-Jaehriger-Schulweg-BMW-touchiert-Fahrer-gesucht-Tretroller | https://aschaffenburg.news/ab/aschaffenburg/stadtmitte/aschaffenburg-zwölfjähriger-nach-verkehrsunfall-leicht-verletzt.html | blaulicht | aschaffenburg-innenstadt
