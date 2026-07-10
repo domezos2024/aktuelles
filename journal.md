@@ -1,19 +1,36 @@
 # Tagesnachrichten-Journal – domezos2024/aktuelles
 
-## Design – 2026-07-10 – 06:00 Uhr CEST
-- Schema: Küstenblau-Minze (marines Blau-Grün, frisches helles Theme – komplett anders als Vortag Sonnengold-Terrakotta)
-- Header-Gradient: #003F5C → #0B6E8C → #2A9D8F (marines Blau-Grün-Diagonal)
-- Hintergrund: #EEF7F9 (helles Eisblau-Creme)
-- Karten: #FFFFFF, border-top 5px farbig je Kategorie, border-radius 12px, leichter Blau-Schatten
-- Akzentfarben: #2A9D8F · #005F73 · #0A9396 · #94D2BD · #C1121F · #E85D04 · #40916C · #0077B6 · #7B2D8B · #D4A017
-- Layout: grid auto-fit minmax(400px,1fr) (2-spaltig Desktop, 1-spaltig mobil)
-- Fonts: Gill Sans / Trebuchet MS (Fließtext, Sans-Serif) + Century Gothic / Futura (Headlines, Sans-Serif) – reines maritim-modernes Sans-Serif-Duo
+## Design – 2026-07-11 – 00:20 Uhr CEST
+- Schema: Lavendel-Apricot Hochsommer (warmes Pflaume-Rosé-Aprikose-Theme – komplett anders als Vortag Küstenblau-Minze)
+- Header-Gradient: #5B3A5E → #A85A82 → #F0A868 (Pflaume-Rosé-Aprikose-Diagonal)
+- Hintergrund: #FBF2F6 (helles Lavendel-Creme)
+- Karten: #FFFFFF, border-top 5px farbig je Kategorie, border-radius 10px, warmer Pflaume-Schatten
+- Akzentfarben: #D97A4D · #5B3A5E · #C9A227 · #7FA88F · #A62639 · #2B3A67 · #8E5572 · #3E8989 · #4C7031 · #557153 · #2E6F95 · #6B4C9A · #6E2C2C · #B5794A
+- Layout: grid auto-fit minmax(320px,1fr) (3-spaltig Desktop, 1-spaltig mobil)
+- Fonts: Segoe UI / Verdana (Fließtext, Sans-Serif) + Palatino Linotype / Book Antiqua / Georgia (Headlines, Serif) – warmes Serif-Sans-Duo
 
 ---
 
 ## Themen-Archiv (letzte 10 Tage – NICHT wiederholen!)
 
-### 2026-07-10 (Ausgabe – 06:00 Uhr CEST) ← heute, neu hinzugefügt
+### 2026-07-11 (Ausgabe – 00:20 Uhr CEST) ← heute, neu hinzugefügt
+- Main-Spessart-Sammelmeldung-E-Auto-Eussenheim-Kind-Marktheidenfeld-schwer-verletzt-Radmuttern-Rothenfels | https://www.meine-news.de/landkreis-main-spessart/c-blaulicht/main-spessart-e-auto-ausgebrannt-explosion-eines-feuerzeugs-mutmasslich-ursaechlich-verkehrsunfall-zwischen-fahrrad-und-pkw-10-jaehriger-schwer-verletzt-radmuttern-geloest_a239236 | blaulicht | eussenheim-marktheidenfeld-rothenfels-main-spessart
+- Alzenau-Einbrueche-drei-Schulen-Rennradfahrer-Smart-Unfall-Aschaffenburg | https://www.meine-news.de/landkreis-aschaffenburg/c-blaulicht/raum-aschaffenburg-einbruch-in-drei-schulgebaeude-psychisch-belastete-person-randaliert-in-wohnung-verkehrsunfall-zwischen-einem-rennradfahrer-und-einem-smart_a239230 | blaulicht | alzenau-aschaffenburg-lkr-aschaffenburg
+- Grossostheim-44-Jaehriger-psychische-Ausnahmesituation-Gegenstaende-Fenster | https://www.infranken.de/lk/aschaffenburg/blaulicht/grossostheim-polizei-nimmt-mann-in-psychischer-ausnahmesituation-fest-art-6377827 | blaulicht | grossostheim-lkr-aschaffenburg
+- A3-Bessenbach-Unfall-Vollsperrung-Truemmerteile-Weibersbrunn-Rohrbrunn | https://www.main-echo.de/ressorts/blaulicht/unfall-auf-a3-zwischen-weibersbrunn-und-rohrbrunn-hat-es-gekracht-art-8748872 | blaulicht | bessenbach-lkr-aschaffenburg
+- Schollbrunn-Feuerwehr-verhindert-Waldbrand-Huettenbrand | https://www.main-echo.de/ressorts/blaulicht/feuerwehren-loeschen-huette-und-waldbrand-in-schollbrunn-art-8748824 | blaulicht | schollbrunn-main-spessart
+- Amtswechsel-Aschaffenburger-Kripo-Dencinger-folgt-Schlemmer | https://www.main-echo.de/region/stadt-kreis-aschaffenburg/amtswechsel-bei-aschaffenburger-kripo-vollzogen-dencinger-folgt-schlemmer-art-8749047 | politik | aschaffenburg
+- Miltenberg-Steuereinnahmen-sprudeln-wie-geplant-Rekordeinnahmen | https://www.main-echo.de/region/kreis-miltenberg/miltenberger-steuereinnahmen-sprudeln-wie-geplant-art-8748268 | wirtschaft | miltenberg-lkr-miltenberg
+- JUZ-Cup-Rothenbuch-Fussballturnier-Jugendzentren-Landkreis-Aschaffenburg | https://www.meine-news.de/landkreis-aschaffenburg/c-jugend/fussballturnier-der-jugendzentren-in-rothenbuch_a237685 | sport | rothenbuch-lkr-aschaffenburg
+- Rotary-Club-Obernburg-Praesidentschaftsuebergabe-Richter-Kenntemich | https://www.meine-news.de/aschaffenburg/c-vereine/praesidentschaftsuebergabe-rotary-obernburg_a239218 | gesellschaft | obernburg-lkr-miltenberg
+- Aschaffenburger-Museumsnacht-11-Juli-Kulturtage-QNTAL | https://www.main-echo.de/region/stadt-kreis-aschaffenburg/aschaffenburger-museumsnacht-am-11-juli-unsere-tipps-zur-veranstaltung-art-8743462 | kultur | aschaffenburg
+- Kaelberauer-Sommerfest-11-12-Juli-Alpakas-Gottesdienst | https://alzenau.bistum-wuerzburg.de/aktuelles/nachrichten/na-detail-1-1/ansicht/kaelberauer-sommerfest-am-11-und-12-juli | freizeit | alzenau-kaelberau-lkr-aschaffenburg
+- Frammersbacher-Festtage-Tag-der-Feuerwehren-Blaulichtmeile | https://www.main-echo.de/freizeit/veranstaltungen/frammersbacher-festtage-2026-evt-4270913 | freizeit | frammersbach-main-spessart
+- Sommernachtsfest-Wasserwacht-Mainparksee-50-Ausgabe-Mainaschaff | https://www.wasserwacht-mainparksee.de/SOMMERNACHTSFEST.htm | freizeit | mainaschaff-lkr-aschaffenburg
+- Erlenbacher-Weinfest-66-Ausgabe-Winzer-Festumzug | https://www.main-echo.de/region/kreis-miltenberg/66-erlenbacher-weinfest-mit-kulinarischem-und-musikalischem-angebot-art-8748383 | kultur | erlenbach-lkr-miltenberg
+- B469-Stockstadt-Nord-Grossostheim-Fahrbahnarbeiten-Ende | https://www.meine-news.de/landkreis-aschaffenburg/c-blaulicht/b-469-anschlussstelle-stockstadt-nord-anschlussstelle-grossostheim-verkehrsbeschraenkungen-infolge-von-fahrbahninstandhaltung_a238651 | verkehr | stockstadt-grossostheim-lkr-aschaffenburg
+
+### 2026-07-10 (Ausgabe – 06:00 Uhr CEST)
 - Johannesberg-Rueckersbach-42-Jaehriger-vermisst-Fahrrad-Suchaktion-Polizei | https://www.meine-news.de/rueckersbach/c-blaulicht/johannesberg-ot-rueckersbach-42-jaehriger-vermisst-wer-kann-hinweise-geben_a239191 | blaulicht | johannesberg-lkr-aschaffenburg
 - Johannesberg-Ringe-Fund-Kripo-neue-Erkenntnisse-Jahrtausendwende-Schmuck | https://www.main-echo.de/ressorts/blaulicht/neue-erkenntnisse-zum-ringe-fund-in-johannesberg-art-8748406 | blaulicht | johannesberg-lkr-aschaffenburg
 - Parkplatzunfaelle-Erlenbach-Buergstadt-Zeugen-Fahrerflucht-Lkr-Miltenberg | https://www.main-echo.de/ressorts/blaulicht/zeugen-gesucht-nach-parkplatzunfaellen-in-erlenbach-und-buergstadt-art-8748281 | blaulicht | erlenbach-buergstadt-lkr-miltenberg
