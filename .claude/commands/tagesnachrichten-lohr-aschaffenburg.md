@@ -67,6 +67,9 @@ Anforderungen:
 - **CSS-Lightbox:** `<a href="#img-N" id="img-N"><img ...></a>` + `<div id="lb-N">` (position:fixed, target-Selektor blendet ein). Pro Bild ein Overlay. Kein JS.
 - **Design täglich wechseln** (Font (auf gute Leserlichkeit achten), Farben, Header-Gradient, Hintergrund ≠ journal.md)
 - Zeitstempel und "Impressum: Coding der Seite erstellt/überwacht von Michael Bergfeld Email: info@domezos-ware.de" und eine Erklärung das die Angaben ohne Gewähr sind und auf deren Quellen zurückzuführen sind. Quellenliste im Footer
+- **Besucherzähler (unsichtbar, kein JS):** Direkt nach `<body>` immer folgendes Pixel-Tag einfügen (unverändert bei jedem Run übernehmen, NICHT löschen oder sichtbar machen):
+  `<img src="visit_counter.php" alt="" width="1" height="1" style="display:none" aria-hidden="true">`
+  Das Skript `visit_counter.php` (liegt im Repo-Root, wird NICHT von diesem Skill neu geschrieben) zählt bei jedem Seitenaufruf automatisch serverseitig mit und schreibt/aktualisiert `besucher.json` im selben Verzeichnis wie `index.html` – ein Eintrag pro Kalendertag (`{"Datum": "TT.MM.JJJJ", "Besucher": N}`), der sich beim ersten Aufruf eines neuen Tages automatisch neu anlegt. Diese beiden Dateien werden von der täglichen Routine nicht verändert, nur das Pixel-Tag in index.html muss bei jedem Neuschreiben erhalten bleiben.
 
 ## Schritt 7 – journal.md neu schreiben (rollierende 10-Tage-Historie)
 
