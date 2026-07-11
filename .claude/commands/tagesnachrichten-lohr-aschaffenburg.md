@@ -29,6 +29,8 @@ Suchanfragen:
 - "Landkreis Aschaffenburg aktuell"
 - "Unterfranken Nachrichten heute"
 
+WebFetch "https://www.mainpost.de/main-spessart/lohr"
+WebFetch "https://www.main-echo.de/region/mein-ort/97816-lohr/"
 WebFetch (letzte 48h): main-echo.de, infranken.de, aschaffenburg.news, meine-news.de, br.de/nachrichten/bayern
 
 ### Bilder & Videos zu jeder Meldung extrahieren
