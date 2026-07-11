@@ -1,19 +1,36 @@
 # Tagesnachrichten-Journal – domezos2024/aktuelles
 
-## Design – 2026-07-11 – 00:20 Uhr CEST
-- Schema: Lavendel-Apricot Hochsommer (warmes Pflaume-Rosé-Aprikose-Theme – komplett anders als Vortag Küstenblau-Minze)
-- Header-Gradient: #5B3A5E → #A85A82 → #F0A868 (Pflaume-Rosé-Aprikose-Diagonal)
-- Hintergrund: #FBF2F6 (helles Lavendel-Creme)
-- Karten: #FFFFFF, border-top 5px farbig je Kategorie, border-radius 10px, warmer Pflaume-Schatten
-- Akzentfarben: #D97A4D · #5B3A5E · #C9A227 · #7FA88F · #A62639 · #2B3A67 · #8E5572 · #3E8989 · #4C7031 · #557153 · #2E6F95 · #6B4C9A · #6E2C2C · #B5794A
-- Layout: grid auto-fit minmax(320px,1fr) (3-spaltig Desktop, 1-spaltig mobil)
-- Fonts: Segoe UI / Verdana (Fließtext, Sans-Serif) + Palatino Linotype / Book Antiqua / Georgia (Headlines, Serif) – warmes Serif-Sans-Duo
+## Design – 2026-07-11 – 05:15 Uhr CEST
+- Schema: Azur-Bernstein Hochsommer (kühles Kobaltblau-Türkis trifft Sonnengelb/Amber – komplett anders als Vortag Lavendel-Apricot/Pflaume-Rosé)
+- Header-Gradient: #0F3D57 → #1B90C4 → #F2A007 (Petrol-Azur-Amber-Diagonal)
+- Hintergrund: #FFFBF2 (warmes Elfenbein, kein Lavendel/Rosa-Ton)
+- Karten: #FFFFFF, border-left 6px farbig je Kategorie (statt border-top), border-radius 12px, kühler Petrol-Schatten
+- Akzentfarben: #E07A1F · #2A7F7E · #C2185B · #6A4C93 · #8A6A2F · #1B5FA8 · #4C8C4A · #1F7A5C · #B02E3C · #2C3E6B · #4B7B4E · #5C3A3A
+- Layout: grid auto-fit minmax(420px,1fr) (2-spaltig Desktop, 1-spaltig mobil)
+- Fonts: Trebuchet MS / Lucida Sans Unicode / Tahoma (Fließtext, Sans-Serif) + Cambria / Times New Roman (Headlines, Serif) – kühles Sans-Serif/Serif-Duo
 
 ---
 
 ## Themen-Archiv (letzte 10 Tage – NICHT wiederholen!)
 
-### 2026-07-11 (Ausgabe – 00:20 Uhr CEST) ← heute, neu hinzugefügt
+### 2026-07-11 (Ausgabe – 05:15 Uhr CEST) ← heute, neu hinzugefügt
+- Dammbach-St2317-Stuetzwand-Sanierung-Neuhammer-Wintersbach-Halbsperrung | https://www.meine-news.de/dammbach/c-blaulicht/st-2317-instandsetzungsarbeiten-an-einer-stuetzwand-im-zuge-der-staatsstrasse-2317-zwischen-den-ortsteilen-neuhammer-und-wintersbach-der-gemeinde-dammbach_a239251 | verkehr | dammbach-lkr-aschaffenburg
+- Sailauf-Ortsdurchfahrt-Voruntersuchungen-Sanierung-20-31-Juli | https://www.landkreis-aschaffenburg.de/Service-und-Verwaltung/Ver%C3%B6ffentlichungen/Pressemitteilungen-und-Aktuelles/Voruntersuchungen-zur-Sanierung-der-Ortsdurchfahrt-Sailauf.php | verkehr | sailauf-lkr-aschaffenburg
+- Landkreis-Aschaffenburg-17000-Euro-Foerderung-Heimat-Geschichtsvereine | https://www.meine-news.de/landkreis-aschaffenburg/c-hobby-und-freizeit/landkreis-foerdert-heimat-und-geschichtsvereine_a239209 | gesellschaft | lkr-aschaffenburg
+- Aktionswoche-Alkohol-2026-Main-Spessart-Bierdeckel-HaLT-Karlstadt-Arnstein-Marktheidenfeld | https://www.main-spessart.de/aktuelles/pressemitteilungen/11166.Aktionswoche-Alkohol-2026-Alkohol-Weniger-ist-besser--Der-Landkreis-Main-Spessart-war-dabei.html | gesundheit | karlstadt-arnstein-marktheidenfeld-main-spessart
+- Foerderverein-Museum-Papiermuehle-Homburg-Gruendung-Johannsen | https://www.main-spessart.de/aktuelles/pressemitteilungen/11168.Verein-der-Freunde-des-Museums-Papiermuehle-Homburg--Landkreis-Main-Spessart-begruesst-Gruendung-des-Foerdervereins.html | kultur | homburg-main-spessart
+- Heisses-Pflaster-Miltenberg-Altstadt-Hochsommer-Fotoessay | https://www.meine-news.de/miltenberg/c-kultur/heisses-pflaster-miltenberg_a239125 | kultur | miltenberg
+- Schirmer-Chronik-Band-3-Miltenberg-Rathaus-Vorstellung | https://www.meine-news.de/miltenberg/c-kultur/eine-stadt-im-wandel-miltenberg-zwischen-tradition-und-moderne_a239185 | kultur | miltenberg
+- Rapsernte-Odenwald-Miltenberg-Feuchte-Preis-Oelmuehle-Mannheim | https://www.meine-news.de/miltenberg/c-energie-und-umwelt/beim-raps-entscheidet-die-feuchte-ueber-den-preis_a239170 | wirtschaft | miltenberg-odenwald
+- Tarifabschluss-Handwerk-Lohnsteigerungen-01-Juli-Garten-Landschaftsbau-Maler | https://www.meine-news.de/miltenberg/c-beruf-und-ausbildung/zeichen-der-anerkennung-in-schwierigen-zeiten-lohnsteigerungen-zum-01072026_a239257 | wirtschaft | miltenberg
+- Schulamt-Miltenberg-Verabschiedung-acht-Lehrkraefte-Ruhestand-Kern-40-Jahre | https://www.meine-news.de/miltenberg/c-schule-und-bildung/verabschiedungen-und-jubilaeen-im-staatlichen-schulamt-miltenberg_a239161 | bildung | miltenberg
+- SELBER-MACHEN-Amorbach-Villa-Schulz-Finale-Handwerk-Schule | https://www.meine-news.de/amorbach/c-schule-und-bildung/das-grosse-finale-von-selbermachen_a239248 | bildung | amorbach-lkr-miltenberg
+- Astralis-Festival-Grossheubach-300-Tickets-Absage-Gefahr | https://www.meine-news.de/grossheubach/c-hobby-und-freizeit/nur-14-tage-zeit_a239245 | freizeit | grossheubach-lkr-miltenberg
+- Stocksport-Vereinsmeisterschaft-Eisenbach-Olympia-TSV | https://www.meine-news.de/eisenbach/c-sport/spannung-spass-und-beste-stimmung-bei-der-vereinsmeisterschaft-im-stocksport_a239110 | sport | eisenbach-lkr-miltenberg
+- Sommergottesdienst-Neuanfang-Sulzbach-Hofstetten-Kleinwallstadt-25-Juli | https://www.meine-news.de/hofstetten-kleinwallstadt/c-glaube-und-weltanschauung/wir-feiern-mit-essen-und-trinken-kostenfrei_a239260 | gesellschaft | sulzbach-hofstetten-kleinwallstadt-lkr-miltenberg
+- Ehrenamtskarte-Main-Spessart-50-Kinogutscheine-Verlosung | https://www.main-spessart.de/aktuelles/pressemitteilungen/11167.Servicebuero-Ehrenamtskarte-verlost-Kinogutscheine.html | gesellschaft | lkr-main-spessart
+
+### 2026-07-11 (Ausgabe – 00:20 Uhr CEST)
 - Main-Spessart-Sammelmeldung-E-Auto-Eussenheim-Kind-Marktheidenfeld-schwer-verletzt-Radmuttern-Rothenfels | https://www.meine-news.de/landkreis-main-spessart/c-blaulicht/main-spessart-e-auto-ausgebrannt-explosion-eines-feuerzeugs-mutmasslich-ursaechlich-verkehrsunfall-zwischen-fahrrad-und-pkw-10-jaehriger-schwer-verletzt-radmuttern-geloest_a239236 | blaulicht | eussenheim-marktheidenfeld-rothenfels-main-spessart
 - Alzenau-Einbrueche-drei-Schulen-Rennradfahrer-Smart-Unfall-Aschaffenburg | https://www.meine-news.de/landkreis-aschaffenburg/c-blaulicht/raum-aschaffenburg-einbruch-in-drei-schulgebaeude-psychisch-belastete-person-randaliert-in-wohnung-verkehrsunfall-zwischen-einem-rennradfahrer-und-einem-smart_a239230 | blaulicht | alzenau-aschaffenburg-lkr-aschaffenburg
 - Grossostheim-44-Jaehriger-psychische-Ausnahmesituation-Gegenstaende-Fenster | https://www.infranken.de/lk/aschaffenburg/blaulicht/grossostheim-polizei-nimmt-mann-in-psychischer-ausnahmesituation-fest-art-6377827 | blaulicht | grossostheim-lkr-aschaffenburg
