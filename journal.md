@@ -1,19 +1,41 @@
 # Tagesnachrichten-Journal – domezos2024/aktuelles
 
-## Design – 2026-07-11 – 05:15 Uhr CEST
-- Schema: Azur-Bernstein Hochsommer (kühles Kobaltblau-Türkis trifft Sonnengelb/Amber – komplett anders als Vortag Lavendel-Apricot/Pflaume-Rosé)
-- Header-Gradient: #0F3D57 → #1B90C4 → #F2A007 (Petrol-Azur-Amber-Diagonal)
-- Hintergrund: #FFFBF2 (warmes Elfenbein, kein Lavendel/Rosa-Ton)
-- Karten: #FFFFFF, border-left 6px farbig je Kategorie (statt border-top), border-radius 12px, kühler Petrol-Schatten
-- Akzentfarben: #E07A1F · #2A7F7E · #C2185B · #6A4C93 · #8A6A2F · #1B5FA8 · #4C8C4A · #1F7A5C · #B02E3C · #2C3E6B · #4B7B4E · #5C3A3A
+## Design – 2026-07-11 – 06:00 Uhr CEST
+- Schema: Waldgrün-Stein (Spessart-Waldgrün trifft warmes Sandstein/Elfenbein – komplett anders als Azur-Bernstein)
+- Header-Gradient: #2D5A27 → #6B8C3E → #A0854A (Tiefgrün-Waldgrün-Amber diagonal)
+- Hintergrund: #F4F0E8 (warmes Sandstein-Elfenbein)
+- Karten: #FDFCF8, border-left 6px farbig je Kategorie, border-radius 10px, warmer Erdton-Schatten
+- Akzentfarben: #2D5A27 · #6B8C3E · #A0854A · #C0392B · #2980B9 · #8E44AD · #E67E22 · #27AE60 · #16A085 · #D35400 · #7F8C8D · #2C3E50
 - Layout: grid auto-fit minmax(420px,1fr) (2-spaltig Desktop, 1-spaltig mobil)
-- Fonts: Trebuchet MS / Lucida Sans Unicode / Tahoma (Fließtext, Sans-Serif) + Cambria / Times New Roman (Headlines, Serif) – kühles Sans-Serif/Serif-Duo
+- Fonts: Georgia / Times New Roman (Fließtext, Serif) + Palatino Linotype / Book Antiqua (Headlines, Serif) + Verdana (UI-Elemente)
 
 ---
 
 ## Themen-Archiv (letzte 10 Tage – NICHT wiederholen!)
 
-### 2026-07-11 (Ausgabe – 05:15 Uhr CEST) ← heute, neu hinzugefügt
+### 2026-07-11 (Ausgabe – 06:00 Uhr CEST) ← heute, neu hinzugefügt
+- Wiesen-Motorradfahrer-70-Jahre-toedlich-Unfall | https://aschaffenburg.news/ab/wiesen/wiesen-70-j%C3%A4hriger-motorradfahrer-bei-unfall-get%C3%B6tet.html | blaulicht | wiesen-lkr-aschaffenburg
+- Aschaffenburg-Schweinheim-Kellerbrand-Kleinkinder-gerettet | https://aschaffenburg.news/ab/aschaffenburg/schweinheim/aschaffenburg-massiver-kellerbrand-kleinkinder-aus-geb%C3%A4ude-gerettet.html | blaulicht | aschaffenburg-schweinheim
+- Alzenau-Einbruch-drei-Schulgebaeude-Rennradfahrer-Smart | https://aschaffenburg.news/ab/alzenau/alzenau-einbruch-in-drei-schulgebaeude.html | blaulicht | alzenau-lkr-aschaffenburg
+- Schiffsführer-Drogen-Schleuse-Obernau-Wasserschutzpolizei | https://aschaffenburg.news/aktuelles/schiffs-f%C3%BChrer-unter-drogeneinfluss-in-schleuse-obernau.html | blaulicht | aschaffenburg-obernau
+- Kleinostheim-Neunjaehriger-Traktorunfall-67-Jaehriger-verletzt | https://aschaffenburg.news/ab/kleinostheim/kleinostheim-neunj%C3%A4hriger-verursacht-unfall-mit-traktor.html | blaulicht | kleinostheim-lkr-aschaffenburg
+- Regionaler-Planungsverband-Vorsitz-Legler-Landrat-gewählt | https://www.meine-news.de/landkreis-aschaffenburg/c-politik-und-verwaltung/legler-als-vorsitzender-des-regionalen-planungsverbands-gewahlt_a239119 | politik | lkr-aschaffenburg-unterfranken
+- Mayors-for-Peace-Flagge-Aschaffenburg-Rathaus-Hiroshima | https://aschaffenburg.news/ab/aschaffenburg/aschaffenburg-mayors-for-peace-flagge.html | politik | aschaffenburg
+- Frauenklinik-Aschaffenburg-positiv-Bilanz-Qualitaet | https://aschaffenburg.news/ab/aschaffenburg/aschaffenburg-frauenklinik.html | gesundheit | aschaffenburg
+- Reanimationstraining-Fokus-Frauen-Aschaffenburg-Herzstillstand | https://aschaffenburg.news/aktuelles/reanimationstrainings-mit-fokus-auf-frauen.html | gesundheit | aschaffenburg
+- Malteser-Notfallsanitaeterin-Peggy-Spatz-25-Jahre-Dienst | https://aschaffenburg.news/aktuelles/25-jahre-im-dienst-der-malteser.html | gesellschaft | aschaffenburg
+- EMiL-Mediennachmittag-15-Juli-Lohr-Medienzentrum-Main-Spessart | https://www.main-spessart.de/aktuelles/pressemitteilungen/11088.html | bildung | lohr-main-spessart
+- Sachgebiet-23-Zulassungsstelle-17-Juli-nicht-erreichbar | https://www.main-spessart.de/aktuelles/pressemitteilungen/11169.html | gesellschaft | lkr-main-spessart
+- Heimbuchenthal-Leitungsarbeiten-Ortsdurchfahrt-Sperrung | https://aschaffenburg.news/ab/heimbuchenthal/heimbuchenthal-leitungsarbeiten.html | verkehr | heimbuchenthal-lkr-aschaffenburg
+- Familienstuetzpunkte-Gemünden-10-Jahre-Jubilaeum-Main-Spessart | https://www.main-spessart.de/aktuelles/pressemitteilungen/11062.html | gesellschaft | gemünden-main-spessart
+- Landradtour-19-September-2026-Main-Spessart-Radfahren | https://www.main-spessart.de/aktuelles/pressemitteilungen/11098.html | freizeit | lkr-main-spessart
+- Fairtrade-Kaffee-Mobil-Mainradweg-Genussradweg-Aktion | https://www.main-spessart.de/aktuelles/pressemitteilungen/11109.html | gesellschaft | lkr-main-spessart
+- Hummel-Challenge-Aschaffenburg-Wildbienen-Umwelt | https://aschaffenburg.news/aktuelles/hummel-challenge-aschaffenburg.html | umwelt | aschaffenburg
+- Johannesberg-Rueckersbach-Vermisster-wohlbehalten-aufgefunden | https://www.meine-news.de/rueckersbach/c-blaulicht/johannesberg-ot-rueckersbach-42-jaehriger-vermisst-wer-kann-hinweise-geben_a239191 | gesellschaft | johannesberg-lkr-aschaffenburg
+- Hochsommer-Hitzewelle-31-Grad-Spessart-Main-Region | https://api.brightsky.dev/weather?lat=50.0&lon=9.57&date=2026-07-11 | umwelt | lohr-aschaffenburg-main-spessart
+- Wiesen-70-Jaehriger-Motorradfahrer-toedlich | https://aschaffenburg.news/ab/wiesen/ | blaulicht | wiesen-lkr-aschaffenburg
+
+### 2026-07-11 (Ausgabe – 05:15 Uhr CEST)
 - Dammbach-St2317-Stuetzwand-Sanierung-Neuhammer-Wintersbach-Halbsperrung | https://www.meine-news.de/dammbach/c-blaulicht/st-2317-instandsetzungsarbeiten-an-einer-stuetzwand-im-zuge-der-staatsstrasse-2317-zwischen-den-ortsteilen-neuhammer-und-wintersbach-der-gemeinde-dammbach_a239251 | verkehr | dammbach-lkr-aschaffenburg
 - Sailauf-Ortsdurchfahrt-Voruntersuchungen-Sanierung-20-31-Juli | https://www.landkreis-aschaffenburg.de/Service-und-Verwaltung/Ver%C3%B6ffentlichungen/Pressemitteilungen-und-Aktuelles/Voruntersuchungen-zur-Sanierung-der-Ortsdurchfahrt-Sailauf.php | verkehr | sailauf-lkr-aschaffenburg
 - Landkreis-Aschaffenburg-17000-Euro-Foerderung-Heimat-Geschichtsvereine | https://www.meine-news.de/landkreis-aschaffenburg/c-hobby-und-freizeit/landkreis-foerdert-heimat-und-geschichtsvereine_a239209 | gesellschaft | lkr-aschaffenburg
@@ -83,7 +105,7 @@
 
 ### 2026-07-09 (Ausgabe – 08:00 Uhr CEST)
 - Audi-Brand-Niedernberg-vollstaendig-ausgebrannt-Nacht-Donnerstag | https://www.main-echo.de/ressorts/blaulicht/audi-in-niedernberg-lichterloh-in-flammen-art-8748149 | blaulicht | niedernberg-lkr-miltenberg
-- Kleinostheim-9-Jaehriger-Traktor-Unfall-67-Jaehriger-verletzt-Fahrerlaubnis | https://aschaffenburg.news/ab/kleinostheim/kleinostheim/kleinostheim-neunjähriger-verursacht-unfall-mit-traktor.html | blaulicht | kleinostheim-lkr-aschaffenburg
+- Kleinostheim-9-Jaehriger-Traktor-Unfall-67-Jaehriger-verletzt-Fahrerlaubnis | https://aschaffenburg.news/ab/kleinostheim/kleinostheim-neunjähriger-verursacht-unfall-mit-traktor.html | blaulicht | kleinostheim-lkr-aschaffenburg
 - Aschaffenburg-12-Jaehriger-Schulweg-BMW-touchiert-Fahrer-gesucht-Tretroller | https://aschaffenburg.news/ab/aschaffenburg/stadtmitte/aschaffenburg-zwölfjähriger-nach-verkehrsunfall-leicht-verletzt.html | blaulicht | aschaffenburg-innenstadt
 - Alzenau-Wasserlos-Einbrecher-frischer-Tat-ueberrascht-Wohnhaus | https://aschaffenburg.news/ab/alzenau/wasserlos/alzenau-einbrecher-auf-frischer-tat-überrascht.html | blaulicht | alzenau-wasserlos-lkr-aschaffenburg
 - Michelstadt-Staatschutz-Durchsuchungen-Farbschmierereien-rechtsextrem | https://www.main-echo.de/ressorts/blaulicht/michelstadt-durchsuchungen-nach-farbschmierereien-in-der-innenstadt-art-8747783 | blaulicht | michelstadt-odenwaldkreis
