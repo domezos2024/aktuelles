@@ -1,19 +1,41 @@
 # Tagesnachrichten-Journal – domezos2024/aktuelles
 
-## Design – 2026-07-11 – 05:15 Uhr CEST
-- Schema: Azur-Bernstein Hochsommer (kühles Kobaltblau-Türkis trifft Sonnengelb/Amber – komplett anders als Vortag Lavendel-Apricot/Pflaume-Rosé)
-- Header-Gradient: #0F3D57 → #1B90C4 → #F2A007 (Petrol-Azur-Amber-Diagonal)
-- Hintergrund: #FFFBF2 (warmes Elfenbein, kein Lavendel/Rosa-Ton)
-- Karten: #FFFFFF, border-left 6px farbig je Kategorie (statt border-top), border-radius 12px, kühler Petrol-Schatten
-- Akzentfarben: #E07A1F · #2A7F7E · #C2185B · #6A4C93 · #8A6A2F · #1B5FA8 · #4C8C4A · #1F7A5C · #B02E3C · #2C3E6B · #4B7B4E · #5C3A3A
-- Layout: grid auto-fit minmax(420px,1fr) (2-spaltig Desktop, 1-spaltig mobil)
-- Fonts: Trebuchet MS / Lucida Sans Unicode / Tahoma (Fließtext, Sans-Serif) + Cambria / Times New Roman (Headlines, Serif) – kühles Sans-Serif/Serif-Duo
+## Design – 2026-07-11 – 05:55 Uhr CEST
+- Schema: Waldgrün-Terrakotta Spätsommer (kühles Waldgrün-Salbei trifft warmes Terrakotta – Kontrast zum Petrol-Azur-Amber-Duo von heute früh 05:15 Uhr)
+- Header-Gradient: #1B4332 → #52796F → #E07856 (Waldgrün-Salbei-Terrakotta-Diagonal)
+- Hintergrund: #EEF2ED (helles, kühles Salbei-Weiß statt warmes Elfenbein)
+- Karten: #FFFFFF, border-top 6px farbig je Kategorie (statt border-left), border-radius 16px, weicher Grün-Schatten
+- Akzentfarben: #B3261E · #2C3E6B · #8A5A2B · #3C6E47 · #8E3B6E · #1B6B93 · #5C4A9C · #2F7D5A · #6B5B2E · #7A2E3B · #1E7A6E · #B5722A
+- Layout: grid auto-fit minmax(320px,1fr) (3-spaltig Desktop, 1-spaltig mobil)
+- Fonts: Verdana / Segoe UI / Tahoma (Fließtext, Sans-Serif) + Georgia / Palatino Linotype (Headlines, Serif)
 
 ---
 
 ## Themen-Archiv (letzte 10 Tage – NICHT wiederholen!)
 
-### 2026-07-11 (Ausgabe – 05:15 Uhr CEST) ← heute, neu hinzugefügt
+### 2026-07-11 (Ausgabe – 05:55 Uhr CEST) ← heute, neu hinzugefügt
+- Wiesenfeld-Prozess-Karlstadt-ColdCase-SabineB-Zeugenaussagen | https://www.main-echo.de/region/kreis-main-spessart/tatort-wiesenfeld-gericht-hoert-weiter-zeugen-an-art-8745436 | justiz | karlstadt-wiesenfeld-main-spessart
+- EScooter-Kia-Unfallfluchten-Eisenbach-Miltenberg-Eichenbuehl | https://www.meine-news.de/landkreis-miltenberg/c-blaulicht/kreis-miltenberg-e-scooter-kollidiert-mit-einem-kia-pkws-angefahren-unfallflucht_a239239 | blaulicht | eisenbach-miltenberg-eichenbuehl-lkr-miltenberg
+- Amorbach-Realschule-Demokratie-Landtagsabgeordnete-Stock-Zoeller | https://www.meine-news.de/amorbach/c-schule-und-bildung/demokratie-in-der-schule_a238975 | politik | amorbach-lkr-miltenberg
+- Suedspessart-Glascontainer-Ueberquellend-Collenberg-Kirschfurt-Dorfprozelten-Faulbach-Altenbuch | https://www.main-echo.de/region/kreis-miltenberg/kritik-wegen-ueberquellender-glascontainer-art-8741795 | umwelt | suedspessart-lkr-miltenberg
+- Anneliese-Michel-Exorzismus-50-Jahre-Klingenberg-Video | https://www.main-echo.de/region/kreis-miltenberg/topthemen/vom-fall-anneliese-michel-bis-heute-ein-videobeitrag-zum-thema-exorzismus-art-8744770 | gesellschaft | klingenberg-lkr-miltenberg
+- Katrin-Himmler-Grossnichte-Vortrag-JEG-HSG-Erlenbach-Elsenfeld-AfD | https://meine-news.de/erlenbach-amain/c-schule-und-bildung/katrin-himmler-am-jeg-und-hsg_a239143 | gesellschaft | erlenbach-elsenfeld-lkr-miltenberg
+- Lohr-Rodenbach-Pflochsbach-Trinkwasser-Notleitung-ab-15-Juli | https://www.lohr.de/leben-und-arbeiten/aktuelles/detail/arbeiten-an-der-trinkwasserleitung-in-rodenbach-und-pflochsbach | verkehr | lohr-rodenbach-pflochsbach-main-spessart
+- Lohr-Mainlaende-Sperrung-Spessartfestwoche-Aufbau | https://www.lohr.de/leben-und-arbeiten/aktuelles/detail/sperrung-der-mainlaende-wegen-der-spessartfestwoche | freizeit | lohr-main-spessart
+- Forum55Plus-Miltenberg-Wanderung-RueckSchippach-KlosterHimmelthal | https://www.meine-news.de/miltenberg/c-vereine/bei-bestem-sommerwetter-forum-55-plus-miltenberg-wandert-von-rueck-schippach-zum-kloster-himmelthal-rundweg-ca-65km_a238993 | freizeit | miltenberg-lkr-miltenberg
+- BRK-Miltenberg-Ballweg-35Jahre-Rettungsdienst-Ehrung | https://www.meine-news.de/miltenberg/c-blaulicht/35-jahre-im-rettungsdienst-des-roten-kreuzes_a239233 | gesellschaft | miltenberg-lkr-miltenberg
+- JEG-Elsenfeld-PVPark-Woerth-Exkursion-Solarenergie | https://meine-news.de/elsenfeld/c-schule-und-bildung/exkursion-zum-pv-park-woerth-erneuerbare-energien-hautnah-erleben_a239206 | bildung | elsenfeld-lkr-miltenberg
+- JEG-Elsenfeld-Tintenherz-Theater-Mittelstufe | https://meine-news.de/elsenfeld/c-schule-und-bildung/ein-abend-voller-buecherzauber-mit-tintenherz_a239182 | kultur | elsenfeld-lkr-miltenberg
+- Elsenfeld-Fairtrade-Stand-Kinderfest-Elsavapark | https://meine-news.de/elsenfeld/c-energie-und-umwelt/fairtrade-stand-beim-kinderfest_a239158 | gesellschaft | elsenfeld-lkr-miltenberg
+- HSG-Erlenbach-RethinkingPhysics-Ausstellung-Erdmenger | https://meine-news.de/erlenbach-amain/c-schule-und-bildung/ausstellung-am-hsg-eroeffnet_a239194 | bildung | erlenbach-lkr-miltenberg
+- Gaukinderturnfest-Erlenbach-Rhythmische-Sportgymnastik | https://meine-news.de/erlenbach-amain/c-sport/rhythmische-sportgymnastik_a238972 | sport | erlenbach-lkr-miltenberg
+- Jugendkulturpreis-Miltenberg-Maedchentreff-Erlenbach-Malerei | https://meine-news.de/erlenbach-amain/c-kultur/sparte-malereizeichnen_a238861 | kultur | erlenbach-lkr-miltenberg
+- Amorbach-Realschule-Schulfest-GlitzerAn-29Juli | https://www.meine-news.de/amorbach/c-schule-und-bildung/einladung-zum-schulfest-an-der-theresia-gerhardinger-realschule-amorbach_a238891 | gesellschaft | amorbach-lkr-miltenberg
+- Amorbach-Dhammika-KarateDo-Kreismeisterschaften-Abenberg-4Gold | https://www.meine-news.de/amorbach/c-sport/viermal-gold-und-zweimal-bronze-fuer-dhammika-karate-do_a238837 | sport | amorbach-kleinheubach-lkr-miltenberg
+- Glattbach-Buecherei-Flohmarkt-19Juli | https://aschaffenburg.news/ab/glattbach/glattbach/glattbach-bücherei-flohmarkt-am-19-07.html | gesellschaft | glattbach-lkr-aschaffenburg
+- Sachgebiet23-Landratsamt-MainSpessart-17Juli-nicht-erreichbar | https://www.main-spessart.de/aktuelles/pressemitteilungen/11169.Sachgebiet-23-am-17.-Juli-voruebergehend-nicht-erreichbar.html | gesellschaft | lkr-main-spessart
+
+### 2026-07-11 (Ausgabe – 05:15 Uhr CEST)
 - Dammbach-St2317-Stuetzwand-Sanierung-Neuhammer-Wintersbach-Halbsperrung | https://www.meine-news.de/dammbach/c-blaulicht/st-2317-instandsetzungsarbeiten-an-einer-stuetzwand-im-zuge-der-staatsstrasse-2317-zwischen-den-ortsteilen-neuhammer-und-wintersbach-der-gemeinde-dammbach_a239251 | verkehr | dammbach-lkr-aschaffenburg
 - Sailauf-Ortsdurchfahrt-Voruntersuchungen-Sanierung-20-31-Juli | https://www.landkreis-aschaffenburg.de/Service-und-Verwaltung/Ver%C3%B6ffentlichungen/Pressemitteilungen-und-Aktuelles/Voruntersuchungen-zur-Sanierung-der-Ortsdurchfahrt-Sailauf.php | verkehr | sailauf-lkr-aschaffenburg
 - Landkreis-Aschaffenburg-17000-Euro-Foerderung-Heimat-Geschichtsvereine | https://www.meine-news.de/landkreis-aschaffenburg/c-hobby-und-freizeit/landkreis-foerdert-heimat-und-geschichtsvereine_a239209 | gesellschaft | lkr-aschaffenburg
