@@ -45,12 +45,12 @@ Für jede ausgewählte Meldung via WebFetch die Artikel-Seite aufrufen und extra
 - Funktioniert kein `og:image`? → nächste `<img src>` im Artikel probieren
 - Für Tagesschau: `https://www.tagesschau.de/suche?searchText=[Ort]+[Thema]` prüfen
 
-## Schritt 5 – Top 15 Meldungen auswählen (lokal → regional)
+## Schritt 5 – Top 20-25 Meldungen auswählen (lokal → regional)
 
 Für jede Meldung:
 - Titel | Zusammenfassung (min. 4 Sätze) | URL | Kategorie (farbig) | Ort (farbig)
 - Prioritäten: Blaulicht/Kriminalität > Politik > Wirtschaft > Gesellschaft/Kultur/Sport
-- Mindestens 15 echte, von den letzten 10 Tagen VERSCHIEDENE Meldungen (≤48h alt)
+- Mindestens 20 echte, von den letzten 10 Tagen VERSCHIEDENE Meldungen (≤48h alt)
 - Keine URL, kein Thema/Ereignis das bereits in einem der letzten 10 Journal-Einträge steht
 - Bei Zweifeln: Schlagwort aus journal.md mit Suchbegriff abgleichen, lieber eine neue Meldung wählen
 
@@ -61,7 +61,7 @@ Anforderungen:
 - **Kein JavaScript, keine Animationen**
 - Header: Wochentag, Datum, Uhrzeit (Berlin CEST, UTC+2) + "Nachrichten – Lohr am Main & Aschaffenburg"
 - Wetter-Box: 24h stündlich scrollbar + 2-Tage-Karten
-- 15 News-Karten: Kategorie-Badge, Regions-Badge, Titel, Zusammenfassung, Quelle-Link
+- 20-25 News-Karten: Kategorie-Badge, Regions-Badge, Titel, Zusammenfassung, Quelle-Link
 - **Bilder in Karten:** Echtes `<img src="URL">` oben rechts (float:right, max 120×90px), anklickbar zur Vollansicht via CSS `:target`-Lightbox (kein JS). Nur einbauen wenn URL gefunden – KEIN Placeholder.
 - **Video-Standbild in Karten:** YouTube-Thumbnail (`https://img.youtube.com/vi/{ID}/hqdefault.jpg`) als `<img>` oben rechts mit Spielsymbol-Overlay (▶ rein via CSS ::after), klickbar als Link zu `https://www.youtube.com/watch?v={ID}`. Nur einbauen wenn konkrete Video-ID gefunden.
 - **CSS-Lightbox:** `<a href="#img-N" id="img-N"><img ...></a>` + `<div id="lb-N">` (position:fixed, target-Selektor blendet ein). Pro Bild ein Overlay. Kein JS.
@@ -132,7 +132,7 @@ Dann:
 
 ## Qualitätskriterien
 
-- Min. 15 echte, verifizierte Meldungen (anders als die letzten 10 Tage)
+- Min. 20 echte, verifizierte Meldungen (anders als die letzten 10 Tage)
 - Kein Dummy-Inhalt, keine Platzhalter
 - **Bilder/Videos:** Echte URLs verwenden (og:image, img-Tag, YouTube-Thumbnail). Kein gefundenes Bild → keine Medien-Box (besser leer als Platzhalter)
 - **CSS-Lightbox** für Bilder funktioniert ohne JavaScript (`:target`-Selektor)
