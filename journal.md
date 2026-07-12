@@ -1,19 +1,49 @@
 # Tagesnachrichten-Journal – domezos2024/aktuelles
 
-## Design – 2026-07-12 – 06:15 Uhr CEST
-- Schema: Sonnenglut-Türkis (warmes Terrakotta-Bernstein trifft kühles Türkis – Sonnenuntergang überm Main, komplett anders als Tiefblau-Koralle von gestern 14:55 Uhr)
-- Header-Gradient: #7A2E0E → #E08E1D → #12877F (Terrakotta-Bernstein-Türkis-Diagonal)
-- Hintergrund: #FFF7E8 (warme Créme statt kühles Blaugrau)
-- Karten: #FFFFFF, border-left 6px farbig je Kategorie, border-radius 12px, warmer Terrakotta-Schatten
-- Akzentfarben: #C4281C · #1B4B66 · #946C1E · #4C7A3C · #A83D7A · #1D7A93 · #6A4C9C · #2F8F5B · #7A5A1E · #8A2F3F · #1E8A7A · #D97B1F
-- Layout: grid auto-fit minmax(380px,1fr) (2-spaltig Desktop, 1-spaltig mobil – Wechsel von 3-Spalten gestern)
-- Fonts: Cambria / Times New Roman / Georgia (Fließtext, Serif) + Century Gothic / Trebuchet MS / Verdana (Headlines, geometrische Sans-Serif) – Umkehrung von gestern (Sans-Fließtext + Slab-Serif-Headlines)
+## Design – 2026-07-12 – 06:00 Uhr CEST
+- Schema: Schiefergrau-Smaragd (kühles Dunkelgrau trifft Waldgrün – Spessart im Morgenlicht, komplett anders als Sonnenglut-Türkis von heute Morgen 06:15 Uhr)
+- Header-Gradient: #1A2E3A → #0D5C4A → #1B6B3A (Schiefergrau-Dunkelgrün-Waldgrün-Diagonal)
+- Hintergrund: #EFF4F2 (kühles Mintgrau statt warme Créme)
+- Karten: #FFFFFF, border-left 5px farbig je Kategorie, border-radius 8px, leichter Grauschatten
+- Akzentfarben: #B22222 · #2E5F8A · #7A5C1E · #1A6B5A · #5A1A6B · #1A5A2A · #2A4A7A · #2A6A1A · #6A1A4A · #1A4A6B · #5A3A1A
+- Layout: grid auto-fit minmax(370px,1fr) (3-spaltig Desktop, 1-spaltig Mobil – Wechsel von 2-Spalten heute früh)
+- Fonts: Palatino Linotype / Book Antiqua / Palatino / serif (Headlines, klassische Antiqua) + Arial / Helvetica / sans-serif (Fließtext, neutrale Grotesk) – Umkehrung von heute früh (Cambria Fließtext + Century Gothic Headlines)
 
 ---
 
 ## Themen-Archiv (letzte 10 Tage – NICHT wiederholen!)
 
-### 2026-07-12 (Ausgabe – 06:15 Uhr CEST) ← heute, neu hinzugefügt
+### 2026-07-12 (Ausgabe – 06:00 Uhr CEST) ← heute, neu hinzugefügt
+- Mainaschaff-14Jaehriger-Fahrradunfall-Schwerverletzt-Pkw | https://www.main-echo.de/ressorts/blaulicht/14-jaehriger-fahrradfahrer-in-mainaschaff-schwer-verletzt-art-8749414 | blaulicht | mainaschaff-lkr-aschaffenburg
+- Marktheidenfeld-10Jaehriger-Pkw-Unfall-Schwerverletzt | https://www.main-echo.de/ressorts/blaulicht/10-jaehriger-in-marktheidenfeld-von-pkw-erfasst-und-schwer-verletzt-art-8748885 | blaulicht | marktheidenfeld-main-spessart
+- Eussenheim-EAuto-Feuerzeug-Brand-Explosion-Infranken | https://www.infranken.de/lk/main-spessart/blaulicht/eussenheim-e-auto-ausgebrannt-explosion-eines-feuerzeugs-mutmasslich-ursaechlich-art-6377799 | blaulicht | eussenheim-main-spessart
+- Grossostheim-44Jaehriger-PsychischeAusnahmesituation-Festnahme | https://www.infranken.de/lk/aschaffenburg/blaulicht/grossostheim-polizei-nimmt-mann-in-psychischer-ausnahmesituation-fest-art-6377827 | blaulicht | grossostheim-lkr-aschaffenburg
+- Schollbrunn-Waldbrand-150Feuerwehrleute-Nachlöscheinsatz | https://www.main-echo.de/ressorts/blaulicht/feuerwehren-loeschen-huette-und-waldbrand-in-schollbrunn-art-8748977 | blaulicht | schollbrunn-main-spessart
+- Albstadt-ZweiBraende-Rundballen-Acker-50Einsatzkraefte | https://www.main-echo.de/ressorts/blaulicht/zwei-braende-in-alzenau-albstadt-art-8749413 | blaulicht | albstadt-alzenau-lkr-aschaffenburg
+- KommunenAmLimit-Bayern-Finanzierungsluecke-Hilferuf | https://www.main-spessart.de/aktuelles/pressemitteilungen/11087 | politik | lkr-main-spessart-bayern
+- B26n-Frammersbach-Einwände-Bebauungsplan-Protest | https://www.main-echo.de/region/kreis-main-spessart/einwaende-gegen-b26n-plaene-in-frammersbach-art-8747704 | politik | frammersbach-main-spessart
+- Sonntagsoeffnung-ProKontra-Einzelhandel-Bayern | https://www.main-echo.de/region/kreis-main-spessart/pro-und-kontra-der-sonntagsoeffnung-art-8748941 | wirtschaft | lkr-main-spessart-regional
+- Gemünden-Gewerbebauten-Stadtentwicklung-Stadtrat | https://www.main-echo.de/region/kreis-main-spessart/stadtrat-gemuenden-berät-über-gewerbebauten-art-8748937 | wirtschaft | gemünden-main-spessart
+- Abwasserverband-Aubachtal-Genehmigung-Erweiterung | https://www.main-echo.de/region/kreis-main-spessart/abwasserverband-aubachtal-art-8748260 | wirtschaft | lkr-main-spessart
+- Krankenkassen-Beitragsstabilisierungsgesetz-GKV-Bundesrat | https://www.main-echo.de/region/kreis-main-spessart/gesundheitsreform-im-bundesrat-art-8749075 | politik | regional-bundesweit
+- B469-Wanderbaustelle-ab-Montag-Aschaffenburg | https://www.main-echo.de/region/stadt-kreis-aschaffenburg/b469-wanderbaustelle-ab-montag-art-8748938 | verkehr | aschaffenburg-lkr-aschaffenburg
+- MSP15-Winterschaeden-Kreisstrasse-Sanierung-Spessart | https://www.main-echo.de/region/kreis-main-spessart/msp-15-winterschaeden-art-8749072 | verkehr | lkr-main-spessart
+- Feuerverbot-Lohr-AbsolutesFeuerverbot-Sommer2026 | https://www.lohr.de/leben-und-arbeiten/aktuelles/detail/absolutes-feuerverbot | umwelt | lohr-main-spessart
+- Solarenergie-Hitzesommer-Kühlen-Photovoltaik | https://www.main-echo.de/region/kreis-main-spessart/mit-sonne-kuehlen-art-8749270 | umwelt | lkr-main-spessart-regional
+- Hösbach-Hitzeschutzräume-Kühlräume-Sommer | https://www.main-echo.de/region/stadt-kreis-aschaffenburg/hoesbach-hitzeschutzraeume-art-8749003 | gesellschaft | hösbach-lkr-aschaffenburg
+- AnneliescMichel-50Jahre-Klingenberg-Exorzismus-Untermain | https://www.main-echo.de/region/kreis-miltenberg/50-jahre-anneliese-michel-art-8749004 | gesellschaft | klingenberg-lkr-miltenberg
+- BKH-Lohr-Thementag-SeelischeGesundheit-Veranstaltung | https://www.main-echo.de/region/kreis-main-spessart/thementag-seelische-gesundheit-art-8748944 | gesundheit | lohr-main-spessart
+- Präventionskonferenz-MainSpessart-Sucht-Jugend | https://www.main-spessart.de/aktuelles/pressemitteilungen/11086 | gesundheit | lkr-main-spessart
+- Hösbach-KitaApp-Digitale-Kommunikation-Kita | https://www.main-echo.de/region/stadt-kreis-aschaffenburg/hoesbach-kita-app-art-8748981 | gesellschaft | hösbach-lkr-aschaffenburg
+- Mespelbrunn-Hallenmiete-Kleiderbasar-Streit-Gemeinderat | https://www.main-echo.de/region/stadt-kreis-aschaffenburg/mespelbrunn-hallenmiete-kleiderbasar-art-8748987 | gesellschaft | mespelbrunn-lkr-aschaffenburg
+- Stiftsmuseum-Aschaffenburg-Oeffnungszeiten-Sommer | https://www.main-echo.de/region/stadt-kreis-aschaffenburg/stiftsmuseum-oeffnungszeiten-art-8748900 | kultur | aschaffenburg
+- KarschterTanzsommer-Karlstadt-Kultursommer-2026 | https://www.main-echo.de/region/kreis-main-spessart/karschter-tanzsommer-art-8748852 | kultur | karlstadt-main-spessart
+- Nachtschwimmen-Waldschwimmbad-Goldbach-Sommer | https://www.main-echo.de/region/stadt-kreis-aschaffenburg/nachtschwimmen-waldschwimmbad-goldbach-art-8748936 | freizeit | goldbach-lkr-aschaffenburg
+- Stadtgaertchen-Marktheidenfeld-Konzerte-Programm | https://www.main-echo.de/region/kreis-main-spessart/stadtgaertchen-marktheidenfeld-konzerte-art-8749053 | freizeit | marktheidenfeld-main-spessart
+- SanLucar-LadiesOpen-Zidansek-Finale-TCSchönbusch | https://www.main-echo.de/sport/weitere/sanlucar-ladies-open-zidansek-art-8749308 | sport | aschaffenburg
+- Frammersbach-Landesliga-Generalprobe-Fussball | https://www.main-echo.de/sport/fussball/frammersbach-generalprobe-landesliga-art-8749314 | sport | frammersbach-main-spessart
+
+### 2026-07-12 (Ausgabe – 06:15 Uhr CEST)
 - Alzenau-Albstadt-Rundballenpresse-Ackerflaeche-Brand-50Einsatzkraefte | https://aschaffenburg.news/ab/alzenau/albstadt/alzenau-rundballenpresse-und-ackerfläche-brennen-in-albstadt.html | blaulicht | albstadt-alzenau-lkr-aschaffenburg
 - Wuerzburg-Lengfeld-Grundschuelerin-Mann-mit-Waffe-Grosseinsatz-Softair | https://www.infranken.de/lk/wuerzburg/blaulicht/polizei-grosseinsatz-in-wuerzburg-grundschuelerin-meldet-mann-mit-waffe-art-6377487 | blaulicht | würzburg-lengfeld-unterfranken
 - Wuerzburg-81Jaehrige-Vermisste-wohlbehalten-Seniorenheim-Winterhaeuser | https://www.infranken.de/lk/wuerzburg/blaulicht/vermisstenfall-in-wuerzburg-schnell-geklaert-polizei-gibt-update-art-6378214 | gesellschaft | würzburg-unterfranken
@@ -197,71 +227,3 @@
 - Eckertsmuehlen-Open-Air-2026-Aschaffenburg-Bands-Programm | https://www.main-echo.de/region/stadt-kreis-aschaffenburg/diese-bands-spielen-beim-diesjaehrigen-aschaffenburger-eckertsmuehlen-open-air-art-8746643 | kultur | aschaffenburg
 - Abituria-100-Jahre-Friedrich-Dessauer-Gymnasium-Aschaffenburg | https://www.main-echo.de/region/stadt-kreis-aschaffenburg/seit-100-jahren-gibt-es-die-ehemaligenvereinigung-abituria-am-aschaffenburger-friedrich-dessauer-gymnasium-art-8747101 | gesellschaft | aschaffenburg
 - Loewenapotheke-Aschaffenburg-Zeitzeuge-Erinnerungen-Geschichte | https://www.main-echo.de/region/stadt-kreis-aschaffenburg/einziger-noch-lebender-ehemaliger-bewohner-der-frueheren-aschaffenburger-loewenapotheke-erinnert-sich-art-8747213 | gesellschaft | aschaffenburg
-
-### 2026-07-08 (Ausgabe – 06:20 Uhr CEST)
-- Alzenau-Kälberau-Regionalzug-Radfahrerin-toedlich-Bahnuebergang-Kahlgrundbahn | https://www.infranken.de/lk/aschaffenburg/blaulicht/alzenau-regionalzug-ueberrollt-radfahrerin-tragischer-tod-art-6376633 | blaulicht | alzenau-kälberau-lkr-aschaffenburg
-- A3-Bischbrunn-Wohnmobil-Brand-77Jaehriger-verletzt-Vollsperrung | https://www.infranken.de/lk/main-spessart/blaulicht/a3-bei-bischbrunn-gesperrt-wohnmobil-brennt-rettungshubschrauber-alarmiert-art-6376578 | blaulicht | bischbrunn-main-spessart
-- Karlstadt-Motorradunfall-MSP8-36Jaehriger-schwer-verletzt-Hubschrauber | https://www.infranken.de/lk/main-spessart/blaulicht/unfall-bei-karlstadt-biker-erleidet-schwere-verletzungen-art-6376529 | blaulicht | karlstadt-main-spessart
-- Gemuenden-Amtsgericht-Vergewaltigung-Minderjaehrige-Fussfessel-23Jaehriger-Prozess | https://www.main-echo.de/region/kreis-main-spessart/noch-im-gerichtssaal-faellt-die-fussfessel-art-8747196 | justiz | gemünden-main-spessart
-- Aschaffenburg-Feuerverbot-offenes-Feuer-Trockenheit-Brandgefahr-Stadtgebiet | https://www.main-echo.de/region/stadt-kreis-aschaffenburg/ab-sofort-offenes-feuer-ausserhalb-des-bebauten-stadtgebiets-in-aschaffenburg-art-8747146 | umwelt | aschaffenburg
-- Partenstein-Bahnhof-Aufzug-Umbau-pausiert-TUEV-Pruefung-sechs-Wochen | https://www.main-echo.de/region/kreis-main-spessart/arbeiten-am-partensteiner-bahnhof-pausieren-art-8747109 | verkehr | partenstein-main-spessart
-- Kahlgrund-Rad-Demo-sechste-Staatsstrassenausbau-Alzenau-Protest | https://www.main-echo.de/region/stadt-kreis-aschaffenburg/kahlgrund-wieder-rad-demo-gegen-staatsstrassenausbau-art-8746635 | verkehr | kahlgrund-alzenau-lkr-aschaffenburg
-- Lohr-Ostlandstrasse-Sperrung-21-Juli-Bauarbeiten | https://www.main-echo.de/region/kreis-main-spessart/sperrung-der-ostlandstrasse-in-lohr-art-8747010 | verkehr | lohr-main-spessart
-- Kirchnerhaus-Brigitte-Schad-Bayerischer-Verdienstorden-Kunsthalle-Jesuitenkirche | https://www.main-echo.de/region/stadt-kreis-aschaffenburg/kirchnerhaus-vereinsgruenderin-brigitte-schad-mit-bayerischem-verdienstorden-gewuerdigt-art-8747185 | kultur | aschaffenburg-kirchnerhaus
-- Kirchner-erste-Zeichnung-1884-Eisenbahnszene-Schenkung-Sensation | https://www.main-echo.de/region/stadt-kreis-aschaffenburg/eine-sensation-das-erste-bild-ernst-ludwig-kirchners-nun-in-aschaffenburg-art-8747164 | kultur | aschaffenburg-kirchnerhaus
-- Aschaffenburg-Damm-fuenf-XXL-Murals-Wandgemaelde-Streetart | https://www.main-echo.de/region/stadt-kreis-aschaffenburg/wo-in-aschaffenburg-fuenf-murals-entstehen-art-8747204 | kultur | aschaffenburg-damm
-- Mainaschaff-Mainparkcenter-Aufzugsausfall-seit-April-Aerztehaus-Haertefall | https://www.main-echo.de/region/stadt-kreis-aschaffenburg/haertefall-im-mainaschaffer-mainparkcenter-aufzugsausfall-belastet-patienten-und-dienstleister-art-8747076 | gesundheit | mainaschaff-lkr-aschaffenburg
-- Ludger-Kiesler-Stadtwald-Aschaffenburg-34-Jahre-Ruhestand-Forstamt-Fasanerie | https://www.main-echo.de/region/stadt-kreis-aschaffenburg/34-jahre-lang-im-aschaffenburger-stadtwald-gewirkt-von-900000-baumpflaenzchen-und-totem-holz-art-8747222 | gesellschaft | aschaffenburg-stadtwald
-- Lohr-Kinderbetreuung-Bedarfsplanung-Stadtrat-einstimmig-Ausschuss | https://www.main-echo.de/region/kreis-main-spessart/bedarf-fuer-kinderbetreuung-in-lohr-waechst-art-8747020 | gesellschaft | lohr-main-spessart
-- Walter-Kunkel-Lohr-Nachruf-91-Jahre-Schreiner-Maennerballett-Musiker | https://www.main-echo.de/region/kreis-main-spessart/moebel-musik-und-maennerballett-art-8747223 | gesellschaft | lohr-main-spessart
-
-### 2026-07-07 (Ausgabe – 06:00 Uhr CEST)
-- ICE-Zellingen-960-Fahrgaeste-evakuiert-Regionalbahn-Main-Spessart | https://www.main-echo.de/region/kreis-main-spessart/retter-holen-920-fahrgaeste-aus-ice-bei-zellingen-art-8746636 | blaulicht | zellingen-main-spessart
-- Traktor-Mainbullau-Anhaenger-verkeilt-Gefaellstrecke-MIL5-Miltenberg | https://www.main-echo.de/ressorts/blaulicht/mainbullau-traktor-mit-zwei-anhaengern-verkeilt-sich-auf-gefaellstrecke-art-8746964 | blaulicht | mainbullau-miltenberg
-- Zugbegleiter-Regionalbahn-RB58064-Wuerzburg-Gemuenden-Ellenbogenschlag | https://www.main-echo.de/ressorts/blaulicht/zugbegleiter-in-regionalbahn-angegriffen-art-8746619 | blaulicht | gemünden-main-spessart
-- Babenhausen-Hakenkrenze-Schmierereien-Strasse-der-Toleranz-Volksverhetzung | https://www.main-echo.de/ressorts/blaulicht/erneut-farbschmierereien-an-mehreren-gebaeuden-in-babenhausen-art-8746622 | blaulicht | babenhausen-darmstadt-dieburg
-- Aschaffenburg-Diebstaehle-Ueberfaelle-Wochenende-Kleberstrasse-Volvo | https://www.main-echo.de/ressorts/blaulicht/mehrere-diebstaehle-und-ueberfaelle-in-aschaffenburg-und-umgebung-art-8746508 | blaulicht | aschaffenburg
-- Mainaschaff-Einbruch-Firmengebaeude-Kriminalpolizei-Spuren | https://aschaffenburg.news/ab/mainaschaff/mainaschaff-einbruch-in-firmengeb%C3%A4ude.html | blaulicht | mainaschaff-lkr-aschaffenburg
-- Aschaffenburg-Leider-Norma-Parkplatz-Pruegerei-Koerperverletzung | https://aschaffenburg.news/ab/aschaffenburg/leider/aschaffenburg-auseinandersetzung-auf-einem-kundenparkplatz.html | blaulicht | aschaffenburg-leider
-- Grossostheim-Moembris-Ermittlungserfolg-Wohnungseinbrueche-Tatverdaechtiger-Haft | https://www.meine-news.de/grossostheim/c-blaulicht/grossostheimmoembris-ermittlungserfolg-nach-wohnungseinbruechen-tatverdaechtiger-in-haft_a238375 | justiz | grossostheim-mömbris-lkr-aschaffenburg
-- Heimbuchenthal-Polizei-warnt-unserioese-Handwerker-Hauptstrasse | https://aschaffenburg.news/ab/heimbuchenthal/heimbuchenthal/heimbuchthal-polizei-warnt-vor-unseri%C3%B6sen-handwerkern.html | gesellschaft | heimbuchenthal-lkr-aschaffenburg
-- Haibach-Fledermaus-Lyssavirus-EBLV1-erster-Nachweis-Landkreis-Aschaffenburg | https://www.meine-news.de/landkreis-aschaffenburg/c-gesundheit-und-wellness/tollwut-bei-fledermaeusen-nachgewiesen_a238447 | gesundheit | haibach-lkr-aschaffenburg
-- Weibersbrunn-A3-Kontrolle-Diebesgut-15000-Euro-Kosmetik-Rumaenen | https://www.meine-news.de/weibersbrunn/c-blaulicht/weibersbrunn-verkehrskontrolle-auf-a3-mutmassliches-diebesgut-im-wert-von-rund-15-000-euro-sichergestellt_a238438 | blaulicht | weibersbrunn-a3-spessart
-- Wirtshaus-Spessart-Theatrium-Hammermuseum-Hasloch-Spessartbrauerei-Kreuzwertheim | https://www.main-echo.de/region/kreis-main-spessart/das-wirtshaus-im-spessart-gastiert-im-hammermuseum-und-in-spessartbrauerei-art-8746559 | kultur | hasloch-kreuzwertheim-main-spessart
-- Kiliani-Wuerzburg-2026-Eroeffnung-400-VIP-Gaeste-Gruss-Untermain | https://www.main-echo.de/region/kreis-main-spessart/topthemen/unterfrankens-groesstes-volksfest-so-war-die-kiliani-eroeffnung-mit-400-vip-gaesten-und-einem-gruss-richtung-untermain-art-8746493 | kultur | würzburg-unterfranken
-- Aschaffenburg-Jugendbefragung-2026-13-17-Jahre-Stadtentwicklung | https://aschaffenburg.news/ab/aschaffenburg/aschaffenburg/aschaffenburg-jugendbefragung-2026.html | gesellschaft | aschaffenburg
-- HWK-Unterfranken-138-Vollversammlung-Bissert-Fachkraefte-Ausbildung | https://aschaffenburg.news/aktuelles/138-vollversammlung-der-handwerkskammer-f%C3%BCr-unterfranken.html | wirtschaft | würzburg-unterfranken
-
-### 2026-07-07 (Ausgabe – 06:30 Uhr CEST)
-- Schwerer-A3-Unfall-Weibersbrunn-Auto-ueberschlaegt-sich-Leitplanke-durchbrochen | https://aschaffenburg.news/ab/weibersbrunn/weibersbrunn-schwerer-verkehrsunfall-drei-menschen-teils-schwer-verletzt.html | blaulicht | weibersbrunn-lkr-aschaffenburg
-- Mordfall-Maria-Koehler-Aschaffenburg-Verurteilter-Revision-42-Jahre-Cold-Case | https://www.infranken.de/lk/aschaffenburg/maria-koehler-urteil-nach-42-jahren-ist-noch-immer-nicht-das-ende-art-6108923 | justiz | aschaffenburg
-- Hoesbach-Kind-6-stuerzt-zweiter-Stock-Garagendach-leichte-Verletzungen | https://www.primavera24.de/aktuelles/news/schock-in-hoesbach-kind-stuerzt-aus-zweitem-stock-auf-garagendach | blaulicht | hösbach-lkr-aschaffenburg
-- Raum-Aschaffenburg-Arbeitstasche-gestohlen-Reizstoff-besprueht-Kia-angefahren | https://www.meine-news.de/landkreis-aschaffenburg/c-blaulicht/raum-aschaffenburg-arbeitstasche-samt-inhalt-aus-pkw-entwendet-unbekannte-bespruehen-mann-mit-reizstoff-fahrzeug-angefahren-und-beschaedigt_a238789 | blaulicht | aschaffenburg-lkr-aschaffenburg
-- Steinbach-Marktheidenfeld-Hund-toetet-Kaninchen-Kennzeichen-gestohlen | https://www.meine-news.de/steinbach-lohr-amain/c-blaulicht/steinbachmarktheidenfeld-hund-toetet-kaninchen-unbekannter-stiehlt-kennzeichen_a238792 | blaulicht | steinbach-main-spessart
-- Himmelstadt-Zellingen-Retzbach-Aussenspiegel-abgefahren-Hydraulikoel-Bruecke | https://www.meine-news.de/landkreis-main-spessart/c-blaulicht/main-spessart-erfolgreicher-callcenterbetrug-falscher-arzt-ruft-an-seitenspiegel-eines-geparkten-vw-multivan-abgefahren-hydraulikoel-in-einen-brueckenpfosten-gefuellt_a238717 | blaulicht | himmelstadt-main-spessart
-- Alzenau-Klima-Dashboard-Stadtrat-Streit-Transparenz-Kosten-15000Euro | https://www.main-echo.de/region/stadt-kreis-aschaffenburg/stadt-alzenau-streitet-um-klima-dashboard-transparenz-tool-oder-spielerei-art-8743490 | politik | alzenau-lkr-aschaffenburg
-- Bahntrassen-Streit-Italo-DB-InfraGO-ICE-Aschaffenburg-Halt-in-Gefahr | https://www.main-echo.de/region/franken-bayern/kampf-um-freie-trassen-befuerchtet-art-8746066 | wirtschaft | aschaffenburg
-- Obernburg-Traditionsgeschaeft-schliesst-Roemerstrasse-Einzelhandel-Sterben | https://www.main-echo.de/region/kreis-miltenberg/neuer-schock-in-obernburg-wieder-macht-ein-traditionsgeschaeft-zu-art-8746590 | wirtschaft | obernburg-miltenberg
-- SGA-Tennisteams-Alzenau-Bezirksmeister-Maedchen-Jungen-Halbfinale | https://www.main-echo.de/unser-echo/gruppen/sga-tennis-teams-sind-bezirksmeister-art-8746270 | sport | alzenau-lkr-aschaffenburg
-- Aschaffenburger-Stadtrennen-700-Laeufer-Rekord-Zeichen-gegen-Gewalt-Frauen | https://www.primavera24.de/aktuelles/news/laufen-gegen-die-gewalt-an-frauen | gesellschaft | aschaffenburg
-- Laurenzi-Messe-2026-Marktheidenfeld-76-Auflage-Bier-Preis-Volksfest | https://www.main-echo.de/region/kreis-main-spessart/laurenzi-messe-das-muessen-besucher-zum-grossen-fest-in-marktheidenfeld-wissen-art-8741580 | kultur | marktheidenfeld-main-spessart
-- Dracula-Musical-Klingenberg-Clingenburg-Freilichtbuehne-MainMusical-Premiere | https://www.primavera24.de/aktuelles/news/dracula-ist-weit-mehr-als-horror-und-blut | kultur | klingenberg-miltenberg
-- Husky-Trail-Heinrichsthal-2026-Rueckkehr-Gemeinderat-Schlittenhunde-Spessart | https://www.primavera24.de/aktuelles/news/heinrichsthal-kommt-der-husky-trail-zurueck-in-den-spessart | freizeit | heinrichsthal-lkr-aschaffenburg
-- RambaZamba-im-Park-Elsenfeld-Kinder-Familienfest-Elsavapark-5-Ausgabe | https://www.meine-news.de/elsenfeld/c-mann-frau-und-familie/kinder-und-familienfest-rambazamba-im-park_a237418 | freizeit | elsenfeld-miltenberg
-
-### 2026-07-06 (Ausgabe – 06:00 Uhr CEST)
-- Lagerhallenbrand-Kleinheubach-Miltenberg-Nacht-zu-Montag-Großaufgebot | https://www.main-echo.de/ressorts/blaulicht/lagerhalle-zwischen-kleinheubach-und-miltenberg-lichterloh-in-flammen-art-8746403 | blaulicht | kleinheubach-miltenberg
-- A3-Sperrung-Rohrbrunn-Weibersbrunn-Unfall-Richtung-Frankfurt | https://www.main-echo.de/ressorts/blaulicht/sperrung-nach-unfall-auf-a3-art-8746454 | blaulicht | a3-spessart
-- Unfallflucht-REWE-Parkplatz-Obernburg-Eisenbach-Zeugenaufruf | https://www.main-echo.de/ressorts/blaulicht/unfallflucht-auf-rewe-parkplatz-in-obernburg-eisenbach-art-8745950 | blaulicht | obernburg-miltenberg
-- Wertheim-Hubschrauber-Motorradunfall-schwer-verletzt | https://www.main-echo.de/ressorts/blaulicht/wertheim-hubschraubereinsatz-nach-motorradunfall-art-8745432 | blaulicht | wertheim
-- Dachstuhlbrand-Werbach-Gamburg-Feuerwehr-Großeinsatz | https://www.main-echo.de/ressorts/blaulicht/werbach-gamburg-dachstuhlbrand-art-8745290 | blaulicht | werbach-gamburg
-- Unfallfluchten-Diebstahl-Landkreis-Miltenberg-mehrere-Vorfälle | https://www.main-echo.de/ressorts/blaulicht/zeugen-gesucht-mehrere-unfallfluchten-und-diebstahl-im-landkreis-miltenberg-art-8745333 | blaulicht | lkr-miltenberg
-- Radweg-Lohr-Partenstein-Hochwasser-verzögert-Bauarbeiten | https://www.main-echo.de/region/kreis-main-spessart/radweg-zwischen-lohr-und-partenstein-nimmt-gestalt-an-hochwasser-verzoegert-bauarbeiten-art-8745966 | verkehr | lohr-main-spessart
-- Bieranstich-Festumzug-Premierenauftritt-Kirchweihfest-Main-Spessart | https://www.main-echo.de/region/kreis-main-spessart/gelungener-auftakt-bieranstich-festumzug-und-ein-premierenauftritt-art-8745953 | kultur | lkr-main-spessart
-- Kater-Manfred-Einzelprinz-Tierheim-Main-Spessart-Zuhause-gesucht | https://www.main-echo.de/region/kreis-main-spessart/kater-manfred-will-einzelprinz-sein-art-8745933 | gesellschaft | lkr-main-spessart
-- Aschaffenburger-Strasse-Schoellkrippen-Freigabe-Bauarbeiten-abgeschlossen | https://www.main-echo.de/region/stadt-kreis-aschaffenburg/aschaffenburger-strasse-in-schoellkrippen-fuer-den-verkehr-freigegeben-art-8746433 | verkehr | schoellkrippen-aschaffenburg
-- KOMMZ-Parade-Aschaffenburg-Kulturpreis-Umzug-Innenstadt | https://www.main-echo.de/region/stadt-kreis-aschaffenburg/parade-durch-die-stadt-das-kommz-feiert-aus-gutem-grund-art-8746199 | kultur | aschaffenburg
-- Vereinsring-Waldaschaff-50-Jahre-Jubilaeum-Tradition-Nachwuchs | https://www.main-echo.de/region/stadt-kreis-aschaffenburg/seit-50-jahren-gemeinsam-fuer-waldaschaff-vereinsring-setzt-auf-tradition-neue-ideen-und-den-nachwuchs-art-8746049 | gesellschaft | waldaschaff-aschaffenburg
-- Waldaschaff-Bauturbo-Leitplanken-Gemeinderat-vereinfachtes-Verfahren | https://www.main-echo.de/region/stadt-kreis-aschaffenburg/waldaschaff-setzt-leitplanken-fuer-den-bauturbo-vereinfachtes-bauverfahren-nicht-in-allen-faellen-art-8746039 | politik | waldaschaff-aschaffenburg
-- Kleinostheim-E-Ladestationen-Weihnachtsmarkt-Buergerversammlung | https://www.main-echo.de/region/stadt-kreis-aschaffenburg/e-ladestationen-weihnachtsmarkt-und-buergerversammlung-art-8746034 | wirtschaft | kleinostheim-aschaffenburg
-- Jugendbefragung-Aschaffenburg-bis-26-Juli-Lebensrealitaet-Stadtentwicklung | https://www.main-echo.de/region/stadt-kreis-aschaffenburg/jugend-in-aschaffenburg-wird-befragt-art-8746455 | gesellschaft | aschaffenburg
