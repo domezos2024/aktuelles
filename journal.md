@@ -1,19 +1,41 @@
 # Tagesnachrichten-Journal – domezos2024/aktuelles
 
-## Design – 2026-07-11 – 14:55 Uhr CEST
-- Schema: Tiefblau-Koralle (kühles Marineblau-Petrol trifft warmes Korallrot – komplett anders als Waldgrün-Stein von 06:00 Uhr)
-- Header-Gradient: #0D2C4A → #2E6E8E → #F0765A (Marineblau-Petrol-Koralle-Diagonal)
-- Hintergrund: #EFF3F6 (kühles, helles Blaugrau statt warmes Sandstein-Elfenbein)
-- Karten: #FFFFFF, border-top 6px farbig je Kategorie, border-radius 16px, weicher Blau-Schatten
-- Akzentfarben: #B3261E · #2C3E6B · #8A5A2B · #3C6E47 · #8E3B6E · #1B6B93 · #5C4A9C · #2F7D5A · #6B5B2E · #7A2E3B · #1E7A6E · #B5722A
-- Layout: grid auto-fit minmax(320px,1fr) (3-spaltig Desktop, 1-spaltig mobil)
-- Fonts: Segoe UI / Calibri / Verdana (Fließtext, Sans-Serif) + Rockwell / Georgia (Headlines, Slab-/Serif-Mix)
+## Design – 2026-07-12 – 06:15 Uhr CEST
+- Schema: Sonnenglut-Türkis (warmes Terrakotta-Bernstein trifft kühles Türkis – Sonnenuntergang überm Main, komplett anders als Tiefblau-Koralle von gestern 14:55 Uhr)
+- Header-Gradient: #7A2E0E → #E08E1D → #12877F (Terrakotta-Bernstein-Türkis-Diagonal)
+- Hintergrund: #FFF7E8 (warme Créme statt kühles Blaugrau)
+- Karten: #FFFFFF, border-left 6px farbig je Kategorie, border-radius 12px, warmer Terrakotta-Schatten
+- Akzentfarben: #C4281C · #1B4B66 · #946C1E · #4C7A3C · #A83D7A · #1D7A93 · #6A4C9C · #2F8F5B · #7A5A1E · #8A2F3F · #1E8A7A · #D97B1F
+- Layout: grid auto-fit minmax(380px,1fr) (2-spaltig Desktop, 1-spaltig mobil – Wechsel von 3-Spalten gestern)
+- Fonts: Cambria / Times New Roman / Georgia (Fließtext, Serif) + Century Gothic / Trebuchet MS / Verdana (Headlines, geometrische Sans-Serif) – Umkehrung von gestern (Sans-Fließtext + Slab-Serif-Headlines)
 
 ---
 
 ## Themen-Archiv (letzte 10 Tage – NICHT wiederholen!)
 
-### 2026-07-11 (Ausgabe – 14:55 Uhr CEST) ← heute, neu hinzugefügt
+### 2026-07-12 (Ausgabe – 06:15 Uhr CEST) ← heute, neu hinzugefügt
+- Alzenau-Albstadt-Rundballenpresse-Ackerflaeche-Brand-50Einsatzkraefte | https://aschaffenburg.news/ab/alzenau/albstadt/alzenau-rundballenpresse-und-ackerfläche-brennen-in-albstadt.html | blaulicht | albstadt-alzenau-lkr-aschaffenburg
+- Wuerzburg-Lengfeld-Grundschuelerin-Mann-mit-Waffe-Grosseinsatz-Softair | https://www.infranken.de/lk/wuerzburg/blaulicht/polizei-grosseinsatz-in-wuerzburg-grundschuelerin-meldet-mann-mit-waffe-art-6377487 | blaulicht | würzburg-lengfeld-unterfranken
+- Wuerzburg-81Jaehrige-Vermisste-wohlbehalten-Seniorenheim-Winterhaeuser | https://www.infranken.de/lk/wuerzburg/blaulicht/vermisstenfall-in-wuerzburg-schnell-geklaert-polizei-gibt-update-art-6378214 | gesellschaft | würzburg-unterfranken
+- Waldbrandgefahr-Unterfranken-Luftbeobachtung-Hitzewelle-Wochenende | https://aschaffenburg.news/aktuelles/regierung-ordnet-erneut-vorsorgliche-luftbeobachtung-an.html | umwelt | unterfranken-regional
+- Marktheidenfeld-Fluechtlingsheim-Setzgraben-Aufloesung-2027 | https://www.main-echo.de/region/kreis-main-spessart/fluechtlingsheim-wird-bis-ende-2027-aufgeloest-art-8749206 | politik | marktheidenfeld-main-spessart
+- Marktheidenfeld-Alte-Mainbruecke-Stiege-Streit-Stadtrat-Bauamt | https://www.main-echo.de/region/kreis-main-spessart/treppe-entzweit-stadtrat-und-bauamt-art-8749153 | politik | marktheidenfeld-main-spessart
+- Karlstein-Dettingen-Ortskern-Sanierung-Machbarkeitsstudie-Karlplatz | https://www.main-echo.de/region/stadt-kreis-aschaffenburg/ortskern-in-dettingen-sanieren-das-sind-die-plaene-in-karlstein-art-8748991 | politik | karlstein-lkr-aschaffenburg
+- Aschaffenburg-ExOB-Herzing-Facebook-Beleidigung-Strafbefehl | https://www.main-echo.de/region/stadt-kreis-aschaffenburg/ex-ob-herzing-beleidigt-strafbefehl-art-8748962 | justiz | aschaffenburg
+- Krombach-Glascontainer-Dosencontainer-Ueberfuellt-Problem | https://www.main-echo.de/region/stadt-kreis-aschaffenburg/krombach-probleme-mit-glas-und-dosencontainern-art-8748971 | umwelt | krombach-lkr-aschaffenburg
+- A3-Goldbach-Hoesbach-Tunneleinhausung-BMW-Fahrzeugbrand-Vollsperrung | https://www.kfv-ab.de/index.php/news/nachrichten/nachrichten/fahrzeugbrand-in-der-a3-tunneleinhausung-vollsperrung-und-lange-staus-am-nachmittag | verkehr | goldbach-hoesbach-lkr-aschaffenburg
+- Bundeswehr-Uebungen-Landkreis-Miltenberg-8bis16Juli-B47-B469 | https://www.meine-news.de/landkreis-miltenberg | politik | lkr-miltenberg
+- Altstadtfest-Aschaffenburg-25-26Juli-Buehnen-Strassenkuenstler | https://www.frizzmag.de/events/altstadtfest-aschaffenburg/ | kultur | aschaffenburg
+- Sommerferien-Bayern-2026-Start-3August-Endspurt-Schule | https://www.kalenderpedia.de/ferien/ferien-bayern-2026.html | gesellschaft | bayern-regional
+- SanLucar-Ladies-Open-Tennisfinale-Schoenbusch-Brancaccio-Bartunkova | https://www.main-echo.de/sport/weitere/das-finale-der-sanlucar-ladies-open-beim-tc-schoenbusch-steht-art-8542929 | sport | aschaffenburg
+- Wassertretanlagen-Region-Alzenau-Freudenberg-Kneipp-Hitzewelle | https://www.main-echo.de/region/stadt-kreis-aschaffenburg/erfrischend-gesund-das-sind-die-schoensten-wassertretanlagen-in-unserer-region-art-8748993 | gesundheit | region-alzenau-freudenberg
+- Bayerische-Impfwoche-HPV-Gesundheitsamt-Miltenberg | https://www.meine-news.de/miltenberg/c-gesundheit-und-wellness/bayerische-impfwoche-2026-gesundheitsamt-informiert-ueber-hpv-schutz-und-bietet-zusaetzliche-durchsicht-von-impfbuechern-an_a237844 | gesundheit | lkr-miltenberg
+- CSU-Faulbach-Breitenbrunn-5tes-Boule-Turnier-Kaese-Wein-Abend-25Juli | https://www.meine-news.de/faulbach/c-sport/5-boule-turnier-der-csu-faulbach-breitenbrunn_a237805 | freizeit | faulbach-lkr-miltenberg
+- Elsenfeld-Neuer-Schulcampus-Mensa-Eroeffnung-17Juli | https://www.main-echo.de/region/mein-ort/63820-elsenfeld/ | bildung | elsenfeld-lkr-miltenberg
+- Erlenbach-Barbarossa-Lauf-Neues-Streckenkonzept-19Juli | https://www.meine-news.de/erlenbach-amain | sport | erlenbach-lkr-miltenberg
+- Erlenbach-SchoolsOut-Party-Beavers-Ferienstart-31Juli | https://www.meine-news.de/erlenbach-amain | gesellschaft | erlenbach-lkr-miltenberg
+
+### 2026-07-11 (Ausgabe – 14:55 Uhr CEST)
 - Wiesenfeld-Prozess-Karlstadt-ColdCase-SabineB-Zeugenaussagen | https://www.main-echo.de/region/kreis-main-spessart/tatort-wiesenfeld-gericht-hoert-weiter-zeugen-an-art-8745436 | justiz | karlstadt-wiesenfeld-main-spessart
 - EScooter-Kia-Unfallfluchten-Eisenbach-Miltenberg-Eichenbuehl | https://www.meine-news.de/landkreis-miltenberg/c-blaulicht/kreis-miltenberg-e-scooter-kollidiert-mit-einem-kia-pkws-angefahren-unfallflucht_a239239 | blaulicht | eisenbach-miltenberg-eichenbuehl-lkr-miltenberg
 - Amorbach-Realschule-Demokratie-Landtagsabgeordnete-Stock-Zoeller | https://www.meine-news.de/amorbach/c-schule-und-bildung/demokratie-in-der-schule_a238975 | politik | amorbach-lkr-miltenberg

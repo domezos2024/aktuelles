@@ -6,92 +6,100 @@
 <title>Nachrichten – Lohr am Main &amp; Aschaffenburg</title>
 <style>
   :root{
-    --grad1:#0D2C4A; --grad2:#2E6E8E; --grad3:#F0765A;
-    --bg:#EFF3F6; --card:#FFFFFF; --text:#1B2733; --muted:#5C6B79;
-    --blaulicht:#B3261E; --politik:#2C3E6B; --wirtschaft:#8A5A2B; --gesellschaft:#3C6E47;
-    --kultur:#8E3B6E; --sport:#1B6B93; --bildung:#5C4A9C; --umwelt:#2F7D5A;
-    --verkehr:#6B5B2E; --justiz:#7A2E3B; --gesundheit:#1E7A6E; --freizeit:#B5722A;
+    --grad1:#7A2E0E; --grad2:#E08E1D; --grad3:#12877F;
+    --bg:#FFF7E8; --card:#FFFFFF; --text:#2B2118; --muted:#7A6A57;
+    --blaulicht:#C4281C; --politik:#1B4B66; --wirtschaft:#946C1E; --gesellschaft:#4C7A3C;
+    --kultur:#A83D7A; --sport:#1D7A93; --bildung:#6A4C9C; --umwelt:#2F8F5B;
+    --verkehr:#7A5A1E; --justiz:#8A2F3F; --gesundheit:#1E8A7A; --freizeit:#D97B1F;
   }
   *{box-sizing:border-box;}
   body{
     margin:0; background:var(--bg); color:var(--text);
-    font-family:"Segoe UI","Calibri",Verdana,sans-serif; line-height:1.55;
+    font-family:"Cambria","Times New Roman",Georgia,serif; line-height:1.6;
   }
-  h1,h2,h3{ font-family:"Rockwell","Georgia","Book Antiqua",serif; }
-  a{ color:var(--grad2); }
-  .container{ max-width:1240px; margin:0 auto; padding:0 16px; }
+  h1,h2,h3{ font-family:"Century Gothic","Trebuchet MS",Verdana,sans-serif; }
+  a{ color:var(--grad1); }
+  .container{ max-width:1180px; margin:0 auto; padding:0 16px; }
 
   header.site-header{
-    background:linear-gradient(120deg, var(--grad1) 0%, var(--grad2) 55%, var(--grad3) 100%);
-    color:#fff; padding:28px 0 34px;
+    background:linear-gradient(115deg, var(--grad1) 0%, var(--grad2) 55%, var(--grad3) 100%);
+    color:#fff; padding:26px 0 32px;
   }
-  header.site-header h1{ margin:0 0 6px; font-size:2.1rem; }
-  header.site-header .dt{ font-size:1.05rem; opacity:.95; }
-  header.site-header .tagline{ margin-top:10px; font-size:.95rem; opacity:.92; max-width:760px; }
+  header.site-header h1{ margin:0 0 6px; font-size:2rem; }
+  header.site-header .dt{ font-size:1.05rem; opacity:.96; font-family:"Cambria",serif; }
+  header.site-header .tagline{ margin-top:10px; font-size:.94rem; opacity:.94; max-width:760px; font-family:"Cambria",serif; }
 
-  section.event-banner{
-    background:#fff; border-left:8px solid var(--grad3); border-radius:0 14px 14px 0;
-    margin:22px 0; padding:18px 22px; box-shadow:0 3px 14px rgba(27,67,50,.08);
+  section.season-banner{
+    background:#fff; border:2px dashed var(--grad2); border-radius:16px;
+    margin:22px 0; padding:16px 22px; box-shadow:0 3px 14px rgba(122,46,14,.10);
   }
-  section.event-banner h2{ margin:0 0 8px; color:var(--grad1); font-size:1.25rem; }
-  section.event-banner p{ margin:6px 0; }
-  section.event-banner .meta{ font-size:.85rem; color:var(--muted); }
+  section.season-banner h2{ margin:0 0 10px; color:var(--grad1); font-size:1.15rem; }
+  .season-chips{ display:flex; flex-wrap:wrap; gap:10px; margin:0; padding:0; list-style:none; }
+  .season-chips li{
+    background:var(--bg); border:1px solid var(--grad2); border-radius:20px;
+    padding:6px 14px; font-size:.82rem; font-family:"Century Gothic","Trebuchet MS",sans-serif;
+  }
 
   section.weather{ margin:26px 0; }
   section.weather h2{ color:var(--grad1); margin-bottom:10px; }
   .hour-scroll{
     display:flex; overflow-x:auto; gap:10px; padding:12px 4px 16px;
-    background:var(--card); border-radius:14px; box-shadow:0 3px 14px rgba(27,67,50,.08);
+    background:var(--card); border-radius:14px; box-shadow:0 3px 14px rgba(122,46,14,.10);
   }
   .hour{
-    flex:0 0 auto; min-width:78px; text-align:center; padding:10px 8px;
-    border-radius:10px; background:#F5F8F4; display:flex; flex-direction:column; gap:4px;
-    font-size:.8rem;
+    flex:0 0 auto; min-width:80px; text-align:center; padding:10px 8px;
+    border-radius:10px; background:#FFF1D9; display:flex; flex-direction:column; gap:4px;
+    font-size:.8rem; font-family:"Century Gothic","Trebuchet MS",sans-serif;
   }
+  .hour.now{ background:var(--grad2); color:#fff; }
   .h-time{ font-weight:bold; color:var(--grad1); }
+  .hour.now .h-time{ color:#fff; }
   .h-icon{ font-size:1.4rem; }
   .h-temp{ font-weight:bold; font-size:1rem; }
   .h-wind{ color:var(--muted); font-size:.72rem; }
-  .h-prec{ color:#1B6B93; font-size:.72rem; }
+  .hour.now .h-wind{ color:#fff2df; }
+  .h-prec{ color:var(--sport); font-size:.72rem; }
+  .hour.now .h-prec{ color:#fff2df; }
 
   .day-cards{ display:grid; grid-template-columns:repeat(auto-fit,minmax(230px,1fr)); gap:14px; margin-top:14px; }
   .day-card{
-    background:var(--card); border-radius:14px; padding:16px 18px; box-shadow:0 3px 14px rgba(27,67,50,.08);
-    border-top:6px solid var(--grad2);
+    background:var(--card); border-radius:14px; padding:16px 18px; box-shadow:0 3px 14px rgba(122,46,14,.10);
+    border-left:6px solid var(--grad3);
   }
   .day-card h3{ margin:0 0 6px; color:var(--grad1); font-size:1.05rem; }
   .day-card .range{ font-size:1.3rem; font-weight:bold; }
   .day-card .cond{ color:var(--muted); font-size:.85rem; }
 
   section.news h2.section-title{ color:var(--grad1); margin:34px 0 16px; font-size:1.5rem; }
-  .grid-3col{
-    display:grid; grid-template-columns:repeat(auto-fit,minmax(320px,1fr)); gap:18px;
+  .grid-2col{
+    display:grid; grid-template-columns:repeat(auto-fit,minmax(380px,1fr)); gap:18px;
   }
   .news-card{
-    background:var(--card); border-radius:16px; padding:18px 20px 16px;
-    box-shadow:0 3px 14px rgba(27,67,50,.08); border-top:6px solid var(--grad2);
+    background:var(--card); border-radius:12px; padding:18px 20px 16px;
+    box-shadow:0 3px 14px rgba(122,46,14,.10); border-left:6px solid var(--grad3);
     position:relative;
   }
   .news-card .media{
     float:right; margin:0 0 8px 12px; max-width:120px;
   }
   .news-card .media img{
-    width:120px; height:90px; object-fit:cover; border-radius:10px; display:block;
-    box-shadow:0 2px 8px rgba(0,0,0,.18);
+    width:120px; height:90px; object-fit:cover; border-radius:8px; display:block;
+    box-shadow:0 2px 8px rgba(0,0,0,.2);
   }
   .badges{ margin-bottom:8px; }
   .badge{
     display:inline-block; font-size:.66rem; font-weight:700; text-transform:uppercase;
-    letter-spacing:.03em; color:#fff; padding:3px 9px; border-radius:20px; margin:0 6px 4px 0;
+    letter-spacing:.03em; color:#fff; padding:3px 9px; border-radius:5px; margin:0 6px 4px 0;
+    font-family:"Century Gothic","Trebuchet MS",sans-serif;
   }
   .news-card h3{ margin:2px 0 8px; font-size:1.08rem; color:var(--text); }
-  .news-card p.summary{ margin:0 0 10px; font-size:.9rem; color:#33403A; }
-  .news-card .src{ font-size:.78rem; }
+  .news-card p.summary{ margin:0 0 10px; font-size:.92rem; color:#3A2E22; }
+  .news-card .src{ font-size:.78rem; font-family:"Century Gothic","Trebuchet MS",sans-serif; }
   .news-card .src a{ text-decoration:none; font-weight:bold; }
 
   /* CSS-only lightbox */
   .lightbox{
-    display:none; position:fixed; inset:0; background:rgba(10,20,15,.88);
+    display:none; position:fixed; inset:0; background:rgba(20,12,5,.9);
     z-index:50; align-items:center; justify-content:center; padding:24px;
   }
   .lightbox:target{ display:flex; }
@@ -102,7 +110,7 @@
   }
 
   section.newsletter-section{
-    background:linear-gradient(100deg, var(--grad1), var(--grad2));
+    background:linear-gradient(100deg, var(--grad3), var(--grad1));
     padding:26px 0; margin-top:40px;
   }
   .newsletter-box{
@@ -110,17 +118,18 @@
   }
   .newsletter-box .nl-text{ flex:1 1 320px; }
   .newsletter-box h2{ margin:0 0 6px; font-size:1.3rem; }
-  .newsletter-box p{ margin:0; font-size:.88rem; opacity:.92; }
+  .newsletter-box p{ margin:0; font-size:.88rem; opacity:.94; font-family:"Cambria",serif; }
   .nl-form{ display:flex; gap:8px; flex-wrap:wrap; flex:1 1 340px; }
   .nl-form input[type="email"]{
     flex:1 1 220px; padding:11px 14px; border-radius:8px; border:none; font-size:.92rem;
+    font-family:"Cambria",serif;
   }
   .nl-form button{
-    background:var(--grad3); color:#fff; border:none; padding:11px 22px; border-radius:8px;
-    font-weight:bold; cursor:pointer; font-size:.92rem;
+    background:var(--grad2); color:#fff; border:none; padding:11px 22px; border-radius:8px;
+    font-weight:bold; cursor:pointer; font-size:.92rem; font-family:"Century Gothic","Trebuchet MS",sans-serif;
   }
-  .nl-form button:hover{ background:#c9683f; }
-  .nl-note{ width:100%; font-size:.72rem; opacity:.8; margin-top:6px; }
+  .nl-form button:hover{ background:#c97e18; }
+  .nl-note{ width:100%; font-size:.72rem; opacity:.85; margin-top:6px; font-family:"Cambria",serif; }
 
   footer{ padding:30px 0 50px; font-size:.82rem; color:var(--muted); }
   footer .impressum{ margin-bottom:10px; }
@@ -140,245 +149,228 @@
 <header class="site-header">
   <div class="container">
     <h1>Nachrichten – Lohr am Main &amp; Aschaffenburg</h1>
-    <div class="dt">Samstag, 11. Juli 2026 &middot; 14:55 Uhr CEST</div>
+    <div class="dt">Sonntag, 12. Juli 2026 &middot; 06:15 Uhr CEST</div>
     <p class="tagline">Tagesaktuelle Meldungen aus Lohr am Main, Aschaffenburg, dem Landkreis Aschaffenburg und dem Landkreis Main-Spessart &ndash; gebündelt aus regionalen Quellen.</p>
   </div>
 </header>
 
 <div class="container">
 
-  <section class="event-banner">
-    <h2>🎪 Vorschau: Lohrer Spessartfestwoche (24. Juli &ndash; 2. August 2026)</h2>
-    <p>In gut zwei Wochen startet auf der Lohrer Mainlände wieder das größte Volksfest der Stadt: die <strong>Lohrer Spessartfestwoche</strong>. Zehn Tage lang erwarten Besucher ein Bierzelt mit Lohrer Festbier, Fahrgeschäfte, ein verkaufsoffener Sonntag, der traditionelle Vereinstag (26. Juli) sowie der beliebte &bdquo;Abend der Betriebe&ldquo; am 31. Juli. Der Eintritt zum Festgelände ist frei. Bereits jetzt laufen die Vorbereitungen: Ab dem 6. Juli steht der südliche Teil der Mainlände wegen des Festzeltaufbaus nicht mehr als Parkplatz zur Verfügung, ab dem 20. Juli (5 Uhr) wird für den Aufbau der Fahrgeschäfte komplett gesperrt. Ausweichparkplätze gibt es am Bootshafen, an der Westtangente und am &bdquo;Steinernen Weg&ldquo;. Die Tradition der Festwoche reicht als geselliges Sommerfest der Main-Spessart-Region viele Jahrzehnte zurück und gilt als einer der Höhepunkte im Lohrer Veranstaltungskalender.</p>
-    <p class="meta">Quelle: <a href="https://www.lohr.de/leben-und-arbeiten/aktuelles/detail/sperrung-der-mainlaende-wegen-der-spessartfestwoche" target="_blank" rel="noopener">lohr.de</a> &middot; Reservierungen: festwoche@lohr.de</p>
+  <section class="season-banner">
+    <h2>☀️ Hochsommer am Untermain: Was diese Woche ansteht</h2>
+    <ul class="season-chips">
+      <li>🔥 Hitzewelle &amp; erhöhte Waldbrandgefahr (Sa.&ndash;Mo.)</li>
+      <li>🍺 Kiliani-Volksfest Würzburg &ndash; noch bis 19.07.</li>
+      <li>🎪 Lohrer Spessartfestwoche &ndash; ab 24.07.</li>
+      <li>🎉 Altstadtfest Aschaffenburg &ndash; 25.&ndash;26.07.</li>
+      <li>🎒 Sommerferien Bayern &ndash; ab 03.08.</li>
+    </ul>
   </section>
 
   <section class="weather">
     <h2>🌤️ Wetter für die Region (DWD / Bright Sky)</h2>
     <div class="hour-scroll">
-<div class="hour"><span class="h-time">02:00</span><span class="h-icon">🌙</span><span class="h-temp">16°</span><span class="h-wind">4 km/h NO</span><span class="h-prec">–</span></div>
-<div class="hour"><span class="h-time">03:00</span><span class="h-icon">🌙</span><span class="h-temp">15°</span><span class="h-wind">0 km/h N</span><span class="h-prec">–</span></div>
-<div class="hour"><span class="h-time">04:00</span><span class="h-icon">🌙</span><span class="h-temp">14°</span><span class="h-wind">2 km/h S</span><span class="h-prec">–</span></div>
-<div class="hour"><span class="h-time">05:00</span><span class="h-icon">🌙</span><span class="h-temp">13°</span><span class="h-wind">0 km/h N</span><span class="h-prec">–</span></div>
-<div class="hour"><span class="h-time">06:00</span><span class="h-icon">☀️</span><span class="h-temp">12°</span><span class="h-wind">0 km/h N</span><span class="h-prec">–</span></div>
-<div class="hour"><span class="h-time">07:00</span><span class="h-icon">☀️</span><span class="h-temp">16°</span><span class="h-wind">0 km/h N</span><span class="h-prec">–</span></div>
-<div class="hour"><span class="h-time">08:00</span><span class="h-icon">☀️</span><span class="h-temp">20°</span><span class="h-wind">2 km/h SSW</span><span class="h-prec">–</span></div>
-<div class="hour"><span class="h-time">09:00</span><span class="h-icon">☀️</span><span class="h-temp">21°</span><span class="h-wind">10 km/h ONO</span><span class="h-prec">–</span></div>
-<div class="hour"><span class="h-time">10:00</span><span class="h-icon">☀️</span><span class="h-temp">24°</span><span class="h-wind">18 km/h ONO</span><span class="h-prec">–</span></div>
-<div class="hour"><span class="h-time">11:00</span><span class="h-icon">☀️</span><span class="h-temp">25°</span><span class="h-wind">16 km/h ONO</span><span class="h-prec">–</span></div>
-<div class="hour"><span class="h-time">12:00</span><span class="h-icon">☀️</span><span class="h-temp">26°</span><span class="h-wind">9 km/h OSO</span><span class="h-prec">1%</span></div>
-<div class="hour"><span class="h-time">13:00</span><span class="h-icon">☀️</span><span class="h-temp">27°</span><span class="h-wind">10 km/h OSO</span><span class="h-prec">0%</span></div>
-<div class="hour"><span class="h-time">14:00 &middot; jetzt</span><span class="h-icon">☀️</span><span class="h-temp">29°</span><span class="h-wind">14 km/h SO</span><span class="h-prec">0%</span></div>
-<div class="hour"><span class="h-time">15:00</span><span class="h-icon">☀️</span><span class="h-temp">30°</span><span class="h-wind">13 km/h ONO</span><span class="h-prec">1%</span></div>
-<div class="hour"><span class="h-time">16:00</span><span class="h-icon">☀️</span><span class="h-temp">30°</span><span class="h-wind">13 km/h ONO</span><span class="h-prec">1%</span></div>
-<div class="hour"><span class="h-time">17:00</span><span class="h-icon">☀️</span><span class="h-temp">30°</span><span class="h-wind">13 km/h ONO</span><span class="h-prec">1%</span></div>
-<div class="hour"><span class="h-time">18:00</span><span class="h-icon">☀️</span><span class="h-temp">29°</span><span class="h-wind">15 km/h ONO</span><span class="h-prec">1%</span></div>
-<div class="hour"><span class="h-time">19:00</span><span class="h-icon">☀️</span><span class="h-temp">29°</span><span class="h-wind">17 km/h ONO</span><span class="h-prec">1%</span></div>
-<div class="hour"><span class="h-time">20:00</span><span class="h-icon">☀️</span><span class="h-temp">28°</span><span class="h-wind">17 km/h ONO</span><span class="h-prec">1%</span></div>
-<div class="hour"><span class="h-time">21:00</span><span class="h-icon">☀️</span><span class="h-temp">26°</span><span class="h-wind">17 km/h ONO</span><span class="h-prec">1%</span></div>
-<div class="hour"><span class="h-time">22:00</span><span class="h-icon">🌙</span><span class="h-temp">25°</span><span class="h-wind">15 km/h ONO</span><span class="h-prec">1%</span></div>
-<div class="hour"><span class="h-time">23:00</span><span class="h-icon">🌙</span><span class="h-temp">23°</span><span class="h-wind">13 km/h ONO</span><span class="h-prec">1%</span></div>
+<div class="hour"><span class="h-time">02:00</span><span class="h-icon">🌙</span><span class="h-temp">15°</span><span class="h-wind">0 km/h N</span><span class="h-prec">0%</span></div>
+<div class="hour"><span class="h-time">03:00</span><span class="h-icon">🌙</span><span class="h-temp">14°</span><span class="h-wind">0 km/h N</span><span class="h-prec">1%</span></div>
+<div class="hour"><span class="h-time">04:00</span><span class="h-icon">🌙</span><span class="h-temp">13°</span><span class="h-wind">10 km/h W</span><span class="h-prec">1%</span></div>
+<div class="hour"><span class="h-time">05:00</span><span class="h-icon">🌙</span><span class="h-temp">13°</span><span class="h-wind">0 km/h N</span><span class="h-prec">1%</span></div>
+<div class="hour now"><span class="h-time">06:00 &middot; jetzt</span><span class="h-icon">☀️</span><span class="h-temp">17°</span><span class="h-wind">20 km/h NNE</span><span class="h-prec">1%</span></div>
+<div class="hour"><span class="h-time">07:00</span><span class="h-icon">☀️</span><span class="h-temp">18°</span><span class="h-wind">20 km/h NNE</span><span class="h-prec">1%</span></div>
+<div class="hour"><span class="h-time">08:00</span><span class="h-icon">☀️</span><span class="h-temp">20°</span><span class="h-wind">20 km/h NE</span><span class="h-prec">1%</span></div>
+<div class="hour"><span class="h-time">09:00</span><span class="h-icon">☀️</span><span class="h-temp">23°</span><span class="h-wind">20 km/h ENE</span><span class="h-prec">1%</span></div>
+<div class="hour"><span class="h-time">10:00</span><span class="h-icon">☀️</span><span class="h-temp">25°</span><span class="h-wind">27 km/h E</span><span class="h-prec">1%</span></div>
+<div class="hour"><span class="h-time">11:00</span><span class="h-icon">☀️</span><span class="h-temp">27°</span><span class="h-wind">33 km/h E</span><span class="h-prec">1%</span></div>
+<div class="hour"><span class="h-time">12:00</span><span class="h-icon">☀️</span><span class="h-temp">28°</span><span class="h-wind">40 km/h E</span><span class="h-prec">0%</span></div>
+<div class="hour"><span class="h-time">13:00</span><span class="h-icon">☀️</span><span class="h-temp">29°</span><span class="h-wind">47 km/h E</span><span class="h-prec">0%</span></div>
+<div class="hour"><span class="h-time">14:00</span><span class="h-icon">☀️</span><span class="h-temp">30°</span><span class="h-wind">47 km/h ENE</span><span class="h-prec">1%</span></div>
+<div class="hour"><span class="h-time">15:00</span><span class="h-icon">☀️</span><span class="h-temp">30°</span><span class="h-wind">47 km/h ENE</span><span class="h-prec">1%</span></div>
+<div class="hour"><span class="h-time">16:00</span><span class="h-icon">☀️</span><span class="h-temp">31°</span><span class="h-wind">40 km/h ENE</span><span class="h-prec">0%</span></div>
+<div class="hour"><span class="h-time">17:00</span><span class="h-icon">☀️</span><span class="h-temp">31°</span><span class="h-wind">40 km/h ENE</span><span class="h-prec">0%</span></div>
+<div class="hour"><span class="h-time">18:00</span><span class="h-icon">☀️</span><span class="h-temp">31°</span><span class="h-wind">40 km/h ENE</span><span class="h-prec">1%</span></div>
+<div class="hour"><span class="h-time">19:00</span><span class="h-icon">☀️</span><span class="h-temp">30°</span><span class="h-wind">40 km/h ENE</span><span class="h-prec">1%</span></div>
+<div class="hour"><span class="h-time">20:00</span><span class="h-icon">☀️</span><span class="h-temp">29°</span><span class="h-wind">47 km/h ENE</span><span class="h-prec">1%</span></div>
+<div class="hour"><span class="h-time">21:00</span><span class="h-icon">🌙</span><span class="h-temp">28°</span><span class="h-wind">40 km/h NE</span><span class="h-prec">1%</span></div>
+<div class="hour"><span class="h-time">22:00</span><span class="h-icon">🌙</span><span class="h-temp">26°</span><span class="h-wind">40 km/h NE</span><span class="h-prec">0%</span></div>
+<div class="hour"><span class="h-time">23:00</span><span class="h-icon">🌙</span><span class="h-temp">24°</span><span class="h-wind">33 km/h NE</span><span class="h-prec">0%</span></div>
+<div class="hour"><span class="h-time">00:00</span><span class="h-icon">🌙</span><span class="h-temp">23°</span><span class="h-wind">33 km/h NE</span><span class="h-prec">0%</span></div>
+<div class="hour"><span class="h-time">01:00</span><span class="h-icon">🌙</span><span class="h-temp">22°</span><span class="h-wind">27 km/h NE</span><span class="h-prec">1%</span></div>
     </div>
     <div class="day-cards">
       <div class="day-card">
-        <h3>Heute, Sa. 11.07.</h3>
-        <div class="range">12° / 30°</div>
-        <div class="cond">☀️ Sonnig &amp; trocken, aktuell 29°C</div>
+        <h3>Heute, So. 12.07.</h3>
+        <div class="range">13° / 31°</div>
+        <div class="cond">☀️ Hochsommerlich heiß, erhöhte Waldbrandgefahr</div>
       </div>
       <div class="day-card">
-        <h3>Morgen, So. 12.07.</h3>
-        <div class="range">17° / 31°</div>
-        <div class="cond">☀️ Sonnig, Hitze-Spitze der Woche</div>
+        <h3>Morgen, Mo. 13.07.</h3>
+        <div class="range">18° / 33°</div>
+        <div class="cond">☀️ Heißester Tag der Woche, Luftbeobachtung wegen Waldbrand</div>
       </div>
       <div class="day-card">
-        <h3>Übermorgen, Mo. 13.07.</h3>
-        <div class="range">ab 20° &middot; weiter trocken</div>
-        <div class="cond">☀️ Fortgesetzte Hitzeperiode</div>
+        <h3>Übermorgen, Di. 14.07.</h3>
+        <div class="range">ab 22° &middot; weiter trocken</div>
+        <div class="cond">☀️ Voraussichtlich weiter sonnig, Hochsommer hält an</div>
       </div>
     </div>
   </section>
 
   <section class="news">
     <h2 class="section-title">📰 Regionale Nachrichten</h2>
-    <div class="grid-3col">
+    <div class="grid-2col">
 
       <article class="news-card">
-        <div class="badges"><span class="badge" style="background:var(--justiz)">Justiz</span><span class="badge" style="background:var(--politik)">Karlstadt-Wiesenfeld</span></div>
-        <h3>Tatort Wiesenfeld: Neuaufrollung des Cold-Case-Prozesses geht in die nächste Runde</h3>
-        <p class="summary">Mehr als 30 Jahre nach dem gewaltsamen Tod der 13-jährigen Sabine B. auf einem Reiterhof in Karlstadt-Wiesenfeld läuft die Neuauflage des Mordprozesses vor dem Landgericht Würzburg weiter. Der Bundesgerichtshof hatte das ursprüngliche Urteil von Dezember 2024 nach der Revision des Angeklagten aufgehoben und zur Neuverhandlung zurückverwiesen. Bis zum 26. Oktober 2026 sind insgesamt 26 Verhandlungstage angesetzt, zu denen 94 Zeugen und mehrere Sachverständige geladen sind. Zuletzt sagte unter anderem die frühere Freundin des Angeklagten aus, die sich an eine Festnahme im Sommer 1998 erinnerte.</p>
-        <p class="src">Quelle: <a href="https://www.main-echo.de/region/kreis-main-spessart/tatort-wiesenfeld-gericht-hoert-weiter-zeugen-an-art-8745436" target="_blank" rel="noopener">main-echo.de</a></p>
+        <div class="badges"><span class="badge" style="background:var(--blaulicht)">Blaulicht</span><span class="badge" style="background:var(--politik)">Albstadt-Alzenau</span></div>
+        <h3>Rundballenpresse und Ackerfläche brennen in Albstadt bei Alzenau</h3>
+        <p class="summary">Am Samstagnachmittag gerieten in Albstadt nahe den Tennisplätzen eine Rundballenpresse und rund 400 Quadratmeter abgeerntete Stoppelfläche in Brand. Rund 50 Einsatzkräfte der Feuerwehren aus Albstadt und Nachbargemeinden rückten aus und bekämpften die beiden rund 400 Meter auseinanderliegenden Brandherde parallel. Zwei Trupps unter Atemschutz löschten die Ballenpresse direkt, während ein örtlicher Landwirt mit einem Grubber half, das Feld umzupflügen und die Ausbreitung der Flammen zu stoppen. Die Brandursache ist noch unklar, Einsatzleiter war Kommandant Jan Feineis, unterstützt von den Kreisbrandmeistern Markus Fischer und Martin Bahmer.</p>
+        <p class="src">Quelle: <a href="https://aschaffenburg.news/ab/alzenau/albstadt/alzenau-rundballenpresse-und-ackerfläche-brennen-in-albstadt.html" target="_blank" rel="noopener">aschaffenburg.news</a></p>
       </article>
 
       <article class="news-card">
-        <div class="badges"><span class="badge" style="background:var(--blaulicht)">Blaulicht</span><span class="badge" style="background:var(--politik)">Kreis Miltenberg</span></div>
-        <h3>E-Scooter kollidiert mit geparktem Kia &ndash; gleich drei Unfallfluchten im Kreis Miltenberg</h3>
-        <p class="summary">Die Polizei meldet mehrere Verkehrsunfälle mit anschließender Flucht der Verursacher im Landkreis Miltenberg. In Eisenbach kollidierte ein E-Scooter-Fahrer mit einem geparkten Kia und verursachte rund 3.000 Euro Sachschaden, ehe er flüchtete. In Miltenberg wurde ein VW Golf auf einem Parkplatz touchiert, Schaden etwa 500 Euro. Ein weiterer Vorfall ereignete sich in Eichenbühl, wo ein Kia Ceed beschädigt wurde. Die Polizei bittet in allen drei Fällen um sachdienliche Hinweise.</p>
-        <p class="src">Quelle: <a href="https://www.meine-news.de/landkreis-miltenberg/c-blaulicht/kreis-miltenberg-e-scooter-kollidiert-mit-einem-kia-pkws-angefahren-unfallflucht_a239239" target="_blank" rel="noopener">meine-news.de</a></p>
+        <div class="badges"><span class="badge" style="background:var(--blaulicht)">Blaulicht</span><span class="badge" style="background:var(--politik)">Würzburg-Lengfeld</span></div>
+        <h3>Grundschülerin meldet Mann mit Waffe: Großeinsatz der Polizei in Würzburg-Lengfeld</h3>
+        <p class="summary">Eine Grundschülerin löste am Donnerstagmorgen einen Großeinsatz der Würzburger Polizei aus, weil sie an einer Bushaltestelle im Stadtteil Lengfeld einen Mann mit einer vermeintlichen Waffe beobachtet und einen lauten Knall gehört haben will. Mehrere Streifenwagen rückten sofort aus, zusätzliche Beamte zeigten in der Umgebung von Kindergärten und Schulen sichtbar Präsenz. Bei der Absuche fanden Ermittler lediglich eine Patronenhülse einer Softair-Pistole, ein Hinweis auf eine tatsächliche Gefährdungslage ergab sich nicht. Die Polizei gab rasch Entwarnung und bat die Bevölkerung ausdrücklich, keine unbestätigten Informationen in sozialen Netzwerken zu verbreiten.</p>
+        <p class="src">Quelle: <a href="https://www.infranken.de/lk/wuerzburg/blaulicht/polizei-grosseinsatz-in-wuerzburg-grundschuelerin-meldet-mann-mit-waffe-art-6377487" target="_blank" rel="noopener">infranken.de</a></p>
       </article>
 
       <article class="news-card">
-        <div class="badges"><span class="badge" style="background:var(--politik)">Politik</span><span class="badge" style="background:var(--bildung)">Amorbach</span></div>
-        <h3>Demokratie zum Anfassen: Landtagsabgeordnete diskutieren mit Amorbacher Realschülern</h3>
-        <p class="summary">Zum Auftakt ihrer Projektwoche empfing die Theresia-Gerhardinger-Realschule Amorbach die Landtagsabgeordneten Martin Stock und Thomas Zöller sowie Bürgermeister Robin Haseler zum Dialog mit den Abschlussklassen. Diskutiert wurden praxisnahe Themen wie die Abschaffung unangekündigter Leistungsnachweise und ein mögliches soziales Pflichtjahr. Die Jugendlichen zeigten sich kritisch gegenüber einem möglichen Social-Media-Verbot für Minderjährige. Alle drei Gäste warben dafür, dass junge Menschen sich über unabhängige Medien informieren und aktiv am demokratischen Diskurs beteiligen.</p>
+        <div class="badges"><span class="badge" style="background:var(--gesellschaft)">Gesellschaft</span><span class="badge" style="background:var(--politik)">Würzburg</span></div>
+        <h3>Seit Samstag vermisste 81-Jährige aus Würzburg wohlbehalten aufgefunden</h3>
+        <p class="summary">Eine 81-jährige Bewohnerin eines Seniorenheims an der Winterhäuser Straße wurde am Samstagmittag zuletzt gegen 13:30 Uhr gesehen und daraufhin von der Polizei per Öffentlichkeitsfahndung gesucht. Bereits rund eine halbe Stunde nach Veröffentlichung der Suchmeldung konnte die Frau wohlbehalten angetroffen werden. Die Polizei widerrief die Fahndung umgehend und bedankte sich bei allen, die sich an der Suche beteiligt hatten. Der Fall zeigt, wie schnell Vermisstenfälle bei guter Zusammenarbeit von Polizei und Öffentlichkeit gelöst werden können.</p>
         <div class="media">
-          <a href="#img-1"><img id="img-1-thumb" src="https://media04.meine-news.de/article/2026/07/07/7/2164957_L.webp?1783453007" alt="Dialogrunde mit Landtagsabgeordneten an der Realschule Amorbach"></a>
+          <a href="#img-5"><img src="https://www.infranken.de/storage/image/1/8/0/6/3906081_artikel-detail-bild-748_1EqYaf_orae3v.jpg" alt="Symbolbild Polizeieinsatz Vermisstensuche Würzburg"></a>
         </div>
-        <p class="src">Quelle: <a href="https://www.meine-news.de/amorbach/c-schule-und-bildung/demokratie-in-der-schule_a238975" target="_blank" rel="noopener">meine-news.de</a></p>
+        <p class="src">Quelle: <a href="https://www.infranken.de/lk/wuerzburg/blaulicht/vermisstenfall-in-wuerzburg-schnell-geklaert-polizei-gibt-update-art-6378214" target="_blank" rel="noopener">infranken.de</a></p>
       </article>
 
       <article class="news-card">
-        <div class="badges"><span class="badge" style="background:var(--umwelt)">Umwelt</span><span class="badge" style="background:var(--politik)">Südspessart</span></div>
-        <h3>Überquellende Glascontainer sorgen im Südspessart für Ärger</h3>
-        <p class="summary">In mehreren Gemeinden des Südspessarts &ndash; Collenberg, Kirschfurt, Dorfprozelten, Faulbach und Altenbuch &ndash; häufen sich Beschwerden über volle Altglascontainer. Bürger und Gemeinderatsmitglieder kritisieren liegen gelassene leere Flaschen und herumliegende Glasscherben vor den überfüllten Behältern. Die zuständige Entsorgungsfirma Weisgerber wird auf die Problematik angesprochen, klare Lösungsansätze stehen bislang aus. Die betroffenen Gemeinden suchen nun gemeinsam nach Wegen, die Leerungsintervalle an das gestiegene Aufkommen anzupassen.</p>
-        <p class="src">Quelle: <a href="https://www.main-echo.de/region/kreis-miltenberg/kritik-wegen-ueberquellender-glascontainer-art-8741795" target="_blank" rel="noopener">main-echo.de</a></p>
+        <div class="badges"><span class="badge" style="background:var(--umwelt)">Umwelt</span><span class="badge" style="background:var(--politik)">Unterfranken</span></div>
+        <h3>Hohe Waldbrandgefahr: Regierung von Unterfranken ordnet erneut Luftbeobachtung an</h3>
+        <p class="summary">Wegen einer anhaltenden Hitzewelle mit lang anhaltendem Sonnenschein und extrem hohen Temperaturen hat die Regierung von Unterfranken für Samstag und Sonntag eine vorsorgliche Luftbeobachtung für den gesamten Regierungsbezirk angeordnet. Besonders gefährdet sind offene, unbeschattete Flächen mit abgestorbenem Gras ohne grünen Aufwuchs. Die Beobachtung findet vor allem in den Nachmittagsstunden statt, wenn die Gefahr am größten ist; ehrenamtliche Pilotinnen und Piloten der Luftrettungsstaffel Bayern fliegen dabei zwei Routen ab den Flugplätzen Mainbullau, Hettstadt, Schweinfurt-Süd und Haßfurt. Da am sonnigen Wochenende zusätzlich viele Menschen in den Wäldern unterwegs sind, appelliert die Behörde eindringlich an alle, in Waldgebieten größte Vorsicht walten zu lassen.</p>
+        <p class="src">Quelle: <a href="https://aschaffenburg.news/aktuelles/regierung-ordnet-erneut-vorsorgliche-luftbeobachtung-an.html" target="_blank" rel="noopener">aschaffenburg.news</a></p>
       </article>
 
       <article class="news-card">
-        <div class="badges"><span class="badge" style="background:var(--gesellschaft)">Gesellschaft</span><span class="badge" style="background:var(--kultur)">Klingenberg</span></div>
-        <h3>50 Jahre nach Anneliese Michel: Wie der Exorzismus am Untermain bis heute weiterlebt</h3>
-        <p class="summary">Am 1. Juli 1976 starb die 23-jährige Anneliese Michel in Klingenberg an den Folgen schwerer Mangelernährung, nachdem fast 70 Exorzismen an ihr vollzogen worden waren. Ein Video-Beitrag von main-echo.de blickt 50 Jahre später auf die langfristigen Folgen des Falls für den Umgang der katholischen Kirche mit Dämonenaustreibungen. Im Mittelpunkt steht unter anderem eine Aschaffenburgerin, die nach eigener Aussage bis heute &bdquo;Befreiungsdienste&ldquo; praktiziert. Der Fall, der 1976 durch einen main-echo-Redakteur öffentlich bekannt wurde, führte seinerzeit zur Verurteilung von Michels Eltern und zweier Priester wegen fahrlässiger Tötung durch Unterlassen.</p>
-        <p class="src">Quelle: <a href="https://www.main-echo.de/region/kreis-miltenberg/topthemen/vom-fall-anneliese-michel-bis-heute-ein-videobeitrag-zum-thema-exorzismus-art-8744770" target="_blank" rel="noopener">main-echo.de</a> (Video)</p>
-      </article>
-
-      <article class="news-card">
-        <div class="badges"><span class="badge" style="background:var(--gesellschaft)">Gesellschaft</span><span class="badge" style="background:var(--politik)">Erlenbach</span></div>
-        <h3>Großnichte von Heinrich Himmler spricht an Erlenbacher Schulen über Aufarbeitung und AfD</h3>
-        <p class="summary">Die Politologin und Autorin Katrin Himmler, Großnichte des NS-Reichsführers SS Heinrich Himmler, war am Julius-Echter-Gymnasium Elsenfeld und am Hermann-Staudinger-Gymnasium Erlenbach zu Gast. In ihrem Vortrag schilderte sie, wie alle drei Himmler-Brüder überzeugte Nationalsozialisten waren und wie schwer sich ihre eigene Familie mit der Aufarbeitung dieser Geschichte tat. Mit ihren Büchern und Vorträgen sensibilisiert sie heute für die Gefahren des Rechtsextremismus und zog dabei ausdrücklich Parallelen zu aktuellen Entwicklungen um die AfD. Die Schülerinnen und Schüler zeigten sich sichtlich betroffen von der eindringlichen Familiengeschichte.</p>
+        <div class="badges"><span class="badge" style="background:var(--politik)">Politik</span><span class="badge" style="background:var(--wirtschaft)">Marktheidenfeld</span></div>
+        <h3>Flüchtlingsheim am Setzgraben in Marktheidenfeld wird bis Ende 2027 aufgelöst</h3>
+        <p class="summary">Die seit 2016 bestehende Gemeinschaftsunterkunft für Geflüchtete am Setzgraben in Marktheidenfeld wird bis Ende des Jahres 2027 aufgelöst, wie ein Sprecher der Regierung von Unterfranken mitteilte. Die derzeit dort untergebrachten Menschen sollen im Zuge der Schließung schrittweise auf andere Unterkünfte in der Region verteilt werden. Offen ist bislang, was mit dem Gebäude und dem Grundstück nach der Auflösung geschehen soll. Für die Stadt Marktheidenfeld bedeutet der Schritt eine spürbare Veränderung im Stadtbild, während für die Bewohnerinnen und Bewohner der Einrichtung der Umzug in neue Unterkünfte ansteht.</p>
         <div class="media">
-          <a href="#img-2"><img src="https://media04.meine-news.de/article/2026/07/09/2/2165962_L.webp?1783599493" alt="Katrin Himmler bei ihrem Vortrag am Gymnasium"></a>
+          <a href="#img-1"><img src="https://www.main-echo.de/storage/image/5/1/1/8/6858115_nar-artikeldetail_1GkhGi_3F18xY.jpg" alt="Flüchtlingsunterkunft am Setzgraben in Marktheidenfeld"></a>
         </div>
-        <p class="src">Quelle: <a href="https://meine-news.de/erlenbach-amain/c-schule-und-bildung/katrin-himmler-am-jeg-und-hsg_a239143" target="_blank" rel="noopener">meine-news.de</a></p>
+        <p class="src">Quelle: <a href="https://www.main-echo.de/region/kreis-main-spessart/fluechtlingsheim-wird-bis-ende-2027-aufgeloest-art-8749206" target="_blank" rel="noopener">main-echo.de</a></p>
       </article>
 
       <article class="news-card">
-        <div class="badges"><span class="badge" style="background:var(--verkehr)">Verkehr</span><span class="badge" style="background:var(--politik)">Lohr-Rodenbach</span></div>
-        <h3>Notleitung versorgt Rodenbach und Pflochsbach ab 15. Juli mit Trinkwasser</h3>
-        <p class="summary">Wegen dringender Reparaturarbeiten an der Hauptversorgungsleitung der Fernwasserversorgung Mittelmain werden die Lohrer Stadtteile Rodenbach und Pflochsbach ab dem 15. Juli für drei bis vier Wochen über eine Notleitung aus Lohr a.Main mit Trinkwasser versorgt. Durch die vorübergehende Vermischung beider Wässer kann es zu geringfügigen optischen oder geschmacklichen Veränderungen kommen, die Trinkwasserqualität selbst ist davon nicht betroffen. Die Maßnahme wurde eng mit dem Gesundheitsamt Main-Spessart abgestimmt. Ziel ist es, die reguläre Versorgung so schnell wie möglich wiederherzustellen.</p>
+        <div class="badges"><span class="badge" style="background:var(--politik)">Politik</span><span class="badge" style="background:var(--wirtschaft)">Marktheidenfeld</span></div>
+        <h3>Treppe entzweit Stadtrat und Bauamt: Streit um die Alte Mainbrücke</h3>
+        <p class="summary">Die geplante Sanierung der historischen Alten Mainbrücke in Marktheidenfeld soll ohne den Rückbau von Brückenpfeilern erfolgen, das steht seit einer Genehmigung im April 2025 fest. Nun sorgt jedoch eine Treppe am Brückenkopf für Streit zwischen Stadt und Behörde: Das Staatliche Bauamt hält die Stiege für nicht verkehrssicher und will sie im Zuge der Sanierung ersatzlos zurückbauen. Der Stadtrat ist in der Frage gespalten, verschiedene Ratsmitglieder brachten eigene Vorschläge ein, wie der Zugang an dieser Stelle dennoch erhalten werden könnte. Die 1846 erbaute Brücke gilt als Wahrzeichen der Stadt und ziert sogar das Stadtwappen.</p>
         <div class="media">
-          <a href="#img-3"><img src="https://lohr.de/fileadmin/user_upload/Aktuelles_Trinkwasser.png" alt="Hinweis zur Trinkwasser-Notleitung Rodenbach/Pflochsbach"></a>
+          <a href="#img-2"><img src="https://www.main-echo.de/storage/image/3/6/0/8/6858063_nar-artikeldetail_1Gkhx0_calWtf.jpg" alt="Alte Mainbrücke in Marktheidenfeld"></a>
         </div>
-        <p class="src">Quelle: <a href="https://www.lohr.de/leben-und-arbeiten/aktuelles/detail/arbeiten-an-der-trinkwasserleitung-in-rodenbach-und-pflochsbach" target="_blank" rel="noopener">lohr.de</a></p>
+        <p class="src">Quelle: <a href="https://www.main-echo.de/region/kreis-main-spessart/treppe-entzweit-stadtrat-und-bauamt-art-8749153" target="_blank" rel="noopener">main-echo.de</a></p>
       </article>
 
       <article class="news-card">
-        <div class="badges"><span class="badge" style="background:var(--freizeit)">Freizeit</span><span class="badge" style="background:var(--politik)">Lohr</span></div>
-        <h3>Mainlände-Sperrung: Aufbau der Spessartfestwoche startet in Lohr</h3>
-        <p class="summary">Wegen der bevorstehenden Lohrer Spessartfestwoche steht der südliche Teil der Mainlände seit dem 6. Juli nicht mehr als Parkplatz zur Verfügung, weil dort das große Festzelt aufgebaut wird. Ab dem 20. Juli, 5 Uhr, folgt dann die komplette Sperrung des Areals für den Aufbau der Fahrgeschäfte. Die Stadt bittet Besucherinnen und Besucher, auf die Ausweichparkplätze am Bootshafen, den Westtangentenparkplatz oder den &bdquo;Steinernen Weg&ldquo; auszuweichen. Das Fest selbst startet am 24. Juli mit dem traditionellen Fassanstich.</p>
+        <div class="badges"><span class="badge" style="background:var(--politik)">Politik</span><span class="badge" style="background:var(--wirtschaft)">Karlstein-Dettingen</span></div>
+        <h3>Ortskern Dettingen: Karlstein plant Machbarkeitsstudie &bdquo;ohne weiße Flecken&ldquo;</h3>
+        <p class="summary">Der Gemeinderat Karlstein hat die Vergabe einer umfassenden Machbarkeitsstudie zur Sanierung des Ortskerns von Dettingen beschlossen. Ziel ist ein Plan &bdquo;ohne weiße Flecken&ldquo;, der das gesamte Quartier einschließlich des Karlplatzes in den Blick nimmt, etwa den Bahnhofsbereich, Teile der Hahnenkammstraße und untergenutzte Innenblöcke. Die Grünen-Fraktion äußerte im Rat Bedenken sowohl zum Umfang der Studie als auch zu den damit verbundenen Kosten. Ein zentraler Streitpunkt ist zudem, welche finanziellen Folgen eine mögliche Neubebauung des Karlplatzes für die Gemeinde hätte.</p>
         <div class="media">
-          <a href="#img-4"><img src="https://lohr.de/fileadmin/user_upload/Aktuelles_Sperrung.png" alt="Hinweis zur Mainlände-Sperrung wegen der Spessartfestwoche"></a>
+          <a href="#img-3"><img src="https://www.main-echo.de/storage/image/7/1/8/7/6857817_nar-artikeldetail_1Gkf6S_ddHIfz.jpg" alt="Ortskern Dettingen in der Gemeinde Karlstein"></a>
         </div>
-        <p class="src">Quelle: <a href="https://www.lohr.de/leben-und-arbeiten/aktuelles/detail/sperrung-der-mainlaende-wegen-der-spessartfestwoche" target="_blank" rel="noopener">lohr.de</a></p>
+        <p class="src">Quelle: <a href="https://www.main-echo.de/region/stadt-kreis-aschaffenburg/ortskern-in-dettingen-sanieren-das-sind-die-plaene-in-karlstein-art-8748991" target="_blank" rel="noopener">main-echo.de</a></p>
       </article>
 
       <article class="news-card">
-        <div class="badges"><span class="badge" style="background:var(--freizeit)">Freizeit</span><span class="badge" style="background:var(--politik)">Miltenberg</span></div>
-        <h3>Forum 55 Plus wandert bei bestem Sommerwetter zum Kloster Himmelthal</h3>
-        <p class="summary">Die Wandergruppe Forum 55 Plus des Dekanats Miltenberg hat bei strahlendem Sommerwetter eine gut besuchte Rundwanderung unternommen. Die rund 6,5 Kilometer lange Route führte die 25 Teilnehmerinnen und Teilnehmer von Rück-Schippach vorbei an der St.-Pius-Kirche zum historischen Kloster Himmelthal und zurück. Ausklang fand der gesellige Tag beim Hofschoppenfest im Schalkhaus. Die nächste Wanderung der Gruppe ist bereits für August in Klingenberg geplant.</p>
+        <div class="badges"><span class="badge" style="background:var(--justiz)">Justiz</span><span class="badge" style="background:var(--politik)">Aschaffenburg</span></div>
+        <h3>Facebook-Beleidigung gegen Ex-OB Herzing endet mit Strafbefehl</h3>
+        <p class="summary">Ein 30-jähriger Mann muss nach einem beleidigenden Facebook-Beitrag über den abgewählten Aschaffenburger Oberbürgermeister Jürgen Herzing eine empfindliche Geldstrafe zahlen. Er akzeptierte einen Strafbefehl über mehrere Tagessätze, obwohl er die Höhe der Strafe für unangemessen hält. Ein bereits terminierter Gerichtstermin fand deshalb in letzter Minute nicht mehr statt, da der Strafbefehl rechtskräftig wurde. Der Fall zeigt erneut, dass beleidigende Äußerungen in sozialen Netzwerken auch für Privatpersonen ernsthafte juristische und finanzielle Folgen haben können.</p>
+        <p class="src">Quelle: <a href="https://www.main-echo.de/region/stadt-kreis-aschaffenburg/ex-ob-herzing-beleidigt-strafbefehl-art-8748962" target="_blank" rel="noopener">main-echo.de</a></p>
+      </article>
+
+      <article class="news-card">
+        <div class="badges"><span class="badge" style="background:var(--umwelt)">Umwelt</span><span class="badge" style="background:var(--politik)">Krombach</span></div>
+        <h3>Krombach kämpft mit überquellenden Glas- und Dosencontainern</h3>
+        <p class="summary">Auch in Krombach klagen Bürgerinnen und Bürger über unzuverlässig geleerte Glas- und Dosencontainer, ein Problem, das derzeit zahlreiche Gemeinden im Landkreis Aschaffenburg betrifft. Rund um die überfüllten Sammelbehälter stapeln sich leere Flaschen, während die Entsorgungsinfrastruktur dem gestiegenen Aufkommen offenbar nicht hinterherkommt &ndash; Beobachter vermuten, dass verlängerte Wochenenden den Verbrauch zusätzlich in die Höhe treiben. Für Anwohnerinnen und Anwohner bedeutet das vermüllte Umfelder rund um die Container und liegen gelassene Scherben. Die Gemeinde steht damit vor der gleichen strukturellen Herausforderung wie bereits zuvor Kommunen im Südspessart.</p>
         <div class="media">
-          <a href="#img-5"><img src="https://media04.meine-news.de/article/2026/07/08/7/2165347_L.webp?1783507747" alt="Wandergruppe Forum 55 Plus auf dem Weg zum Kloster Himmelthal"></a>
+          <a href="#img-4"><img src="https://www.main-echo.de/storage/image/5/8/5/6/5396585_nar-artikeldetail_1C3Z_x_2HUI6n.jpg" alt="Überfüllter Glascontainer"></a>
         </div>
-        <p class="src">Quelle: <a href="https://www.meine-news.de/miltenberg/c-vereine/bei-bestem-sommerwetter-forum-55-plus-miltenberg-wandert-von-rueck-schippach-zum-kloster-himmelthal-rundweg-ca-65km_a238993" target="_blank" rel="noopener">meine-news.de</a></p>
+        <p class="src">Quelle: <a href="https://www.main-echo.de/region/stadt-kreis-aschaffenburg/krombach-probleme-mit-glas-und-dosencontainern-art-8748971" target="_blank" rel="noopener">main-echo.de</a></p>
       </article>
 
       <article class="news-card">
-        <div class="badges"><span class="badge" style="background:var(--gesellschaft)">Gesellschaft</span><span class="badge" style="background:var(--politik)">Miltenberg</span></div>
-        <h3>35 Jahre im Rettungsdienst: BRK Miltenberg ehrt Michael Ballweg</h3>
-        <p class="summary">Das Bayerische Rote Kreuz hat Michael Ballweg für 35 Jahre Dienst im Rettungswesen geehrt. Seine Laufbahn begann während des Zivildienstes an der BRK-Rettungswache Miltenberg und mündete 1991 in eine hauptamtliche Anstellung als Rettungssanitäter; bereits ein Jahr später folgte die Anerkennung zum Rettungsassistenten. Neben zahllosen Einsätzen im Rettungsdienst übernahm Ballweg im Laufe der Jahre auch zahlreiche organisatorische und technische Aufgaben für die Kreisverantwortlichen. Diese dankten ihm bei der Feierstunde ausdrücklich für seine langjährige Treue und seinen Einsatz.</p>
-        <p class="src">Quelle: <a href="https://www.meine-news.de/miltenberg/c-blaulicht/35-jahre-im-rettungsdienst-des-roten-kreuzes_a239233" target="_blank" rel="noopener">meine-news.de</a></p>
+        <div class="badges"><span class="badge" style="background:var(--verkehr)">Verkehr</span><span class="badge" style="background:var(--politik)">Goldbach-Hösbach</span></div>
+        <h3>Fahrzeugbrand in der A3-Tunneleinhausung Goldbach/Hösbach sorgt für Vollsperrung</h3>
+        <p class="summary">Am Freitagnachmittag geriet ein silberner BMW-SUV in der Lärmschutzeinhausung der A3 bei Goldbach/Hösbach in Fahrtrichtung Würzburg im Motorraum aus bislang ungeklärter Ursache in Brand. Die Feuerwehren Goldbach, Hösbach und Waldaschaff wurden gegen 16:45 Uhr alarmiert und rückten mit einem größeren Aufgebot an, um den Brand im engen Tunnelbauwerk zu löschen. Wegen der parallel ausgelösten Brandmeldeanlage der Einhausung musste die Autobahn in beide Richtungen voll gesperrt werden, es bildeten sich lange Staus im Berufs- und Ausflugsverkehr. Die Tunnelanlage bei Goldbach/Hösbach war in den vergangenen Monaten bereits mehrfach wegen technischer Störungen und Unfällen kurzzeitig gesperrt worden.</p>
+        <p class="src">Quelle: <a href="https://www.kfv-ab.de/index.php/news/nachrichten/nachrichten/fahrzeugbrand-in-der-a3-tunneleinhausung-vollsperrung-und-lange-staus-am-nachmittag" target="_blank" rel="noopener">kfv-ab.de</a></p>
+      </article>
+
+      <article class="news-card">
+        <div class="badges"><span class="badge" style="background:var(--politik)">Politik</span><span class="badge" style="background:var(--freizeit)">Landkreis Miltenberg</span></div>
+        <h3>Bundeswehr übt bis 16. Juli im Landkreis Miltenberg</h3>
+        <p class="summary">Das Landratsamt Miltenberg hat angekündigt, dass eine Einheit der Bundeswehr vom 8. bis zum 16. Juli im Landkreis Übungen durchführt. Als Übungsraum dient das Gebiet zwischen den Bundesstraßen B47 und B469 sowie mehreren Staatsstraßen der Region. Die Behörde bittet die Bevölkerung um Verständnis für vorübergehende Beeinträchtigungen, etwa durch Fahrzeugkolonnen oder Übungslärm, sowie um besondere Vorsicht im Straßenverkehr rund um die Übungsgebiete. Ähnliche Bundeswehr-Übungen mit Nachtmärschen und Gewässerausbildung fanden zuletzt bereits im benachbarten Landkreis Main-Spessart statt.</p>
+        <p class="src">Quelle: <a href="https://www.meine-news.de/landkreis-miltenberg" target="_blank" rel="noopener">meine-news.de</a></p>
+      </article>
+
+      <article class="news-card">
+        <div class="badges"><span class="badge" style="background:var(--kultur)">Kultur</span><span class="badge" style="background:var(--politik)">Aschaffenburg</span></div>
+        <h3>Altstadtfest Aschaffenburg verwandelt die Innenstadt am 25. und 26. Juli in eine Festmeile</h3>
+        <p class="summary">Am letzten Juli-Wochenende wird die Aschaffenburger Altstadt wieder zur großen Festmeile: Beim Altstadtfest am 25. und 26. Juli erwarten Besucherinnen und Besucher mehrere Bühnen mit Live-Bands, DJs, Straßenkünstlern, Tanzgruppen und Chören. Ergänzt wird das Programm durch Streetfood-Stände, regionale Weine und weitere gastronomische Angebote entlang der historischen Gassen. Das Fest gilt neben dem Aschaffenburger Stadtfest als einer der Besucher-Höhepunkte im Sommer und lockt traditionell Gäste weit über die Stadtgrenzen hinaus an. Wer teilnehmen möchte, sollte angesichts des großen Andrangs frühzeitig anreisen oder auf öffentliche Verkehrsmittel umsteigen.</p>
+        <p class="src">Quelle: <a href="https://www.frizzmag.de/events/altstadtfest-aschaffenburg/" target="_blank" rel="noopener">frizzmag.de</a></p>
+      </article>
+
+      <article class="news-card">
+        <div class="badges"><span class="badge" style="background:var(--gesellschaft)">Gesellschaft</span><span class="badge" style="background:var(--bildung)">Region</span></div>
+        <h3>Endspurt vor den Ferien: Bayerns Sommerferien beginnen am 3. August</h3>
+        <p class="summary">Nur noch rund drei Wochen, dann heißt es für Schülerinnen und Schüler in Bayern &bdquo;Ferien&ldquo;: Die Sommerferien 2026 beginnen am Montag, 3. August, und dauern bis einschließlich Montag, 14. September &ndash; sechs volle Wochen, traditionell die spätesten Sommerferien Deutschlands. Letzter Schultag vor der Pause ist Freitag, der 31. Juli, während der Unterricht im neuen Schuljahr am Dienstag, 15. September, wieder beginnt. In der Region nutzen viele Schulen und Jugendeinrichtungen die letzten Wochen für Abschlussfeste, Ausflüge und Ferienstart-Partys. Wer in dieser Zeit verreisen will, sollte angesichts des klassischen bayerischen Ferienbeginns mit besonders hohem Reiseverkehr auf den Autobahnen rechnen.</p>
+        <p class="src">Quelle: <a href="https://www.kalenderpedia.de/ferien/ferien-bayern-2026.html" target="_blank" rel="noopener">kalenderpedia.de</a></p>
+      </article>
+
+      <article class="news-card">
+        <div class="badges"><span class="badge" style="background:var(--sport)">Sport</span><span class="badge" style="background:var(--politik)">Aschaffenburg</span></div>
+        <h3>SanLucar Ladies Open: Tennisfinale am Schönbusch heute mit Brancaccio und Bartunkova</h3>
+        <p class="summary">Beim mit 100.000 US-Dollar dotierten ITF-Turnier SanLucar Ladies Open am TC Schönbusch Aschaffenburg steht nach den Halbfinals am Samstag das Finalpaar fest: Die topgesetzte Nuria Brancaccio setzte sich gegen Ekaterine Gorgodze in drei Sätzen durch, während Nikola Bartunkova die an acht gesetzte Maria Timofeeva klar in zwei Sätzen bezwang. Das Endspiel um den Titel des diesjährigen W100-Turniers wird am heutigen Sonntag auf der Anlage im Schönbusch ausgetragen. Auch im Doppel wurde bereits ein Finalist ermittelt, nachdem das topgesetzte Duo Zheng/Park überraschend an Fontenel/Böhner scheiterte. Das Turnier zählt zu den sechs bedeutendsten Frauentennis-Events Deutschlands und lockt seit Jahren zahlreiche Zuschauer an den Aschaffenburger Schönbusch.</p>
+        <p class="src">Quelle: <a href="https://www.main-echo.de/sport/weitere/das-finale-der-sanlucar-ladies-open-beim-tc-schoenbusch-steht-art-8542929" target="_blank" rel="noopener">main-echo.de</a></p>
+      </article>
+
+      <article class="news-card">
+        <div class="badges"><span class="badge" style="background:var(--gesundheit)">Gesundheit</span><span class="badge" style="background:var(--freizeit)">Region Alzenau-Freudenberg</span></div>
+        <h3>Erfrischend gesund: Die schönsten Wassertretanlagen der Region im Überblick</h3>
+        <p class="summary">Passend zur aktuellen Hitzewelle stellt ein Überblick 16 Wassertretanlagen zwischen Alzenau und Freudenberg vor, die bei sommerlichen Temperaturen für kühle Abkühlung sorgen. Neben klassischen Kneipp-Tretbecken gibt es an einigen Standorten zusätzliche Angebote wie Arm-Kühlbecken oder Knie- und Oberschenkelgüsse, etwa an der Anlage &bdquo;Nichts für Warmduscher&ldquo; im Alzenauer Generationenpark. Auch Miltenberg und Elsenfeld werden mit ihren Anlagen im Parkhof beziehungsweise im Ortsteil Eichelsbach vorgestellt. Der Beitrag empfiehlt die kalten Tretbecken ausdrücklich als gesunde und kostenlose Erfrischung während der aktuellen Hitzeperiode.</p>
+        <p class="src">Quelle: <a href="https://www.main-echo.de/region/stadt-kreis-aschaffenburg/erfrischend-gesund-das-sind-die-schoensten-wassertretanlagen-in-unserer-region-art-8748993" target="_blank" rel="noopener">main-echo.de</a></p>
+      </article>
+
+      <article class="news-card">
+        <div class="badges"><span class="badge" style="background:var(--gesundheit)">Gesundheit</span><span class="badge" style="background:var(--politik)">Landkreis Miltenberg</span></div>
+        <h3>Bayerische Impfwoche: Gesundheitsamt Miltenberg rückt HPV-Schutz in den Fokus</h3>
+        <p class="summary">Im Rahmen der 8. Bayerischen Impfwoche vom 3. bis 12. Juli informiert das Gesundheitsamt Miltenberg gezielt über den Schutz vor Humanen Papillomviren (HPV), den die Ständige Impfkommission für Mädchen und Jungen zwischen 9 und 14 Jahren empfiehlt. Bürgerinnen und Bürger können ohne Terminvereinbarung während der regulären Öffnungszeiten vorbeikommen und ihr Impfbuch durchsehen lassen. Das Fachpersonal prüft dabei den bestehenden Impfschutz und weist auf fehlende oder empfohlene Auffrischungsimpfungen gemäß aktueller STIKO-Empfehlung hin. Zusätzlich informiert das Amt allgemein über empfohlene Impfungen für alle Lebensphasen.</p>
+        <p class="src">Quelle: <a href="https://www.meine-news.de/miltenberg/c-gesundheit-und-wellness/bayerische-impfwoche-2026-gesundheitsamt-informiert-ueber-hpv-schutz-und-bietet-zusaetzliche-durchsicht-von-impfbuechern-an_a237844" target="_blank" rel="noopener">meine-news.de</a></p>
+      </article>
+
+      <article class="news-card">
+        <div class="badges"><span class="badge" style="background:var(--freizeit)">Freizeit</span><span class="badge" style="background:var(--politik)">Faulbach</span></div>
+        <h3>CSU Faulbach-Breitenbrunn lädt zum 5. Boule-Turnier mit Käse-und-Wein-Abend</h3>
+        <p class="summary">Am Samstag, 25. Juli, veranstaltet der CSU-Ortsverband Faulbach-Breitenbrunn bereits zum fünften Mal sein Boule-Turnier auf dem Bouleplatz am Main in Faulbach. Ab 12 Uhr treten Dreier-Teams gegeneinander an, bevor ab 18 Uhr ein geselliger Käse-und-Wein-Abend unter dem Motto &bdquo;Irish Cheese &ndash; Insanely Good!&ldquo; folgt, mit ausgewählten Käsesorten, Wein und guten Gesprächen. Anmeldungen zum Turnier sowie Reservierungen für die Käseplatten nimmt Daniel Mayer telefonisch entgegen. Die Veranstaltung hat sich in den vergangenen Jahren zu einem beliebten geselligen Sommertermin im Kreis Miltenberg entwickelt.</p>
+        <p class="src">Quelle: <a href="https://www.meine-news.de/faulbach/c-sport/5-boule-turnier-der-csu-faulbach-breitenbrunn_a237805" target="_blank" rel="noopener">meine-news.de</a></p>
       </article>
 
       <article class="news-card">
         <div class="badges"><span class="badge" style="background:var(--bildung)">Bildung</span><span class="badge" style="background:var(--politik)">Elsenfeld</span></div>
-        <h3>JEG-Schüler erkunden PV-Park an der Deponie Wörth</h3>
-        <p class="summary">Der Enrichmentkurs des Julius-Echter-Gymnasiums Elsenfeld besuchte bei idealen Wetterbedingungen den Photovoltaik-Park an der Deponie Wörth. Diplom-Ingenieur Lutz Loebel erklärte den Schülerinnen und Schülern Aufbau und Funktionsweise moderner Solarmodule vor Ort. Netzbetreiber-Vertreter Marco Nebel ordnete die Energiewende aus Sicht des Stromnetzes ein und betonte, dass Speichertechnologien und Netzdigitalisierung für den Erfolg der Wende zentral seien. Im Anschluss diskutierte die Gruppe verschiedene Ansätze für den weiteren Ausbau erneuerbarer Energien in der Region.</p>
-        <div class="media">
-          <a href="#img-6"><img src="https://media04.meine-news.de/article/2026/07/10/0/2167420_L.webp?1783672013" alt="JEG-Schüler beim Besuch des PV-Parks Wörth"></a>
-        </div>
-        <p class="src">Quelle: <a href="https://meine-news.de/elsenfeld/c-schule-und-bildung/exkursion-zum-pv-park-woerth-erneuerbare-energien-hautnah-erleben_a239206" target="_blank" rel="noopener">meine-news.de</a></p>
-      </article>
-
-      <article class="news-card">
-        <div class="badges"><span class="badge" style="background:var(--kultur)">Kultur</span><span class="badge" style="background:var(--politik)">Elsenfeld</span></div>
-        <h3>Stehende Ovationen für &bdquo;Tintenherz&ldquo;-Inszenierung am JEG Elsenfeld</h3>
-        <p class="summary">Die Mittelstufen-Theatergruppe des Julius-Echter-Gymnasiums Elsenfeld hat mit ihrer Bühnenfassung von Cornelia Funkes Roman &bdquo;Tintenherz&ldquo; überzeugt. Im Zentrum der Geschichte steht die zwölfjährige Meggie, die entdeckt, dass ihr Vater beim Vorlesen Figuren aus Büchern zum Leben erwecken kann. Das Ensemble begeisterte mit durchdachter Regie, wirkungsvoller Bühnentechnik und großem schauspielerischem Einsatz. Die Aufführung würdigte eindrucksvoll die Kraft von Fantasie und Literatur und wurde vom Publikum mit stehendem Applaus belohnt.</p>
-        <div class="media">
-          <a href="#img-7"><img src="https://media04.meine-news.de/article/2026/07/09/5/2166355_L.webp?1783625005" alt="Szene aus der Tintenherz-Aufführung am JEG Elsenfeld"></a>
-        </div>
-        <p class="src">Quelle: <a href="https://meine-news.de/elsenfeld/c-schule-und-bildung/ein-abend-voller-buecherzauber-mit-tintenherz_a239182" target="_blank" rel="noopener">meine-news.de</a></p>
-      </article>
-
-      <article class="news-card">
-        <div class="badges"><span class="badge" style="background:var(--gesellschaft)">Gesellschaft</span><span class="badge" style="background:var(--politik)">Elsenfeld</span></div>
-        <h3>Fairtrade-Stand begeistert Kinder beim Elsenfelder Kinderfest</h3>
-        <p class="summary">Die Steuerungsgruppe Fairtradegemeinde Elsenfeld präsentierte beim Kinderfest im Elsavapark einen interaktiven Stand rund um fairen Handel. Besucherinnen und Besucher konnten Stofftaschen kreativ bemalen und sich am Fairtrade-Glücksrad versuchen, um spielerisch mehr über faire Handelspraktiken zu erfahren. Unterstützt wurde die Aktion von lokalen Partnern: Bauer Markt spendierte fair gehandelte Bananen, GEPA stellte Kaffee und Schokolade bereit, Kuhn steuerte Apfel-Mango-Saft bei. Das Angebot zog zahlreiche Familien an, die gemeinsam den Gedanken des fairen Handels entdeckten.</p>
-        <div class="media">
-          <a href="#img-8"><img src="https://media04.meine-news.de/article/2026/07/09/1/2166031_L.webp?1783603593" alt="Fairtrade-Stand beim Elsenfelder Kinderfest"></a>
-        </div>
-        <p class="src">Quelle: <a href="https://meine-news.de/elsenfeld/c-energie-und-umwelt/fairtrade-stand-beim-kinderfest_a239158" target="_blank" rel="noopener">meine-news.de</a></p>
-      </article>
-
-      <article class="news-card">
-        <div class="badges"><span class="badge" style="background:var(--bildung)">Bildung</span><span class="badge" style="background:var(--politik)">Erlenbach</span></div>
-        <h3>Wanderausstellung &bdquo;Rethinking Physics&ldquo; am Hermann-Staudinger-Gymnasium eröffnet</h3>
-        <p class="summary">Am Hermann-Staudinger-Gymnasium Erlenbach wurde die Wanderausstellung &bdquo;Rethinking Physics&ldquo; feierlich eröffnet. Mehr als 40 Schülerinnen aus den MINT-Klassen erlebten dazu einen Vortrag der Würzburger Physikprofessorin Johanna Erdmenger über Stringtheorie. Die Ausstellung stellt Leben und Werk bedeutender Physikerinnen vor und zeigt, wie Frauen die Physik historisch und bis heute prägen. Erdmenger ist als Wissenschaftlerin selbst Teil der Ausstellung, wodurch ein direkter Bezug zwischen Forschung und Vorbild entstand.</p>
-        <p class="src">Quelle: <a href="https://meine-news.de/erlenbach-amain/c-schule-und-bildung/ausstellung-am-hsg-eroeffnet_a239194" target="_blank" rel="noopener">meine-news.de</a></p>
+        <h3>Neuer Schulcampus mit Mensa in Elsenfeld wird am 17. Juli eröffnet</h3>
+        <p class="summary">In Elsenfeld wird am 17. Juli offiziell ein neuer Schulcampus mit dazugehöriger Mensa eingeweiht. Die Erweiterung soll die räumliche Situation der Schulen vor Ort spürbar verbessern und Schülerinnen und Schülern künftig eine warme Mittagsverpflegung direkt am Standort ermöglichen. Mit dem Projekt reagiert die Gemeinde auf den gestiegenen Bedarf an Ganztagsbetreuung und moderner Schulinfrastruktur in der Region. Die feierliche Eröffnung markiert den Abschluss mehrjähriger Planungs- und Bauarbeiten am Schulstandort.</p>
+        <p class="src">Quelle: <a href="https://www.main-echo.de/region/mein-ort/63820-elsenfeld/" target="_blank" rel="noopener">main-echo.de</a></p>
       </article>
 
       <article class="news-card">
         <div class="badges"><span class="badge" style="background:var(--sport)">Sport</span><span class="badge" style="background:var(--politik)">Erlenbach</span></div>
-        <h3>Gaukinderturnfest: Nachwuchs-Turnerinnen begeistern in der Rhythmischen Sportgymnastik</h3>
-        <p class="summary">Beim Gaukinderturnfest in Erlenbach a.Main zeigten 22 junge Turnerinnen der Rhythmischen Sportgymnastik ihr Können. Die Athletinnen kamen von den Vereinen TuS Aschaffenburg-Damm und TV Erlenbach unter der Regie des Turngaus Main-Spessart. Die jüngsten Teilnehmerinnen im Alter von drei bis fünf Jahren kamen von der DJK Mainaschaff und zeigten kurze Übungen mit verschiedenen Handgeräten. In mehreren Altersklassen gab es Siegerinnen zu feiern, unter ihnen Mathilda Zimmermann vom TV Erlenbach in der Kategorie 12 Jahre.</p>
-        <div class="media">
-          <a href="#img-9"><img src="https://media04.meine-news.de/article/2026/07/07/2/2164942_L.webp?1783445676" alt="Turnerinnen bei der Rhythmischen Sportgymnastik am Gaukinderturnfest"></a>
-        </div>
-        <p class="src">Quelle: <a href="https://meine-news.de/erlenbach-amain/c-sport/rhythmische-sportgymnastik_a238972" target="_blank" rel="noopener">meine-news.de</a></p>
+        <h3>Barbarossa-Lauf Erlenbach startet am 19. Juli mit neuem Streckenkonzept</h3>
+        <p class="summary">Der traditionsreiche Barbarossa-Lauf in Erlenbach a.Main geht am 19. Juli mit einem überarbeiteten Streckenkonzept an den Start, das als flach, schnell und abwechslungsreich beschrieben wird. Die Organisatoren erhoffen sich davon sowohl bei ambitionierten Läuferinnen und Läufern als auch bei Hobbysportlern zusätzlichen Zuspruch. Die neue Streckenführung soll insbesondere Bestzeiten begünstigen und gleichzeitig mehr Abwechslung entlang der Laufstrecke bieten. Der Lauf zählt seit Jahren zu den festen sportlichen Terminen im Landkreis Miltenberg.</p>
+        <p class="src">Quelle: <a href="https://www.meine-news.de/erlenbach-amain" target="_blank" rel="noopener">meine-news.de</a></p>
       </article>
 
       <article class="news-card">
-        <div class="badges"><span class="badge" style="background:var(--kultur)">Kultur</span><span class="badge" style="background:var(--politik)">Erlenbach</span></div>
-        <h3>Erlenbacher Mädchentreff gewinnt Jugendkulturpreis des Landkreises Miltenberg</h3>
-        <p class="summary">Der Kreative Mädchentreff des Jugendzentrums Erlenbach wurde mit dem ersten Platz in der Sparte &bdquo;Malerei/Zeichnen&ldquo; beim Jugendkulturpreis des Landkreises Miltenberg ausgezeichnet. Die seit 1993 bestehende Kunstgruppe unter Leitung von Christiane Leuner hat sich mehrere Monate lang mit dem Thema &bdquo;GRÜN&ldquo; auseinandergesetzt. Jedes Mitglied setzte seine beste Idee in Acryltechnik auf einer großen gemeinsamen Leinwand um. Das entstandene Gesamtkunstwerk soll künftig das renovierte Bürgerbüro des Rathauses schmücken; die Gruppe trifft sich weiterhin dienstags von 17:30 bis 19:30 Uhr.</p>
-        <div class="media">
-          <a href="#img-10"><img src="https://media04.meine-news.de/article/2026/07/07/0/2164210_L.webp?1783412729" alt="Preisgekröntes Gemeinschaftskunstwerk des Mädchentreffs Erlenbach"></a>
-        </div>
-        <p class="src">Quelle: <a href="https://meine-news.de/erlenbach-amain/c-kultur/sparte-malereizeichnen_a238861" target="_blank" rel="noopener">meine-news.de</a></p>
-      </article>
-
-      <article class="news-card">
-        <div class="badges"><span class="badge" style="background:var(--gesellschaft)">Gesellschaft</span><span class="badge" style="background:var(--politik)">Amorbach</span></div>
-        <h3>&bdquo;Glitzer an &ndash; Alltag aus&ldquo;: Realschule Amorbach lädt zum Schulfest</h3>
-        <p class="summary">Die Theresia-Gerhardinger-Realschule Amorbach lädt am 29. Juli 2026 von 15 bis 18 Uhr zu ihrem Schulfest unter dem Motto &bdquo;Glitzer an &ndash; Alltag aus&ldquo; ein. Die Veranstaltung soll eine willkommene Abwechslung zum Schulalltag bieten und verspricht einen unterhaltsamen Nachmittag für Schülerinnen, Schüler, Eltern und Gäste. Nähere Informationen zum Programm sind über die Schule erhältlich. Die Schulgemeinschaft freut sich auf einen bunten und geselligen Ausklang vor den Sommerferien.</p>
-        <div class="media">
-          <a href="#img-11"><img src="https://media04.meine-news.de/article/2026/07/07/9/2164549_L.webp?1783420505" alt="Ankündigung zum Schulfest der Realschule Amorbach"></a>
-        </div>
-        <p class="src">Quelle: <a href="https://www.meine-news.de/amorbach/c-schule-und-bildung/einladung-zum-schulfest-an-der-theresia-gerhardinger-realschule-amorbach_a238891" target="_blank" rel="noopener">meine-news.de</a></p>
-      </article>
-
-      <article class="news-card">
-        <div class="badges"><span class="badge" style="background:var(--sport)">Sport</span><span class="badge" style="background:var(--politik)">Amorbach</span></div>
-        <h3>Viermal Gold, zweimal Bronze: Karateka aus Amorbach glänzen in Abenberg</h3>
-        <p class="summary">Der Verein Shito-Ryu Dhammika Karate-Do Amorbach hat bei den Kreismeisterschaften in Abenberg für Furore gesorgt. Fünf Athletinnen und Athleten des Vereins holten insgesamt sechs Podestplätze, darunter vier Goldmedaillen und zwei Bronzemedaillen. Unter der Leitung von Trainer Oleg Osijuk zeigten die Sportlerinnen und Sportler starke Leistungen sowohl in der Kata- als auch in der Kumite-Disziplin. Das Team aus Amorbach und Kleinheubach unterstrich damit einmal mehr die Leistungsfähigkeit des Vereins.</p>
-        <div class="media">
-          <a href="#img-12"><img src="https://media04.meine-news.de/article/2026/07/06/7/2163787_L.webp?1783348871" alt="Erfolgreiche Karateka des Vereins Dhammika Amorbach"></a>
-        </div>
-        <p class="src">Quelle: <a href="https://www.meine-news.de/amorbach/c-sport/viermal-gold-und-zweimal-bronze-fuer-dhammika-karate-do_a238837" target="_blank" rel="noopener">meine-news.de</a></p>
-      </article>
-
-      <article class="news-card">
-        <div class="badges"><span class="badge" style="background:var(--gesellschaft)">Gesellschaft</span><span class="badge" style="background:var(--politik)">Glattbach</span></div>
-        <h3>Bücherei Glattbach lädt am 19. Juli zum Bücherflohmarkt</h3>
-        <p class="summary">Die Bücherei Glattbach veranstaltet am 19. Juli 2026 einen Bücherflohmarkt. Die angebotenen Bücher werden gegen Spenden abgegeben, der Erlös kommt der Anschaffung neuer Medien für die Bibliothek zugute. Neben dem Bücherverkauf gibt es für die Besucherinnen und Besucher Kaffee und Kuchen. Die Gemeinde freut sich auf zahlreiche Gäste und einen geselligen Nachmittag rund ums Lesen.</p>
-        <p class="src">Quelle: <a href="https://aschaffenburg.news/ab/glattbach/glattbach/glattbach-bücherei-flohmarkt-am-19-07.html" target="_blank" rel="noopener">aschaffenburg.news</a></p>
-      </article>
-
-      <article class="news-card">
-        <div class="badges"><span class="badge" style="background:var(--kultur)">Kultur</span><span class="badge" style="background:var(--politik)">Wertheim</span></div>
-        <h3>Über 50 Akteure beim Sommerkonzert der Musikschule in der Stiftskirche</h3>
-        <p class="summary">Die städtische Musikschule Wertheim hat ihr traditionelles Sommerkonzert in der Stiftskirche mit mehr als 50 Mitwirkenden aufgeführt. Das Programm spannte einen weiten Bogen von Barockwerken klassischer Meister wie Vivaldi bis zu modernen Pop-Arrangements und Musicalmelodien. Schülerinnen, Schüler und Lehrkräfte beeindruckten dabei mit technischer Reife und interpretatorischer Tiefe, besonders bei anspruchsvollen Klavierstücken. Nach der Pause zeigte das Ensemble mit Rock-Band- und Jazz-Elementen seine stilistische Bandbreite und begeisterte das Publikum mit spürbarer Spielfreude.</p>
-        <div class="media">
-          <a href="#img-13"><img src="https://media04.meine-news.de/article/2026/07/11/1/2169601_L.webp?1783768452" alt="Sommerkonzert der Musikschule Wertheim in der Stiftskirche"></a>
-        </div>
-        <p class="src">Quelle: <a href="https://www.meine-news.de/miltenberg/c-kultur/sommerkonzert-der-musikschule-mit-mehr-als-fuenfzig-akteuren_a239272" target="_blank" rel="noopener">meine-news.de</a></p>
+        <div class="badges"><span class="badge" style="background:var(--gesellschaft)">Gesellschaft</span><span class="badge" style="background:var(--politik)">Erlenbach</span></div>
+        <h3>School&rsquo;s-Out-Party in Erlenbach feiert den Start in die Sommerferien</h3>
+        <p class="summary">Zum Ferienbeginn am 31. Juli lädt der Musikverein Beavers in Erlenbach a.Main von 17 bis 21:30 Uhr zur beliebten School&rsquo;s-Out-Party für Jugendliche zwischen 12 und 16 Jahren ein. Geboten werden Musik, Action und Festival-Atmosphäre &ndash; ganz ohne Alkohol. Die Veranstaltung richtet sich gezielt an junge Menschen, die den Schulschluss gemeinsam mit Gleichaltrigen feiern möchten. Sie hat sich in den vergangenen Jahren zu einem festen Bestandteil des Ferienauftakts im Landkreis Miltenberg entwickelt.</p>
+        <p class="src">Quelle: <a href="https://www.meine-news.de/erlenbach-amain" target="_blank" rel="noopener">meine-news.de</a></p>
       </article>
 
     </div>
@@ -387,19 +379,11 @@
 </div>
 
 <!-- CSS-Lightboxen -->
-<div class="lightbox" id="img-1"><a href="#" class="close" aria-label="Schließen">&times;</a><img src="https://media04.meine-news.de/article/2026/07/07/7/2164957_L.webp?1783453007" alt=""></div>
-<div class="lightbox" id="img-2"><a href="#" class="close" aria-label="Schließen">&times;</a><img src="https://media04.meine-news.de/article/2026/07/09/2/2165962_L.webp?1783599493" alt=""></div>
-<div class="lightbox" id="img-3"><a href="#" class="close" aria-label="Schließen">&times;</a><img src="https://lohr.de/fileadmin/user_upload/Aktuelles_Trinkwasser.png" alt=""></div>
-<div class="lightbox" id="img-4"><a href="#" class="close" aria-label="Schließen">&times;</a><img src="https://lohr.de/fileadmin/user_upload/Aktuelles_Sperrung.png" alt=""></div>
-<div class="lightbox" id="img-5"><a href="#" class="close" aria-label="Schließen">&times;</a><img src="https://media04.meine-news.de/article/2026/07/08/7/2165347_L.webp?1783507747" alt=""></div>
-<div class="lightbox" id="img-6"><a href="#" class="close" aria-label="Schließen">&times;</a><img src="https://media04.meine-news.de/article/2026/07/10/0/2167420_L.webp?1783672013" alt=""></div>
-<div class="lightbox" id="img-7"><a href="#" class="close" aria-label="Schließen">&times;</a><img src="https://media04.meine-news.de/article/2026/07/09/5/2166355_L.webp?1783625005" alt=""></div>
-<div class="lightbox" id="img-8"><a href="#" class="close" aria-label="Schließen">&times;</a><img src="https://media04.meine-news.de/article/2026/07/09/1/2166031_L.webp?1783603593" alt=""></div>
-<div class="lightbox" id="img-9"><a href="#" class="close" aria-label="Schließen">&times;</a><img src="https://media04.meine-news.de/article/2026/07/07/2/2164942_L.webp?1783445676" alt=""></div>
-<div class="lightbox" id="img-10"><a href="#" class="close" aria-label="Schließen">&times;</a><img src="https://media04.meine-news.de/article/2026/07/07/0/2164210_L.webp?1783412729" alt=""></div>
-<div class="lightbox" id="img-11"><a href="#" class="close" aria-label="Schließen">&times;</a><img src="https://media04.meine-news.de/article/2026/07/07/9/2164549_L.webp?1783420505" alt=""></div>
-<div class="lightbox" id="img-12"><a href="#" class="close" aria-label="Schließen">&times;</a><img src="https://media04.meine-news.de/article/2026/07/06/7/2163787_L.webp?1783348871" alt=""></div>
-<div class="lightbox" id="img-13"><a href="#" class="close" aria-label="Schließen">&times;</a><img src="https://media04.meine-news.de/article/2026/07/11/1/2169601_L.webp?1783768452" alt=""></div>
+<div class="lightbox" id="img-1"><a href="#" class="close" aria-label="Schließen">&times;</a><img src="https://www.main-echo.de/storage/image/5/1/1/8/6858115_nar-artikeldetail_1GkhGi_3F18xY.jpg" alt=""></div>
+<div class="lightbox" id="img-2"><a href="#" class="close" aria-label="Schließen">&times;</a><img src="https://www.main-echo.de/storage/image/3/6/0/8/6858063_nar-artikeldetail_1Gkhx0_calWtf.jpg" alt=""></div>
+<div class="lightbox" id="img-3"><a href="#" class="close" aria-label="Schließen">&times;</a><img src="https://www.main-echo.de/storage/image/7/1/8/7/6857817_nar-artikeldetail_1Gkf6S_ddHIfz.jpg" alt=""></div>
+<div class="lightbox" id="img-4"><a href="#" class="close" aria-label="Schließen">&times;</a><img src="https://www.main-echo.de/storage/image/5/8/5/6/5396585_nar-artikeldetail_1C3Z_x_2HUI6n.jpg" alt=""></div>
+<div class="lightbox" id="img-5"><a href="#" class="close" aria-label="Schließen">&times;</a><img src="https://www.infranken.de/storage/image/1/8/0/6/3906081_artikel-detail-bild-748_1EqYaf_orae3v.jpg" alt=""></div>
 
 <section class="newsletter-section">
   <div class="container newsletter-box">
@@ -418,7 +402,7 @@
 <footer>
   <div class="container">
     <p class="impressum"><strong>Impressum:</strong> Coding der Seite erstellt/überwacht von Michael Bergfeld &middot; E-Mail: <a href="mailto:info@domezos-ware.de">info@domezos-ware.de</a></p>
-    <p>Aktualisierung: Samstag, 11. Juli 2026 &middot; 14:55 Uhr CEST</p>
+    <p>Aktualisierung: Sonntag, 12. Juli 2026 &middot; 06:15 Uhr CEST</p>
     <p>Alle Angaben ohne Gewähr. Die dargestellten Nachrichten und Wetterinformationen basieren auf den jeweils genannten externen Quellen und sind auf diese zurückzuführen. Für die Inhalte der verlinkten Seiten sind ausschließlich deren Betreiber verantwortlich. Wetterdaten: Deutscher Wetterdienst (DWD) via Bright Sky API.</p>
     <div class="quellen">
       <strong>Quellen dieser Ausgabe:</strong>
@@ -426,8 +410,10 @@
         <li>main-echo.de</li>
         <li>meine-news.de</li>
         <li>aschaffenburg.news</li>
-        <li>main-spessart.de (Landratsamt Main-Spessart)</li>
-        <li>lohr.de (Stadt Lohr a.Main)</li>
+        <li>infranken.de</li>
+        <li>kfv-ab.de (Kreisfeuerwehrverband Aschaffenburg)</li>
+        <li>frizzmag.de</li>
+        <li>kalenderpedia.de</li>
         <li>Bright Sky API / Deutscher Wetterdienst (DWD)</li>
       </ul>
     </div>
