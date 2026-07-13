@@ -1,19 +1,40 @@
 # Tagesnachrichten-Journal – domezos2024/aktuelles
 
-## Design – 2026-07-12 – 06:00 Uhr CEST
-- Schema: Schiefergrau-Smaragd (kühles Dunkelgrau trifft Waldgrün – Spessart im Morgenlicht, komplett anders als Sonnenglut-Türkis von heute Morgen 06:15 Uhr)
-- Header-Gradient: #1A2E3A → #0D5C4A → #1B6B3A (Schiefergrau-Dunkelgrün-Waldgrün-Diagonal)
-- Hintergrund: #EFF4F2 (kühles Mintgrau statt warme Créme)
-- Karten: #FFFFFF, border-left 5px farbig je Kategorie, border-radius 8px, leichter Grauschatten
-- Akzentfarben: #B22222 · #2E5F8A · #7A5C1E · #1A6B5A · #5A1A6B · #1A5A2A · #2A4A7A · #2A6A1A · #6A1A4A · #1A4A6B · #5A3A1A
-- Layout: grid auto-fit minmax(370px,1fr) (3-spaltig Desktop, 1-spaltig Mobil – Wechsel von 2-Spalten heute früh)
-- Fonts: Palatino Linotype / Book Antiqua / Palatino / serif (Headlines, klassische Antiqua) + Arial / Helvetica / sans-serif (Fließtext, neutrale Grotesk) – Umkehrung von heute früh (Cambria Fließtext + Century Gothic Headlines)
+## Design – 2026-07-13 – 06:30 Uhr CEST
+- Schema: Hitzewelle-Bernstein (warmes Terrakotta-Bernstein-Duotone zum Hochsommer – komplett anders als Schiefergrau-Smaragd von gestern 06:00 Uhr)
+- Header-Gradient: #7A2E12 → #C9642B → #E8A33D (Rostrot-Terrakotta-Bernstein-Diagonal)
+- Hintergrund: #FBF3E7 (warmes Sandcreme statt kühles Mintgrau)
+- Karten: #FFFFFF, border-top 6px farbig je Kategorie, border-radius 10px, warmer Schatten (Wechsel von border-left zu border-top)
+- Akzentfarben: #B3261E · #2A4A7A · #7A5C1E · #3C7A2E · #B0651B · #6B3FA0 · #8D6E63 · #0E7C86 · #1B6FA8
+- Layout: grid auto-fit minmax(440px,1fr) (2-spaltig Desktop, 1-spaltig Mobil – Wechsel von 3-Spalten gestern)
+- Fonts: Trebuchet MS / Segoe UI / Tahoma, sans-serif (Headlines, kräftige Grotesk) + Georgia / Times New Roman / serif (Fließtext, klassische Antiqua) – neue Kombination, Umkehrung von gestern (Palatino Headlines + Arial Fließtext)
 
 ---
 
 ## Themen-Archiv (letzte 10 Tage – NICHT wiederholen!)
 
-### 2026-07-12 (Ausgabe – 06:00 Uhr CEST) ← heute, neu hinzugefügt
+### 2026-07-13 (Ausgabe – 06:30 Uhr CEST) ← heute, neu hinzugefügt
+- Buergstadt-Hoffest-Messerdrohung-DreiFrauen-Festnahme31Jaehriger | https://www.meine-news.de/buergstadt/c-blaulicht/buergstadt-polizei-nimmt-mann-nach-mutmasslicher-bedrohung-mit-messer-in-gewahrsam-zeugen-gesucht_a239281 | blaulicht | bürgstadt-lkr-miltenberg
+- Aschaffenburg-Sammelmeldung-Spiegel-Zaun-Firmenwagen-Obernau-Goldbach-Schweinheim | https://www.meine-news.de/landkreis-aschaffenburg/c-blaulicht/raum-aschaffenburg-kollision-mit-aussenspiegel-eines-pkws-einfriedung-beschaedigt-heckscheibe-eines-pkw-eingeschlagen_a239284 | blaulicht | aschaffenburg
+- MainSpessart-Sammelmeldung-Quad-Arnstein-Unfallfluchten-Lohr-Neuhuetten-Neuendorf | https://www.meine-news.de/landkreis-main-spessart/c-blaulicht/main-spessart-fahrerflucht-einfriedung-angefahren-und-beschaedigt-parkrempler-begeht-unfallflucht-ladung-verloren_a239287 | blaulicht | lkr-main-spessart
+- Alzenau-SechsteFahrradDemo-KahlgrundHighway-170Teilnehmer | https://www.main-echo.de/region/stadt-kreis-aschaffenburg/sechste-fahrrad-demo-gegen-den-geplanten-kahlgrund-highway-art-8749514 | politik | alzenau-lkr-aschaffenburg
+- Aschaffenburg-KlimaAktion-AmtFuerChaos-Herstallstrasse-Brunnen-Freibad-Soeder | https://www.ki-ab.de/2026/07/12/hitze-ist-kein-witz-satirische-aktion-mit-ernstem-hintergrund/ | umwelt | aschaffenburg
+- Hitzewelle-Hundstage-Unterfranken-Wetterhintergrund-DWD | https://www.dwd.de/DE/wetter/warnungen/warnWetter_node.html | umwelt | lohr-aschaffenburg-main-spessart
+- Aschaffenburg-Spacebuzz-VRTruck-200Kinder-VirtuelleRaumfahrt-THAB | https://www.main-echo.de/region/stadt-kreis-aschaffenburg/von-aschaffenburg-aus-ins-all-200-kinder-und-jugendliche-auf-virtueller-raumfahrt-aschaffenburg-art-8749512 | bildung | aschaffenburg
+- LkrAschaffenburg-Familienteam-AchtteiligerOnlineKurs-Eltern-September | https://www.meine-news.de/landkreis-aschaffenburg/c-mann-frau-und-familie/familienteam_a238897 | gesellschaft | lkr-aschaffenburg
+- Hoesbach-Bilderbuchkino-Basteln-Bibliothekszentrum-16Juli | https://www.meine-news.de/landkreis-aschaffenburg/c-hobby-und-freizeit/monatliches-bilderbuchkino-und-basteln_a238591 | bildung | hösbach-lkr-aschaffenburg
+- Wertheim-TagDerPolizeiausbildung-BlickHinterKulissen-Hochschule | https://www.meine-news.de/miltenberg/c-blaulicht/blick-hinter-die-kulissen-der-polizei_a239302 | gesellschaft | wertheim
+- Amorbach-Kreisaltenheim-50JahreJubilaeum-Blasorchester | https://www.meine-news.de/amorbach/c-kultur/50-jahre-kreisaltenheim-amorbach-12072026_a239095 | gesellschaft | amorbach-lkr-miltenberg
+- Lohr-KatzeCleo-Tierheim-WallyBangert-Vertrauen | https://www.main-echo.de/region/kreis-main-spessart/katze-cleo-muss-erst-vertrauen-fassen-art-8749485 | gesellschaft | lohr-main-spessart
+- Eichenbuehl-MSCErftal-BembelRun-Frankfurt-Streckensicherung | https://www.meine-news.de/eichenbuehl/c-vereine/msc-erftal-ev-sorgt-fuer-sicherheit-beim-bembel-run_a239203 | verein | eichenbühl-lkr-miltenberg
+- Aschaffenburg-KunstImQuartier-YvonneKlug-JuryPreis-MehrNiveauPlease | https://www.meine-news.de/aschaffenburg/c-kultur/mehrniveauplease-jury-preis-fuer-yvonne-m-klug-werk-gruppe-ueberzeugte_a239290 | kultur | aschaffenburg
+- Grosswallstadt-HistorischerMarkt-Feuershow-Feldschlacht-5000Besucher | https://www.main-echo.de/region/kreis-miltenberg/historischer-markt-in-grosswallstadt-feuershow-und-feldschlacht-als-highlights-art-8749500 | kultur | großwallstadt-lkr-miltenberg
+- Dorfprozelten-RenaultR4Club-Oldtimertreffen-65JahreR4 | https://www.main-echo.de/region/kreis-miltenberg/renault-oldtimertreffen-r4-club-deutschland-feiert-drei-tage-lang-in-dorfprozelten-art-8749551 | kultur | dorfprozelten-lkr-miltenberg
+- Buergstadt-StrassenHoffest-34Ausgabe-TausendeBesucher | https://www.main-echo.de/region/kreis-miltenberg/strassen-und-hoffest-in-buergstadt-zieht-tausende-besucher-an-art-8749495 | kultur | bürgstadt-lkr-miltenberg
+- Wertheim-Sommerpoesie-Fotoessay-MainTauberStadt-Rosengarten | https://www.meine-news.de/miltenberg/c-kultur/sommerpoesie-in-der-main-tauber-stadt_a239275 | kultur | wertheim
+- Aschaffenburg-TVA1860-U9-DritterPlatz-Stadtmeisterschaft-VatanSpor | https://www.meine-news.de/aschaffenburg/c-sport/toller-erfolg-fuer-den-tva-1860_a239296 | sport | aschaffenburg
+
+### 2026-07-12 (Ausgabe – 06:00 Uhr CEST)
 - Mainaschaff-14Jaehriger-Fahrradunfall-Schwerverletzt-Pkw | https://www.main-echo.de/ressorts/blaulicht/14-jaehriger-fahrradfahrer-in-mainaschaff-schwer-verletzt-art-8749414 | blaulicht | mainaschaff-lkr-aschaffenburg
 - Marktheidenfeld-10Jaehriger-Pkw-Unfall-Schwerverletzt | https://www.main-echo.de/ressorts/blaulicht/10-jaehriger-in-marktheidenfeld-von-pkw-erfasst-und-schwer-verletzt-art-8748885 | blaulicht | marktheidenfeld-main-spessart
 - Eussenheim-EAuto-Feuerzeug-Brand-Explosion-Infranken | https://www.infranken.de/lk/main-spessart/blaulicht/eussenheim-e-auto-ausgebrannt-explosion-eines-feuerzeugs-mutmasslich-ursaechlich-art-6377799 | blaulicht | eussenheim-main-spessart
