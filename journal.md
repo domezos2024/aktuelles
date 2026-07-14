@@ -1,19 +1,40 @@
 # Tagesnachrichten-Journal – domezos2024/aktuelles
 
-## Design – 2026-07-13 – 06:30 Uhr CEST
-- Schema: Hitzewelle-Bernstein (warmes Terrakotta-Bernstein-Duotone zum Hochsommer – komplett anders als Schiefergrau-Smaragd von gestern 06:00 Uhr)
-- Header-Gradient: #7A2E12 → #C9642B → #E8A33D (Rostrot-Terrakotta-Bernstein-Diagonal)
-- Hintergrund: #FBF3E7 (warmes Sandcreme statt kühles Mintgrau)
-- Karten: #FFFFFF, border-top 6px farbig je Kategorie, border-radius 10px, warmer Schatten (Wechsel von border-left zu border-top)
-- Akzentfarben: #B3261E · #2A4A7A · #7A5C1E · #3C7A2E · #B0651B · #6B3FA0 · #8D6E63 · #0E7C86 · #1B6FA8
-- Layout: grid auto-fit minmax(440px,1fr) (2-spaltig Desktop, 1-spaltig Mobil – Wechsel von 3-Spalten gestern)
-- Fonts: Trebuchet MS / Segoe UI / Tahoma, sans-serif (Headlines, kräftige Grotesk) + Georgia / Times New Roman / serif (Fließtext, klassische Antiqua) – neue Kombination, Umkehrung von gestern (Palatino Headlines + Arial Fließtext)
+## Design – 2026-07-14 – 06:20 Uhr CEST
+- Schema: Zwielicht-Indigo (kühles Indigo-Violett-Petrol-Duotone zur lauen Sommernacht/Festwochen-Stimmung – komplettes Gegenteil zum warmen Terrakotta-Bernstein von gestern)
+- Header-Gradient: #201B4D → #5B3A8E → #1E8E86 (Indigo-Violett-Petrol-Diagonal)
+- Hintergrund: #EFF0F7 (kühles Lavendelgrau statt warmes Sandcreme)
+- Karten: #FFFFFF, border-left 6px farbig je Kategorie, border-radius 8px (Wechsel von border-top zurück zu border-left)
+- Akzentfarben: #C0223B · #1F4E79 · #2E7D53 · #6D4C9F · #55606E · #2F8CA8 · #C77A1F · #0F8B8D · #A6427A
+- Layout: grid auto-fit minmax(340px,1fr) (3-spaltig Desktop, 1-spaltig Mobil – Wechsel von 2-Spalten gestern)
+- Fonts: Verdana / Arial / Helvetica, sans-serif (Headlines, klare Grotesk) + Garamond / Book Antiqua / Palatino, serif (Fließtext, klassische Antiqua) – neue Kombination
 
 ---
 
 ## Themen-Archiv (letzte 10 Tage – NICHT wiederholen!)
 
-### 2026-07-13 (Ausgabe – 06:30 Uhr CEST) ← heute, neu hinzugefügt
+### 2026-07-14 (Ausgabe – 06:20 Uhr CEST) ← heute, neu hinzugefügt
+- Hasloch-Hasselberg-Ackerbrand-35000qm-SiebenFeuerwehren | https://www.main-echo.de/ressorts/blaulicht/35000-quadratmeter-acker-brennen-feuerwehren-am-hasselberg-im-einsatz-art-8749937 | blaulicht | hasloch-main-spessart
+- Hoesbach-EMountainbike-7000Euro-Diebstahl-Fahrradgeschaeft-Aussenspiegel | https://www.meine-news.de/hoesbach/c-blaulicht/hoesbachobernauer-kolonie-hochwertiges-e-mountainbike-aus-fahrradgeschaeft-entwendet-linke-aussenspiegel-beschaedigt_a239401 | blaulicht | hösbach-lkr-aschaffenburg
+- Kleinheubach-Erlenbach-69Jaehriger-26Promille-EBike-Weinfest-Diebstahl | https://www.meine-news.de/kleinheubach/c-blaulicht/kleinheubacherlenbach-pkw-kommt-alleinbeteiligt-von-fahrbahn-ab-69-jaehriger-mit-rund-23-promille-unterwegs-e-bike-gestohlen_a239398 | blaulicht | kleinheubach-erlenbach-lkr-miltenberg
+- MainSpessart-Sicherheitsbericht2025-Polizei-LandratVogel-3457Straftaten | https://www.main-spessart.de/aktuelles/pressemitteilungen/11175.Polizei-uebergibt-Sicherheitsbericht-2025-an-Landrat-Christoph-Vogel--In-Main-Spessart-leben-heisst-sicher-leben.html | politik | lkr-main-spessart
+- Elsenfeld-Windkraftdebatte-Haeuschenshoehe-SPD-Fotokehagias-Kommentar | https://www.meine-news.de/elsenfeld/c-energie-und-umwelt/zwischen-gegenwind-und-vernunft-ein-kommentar-zur-windkraftdebatte_a239410 | politik | elsenfeld-lkr-miltenberg
+- Lohr-Ostlandstrasse-Sperrung-Mobilfunkmast-21bis23Juli | https://www.lohr.de/leben-und-arbeiten/aktuelles/detail/sperrung-der-ostlandstrasse | verkehr | lohr-main-spessart
+- Bayern-Hitzewelle-SchwitzendDurchDenJuli-36Grad-Aschaffenburg | https://www.main-echo.de/region/franken-bayern/schwitzend-durch-den-juli-bayern-steht-eine-heisse-woche-bevor-art-8749905 | umwelt | unterfranken-bayern
+- Franken-Hitzewelle-36Grad-Waldbrandgefahr-Luftbeobachtung-BR24Video | https://www.infranken.de/lk/franken/hitzewelle-in-franken-bis-zu-36-grad-moeglich-hohe-waldbrandgefahr-art-6378210 | umwelt | franken-bayern
+- Marktheidenfeld-EhrlicheFinder-1250Euro-Handys-PolizeiEhrung | https://www.infranken.de/lk/main-spessart/blaulicht/marktheidenfeld-1250-euro-abgegeben-polizei-wuerdigt-ehrliche-finder-art-6378680 | gesellschaft | marktheidenfeld-main-spessart
+- Miltenberg-Johanniter-Honigernte-ZumMitmachen-ImkerWiesel | https://www.meine-news.de/miltenberg/c-senioren/von-der-wabe-aufs-brot-honigernte-zum-mitmachen_a239413 | gesellschaft | miltenberg
+- Amorbach-HauAb-Praeventionstheater-Fuenftklaessler-KarlErnstGymnasium | https://www.meine-news.de/amorbach/c-schule-und-bildung/hau-ab_a239305 | bildung | amorbach-lkr-miltenberg
+- Amorbach-PSeminar-WegDerHoffnung-GotthardGrundschule-Kolumbien | https://www.meine-news.de/amorbach/c-schule-und-bildung/p-seminar-weg-der-hoffnung-besucht-gotthard-grundschule_a239308 | bildung | amorbach-lkr-miltenberg
+- MainSpessart-Radtour-MitDemRadDurchDieHeimat-Werntal-Bachgrund | https://www.main-spessart.de/aktuelles/pressemitteilungen/11171.Spannende-Einblicke-bei-der-Tour-Mit-dem-Rad-durch-die-Heimat.html | freizeit | lkr-main-spessart
+- Aschaffenburg-Kulturwegewanderung-Buergstadt-WeingutSturm-9August | https://www.meine-news.de/aschaffenburg/c-vereine/kulturwegewanderung-nach-buergstadt-mit-einkehr-im-weingut-sturm-am-9-august_a239419 | verein | aschaffenburg-bürgstadt
+- Kleinwallstadt-DJK-42Bootshausfest-Drachenboot-Pappboot-18bis20Juli | https://www.meine-news.de/kleinwallstadt/c-vereine/drachenboot-kanadier-und-pappbootrennen_a239404 | verein | kleinwallstadt-lkr-miltenberg
+- Moenchberg-Musikverein-Harmonie-50JahreMusikpavillon-Unverhopft | https://www.meine-news.de/moenchberg/c-vereine/nach-dem-jubilaeum-ist-vor-dem-jubilaeum_a239425 | verein | mönchberg-lkr-miltenberg
+- Miltenberg-Gartenfest-Museum-Renaissancegarten-Freundeskreis-29Juli | https://www.meine-news.de/miltenberg/c-vereine/gartenfest-im-museum-stadt-miltenberg_a239395 | kultur | miltenberg
+- Sulzbach-Jugendkonzert-Braunwarthsmuehle-DirigentinReisVerabschiedung | https://www.meine-news.de/sulzbach-amain/c-kultur/jugendkonzert-begeistert-in-der-braunwarthsmuehle_a239422 | kultur | sulzbach-amain-lkr-miltenberg
+- Elsenfeld-Serenade-MusikvereinConcordia-ZurKrone-26Juli | https://www.meine-news.de/elsenfeld/c-kultur/serenade-am-sonntag-26072026-in-elsenfeld_a239350 | kultur | elsenfeld-lkr-miltenberg
+
+### 2026-07-13 (Ausgabe – 06:30 Uhr CEST)
 - Buergstadt-Hoffest-Messerdrohung-DreiFrauen-Festnahme31Jaehriger | https://www.meine-news.de/buergstadt/c-blaulicht/buergstadt-polizei-nimmt-mann-nach-mutmasslicher-bedrohung-mit-messer-in-gewahrsam-zeugen-gesucht_a239281 | blaulicht | bürgstadt-lkr-miltenberg
 - Aschaffenburg-Sammelmeldung-Spiegel-Zaun-Firmenwagen-Obernau-Goldbach-Schweinheim | https://www.meine-news.de/landkreis-aschaffenburg/c-blaulicht/raum-aschaffenburg-kollision-mit-aussenspiegel-eines-pkws-einfriedung-beschaedigt-heckscheibe-eines-pkw-eingeschlagen_a239284 | blaulicht | aschaffenburg
 - MainSpessart-Sammelmeldung-Quad-Arnstein-Unfallfluchten-Lohr-Neuhuetten-Neuendorf | https://www.meine-news.de/landkreis-main-spessart/c-blaulicht/main-spessart-fahrerflucht-einfriedung-angefahren-und-beschaedigt-parkrempler-begeht-unfallflucht-ladung-verloren_a239287 | blaulicht | lkr-main-spessart
