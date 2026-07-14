@@ -1,19 +1,47 @@
 # Tagesnachrichten-Journal – domezos2024/aktuelles
 
-## Design – 2026-07-14 – 06:20 Uhr CEST
-- Schema: Zwielicht-Indigo (kühles Indigo-Violett-Petrol-Duotone zur lauen Sommernacht/Festwochen-Stimmung – komplettes Gegenteil zum warmen Terrakotta-Bernstein von gestern)
-- Header-Gradient: #201B4D → #5B3A8E → #1E8E86 (Indigo-Violett-Petrol-Diagonal)
-- Hintergrund: #EFF0F7 (kühles Lavendelgrau statt warmes Sandcreme)
-- Karten: #FFFFFF, border-left 6px farbig je Kategorie, border-radius 8px (Wechsel von border-top zurück zu border-left)
-- Akzentfarben: #C0223B · #1F4E79 · #2E7D53 · #6D4C9F · #55606E · #2F8CA8 · #C77A1F · #0F8B8D · #A6427A
-- Layout: grid auto-fit minmax(340px,1fr) (3-spaltig Desktop, 1-spaltig Mobil – Wechsel von 2-Spalten gestern)
-- Fonts: Verdana / Arial / Helvetica, sans-serif (Headlines, klare Grotesk) + Garamond / Book Antiqua / Palatino, serif (Fließtext, klassische Antiqua) – neue Kombination
+## Design – 2026-07-14 – 06:00 Uhr CEST
+- Schema: Sommerfrische-Grün (warmes Grün-Gold-Duotone – komplettes Gegenteil zum kühlen Indigo-Violett-Petrol von gestern)
+- Header-Gradient: #1A4D2E → #2E7D53 → #B8860B (135deg diagonal, Waldgrün-Gold)
+- Hintergrund: #F4F7F0 (kühles Mintgrün-Weiß statt Lavendelgrau)
+- Karten: #FFFFFF, border-left 5px farbig je Kategorie, border-radius 8px
+- Akzentfarben: #C0223B · #1F4E79 · #5C3317 · #2E7D53 · #6D4C9F · #0D6E8A · #7B5800 · #2F6E2F · #3A5A8C · #5A7A3A
+- Layout: grid auto-fit minmax(340px,1fr) (3-spaltig Desktop, 1-spaltig Mobil)
+- Fonts: Georgia / Times New Roman, serif (Fließtext) + Arial Black / Helvetica Neue, sans-serif (Headlines) – neue Kombination
 
 ---
 
 ## Themen-Archiv (letzte 10 Tage – NICHT wiederholen!)
 
-### 2026-07-14 (Ausgabe – 06:20 Uhr CEST) ← heute, neu hinzugefügt
+### 2026-07-14 (Ausgabe – 06:00 Uhr CEST) ← heute, neu hinzugefügt
+- A3-Bischbrunn-Wohnmobilbrand-Fahrer-Klinik | https://www.meine-news.de/bischbrunn/c-blaulicht/a3-bei-bischbrunn-wohnmobil-in-brand-geraten-fahrer-in-klinik_a239915 | blaulicht | bischbrunn-main-spessart
+- MainSpessart-Fahrerflucht-Unfallfluchten-Ladung | https://www.meine-news.de/landkreis-main-spessart/c-blaulicht/main-spessart-fahrerflucht-einfriedung-angefahren-und-beschaedigt-parkrempler-begeht-unfallflucht-ladung-verloren_a239287 | blaulicht | lkr-main-spessart
+- Himmelstadt-Buergermeisterwahl-Gueltig-Landratsamt | https://www.main-spessart.de/aktuelles/pressemitteilungen/11162 | politik | himmelstadt-main-spessart
+- MainSpessart-Ehrenzeichen-Ministerpraesident-Vogel | https://www.main-spessart.de/aktuelles/pressemitteilungen/11078 | gesellschaft | lkr-main-spessart
+- Lohr-Spessartfestwoche-500Teilnehmende-Festzug | https://www.main-echo.de/region/kreis-main-spessart/mehr-als-500-teilnehmende-im-grossen-festzug-art-8750005 | kultur | lohr-main-spessart
+- Lohr-Weinfest-TSV-KlingendesLohr | https://www.main-echo.de/region/kreis-main-spessart/weinfest-der-tsv-fussballer-und-klingendes-lohr-erfreuen-viele-besucher-art-8750008 | kultur | lohr-main-spessart
+- Lohr-GedenkenDrKarlBrand | https://www.lohr.de/leben-und-arbeiten/aktuelles/ | gesellschaft | lohr-main-spessart
+- Lohr-EgererStrasse-SchlesierStrasse-Sperrung | https://www.lohr.de/leben-und-arbeiten/aktuelles/ | verkehr | lohr-main-spessart
+- Urspringen-FamilienAera-Traditionsbetrieb-Ende | https://www.main-echo.de/region/kreis-main-spessart/eine-familien-aera-in-urspringen-endet-art-8750085 | wirtschaft | urspringen-main-spessart
+- MainSpessart-ZweimalTraumnote10-Schule | https://www.main-echo.de/region/kreis-main-spessart/gleich-zweimal-traumnote-10-art-8750068 | bildung | lkr-main-spessart
+- Marktheidenfeld-Lorbser-55JahreJubilaeum | https://www.main-echo.de/region/kreis-main-spessart/lorbser-feiern-55-jaehriges-bestehen-drei-tage-lang-art-8750026 | gesellschaft | marktheidenfeld-main-spessart
+- Gemuenden-Scherenburgfestspiele-SherlockHolmes | https://www.main-echo.de/region/kreis-main-spessart/sherlock-holmes-wem-das-krimi-openair-der-scherenburgfestspiele-gefallen-wird-art-8749604 | kultur | gemuenden-main-spessart
+- Frammersbach-Feuerwehr-Fahnenweihe | https://www.main-echo.de/region/kreis-main-spessart/frammersbacher-feuerwehr-fahne-feierlich-geweiht-art-8749593 | gesellschaft | frammersbach-main-spessart
+- Marktheidenfeld-HartwigKolb-Gelatinedrucke-FranckHaus | https://www.main-echo.de/region/kreis-main-spessart/hartwig-kolb-zeigt-gelatinedrucke-im-franck-haus-art-8750043 | kultur | marktheidenfeld-main-spessart
+- Marktheidenfeld-HeimatInfoApp-Digital | https://www.main-echo.de/region/kreis-main-spessart/in-marktheidenfeld-soll-die-heimat-info-app-kommen-art-8749557 | wirtschaft | marktheidenfeld-main-spessart
+- Homburg-Naturfuehrung-Rinderbeweidung-Artenschutz | https://www.main-spessart.de/aktuelles/pressemitteilungen/11077 | umwelt | homburg-main-spessart
+- MainSpessart-Agroforstsysteme-Klimaanpassung | https://www.main-spessart.de/aktuelles/pressemitteilungen/11100 | umwelt | lkr-main-spessart
+- Karlstadt-SpieleTreff-SAM-VierStandorte | https://www.main-spessart.de/aktuelles/pressemitteilungen/11089 | gesellschaft | karlstadt-main-spessart
+- Lohr-SpessartMuseum-WasZiehIchNurAn-Ausstellung | https://www.main-spessart.de/aktuelles/pressemitteilungen/11099 | kultur | lohr-main-spessart
+- Miltenberg-Abifeier-JBG-KeineAngstVorNeuem | https://www.meine-news.de/miltenberg/c-schule-und-bildung/keine-angst-vor-dem-neuen_a239311 | bildung | miltenberg
+- Miltenberg-LaurentiusFriedhof-Mudbruecke-Essay | https://www.meine-news.de/miltenberg/c-kultur/miltenberg-von-seiner-schoensten-seite_a239314 | kultur | miltenberg
+- Miltenberg-Stadtradeln-260000km-1500Radler | https://www.meine-news.de/miltenberg/c-sport/miltenberg-tritt-kraeftig-in-die-pedale_a239029 | sport | lkr-miltenberg
+- Kreuzwertheim-TagDerAbenteuer-Mainvorland | https://www.meine-news.de/kreuzwertheim/c-hobby-und-freizeit/tag-der-abenteuer-am-mainvorland_a239293 | freizeit | kreuzwertheim-main-spessart
+- Miltenberg-JuliImpressionen-36Grad-Essay | https://www.meine-news.de/miltenberg/c-kultur/juli-impressionen_a239374 | kultur | miltenberg
+- MainSpessart-Bruderkrieg1866-Geschichte | https://www.main-echo.de/region/kreis-main-spessart/als-der-bruderkrieg-seine-spur-durch-die-region-zog-art-8750186 | gesellschaft | main-spessart
+- Miltenberg-CNCStanzmaschine-Trumpf-Blechbearbeitung | https://www.meine-news.de/miltenberg/c-wirtschaft/maschine-des-jahres_a239386 | wirtschaft | miltenberg
+
+### 2026-07-14 (Ausgabe – 06:20 Uhr CEST)
 - Hasloch-Hasselberg-Ackerbrand-35000qm-SiebenFeuerwehren | https://www.main-echo.de/ressorts/blaulicht/35000-quadratmeter-acker-brennen-feuerwehren-am-hasselberg-im-einsatz-art-8749937 | blaulicht | hasloch-main-spessart
 - Hoesbach-EMountainbike-7000Euro-Diebstahl-Fahrradgeschaeft-Aussenspiegel | https://www.meine-news.de/hoesbach/c-blaulicht/hoesbachobernauer-kolonie-hochwertiges-e-mountainbike-aus-fahrradgeschaeft-entwendet-linke-aussenspiegel-beschaedigt_a239401 | blaulicht | hösbach-lkr-aschaffenburg
 - Kleinheubach-Erlenbach-69Jaehriger-26Promille-EBike-Weinfest-Diebstahl | https://www.meine-news.de/kleinheubach/c-blaulicht/kleinheubacherlenbach-pkw-kommt-alleinbeteiligt-von-fahrbahn-ab-69-jaehriger-mit-rund-23-promille-unterwegs-e-bike-gestohlen_a239398 | blaulicht | kleinheubach-erlenbach-lkr-miltenberg
@@ -252,20 +280,3 @@
 - JEG-Elsenfeld-Partnerschule-ZDF-goes-Schule-Medienbildung | https://www.meine-news.de/elsenfeld/c-schule-und-bildung/jeg-ist-neue-partnerschule-bei-zdf-goes-schule_a239065 | bildung | elsenfeld-lkr-miltenberg
 - Naturparkfuehrertreffen-Schloss-Waechtersbach-Spessart-Hessen-Bayern | https://www.meine-news.de/landkreis-main-spessart/c-kultur/naturparkfuehrende-erkunden-schloss-waechtersbach-und-tauschen-erfahrungen-aus_a239044 | kultur | spessart-grenzueberschreitend
 - Fraenkische-Perle-Amorbach-schoenste-Kleinstadt-Deutschlands-Abteikirche | https://www.infranken.de/lk/miltenberg/ausflug/fraenkische-perle-kleinstadt-ist-eine-der-schoensten-deutschlands-art-6371924 | freizeit | amorbach-lkr-miltenberg
-
-### 2026-07-08 (Ausgabe – 08:00 Uhr CEST)
-- Motorradflucht-Partenstein-Polizeikontrolle-Tatverdaechtiger-ermittelt | https://www.main-echo.de/ressorts/blaulicht/motorradflucht-vor-polizei-in-partenstein-tatverdaechtiger-ermittelt-art-8747087 | blaulicht | partenstein-main-spessart
-- Muellauto-Brand-Explosion-Markt-Retzbach-Feuerwehr-Grosseinsatz | https://www.main-echo.de/ressorts/blaulicht/markt-retzbach-brand-nach-explosion-in-muellfahrzeug-art-8747068 | blaulicht | retzbach-main-spessart
-- Ueberholmanoever-B27-Karlstadt-Strassenverkehrsgefaehrdung-Zeugen | https://www.main-echo.de/ressorts/blaulicht/gefaehrliches-ueberholmanoever-auf-der-b27-bei-karlstadt-art-8747067 | blaulicht | karlstadt-main-spessart
-- EScooter-Baggerloeffel-Werkzeug-Diebstahl-Kreis-Main-Spessart | https://www.main-echo.de/ressorts/blaulicht/kreis-main-spessart-unbekannte-entwenden-e-scooter-baggerloeffel-und-mehr-art-8747069 | blaulicht | lkr-main-spessart
-- Seniorin-Hang-Wertheim-Eichel-Feuerwehr-Bergung-Seile | https://www.main-echo.de/ressorts/blaulicht/wertheim-eichel-seniorin-aus-steilem-hang-gerettet-art-8747143 | blaulicht | wertheim-eichel
-- Explosion-Rathaus-Michelstadt-Kripo-Zeugen-Denkmalschutz | https://www.main-echo.de/ressorts/blaulicht/explosion-am-historischen-rathaus-in-michelstadt-art-8746987 | blaulicht | michelstadt-odenwald
-- A3-Stockstadt-Polizei-Fahrmanöver-Strassenverkehrsgefaehrdung | https://www.infranken.de/lk/aschaffenburg/blaulicht/a3-bei-stockstadt-polizei-beobachtet-irre-aktion-art-6376107 | blaulicht | stockstadt-lkr-aschaffenburg
-- Social-Media-Herausforderung-Schulen-Kultusministerin-Stolz-Bayern | https://www.main-echo.de/region/kreis-main-spessart/topthemen/die-social-media-herausforderung-frau-ministerin-was-muss-jetzt-die-schule-tun-art-8747258 | politik | lkr-main-spessart-bayern
-- Krombacher-Gemeinderat-Ostheimer-CSU-Nachwahl-Hug | https://www.main-echo.de/region/stadt-kreis-aschaffenburg/krombacher-gemeinderat-ostheimer-rueckt-fuer-hug-nach-art-8747594 | politik | krombach-lkr-aschaffenburg
-- Klimarundgang-Aschaffenburg-Mehnert-Wolf-Klimaanpassung | https://www.main-echo.de/region/stadt-kreis-aschaffenburg/klimarundgang-in-aschaffenburg-art-8747009 | umwelt | aschaffenburg
-- Waermeplanung-Heinrichsthal-Nahwaerme-Erneuerbare-Energien-CO2 | https://www.main-echo.de/region/stadt-kreis-aschaffenburg/wie-es-um-die-kommunale-waermeplanung-in-heinrichsthal-steht-art-8747123 | wirtschaft | heinrichsthal-lkr-aschaffenburg
-- Kuhstall-Concept-Store-Albstadt-Umnutzung-Dorfentwicklung | https://www.main-echo.de/region/stadt-kreis-aschaffenburg/in-albstatt-wurde-aus-einem-kuhstall-ein-concept-store-art-8746977 | wirtschaft | albstadt-lkr-aschaffenburg
-- Eckertsmuehlen-Open-Air-2026-Aschaffenburg-Bands-Programm | https://www.main-echo.de/region/stadt-kreis-aschaffenburg/diese-bands-spielen-beim-diesjaehrigen-aschaffenburger-eckertsmuehlen-open-air-art-8746643 | kultur | aschaffenburg
-- Abituria-100-Jahre-Friedrich-Dessauer-Gymnasium-Aschaffenburg | https://www.main-echo.de/region/stadt-kreis-aschaffenburg/seit-100-jahren-gibt-es-die-ehemaligenvereinigung-abituria-am-aschaffenburger-friedrich-dessauer-gymnasium-art-8747101 | gesellschaft | aschaffenburg
-- Loewenapotheke-Aschaffenburg-Zeitzeuge-Erinnerungen-Geschichte | https://www.main-echo.de/region/stadt-kreis-aschaffenburg/einziger-noch-lebender-ehemaliger-bewohner-der-frueheren-aschaffenburger-loewenapotheke-erinnert-sich-art-8747213 | gesellschaft | aschaffenburg
