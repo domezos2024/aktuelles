@@ -1,19 +1,41 @@
 # Tagesnachrichten-Journal – domezos2024/aktuelles
 
-## Design – 2026-07-14 – 06:00 Uhr CEST
-- Schema: Sommerfrische-Grün (warmes Grün-Gold-Duotone – komplettes Gegenteil zum kühlen Indigo-Violett-Petrol von gestern)
-- Header-Gradient: #1A4D2E → #2E7D53 → #B8860B (135deg diagonal, Waldgrün-Gold)
-- Hintergrund: #F4F7F0 (kühles Mintgrün-Weiß statt Lavendelgrau)
-- Karten: #FFFFFF, border-left 5px farbig je Kategorie, border-radius 8px
-- Akzentfarben: #C0223B · #1F4E79 · #5C3317 · #2E7D53 · #6D4C9F · #0D6E8A · #7B5800 · #2F6E2F · #3A5A8C · #5A7A3A
-- Layout: grid auto-fit minmax(340px,1fr) (3-spaltig Desktop, 1-spaltig Mobil)
-- Fonts: Georgia / Times New Roman, serif (Fließtext) + Arial Black / Helvetica Neue, sans-serif (Headlines) – neue Kombination
+## Design – 2026-07-15 – 06:20 Uhr CEST
+- Schema: Hochsommer Koralle-Bernstein (warmes Sonnenuntergangs-Duotone – komplettes Gegenteil zum Waldgrün-Gold von gestern)
+- Header-Gradient: #E8452B → #F2762D → #F6A21E (100deg, Koralle-Orange-Bernstein)
+- Hintergrund: #FFF6EF (warmes Creme statt Mintgrün-Weiß)
+- Karten: #FFFFFF, border-left 6px farbig je Kategorie, border-radius 14px
+- Akzentfarben: #C1272D · #2C4A8A · #6B2D5C · #8A5A16 · #1F6F6B · #B5471E · #7A3E9D · #2E7D46 · #3C7A2E · #A6641A · #B01E4B
+- Layout: grid auto-fill minmax(430px,1fr) (2-spaltig Desktop, 1-spaltig Mobil) – bewusst breiter als 3-spaltiges Grid gestern
+- Fonts: Trebuchet MS / Segoe UI, sans-serif (Headlines) + Verdana / Geneva, sans-serif (Fließtext) – reine Sans-Serif statt Serif-Fließtext
 
 ---
 
 ## Themen-Archiv (letzte 10 Tage – NICHT wiederholen!)
 
-### 2026-07-14 (Ausgabe – 06:00 Uhr CEST) ← heute, neu hinzugefügt
+### 2026-07-15 (Ausgabe – 06:20 Uhr CEST) ← heute, neu hinzugefügt
+- Marktheidenfeld-Lohr-EScooter-Verkehrskontrolle-14J-manipuliert-Skoda-CubeRad | https://www.meine-news.de/landkreis-main-spessart/c-blaulicht/main-spessart-verkehrskontrollen-der-polizei-marktheidenfeld-zwei-e-scooter-fahrer-gestoppt-pkw-angefahren-mountainbike-entwendet_a239497 | blaulicht | marktheidenfeld-lohr-main-spessart
+- Grossostheim-Wenigumstadt-UnserioeseDachHandwerker-900Euro-PolizeiWarnt-BMW-Moembris | https://www.meine-news.de/landkreis-aschaffenburg/c-blaulicht/raum-aschaffenburg-verdaechtige-dacharbeiten-polizei-warnt-vor-unserioesen-handwerkern-pkws-beschaedigt_a239506 | blaulicht | grossostheim-lkr-aschaffenburg
+- Obernburg-Erlenbach-24J-OhneFuehrerschein-Drogen-Medikamente-ReifenZerstochen | https://www.meine-news.de/obernburg-amain/c-blaulicht/obernburgerlenbach-24-jaehriger-ohne-fuehrerschein-unterwegs-anzeichen-auf-drogen-und-medikamentenkonsum-reifen-mutwillig-zerstochen_a239500 | blaulicht | obernburg-erlenbach-lkr-miltenberg
+- Mainaschaff-Mountainbiker-Sturz-KraterTrails-Bergwacht | https://aschaffenburg.news/ab/mainaschaff/mainaschaff-biker-stürzt-in-den-„krater-trails.html | blaulicht | mainaschaff-lkr-aschaffenburg
+- Obernburg-BRK-Spezialfahrzeug-CBRN-Gunzenhausen-110Fahrzeuge | https://www.meine-news.de/obernburg-amain/c-blaulicht/brk-fahrzeug-fuer-besondere-einsatzsituationen_a239458 | gesellschaft | obernburg-lkr-miltenberg
+- Aschaffenburg-AfDStadtverband-Machtkaempfe-ExtremRechte-Feigenblatt | https://www.main-echo.de/region/stadt-kreis-aschaffenburg/die-feigenblatt-politik-der-aschaffenburger-afd-art-8750206 | politik | aschaffenburg
+- Bayern-ErsterGlasgipfel-Glasindustrie-Wirtschaftsminister-Spessart | https://aschaffenburg.news/politik/bayerns-wirtschaftsminister-ruft-ersten-bayerischen-glasgipfel-ins-leben.html | wirtschaft | bayern-region
+- Bayern-EnergieVorsorge-MehrereWochen-Staatsminister-Versorgungssicherheit | https://aschaffenburg.news/politik/staatsminister-fordert-in-der-aktuellen-debatte-eine-energie-vorsorge-für-mehrere-wochen.html | politik | bayern
+- Unterfranken-512NeueMeister-HWK-Meisterlossprechung-WuerzburgCCW | https://aschaffenburg.news/aktuelles/512-neue-meisterinnen-und-meister-geehrt.html | wirtschaft-bildung | unterfranken-wuerzburg
+- Bayern-Staatsmedaille-Gesundheit-Pflege-Praevention-Ehrung | https://aschaffenburg.news/politik/staatsmedaille-für-verdienste-um-gesundheit,-pflege-und-prävention.html | gesundheit | bayern
+- Glauber-BluehendeBetriebe-Bluehpakt-Insektenschutz-13Betriebe | https://aschaffenburg.news/politik/glauber-blühende-betriebe-ausgezeichnet.html | umwelt | bayern-region
+- Lohr-Bahnunterfuehrung-Handwerker-LoseFliesen-Geruest-Treppe | https://www.main-echo.de/region/kreis-main-spessart/topthemen/fliesen-mit-verspaetung-art-8748966 | verkehr | lohr-main-spessart
+- ADACTest2026-UnbewirtschafteteRastplaetze-Autobahnen-A3-A45 | https://aschaffenburg.news/service/adac-test-2026-unbewirtschaftete-rastplätze-an-autobahnens.html | verkehr | region-autobahn
+- MainSpessart-SpielmobilFerienaktion-KleineHeldenGanzGross-17Gemeinden | https://www.main-spessart.de/aktuelles/pressemitteilungen/11176 | gesellschaft | lkr-main-spessart
+- Homburg-KaiPannen-Kinderbuchautor-Papiermuehle-Lesung-18Juli | https://www.main-spessart.de/aktuelles/pressemitteilungen/11179 | kultur | homburg-triefenstein-main-spessart
+- Frammersbach-Festtage2026-VeranstalterZufrieden-FF150Jahre-Festzug500 | https://www.main-echo.de/region/kreis-main-spessart/veranstalter-mit-dem-verlauf-der-frammersbacher-festtage-2026-zufrieden-art-8750518 | freizeit | frammersbach-main-spessart
+- Triefenstein-Homburg-55HomburgerWeinfest-Schlosshof-24bis26Juli-30JulibisAug2-Feuerwerk | https://homburger-weinfest.de/ | kultur | triefenstein-homburg-main-spessart
+- Marktheidenfeld-LaurenziMesse-7bis16August-MariaeHimmelfahrt-Volksfest | https://www.stadt-marktheidenfeld.de/kultur-tourismus/laurenzi-messe/ | kultur | marktheidenfeld-main-spessart
+- Bayern-Glauber-Klimaanpassung-MenschenSchuetzen-HitzeTrockenheit | https://aschaffenburg.news/politik/glauber-menschen-bestmöglich-vor-folgen-des-klimawandels-schützen.html | umwelt | bayern-unterfranken
+- Aschaffenburg-Stadtfest-28bis30August-Festmeile-Innenstadt-OpenAir | https://www.main-echo.de/freizeit/veranstaltungen/stadtfest-aschaffenburg-evt-4271103 | freizeit | aschaffenburg
+
+### 2026-07-14 (Ausgabe – 06:00 Uhr CEST)
 - A3-Bischbrunn-Wohnmobilbrand-Fahrer-Klinik | https://www.meine-news.de/bischbrunn/c-blaulicht/a3-bei-bischbrunn-wohnmobil-in-brand-geraten-fahrer-in-klinik_a239915 | blaulicht | bischbrunn-main-spessart
 - MainSpessart-Fahrerflucht-Unfallfluchten-Ladung | https://www.meine-news.de/landkreis-main-spessart/c-blaulicht/main-spessart-fahrerflucht-einfriedung-angefahren-und-beschaedigt-parkrempler-begeht-unfallflucht-ladung-verloren_a239287 | blaulicht | lkr-main-spessart
 - Himmelstadt-Buergermeisterwahl-Gueltig-Landratsamt | https://www.main-spessart.de/aktuelles/pressemitteilungen/11162 | politik | himmelstadt-main-spessart
