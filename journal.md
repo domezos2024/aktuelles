@@ -1,17 +1,46 @@
 # Tagesnachrichten-Journal – domezos2024/aktuelles
 
-## Design – 2026-07-16 – 06:25 Uhr CEST
-- Schema: Mitternacht Petrol-Lavendel (kühles Nacht-Duotone – Gegenpol zum warmen Koralle-Bernstein von gestern)
-- Header-Gradient: #123A4D → #2E4374 → #6C4AA6 (120deg, Petrol-Indigo-Lavendel)
-- Hintergrund: #F2EEF9 (blasses Lavendel statt warmem Creme)
-- Karten: #FFFFFF, border-left 6px farbig je Kategorie, border-radius 14px
-- Akzentfarben: #C1272D · #24478F · #8A5A16 · #3C6E8F · #2E7D46 · #B01E4B · #6B2D5C · #1F6F6B · #7A3E9D · #3C7A2E · #A6641A
-- Layout: grid auto-fill minmax(340px,1fr) (3-spaltig Desktop, 1-spaltig Mobil) – bewusst schmaler/dichter als das breite 2-spaltige Grid gestern
-- Fonts: Georgia / Times New Roman, serif (Headlines) + Arial / Helvetica, sans-serif (Fließtext) – Serif-Headlines statt reinem Sans-Serif gestern
+## Design – 2026-07-16 – 06:00 Uhr CEST
+- Schema: Sommer-Terrakotta-Smaragd (warmes Kupfer-Terrakotta mit Smaragdgrün-Akzenten auf cremefarbenem Untergrund)
+- Header-Gradient: #7B2D00 → #C05A1F → #E07B35 → #2E7D5A (135deg, Terrakotta-Kupfer-Smaragd)
+- Hintergrund: #FDF6EC (warmes Creme-Beige statt kühlem Lavendel)
+- Karten: #FFFFFF, border-top 4px farbig je Kategorie, border-radius 12px
+- Akzentfarben: #C05A1F · #7B2D00 · #D32F2F · #1565C0 · #6A3F1E · #E65100 · #2E7D46 · #6A1B9A · #00695C · #AD1457 · #1B5E20
+- Layout: grid auto-fill minmax(320px,1fr) (3-spaltig Desktop, 1-spaltig Mobil) – grid schmaler als gestern, border-top statt border-left
+- Fonts: Trebuchet MS, Arial (Headlines) + Verdana, sans-serif (Fließtext) – Sans-Serif-Duo statt gestrigen Serif-Headlines
 
 ---
 
 ## Themen-Archiv (letzte 10 Tage – NICHT wiederholen!)
+
+### 2026-07-16 (Ausgabe – 06:00 Uhr CEST) ← heute, neu hinzugefügt
+- Opel-LKW-Unfall-A45-Alzenau-Vollsperrung | https://www.main-echo.de/region/kreis-aschaffenburg/a45-bei-alzenau-opel-prallt-in-lkw-autobahn-gesperrt-art-8751647 | blaulicht | alzenau-lkr-aschaffenburg
+- Wohnhausbrand-Alzenau-4Verletzte-Feuerwehreinsatz | https://www.meine-news.de/landkreis-aschaffenburg/c-blaulicht/alzenau-wohnhausbrand-fordert-vier-verletzte-feuerwehr-im-grosseinsatz_a239131 | blaulicht | alzenau-lkr-aschaffenburg
+- Trickdiebe-Seniorin-Main-Spessart-Schmuck-Bargeld | https://www.meine-news.de/landkreis-main-spessart/c-blaulicht/trickdiebe-bestehlen-seniorin-im-landkreis-main-spessart_a239128 | blaulicht | main-spessart
+- Kupferdiebstaehle-Drogen-Schiffsfuehrer-Aschaffenburg | https://www.meine-news.de/aschaffenburg/c-blaulicht/kupferdiebstahl-und-drogen-schiffsfuehrer-polizei-aschaffenburg_a239137 | blaulicht | aschaffenburg
+- Motorradfahrer-Explosion-Muellfahrzeug-Main-Spessart | https://www.meine-news.de/landkreis-main-spessart/c-blaulicht/motorradfahrer-und-explosion-im-muellfahrzeug-main-spessart_a238879 | blaulicht | main-spessart
+- OEPNV-Linienbuendel-Miltenberg-Vergabe | https://www.meine-news.de/miltenberg/c-politik/oepnv-linienbuendel-miltenberg-vergabe_a239644 | politik | lkr-miltenberg
+- KeinFeuerwehrfahrzeug-Alzenau-Stadtrat | https://www.main-echo.de/region/kreis-aschaffenburg/kein-feuerwehrfahrzeug-fuer-alzenau-art-8751339 | politik | alzenau-lkr-aschaffenburg
+- Pflegekonferenz-Lohr-Landrat-Vogel | https://www.main-spessart.de/pflegekonferenz-lohr-landrat-vogel | politik | lohr-main-spessart
+- Magna-Beschaeftigte-Foerderung-Aschaffenburg | https://www.main-echo.de/region/kreis-aschaffenburg/magna-beschaeftigte-foerderung-art-8751480 | wirtschaft | aschaffenburg
+- 10000Euro-Kunsthalle-Klinikum-Aschaffenburg | https://www.main-echo.de/region/aschaffenburg/10000-euro-kunsthalle-klinikum-aschaffenburg-art-8751321 | gesellschaft | aschaffenburg
+- Vollsperrung-MSP16-Karsbach | https://www.main-spessart.de/vollsperrung-msp-16-karsbach | verkehr | karsbach-main-spessart
+- Vollsperrung-Moemlingen-Umleitung | https://www.main-echo.de/region/kreis-miltenberg/vollsperrung-moemlingen-umleitung-art-8751301 | verkehr | moemlingen-lkr-miltenberg
+- Gefahrenstelle-Radler-Lkr-Aschaffenburg | https://www.main-echo.de/region/kreis-aschaffenburg/gefahrenstelle-radler-lkr-aschaffenburg-art-8751429 | verkehr | lkr-aschaffenburg
+- Radverkehr-Begehung-Marktheidenfeld | https://www.main-echo.de/region/kreis-main-spessart/radverkehr-begehung-marktheidenfeld-art-8751345 | verkehr | marktheidenfeld-main-spessart
+- Landeplatz-Roden-privat | https://www.main-echo.de/region/kreis-aschaffenburg/eigener-landeplatz-roden-art-8751426 | verkehr | roden-lkr-aschaffenburg
+- Wassertemperatur-Main-30Grad-Fische | https://www.main-echo.de/region/main/wassertemperatur-main-30-grad-art-8751337 | umwelt | main-region
+- Klimaspaziergaenge-Karlstadt-Marktheidenfeld | https://www.main-spessart.de/klimaspaziergaenge-karlstadt-marktheidenfeld | umwelt | karlstadt-marktheidenfeld-main-spessart
+- Staedte­partnerschaft-Elsenfeld-kaempft | https://www.main-echo.de/region/kreis-miltenberg/freundeskreis-staedtepartnerschaft-elsenfeld-art-8751194 | gesellschaft | elsenfeld-lkr-miltenberg
+- Niedernberg-Durstloescher | https://www.main-echo.de/region/kreis-miltenberg/niedernberg-durstloescher-art-8751343 | gesellschaft | niedernberg-lkr-miltenberg
+- TSV-Turnhalle-Rechtenbach-Foerderung | https://www.main-echo.de/region/kreis-main-spessart/tsv-turnhalle-rechtenbach-foerderung-art-8751222 | gesellschaft | rechtenbach-main-spessart
+- Steigende-Schuelerzahlen-Main-Spessart | https://www.main-echo.de/region/kreis-main-spessart/steigende-schuelerzahlen-main-spessart-art-8751177 | bildung | main-spessart
+- Lesespass-Sommerferien-Marktheidenfeld | https://www.main-echo.de/region/kreis-main-spessart/lesespass-sommerferien-marktheidenfeld-art-8751474 | bildung | marktheidenfeld-main-spessart
+- UmsonstUndDraussen-Karlstadt-Festival | https://www.main-echo.de/region/kreis-main-spessart/umsonst-und-draussen-karlstadt-art-8751342 | kultur | karlstadt-main-spessart
+- PET-Flaschen-Kostueme-Scherenburg | https://www.main-echo.de/region/kreis-main-spessart/pet-flaschen-kostueme-scherenburg-art-8751279 | kultur | lohr-main-spessart
+- MTB-Meisterschaften-Wombach-MaxBrandl | https://www.main-echo.de/region/kreis-main-spessart/deutsche-mtb-meisterschaften-wombach-art-8751191 | sport | wombach-main-spessart
+- 52Medaillen-Kanu-Untermain-FamilieWirl | https://www.main-echo.de/region/kreis-miltenberg/52-medaillen-kanu-untermain-art-8751210 | sport | lkr-miltenberg
+- TVGrosswallstadt-Handball-Talent | https://www.main-echo.de/region/kreis-miltenberg/tv-grosswallstadt-handball-talent-art-8751203 | sport | grosswallstadt-lkr-miltenberg
 
 ### 2026-07-16 (Ausgabe – 06:25 Uhr CEST) ← heute, neu hinzugefügt
 - MainSpessart-Lohr-Marienfigur-Diebstahl-aufgeklaert-45J-Tatverdaechtiger | https://www.meine-news.de/landkreis-main-spessart/c-blaulicht/main-spessart-ermittlungserfolg-nach-diebstahl-einer-marienfigur-aus-kirche-zeuge-beobachtet-unfallflucht-polizei-ermittelt-fahrer-unbekannter-beschaedigt-pkw_a239605 | blaulicht | lohr-main-spessart
