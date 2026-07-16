@@ -1,19 +1,44 @@
 # Tagesnachrichten-Journal – domezos2024/aktuelles
 
-## Design – 2026-07-15 – 06:20 Uhr CEST
-- Schema: Hochsommer Koralle-Bernstein (warmes Sonnenuntergangs-Duotone – komplettes Gegenteil zum Waldgrün-Gold von gestern)
-- Header-Gradient: #E8452B → #F2762D → #F6A21E (100deg, Koralle-Orange-Bernstein)
-- Hintergrund: #FFF6EF (warmes Creme statt Mintgrün-Weiß)
+## Design – 2026-07-16 – 06:25 Uhr CEST
+- Schema: Mitternacht Petrol-Lavendel (kühles Nacht-Duotone – Gegenpol zum warmen Koralle-Bernstein von gestern)
+- Header-Gradient: #123A4D → #2E4374 → #6C4AA6 (120deg, Petrol-Indigo-Lavendel)
+- Hintergrund: #F2EEF9 (blasses Lavendel statt warmem Creme)
 - Karten: #FFFFFF, border-left 6px farbig je Kategorie, border-radius 14px
-- Akzentfarben: #C1272D · #2C4A8A · #6B2D5C · #8A5A16 · #1F6F6B · #B5471E · #7A3E9D · #2E7D46 · #3C7A2E · #A6641A · #B01E4B
-- Layout: grid auto-fill minmax(430px,1fr) (2-spaltig Desktop, 1-spaltig Mobil) – bewusst breiter als 3-spaltiges Grid gestern
-- Fonts: Trebuchet MS / Segoe UI, sans-serif (Headlines) + Verdana / Geneva, sans-serif (Fließtext) – reine Sans-Serif statt Serif-Fließtext
+- Akzentfarben: #C1272D · #24478F · #8A5A16 · #3C6E8F · #2E7D46 · #B01E4B · #6B2D5C · #1F6F6B · #7A3E9D · #3C7A2E · #A6641A
+- Layout: grid auto-fill minmax(340px,1fr) (3-spaltig Desktop, 1-spaltig Mobil) – bewusst schmaler/dichter als das breite 2-spaltige Grid gestern
+- Fonts: Georgia / Times New Roman, serif (Headlines) + Arial / Helvetica, sans-serif (Fließtext) – Serif-Headlines statt reinem Sans-Serif gestern
 
 ---
 
 ## Themen-Archiv (letzte 10 Tage – NICHT wiederholen!)
 
-### 2026-07-15 (Ausgabe – 06:20 Uhr CEST) ← heute, neu hinzugefügt
+### 2026-07-16 (Ausgabe – 06:25 Uhr CEST) ← heute, neu hinzugefügt
+- MainSpessart-Lohr-Marienfigur-Diebstahl-aufgeklaert-45J-Tatverdaechtiger | https://www.meine-news.de/landkreis-main-spessart/c-blaulicht/main-spessart-ermittlungserfolg-nach-diebstahl-einer-marienfigur-aus-kirche-zeuge-beobachtet-unfallflucht-polizei-ermittelt-fahrer-unbekannter-beschaedigt-pkw_a239605 | blaulicht | lohr-main-spessart
+- Grossostheim-Einbrueche-zweiSchulen-Kamera-entwendet-17J-Kleinkraftrad | https://www.meine-news.de/landkreis-aschaffenburg/c-blaulicht/raum-aschaffenburg-einbrueche-in-zwei-schulen-polizei-prueft-tatzusammenhang-polizei-stoppt-jugendliche-auf-mutmasslich-entwendetem-kleinkraftrad-unfallverursacher-gesucht_a239596 | blaulicht | grossostheim-lkr-aschaffenburg
+- Grosswallstadt-Miltenberg-23J-OhneFuehrerschein-Cannabis-Blutentnahme | https://www.meine-news.de/grosswallstadt/c-blaulicht/grosswallstadtmiltenberg-polizei-stoppt-autofahrer-ohne-fahrerlaubnis-fahrerflucht_a239602 | blaulicht | grosswallstadt-lkr-miltenberg
+- Gemuenden-BerndRuetzel-SPD-Abstimmungsskandal-Bundestag-Sozialausschuss | https://www.tagesspiegel.de/politik/so-etwas-kennt-man-sonst-nur-von-donald-trump-grune-prangern-abstimmungsskandal-im-bundestag-an-15822748.html | politik | gemuenden-main-spessart-berlin
+- Aschaffenburg-Kommentar-Regenbogenflagge-Debatte-Kremer | https://www.meine-news.de/aschaffenburg/c-politik/die-debatte-um-die-regenbogenflagge-in-aschaffenburg_a239626 | politik | aschaffenburg
+- Aschaffenburg-Kommentar-ICEHalt-Konkurrenz-Italo-Kremer | https://www.meine-news.de/aschaffenburg/c-politik/ice-halt-in-aschaffenburg-konkurrenz-statt-stillstand_a239629 | politik | aschaffenburg
+- Aschaffenburg-Kommentar-Gehwegparken-AnwohnerEinbeziehen-Kremer | https://www.meine-news.de/aschaffenburg/c-politik/anwohner-mit-einbeziehen_a239623 | politik | aschaffenburg
+- LkrMiltenberg-Jahresueberschuss2024-2,8MioEuro-Kreisausschuss | https://www.meine-news.de/miltenberg/c-politik/landkreis-erwirtschaftet-2024-einen-jahresueberschuss_a239620 | wirtschaft | lkr-miltenberg
+- Kempfenbrunn-Ortsdurchfahrt-B276-Sperrung-20Julibis8August-Glasfaser | https://www.main-echo.de/region/kreis-main-spessart/ortsdurchfahrt-kempfenbrunn-von-20-juli-bis-8-august-gesperrt-art-8741646 | verkehr | kempfenbrunn-main-spessart
+- Lohr-Haaggasse-HalbseitigeSperrung-bis30September-Altstadtparkhaus | https://www.lohr.de/leben-und-arbeiten/aktuelles/detail/halbseitige-sperrung-der-haaggasse | verkehr | lohr-main-spessart
+- LkrMiltenberg-Weidezaeune-Todesfallen-Wildtiere-Landratsamt-Warnung | https://www.meine-news.de/miltenberg/c-natur-und-tiere/weidezaeune-abbauen-wenn-sie-nicht-mehr-benoetigt-werden_a239611 | umwelt | lkr-miltenberg
+- Miltenberg-Odenwald-Essay-GewitterBlitzschlag-Erlebnisse-Schutzmassnahmen | https://www.meine-news.de/miltenberg/c-energie-und-umwelt/gewitter-und-blitzschlag-erlebnisse-und-schutzmassnahmen_a239617 | umwelt | miltenberg-odenwald
+- Bayern-Unterfranken-Hitzewelle-BR24Video-KaempftMitFolgen | https://www.youtube.com/watch?v=brOX8Juucs8 | umwelt | bayern-unterfranken
+- Heppdiel-Eichenprozessionsspinner-Nester-entfernt-Thaumetopoein | https://www.meine-news.de/miltenberg/c-gesundheit-und-wellness/das-unsichtbare-drama-im-geaest-von-heppdiel-und-umgebung_a239476 | gesundheit | heppdiel-lkr-miltenberg
+- Weilbach-Vortrag-WennEinMenschGeht-Bestatterin-Galm-Friedhofskultur | https://www.meine-news.de/weilbach/c-senioren/wenn-ein-mensch-geht_a239641 | gesellschaft | weilbach-lkr-miltenberg
+- Miltenberg-Tierhilfe-Flohmarkt-EhrenamtlicheHelfer-gesucht | https://www.meine-news.de/miltenberg/c-vereine/helfer-mit-herz-fuer-unseren-flohmarkt-gesucht_a239557 | gesellschaft | miltenberg
+- Sulzbach-Maschenhexen-Strickgruppe-1200Euro-KitaErnaehrung | https://www.meine-news.de/sulzbach-amain/c-politik/strickgruppe-maschenhexen-spendet-fuer-gesunde-ernaehrung-in-den-sulzbacher-kindergaerten_a239344 | gesellschaft | sulzbach-amain-lkr-miltenberg
+- Miltenberg-Realschule-1500Euro-AktionRegenbogen-Kinderkrebshilfe | https://www.meine-news.de/miltenberg/c-schule-und-bildung/1500-fuer-die-aktion-regenbogen-der-kinderkrebshilfe_a239578 | bildung | miltenberg
+- Miltenberg-Odenwaldklub-Wanderung-Busigberg-Tegtmeyer-16Wanderer | https://www.meine-news.de/miltenberg/c-vereine/busigberg-mit-gisela-tegtmeyer_a239638 | freizeit | miltenberg-odenwald
+- Klingenberg-Feuerschuetzenverein1896-130JahreJubilaeum-Sommerfest | https://www.meine-news.de/klingenberg-amain/c-vereine/ein-gelungenes-fest_a239323 | kultur | klingenberg-amain-lkr-miltenberg
+- Elsenfeld-Elsava-Sportabzeichenabnahme-RadfahrenWalking-26Juli | https://www.meine-news.de/elsenfeld/c-sport/sportabzeichenabnahme-im-radfahren-bzw-walking_a239608 | sport | elsenfeld-lkr-miltenberg
+- Lohr-TSV-NeuerTrainer-NachBeinaheAbstieg-Konsolidierung | https://www.main-echo.de/sport/ | sport | lohr-main-spessart
+- Faulbach-Roellbach-Landkreispokal-Miltenberg-KreisklasseSchlaegtLandesliga | https://www.main-echo.de/sport/ | sport | faulbach-lkr-miltenberg
+
+### 2026-07-15 (Ausgabe – 06:20 Uhr CEST)
 - Marktheidenfeld-Lohr-EScooter-Verkehrskontrolle-14J-manipuliert-Skoda-CubeRad | https://www.meine-news.de/landkreis-main-spessart/c-blaulicht/main-spessart-verkehrskontrollen-der-polizei-marktheidenfeld-zwei-e-scooter-fahrer-gestoppt-pkw-angefahren-mountainbike-entwendet_a239497 | blaulicht | marktheidenfeld-lohr-main-spessart
 - Grossostheim-Wenigumstadt-UnserioeseDachHandwerker-900Euro-PolizeiWarnt-BMW-Moembris | https://www.meine-news.de/landkreis-aschaffenburg/c-blaulicht/raum-aschaffenburg-verdaechtige-dacharbeiten-polizei-warnt-vor-unserioesen-handwerkern-pkws-beschaedigt_a239506 | blaulicht | grossostheim-lkr-aschaffenburg
 - Obernburg-Erlenbach-24J-OhneFuehrerschein-Drogen-Medikamente-ReifenZerstochen | https://www.meine-news.de/obernburg-amain/c-blaulicht/obernburgerlenbach-24-jaehriger-ohne-fuehrerschein-unterwegs-anzeichen-auf-drogen-und-medikamentenkonsum-reifen-mutwillig-zerstochen_a239500 | blaulicht | obernburg-erlenbach-lkr-miltenberg
