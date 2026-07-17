@@ -1,19 +1,45 @@
 # Tagesnachrichten-Journal – domezos2024/aktuelles
 
-## Design – 2026-07-16 – 06:00 Uhr CEST
-- Schema: Sommer-Terrakotta-Smaragd (warmes Kupfer-Terrakotta mit Smaragdgrün-Akzenten auf cremefarbenem Untergrund)
-- Header-Gradient: #7B2D00 → #C05A1F → #E07B35 → #2E7D5A (135deg, Terrakotta-Kupfer-Smaragd)
-- Hintergrund: #FDF6EC (warmes Creme-Beige statt kühlem Lavendel)
-- Karten: #FFFFFF, border-top 4px farbig je Kategorie, border-radius 12px
-- Akzentfarben: #C05A1F · #7B2D00 · #D32F2F · #1565C0 · #6A3F1E · #E65100 · #2E7D46 · #6A1B9A · #00695C · #AD1457 · #1B5E20
-- Layout: grid auto-fill minmax(320px,1fr) (3-spaltig Desktop, 1-spaltig Mobil) – grid schmaler als gestern, border-top statt border-left
-- Fonts: Trebuchet MS, Arial (Headlines) + Verdana, sans-serif (Fließtext) – Sans-Serif-Duo statt gestrigen Serif-Headlines
+## Design – 2026-07-17 – 06:15 Uhr CEST
+- Schema: Mitternachtsblau-Sonnenblume (tiefes Nachtblau/Indigo im Header verläuft zu Sonnenblumen-Gold, kühles Blaugrau als Untergrund statt gestrigem warmen Creme)
+- Header-Gradient: #0B1F3A → #123A63 → #1B5E8C → #2E86AB → #F4A300 (120deg, Mitternachtsblau zu Sonnenblumengold)
+- Hintergrund: #EAF0F4 (kühles Blaugrau statt gestrigem warmen Creme-Beige)
+- Karten: #FFFFFF, border-left 5px farbig je Kategorie, border-radius 10px – border-left statt gestrigem border-top
+- Akzentfarben: #C62828 · #1565C0 · #EF6C00 · #B71C1C · #6A1B9A · #00838F · #2E7D32 · #4527A0 · #AD1457 · #558B2F · #F9A825 · #37474F
+- Layout: grid auto-fill minmax(420px,1fr) (2-spaltig Desktop, 1-spaltig Mobil) – breiter als gestern (statt 3-spaltig minmax(320px))
+- Fonts: Georgia, Times New Roman (Headlines, Serif) + Segoe UI, Calibri (Fließtext) – Serif-Headlines statt gestrigem Sans-Serif-Duo
 
 ---
 
 ## Themen-Archiv (letzte 10 Tage – NICHT wiederholen!)
 
-### 2026-07-16 (Ausgabe – 06:00 Uhr CEST) ← heute, neu hinzugefügt
+### 2026-07-17 (Ausgabe – 06:15 Uhr CEST) ← heute, neu hinzugefügt
+- MagnaMirrors-Dorfprozelten-Protest-Werksschliessung-216Jobs-IGMetall-17Juli | https://www.main-echo.de/region/kreis-miltenberg/protest-gegen-werksschliessung-bei-magna-mirrors-in-dorfprozelten-am-freitag-art-8751850 | wirtschaft | dorfprozelten-lkr-miltenberg
+- A45-Alzenau-PkwSattelzug-Auffahrunfall-62Jaehriger-Reh | https://www.meine-news.de/landkreis-aschaffenburg/c-blaulicht/raum-aschaffenburg-pkw-faehrt-auf-sattelzug-auf-62-jaehriger-schwer-verletzt-reh-angefahren-und-schwer-verletzt-zurueckgelassen-fahrzeug-touchiert_a239683 | blaulicht | alzenau-lkr-aschaffenburg
+- Marktheidenfeld-Durchsuchung-VapeHandel-Drogen-Pfefferspray | https://www.main-echo.de/ressorts/blaulicht/durchsuchungsaktion-in-marktheidenfeld-polizei-findet-drogen-und-illegales-pfefferspray-art-8751843 | blaulicht | marktheidenfeld-main-spessart
+- Lohr-Diebstahl-Freibad-ZeugenGesucht | https://www.main-echo.de/ressorts/blaulicht/diebstahl-im-lohrer-freibad-polizei-sucht-zeugen-art-8751845 | blaulicht | lohr-main-spessart
+- Aschaffenburg-Sexualstraftaeter-Hafturlaub-KinderMissbrauch | https://www.main-echo.de/ressorts/blaulicht/sexualstraftaeter-soll-im-hafturlaub-kinder-missbraucht-haben-art-8751686 | justiz | aschaffenburg
+- Sammelmeldung-Fahrzeugunfaelle-Vandalismus-AB-Lohr-Gemuenden | https://www.main-echo.de/ressorts/blaulicht/fahrzeugunfaelle-und-vandalismus-im-raum-aschaffenburg-lohr-und-gemuenden-art-8751847 | blaulicht | aschaffenburg-lohr-gemuenden
+- Lohr-BoellerProzess-Silvesternacht2025-JungerMann | https://www.main-echo.de/region/kreis-main-spessart/jungen-mann-mit-boeller-verletzt-art-8751895 | justiz | lohr-main-spessart
+- Altfeld-EhrlicherFinder-1260Euro-Geldbeutel | https://www.main-echo.de/region/kreis-main-spessart/ein-glueck-dass-ich-an-einen-so-ehrlichen-mann-geraten-bin-art-8751880 | gesellschaft | altfeld-main-spessart
+- Aschaffenburg-BekanntesFachgeschaeft-Innenstadt-schliesst | https://www.main-echo.de/region/stadt-kreis-aschaffenburg/eines-der-bekanntesten-aschaffenburger-fachgeschaefte-schliesst-art-8751271 | wirtschaft | aschaffenburg
+- LkrAschaffenburg-400Jobs-Logistik-Gefahr-Gewerkschaft | https://www.main-echo.de/region/stadt-kreis-aschaffenburg/naechste-hiobsbotschaft-400-jobs-im-kreis-aschaffenburg-in-gefahr-art-8752285 | wirtschaft | lkr-aschaffenburg
+- Aschaffenburg-FriedrichDessauer-135Geburtstag-Roentgenpionier | https://www.main-echo.de/region/stadt-kreis-aschaffenburg/zum-135-geburtstag-des-aschaffenburgers-friedrich-dessauer-art-8751996 | kultur | aschaffenburg
+- Aschaffenburg-DehydrierePatienten-Hitzetage-Klinik | https://www.main-echo.de/region/stadt-kreis-aschaffenburg/mehr-dehydrierte-patienten-durch-hitzetage-art-8751979 | gesundheit | aschaffenburg
+- Aschaffenburg-Badewannenrennen-Stadtbad-Sommerspass | https://www.main-echo.de/region/stadt-kreis-aschaffenburg/sommerlicher-spasstag-im-stadtbad-aschaffenburger-badewannenrennen-geht-in-neue-runde-art-8751797 | freizeit | aschaffenburg
+- LkrAschaffenburg-Wasserstoffleitung-Ausbau-Trassenverlauf | https://www.main-echo.de/region/stadt-kreis-aschaffenburg/wie-es-mit-der-wasserstoffleitung-weitergeht-art-8751999 | umwelt | lkr-aschaffenburg
+- Marktheidenfeld-BrassGruppe-uebernimmt-AutohausWiller | https://www.main-echo.de/region/kreis-main-spessart/brass-gruppe-uebernimmt-autohaus-willer-art-8752001 | wirtschaft | marktheidenfeld-main-spessart
+- Marktheidenfeld-ZehnJahre-FairtradeStadt-Jubilaeum | https://www.main-echo.de/region/kreis-main-spessart/marktheidenfeld-feiert-zehn-jahre-als-fairtrade-stadt-art-8751997 | gesellschaft | marktheidenfeld-main-spessart
+- Lohr-Stadthallenfassade-Sanierung-Sonderfall-Regressanspruch | https://www.main-echo.de/region/kreis-main-spessart/sanierung-der-stadthallenfassade-wird-zum-sonderfall-art-8751896 | politik | lohr-main-spessart
+- Partenstein-TanteEnso-Dorfladen-Genossenschaft-800Anteile | https://www.main-echo.de/region/kreis-main-spessart/ziel-erreicht-tante-enso-kommt-nach-partenstein-art-8751800 | wirtschaft | partenstein-main-spessart
+- Wombach-Rekordkloss-Schilder-Haengepartie-Weltrekord | https://www.main-echo.de/region/kreis-main-spessart/wie-lang-geht-die-haengepartie-beim-aufhaengen-der-rekordkloss-schilder-in-wombach-noch-weiter-art-8751837 | kultur | wombach-lohr-main-spessart
+- Grosswallstadt-Freibad-50JahreJubilaeum-Baggersee | https://www.main-echo.de/region/kreis-miltenberg/vom-kuemmerlichen-baggersee-zum-modernen-freizeitgelaende-grosswallstadts-freibad-wird-50-jahre-alt-art-8751783 | gesellschaft | grosswallstadt-lkr-miltenberg
+- Grosswallstadt-Weinberghuettenfest-Mainauen | https://www.main-echo.de/region/kreis-miltenberg/weinberghuettenfest-den-mainauen-in-grosswallstadt-art-8751829 | kultur | grosswallstadt-lkr-miltenberg
+- Sulzbach-Betrieb-schliesst-EndeJuli-Geschaeftsaufgabe | https://www.main-echo.de/region/kreis-miltenberg/dieser-sulzbacher-betrieb-schliesst-ende-juli-seine-tore-art-8750726 | wirtschaft | sulzbach-lkr-miltenberg
+- Miltenberg-Odenwald-GoldDerHoehe-Fotoessay-Sommer-Ernte | https://www.meine-news.de/miltenberg/c-kultur/das-gold-der-hoehe-und-das-spiel-der-giganten_a239653 | kultur | miltenberg-odenwald
+- Aschaffenburg-FestFuerVielfalt-17bis19Juli-Perth70JahrePartnerschaft | https://www.fest-fuer-vielfalt.de/de/ | event | aschaffenburg
+
+### 2026-07-16 (Ausgabe – 06:00 Uhr CEST)
 - Opel-LKW-Unfall-A45-Alzenau-Vollsperrung | https://www.main-echo.de/region/kreis-aschaffenburg/a45-bei-alzenau-opel-prallt-in-lkw-autobahn-gesperrt-art-8751647 | blaulicht | alzenau-lkr-aschaffenburg
 - Wohnhausbrand-Alzenau-4Verletzte-Feuerwehreinsatz | https://www.meine-news.de/landkreis-aschaffenburg/c-blaulicht/alzenau-wohnhausbrand-fordert-vier-verletzte-feuerwehr-im-grosseinsatz_a239131 | blaulicht | alzenau-lkr-aschaffenburg
 - Trickdiebe-Seniorin-Main-Spessart-Schmuck-Bargeld | https://www.meine-news.de/landkreis-main-spessart/c-blaulicht/trickdiebe-bestehlen-seniorin-im-landkreis-main-spessart_a239128 | blaulicht | main-spessart
@@ -42,7 +68,7 @@
 - 52Medaillen-Kanu-Untermain-FamilieWirl | https://www.main-echo.de/region/kreis-miltenberg/52-medaillen-kanu-untermain-art-8751210 | sport | lkr-miltenberg
 - TVGrosswallstadt-Handball-Talent | https://www.main-echo.de/region/kreis-miltenberg/tv-grosswallstadt-handball-talent-art-8751203 | sport | grosswallstadt-lkr-miltenberg
 
-### 2026-07-16 (Ausgabe – 06:25 Uhr CEST) ← heute, neu hinzugefügt
+### 2026-07-16 (Ausgabe – 06:25 Uhr CEST)
 - MainSpessart-Lohr-Marienfigur-Diebstahl-aufgeklaert-45J-Tatverdaechtiger | https://www.meine-news.de/landkreis-main-spessart/c-blaulicht/main-spessart-ermittlungserfolg-nach-diebstahl-einer-marienfigur-aus-kirche-zeuge-beobachtet-unfallflucht-polizei-ermittelt-fahrer-unbekannter-beschaedigt-pkw_a239605 | blaulicht | lohr-main-spessart
 - Grossostheim-Einbrueche-zweiSchulen-Kamera-entwendet-17J-Kleinkraftrad | https://www.meine-news.de/landkreis-aschaffenburg/c-blaulicht/raum-aschaffenburg-einbrueche-in-zwei-schulen-polizei-prueft-tatzusammenhang-polizei-stoppt-jugendliche-auf-mutmasslich-entwendetem-kleinkraftrad-unfallverursacher-gesucht_a239596 | blaulicht | grossostheim-lkr-aschaffenburg
 - Grosswallstadt-Miltenberg-23J-OhneFuehrerschein-Cannabis-Blutentnahme | https://www.meine-news.de/grosswallstadt/c-blaulicht/grosswallstadtmiltenberg-polizei-stoppt-autofahrer-ohne-fahrerlaubnis-fahrerflucht_a239602 | blaulicht | grosswallstadt-lkr-miltenberg
