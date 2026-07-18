@@ -1,19 +1,45 @@
 # Tagesnachrichten-Journal – domezos2024/aktuelles
 
-## Design – 2026-07-17 – 06:00 Uhr CEST
-- Schema: Wald-Grün/Terrakotta (sattes Waldgrün im Header läuft in warmes Terrakotta aus, warmes Beige als Untergrund statt gestrigem kühlen Blaugrau)
-- Header-Gradient: #1B4332 → #2D6A4F → #C05A2A (135deg, Waldgrün zu Terrakotta)
-- Hintergrund: #F0EDE6 (warmes Beige statt gestrigem kühlen Blaugrau #EAF0F4)
-- Karten: #FDFCF9, border-top 4px farbig je Kategorie, border-radius 10px – border-top statt gestrigem border-left
-- Akzentfarben: #B71C1C · #1565C0 · #E65100 · #2E7D32 · #00838F · #6A1B9A · #4527A0 · #37474F · #AD1457 · #558B2F · #F57F17 · #0D47A1
-- Layout: grid auto-fill minmax(300px,1fr) (3-spaltig Desktop, 1-spaltig Mobil) – schmaler als gestern (statt minmax(420px))
-- Fonts: Palatino Linotype, Palatino, Georgia (Headlines, Serif) + Segoe UI, Verdana, Arial (Fließtext) – anderes Serif-Duo als gestern
+## Design – 2026-07-18 – 06:00 Uhr CEST
+- Schema: Gold-Bernstein/Petrol (vom Logo inspiriert: warmes Bernsteingold läuft in tiefes Petrolgrün-Blau aus, kühles helles Blaugrau als Untergrund statt gestrigem warmem Beige)
+- Header-Gradient: #D9A441 → #4C7A72 → #163A3F (120deg, Gold zu Petrol)
+- Hintergrund: #EAF1F0 (kühles Blaugrau statt gestrigem warmen Beige #F0EDE6)
+- Karten: #FFFFFF, border-left 5px farbig je Kategorie, border-radius 14px – border-left statt gestrigem border-top
+- Akzentfarben: #A31515 · #14548F · #C8590C · #4A7A2E · #7B1FA2 · #00695C · #2E7D32 · #37474F · #AD1457 · #01579B · #BF360C · #6A0572
+- Layout: grid auto-fill minmax(340px,1fr) (breiter als gestern, statt minmax(300px,1fr))
+- Fonts: Cambria, Georgia, Times New Roman (Headlines, Serif) + Trebuchet MS, Lucida Sans Unicode, Tahoma (Fließtext) – anderes Font-Duo als gestern
+- Neu: Logo (file_000000002f8872469668704c39f1eaf6.jpg) im Header, Newsletter-Anmeldebox, Saison-/Event-Box
 
 ---
 
 ## Themen-Archiv (letzte 10 Tage – NICHT wiederholen!)
 
-### 2026-07-17 (Ausgabe – 06:00 Uhr CEST) ← heute, neu hinzugefügt
+### 2026-07-18 (Ausgabe – 06:00 Uhr CEST) ← heute, neu hinzugefügt
+- Landingtunnel-Aschaffenburg-Dodge-Tunnelwand-Totalschaden | https://www.meine-news.de/aschaffenburg/c-blaulicht/verkehrsunfall-im-aschaffenburger-landingtunnel-am-18072026_a239794 | blaulicht | aschaffenburg
+- Alzenau-SpessartGymnasium-BaeumeMutwilligAbgesaegt-3000Euro | https://www.meine-news.de/alzenau/c-blaulicht/alzenau-baeume-mutwillig-abgesaegt_a239746 | blaulicht | alzenau-lkr-aschaffenburg
+- Kreuzwertheim-Marktheidenfeld-EinbruchGetraenkemarkt-EScooterUnfallflucht | https://www.meine-news.de/landkreis-main-spessart/c-blaulicht/main-spessart-einbruch-in-getraenkemarkt-tabakwaren-entwendet-tatverdaechtige-in-leerstehendem-gebaeude-festgestellt-unfallflucht-nach-zusammenstoss-mit-e-scooter-sachbeschaedigung_a239743 | blaulicht | kreuzwertheim-marktheidenfeld-main-spessart
+- Buergstadt-Gespann-OhneFahrerlaubnis-Handynutzung | https://www.meine-news.de/buergstadt/c-blaulicht/buergstadt-polizei-stoppt-gespann-ohne-erforderliche-fahrerlaubnis_a239740 | blaulicht | bürgstadt-lkr-miltenberg
+- Obernburg-Elsenfeld-Mainbruecke-VorfahrtMissachtet-LangeStaus | https://www.main-echo.de/region/kreis-miltenberg/unfall-auf-bruecke-verursacht-lange-staus-art-8752419 | blaulicht | obernburg-elsenfeld-lkr-miltenberg
+- B469-MiltenbergWest-Mainbullau-RampenVollsperrung-3bis14August | https://www.meine-news.de/miltenberg/c-blaulicht/b-469-erneuerung-der-rampen-zur-mil-5-anschlussstelle-miltenberg-west-mainbullau-sanierung-der-rampen-unter-vollsperrung_a239728 | verkehr | miltenberg-west-lkr-miltenberg
+- St2317-Rohrbrunn-Eschau-Vollsperrung-NeuhammerWintersbach-ab3August | https://www.meine-news.de/eschau/c-blaulicht/st-2317-rohrbrunn-a3-eschau-fahrbahnerneuerung-in-dammbach-zwischen-neuhammer-und-wintersbach-mit-stuetzmauersanierung-vorankuendigung-vollsperrung-ab-3-august-2026_a239761 | verkehr | eschau-lkr-miltenberg
+- ArminGreinHalle-Marktheidenfeld-Kreistagsausschuss-Namensgebung | https://www.main-echo.de/region/kreis-main-spessart/kreistagsausschuss-stimmt-zu-neubau-wird-nach-armin-grein-benannt-art-8750707 | politik | marktheidenfeld-main-spessart
+- Schulcampus-Marktheidenfeld-GebaeudeErhalten-OffeneDiskussion | https://www.main-echo.de/region/kreis-main-spessart/am-schulcampus-marktheidenfeld-offen-rangehen-art-8752424 | politik | marktheidenfeld-main-spessart
+- Magna-Dorfprozelten-Freistaat-RueckforderungFoerdermittel-Fehlner | https://www.meine-news.de/dorfprozelten/c-politik/freistaat-prueft-rueckforderung-von-foerdermitteln-nach-angekuendigter-magna-werksschliessung_a239782 | politik | dorfprozelten-lkr-miltenberg
+- Aschaffenburg-NeueAppartements-Entengasse-Innenstadt-Belebung | https://www.main-echo.de/region/stadt-kreis-aschaffenburg/neue-appartements-in-der-aschaffenburger-innenstadt-art-8752460 | wirtschaft | aschaffenburg
+- Bundestariftreuegesetz-Aschaffenburg-Grenzgebiet-Firmen-Buerokratie | https://aschaffenburg.news/unternehmen/grenzgebiet-im-fokus-wie-das-neue-bundestariftreuegesetz-aschaffenburger-firmen-betrifft.html | wirtschaft | aschaffenburg
+- Lohr-UmweltbeauftragterWirth-Eidechsen-Abschied-40Jahre | https://www.main-echo.de/region/kreis-main-spessart/von-eidechsen-hassattacken-und-der-erfuellung-eines-arbeitslebens-art-8752420 | gesellschaft | lohr-main-spessart
+- Erlenbach-Marktheidenfeld-ZweiMillionenBienen-Sonnenblumenfeld-Imkerei | https://www.meine-news.de/erlenbach-marktheidenfeld/c-natur-und-tiere/bienen-und-landwirtschaft_a239767 | gesellschaft | erlenbach-marktheidenfeld-main-spessart
+- Eschau-LAGSteuerkreis-20000Euro-Kleinprojekte-Foerderung | https://www.meine-news.de/eschau/c-finanzen-steuern-und-recht/lag-steuerkreis-vergibt-20000-euro-fuer-kleinprojekte_a239764 | gesellschaft | eschau-lkr-miltenberg
+- Miltenberg-EndlichRegen-Fotoessay-NatureAufatmet | https://www.meine-news.de/miltenberg/c-kultur/endlich-regen_a239755 | kultur | miltenberg-odenwald
+- Gemuenden-Scherenburgfestspiele-Hexenjagd-AusverkaufePremiere | https://www.main-echo.de/region/kreis-main-spessart/hexen-und-hexenjagd-auf-der-scherenburg-art-8649367 | kultur | gemünden-main-spessart
+- Mainaschaff-MusicalShrek-FakS-Maintalhalle-Premiere | https://www.main-echo.de/region/stadt-kreis-aschaffenburg/ein-herrlich-shrekliches-musical-publikum-in-mainaschaffer-maintalhalle-aus-dem-haeuschen-art-8751688 | kultur | mainaschaff-lkr-aschaffenburg
+- Trennfurt-AfterWorkBlasmusik-Musicarium-Sommerkonzert | https://www.meine-news.de/trennfurt/c-kultur/after-work-blasmusik-am-musicarium-trennfurt_a239770 | kultur | trennfurt-lkr-miltenberg
+- Aschaffenburg-Pfaffenmarkt-Premiere-Altstadt-Flohmarkt-18Juli | https://www.main-echo.de/region/stadt-kreis-aschaffenburg/die-kommunikationsleiterin-jacqueline-hoefel-organisiert-den-ersten-pfaffenmarkt-am-18-juli-in-der-altstadt-mit-nachbarschaftsflohmarkt-und-strassenfest-art-8750537 | freizeit | aschaffenburg
+- TVGrosswallstadt-Handball-DerbySaisonstart-2026-27 | https://aschaffenburg.news/handball/tv-großwallstadt-startet-mit-derby-in-die-saison-2026-27.html | sport | großwallstadt-lkr-miltenberg
+- Elsenfeld-Schulen-Leichtathletik-DreiDisziplinen-Wettkampf | https://www.meine-news.de/elsenfeld/c-sport/schulen-messen-sich-in-drei-leichtathletischen-disziplinen_a239752 | sport | elsenfeld-lkr-miltenberg
+- SchulamtMiltenberg-Fuehrungskraefte-Verabschiedung-Ruhestand | https://www.meine-news.de/miltenberg/c-schule-und-bildung/schulamt-verabschiedet-fuehrungskraefte_a239749 | bildung | miltenberg
+
+### 2026-07-17 (Ausgabe – 06:00 Uhr CEST)
 - A3-Sailauf-Motorradfahrer-schwerverletzt-Auffahrunfall | https://www.main-echo.de/ressorts/blaulicht/auffahrunfall-auf-der-a3-junger-motorradfahrer-schwer-verletzt-art-8752362 | blaulicht | sailauf-lkr-aschaffenburg
 - Flaechenbrand-Erlenbach-Feuerwehr-Feldbrand | https://www.main-echo.de/ressorts/blaulicht/flaechenbrand-in-erlenbach-ruft-feuerwehr-auf-den-plan-art-8751985 | blaulicht | erlenbach-lkr-miltenberg
 - Einbruch-HermannStaudingerGymnasium-Erlenbach-ZeugenGesucht | https://www.meine-news.de/erlenbach-amain/c-blaulicht/erlenbach-a-main-einbruch-in-gymnasium-zeugen-gesucht_a239680 | blaulicht | erlenbach-lkr-miltenberg
