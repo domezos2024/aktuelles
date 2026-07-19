@@ -1,17 +1,41 @@
 # Tagesnachrichten-Journal – domezos2024/aktuelles
 
-## Design – 2026-07-19 – 06:20 Uhr CEST
-- Schema: Bernstein-Terrakotta / Creme-Sand
-- Header-Gradient: #7A2E0E → #C1440E → #E8A33D (120deg)
-- Hintergrund: #FBF3E7 (warmes Creme/Sand)
-- Karten: #FFFFFF, border-left 6px farbig je Kategorie, border-radius 8px, CSS-Columns-Layout (Masonry, kein Grid)
-- Akzentfarben: #9E1B32 · #5B2C6F · #B8860B · #1F7A5C · #A83279 · #2C6E9E · #6D6875 · #4C7A3D · #C1440E · #007A87 · #D4A017 · #33334D · #7A5C3E
-- Layout: column-count:2 (CSS-Columns statt Grid)
-- Fonts: Georgia/Palatino Linotype (Serif Headlines), Verdana (Sans Body) – anderes Font-Duo als Vortage (Segoe UI/Helvetica bzw. Cambria/Trebuchet)
+## Design – 2026-07-19 – 06:00 Uhr CEST
+- Schema: Teal-Mintgrün / Creme-Eisblau
+- Header-Gradient: #0B4F6C → #1A7A6A (120deg)
+- Hintergrund: #E8F4F1 (helles Mintgrün-Creme)
+- Karten: #FFFFFF, border-left 5px farbig je Kategorie, border-radius 10px, CSS-Grid 3col
+- Akzentfarben: #0B4F6C · #1A7A6A · #2EAF8E · #C0392B · #7D3C98 · #1E6B4A · #D35400 · #2874A6 · #117A65 · #6E2F1A · #1D8348 · #1A5276
+- Layout: grid-template-columns: repeat(3,1fr)
+- Fonts: Georgia (Serif Headlines), IBM Plex Sans / Segoe UI (Sans Body) – anderes Font-Duo als Vortage (Georgia/Verdana bzw. Palatino/Trebuchet)
 
 ---
 
 ## Themen-Archiv (letzte 10 Tage – NICHT wiederholen!)
+
+### 2026-07-19 (Ausgabe – 06:00 Uhr CEST)
+- Kirchzell-Preunschen-Motorradfahrer68J-Frontalcrash-KIA-Toedlich | https://www.main-echo.de/ressorts/blaulicht/motorradfahrer-stirbt-nach-frontalcrash-bei-kirchzell-art-8752925 | blaulicht | kirchzell-lkr-miltenberg
+- Alzenau-A45-Starkregen-Skoda-Aquaplaning-Kontrollverlust | https://www.main-echo.de/ressorts/blaulicht/von-starkregen-ueberrascht-mann-verliert-auf-a45-kontrolle-ueber-sein-auto-art-8752950 | blaulicht | alzenau-lkr-aschaffenburg
+- Aschaffenburg-Landingtunnel-Fahranfaenger-Dodge-Totalschaden-Sperrung | https://www.main-echo.de/ressorts/blaulicht/fahranfaenger-schrottet-dodge-im-landingtunnel-art-8752879 | blaulicht | aschaffenburg
+- Goldbach-A3-Stau-Verkehrsbehinderungen-Aschaffenburg-Samstagmorgen | https://www.main-echo.de/ressorts/blaulicht/verkehrsbehinerungen-in-und-um-aschaffenburg-nach-unfall-auf-a3-art-8752878 | blaulicht | goldbach-aschaffenburg
+- Alzenau-SpessartGymnasium-BaeumeAbgesaegt-Vandalen-Polizei | https://www.meine-news.de/alzenau/c-blaulicht/alzenau-baeume-mutwillig-abgesaegt_a239746 | blaulicht | alzenau-lkr-aschaffenburg
+- Kreuzwertheim-EinbruchGetraenkemarkt-Tabakwaren-Gestohlen | https://www.main-echo.de/ressorts/blaulicht/einbruch-in-kreuzwertheim-tabakwaren-aus-getraenkemarkt-gestohlen-art-8752471 | blaulicht | kreuzwertheim-main-spessart
+- Lohr-Kindergartenleitung-FreiraumDebatte-Stadtrat | https://www.main-echo.de/region/kreis-main-spessart/wie-viel-freiraum-braucht-eine-kindergartenleitung-art-8752606 | politik | lohr-main-spessart
+- MainSpessart-KlinikumWuerzburgMitte-300000Euro-Kreistag-Geburtshilfe | https://www.main-echo.de/region/kreis-main-spessart/stoppschild-fuer-geburtshilfe-hilfe-art-8752607 | politik | lkr-main-spessart
+- Miltenberg-B469-Mainbullau-AnschlusstelleVollsperrung-3August | https://www.meine-news.de/miltenberg/c-blaulicht/b-469-erneuerung-der-rampen-zur-mil-5-anschlussstelle-miltenberg-west-mainbullau-sanierung-der-rampen-unter-vollsperrung_a239728 | verkehr | miltenberg
+- Miltenberg-Jungschreiner-16Gesellenstuecke-Ausstellung-19Juli | https://www.meine-news.de/miltenberg/c-beruf-und-ausbildung/jungschreinerinnen-des-landkreises-miltenberg-zeigen-ihr-koennen_a239812 | bildung | lkr-miltenberg
+- Miltenberg-SchulleiterVerabschiedung-SchulAmtFuehrungskraefte-Wechsel | https://www.meine-news.de/miltenberg/c-schule-und-bildung/schulamt-verabschiedet-fuehrungskraefte_a239749 | bildung | lkr-miltenberg
+- Marktheidenfeld-SchulcampusBestand-Sanierung-vs-Neubau-Pruefung | https://www.main-echo.de/region/kreis-main-spessart/am-schulcampus-marktheidenfeld-offen-rangehen-art-8752424 | bildung | marktheidenfeld-main-spessart
+- Erlenbach-ZweiMillionenBienen-SonnenblumenfeldVaeth-ImkereiHeiser | https://www.meine-news.de/erlenbach-marktheidenfeld/c-natur-und-tiere/bienen-und-landwirtschaft_a239767 | umwelt | erlenbach-marktheidenfeld
+- Miltenberg-EndlichRegen-DuerreEnde-Odenwald-Naturreportage | https://www.meine-news.de/miltenberg/c-kultur/endlich-regen_a239755 | umwelt | miltenberg-odenwald
+- Gemuenden-Scherenburgfestspiele-Hexenjagd-ArthurMiller-Premiere | https://www.main-echo.de/region/kreis-main-spessart/wahrheit-oder-leben-hexenjagd-auf-der-scherenburg-art-8752638 | kultur | gemuenden-main-spessart
+- Eichenbuehl-Rummelsekerb-Kirchweih-18bis20Juli-Fest | https://www.meine-news.de/miltenberg/c-kultur/auf-nach-eichenbuehl-zur-rummelsekerb_a239797 | kultur | eichenbühl-lkr-miltenberg
+- Reinhardsachsen-300JahreKirchenjubilaeum-BischofWuertz-26Juli | https://www.meine-news.de/reinhardsachsen/c-kultur/festakt-am-26-juli-mit-bischof-dr-dr-wuertz_a239686 | kultur | reinhardsachsen-lkr-miltenberg
+- Lohr-UmweltbeauftragterWirth-Ruhestand-Interview-Eidechsen | https://www.main-echo.de/region/kreis-main-spessart/von-eidechsen-hassattacken-und-der-erfuellung-eines-arbeitslebens-art-8752420 | gesellschaft | lohr-main-spessart
+- MainSpessart-Notfalldosen-Senioren-KostenlosWeiterhin | https://www.main-spessart.de/aktuelles/pressemitteilungen/11187.Notfalldosen-weiterhin-kostenlos-im-Landkreis-erhaeltlich.html | gesellschaft | lkr-main-spessart
+- Aschaffenburg-Nilkheim-VereinringZukunft-LenzBoehlau-Befragung | https://www.meine-news.de/aschaffenburg/c-vereine/wie-geht-es-weiter-mit-dem-vereinsring-nilkheim_a239821 | verein | aschaffenburg-nilkheim
+- Miltenberg-LAGSteuerkreis-20000Euro-8Kleinprojekte-Main4Eck | https://www.main-echo.de/region/kreis-miltenberg/lag-steuerkreis-verteilt-20000-euro-an-acht-kleinprojekte-art-8752585 | wirtschaft | lkr-miltenberg
+- Grosswallstadt-TVGrosswallstadt-Derby-Saisonstart-Handball2026-27 | https://aschaffenburg.news/handball/tv-gro%C3%9Fwallstadt-startet-mit-derby-in-die-saison-2026-27.html | sport | grosswallstadt-lkr-miltenberg
 
 ### 2026-07-19 (Ausgabe – 06:20 Uhr CEST)
 - Kirchzell-Toedlicher-Frontalcrash-68Jaehriger-Motorradfahrer-Kia | https://www.main-echo.de/ressorts/blaulicht/motorradfahrer-stirbt-nach-frontalcrash-bei-kirchzell-art-8752925 | blaulicht | kirchzell-lkr-miltenberg
