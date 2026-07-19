@@ -1,17 +1,38 @@
 # Tagesnachrichten-Journal – domezos2024/aktuelles
 
-## Design – 2026-07-18 – 06:00 Uhr CEST
-- Schema: Violett-Türkis / Schiefer-Grau
-- Header-Gradient: #3D1A6E → #5E4B8B → #1A7A8A (135deg)
-- Hintergrund: #F2F4F7 (kühles Blaugrau-Schiefer)
-- Karten: #FFFFFF, border-top 5px farbig je Kategorie, border-radius 14px
-- Akzentfarben: #6C2DB3 · #1A7A8A · #C62828 · #1565C0 · #2E7D32 · #E65100 · #00838F · #AD1457 · #558B2F · #00695C · #4527A0 · #F57F17
-- Layout: grid auto-fill minmax(320px,1fr)
-- Fonts: Segoe UI, Helvetica Neue, Arial (sans-serif) – anderes Font-Duo als gestern (Cambria/Trebuchet Serif)
+## Design – 2026-07-19 – 06:20 Uhr CEST
+- Schema: Bernstein-Terrakotta / Creme-Sand
+- Header-Gradient: #7A2E0E → #C1440E → #E8A33D (120deg)
+- Hintergrund: #FBF3E7 (warmes Creme/Sand)
+- Karten: #FFFFFF, border-left 6px farbig je Kategorie, border-radius 8px, CSS-Columns-Layout (Masonry, kein Grid)
+- Akzentfarben: #9E1B32 · #5B2C6F · #B8860B · #1F7A5C · #A83279 · #2C6E9E · #6D6875 · #4C7A3D · #C1440E · #007A87 · #D4A017 · #33334D · #7A5C3E
+- Layout: column-count:2 (CSS-Columns statt Grid)
+- Fonts: Georgia/Palatino Linotype (Serif Headlines), Verdana (Sans Body) – anderes Font-Duo als Vortage (Segoe UI/Helvetica bzw. Cambria/Trebuchet)
 
 ---
 
 ## Themen-Archiv (letzte 10 Tage – NICHT wiederholen!)
+
+### 2026-07-19 (Ausgabe – 06:20 Uhr CEST)
+- Kirchzell-Toedlicher-Frontalcrash-68Jaehriger-Motorradfahrer-Kia | https://www.main-echo.de/ressorts/blaulicht/motorradfahrer-stirbt-nach-frontalcrash-bei-kirchzell-art-8752925 | blaulicht | kirchzell-lkr-miltenberg
+- Alzenau-A45-Starkregen-Skoda-Opel-Unfall | https://www.main-echo.de/ressorts/blaulicht/von-starkregen-ueberrascht-mann-verliert-auf-a45-kontrolle-ueber-sein-auto-art-8752950 | blaulicht | alzenau-lkr-aschaffenburg
+- Aschaffenburg-Landingtunnel-Fahranfaenger-Dodge-Totalschaden | https://www.main-echo.de/ressorts/blaulicht/fahranfaenger-schrottet-dodge-im-landingtunnel-art-8752879 | blaulicht | aschaffenburg
+- Goldbach-A3-MassiveVerkehrsbehinderungen-Unfall-Wuerzburg | https://www.main-echo.de/ressorts/blaulicht/verkehrsbehinerungen-in-und-um-aschaffenburg-nach-unfall-auf-a3-art-8752878 | blaulicht | goldbach-lkr-aschaffenburg
+- Kleinheubach-B469-FahrerEingeschlafen-BMW-Gegenfahrbahn | https://www.main-echo.de/ressorts/blaulicht/fahrer-wohl-eingeschlafen-naechtlicher-unfall-auf-b469-art-8752880 | blaulicht | kleinheubach-lkr-miltenberg
+- Kreuzwertheim-Einbruch-Getraenkemarkt-Tabakwaren | https://www.main-echo.de/ressorts/blaulicht/einbruch-in-kreuzwertheim-tabakwaren-aus-getraenkemarkt-gestohlen-art-8752471 | blaulicht | kreuzwertheim-main-spessart
+- Marktheidenfeld-Sammelmeldung-JugendlicheLeerstand-Unfallflucht-EScooter | https://www.meine-news.de/landkreis-main-spessart/c-blaulicht/main-spessart-einbruch-in-getraenkemarkt-tabakwaren-entwendet-tatverdaechtige-in-leerstehendem-gebaeude-festgestellt-unfallflucht-nach-zusammenstoss-mit-e-scooter-sachbeschaedigung_a239743 | blaulicht | marktheidenfeld-lohr-trennfeld-main-spessart
+- Marktheidenfeld-Schulcampus-Landrat-Bestandsgebaeude-Pruefung | https://www.main-echo.de/region/kreis-main-spessart/am-schulcampus-marktheidenfeld-offen-rangehen-art-8752424 | politik | marktheidenfeld-main-spessart
+- MainSpessart-Kreistag-KlinikumWuerzburgMitte-300000Euro-Geburtshilfe | https://www.main-echo.de/region/kreis-main-spessart/stoppschild-fuer-geburtshilfe-hilfe-art-8752607 | politik | lkr-main-spessart-würzburg
+- Lohr-Kindergartenleitung-Freiraum-Stadtrat-Debatte | https://www.main-echo.de/region/kreis-main-spessart/wie-viel-freiraum-braucht-eine-kindergartenleitung-art-8752606 | bildung | lohr-main-spessart
+- Gemuenden-Scherenburgfestspiele-Hexenjagd-Premiere | https://www.main-echo.de/region/kreis-main-spessart/wahrheit-oder-leben-hexenjagd-auf-der-scherenburg-art-8752638 | kultur | gemünden-main-spessart
+- Lohr-UmweltbeauftragterManfredWirth-Ruhestand-Interview | https://www.main-echo.de/region/kreis-main-spessart/von-eidechsen-hassattacken-und-der-erfuellung-eines-arbeitslebens-art-8752420 | gesellschaft | lohr-main-spessart
+- Aschaffenburg-Nilkheim-Vereinsring-Zukunft-LenzBoehlau | https://www.meine-news.de/aschaffenburg/c-vereine/wie-geht-es-weiter-mit-dem-vereinsring-nilkheim_a239821 | verein | aschaffenburg-nilkheim
+- Miltenberg-Jungschreiner-Ausstellung-Gesellenstuecke | https://www.meine-news.de/miltenberg/c-beruf-und-ausbildung/jungschreinerinnen-des-landkreises-miltenberg-zeigen-ihr-koennen_a239812 | bildung | miltenberg
+- Aschaffenburg-Bundestariftreuegesetz-Grenzgebiet-Firmen | https://aschaffenburg.news/unternehmen/grenzgebiet-im-fokus-wie-das-neue-bundestariftreuegesetz-aschaffenburger-firmen-betrifft.html | wirtschaft | aschaffenburg
+- Miltenberg-LAGSteuerkreis-20000Euro-Kleinprojekte | https://www.main-echo.de/region/kreis-miltenberg/lag-steuerkreis-verteilt-20000-euro-an-acht-kleinprojekte-art-8752585 | wirtschaft | lkr-miltenberg
+- MainSpessart-DigitaleBildung-AchtKindergaerten-Zertifizierung | https://www.main-spessart.de/aktuelles/pressemitteilungen/11184.Digitale-Bildung-von-klein-auf--Acht-Kindergaerten-in-Main-Spessart-haben-erfolgreich-am-Programm-Startchance-kita.digital--Sprache-teilgenommen.html | bildung | lkr-main-spessart
+- TVGrosswallstadt-Derby-Saisonstart-2026-27-Handball | https://aschaffenburg.news/handball/tv-gro%C3%9Fwallstadt-startet-mit-derby-in-die-saison-2026-27.html | sport | großwallstadt-lkr-miltenberg
+- Obernburg-Jugendorchesterfestival-Musikfest-Nachholtermin | https://www.meine-news.de/obernburg-amain/c-vereine/musikfest-2026-jugendorchester-festival-neuer-termin_a238669 | kultur | obernburg-lkr-miltenberg
 
 ### 2026-07-18 (Ausgabe – 06:00 Uhr CEST)
 - Polizei-Telefonbetrueger-Warnung-Region-Lohr-Aschaffenburg | https://www.main-echo.de/ressorts/blaulicht/polizei-warnt-vor-telefonbetruegern-art-8752580 | blaulicht | lohr-aschaffenburg-main-spessart
