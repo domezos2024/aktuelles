@@ -1,0 +1,44 @@
+name: Branches aufräumen
+
+on:
+  workflow_dispatch:
+    inputs:
+      keep:
+        description: "Branches, die behalten werden (kommagetrennt)"
+        required: false
+        default: "main"
+      dry_run:
+        description: "Dry-run (nur anzeigen, nicht wirklich löschen)"
+        required: false
+        default: "false"
+        type: choice
+        options:
+          - "false"
+          - "true"
+
+permissions:
+  contents: write
+
+jobs:
+  cleanup:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Repository auschecken
+        uses: actions/checkout@v4
+
+      - name: Python einrichten
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Branches löschen
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_OWNER: ${{ github.repository_owner }}
+          GITHUB_REPO:  ${{ github.event.repository.name }}
+        run: |
+          ARGS="--keep ${{ inputs.keep }}"
+          if [ "${{ inputs.dry_run }}" = "true" ]; then
+            ARGS="$ARGS --dry-run"
+          fi
+          python3 cleanup_branches.py $ARGS
