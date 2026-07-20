@@ -1,17 +1,45 @@
 # Tagesnachrichten-Journal – domezos2024/aktuelles
 
-## Design – 2026-07-19 – 06:00 Uhr CEST
-- Schema: Teal-Mintgrün / Creme-Eisblau
-- Header-Gradient: #0B4F6C → #1A7A6A (120deg)
-- Hintergrund: #E8F4F1 (helles Mintgrün-Creme)
-- Karten: #FFFFFF, border-left 5px farbig je Kategorie, border-radius 10px, CSS-Grid 3col
-- Akzentfarben: #0B4F6C · #1A7A6A · #2EAF8E · #C0392B · #7D3C98 · #1E6B4A · #D35400 · #2874A6 · #117A65 · #6E2F1A · #1D8348 · #1A5276
-- Layout: grid-template-columns: repeat(3,1fr)
-- Fonts: Georgia (Serif Headlines), IBM Plex Sans / Segoe UI (Sans Body) – anderes Font-Duo als Vortage (Georgia/Verdana bzw. Palatino/Trebuchet)
+## Design – 2026-07-20 – 06:05 Uhr CEST
+- Schema: Bernstein-Gold / Terrakotta-Braun / Spessart-Teal (Sonnenaufgang, passend zum Logo-Motiv)
+- Header-Gradient: #6B3A17 → #C9902F → #2F6B5E (115deg, 3-stufig)
+- Hintergrund: #FBF3E4 (warmes Creme)
+- Karten: #FFFFFF, border-left 6px farbig je Kategorie, border-radius 12px, CSS-Grid 2col
+- Akzentfarben: #B23A2E · #2F6B5E · #6B2C5F · #A5682A · #A6325A · #3E7C3B · #1F7A8C · #C9902F
+- Layout: grid-template-columns: repeat(2,1fr)
+- Fonts: Rockwell/„Bookman Old Style" (Serif Headlines), Tahoma/Verdana (Sans Body) – anderes Font-Duo als Vortage (Georgia/IBM Plex Sans, Georgia/Verdana, Palatino/Trebuchet)
+- Logo: file_000000002f8872469668704c39f1eaf6.jpg im Header links (gerahmt) als Markenzeichen eingebunden
 
 ---
 
 ## Themen-Archiv (letzte 10 Tage – NICHT wiederholen!)
+
+### 2026-07-20 (Ausgabe – 06:05 Uhr CEST)
+- Obernburg-GeisterfahrerinA45-ZweiTote-FamilieSchwerstverletzt-Florstadt | https://www.main-echo.de/ressorts/blaulicht/geisterfahrerin-auf-a45-zwei-tote-kinder-in-lebensgefahr-art-8753015 | blaulicht | obernburg-lkr-miltenberg
+- Aschaffenburg-Rathaustuer-Bespruehte-PolitischeBotschaft-Empoerung | https://www.main-echo.de/ressorts/blaulicht/aschaffenburg-bespruehte-rathaustuer-sorgt-fuer-empoerung-art-8753049 | blaulicht | aschaffenburg
+- Aschaffenburg-NaechtlicherHubschraubereinsatz-SucheVermisster | https://www.main-echo.de/ressorts/blaulicht/naechtlicher-hubschraubereinsatz-ueber-aschaffenburg-das-sagt-die-polizei-art-8753039 | blaulicht | aschaffenburg
+- Gemuenden-DreiFluesseBad-ScheibeEingeworfen-DieselDiebstahlRadlader | https://www.meine-news.de/landkreis-main-spessart/c-blaulicht/main-spessart-scheibe-an-drei-fluesse-bad-eingeworfen-unfallfluechtiger-hinterlaesst-streifschaden-diesel-aus-radlader-abgezapft_a239866 | blaulicht | gemuenden-main-spessart
+- Sommerkahl-MotorradDiebstahl-Husqvarna-A3MotorradfahrerSchwerverletzt | https://www.meine-news.de/landkreis-aschaffenburg/c-blaulicht/raum-aschaffenburg-motorradfahrer-nach-verkehrsunfall-auf-autobahn-schwer-verletzt-historische-rathaustuer-durch-graffiti-beschaedigt-pkw-zerkratzt-motorrad-gestohlen_a239863 | blaulicht | sommerkahl-lkr-aschaffenburg
+- Marktheidenfeld-Polizeichef-EScooterWarnung-Verstoesse | https://www.main-echo.de/region/kreis-main-spessart/polizei-marktheidenfeld-registriert-verstoesse-und-appelliert-an-ruecksichtnahme-art-8753036 | verkehr | marktheidenfeld-main-spessart
+- Windischbuchen-MIL20MIL14-Lauersmuehle-Vollsperrung-20bis24Juli | https://www.main-echo.de/region/kreis-miltenberg/einmuendung-der-mil-20-in-die-mil-14-an-der-lauersmuehle-wird-gesperrt-art-8736649 | verkehr | lkr-miltenberg
+- AlexanderHoffmann-Zellingen-MainSpessart-CSU-InterimsFraktionschef-Spahn | https://www.main-echo.de/region/kreis-main-spessart/spekulationen-um-spahns-nachfolger-doch-zunaechst-gibt-sich-der-mann-aus-main-spessart-entschieden-art-8753004 | politik | zellingen-main-spessart
+- Woerth-Feuerwehr-ZweiSpezialfahrzeuge-1,3MioEuro-Waldbrand | https://www.main-echo.de/region/kreis-miltenberg/woerther-wehr-fuer-waldbraende-besser-geruestet-art-8753046 | gesellschaft | woerth-lkr-miltenberg
+- Amorbach-TechnoFestival-KlangImWald-TrotztWetter-VierteAuflage | https://www.main-echo.de/region/kreis-miltenberg/amorbacher-techno-festival-trotzt-wetterkapriolen-art-8753095 | kultur | amorbach-lkr-miltenberg
+- Miltenberg-GoldenesPriesterjubilaeum-PfarrerToniWolf-50Jahre | https://www.meine-news.de/miltenberg/c-glaube-und-weltanschauung/goldenes-priesterjubilaeum-von-pfarrer-toni-wolf_a239860 | gesellschaft | miltenberg
+- Eichenbuehl-Feuerwehrjugend-Kaltenbach-Uebung-JungeFrauenGelobt | https://www.meine-news.de/miltenberg/c-vereine/wie-eichenbuehls-feuerwehrjugend-den-kaltenbach-baendigte_a239854 | verein | eichenbühl-lkr-miltenberg
+- Miltenberg-Wasserwacht-Aktionstag-SicherAufDemWasser-Main | https://www.meine-news.de/miltenberg/c-vereine/blaulicht-boote-bratwurstduft_a239875 | verein | miltenberg
+- Aschaffenburg-Rikschafahrt-FrankfurtGuude-Senioren-Ehrenamt | https://www.meine-news.de/aschaffenburg/c-senioren/rikschafahrt-mit-frankfurt-guude-nicht-immer-nur-wandern_a239836 | gesellschaft | aschaffenburg
+- MainSpessart-Energieberater-Heizungsgesetz-Vortrag-Mitesser | https://www.main-echo.de/region/kreis-main-spessart/energieberater-spricht-klartext-was-taugt-das-neue-heizungsgesetz-und-was-muessen-hauseigentuemer-beachten-art-8753019 | wirtschaft | lkr-main-spessart
+- Aschaffenburg-SchoenbergMittelschule-Rektor-PusteAus-Sanierung | https://www.main-echo.de/region/stadt-kreis-aschaffenburg/wir-sind-geduldig-aber-uns-geht-die-puste-aus-art-8753068 | bildung | aschaffenburg
+- Goldbach-Nachtschwimmen-HitzewelleVorbei-1600Besucher-Laser | https://www.main-echo.de/region/stadt-kreis-aschaffenburg/ausgerechnet-zum-goldbacher-nachtschwimmen-ist-die-hitzewelle-vorbei-art-8753072 | freizeit | goldbach-lkr-aschaffenburg
+- Stockstadt-Schuetzenverein-100JahreJubilaeum-Schuetzenhaus | https://www.main-echo.de/region/stadt-kreis-aschaffenburg/stockstaedter-schuetzen-feiern-ihr-100-jaehriges-bestehen-art-8753066 | verein | stockstadt-lkr-aschaffenburg
+- Kreuzwertheim-CharityKuechenparty-10220Euro-Buergerspital-Riesenerfolg | https://www.main-echo.de/region/kreis-main-spessart/premiere-der-charity-kuechenparty-im-kreuzwertheimer-landgasthof-zum-kaffelstein-ist-ein-riesenerfolg-art-8753127 | gesellschaft | kreuzwertheim-main-spessart
+- Lohr-Spessartfestwoche-2100Gaeste-TagDerVereine-Festzelt | https://www.main-echo.de/region/kreis-main-spessart/2100-gaeste-werden-festzelt-beleben-art-8753063 | event | lohr-main-spessart
+- Obernburg-Altstadtfest-1bis2August-13Bands-VierBuehnen | https://www.main-echo.de/region/kreis-miltenberg/obernburger-altstadtfest-mit-vielen-live-bands-art-8753153 | event | obernburg-lkr-miltenberg
+- Kleinwallstadt-Bootshausfest-Drachenbootrennen-ErstmalsZweiSieger | https://www.main-echo.de/region/kreis-miltenberg/erstmals-zwei-sieger-beim-drachenbootrennen-in-kleinwallstadt-art-8753118 | verein | kleinwallstadt-lkr-miltenberg
+- Homburg-Weinfest-24bis26Juli-30JulibisAug2-Schlosshof-Kallmuth | https://homburger-weinfest.de/ | event | triefenstein-homburg-main-spessart
+- Aschaffenburg-Altstadtfest-25bis26Juli-VierBuehnen-Pfaffengasse | https://www.frizzmag.de/events/altstadtfest-aschaffenburg/ | event | aschaffenburg
+- Bayern-Sommerferien-Start-3August-bis14September2026 | https://www.kalenderpedia.de/ferien/ferien-bayern-2026.html | event | bayern-regional
 
 ### 2026-07-19 (Ausgabe – 06:00 Uhr CEST)
 - Kirchzell-Preunschen-Motorradfahrer68J-Frontalcrash-KIA-Toedlich | https://www.main-echo.de/ressorts/blaulicht/motorradfahrer-stirbt-nach-frontalcrash-bei-kirchzell-art-8752925 | blaulicht | kirchzell-lkr-miltenberg
