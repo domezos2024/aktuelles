@@ -4,6 +4,35 @@ WORKSPACE: GitHub: domezos2024/aktuelles branch: main
 
 ---
 
+## Schritt 0 – Zeitbudget (VERBINDLICH)
+
+Die gesamte Routine (Schritt 1–8) muss **innerhalb von 35 Minuten** abgeschlossen sein –
+der CI-Workflow bricht den Claude-Prozess nach 37 Minuten hart ab (Job-Timeout: 40 Minuten
+gesamt inkl. Checkout). Arbeite entsprechend diszipliniert:
+
+- **Tool-Aufrufe bündeln:** Mehrere unabhängige WebSearch-/WebFetch-Aufrufe IMMER in einer
+  Nachricht parallel absetzen, nie sequenziell einzeln.
+- **Nicht mehrfach nachfassen:** Führt ein WebFetch auf eine main-echo.de-Detailseite zu 404
+  (unterschiedliche URL-Formate: `.../slug-art-XXXXXXXX` vs. `;artXXX,XXXXXXXX`), NICHT per
+  WebSearch die "richtige" URL suchen – Artikel überspringen und nächsten Kandidaten nehmen.
+  meine-news.de- und infranken.de-URLs (Format `.../c-kategorie/slug_aXXXXXX`) sind über
+  WebFetch zuverlässig extrahierbar und sind bei Zeitdruck vorzuziehen.
+- **Keine Doppelrecherche:** Wenn eine Übersichts-/Kategorieseite in Schritt 4 bereits Titel,
+  Kurzfassung und ggf. og:image liefert, NICHT zusätzlich jeden einzelnen Artikel separat
+  fetchen – nur bei fehlenden Pflichtangaben (z. B. Bild explizit gewünscht, Zusammenfassung
+  zu kurz) gezielt nachfetchen.
+- **Video-Suche ist optional:** Nur für 1–3 besonders passende Meldungen aktiv nach einem
+  YouTube-Video suchen, nicht für alle 20. Kein Video gefunden → Feld einfach weglassen.
+- **Zielgröße statt Bereich:** Ziel sind genau 20 Meldungen (nicht 20–25) – bei 20 soliden,
+  verifizierten Kandidaten die Recherche beenden, nicht weitersammeln.
+- **Budget-Notbremse:** Ist etwa die Hälfte des Zeitbudgets (≈17 Minuten) verstrichen und
+  liegen noch keine 20 Meldungen vor, mit dem vorhandenen Bestand weiterarbeiten (auch bei
+  z. B. 15–18 Meldungen) statt weiter zu recherchieren. Lieber pünktlich mit etwas weniger
+  Meldungen fertig werden als das Zeitbudget zu sprengen.
+- **Bild-/URL-Verifikation:** Ein einzelner HTTP-Check pro eingebundenem Bild reicht (nicht
+  zusätzlich noch alle 20 Quell-URLs einzeln per curl gegenprüfen) – WebFetch/WebSearch haben
+  die URL bereits durch erfolgreichen Seitenabruf verifiziert.
+
 ## Schritt 1 – Repo holen
 - `git fetch origin main && git checkout main && git pull origin main`
 
@@ -22,37 +51,46 @@ URL: `https://api.brightsky.dev/weather?lat=50.0&lon=9.57&date=HEUTE&last_date=�
 
 ## Schritt 4 – Nachrichten recherchieren (WebSearch + WebFetch)
 
-Suchanfragen:
-- "Lohr am Main Nachrichten aktuell"
-- "Aschaffenburg Nachrichten aktuell"
-- "Landkreis Main-Spessart aktuell"
-- "Landkreis Aschaffenburg aktuell"
-- "Unterfranken Nachrichten heute"
+**Erste Runde (ein Nachrichten-Turn, alle Aufrufe parallel absetzen):** direkt die
+Kategorie-/Blaulicht-Übersichtsseiten der Kernquellen fetchen statt breiter WebSearch-Anfragen
+zu starten – die liefern meist schon Titel + Kurzfassung + funktionierende URL in einem Schritt:
+- `https://www.meine-news.de/landkreis-main-spessart/c-blaulicht`
+- `https://www.meine-news.de/landkreis-aschaffenburg/c-blaulicht`
+- `https://www.meine-news.de/landkreis-miltenberg` (bzw. `/c-blaulicht`)
+- `https://www.main-echo.de/ressorts/blaulicht`
+- `https://aschaffenburg.news/aktuelles.html`
+- `https://www.infranken.de/lk/aschaffenburg/uebersicht/` bzw. `/lk/main-spessart/uebersicht/`
 
-WebFetch "https://www.mainpost.de/main-spessart/lohr"
-WebFetch "https://www.main-echo.de/region/mein-ort/97816-lohr/"
-WebFetch (letzte 48h): main-echo.de, infranken.de, aschaffenburg.news, meine-news.de, br.de/nachrichten/bayern
+**Zweite Runde (nur falls nötig, ebenfalls parallel):** WebSearch nur gezielt einsetzen, um
+Lücken zu füllen (z. B. zu wenige Politik/Wirtschaft/Kultur-Kandidaten) – nicht pauschal alle
+5 Themen-Suchbegriffe der Reihe nach absuchen. Presseseiten der Landkreise
+(`main-spessart.de/aktuelles/pressemitteilungen`, `landkreis-aschaffenburg.de`) eignen sich gut
+für Politik/Wirtschaft-Meldungen.
+
+Bei Bedarf ergänzend: `mainpost.de/main-spessart/lohr`, `main-echo.de/region/mein-ort/97816-lohr/`,
+`br.de/nachrichten/bayern`, `tagesschau.de/suche?searchText=[Ort]+[Thema]`.
 
 ### Bilder & Videos zu jeder Meldung extrahieren
 
-Für jede ausgewählte Meldung via WebFetch die Artikel-Seite aufrufen und extrahieren:
-- **Bild**: `<meta property="og:image" content="...">` oder erstes `<img>` im Artikel-Body → URL merken
-- **Video**: Suche nach YouTube-Embed (`youtube.com/embed/VIDEO_ID` oder `youtu.be/VIDEO_ID`) auf der Seite ODER gezielt suchen: `"[Thema] [Ort] youtube"` via WebSearch
+- **Bild**: Meist bereits aus der Übersichtsseite verfügbar (og:image). Fehlt es dort, EINMAL
+  gezielt die Artikelseite fetchen und `<meta property="og:image">` bzw. erstes `<img>`
+  extrahieren. Kein Treffer → Medien-Box für diese Meldung weglassen, nicht weitersuchen.
+- **Video**: Nur für 1–3 herausragende Meldungen aktiv suchen (YouTube-Embed auf der Seite oder
+  gezielte WebSearch `"[Thema] [Ort] youtube"`). Für die übrigen Meldungen kein Video-Feld.
   - YouTube-Thumbnail-URL: `https://img.youtube.com/vi/{VIDEO_ID}/hqdefault.jpg`
   - Video-Link: `https://www.youtube.com/watch?v={VIDEO_ID}`
 
 **Regeln:**
 - Kein Placeholder wenn kein echtes Bild/Video gefunden wurde → Medien-Box einfach weglassen
 - Bild-URL muss öffentlich zugänglich sein (kein Login, kein Paywall-Token)
-- Funktioniert kein `og:image`? → nächste `<img src>` im Artikel probieren
-- Für Tagesschau: `https://www.tagesschau.de/suche?searchText=[Ort]+[Thema]` prüfen
 
-## Schritt 5 – Top 20-25 Meldungen auswählen (lokal → regional)
+## Schritt 5 – Top 20 Meldungen auswählen (lokal → regional)
 
 Für jede Meldung:
 - Titel | Zusammenfassung (min. 4 Sätze) | URL | Kategorie (farbig) | Ort (farbig)
 - Prioritäten: Blaulicht/Kriminalität > Politik > Wirtschaft > Gesellschaft/Kultur/Sport
-- Mindestens 20 echte, von den letzten 10 Tagen VERSCHIEDENE Meldungen (≤48h alt)
+- Ziel: 20 echte, von den letzten 10 Tagen VERSCHIEDENE Meldungen (≤48h alt) – siehe
+  Zeitbudget-Notbremse in Schritt 0, falls das nicht ohne Zeitüberschreitung erreichbar ist
 - Keine URL, kein Thema/Ereignis das bereits in einem der letzten 10 Journal-Einträge steht
 - Bei Zweifeln: Schlagwort aus journal.md mit Suchbegriff abgleichen, lieber eine neue Meldung wählen
 
@@ -63,7 +101,7 @@ Anforderungen:
 - **Kein JavaScript, keine Animationen**
 - Header: Wochentag, Datum, Uhrzeit (Berlin CEST, UTC+2) + "Nachrichten – Lohr am Main & Aschaffenburg"
 - Wetter-Box: 24h stündlich scrollbar + 2-Tage-Karten
-- 20-25 News-Karten: Kategorie-Badge, Regions-Badge, Titel, Zusammenfassung, Quelle-Link
+- ~20 News-Karten: Kategorie-Badge, Regions-Badge, Titel, Zusammenfassung, Quelle-Link
 - **Bilder in Karten:** Echtes `<img src="URL">` oben rechts (float:right, max 120×90px), anklickbar zur Vollansicht via CSS `:target`-Lightbox (kein JS). Nur einbauen wenn URL gefunden – KEIN Placeholder.
 - **Video-Standbild in Karten:** YouTube-Thumbnail (`https://img.youtube.com/vi/{ID}/hqdefault.jpg`) als `<img>` oben rechts mit Spielsymbol-Overlay (▶ rein via CSS ::after), klickbar als Link zu `https://www.youtube.com/watch?v={ID}`. Nur einbauen wenn konkrete Video-ID gefunden.
 - **CSS-Lightbox:** `<a href="#img-N" id="img-N"><img ...></a>` + `<div id="lb-N">` (position:fixed, target-Selektor blendet ein). Pro Bild ein Overlay. Kein JS.
@@ -134,7 +172,8 @@ Dann:
 
 ## Qualitätskriterien
 
-- Min. 20 echte, verifizierte Meldungen (anders als die letzten 10 Tage)
+- Ziel: 20 echte, verifizierte Meldungen (anders als die letzten 10 Tage); bei knappem
+  Zeitbudget greift die Notbremse aus Schritt 0 (lieber pünktlich mit etwas weniger)
 - Kein Dummy-Inhalt, keine Platzhalter
 - **Bilder/Videos:** Echte URLs verwenden (og:image, img-Tag, YouTube-Thumbnail). Kein gefundenes Bild → keine Medien-Box (besser leer als Platzhalter)
 - **CSS-Lightbox** für Bilder funktioniert ohne JavaScript (`:target`-Selektor)
