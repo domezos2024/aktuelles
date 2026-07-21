@@ -1,18 +1,40 @@
 # Tagesnachrichten-Journal – domezos2024/aktuelles
 
-## Design – 2026-07-20 – 06:05 Uhr CEST
-- Schema: Bernstein-Gold / Terrakotta-Braun / Spessart-Teal (Sonnenaufgang, passend zum Logo-Motiv)
-- Header-Gradient: #6B3A17 → #C9902F → #2F6B5E (115deg, 3-stufig)
-- Hintergrund: #FBF3E4 (warmes Creme)
-- Karten: #FFFFFF, border-left 6px farbig je Kategorie, border-radius 12px, CSS-Grid 2col
-- Akzentfarben: #B23A2E · #2F6B5E · #6B2C5F · #A5682A · #A6325A · #3E7C3B · #1F7A8C · #C9902F
-- Layout: grid-template-columns: repeat(2,1fr)
-- Fonts: Rockwell/„Bookman Old Style" (Serif Headlines), Tahoma/Verdana (Sans Body) – anderes Font-Duo als Vortage (Georgia/IBM Plex Sans, Georgia/Verdana, Palatino/Trebuchet)
-- Logo: file_000000002f8872469668704c39f1eaf6.jpg im Header links (gerahmt) als Markenzeichen eingebunden
+## Design – 2026-07-21 – 06:25 Uhr CEST
+- Schema: Sommernacht-Blau / Melonengelb / Koralle (Hundstage-Auftakt, kühle Nacht zu warmem Sonnenaufgang)
+- Header-Gradient: #14213D → #2B5F8A → #F2A541 (135deg, 3-stufig)
+- Hintergrund: #F3F6FA (kühles Blau-Weiß)
+- Karten: #FFFFFF, border-top 5px farbig je Kategorie, border-radius 14px, CSS-Grid 3col
+- Akzentfarben: #D64545 · #2B5F8A · #B8862B · #E67E22 · #3F51B5 · #C2185B · #16A085 · #2E8B57
+- Layout: grid-template-columns: repeat(3,1fr)
+- Fonts: Cambria/„Times New Roman" (Serif Headlines), „Segoe UI"/Calibri (Sans Body) – anderes Font-Duo als Vortage (Rockwell/Bookman Old Style, Georgia/IBM Plex Sans, Georgia/Verdana, Palatino/Trebuchet)
+- Logo: file_000000002f8872469668704c39f1eaf6.jpg im Header links (rund gerahmt) als Markenzeichen eingebunden
 
 ---
 
 ## Themen-Archiv (letzte 10 Tage – NICHT wiederholen!)
+
+### 2026-07-21 (Ausgabe – 06:25 Uhr CEST)
+- Alzenau-Bienenstich-LKW-kippt-Radweg-40Tonner | https://www.infranken.de/lk/aschaffenburg/blaulicht/biene-sticht-lkw-fahrer-40-tonner-kippt-auf-fahrradweg-in-alzenau-art-6381499 | blaulicht | alzenau-lkr-aschaffenburg
+- Feldkahl-Verkehrsunfall-VorfahrtMissachtet-HoherSachschaden | https://www.meine-news.de/feldkahl/c-blaulicht/verkehrsunfall-bei-feldkahl-am-20072026_a239965 | blaulicht | feldkahl-lkr-aschaffenburg
+- Schoellkrippen-Einbruch-Motorradgeschaeft-ZeugenGesucht | https://www.main-echo.de/ressorts/blaulicht/einbruch-in-motorradgeschaeft-in-schoellkrippen-zeugen-gesucht-art-8753526 | blaulicht | schoellkrippen-lkr-aschaffenburg
+- Grossheubach-EBikeFahrer-Unfallflucht-PolizeiSuchtZeugen | https://www.meine-news.de/landkreis-miltenberg/c-blaulicht/kreis-miltenberg-nach-verkehrsunfall-polizei-miltenberg-sucht-e-bike-fahrer-pkw-mutwillig-zerkratzt-reifen-zerstochen_a239938 | blaulicht | grossheubach-lkr-miltenberg
+- WertheimBestenheid-Tankstelle-Aufgebrochen-ZigarettenAlkohol | https://www.meine-news.de/main-tauber-kreis/c-blaulicht/main-tauber-kreis-alkohol-und-zigaretten-gestohlen-citroen-entwendet-acker-abgebrannt-frau-in-fahrzeug-eingeklemmt_a239947 | blaulicht | wertheim-bestenheid
+- Frammersbach-Schwerpunktkontrolle-Zweirad-76Kontrolliert | https://www.meine-news.de/landkreis-main-spessart/c-blaulicht/main-spessart-schwerpunktaktion-zweirad-bei-frammersbach-76-zweiraeder-kontrolliert_a239932 | verkehr | frammersbach-main-spessart
+- AB2-Sperrung-Englaender-Heinrichsthal-3bis10August | https://www.main-echo.de/region/stadt-kreis-aschaffenburg/sperrung-der-kreisstrasse-ab-2-zwischen-englaender-und-heinrichsthal-art-8753515 | verkehr | lkr-aschaffenburg
+- Klingenberg-Vollsperrung-Brueckenstrasse-Asphalt-2bis10August | https://www.meine-news.de/klingenberg-amain/c-blaulicht/st-2309-fahrbahnerneuerung-brueckenstrasse-klingenberg-am-vollsperrung-der-ortsdurchfahrt-klingenberg-fuer-asphalteinbau_a239737 | verkehr | klingenberg-lkr-miltenberg
+- Aschaffenburg-Friedrichstrasse-Bauarbeiten-Busverkehr-Umleitung | https://aschaffenburg.news/ab/aschaffenburg/aschaffenburg/bauarbeiten-in-der-friedrichstra%C3%9Fe-%C3%A4nderungen-im-busverkehr.html | verkehr | aschaffenburg
+- Alzenau-Kaemmerin-Halbjahresbericht-Finanzen-Stadtrat | https://www.main-echo.de/region/stadt-kreis-aschaffenburg/wie-steht-die-stadt-alzenau-finanztechnisch-da-art-8753477 | wirtschaft | alzenau-lkr-aschaffenburg
+- Dorfprozelten-MagnaMirrors-JetztBrauchtEsKlarheit-Gespraeche | https://www.meine-news.de/dorfprozelten/c-wirtschaft/zu-beginn-der-neuen-woche-finden-gespraeche-mit-magna-statt-es-braucht-klarheit_a239890 | wirtschaft | dorfprozelten-lkr-miltenberg
+- Erlenbach-BKKAkzoNobel-LandratBartels-Gesundheitsversorgung | https://www.meine-news.de/erlenbach-amain/c-gesundheit-und-wellness/vorstand-der-bkk-akzo-nobel-tauscht-sich-mit-landrat-bjoern-bartels-ueber-regionale-gesundheitsversorgung-und-gesundheitspolitische-herausforderungen-aus_a239917 | gesundheit | erlenbach-lkr-miltenberg
+- Obernburg-ADHSElternStammtisch-Buergerhaus-NeuesAngebot | https://www.meine-news.de/obernburg-amain/c-mann-frau-und-familie/adhs-eltern-stammtisch_a239923 | gesundheit | obernburg-lkr-miltenberg
+- Amorbach-Hilfsorganisation-Kolumbien-Einblicke-Vortrag | https://www.meine-news.de/amorbach/c-schule-und-bildung/hilfsorganisation-gibt-einblicke-in-das-wahre-kolumbien_a239914 | bildung | amorbach-lkr-miltenberg
+- Miltenberg-CyranoDeBergerac-Mildenburg-Theateraufführung | https://www.meine-news.de/miltenberg/c-kultur/cyrano-der-bergerac-zu-gast-in-miltenberg_a239971 | kultur | miltenberg
+- Gottersdorf-OdenwaelderFreilandmuseum-Kultursommer-Programm | https://www.meine-news.de/miltenberg/c-kultur/besondere-aktionen-im-odenwaelder-freilandmuseum-in-gottersdorf_a239881 | kultur | gottersdorf-lkr-miltenberg
+- Eschau-ErstesWeinfest-SchlossOberaulenbach-Spessartklang | https://www.meine-news.de/eschau/c-vereine/erstes-weinfest-am-schloss-oberaulenbach-musikverein-spessartklang-hobbach-laedt-ein_a239962 | kultur | eschau-lkr-miltenberg
+- MainSpessart-Landradtour-33Ausgabe-Anmeldung-19September | https://www.main-spessart.de/aktuelles/pressemitteilungen/11189.Jetzt-anmelden-zur-Landradtstour-am-19.-September-2026-Entlang-des-Mains-ueber-Bruecken-und-Grenzen.html | freizeit | lkr-main-spessart
+- Erlenbach-Sommernachtsfest-Mechenhard-ZahlreicheBesucher | https://www.meine-news.de/erlenbach-amain/c-vereine/viele-besucher-feiern-beim-sommernachtsfest-in-mechenhard_a239887 | gesellschaft | erlenbach-mechenhard-lkr-miltenberg
+- Aschaffenburg-Beratungstag-EhrenamtlicheBetreuer-Vollmachtnehmer | https://www.meine-news.de/aschaffenburg/c-mann-frau-und-familie/beratungstag-fuer-ehrenamtliche-rechtliche-betreuerinnen-und-vollmachtnehmerinnen_a239902 | gesellschaft | aschaffenburg
 
 ### 2026-07-20 (Ausgabe – 06:05 Uhr CEST)
 - Obernburg-GeisterfahrerinA45-ZweiTote-FamilieSchwerstverletzt-Florstadt | https://www.main-echo.de/ressorts/blaulicht/geisterfahrerin-auf-a45-zwei-tote-kinder-in-lebensgefahr-art-8753015 | blaulicht | obernburg-lkr-miltenberg
@@ -368,64 +390,3 @@
 - Elsenfeld-Neuer-Schulcampus-Mensa-Eroeffnung-17Juli | https://www.main-echo.de/region/mein-ort/63820-elsenfeld/ | bildung | elsenfeld-lkr-miltenberg
 - Erlenbach-Barbarossa-Lauf-Neues-Streckenkonzept-19Juli | https://www.meine-news.de/erlenbach-amain | sport | erlenbach-lkr-miltenberg
 - Erlenbach-SchoolsOut-Party-Beavers-Ferienstart-31Juli | https://www.meine-news.de/erlenbach-amain | gesellschaft | erlenbach-lkr-miltenberg
-
-### 2026-07-11 (Ausgabe – 14:55 Uhr CEST)
-- Wiesenfeld-Prozess-Karlstadt-ColdCase-SabineB-Zeugenaussagen | https://www.main-echo.de/region/kreis-main-spessart/tatort-wiesenfeld-gericht-hoert-weiter-zeugen-an-art-8745436 | justiz | karlstadt-wiesenfeld-main-spessart
-- EScooter-Kia-Unfallfluchten-Eisenbach-Miltenberg-Eichenbuehl | https://www.meine-news.de/landkreis-miltenberg/c-blaulicht/kreis-miltenberg-e-scooter-kollidiert-mit-einem-kia-pkws-angefahren-unfallflucht_a239239 | blaulicht | eisenbach-miltenberg-eichenbuehl-lkr-miltenberg
-- Amorbach-Realschule-Demokratie-Landtagsabgeordnete-Stock-Zoeller | https://www.meine-news.de/amorbach/c-schule-und-bildung/demokratie-in-der-schule_a238975 | politik | amorbach-lkr-miltenberg
-- Suedspessart-Glascontainer-Ueberquellend-Collenberg-Kirschfurt-Dorfprozelten-Faulbach-Altenbuch | https://www.main-echo.de/region/kreis-miltenberg/kritik-wegen-ueberquellender-glascontainer-art-8741795 | umwelt | suedspessart-lkr-miltenberg
-- Anneliese-Michel-Exorzismus-50-Jahre-Klingenberg-Video | https://www.main-echo.de/region/kreis-miltenberg/topthemen/vom-fall-anneliese-michel-bis-heute-ein-videobeitrag-zum-thema-exorzismus-art-8744770 | gesellschaft | klingenberg-lkr-miltenberg
-- Katrin-Himmler-Grossnichte-Vortrag-JEG-HSG-Erlenbach-Elsenfeld-AfD | https://meine-news.de/erlenbach-amain/c-schule-und-bildung/katrin-himmler-am-jeg-und-hsg_a239143 | gesellschaft | erlenbach-elsenfeld-lkr-miltenberg
-- Lohr-Rodenbach-Pflochsbach-Trinkwasser-Notleitung-ab-15-Juli | https://www.lohr.de/leben-und-arbeiten/aktuelles/detail/arbeiten-an-der-trinkwasserleitung-in-rodenbach-und-pflochsbach | verkehr | lohr-rodenbach-pflochsbach-main-spessart
-- Lohr-Mainlaende-Sperrung-Spessartfestwoche-Aufbau | https://www.lohr.de/leben-und-arbeiten/aktuelles/detail/sperrung-der-mainlaende-wegen-der-spessartfestwoche | freizeit | lohr-main-spessart
-- Forum55Plus-Miltenberg-Wanderung-RueckSchippach-KlosterHimmelthal | https://www.meine-news.de/miltenberg/c-vereine/bei-bestem-sommerwetter-forum-55-plus-miltenberg-wandert-von-rueck-schippach-zum-kloster-himmelthal-rundweg-ca-65km_a238993 | freizeit | miltenberg-lkr-miltenberg
-- BRK-Miltenberg-Ballweg-35Jahre-Rettungsdienst-Ehrung | https://www.meine-news.de/miltenberg/c-blaulicht/35-jahre-im-rettungsdienst-des-roten-kreuzes_a239233 | gesellschaft | miltenberg-lkr-miltenberg
-- JEG-Elsenfeld-PVPark-Woerth-Exkursion-Solarenergie | https://meine-news.de/elsenfeld/c-schule-und-bildung/exkursion-zum-pv-park-woerth-erneuerbare-energien-hautnah-erleben_a239206 | bildung | elsenfeld-lkr-miltenberg
-- JEG-Elsenfeld-Tintenherz-Theater-Mittelstufe | https://meine-news.de/elsenfeld/c-schule-und-bildung/ein-abend-voller-buecherzauber-mit-tintenherz_a239182 | kultur | elsenfeld-lkr-miltenberg
-- Elsenfeld-Fairtrade-Stand-Kinderfest-Elsavapark | https://meine-news.de/elsenfeld/c-energie-und-umwelt/fairtrade-stand-beim-kinderfest_a239158 | gesellschaft | elsenfeld-lkr-miltenberg
-- HSG-Erlenbach-RethinkingPhysics-Ausstellung-Erdmenger | https://meine-news.de/erlenbach-amain/c-schule-und-bildung/ausstellung-am-hsg-eroeffnet_a239194 | bildung | erlenbach-lkr-miltenberg
-- Gaukinderturnfest-Erlenbach-Rhythmische-Sportgymnastik | https://meine-news.de/erlenbach-amain/c-sport/rhythmische-sportgymnastik_a238972 | sport | erlenbach-lkr-miltenberg
-- Jugendkulturpreis-Miltenberg-Maedchentreff-Erlenbach-Malerei | https://meine-news.de/erlenbach-amain/c-kultur/sparte-malereizeichnen_a238861 | kultur | erlenbach-lkr-miltenberg
-- Amorbach-Realschule-Schulfest-GlitzerAn-29Juli | https://www.meine-news.de/amorbach/c-schule-und-bildung/einladung-zum-schulfest-an-der-theresia-gerhardinger-realschule-amorbach_a238891 | gesellschaft | amorbach-lkr-miltenberg
-- Amorbach-Dhammika-KarateDo-Kreismeisterschaften-Abenberg-4Gold | https://www.meine-news.de/amorbach/c-sport/viermal-gold-und-zweimal-bronze-fuer-dhammika-karate-do_a238837 | sport | amorbach-kleinheubach-lkr-miltenberg
-- Glattbach-Buecherei-Flohmarkt-19Juli | https://aschaffenburg.news/ab/glattbach/glattbach/glattbach-bücherei-flohmarkt-am-19-07.html | gesellschaft | glattbach-lkr-aschaffenburg
-- Wertheim-Musikschule-Sommerkonzert-Stiftskirche-50-Akteure | https://www.meine-news.de/miltenberg/c-kultur/sommerkonzert-der-musikschule-mit-mehr-als-fuenfzig-akteuren_a239272 | kultur | wertheim
-
-### 2026-07-11 (Ausgabe – 06:00 Uhr CEST)
-- Wiesen-Motorradfahrer-70-Jahre-toedlich-Unfall | https://aschaffenburg.news/ab/wiesen/wiesen-70-j%C3%A4hriger-motorradfahrer-bei-unfall-get%C3%B6tet.html | blaulicht | wiesen-lkr-aschaffenburg
-- Aschaffenburg-Schweinheim-Kellerbrand-Kleinkinder-gerettet | https://aschaffenburg.news/ab/aschaffenburg/schweinheim/aschaffenburg-massiver-kellerbrand-kleinkinder-aus-geb%C3%A4ude-gerettet.html | blaulicht | aschaffenburg-schweinheim
-- Alzenau-Einbruch-drei-Schulgebaeude-Rennradfahrer-Smart | https://aschaffenburg.news/ab/alzenau/alzenau-einbruch-in-drei-schulgebaeude.html | blaulicht | alzenau-lkr-aschaffenburg
-- Schiffsführer-Drogen-Schleuse-Obernau-Wasserschutzpolizei | https://aschaffenburg.news/aktuelles/schiffs-f%C3%BChrer-unter-drogeneinfluss-in-schleuse-obernau.html | blaulicht | aschaffenburg-obernau
-- Kleinostheim-Neunjaehriger-Traktorunfall-67-Jaehriger-verletzt | https://aschaffenburg.news/ab/kleinostheim/kleinostheim-neunj%C3%A4hriger-verursacht-unfall-mit-traktor.html | blaulicht | kleinostheim-lkr-aschaffenburg
-- Regionaler-Planungsverband-Vorsitz-Legler-Landrat-gewählt | https://www.meine-news.de/landkreis-aschaffenburg/c-politik-und-verwaltung/legler-als-vorsitzender-des-regionalen-planungsverbands-gewahlt_a239119 | politik | lkr-aschaffenburg-unterfranken
-- Mayors-for-Peace-Flagge-Aschaffenburg-Rathaus-Hiroshima | https://aschaffenburg.news/ab/aschaffenburg/aschaffenburg-mayors-for-peace-flagge.html | politik | aschaffenburg
-- Frauenklinik-Aschaffenburg-positiv-Bilanz-Qualitaet | https://aschaffenburg.news/ab/aschaffenburg/aschaffenburg-frauenklinik.html | gesundheit | aschaffenburg
-- Reanimationstraining-Fokus-Frauen-Aschaffenburg-Herzstillstand | https://aschaffenburg.news/aktuelles/reanimationstrainings-mit-fokus-auf-frauen.html | gesundheit | aschaffenburg
-- Malteser-Notfallsanitaeterin-Peggy-Spatz-25-Jahre-Dienst | https://aschaffenburg.news/aktuelles/25-jahre-im-dienst-der-malteser.html | gesellschaft | aschaffenburg
-- EMiL-Mediennachmittag-15-Juli-Lohr-Medienzentrum-Main-Spessart | https://www.main-spessart.de/aktuelles/pressemitteilungen/11088.html | bildung | lohr-main-spessart
-- Sachgebiet-23-Zulassungsstelle-17-Juli-nicht-erreichbar | https://www.main-spessart.de/aktuelles/pressemitteilungen/11169.html | gesellschaft | lkr-main-spessart
-- Heimbuchenthal-Leitungsarbeiten-Ortsdurchfahrt-Sperrung | https://aschaffenburg.news/ab/heimbuchenthal/heimbuchenthal-leitungsarbeiten.html | verkehr | heimbuchenthal-lkr-aschaffenburg
-- Familienstuetzpunkte-Gemünden-10-Jahre-Jubilaeum-Main-Spessart | https://www.main-spessart.de/aktuelles/pressemitteilungen/11062.html | gesellschaft | gemünden-main-spessart
-- Landradtour-19-September-2026-Main-Spessart-Radfahren | https://www.main-spessart.de/aktuelles/pressemitteilungen/11098.html | freizeit | lkr-main-spessart
-- Fairtrade-Kaffee-Mobil-Mainradweg-Genussradweg-Aktion | https://www.main-spessart.de/aktuelles/pressemitteilungen/11109.html | gesellschaft | lkr-main-spessart
-- Hummel-Challenge-Aschaffenburg-Wildbienen-Umwelt | https://aschaffenburg.news/aktuelles/hummel-challenge-aschaffenburg.html | umwelt | aschaffenburg
-- Johannesberg-Rueckersbach-Vermisster-wohlbehalten-aufgefunden | https://www.meine-news.de/rueckersbach/c-blaulicht/johannesberg-ot-rueckersbach-42-jaehriger-vermisst-wer-kann-hinweise-geben_a239191 | gesellschaft | johannesberg-lkr-aschaffenburg
-- Hochsommer-Hitzewelle-31-Grad-Spessart-Main-Region | https://api.brightsky.dev/weather?lat=50.0&lon=9.57&date=2026-07-11 | umwelt | lohr-aschaffenburg-main-spessart
-- Wiesen-70-Jaehriger-Motorradfahrer-toedlich | https://aschaffenburg.news/ab/wiesen/ | blaulicht | wiesen-lkr-aschaffenburg
-
-### 2026-07-11 (Ausgabe – 05:15 Uhr CEST)
-- Dammbach-St2317-Stuetzwand-Sanierung-Neuhammer-Wintersbach-Halbsperrung | https://www.meine-news.de/dammbach/c-blaulicht/st-2317-instandsetzungsarbeiten-an-einer-stuetzwand-im-zuge-der-staatsstrasse-2317-zwischen-den-ortsteilen-neuhammer-und-wintersbach-der-gemeinde-dammbach_a239251 | verkehr | dammbach-lkr-aschaffenburg
-- Sailauf-Ortsdurchfahrt-Voruntersuchungen-Sanierung-20-31-Juli | https://www.landkreis-aschaffenburg.de/Service-und-Verwaltung/Ver%C3%B6ffentlichungen/Pressemitteilungen-und-Aktuelles/Voruntersuchungen-zur-Sanierung-der-Ortsdurchfahrt-Sailauf.php | verkehr | sailauf-lkr-aschaffenburg
-- Landkreis-Aschaffenburg-17000-Euro-Foerderung-Heimat-Geschichtsvereine | https://www.meine-news.de/landkreis-aschaffenburg/c-hobby-und-freizeit/landkreis-foerdert-heimat-und-geschichtsvereine_a239209 | gesellschaft | lkr-aschaffenburg
-- Aktionswoche-Alkohol-2026-Main-Spessart-Bierdeckel-HaLT-Karlstadt-Arnstein-Marktheidenfeld | https://www.main-spessart.de/aktuelles/pressemitteilungen/11166.Aktionswoche-Alkohol-2026-Alkohol-Weniger-ist-besser--Der-Landkreis-Main-Spessart-war-dabei.html | gesundheit | karlstadt-arnstein-marktheidenfeld-main-spessart
-- Foerderverein-Museum-Papiermuehle-Homburg-Gruendung-Johannsen | https://www.main-spessart.de/aktuelles/pressemitteilungen/11168.Verein-der-Freunde-des-Museums-Papiermuehle-Homburg--Landkreis-Main-Spessart-begruesst-Gruendung-des-Foerdervereins.html | kultur | homburg-main-spessart
-- Heisses-Pflaster-Miltenberg-Altstadt-Hochsommer-Fotoessay | https://www.meine-news.de/miltenberg/c-kultur/heisses-pflaster-miltenberg_a239125 | kultur | miltenberg
-- Schirmer-Chronik-Band-3-Miltenberg-Rathaus-Vorstellung | https://www.meine-news.de/miltenberg/c-kultur/eine-stadt-im-wandel-miltenberg-zwischen-tradition-und-moderne_a239185 | kultur | miltenberg
-- Rapsernte-Odenwald-Miltenberg-Feuchte-Preis-Oelmuehle-Mannheim | https://www.meine-news.de/miltenberg/c-energie-und-umwelt/beim-raps-entscheidet-die-feuchte-ueber-den-preis_a239170 | wirtschaft | miltenberg-odenwald
-- Tarifabschluss-Handwerk-Lohnsteigerungen-01-Juli-Garten-Landschaftsbau-Maler | https://www.meine-news.de/miltenberg/c-beruf-und-ausbildung/zeichen-der-anerkennung-in-schwierigen-zeiten-lohnsteigerungen-zum-01072026_a239257 | wirtschaft | miltenberg
-- Schulamt-Miltenberg-Verabschiedung-acht-Lehrkraefte-Ruhestand-Kern-40-Jahre | https://www.meine-news.de/miltenberg/c-schule-und-bildung/verabschiedungen-und-jubilaeen-im-staatlichen-schulamt-miltenberg_a239161 | bildung | miltenberg
-- SELBER-MACHEN-Amorbach-Villa-Schulz-Finale-Handwerk-Schule | https://www.meine-news.de/amorbach/c-schule-und-bildung/das-grosse-finale-von-selbermachen_a239248 | bildung | amorbach-lkr-miltenberg
-- Astralis-Festival-Grossheubach-300-Tickets-Absage-Gefahr | https://www.meine-news.de/grossheubach/c-hobby-und-freizeit/nur-14-tage-zeit_a239245 | freizeit | grossheubach-lkr-miltenberg
-- Stocksport-Vereinsmeisterschaft-Eisenbach-Olympia-TSV | https://www.meine-news.de/eisenbach/c-sport/spannung-spass-und-beste-stimmung-bei-der-vereinsmeisterschaft-im-stocksport_a239110 | sport | eisenbach-lkr-miltenberg
-- Sommergottesdienst-Neuanfang-Sulzbach-Hofstetten-Kleinwallstadt-25-Juli | https://www.meine-news.de/hofstetten-kleinwallstadt/c-glaube-und-weltanschauung/wir-feiern-mit-essen-und-trinken-kostenfrei_a239260 | gesellschaft | sulzbach-hofstetten-kleinwallstadt-lkr-miltenberg
-- Ehrenamtskarte-Main-Spessart-50-Kinogutscheine-Verlosung | https://www.main-spessart.de/aktuelles/pressemitteilungen/11167.Servicebuero-Ehrenamtskarte-verlost-Kinogutscheine.html | gesellschaft | lkr-main-spessart
