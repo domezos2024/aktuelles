@@ -15,7 +15,9 @@ on:
 jobs:
   tagesnachrichten:
     runs-on: ubuntu-latest
-    timeout-minutes: 60
+    # Harte Obergrenze: Die gesamte Routine (Checkout + Claude Code + Fehler-Issue)
+    # darf nie länger als 40 Minuten laufen.
+    timeout-minutes: 40
     permissions:
       contents: write
       pull-requests: write
@@ -46,11 +48,11 @@ jobs:
           claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
           allowed_tools: "Bash,WebSearch,WebFetch,Read,Write,Edit,Glob,Grep"
           model: claude-sonnet-4-6
-          # Der Skill recherchiert 20+ Meldungen inkl. Bild-/URL-Verifikation über mehrere
-          # Quellen – das dauert regelmäßig länger als das Standard-Timeout von 30 Minuten
-          # (1800s), was zu "Claude process timed out after 1800 seconds" / exit code 124
-          # führte. Deshalb hier explizit über den Job-Timeout (60 min) hinaus abgesichert.
-          timeout_minutes: 55
+          # Muss unter dem Job-Timeout (40 min) bleiben und noch Puffer für Checkout
+          # (~1 min) und den Fehler-Issue-Schritt lassen. Der Skill selbst ist in
+          # tagesnachrichten-lohr-aschaffenburg.md auf ein 35-Minuten-Zeitbudget
+          # ausgelegt (Schritt 0), 37 min hier ist die reine Ausführungs-Obergrenze.
+          timeout_minutes: 37
 
       - name: Benachrichtigung bei Fehler (GitHub Issue)
         if: failure()
