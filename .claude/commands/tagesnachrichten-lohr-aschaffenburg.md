@@ -38,7 +38,7 @@ gesamt inkl. Checkout). Arbeite entsprechend diszipliniert:
 
 ## Schritt 2 – Journal lesen
 - `journal.md` vollständig lesen
-- **Design-Abschnitt** (nur heutiger Eintrag): Styles / Farben / Fonts merken → ANDERE Werte heute wählen
+- **Design-Abschnitt** : Styles / Farben / Fonts merken → ANDERE Werte heute wählen
 - **Themen-Abschnitt** (alle bis zu 10 Tage): Alle gespeicherten Schlagwörter, URLs und Titel der letzten 10 Tage merken → KEINE dieser Meldungen heute wiederholen (weder gleiche URL noch gleiches Thema/Ereignis)
 
 ## Schritt 3 – Wetter (BrightSky API, DWD-Daten, kein API-Key)
@@ -168,7 +168,8 @@ Dann:
 - Pull Request nach main erstellen (Draft)
 - PR reviewen (kein Review-Kommentar nötig wenn alles korrekt)
 - PR mergen (squash oder merge commit)
-- PR schließen / Branch löschen
+- PR schließen
+- after merge und schließen: Trigger "Branches aufräumen" via workflow_dispatch with keep=main, dry_run=false.
 
 ## Qualitätskriterien
 
@@ -180,5 +181,15 @@ Dann:
 - HTML valide, 1 Datei, kein externes CSS/JS
 - Keine CSS-Animationen
 - Design komplett anders als Vortag (Design-Block in journal.md prüfen)
+
+## beachte
+- NUTZE NIEMALS BACKGROUND AGENTS!!
+- nutze im gleichen Verzeichnis auf dem Server wie "index.html" die Datei "file_000000002f8872469668704c39f1eaf6.jpg" und "file_000000002f8872469668704c39f1eaf6.ico" und "favicon.ico" als Logo, favicon und Markenzeichen der News Seite
+- wenn du das heute neue Design von index.html entwirfst, bedenke: nationale deutsche Feiertage (Ostern, Pfingsten, Weihnachten usw.), chrisltiche Feiertage, bayrische Feiertage (Christihimmelfahrt usw.), Vathertag, Muttertag, beginn Sommerferien, beginn Schule, Schulferien, saisonale Events (Winterzeit Start. Sommerzeit Start, längster Tag des Jahres, Frühlings- Sommer- Herbst- Winteranfang usw., Veranstaltungen (z.B. Volksfeste, Festivals, Stadtfeste, Wochenmärkte usw.) usw. die in nächster Zeit stattfinden) und beziehe diese Events in das Design mit ein und verfasse zusätzlich einen kurzen Bericht bzw. Erklärung zum Event
+- in jede Meldung in der ein Foto/Bild/Video im Beitrag vorkommt, oder mehrere; Das Aussagekräftigste Bild aus dem Beitrag in der rechten oberen Ecke der Meldungsbox anzeigen (anklickbar zum vergrößern oder abspielen)
+- auch nach Videos zu Themen und Berichte suchen und oben rechts einfügen (falls etwas passendes zu GENAU dem Thema zu finden ist auf z.B. https://youtube.com oder https://www.google.com/videohp?hl=de oder https://www.tagesschau.de). Dafür brauchst du dich NIERGENDS einloggen oder ein Konto haben!! z.B. wenn eine der Städte oder Landkreise in der www.tagesschau.de  erwähnt wird oder ähnlich.
+- mache es auf der index.html Seite möglich (mit einem adäquaten Style, gut sichtbar) sich mit seiner E-Mail Adresse für den Newsletter anzumelden. Programmiere index.html so das jede Email-Adresse in der Datei `email_list.md` im gleichen Verzeichnis auf dem Host-Server von index.html gespeichert wird (gut aus lesbar und zum schnellen bearbeiten geeignete Form.) 
+- merke: der neue Dateiname von "Nachrichten.html" ist "index.html"
+
 - Themen-Block in journal.md: heute oben, max. 10 Tage Archiv, ältere Einträge gestrichen
 - Repo auf main aktuell nach Merge
