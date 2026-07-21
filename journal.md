@@ -1,18 +1,44 @@
 # Tagesnachrichten-Journal – domezos2024/aktuelles
 
-## Design – 2026-07-21 – 06:25 Uhr CEST
-- Schema: Sommernacht-Blau / Melonengelb / Koralle (Hundstage-Auftakt, kühle Nacht zu warmem Sonnenaufgang)
-- Header-Gradient: #14213D → #2B5F8A → #F2A541 (135deg, 3-stufig)
-- Hintergrund: #F3F6FA (kühles Blau-Weiß)
-- Karten: #FFFFFF, border-top 5px farbig je Kategorie, border-radius 14px, CSS-Grid 3col
-- Akzentfarben: #D64545 · #2B5F8A · #B8862B · #E67E22 · #3F51B5 · #C2185B · #16A085 · #2E8B57
+## Design – 2026-07-21 – 11:35 Uhr CEST
+- Schema: Spätsommer-Olivgrün / Terrakotta / Sandgelb (Spessart-Palette, Ernte und Wald)
+- Header-Gradient: #3D5A3E → #5C8A5E → #8B6914 (135deg, 3-stufig)
+- Hintergrund: #F5F0E8 (warmes Sand-Weiß)
+- Karten: #FFFDF7, border-top 5px rotierend (Karminrot/Olivgrün/Goldbraun), border-radius 14px, CSS-Grid 3col
+- Akzentfarben: #C0392B · #3D5A3E · #8B6914 · #2C5F7A · #7B3F00 · #1A6B45 · #8E3A59 · #556B2F
 - Layout: grid-template-columns: repeat(3,1fr)
-- Fonts: Cambria/„Times New Roman" (Serif Headlines), „Segoe UI"/Calibri (Sans Body) – anderes Font-Duo als Vortage (Rockwell/Bookman Old Style, Georgia/IBM Plex Sans, Georgia/Verdana, Palatino/Trebuchet)
-- Logo: file_000000002f8872469668704c39f1eaf6.jpg im Header links (rund gerahmt) als Markenzeichen eingebunden
+- Fonts: Georgia/„Times New Roman" (Serif Headlines), „Segoe UI"/Calibri/Arial (Sans Body) – anderes Duo als Vortag (Cambria/Segoe UI, Rockwell/Bookman, Palatino/Trebuchet)
 
 ---
 
 ## Themen-Archiv (letzte 10 Tage – NICHT wiederholen!)
+
+### 2026-07-21 (Ausgabe – 11:35 Uhr CEST)
+- Alzenau-Brand-Katastrophe-HilfsbereitschaftNachbarn-Sachspenden | https://www.main-echo.de/region/stadt-kreis-aschaffenburg/nach-der-brand-katastrophe-von-alzenau-betroffene-sind-tief-beruehrt-von-der-grossen-hilfsbereitschaft-art-8754146 | gesellschaft | alzenau-lkr-aschaffenburg
+- MagnaMirrors-Dorfprozelten-Schliessung-RegionAbgehaengt-216Jobs | https://www.main-echo.de/region/kreis-miltenberg/magna-aus-als-schwerer-schlag-fuer-den-suedspessart-warum-sich-eine-ganze-region-abgehaengt-fuehlt-art-8754150 | wirtschaft | dorfprozelten-südspessart-lkr-miltenberg
+- A45-GeisterfahrerinUnfall-KinderVater-WeiterInLebensgefahr-Intensiv | https://www.main-echo.de/region/rhein-main-hessen/nach-unfall-auf-a45-verletzte-kinder-und-vater-kaempfen-weiter-um-ihr-leben-art-8753608 | blaulicht | a45-obernburg-hessen
+- Wiesenfeld-MordprozessSabineB-Stockt-Gutachterstreit-Verzoegerung | https://www.main-echo.de/region/kreis-main-spessart/tatort-wiesenfeld-warum-der-prozess-um-den-tod-von-sabine-b-stockt-art-8753641 | justiz | wiesenfeld-main-spessart
+- Rothenfels-Achtjaehriger-NotfallOmaGerettet-Notruf-Heldentat | https://www.main-echo.de/region/kreis-main-spessart/wie-ein-achtjaehriger-in-rothenfels-seine-oma-rettete-art-8753649 | gesellschaft | rothenfels-main-spessart
+- Untermain-ErsthelferApp-Lebensrettung-OffiziellerBetrieb-DRK | https://www.main-echo.de/region/stadt-kreis-aschaffenburg/mehr-tempo-in-der-lebensrettung-am-untermain-art-8753679 | gesundheit | untermain-region
+- Gemuenden-AltstadtpflasterDebatte-Barrierefreiheit-Denkmalschutz | https://www.main-echo.de/region/kreis-main-spessart/wird-in-gemuenden-das-altstadtpflaster-rausgerissen-art-8754044 | politik | gemuenden-main-spessart
+- KlinikumMainSpessart-RoteZahlen-Zuversicht-Kooperation-Konzept | https://www.main-echo.de/region/kreis-main-spessart/zuversicht-trotz-roter-zahlen-art-8753685 | wirtschaft | lkr-main-spessart
+- Aschaffenburg-NeuesStadtfest-KulturKulinarik-Herbst2026-Premiere | https://www.main-echo.de/region/stadt-kreis-aschaffenburg/kultur-und-kulinarik-aschaffenburg-bekommt-ein-neues-fest-art-8754149 | kultur | aschaffenburg
+- Aschaffenburg-Gedenktafeln-DeutscheGeschichte-Stadtrat-Geschichtsverein | https://www.main-echo.de/region/stadt-kreis-aschaffenburg/drei-tafeln-erinnern-in-aschaffenburg-an-eines-der-wichtigsten-ereignisse-der-deutschen-geschichte-art-8753532 | gesellschaft | aschaffenburg
+- Hoesbach-A3-Schilderbruecken-TechnischeStoerung-AusserBetrieb | https://www.main-echo.de/region/stadt-kreis-aschaffenburg/schilderbruecken-auf-a3-bei-hoesbach-ausser-betrieb-art-8753659 | verkehr | hoesbach-a3-lkr-aschaffenburg
+- Lohr-VielbefahreneKreuzung-VerkehrsNadeloeher-Ampel-Umgestaltung | https://www.main-echo.de/region/kreis-main-spessart/an-vielbefahrener-lohrer-kreuzung-stockt-der-verkehr-art-8753671 | verkehr | lohr-main-spessart
+- MainSpessart-Seniorenheime-Hitzeschutz-Daueraufgabe-Klimaanlage | https://www.main-echo.de/region/kreis-main-spessart/hitzeschutz-wird-fuer-seniorenheime-zur-daueraufgabe-art-8753607 | gesundheit | lkr-main-spessart
+- Grossostheim-Freibad-Umkleiden-Gesperrt-Bauschaden-Reparatur | https://www.main-echo.de/region/stadt-kreis-aschaffenburg/umkleiden-im-grossostheimer-freibad-dicht-was-ist-da-los-art-8753646 | gesellschaft | grossostheim-lkr-aschaffenburg
+- Miltenberg-FripaFabrik-AFTissueExpertGroup-400Jobs-Zusammenschluss | https://www.main-echo.de/region/kreis-miltenberg/miltenberger-papierfabrik-fripa-jetzt-teil-der-af-tissue-expert-group-art-8754001 | wirtschaft | miltenberg-lkr-miltenberg
+- Miltenberg-Michaelismesse2026-Neuerungen-Reservierungen-Programm | https://www.main-echo.de/region/kreis-miltenberg/michaelismesse-was-2026-neu-ist-und-alles-wichtige-zu-messebesuch-reservierungen-und-programm-art-8753631 | event | miltenberg-lkr-miltenberg
+- LkrMiltenberg-Restaurant-NeuschliessungNachNeustart-PersonalKosten | https://www.main-echo.de/region/kreis-miltenberg/renommiertes-lokal-im-kreis-miltenberg-ein-jahr-nach-neustart-schon-wieder-zu-art-8753606 | wirtschaft | lkr-miltenberg
+- Elsenfeld-WunderlandFreizeitgelaende-UngewissZukunft-Investoren | https://www.main-echo.de/region/kreis-miltenberg/zukunft-im-elsenfelder-wunderland-bleibt-offen-art-8754013 | wirtschaft | elsenfeld-lkr-miltenberg
+- LkrAschaffenburg-Nachbarschaftsstreit-FleschrNachbarTuer-Gericht | https://www.main-echo.de/region/stadt-kreis-aschaffenburg/fleischreste-und-knochen-vor-wohnungstuer-angezuendet-nachbarschaftsstreit-eskaliert-und-endet-vor-gericht-art-8754036 | justiz | lkr-aschaffenburg
+- Alzenau-StadtwerkeEinsparungen-Personal-Energie-Versorgung | https://www.main-echo.de/region/stadt-kreis-aschaffenburg/wo-die-stadtwerke-in-alzenau-gespart-haben-art-8753895 | wirtschaft | alzenau-lkr-aschaffenburg
+- Aschaffenburg-KindertriathalonErster-Schwimmen-Rad-Lauf-Schulen | https://www.main-echo.de/region/stadt-kreis-aschaffenburg/vom-klassenzimmer-an-die-startlinie-am-freitag-erster-aschaffenburger-kindertriathlon-art-8753707 | sport | aschaffenburg
+- Laufach-DemenzsensibleKommune-Einsamkeit-Ehrenamt-Pflegedienst | https://www.main-echo.de/region/stadt-kreis-aschaffenburg/gegen-die-einsamkeit-laufach-wird-demenzsensible-kommune-art-8753643 | gesellschaft | laufach-lkr-aschaffenburg
+- Kleinwallstadt-DJK-Bootshausfest-Pappboote-Wettbewerb | https://www.main-echo.de/region/kreis-miltenberg/feuchtfroehliche-wettkaempfe-in-pappbooten-und-kostuemen-art-8753590 | verein | kleinwallstadt-lkr-miltenberg
+- Miltenberg-Wasserschutzpolizei-Aktionstag-Main-Boote-Kontrolle | https://www.main-echo.de/region/kreis-miltenberg/wasserschutzpolizei-so-lief-der-aktionstag-in-miltenberg-art-8753529 | blaulicht | miltenberg-main
+- Karlstadt-KarschterTanzsommer-GrossesInteresse-Kurse-Ausgebuchte | https://www.main-echo.de/region/kreis-main-spessart/karschter-tanzsommer-stoesst-auf-grosses-interesse-art-8753597 | kultur | karlstadt-main-spessart
 
 ### 2026-07-21 (Ausgabe – 06:25 Uhr CEST)
 - Alzenau-Bienenstich-LKW-kippt-Radweg-40Tonner | https://www.infranken.de/lk/aschaffenburg/blaulicht/biene-sticht-lkw-fahrer-40-tonner-kippt-auf-fahrradweg-in-alzenau-art-6381499 | blaulicht | alzenau-lkr-aschaffenburg
