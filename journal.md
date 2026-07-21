@@ -1,17 +1,30 @@
 # Tagesnachrichten-Journal – domezos2024/aktuelles
 
-## Design – 2026-07-21 – 11:35 Uhr CEST
-- Schema: Spätsommer-Olivgrün / Terrakotta / Sandgelb (Spessart-Palette, Ernte und Wald)
-- Header-Gradient: #3D5A3E → #5C8A5E → #8B6914 (135deg, 3-stufig)
-- Hintergrund: #F5F0E8 (warmes Sand-Weiß)
-- Karten: #FFFDF7, border-top 5px rotierend (Karminrot/Olivgrün/Goldbraun), border-radius 14px, CSS-Grid 3col
-- Akzentfarben: #C0392B · #3D5A3E · #8B6914 · #2C5F7A · #7B3F00 · #1A6B45 · #8E3A59 · #556B2F
-- Layout: grid-template-columns: repeat(3,1fr)
-- Fonts: Georgia/„Times New Roman" (Serif Headlines), „Segoe UI"/Calibri/Arial (Sans Body) – anderes Duo als Vortag (Cambria/Segoe UI, Rockwell/Bookman, Palatino/Trebuchet)
+## Design – 2026-07-21 – 12:51 Uhr CEST
+- Schema: Fluss-Kühle – Petrolblau / Teal / Lavendel-Violett (kühles Kontrastprogramm zu den warmen Ausgaben von heute früh)
+- Header-Gradient: #123C5C → #1F7A8C → #6B4E9E (135deg, 3-stufig)
+- Hintergrund: #EDF2F8 (kühles Blaugrau)
+- Karten: #FFFFFF, border-top 5px rotierend (Navy/Teal/Violett/Beere), border-radius 10px, CSS-Grid 2col
+- Akzentfarben: #123C5C · #1F7A8C · #6B4E9E · #B0466E · #8A5A18 · #1F7A50 · #2A5D8A
+- Layout: grid-template-columns: repeat(2,1fr)
+- Fonts: Cambria/Georgia (Serif Headlines), „Trebuchet MS"/Verdana (Sans Body) – anderes Duo als Vortag (bisherige Rotation: Georgia/Times New Roman+Segoe UI, Cambria/Segoe UI, Rockwell/Bookman, Palatino/Trebuchet)
 
 ---
 
 ## Themen-Archiv (letzte 10 Tage – NICHT wiederholen!)
+
+### 2026-07-21 (Ausgabe – 12:51 Uhr CEST)
+- Woerth-Betrugswarnung-Senioren-Enkeltrick-Polizei | https://www.meine-news.de/woerth-amain/c-senioren/information-schuetzt-vor-betrug_a239974 | gesellschaft | woerth-amain-lkr-miltenberg
+- Sulzbach-Soden-Ortsdurchfahrt-Kanalausbau-Meilenstein | https://www.meine-news.de/sulzbach-amain/c-politik/wichtiger-meilenstein-beim-ausbau-der-ortsdurchfahrt-im-ortsteil-soden-erreicht_a240016 | politik | sulzbach-amain-lkr-miltenberg
+- Buergstadt-RedaktionVorOrt-Buergerdialog-Helmstetter | https://www.main-echo.de/region/kreis-miltenberg/was-laeuft-gut-in-buergstadt-was-koennte-besser-sein-art-8751714 | politik | buergstadt-lkr-miltenberg
+- Amorbach-KEG-Inklusionstag-SozialeBerufe-MartinsLaden | https://www.meine-news.de/amorbach/c-schule-und-bildung/einblicke-in-soziale-berufe-und-lebenswelten_a239983 | bildung | amorbach-lkr-miltenberg
+- Amorbach-KEG-Achtklaessler-FuerstlichLeiningenArchiv-Geschichte | https://www.meine-news.de/amorbach/c-schule-und-bildung/achtklaessler-des-keg-entdecken-geschichte-hautnah_a239980 | bildung | amorbach-lkr-miltenberg
+- Lohr-Familientreff-MainGluecksChromosom-BesondereKinder-Sendelbach | https://www.main-echo.de/region/kreis-main-spessart/treffen-vernetzen-austauschen-art-8753721 | gesellschaft | lohr-main-spessart
+- Lohr-DaCapoChor-Konzert-StElisabeth-Landes-Smalko | https://www.main-echo.de/region/kreis-main-spessart/da-capo-chor-verbunden-durch-gesang-und-musik-art-8754056 | kultur | lohr-main-spessart
+- Erlenbach-Jubilaeumswochenende-30JahreSaintMaurice-Staedtepartnerschaft | https://www.meine-news.de/erlenbach-amain/c-kultur/grosses-jubilaeumswochenende-in-erlenbach_a239989 | gesellschaft | erlenbach-amain-lkr-miltenberg
+- Kleinheubach-SommerImKirchhof-Gemeindefest-Menschenkicker | https://www.meine-news.de/kleinheubach/c-kultur/sommer-im-kirchhof-rueckblick_a240007 | kultur | kleinheubach-lkr-miltenberg
+- Weilbach-Haehnchenfest-Gefluegelzuchtverein-Besuchermagnet | https://www.main-echo.de/region/kreis-miltenberg/weilbacher-haehnchenfest-als-besuchermagnet-art-8753506 | verein | weilbach-lkr-miltenberg
+- Miltenberg-EichenbuehlWindischbuchen-WMEndspiel-PublicViewing-SpanienSieg | https://www.meine-news.de/miltenberg/c-kultur/impressionen-vom-fussball-wm-endspiel-bei-uns_a239884 | sport | miltenberg-eichenbuehl-windischbuchen-lkr-miltenberg
 
 ### 2026-07-21 (Ausgabe – 11:35 Uhr CEST)
 - Alzenau-Brand-Katastrophe-HilfsbereitschaftNachbarn-Sachspenden | https://www.main-echo.de/region/stadt-kreis-aschaffenburg/nach-der-brand-katastrophe-von-alzenau-betroffene-sind-tief-beruehrt-von-der-grossen-hilfsbereitschaft-art-8754146 | gesellschaft | alzenau-lkr-aschaffenburg
