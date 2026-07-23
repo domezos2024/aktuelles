@@ -1,17 +1,39 @@
 # Tagesnachrichten-Journal – domezos2024/aktuelles
 
-## Design – 2026-07-23 – 06:25 Uhr CEST
-- Schema: Blaue Stunde am Main – Indigo / Petrol / Gold (kühles Gegenprogramm zur warmen Terrakotta-Palette von gestern)
-- Header-Gradient: #16233F → #235876 → #D8A03F (120deg, 3-stufig)
-- Hintergrund: #EEF3F1 (helles Kühlgrau-Grün)
-- Karten: #FFFFFF, border-top 5px rotierend (Indigo/Petrol/Waldgrün/Weinrot), border-radius 10px, CSS-Grid 2col
-- Akzentfarben: #16233F · #235876 · #3E7A57 · #A6394A · #9C6B12 · #4A6FA0 · #B0466E · #6B4E8A
+## Design – 2026-07-23 – 06:00 Uhr CEST
+- Schema: Spessart-Grün & Kupfer – sattes Waldgrün / Crème / Kupferbraun (Sommerfrische-Kontrast zur gestrigen Indigo/Petrol-Palette)
+- Header-Gradient: #2B4D2B → #4A7C3F → #C87941 → #8B4513 (135deg, 4-stufig)
+- Hintergrund: #F2EFE7 (warmes Crème)
+- Karten: #FFFFFF, border-top 5px rotierend (Waldgrün/Kupfer/Kastanienbraun/Moosgrün), border-radius 10px, CSS-Grid 2col
+- Akzentfarben: #2B4D2B · #C87941 · #6B4B2A · #4A7C3F · #7A3B2B · #395C39
 - Layout: grid-template-columns: repeat(2,1fr)
-- Fonts: Baskerville/Times New Roman (Serif Headlines), Verdana/Tahoma (Sans Body) – neues Duo (bisherige Rotation: Georgia/Times New Roman+Segoe UI, Cambria/Segoe UI, Rockwell/Bookman, Palatino/Trebuchet, Cambria/Trebuchet, Garamond/Calibri)
+- Fonts: Georgia/'Times New Roman' (Serif Headlines), Trebuchet MS/Verdana (Sans Body) – neues Duo
 
 ---
 
 ## Themen-Archiv (letzte 10 Tage – NICHT wiederholen!)
+
+### 2026-07-23 (Ausgabe – 06:00 Uhr CEST)
+- Aschaffenburg-AggressiverMann-ZweiPolizistenVerletzt-Hauptbahnhof | https://www.main-echo.de/ressorts/blaulicht/aggressiver-mann-verletzt-zwei-polizisten-am-aschaffenburger-hauptbahnhof-art-8758575 | blaulicht | aschaffenburg
+- A3-Obertshausen-Fahrzeugbrand-Auffahrunfall-Teilsperrung | https://www.main-echo.de/ressorts/blaulicht/fahrzeugbrand-nach-auffahrunfall-a3-richtung-koeln-bis-auf-weiteres-teilgesperrt-art-8758641 | blaulicht | a3-obertshausen
+- Obernburg-FahrradfahrerFluechtetnachUnfallmitKind-ZeugenGesucht | https://www.main-echo.de/ressorts/blaulicht/fahrradfahrer-fluechtet-nach-unfall-mit-kind-bei-obernburg-art-8758544 | blaulicht | obernburg-lkr-miltenberg
+- A3-LaenderuebergreifendePolizeikontrollen-ZahlreicheVerstoesse | https://www.main-echo.de/ressorts/blaulicht/laenderuebergreifende-polizeikontrollen-auf-der-a3-zahlreiche-verstoesse-festgestellt-art-8758545 | blaulicht | a3-region
+- Babenhausen-5000qmFeldbrand-FeuerwehrPolizeiEinsatz | https://www.main-echo.de/ressorts/blaulicht/babenhausen-feld-geraet-in-brand-art-8758652 | blaulicht | babenhausen
+- Lohr-BrandgeruchSchnellrestaurant-FeuerwehrMitternacht | https://www.main-echo.de/ressorts/blaulicht/brandgeruch-in-lohrer-schnellrestaurant-art-8758480 | blaulicht | lohr-main-spessart
+- Aschaffenburg-Strietwald-SchuelerVerletzt-VerursacherFluechtete | https://www.main-echo.de/ressorts/blaulicht/mutmassliche-unfallflucht-in-aschaffenburg-zeugen-gesucht-art-8758542 | blaulicht | aschaffenburg-strietwald
+- Altfeld-SchneiderElectric-Stellenabbau-Industriewandel | https://www.main-echo.de/region/kreis-main-spessart/stellenabbau-bei-schneider-electric-in-altfeld-art-8758498 | wirtschaft | altfeld-main-spessart
+- Lohr-Stadtrat-ErsterAbgang-100Tage | https://www.main-echo.de/region/kreis-main-spessart/erster-abgang-aus-dem-lohrer-stadtrat-nach-nicht-mal-100-tagen-art-8758630 | politik | lohr-main-spessart
+- MainSpessart-MVZ-FinanzielleAbsicherung-Kreistag | https://www.main-echo.de/region/kreis-main-spessart/landkreis-sichert-sein-mvz-finanziell-ab-art-8758601 | gesundheit | lkr-main-spessart
+- MainSpessart-Zwergadler-Nachzucht-Spessart-Artenschutz | https://www.main-echo.de/region/kreis-main-spessart/nachzucht-eines-zwergadlers-gelungen-art-8758501 | natur | lkr-main-spessart
+- Alzenau-CSU-HeikeHeilmann-NeueVorsitzende | https://www.main-echo.de/region/stadt-kreis-aschaffenburg/heike-heilmann-neue-csu-vorsitzende-in-alzenau-art-8758551 | politik | alzenau-lkr-aschaffenburg
+- Niedersteinbach-Ortsumgehung-Buergerbefragung | https://www.main-echo.de/region/stadt-kreis-aschaffenburg/ortsumgehung-oder-ausbau-in-niedersteinbach-buerger-werden-befragt-art-8758615 | politik | niedersteinbach-lkr-aschaffenburg
+- Aschaffenburg-AschaffbrueckeTeilsperrung-GlattbacherStrasse-3August | https://www.main-echo.de/region/stadt-kreis-aschaffenburg/aschaffenburg-damm-teilsperrung-an-aschaffbruecke-wegen-bauarbeiten-art-8758619 | verkehr | aschaffenburg
+- Kleinheubach-SparkasseCoworking-Nachnutzung | https://www.main-echo.de/region/kreis-miltenberg/kleinheubach-ehemalige-sparkasse-wird-zum-coworking-haus-art-8758494 | wirtschaft | kleinheubach-lkr-miltenberg
+- Lohr-SpessartfestwocheEndspurt-KeilertreffenShowFeuerwerk | https://www.main-echo.de/region/kreis-main-spessart/festwochen-endspurt-keiler-treffen-showabend-und-brillant-feuerwerk-art-8758562 | event | lohr-main-spessart
+- MainSpessart-Bundeswehr-TruppenUebungen-Nachtmaersche | https://www.main-echo.de/region/kreis-main-spessart/uebungen-der-bundeswehr-in-main-spessart-art-8758390 | umwelt | lkr-main-spessart
+- Marktheidenfeld-ZehnjaehrigerSchwerverletzt-FahrradAutoUnfall | https://www.infranken.de/lk/main-spessart/blaulicht/zehnjaehriger-schwer-verletzt-unfall-zwischen-fahrrad-und-auto-in-marktheidenfeld-art-6377775 | blaulicht | marktheidenfeld-main-spessart
+- Eussenheim-EAutoAusgebrannt-ExplodiertesFeuerzeug | https://www.infranken.de/lk/main-spessart/blaulicht/wegen-explodiertem-feuerzeug-e-auto-brennt-in-eussenheim-komplett-aus-art-6377799 | blaulicht | eussenheim-main-spessart
+- Johannesberg-Haushaltspause-Grossprojekte2027 | https://www.main-echo.de/region/stadt-kreis-aschaffenburg/johannesberg-geht-grossprojekte-erst-2027-an-art-8758653 | politik | johannesberg-lkr-aschaffenburg
 
 ### 2026-07-23 (Ausgabe – 06:25 Uhr CEST)
 - Waldaschaff-Geldautomat-Gesprengt-Hubschrauberfahndung-VierTaeter | https://www.main-echo.de/ressorts/blaulicht/geldautomat-in-sparkassenfiliale-gesprengt-taeter-unerkannt-entkommen-art-8758302 | blaulicht | waldaschaff-lkr-aschaffenburg
