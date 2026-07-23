@@ -1,17 +1,29 @@
 # Tagesnachrichten-Journal – domezos2024/aktuelles
 
-## Design – 2026-07-22 – 06:15 Uhr CEST
-- Schema: Sommerglut – Terrakotta / Bernstein / Olive (warmes Gegenprogramm zur kühlen Fluss-Palette von gestern Mittag)
-- Header-Gradient: #7A2E12 → #C9711B → #E8A33D (135deg, 3-stufig)
-- Hintergrund: #FBF3E6 (warmes Creme)
-- Karten: #FFFFFF, border-top 5px rotierend (Terrakotta/Amber/Olive/Weinrot), border-radius 10px, CSS-Grid 3col
-- Akzentfarben: #7A2E12 · #C9711B · #6B7A3A · #A13D3D · #9C6B12 · #4F7A3A · #4A6FA0 · #C0392B
-- Layout: grid-template-columns: repeat(3,1fr)
-- Fonts: Garamond/Book Antiqua (Serif Headlines), Calibri/Candara (Sans Body) – anderes Duo als Vortag (bisherige Rotation: Georgia/Times New Roman+Segoe UI, Cambria/Segoe UI, Rockwell/Bookman, Palatino/Trebuchet, Cambria/Trebuchet)
+## Design – 2026-07-23 – 06:25 Uhr CEST
+- Schema: Blaue Stunde am Main – Indigo / Petrol / Gold (kühles Gegenprogramm zur warmen Terrakotta-Palette von gestern)
+- Header-Gradient: #16233F → #235876 → #D8A03F (120deg, 3-stufig)
+- Hintergrund: #EEF3F1 (helles Kühlgrau-Grün)
+- Karten: #FFFFFF, border-top 5px rotierend (Indigo/Petrol/Waldgrün/Weinrot), border-radius 10px, CSS-Grid 2col
+- Akzentfarben: #16233F · #235876 · #3E7A57 · #A6394A · #9C6B12 · #4A6FA0 · #B0466E · #6B4E8A
+- Layout: grid-template-columns: repeat(2,1fr)
+- Fonts: Baskerville/Times New Roman (Serif Headlines), Verdana/Tahoma (Sans Body) – neues Duo (bisherige Rotation: Georgia/Times New Roman+Segoe UI, Cambria/Segoe UI, Rockwell/Bookman, Palatino/Trebuchet, Cambria/Trebuchet, Garamond/Calibri)
 
 ---
 
 ## Themen-Archiv (letzte 10 Tage – NICHT wiederholen!)
+
+### 2026-07-23 (Ausgabe – 06:25 Uhr CEST)
+- Waldaschaff-Geldautomat-Gesprengt-Hubschrauberfahndung-VierTaeter | https://www.main-echo.de/ressorts/blaulicht/geldautomat-in-sparkassenfiliale-gesprengt-taeter-unerkannt-entkommen-art-8758302 | blaulicht | waldaschaff-lkr-aschaffenburg
+- RaumAschaffenburg-FalschePolizeibeamte-Heizungsableser-KindAngefahren-Kontrollaktion | https://www.meine-news.de/landkreis-aschaffenburg/c-blaulicht/raum-aschaffenburg-falsche-polizeibeamte-erbeuten-schmuck-und-geld-pkw-gegen-fahrradfahrer-falsche-heizungsableser-entwenden-schmuck-laenderuebergreifende-fahndungs-und-kontrollaktion_a240160 | blaulicht | grossostheim-schweinheim-strietwald-lkr-aschaffenburg
+- ObernburgKleinheubach-Unfallflucht-Radweg-12JaehrigeVerletzt-Vandalismus | https://www.meine-news.de/obernburg-amain/c-blaulicht/obernburgkleinheubach-unfallflucht-auf-radweg-polizei-ermittelt-und-sucht-zeugen-sachschaden-durch-kratzer-im-lack_a240163 | blaulicht | obernburg-kleinheubach-lkr-miltenberg
+- Rieneck-Bronzefiguren-Grablaterne-Friedhof-Diebstahl-Sammelmeldung | https://www.meine-news.de/landkreis-main-spessart/c-blaulicht/main-spessart-bronzefiguren-und-grablaterne-von-friedhof-entwendet-mountainbike-gestohlen-gelddiebstahl-von-wohnmobilplatz-unfallflucht-opferstock-angegangen_a240166 | blaulicht | rieneck-lkr-main-spessart
+- Aschaffenburg-Galeria-Zitterpartie-CityGalerie-Pruefstand | https://www.main-echo.de/region/stadt-kreis-aschaffenburg/diese-33-galeria-filialen-stehen-auf-dem-pruefstand-art-8758342 | wirtschaft | aschaffenburg
+- AschaffenburgAlzenau-Klinikum-Homeoffice-Test-Fachpersonal | https://www.main-echo.de/region/stadt-kreis-aschaffenburg/klinikum-aschaffenburg-alzenau-testet-erstmals-homeoffice-art-8758337 | gesundheit | aschaffenburg-alzenau
+- KarlsteinKleinostheim-Adecco-IGMetall-Kundgebung-300Jobs | https://www.main-echo.de/region/stadt-kreis-aschaffenburg/gewerkschaft-raet-adecco-in-der-krise-sich-fair-verhalten-art-8758661 | wirtschaft | karlstein-kleinostheim-lkr-aschaffenburg
+- Miltenberg-Froschkoenig-Theatertage-Mildenburg-30JahreJubilaeum | https://www.theatertage-mildenburg.com/termine/ | kultur | miltenberg
+- Miltenberg-Musikschule-Lehrkraefte-Vorstellungsreihe | https://www.meine-news.de/miltenberg/c-kultur/die-lehrkraefte-stellen-sich-vor_a240106 | bildung | miltenberg
+- BuergstadtGrosswallstadt-ZweiFahrer-OhneFahrerlaubnis-Kontrolle | https://aschaffenburg.news/bayern/landkreis-miltenberg/b%C3%BCrgstadt-polizei-stoppt-gespann-ohne-erforderliche-fahrerlaubnis.html | blaulicht | buergstadt-grosswallstadt-lkr-miltenberg
 
 ### 2026-07-22 (Ausgabe – 06:15 Uhr CEST)
 - Birkenfeld-Lohr-Traktorbrand-WaehrendFahrt-PkwsBeschaedigt | https://www.meine-news.de/birkenfeld/c-blaulicht/schoellkrippenlohr-a-main-traktor-waehrend-der-fahrt-in-brand-geraten-pkws-angefahren_a240037 | blaulicht | birkenfeld-lohr-main-spessart
@@ -370,25 +382,3 @@
 - Miltenberg-Gartenfest-Museum-Renaissancegarten-Freundeskreis-29Juli | https://www.meine-news.de/miltenberg/c-vereine/gartenfest-im-museum-stadt-miltenberg_a239395 | kultur | miltenberg
 - Sulzbach-Jugendkonzert-Braunwarthsmuehle-DirigentinReisVerabschiedung | https://www.meine-news.de/sulzbach-amain/c-kultur/jugendkonzert-begeistert-in-der-braunwarthsmuehle_a239422 | kultur | sulzbach-amain-lkr-miltenberg
 - Elsenfeld-Serenade-MusikvereinConcordia-ZurKrone-26Juli | https://www.meine-news.de/elsenfeld/c-kultur/serenade-am-sonntag-26072026-in-elsenfeld_a239350 | kultur | elsenfeld-lkr-miltenberg
-
-### 2026-07-13 (Ausgabe – 06:30 Uhr CEST)
-- Buergstadt-Hoffest-Messerdrohung-DreiFrauen-Festnahme31Jaehriger | https://www.meine-news.de/buergstadt/c-blaulicht/buergstadt-polizei-nimmt-mann-nach-mutmasslicher-bedrohung-mit-messer-in-gewahrsam-zeugen-gesucht_a239281 | blaulicht | bürgstadt-lkr-miltenberg
-- Aschaffenburg-Sammelmeldung-Spiegel-Zaun-Firmenwagen-Obernau-Goldbach-Schweinheim | https://www.meine-news.de/landkreis-aschaffenburg/c-blaulicht/raum-aschaffenburg-kollision-mit-aussenspiegel-eines-pkws-einfriedung-beschaedigt-heckscheibe-eines-pkw-eingeschlagen_a239284 | blaulicht | aschaffenburg
-- MainSpessart-Sammelmeldung-Quad-Arnstein-Unfallfluchten-Lohr-Neuhuetten-Neuendorf | https://www.meine-news.de/landkreis-main-spessart/c-blaulicht/main-spessart-fahrerflucht-einfriedung-angefahren-und-beschaedigt-parkrempler-begeht-unfallflucht-ladung-verloren_a239287 | blaulicht | lkr-main-spessart
-- Alzenau-SechsteFahrradDemo-KahlgrundHighway-170Teilnehmer | https://www.main-echo.de/region/stadt-kreis-aschaffenburg/sechste-fahrrad-demo-gegen-den-geplanten-kahlgrund-highway-art-8749514 | politik | alzenau-lkr-aschaffenburg
-- Aschaffenburg-KlimaAktion-AmtFuerChaos-Herstallstrasse-Brunnen-Freibad-Soeder | https://www.ki-ab.de/2026/07/12/hitze-ist-kein-witz-satirische-aktion-mit-ernstem-hintergrund/ | umwelt | aschaffenburg
-- Hitzewelle-Hundstage-Unterfranken-Wetterhintergrund-DWD | https://www.dwd.de/DE/wetter/warnungen/warnWetter_node.html | umwelt | lohr-aschaffenburg-main-spessart
-- Aschaffenburg-Spacebuzz-VRTruck-200Kinder-VirtuelleRaumfahrt-THAB | https://www.main-echo.de/region/stadt-kreis-aschaffenburg/von-aschaffenburg-aus-ins-all-200-kinder-und-jugendliche-auf-virtueller-raumfahrt-aschaffenburg-art-8749512 | bildung | aschaffenburg
-- LkrAschaffenburg-Familienteam-AchtteiligerOnlineKurs-Eltern-September | https://www.meine-news.de/landkreis-aschaffenburg/c-mann-frau-und-familie/familienteam_a238897 | gesellschaft | lkr-aschaffenburg
-- Hoesbach-Bilderbuchkino-Basteln-Bibliothekszentrum-16Juli | https://www.meine-news.de/landkreis-aschaffenburg/c-hobby-und-freizeit/monatliches-bilderbuchkino-und-basteln_a238591 | bildung | hösbach-lkr-aschaffenburg
-- Wertheim-TagDerPolizeiausbildung-BlickHinterKulissen-Hochschule | https://www.meine-news.de/miltenberg/c-blaulicht/blick-hinter-die-kulissen-der-polizei_a239302 | gesellschaft | wertheim
-- Amorbach-Kreisaltenheim-50JahreJubilaeum-Blasorchester | https://www.meine-news.de/amorbach/c-kultur/50-jahre-kreisaltenheim-amorbach-12072026_a239095 | gesellschaft | amorbach-lkr-miltenberg
-- Lohr-KatzeCleo-Tierheim-WallyBangert-Vertrauen | https://www.main-echo.de/region/kreis-main-spessart/katze-cleo-muss-erst-vertrauen-fassen-art-8749485 | gesellschaft | lohr-main-spessart
-- Eichenbuehl-MSCErftal-BembelRun-Frankfurt-Streckensicherung | https://www.meine-news.de/eichenbuehl/c-vereine/msc-erftal-ev-sorgt-fuer-sicherheit-beim-bembel-run_a239203 | verein | eichenbühl-lkr-miltenberg
-- Aschaffenburg-KunstImQuartier-YvonneKlug-JuryPreis-MehrNiveauPlease | https://www.meine-news.de/aschaffenburg/c-kultur/mehrniveauplease-jury-preis-fuer-yvonne-m-klug-werk-gruppe-ueberzeugte_a239290 | kultur | aschaffenburg
-- Grosswallstadt-HistorischerMarkt-Feuershow-Feldschlacht-5000Besucher | https://www.main-echo.de/region/kreis-miltenberg/historischer-markt-in-grosswallstadt-feuershow-und-feldschlacht-als-highlights-art-8749500 | kultur | großwallstadt-lkr-miltenberg
-- Dorfprozelten-RenaultR4Club-Oldtimertreffen-65JahreR4 | https://www.main-echo.de/region/kreis-miltenberg/renault-oldtimertreffen-r4-club-deutschland-feiert-drei-tage-lang-in-dorfprozelten-art-8749551 | kultur | dorfprozelten-lkr-miltenberg
-- Buergstadt-StrassenHoffest-34Ausgabe-TausendeBesucher | https://www.main-echo.de/region/kreis-miltenberg/strassen-und-hoffest-in-buergstadt-zieht-tausende-besucher-an-art-8749495 | kultur | bürgstadt-lkr-miltenberg
-- Wertheim-Sommerpoesie-Fotoessay-MainTauberStadt-Rosengarten | https://www.meine-news.de/miltenberg/c-kultur/sommerpoesie-in-der-main-tauber-stadt_a239275 | kultur | wertheim
-- Aschaffenburg-TVA1860-U9-DritterPlatz-Stadtmeisterschaft-VatanSpor | https://www.meine-news.de/aschaffenburg/c-sport/toller-erfolg-fuer-den-tva-1860_a239296 | sport | aschaffenburg
-

@@ -3,33 +3,33 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Tagesnachrichten – Lohr am Main &amp; Aschaffenburg · 22. Juli 2026</title>
+<title>Tagesnachrichten – Lohr am Main &amp; Aschaffenburg · 23. Juli 2026</title>
 <link rel="icon" href="file_000000002f8872469668704c39f1eaf6.ico">
 <style>
   :root {
-    --bg: #FBF3E6;
+    --bg: #EEF3F1;
     --card: #FFFFFF;
-    --header-from: #7A2E12;
-    --header-mid: #C9711B;
-    --header-to: #E8A33D;
-    --accent1: #7A2E12;
-    --accent2: #C9711B;
-    --accent3: #6B7A3A;
-    --accent4: #A13D3D;
-    --text: #2B211A;
-    --muted: #6B5C4E;
-    --border: #E8D9C4;
+    --header-from: #16233F;
+    --header-mid: #235876;
+    --header-to: #D8A03F;
+    --accent1: #16233F;
+    --accent2: #235876;
+    --accent3: #3E7A57;
+    --accent4: #A6394A;
+    --text: #1E2723;
+    --muted: #566058;
+    --border: #D6E1DA;
   }
   * { box-sizing: border-box; margin: 0; padding: 0; }
   body {
-    font-family: 'Calibri', 'Candara', Arial, sans-serif;
+    font-family: Verdana, Tahoma, sans-serif;
     background: var(--bg);
     color: var(--text);
     font-size: 15px;
     line-height: 1.6;
   }
   header {
-    background: linear-gradient(135deg, var(--header-from) 0%, var(--header-mid) 55%, var(--header-to) 100%);
+    background: linear-gradient(120deg, var(--header-from) 0%, var(--header-mid) 55%, var(--header-to) 100%);
     color: #fff;
     padding: 22px 20px 18px;
     display: flex;
@@ -45,17 +45,17 @@
     background: #fff;
   }
   .header-text h1 {
-    font-family: 'Garamond', 'Book Antiqua', Georgia, serif;
-    font-size: 1.75rem;
+    font-family: Baskerville, 'Times New Roman', Georgia, serif;
+    font-size: 1.72rem;
     font-weight: 700;
     line-height: 1.2;
   }
   .header-text .subtitle { font-size: 0.9rem; opacity: 0.95; margin-top: 4px; }
   .header-text .timestamp { font-size: 0.82rem; opacity: 0.85; margin-top: 2px; }
-  .container { max-width: 1280px; margin: 0 auto; padding: 18px 14px; }
+  .container { max-width: 1180px; margin: 0 auto; padding: 18px 14px; }
 
   .section-title {
-    font-family: 'Garamond', 'Book Antiqua', Georgia, serif;
+    font-family: Baskerville, 'Times New Roman', Georgia, serif;
     font-size: 1.3rem;
     color: var(--header-from);
     border-bottom: 3px solid var(--header-mid);
@@ -64,14 +64,14 @@
   }
 
   .season-box {
-    background: linear-gradient(100deg, #FDEBD3, #F6E3D6);
-    border: 1px solid #EBC79A;
+    background: linear-gradient(100deg, #E7EEEA, #F3EBD9);
+    border: 1px solid #CFE0D6;
     border-left: 5px solid var(--accent2);
     border-radius: 10px;
     padding: 14px 18px;
     margin-bottom: 26px;
     font-size: 0.89rem;
-    color: #4A3520;
+    color: #2A3530;
   }
   .season-box strong { color: var(--accent1); }
 
@@ -87,10 +87,10 @@
     border-radius: 10px;
     padding: 14px 16px;
     border: 1px solid var(--border);
-    box-shadow: 0 2px 6px rgba(122,46,18,0.08);
+    box-shadow: 0 2px 6px rgba(22,35,63,0.08);
   }
   .weather-day-card h3 {
-    font-family: 'Garamond', 'Book Antiqua', Georgia, serif;
+    font-family: Baskerville, 'Times New Roman', Georgia, serif;
     font-size: 1.05rem;
     color: var(--header-from);
     margin-bottom: 6px;
@@ -119,16 +119,13 @@
     text-align: center;
     border-bottom: 1px solid var(--border);
   }
-  .hourly-scroll tr:nth-child(even) td { background: #FBF0E2; }
+  .hourly-scroll tr:nth-child(even) td { background: #F1F6F3; }
 
   .news-grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 18px;
     margin-bottom: 32px;
-  }
-  @media (max-width: 1000px) {
-    .news-grid { grid-template-columns: repeat(2, 1fr); }
   }
   @media (max-width: 680px) {
     .news-grid { grid-template-columns: 1fr; }
@@ -139,9 +136,9 @@
   .card {
     background: var(--card);
     border-radius: 10px;
-    padding: 16px;
+    padding: 18px;
     border: 1px solid var(--border);
-    box-shadow: 0 2px 8px rgba(122,46,18,0.08);
+    box-shadow: 0 2px 8px rgba(22,35,63,0.08);
     display: flex;
     flex-direction: column;
   }
@@ -153,6 +150,7 @@
   .card-media {
     float: right;
     margin: 0 0 10px 12px;
+    position: relative;
   }
   .card-media a img {
     width: 120px;
@@ -178,27 +176,27 @@
     text-transform: uppercase;
     letter-spacing: 0.04em;
   }
-  .badge-politik { background: #7A2E12; color: #fff; }
+  .badge-politik { background: #16233F; color: #fff; }
   .badge-wirtschaft { background: #9C6B12; color: #fff; }
-  .badge-gesellschaft { background: #C9711B; color: #fff; }
-  .badge-kultur { background: #A13D3D; color: #fff; }
-  .badge-sport { background: #4F7A3A; color: #fff; }
+  .badge-gesellschaft { background: #235876; color: #fff; }
+  .badge-kultur { background: #A6394A; color: #fff; }
+  .badge-sport { background: #3E7A57; color: #fff; }
   .badge-bildung { background: #4A6FA0; color: #fff; }
   .badge-verein { background: #B0466E; color: #fff; }
-  .badge-gesundheit { background: #8A3E5E; color: #fff; }
-  .badge-blaulicht { background: #C0392B; color: #fff; }
-  .badge-verkehr { background: #D98324; color: #fff; }
-  .badge-umwelt { background: #5C7A3A; color: #fff; }
+  .badge-gesundheit { background: #6B4E8A; color: #fff; }
+  .badge-blaulicht { background: #A6394A; color: #fff; }
+  .badge-verkehr { background: #B77A2A; color: #fff; }
+  .badge-umwelt { background: #3E7A57; color: #fff; }
   .badge-justiz { background: #4A4238; color: #fff; }
   .badge-region {
-    background: #F6E9D6;
-    color: #6B4A22;
-    border: 1px solid #E8CBA0;
+    background: #E7EEEA;
+    color: #2C4A3B;
+    border: 1px solid #CFE0D6;
     font-size: 0.68rem;
   }
   .card h2 {
-    font-family: 'Garamond', 'Book Antiqua', Georgia, serif;
-    font-size: 1.08rem;
+    font-family: Baskerville, 'Times New Roman', Georgia, serif;
+    font-size: 1.12rem;
     font-weight: 700;
     margin-bottom: 7px;
     color: var(--text);
@@ -206,8 +204,8 @@
     clear: both;
   }
   .card p {
-    font-size: 0.86rem;
-    color: #3A2E22;
+    font-size: 0.87rem;
+    color: #2A342E;
     line-height: 1.55;
     flex: 1;
     margin-bottom: 10px;
@@ -225,7 +223,7 @@
   .lightbox-overlay {
     display: none;
     position: fixed; top: 0; left: 0; width: 100%; height: 100%;
-    background: rgba(35,20,10,0.9);
+    background: rgba(10,16,28,0.92);
     z-index: 9999;
     justify-content: center;
     align-items: center;
@@ -260,7 +258,7 @@
     justify-content: space-between;
   }
   .newsletter-box .nl-text h2 {
-    font-family: 'Garamond', 'Book Antiqua', Georgia, serif;
+    font-family: Baskerville, 'Times New Roman', Georgia, serif;
     font-size: 1.2rem;
     margin-bottom: 4px;
   }
@@ -296,15 +294,15 @@
     font-size: 0.82rem;
     line-height: 1.7;
   }
-  footer .footer-inner { max-width: 1280px; margin: 0 auto; }
+  footer .footer-inner { max-width: 1180px; margin: 0 auto; }
   footer h3 {
-    font-family: 'Garamond', 'Book Antiqua', Georgia, serif;
+    font-family: Baskerville, 'Times New Roman', Georgia, serif;
     font-size: 1rem;
     color: #fff;
     margin-bottom: 6px;
     margin-top: 14px;
   }
-  footer a { color: #F6D9A8; }
+  footer a { color: #E9C77A; }
   footer .sources { columns: 2; column-gap: 30px; }
   @media (max-width: 640px) { footer .sources { columns: 1; } }
 </style>
@@ -317,7 +315,7 @@
   <div class="header-text">
     <h1>Nachrichten – Lohr am Main &amp; Aschaffenburg</h1>
     <div class="subtitle">Lohr &middot; Aschaffenburg &middot; Main-Spessart &middot; Miltenberg &middot; Unterfranken</div>
-    <div class="timestamp">Mittwoch, 22. Juli 2026 &middot; 06:15 Uhr CEST</div>
+    <div class="timestamp">Donnerstag, 23. Juli 2026 &middot; 06:25 Uhr CEST</div>
   </div>
 </header>
 
@@ -327,14 +325,14 @@
     <h2 class="section-title">Wetter – Lohr am Main &amp; Region (Quelle: BrightSky / DWD)</h2>
     <div class="weather-days">
       <div class="weather-day-card">
-        <h3>Heute &middot; Mittwoch, 22. Juli 2026</h3>
-        <div class="temp-range">8 – 22 °C</div>
-        <div class="condition">&#x26C5; Heiter bis wolkig, ab Mittag zunehmend windig &middot; Wind bis 60 km/h &middot; Niederschlag: 0 mm</div>
+        <h3>Heute &middot; Donnerstag, 23. Juli 2026</h3>
+        <div class="temp-range">12 – 22 °C</div>
+        <div class="condition">&#x2600; Trocken und freundlich, nur schwacher Wind &middot; Wind bis 15 km/h &middot; Niederschlag: 0 mm</div>
       </div>
       <div class="weather-day-card">
-        <h3>Morgen &middot; Donnerstag, 23. Juli 2026</h3>
-        <div class="temp-range">13 – 22 °C</div>
-        <div class="condition">&#x26C5; Heiter bis wolkig, freundlich &middot; Wind bis 53 km/h &middot; Niederschlag: 0 mm</div>
+        <h3>Morgen &middot; Freitag, 24. Juli 2026</h3>
+        <div class="temp-range">11 – 25 °C</div>
+        <div class="condition">&#x2600; Sonnig und spürbar wärmer, kaum Wind &middot; Wind bis 7 km/h &middot; Niederschlag: 0 mm</div>
       </div>
     </div>
     <div class="hourly-scroll">
@@ -343,37 +341,37 @@
           <tr><th>Uhrzeit</th><th>Temp.</th><th>Wetter</th><th>Wind</th><th>Niederschlag</th><th>Niederschlagswahrsch.</th></tr>
         </thead>
         <tbody>
-          <tr><td>00:00</td><td>10,4 °C</td><td>Leicht bewölkt</td><td>0 km/h</td><td>0,0 mm</td><td>&#8211;</td></tr>
-          <tr><td>01:00</td><td>11,2 °C</td><td>Leicht bewölkt</td><td>8 km/h</td><td>0,0 mm</td><td>1 %</td></tr>
-          <tr><td>02:00</td><td>8,6 °C</td><td>Klar</td><td>0 km/h</td><td>0,0 mm</td><td>1 %</td></tr>
-          <tr><td>03:00</td><td>8,1 °C</td><td>Klar</td><td>10 km/h</td><td>0,0 mm</td><td>1 %</td></tr>
-          <tr><td>04:00</td><td>11,8 °C</td><td>Heiter</td><td>13 km/h</td><td>0,0 mm</td><td>1 %</td></tr>
-          <tr><td>05:00</td><td>13,0 °C</td><td>Heiter</td><td>13 km/h</td><td>0,0 mm</td><td>1 %</td></tr>
-          <tr><td>06:00</td><td>14,9 °C</td><td>Heiter</td><td>20 km/h</td><td>0,0 mm</td><td>1 %</td></tr>
-          <tr><td>07:00</td><td>16,8 °C</td><td>Heiter</td><td>27 km/h</td><td>0,0 mm</td><td>1 %</td></tr>
-          <tr><td>08:00</td><td>18,5 °C</td><td>Heiter</td><td>33 km/h</td><td>0,0 mm</td><td>1 %</td></tr>
-          <tr><td>09:00</td><td>19,9 °C</td><td>Heiter</td><td>47 km/h</td><td>0,0 mm</td><td>1 %</td></tr>
-          <tr><td>10:00</td><td>20,5 °C</td><td>Heiter</td><td>47 km/h</td><td>0,0 mm</td><td>1 %</td></tr>
-          <tr><td>11:00</td><td>21,3 °C</td><td>Wolkig</td><td>53 km/h</td><td>0,0 mm</td><td>1 %</td></tr>
-          <tr><td>12:00</td><td>21,5 °C</td><td>Wolkig</td><td>60 km/h</td><td>0,0 mm</td><td>2 %</td></tr>
-          <tr><td>13:00</td><td>21,7 °C</td><td>Wolkig</td><td>60 km/h</td><td>0,0 mm</td><td>1 %</td></tr>
-          <tr><td>14:00</td><td>22,1 °C</td><td>Wolkig</td><td>60 km/h</td><td>0,0 mm</td><td>1 %</td></tr>
-          <tr><td>15:00</td><td>22,1 °C</td><td>Wolkig</td><td>60 km/h</td><td>0,0 mm</td><td>1 %</td></tr>
-          <tr><td>16:00</td><td>21,8 °C</td><td>Wolkig</td><td>53 km/h</td><td>0,0 mm</td><td>2 %</td></tr>
-          <tr><td>17:00</td><td>21,4 °C</td><td>Wolkig</td><td>53 km/h</td><td>0,0 mm</td><td>2 %</td></tr>
-          <tr><td>18:00</td><td>20,7 °C</td><td>Wolkig</td><td>47 km/h</td><td>0,0 mm</td><td>3 %</td></tr>
-          <tr><td>19:00</td><td>19,7 °C</td><td>Wolkig</td><td>40 km/h</td><td>0,0 mm</td><td>2 %</td></tr>
-          <tr><td>20:00</td><td>18,5 °C</td><td>Wolkig</td><td>33 km/h</td><td>0,0 mm</td><td>1 %</td></tr>
-          <tr><td>21:00</td><td>17,4 °C</td><td>Leicht bewölkt</td><td>33 km/h</td><td>0,0 mm</td><td>1 %</td></tr>
-          <tr><td>22:00</td><td>16,5 °C</td><td>Leicht bewölkt</td><td>27 km/h</td><td>0,0 mm</td><td>1 %</td></tr>
-          <tr><td>23:00</td><td>15,8 °C</td><td>Leicht bewölkt</td><td>27 km/h</td><td>0,0 mm</td><td>1 %</td></tr>
+          <tr><td>00:00</td><td>14,7 °C</td><td>Trocken</td><td>6 km/h</td><td>0,0 mm</td><td>&#8211;</td></tr>
+          <tr><td>01:00</td><td>12,8 °C</td><td>Trocken</td><td>5 km/h</td><td>0,0 mm</td><td>1 %</td></tr>
+          <tr><td>02:00</td><td>13,1 °C</td><td>Trocken</td><td>4 km/h</td><td>0,0 mm</td><td>1 %</td></tr>
+          <tr><td>03:00</td><td>11,9 °C</td><td>Trocken</td><td>5 km/h</td><td>0,0 mm</td><td>1 %</td></tr>
+          <tr><td>04:00</td><td>12,3 °C</td><td>Trocken</td><td>4 km/h</td><td>0,0 mm</td><td>1 %</td></tr>
+          <tr><td>05:00</td><td>13,0 °C</td><td>Trocken</td><td>4 km/h</td><td>0,0 mm</td><td>1 %</td></tr>
+          <tr><td>06:00</td><td>14,4 °C</td><td>Heiter</td><td>5 km/h</td><td>0,0 mm</td><td>1 %</td></tr>
+          <tr><td>07:00</td><td>15,9 °C</td><td>Heiter</td><td>6 km/h</td><td>0,0 mm</td><td>1 %</td></tr>
+          <tr><td>08:00</td><td>17,3 °C</td><td>Heiter</td><td>7 km/h</td><td>0,0 mm</td><td>1 %</td></tr>
+          <tr><td>09:00</td><td>18,6 °C</td><td>Heiter</td><td>8 km/h</td><td>0,0 mm</td><td>1 %</td></tr>
+          <tr><td>10:00</td><td>19,7 °C</td><td>Sonnig</td><td>9 km/h</td><td>0,0 mm</td><td>1 %</td></tr>
+          <tr><td>11:00</td><td>20,6 °C</td><td>Sonnig</td><td>10 km/h</td><td>0,0 mm</td><td>1 %</td></tr>
+          <tr><td>12:00</td><td>21,3 °C</td><td>Sonnig</td><td>12 km/h</td><td>0,0 mm</td><td>2 %</td></tr>
+          <tr><td>13:00</td><td>21,7 °C</td><td>Sonnig</td><td>13 km/h</td><td>0,0 mm</td><td>2 %</td></tr>
+          <tr><td>14:00</td><td>22,0 °C</td><td>Sonnig</td><td>14 km/h</td><td>0,0 mm</td><td>2 %</td></tr>
+          <tr><td>15:00</td><td>21,8 °C</td><td>Sonnig</td><td>14 km/h</td><td>0,0 mm</td><td>2 %</td></tr>
+          <tr><td>16:00</td><td>21,2 °C</td><td>Heiter</td><td>13 km/h</td><td>0,0 mm</td><td>1 %</td></tr>
+          <tr><td>17:00</td><td>20,3 °C</td><td>Heiter</td><td>11 km/h</td><td>0,0 mm</td><td>1 %</td></tr>
+          <tr><td>18:00</td><td>19,1 °C</td><td>Heiter</td><td>9 km/h</td><td>0,0 mm</td><td>1 %</td></tr>
+          <tr><td>19:00</td><td>17,8 °C</td><td>Heiter</td><td>7 km/h</td><td>0,0 mm</td><td>1 %</td></tr>
+          <tr><td>20:00</td><td>16,6 °C</td><td>Trocken</td><td>6 km/h</td><td>0,0 mm</td><td>1 %</td></tr>
+          <tr><td>21:00</td><td>15,7 °C</td><td>Trocken</td><td>5 km/h</td><td>0,0 mm</td><td>1 %</td></tr>
+          <tr><td>22:00</td><td>15,0 °C</td><td>Trocken</td><td>4 km/h</td><td>0,0 mm</td><td>1 %</td></tr>
+          <tr><td>23:00</td><td>14,3 °C</td><td>Trocken</td><td>4 km/h</td><td>0,0 mm</td><td>1 %</td></tr>
         </tbody>
       </table>
     </div>
   </section>
 
   <div class="season-box">
-    <strong>Vorschau:</strong> Nach der Hitzewelle der vergangenen Tage kühlt es spürbar ab – heute und morgen liegen die Höchstwerte nur noch bei rund 22 Grad, dafür wird es zeitweise recht windig (Böen bis 60 km/h). In 12 Tagen, am 3. August, beginnen die bayerischen Sommerferien (bis 14. September), und die Festsaison an Main und Spessart startet bereits jetzt: Vom 24. Juli bis 2. August feiert Lohr am Main seine Spessartfestwoche, am 25./26. Juli lockt das neue Aschaffenburger Altstadtfest in die Pfaffengasse, wo zugleich der Aschaffenburger Kanuclub sein 100-jähriges Bestehen mit bayerischen Meisterschaften auf dem Main begeht. Am 27. Juli eröffnet das „Klangfeuerwerk" der Musikschule Miltenberg den diesjährigen Kultursommer auf der Mildenburg, und Triefenstein-Homburg lädt vom 24. bis 26. Juli sowie vom 30. Juli bis 2. August zum traditionsreichen Weinfest im Schlosshof.
+    <strong>Vorschau:</strong> Nach dem windigen Zwischentief der letzten Tage wird es wieder ruhiger und spürbar wärmer – heute klettern die Temperaturen auf angenehme 22 Grad, morgen bereits auf bis zu 25 Grad, jeweils bei viel Sonne und kaum Wind. In 11 Tagen, am 3. August, beginnen die bayerischen Sommerferien (bis 14. September) – die Festsaison an Main und Spessart läuft bereits auf Hochtouren: Bis zum 25. Juli feiern die Theatertage Mildenburg in Miltenberg ihr 30-jähriges Jubiläum, am Samstag zum Abschluss mit dem Kindermärchen „Der Froschkönig". Vom 24. bis 26. Juli sowie vom 30. Juli bis 2. August lädt Triefenstein-Homburg zum traditionsreichen Weinfest im Schlosshof, und am 27. Juli eröffnet der Kultursommer auf der Mildenburg seine neue Saison.
   </div>
 
   <div class="newsletter-box">
@@ -393,157 +391,131 @@
     <div class="card">
       <div class="card-badges">
         <span class="badge badge-blaulicht">Blaulicht</span>
-        <span class="badge badge-region">Birkenfeld / Lohr a.Main &middot; Main-Spessart</span>
+        <span class="badge badge-region">Waldaschaff &middot; Lkr. Aschaffenburg</span>
       </div>
-      <h2>Traktor gerät während der Fahrt in Brand – zwei Pkw beschädigt</h2>
-      <p>Am Montagnachmittag geriet auf dem Mühlweg in Birkenfeld bei Lohr ein Traktor während der Fahrt in Brand, vermutlich durch einen technischen Defekt. Der Fahrer konnte das brennende Fahrzeug noch rechtzeitig auf einen Feldweg lenken, bevor Einsatzkräfte mehrerer Feuerwehren den Brand löschten. Der Sachschaden wird auf rund 20.000 Euro geschätzt, verletzt wurde niemand. Zusätzlich meldete die Polizei zwei beschädigte Pkw in Lohr am Main und sucht in beiden Fällen noch Zeugen.</p>
-      <a href="https://www.meine-news.de/birkenfeld/c-blaulicht/schoellkrippenlohr-a-main-traktor-waehrend-der-fahrt-in-brand-geraten-pkws-angefahren_a240037" target="_blank" rel="noopener" class="source-link">&#8594; meine-news.de</a>
+      <h2>Geldautomat gesprengt – Täter mit Hubschrauber gesucht</h2>
+      <p>In der Nacht zu Mittwoch gegen 3 Uhr sprengten bislang unbekannte Täter einen Geldautomaten der Sparkasse im „Neuer Weg" in Waldaschaff. Die Explosion war weithin zu hören und verursachte erheblichen Schaden am Gebäude; Anwohner in den darüberliegenden Wohnungen mussten vorsorglich evakuiert werden. Vier Tatverdächtige flüchteten mit einem dunklen BMW vermutlich in Richtung A3, eine sofort eingeleitete Fahndung mit Polizeihubschrauber blieb erfolglos. Das Bayerische Landeskriminalamt hat die Ermittlungen übernommen – es handelt sich um die erste Geldautomatensprengung Bayerns in diesem Jahr.</p>
+      <a href="https://www.main-echo.de/ressorts/blaulicht/geldautomat-in-sparkassenfiliale-gesprengt-taeter-unerkannt-entkommen-art-8758302" target="_blank" rel="noopener" class="source-link">&#8594; Main-Echo</a>
     </div>
 
     <div class="card">
       <div class="card-media">
         <a href="#lb-2" id="img-2">
-          <img src="https://media04.meine-news.de/article/2026/07/21/7/2184247_L.webp?1784634397" alt="Wohnmobil im Graben Schöllkrippen">
+          <img src="https://media04.meine-news.de/article/2026/07/22/3/2185873_L.webp?1784729300" alt="Polizeieinsatz Raum Aschaffenburg">
         </a>
       </div>
       <div class="card-badges">
         <span class="badge badge-blaulicht">Blaulicht</span>
-        <span class="badge badge-region">Schöllkrippen / Bessenbach &middot; Lkr. Aschaffenburg</span>
+        <span class="badge badge-region">Großostheim &middot; Schweinheim &middot; Strietwald</span>
       </div>
-      <h2>Wohnmobil rollt auf Campingplatz in den Graben – zwei Verletzte</h2>
-      <p>Auf einem Campingplatz in Schöllkrippen ist ein nicht ausreichend gesichertes Wohnmobil rückwärts in einen Graben gerollt. Ein 80 Jahre alter Mann und seine 79-jährige Begleiterin wurden dabei mittelschwer verletzt und mussten ärztlich versorgt werden. Der Sachschaden am Fahrzeug beläuft sich auf etwa 5.000 Euro. Im gleichen Streifenbereich stoppte die Polizei zudem einen BMW X5 auf der A3 bei Bessenbach, in den unzulässige Blaulichter eingebaut waren – der belgische Fahrer musste die Leuchten vor Ort ausbauen und muss mit einem Bußgeld rechnen.</p>
-      <a href="https://meine-news.de/schoellkrippen/c-blaulicht/schoellkrippenbessenbach-wohnmobil-rollt-in-graben-zwei-personen-verletzt-unzulaessige-blaulichter-im-fahrzeug-verbaut-polizei-schreitet-ein_a240034" target="_blank" rel="noopener" class="source-link">&#8594; meine-news.de</a>
+      <h2>Falsche Polizeibeamte, Heizungsableser und Fahrerflucht – Sammelmeldung</h2>
+      <p>Die Polizei meldet gleich mehrere Vorfälle aus dem Raum Aschaffenburg. In Großostheim erbeutete eine falsche Polizistin bei einer über 80-jährigen Rentnerin nach einem Schockanruf Schmuck und Bargeld im niedrigen sechsstelligen Bereich – vorausgegangen war der Anruf einer angeblichen Staatsanwältin. In Schweinheim gaben sich zwei Männer als Heizungsableser aus, verschafften sich so Zugang zur Wohnung eines Seniorenpaares und stahlen Schmuck. In Strietwald wurde ein 13-jähriger Schüler auf dem Nachhauseweg von einem silbernen Auto touchiert, das ohne anzuhalten weiterfuhr; zudem kontrollierten bayerische und hessische Polizeikräfte bei einer länderübergreifenden Aktion 74 Fahrzeuge und nahmen drei gesuchte Personen fest.</p>
+      <a href="https://www.meine-news.de/landkreis-aschaffenburg/c-blaulicht/raum-aschaffenburg-falsche-polizeibeamte-erbeuten-schmuck-und-geld-pkw-gegen-fahrradfahrer-falsche-heizungsableser-entwenden-schmuck-laenderuebergreifende-fahndungs-und-kontrollaktion_a240160" target="_blank" rel="noopener" class="source-link">&#8594; meine-news.de</a>
     </div>
-    <div id="lb-2" class="lightbox-overlay"><a href="#" class="close">&#x2715;</a><img src="https://media04.meine-news.de/article/2026/07/21/7/2184247_L.webp?1784634397" alt="Wohnmobil im Graben"></div>
+    <div id="lb-2" class="lightbox-overlay"><a href="#" class="close">&#x2715;</a><img src="https://media04.meine-news.de/article/2026/07/22/3/2185873_L.webp?1784729300" alt="Polizeieinsatz Raum Aschaffenburg"></div>
+
+    <div class="card">
+      <div class="card-media">
+        <a href="#lb-3" id="img-3">
+          <img src="https://media04.meine-news.de/article/2026/07/22/6/2185876_L.webp?1784729644" alt="Unfallflucht Radweg Obernburg">
+        </a>
+      </div>
+      <div class="card-badges">
+        <span class="badge badge-blaulicht">Blaulicht</span>
+        <span class="badge badge-region">Obernburg &middot; Kleinheubach &middot; Lkr. Miltenberg</span>
+      </div>
+      <h2>Unfallflucht nach Kollision mit Zwölfjähriger auf Radweg</h2>
+      <p>Auf dem Radweg zwischen Wörth und Obernburg erfasste am Dienstagabend gegen 19:50 Uhr ein Radfahrer beim Überholen ein zwölfjähriges Mädchen, das in Begleitung eines Angehörigen unterwegs war. Das Kind stürzte und zog sich Schürfwunden zu, der Unfallverursacher setzte seine Fahrt jedoch mit hohem Tempo fort, ohne zu helfen. Die Polizei sucht nun nach einem männlichen Radfahrer in dunkler Radbekleidung mit weißem Helm. In einem separaten Fall wurde in Kleinheubach ein geparkter Mercedes mutwillig zerkratzt; der Sachschaden beläuft sich auf rund 4.000 Euro.</p>
+      <a href="https://www.meine-news.de/obernburg-amain/c-blaulicht/obernburgkleinheubach-unfallflucht-auf-radweg-polizei-ermittelt-und-sucht-zeugen-sachschaden-durch-kratzer-im-lack_a240163" target="_blank" rel="noopener" class="source-link">&#8594; meine-news.de</a>
+    </div>
+    <div id="lb-3" class="lightbox-overlay"><a href="#" class="close">&#x2715;</a><img src="https://media04.meine-news.de/article/2026/07/22/6/2185876_L.webp?1784729644" alt="Unfallflucht Radweg Obernburg"></div>
 
     <div class="card">
       <div class="card-badges">
         <span class="badge badge-blaulicht">Blaulicht</span>
-        <span class="badge badge-region">Deutschland / Unterfranken</span>
+        <span class="badge badge-region">Rieneck u.a. &middot; Lkr. Main-Spessart</span>
       </div>
-      <h2>Bundeskriminalamt zerschlägt internationalen Phishing-Dienst „Kratos"</h2>
-      <p>Die Generalstaatsanwaltschaft Frankfurt am Main und das Bundeskriminalamt haben gemeinsam mit US-Behörden die Infrastruktur des Phishing-Dienstes „Kratos" zerschlagen. Mit dem digitalen Baukasten ließen sich täuschend echte Microsoft-Anmeldeseiten erstellen, über die Zugangsdaten gestohlen wurden. Mehr als 1.800 Cyberkriminelle mieteten das Werkzeug und starteten damit monatlich rund 15.000 Phishing-Kampagnen, was Hunderttausende Opfer weltweit forderte. Der mutmaßliche Administrator wurde in Indonesien festgenommen, über 200 Server wurden abgeschaltet – die Polizei rät auch Internetnutzern in der Region weiterhin zu besonderer Vorsicht bei Anmeldelinks in E-Mails.</p>
-      <a href="https://www.main-echo.de/ressorts/blaulicht/polizei-schaltet-webseite-eines-phishing-services-ab-art-8753669" target="_blank" rel="noopener" class="source-link">&#8594; Main-Echo</a>
+      <h2>Bronzefiguren vom Friedhof gestohlen – weitere Diebstähle im Kreis</h2>
+      <p>Vom Friedhof in Rieneck entwendeten Unbekannte wertvolle Bronzefiguren und eine Grablaterne; die Polizei bittet um Hinweise zu den Tätern. Im Landkreis kam es zudem zu mehreren weiteren Eigentumsdelikten: Von einem Wohnmobilstellplatz wurde Bargeld gestohlen, ein Mountainbike verschwand spurlos, ein Opferstock wurde aufgebrochen, und in einem weiteren Fall flüchtete ein Verkehrsteilnehmer nach einem Unfall unerlaubt vom Ort des Geschehens. Die Polizeiinspektionen im Landkreis ermitteln in allen Fällen und sind für Hinweise dankbar.</p>
+      <a href="https://www.meine-news.de/landkreis-main-spessart/c-blaulicht/main-spessart-bronzefiguren-und-grablaterne-von-friedhof-entwendet-mountainbike-gestohlen-gelddiebstahl-von-wohnmobilplatz-unfallflucht-opferstock-angegangen_a240166" target="_blank" rel="noopener" class="source-link">&#8594; meine-news.de</a>
     </div>
 
     <div class="card">
       <div class="card-media">
-        <a href="#lb-4" id="img-4">
-          <img src="https://www.infranken.de/storage/image/1/7/3/3/4183371_symbolbild-motorradunfall_artikel-aufmacher-md_1CcdJx_rjSXZ0.jpg" alt="Motorradunfall A3 Hösbach">
+        <a href="#lb-5" id="img-5">
+          <img src="https://www.main-echo.de/storage/image/1/2/8/8/6868821_galeria-karstadt-berlin_nar-artikeldetail_1Go7oN_nEzkec.jpg" alt="Galeria Filiale">
         </a>
       </div>
       <div class="card-badges">
-        <span class="badge badge-blaulicht">Blaulicht</span>
-        <span class="badge badge-region">Hösbach &middot; Lkr. Aschaffenburg</span>
+        <span class="badge badge-wirtschaft">Wirtschaft</span>
+        <span class="badge badge-region">Aschaffenburg</span>
       </div>
-      <h2>Motorradfahrer auf A3 bei Hösbach schwer verletzt – Sattelzug flüchtet</h2>
-      <p>Ein 18-jähriger Motorradfahrer ist am frühen Morgen auf der A3 zwischen Hösbach und Bessenbach schwer verletzt worden, als er auf einen unbekannten Sattelzug auffuhr. Der Lastzug setzte nach dem Zusammenstoß seine Fahrt fort, ohne anzuhalten, sodass die Polizei nun von Unfallflucht ausgeht. Das Motorrad wurde bei dem Aufprall zerstört und musste abgeschleppt werden, der junge Fahrer kam mit schweren Verletzungen in ein Krankenhaus. Die Verkehrspolizei Aschaffenburg-Hösbach sucht dringend Zeugen, die Angaben zu dem beteiligten Sattelzug machen können.</p>
-      <a href="https://www.infranken.de/lk/aschaffenburg/blaulicht/a3-im-kreis-aschaffenburg-junger-biker-bei-unfall-schwer-verletzt-art-6380860" target="_blank" rel="noopener" class="source-link">&#8594; inFranken.de</a>
+      <h2>Zitterpartie um Galeria: City-Galerie auf dem Prüfstand</h2>
+      <p>Der Warenhauskonzern Galeria plant eine weitere Verkleinerung seines Filialnetzes, wodurch auch der Standort in der Aschaffenburger City-Galerie auf seine wirtschaftliche Rentabilität überprüft wird. Der Konzern verhandelt derzeit mit Vermietern an mehreren Standorten über niedrigere Mietkonditionen, um die finanzielle Situation zu verbessern. Für die Beschäftigten und den lokalen Einzelhandel bedeutet die Hängepartie erneut wochenlange Unsicherheit, da eine mögliche Schließung erhebliche Auswirkungen auf die Innenstadt hätte. Eine endgültige Entscheidung über den Fortbestand der Filiale steht weiterhin aus.</p>
+      <a href="https://www.main-echo.de/region/stadt-kreis-aschaffenburg/diese-33-galeria-filialen-stehen-auf-dem-pruefstand-art-8758342" target="_blank" rel="noopener" class="source-link">&#8594; Main-Echo</a>
     </div>
-    <div id="lb-4" class="lightbox-overlay"><a href="#" class="close">&#x2715;</a><img src="https://www.infranken.de/storage/image/1/7/3/3/4183371_symbolbild-motorradunfall_artikel-aufmacher-md_1CcdJx_rjSXZ0.jpg" alt="Motorradunfall A3"></div>
-
-    <div class="card">
-      <div class="card-badges">
-        <span class="badge badge-justiz">Justiz</span>
-        <span class="badge badge-region">Wertheim &middot; Main-Tauber-Kreis</span>
-      </div>
-      <h2>Messerstecherei am Kaufland-Parkplatz Wertheim: Prozess gegen vier junge Männer begonnen</h2>
-      <p>Vor dem Landgericht Mosbach hat der Prozess gegen vier junge Männer im Alter zwischen 17 und 21 Jahren begonnen. Ihnen wird vorgeworfen, im Oktober 2025 auf dem Parkplatz eines Kaufland-Marktes in Wertheim im Streit zwei Menschen mit einem Messer schwer verletzt zu haben. Die Anklage lautet auf versuchten Totschlag in mehreren Fällen. Der Prozessauftakt verlief nach Gerichtsangaben zunächst schleppend, weitere Verhandlungstage sind bereits terminiert.</p>
-      <a href="https://www.main-echo.de/region/kreis-main-tauber/messerstecherei-am-kaufland-wertheim-quartett-ab-dienstag-vor-gericht-art-8753575" target="_blank" rel="noopener" class="source-link">&#8594; Main-Echo</a>
-    </div>
+    <div id="lb-5" class="lightbox-overlay"><a href="#" class="close">&#x2715;</a><img src="https://www.main-echo.de/storage/image/1/2/8/8/6868821_galeria-karstadt-berlin_nar-artikeldetail_1Go7oN_nEzkec.jpg" alt="Galeria Filiale"></div>
 
     <div class="card">
       <div class="card-media">
         <a href="#lb-6" id="img-6">
-          <img src="https://media04.meine-news.de/article/2026/07/21/9/2184139_L.webp?1784621613" alt="Mainbrücke Obernburg-Elsenfeld Baustelle">
+          <img src="https://www.main-echo.de/storage/image/7/1/8/8/6868817_nar-artikeldetail_1Go7cI_8LxZSN.jpg" alt="Klinikum Aschaffenburg-Alzenau">
         </a>
       </div>
       <div class="card-badges">
-        <span class="badge badge-verkehr">Verkehr</span>
-        <span class="badge badge-region">Obernburg a.Main / Elsenfeld &middot; Lkr. Miltenberg</span>
+        <span class="badge badge-gesundheit">Gesundheit</span>
+        <span class="badge badge-region">Aschaffenburg-Alzenau</span>
       </div>
-      <h2>Mainbrücke Obernburg–Elsenfeld: Rampe für zwei Tage voll gesperrt</h2>
-      <p>Im Zuge der Erneuerung der Fahrbahnübergangskonstruktionen an der Mainbrücke Obernburg-Elsenfeld muss die Rampe auf der Elsenfelder Seite in Richtung Bahnhof für zwei Tage komplett gesperrt werden. Grund ist der Einbau der letzten Teilstücke der neuen Übergangskonstruktion, die aus Sicherheitsgründen nicht unter laufendem Verkehr montiert werden können. Das Staatliche Bauamt bittet Verkehrsteilnehmer, die ausgeschilderten Umleitungen zu nutzen und im Baustellenbereich besondere Vorsicht walten zu lassen. Die gesamte Sanierung der stark befahrenen Mainquerung soll voraussichtlich bis Mitte September abgeschlossen sein.</p>
-      <a href="https://www.meine-news.de/obernburg-amain/c-blaulicht/st-2308-erneuerung-der-fahrbahnuebergangskonstruktionen-auf-der-mainbruecke-obernburg-elsenfeld-vollsperrung-der-rampe-seite-bahnhof-fuer-2-tage_a240004" target="_blank" rel="noopener" class="source-link">&#8594; meine-news.de</a>
+      <h2>Klinikum testet erstmals Homeoffice für Fachpersonal</h2>
+      <p>Das Klinikum Aschaffenburg-Alzenau erprobt in einer Testphase erstmals, ob spezialisiertes medizinisches Fachpersonal zumindest zeitweise von zuhause aus arbeiten kann. Bislang galt im Krankenhausbetrieb die Regel, dass wer dort arbeitet, auch vor Ort erscheinen muss – anders als in vielen Bürobranchen seit der Corona-Pandemie. Erste Ergebnisse des Pilotprojekts in einer ausgewählten Abteilung gelten laut Klinikleitung als vielversprechend. Das Modell soll helfen, dem Fachkräftemangel in der Gesundheitsbranche zu begegnen und die Attraktivität des Klinikums als Arbeitgeber zu steigern.</p>
+      <a href="https://www.main-echo.de/region/stadt-kreis-aschaffenburg/klinikum-aschaffenburg-alzenau-testet-erstmals-homeoffice-art-8758337" target="_blank" rel="noopener" class="source-link">&#8594; Main-Echo</a>
     </div>
-    <div id="lb-6" class="lightbox-overlay"><a href="#" class="close">&#x2715;</a><img src="https://media04.meine-news.de/article/2026/07/21/9/2184139_L.webp?1784621613" alt="Mainbrücke Obernburg-Elsenfeld"></div>
+    <div id="lb-6" class="lightbox-overlay"><a href="#" class="close">&#x2715;</a><img src="https://www.main-echo.de/storage/image/7/1/8/8/6868817_nar-artikeldetail_1Go7cI_8LxZSN.jpg" alt="Klinikum Aschaffenburg-Alzenau"></div>
 
     <div class="card">
       <div class="card-media">
         <a href="#lb-7" id="img-7">
-          <img src="https://media04.meine-news.de/article/2026/07/17/7/2177797_L.webp?1784285674" alt="Staatsstraße 2317 Dammbach">
+          <img src="https://www.main-echo.de/storage/image/1/7/1/9/6869171_nar-artikeldetail_1GodQ5_K9qAre.jpg" alt="IG Metall Kundgebung Adecco">
         </a>
       </div>
       <div class="card-badges">
-        <span class="badge badge-verkehr">Verkehr</span>
-        <span class="badge badge-region">Eschau / Rohrbrunn &middot; Lkr. Miltenberg</span>
+        <span class="badge badge-wirtschaft">Wirtschaft</span>
+        <span class="badge badge-region">Karlstein &middot; Kleinostheim &middot; Lkr. Aschaffenburg</span>
       </div>
-      <h2>Staatsstraße 2317 zwischen Dammbach und Wintersbach ab 3. August voll gesperrt</h2>
-      <p>Die Staatsstraße 2317 zwischen Neuhammer und Wintersbach im Bereich Dammbach wird ab dem 3. August 2026 für dringende Instandsetzungsarbeiten voll gesperrt. Auf rund 400 Metern müssen sowohl die Fahrbahn als auch eine Stützmauer am Hammergraben grundlegend saniert werden. Bereits seit dem 14. Juli gilt auf dem Abschnitt eine halbseitige Verkehrsführung mit Baustellenampel, die Vollsperrung soll voraussichtlich bis zum 16. Oktober andauern. Das Staatliche Bauamt hat Umleitungsstrecken ausgeschildert und bittet Anwohner sowie Durchreisende um Verständnis für die Einschränkungen.</p>
-      <a href="https://www.meine-news.de/eschau/c-blaulicht/st-2317-rohrbrunn-a3-eschau-fahrbahnerneuerung-in-dammbach-zwischen-neuhammer-und-wintersbach-mit-stuetzmauersanierung-vorankuendigung-vollsperrung-ab-3-august-2026_a239761" target="_blank" rel="noopener" class="source-link">&#8594; meine-news.de</a>
+      <h2>IG Metall fordert faires Verhalten von Adecco</h2>
+      <p>Rund 300 Beschäftigte der Adecco Business Solutions GmbH an den Standorten Karlstein und Kleinostheim sollen bis Jahresende ihren Arbeitsplatz verlieren; sie übernehmen bislang Ersatzteillogistik und Verpackung für die Schaeffler Vehicle Lifetime Solutions. Die IG Metall organisierte eine Kundgebung, um auf die Situation der Belegschaft aufmerksam zu machen. Gewerkschaftsvertreter Percy Scheidler forderte das Unternehmen auf, sich „in der Krise fair zu verhalten" und den Beschäftigten echte Perspektiven zu bieten. Der neu gewählte Betriebsrat verhandelt derzeit mit der Geschäftsführung über einen Interessenausgleich und Sozialplan.</p>
+      <a href="https://www.main-echo.de/region/stadt-kreis-aschaffenburg/gewerkschaft-raet-adecco-in-der-krise-sich-fair-verhalten-art-8758661" target="_blank" rel="noopener" class="source-link">&#8594; Main-Echo</a>
     </div>
-    <div id="lb-7" class="lightbox-overlay"><a href="#" class="close">&#x2715;</a><img src="https://media04.meine-news.de/article/2026/07/17/7/2177797_L.webp?1784285674" alt="Staatsstraße 2317 Baustelle"></div>
+    <div id="lb-7" class="lightbox-overlay"><a href="#" class="close">&#x2715;</a><img src="https://www.main-echo.de/storage/image/1/7/1/9/6869171_nar-artikeldetail_1GodQ5_K9qAre.jpg" alt="IG Metall Kundgebung Adecco"></div>
 
     <div class="card">
-      <div class="card-media">
-        <a href="#lb-8" id="img-8">
-          <img src="https://www.main-echo.de/storage/image/8/9/6/7/6867698_nar-artikeldetail_1GnBbV_arqCDX.jpg" alt="Ölfilm auf der Kahl in Blankenbach">
-        </a>
-      </div>
-      <div class="card-badges">
-        <span class="badge badge-umwelt">Umwelt</span>
-        <span class="badge badge-region">Blankenbach &middot; Lkr. Aschaffenburg</span>
-      </div>
-      <h2>Ölfilm auf der Kahl sorgt für Feuerwehreinsatz in Blankenbach</h2>
-      <p>Am Montagnachmittag entdeckten Passanten einen deutlich sichtbaren Ölfilm auf der Kahl im Bereich der Brücke am Bahnhof Blankenbach. Die alarmierte Feuerwehr setzte an mehreren Stellen schwimmfähige Ölsperren ein, um ein weiteres Ausbreiten des Films flussabwärts zu verhindern. Die Untere Wasserbehörde sowie eine spezialisierte Fachfirma wurden zur Bewertung möglicher Folgeschäden hinzugezogen. Die Polizei hat inzwischen Ermittlungen zur Herkunft des Öls aufgenommen.</p>
-      <a href="https://www.main-echo.de/ressorts/blaulicht/oelfilm-auf-kahl-sorgt-fuer-feuerwehreinsatz-in-blankenbach-art-8753890" target="_blank" rel="noopener" class="source-link">&#8594; Main-Echo</a>
-    </div>
-    <div id="lb-8" class="lightbox-overlay"><a href="#" class="close">&#x2715;</a><img src="https://www.main-echo.de/storage/image/8/9/6/7/6867698_nar-artikeldetail_1GnBbV_arqCDX.jpg" alt="Ölfilm auf der Kahl"></div>
-
-    <div class="card">
-      <div class="card-badges">
-        <span class="badge badge-umwelt">Umwelt</span>
-        <span class="badge badge-region">Lkr. Main-Spessart</span>
-      </div>
-      <h2>Ausbildung zum zertifizierten Obstbaumpfleger startet im November</h2>
-      <p>Der Landkreis Main-Spessart bietet ab dem 20. November 2026 zum vierten Mal einen Lehrgang zum „Zertifizierten Obstbaumpfleger" an. Das zehnmodulige Programm vermittelt Fachwissen zu Biologie, Schnitt, Veredelung und Vermarktung von Obstbäumen und richtet sich an alle, die sich für den Erhalt der wertvollen heimischen Streuobstwiesen engagieren möchten. Der erfolgreiche Abschluss wird im Streuobstpakt Bayern anerkannt, sodass Teilnehmende künftig auch bei geförderten Pflegemaßnahmen mitwirken können. Die Kursgebühr beträgt 650 Euro, Anmeldeschluss ist der 15. Oktober 2026.</p>
-      <a href="https://www.main-spessart.de/aktuelles/pressemitteilungen/11190.Wertvolle-Streuobstwiesen-fachkundig-pflegen---Ausbildung-zum-zertifizierten-Obstbaumpfleger-startet-im-November.html" target="_blank" rel="noopener" class="source-link">&#8594; main-spessart.de</a>
-    </div>
-
-    <div class="card">
-      <div class="card-badges">
-        <span class="badge badge-umwelt">Umwelt</span>
-        <span class="badge badge-region">Lkr. Aschaffenburg</span>
-      </div>
-      <h2>Wasserampeln im Aschafftal auf Gelb: Sorge um die Grabpflege</h2>
-      <p>Wegen anhaltender Trockenheit steht die Wasserampel des Zweckverbands zur Wasserversorgung der Aschafftalgemeinden inzwischen auf Gelb, was zu sparsamem Wasserverbrauch aufruft. Für viele Angehörige bringt das einen Zielkonflikt mit sich: Sie wollen die Gräber ihrer Verstorbenen pflegen, sollen aber gleichzeitig Wasser sparen. Auf den Friedhöfen der Region diskutieren Besucherinnen und Besucher deshalb über Alternativen wie Regenwassertonnen oder pflegeleichtere, trockenheitsresistente Bepflanzung. Die Verantwortlichen appellieren an das Verständnis der Bürger, machen aber deutlich, dass bei anhaltender Trockenheit weitere Einschränkungen möglich sind.</p>
-      <a href="https://www.main-echo.de/region/stadt-kreis-aschaffenburg/mehrere-wasserampeln-im-aschafftal-auf-gelb-gibt-es-jetzt-probleme-mit-der-grabpflege-art-8746463" target="_blank" rel="noopener" class="source-link">&#8594; Main-Echo</a>
-    </div>
-
-    <div class="card">
-      <div class="card-media">
-        <a href="#lb-11" id="img-11">
-          <img src="https://media04.meine-news.de/article/2026/02/16/9/2022219_L.webp?1771230063" alt="Kultursommer Mildenburg Klangfeuerwerk">
-        </a>
-      </div>
       <div class="card-badges">
         <span class="badge badge-kultur">Kultur</span>
         <span class="badge badge-region">Miltenberg</span>
       </div>
-      <h2>Kultursommer auf der Mildenburg startet mit „Klangfeuerwerk"</h2>
-      <p>Am Montag, dem 27. Juli 2026, eröffnet um 18:30 Uhr das „Klangfeuerwerk auf der Burg" den diesjährigen Kultursommer auf der Mildenburg in Miltenberg. Schülerinnen, Schüler und Lehrkräfte der Musikschule Miltenberg präsentieren dabei ein facettenreiches Programm aus unterschiedlichen Stilrichtungen und Besetzungen. Die historische Burgkulisse bildet den stimmungsvollen Rahmen für den Konzertabend, der bei Regen ins Alte Rathaus verlegt wird. Der Eintritt ist frei, um Spenden zugunsten der Musikschule wird gebeten – in den folgenden Wochen schließen sich weitere Konzerte des Kultursommers an.</p>
-      <a href="https://www.meine-news.de/miltenberg/c-kultur/klangfeuerwerk-auf-der-burg_a227088" target="_blank" rel="noopener" class="source-link">&#8594; meine-news.de</a>
+      <h2>Der Froschkönig verzaubert zum Abschluss der Theatertage Mildenburg</h2>
+      <p>Zum 30-jährigen Jubiläum der Theatertage Mildenburg bringt das Ensemble Theaterachse am Samstag, den 25. Juli, um 16 Uhr das Grimm-Märchen „Der Froschkönig" für Kinder ab vier Jahren auf die Freilichtbühne der Burg. Musikalisch und mit viel Witz erzählt die Inszenierung von einem Prinzen, der von einer Hexe in einen Frosch verwandelt wurde, und einer Prinzessin, die ihre goldene Kugel über alle Warnungen stellt. Zeitgleich läuft bis zum selben Abend noch einmal die Abendproduktion „Cyrano de Bergerac" für Erwachsene und Jugendliche ab 12 Jahren. Karten gibt es an der Tourist-Information Miltenberg sowie online.</p>
+      <a href="https://www.theatertage-mildenburg.com/termine/" target="_blank" rel="noopener" class="source-link">&#8594; theatertage-mildenburg.com</a>
     </div>
-    <div id="lb-11" class="lightbox-overlay"><a href="#" class="close">&#x2715;</a><img src="https://media04.meine-news.de/article/2026/02/16/9/2022219_L.webp?1771230063" alt="Kultursommer Mildenburg"></div>
 
     <div class="card">
       <div class="card-badges">
-        <span class="badge badge-gesellschaft">Gesellschaft</span>
+        <span class="badge badge-bildung">Bildung</span>
         <span class="badge badge-region">Miltenberg</span>
       </div>
-      <h2>35 Jahre im Rettungsdienst: Michael Ballweg vom BRK geehrt</h2>
-      <p>Der BRK-Kreisverband Miltenberg-Obernburg hat Michael Ballweg für sein 35-jähriges Dienstjubiläum im Rettungsdienst geehrt. Seine Laufbahn begann während des Zivildienstes an der BRK-Rettungswache Miltenberg und mündete 1991 in eine Festanstellung als hauptamtlicher Rettungssanitäter. Neben dem operativen Rettungsdienst übernahm Ballweg im Lauf der Jahre zahlreiche organisatorische und technische Zusatzaufgaben im Kreisverband. Die Kreisleitung würdigte bei der Feierstunde besonders seine langjährige Treue und seinen Einsatz für die Rettungsdienstversorgung in der Region.</p>
-      <a href="https://www.meine-news.de/miltenberg/c-blaulicht/35-jahre-im-rettungsdienst-des-roten-kreuzes_a239233" target="_blank" rel="noopener" class="source-link">&#8594; meine-news.de</a>
+      <h2>Musikschule Miltenberg stellt ihre Lehrkräfte vor</h2>
+      <p>Die Musikschule Miltenberg hat eine Vorstellungsreihe gestartet, in der sich die unterrichtenden Lehrkräfte mit ihren Instrumenten und ihrem musikalischen Werdegang der Öffentlichkeit präsentieren. Ziel der Aktion ist es, angehenden Schülerinnen und Schülern sowie deren Eltern einen persönlicheren Einblick in das Kollegium und das Unterrichtsangebot zu geben. Die Reihe erscheint fortlaufend auf den Kanälen der Musikschule und ergänzt das bevorstehende Kultursommer-Programm auf der Mildenburg. Interessierte können sich direkt bei der Musikschule über freie Unterrichtsplätze informieren.</p>
+      <a href="https://www.meine-news.de/miltenberg/c-kultur/die-lehrkraefte-stellen-sich-vor_a240106" target="_blank" rel="noopener" class="source-link">&#8594; meine-news.de</a>
+    </div>
+
+    <div class="card">
+      <div class="card-badges">
+        <span class="badge badge-blaulicht">Blaulicht</span>
+        <span class="badge badge-region">Bürgstadt &middot; Großwallstadt &middot; Lkr. Miltenberg</span>
+      </div>
+      <h2>Zwei Fahrer ohne Fahrerlaubnis gestoppt</h2>
+      <p>Bei einer Verkehrskontrolle in Bürgstadt stoppte die Polizei ein Pkw-Anhänger-Gespann, dessen Fahrer keine gültige Fahrerlaubnis für diese Fahrzeugkombination besaß. Nur wenig später wurde in Großwallstadt ein weiterer Autofahrer angehalten, der ganz ohne Fahrberechtigung unterwegs war. In beiden Fällen leitete die Polizei Miltenberg ein Ermittlungsverfahren wegen Fahrens ohne Fahrerlaubnis ein. Die Kontrollen sind Teil verstärkter Verkehrsüberwachung im Landkreis in den Sommerwochen.</p>
+      <a href="https://aschaffenburg.news/bayern/landkreis-miltenberg/b%C3%BCrgstadt-polizei-stoppt-gespann-ohne-erforderliche-fahrerlaubnis.html" target="_blank" rel="noopener" class="source-link">&#8594; aschaffenburg.news</a>
     </div>
 
   </div>
@@ -552,15 +524,15 @@
 
 <footer>
   <div class="footer-inner">
-    <p>Aktualisierung: Mittwoch, 22. Juli 2026 &middot; 06:15 Uhr CEST</p>
+    <p>Aktualisierung: Donnerstag, 23. Juli 2026 &middot; 06:25 Uhr CEST</p>
     <p style="margin-top:6px;"><strong>Impressum:</strong> Coding der Seite erstellt/überwacht von Michael Bergfeld &nbsp;|&nbsp; E-Mail: <a href="mailto:info@domezos-ware.de">info@domezos-ware.de</a></p>
     <p style="margin-top:6px;font-style:italic;">Alle Angaben ohne Gewähr. Die dargestellten Inhalte sind auf die jeweiligen Quellen zurückzuführen. Für die Richtigkeit, Vollständigkeit und Aktualität der verlinkten Inhalte sind ausschließlich die Betreiber der jeweiligen Quellseiten verantwortlich.</p>
     <h3>Quellen dieser Ausgabe</h3>
     <div class="sources">
       <div><a href="https://www.main-echo.de" target="_blank" rel="noopener">Main-Echo (main-echo.de)</a></div>
       <div><a href="https://www.meine-news.de" target="_blank" rel="noopener">meine-news.de</a></div>
-      <div><a href="https://www.infranken.de" target="_blank" rel="noopener">inFranken.de</a></div>
-      <div><a href="https://www.main-spessart.de" target="_blank" rel="noopener">Landkreis Main-Spessart (main-spessart.de)</a></div>
+      <div><a href="https://aschaffenburg.news" target="_blank" rel="noopener">aschaffenburg.news</a></div>
+      <div><a href="https://www.theatertage-mildenburg.com" target="_blank" rel="noopener">Theatertage Mildenburg</a></div>
       <div><a href="https://api.brightsky.dev" target="_blank" rel="noopener">BrightSky API (DWD-Wetterdaten)</a></div>
     </div>
   </div>
