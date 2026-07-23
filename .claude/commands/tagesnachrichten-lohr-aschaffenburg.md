@@ -6,8 +6,8 @@ WORKSPACE: GitHub: domezos2024/aktuelles branch: main
 
 ## Schritt 0 – Zeitbudget (VERBINDLICH)
 
-Die gesamte Routine (Schritt 1–8) muss **innerhalb von 35 Minuten** abgeschlossen sein –
-der CI-Workflow bricht den Claude-Prozess nach 37 Minuten hart ab (Job-Timeout: 40 Minuten
+Die gesamte Routine (Schritt 1–8) muss **innerhalb von 45 Minuten** abgeschlossen sein –
+der CI-Workflow bricht den Claude-Prozess nach 47 Minuten hart ab (Job-Timeout: 50 Minuten
 gesamt inkl. Checkout). Arbeite entsprechend diszipliniert:
 
 - **Tool-Aufrufe bündeln:** Mehrere unabhängige WebSearch-/WebFetch-Aufrufe IMMER in einer
@@ -17,6 +17,11 @@ gesamt inkl. Checkout). Arbeite entsprechend diszipliniert:
   WebSearch die "richtige" URL suchen – Artikel überspringen und nächsten Kandidaten nehmen.
   meine-news.de- und infranken.de-URLs (Format `.../c-kategorie/slug_aXXXXXX`) sind über
   WebFetch zuverlässig extrahierbar und sind bei Zeitdruck vorzuziehen.
+- **WebSearch-Rate-Limit:** Trifft WebSearch auf ein Session-/Rate-Limit ("hit your session
+  limit"), NICHT auf das Tool warten oder wiederholt erneut versuchen. Stattdessen nahtlos auf
+  WebFetch umsteigen und gezielt die Kategorie-Übersichtsseiten der Kernquellen abklappern
+  (z. B. `meine-news.de/<ort>/c-<kategorie>`, `aschaffenburg.news/<region>.html`) – das liefert
+  zuverlässig echte Titel, URLs und Bilder ganz ohne WebSearch.
 - **Keine Doppelrecherche:** Wenn eine Übersichts-/Kategorieseite in Schritt 4 bereits Titel,
   Kurzfassung und ggf. og:image liefert, NICHT zusätzlich jeden einzelnen Artikel separat
   fetchen – nur bei fehlenden Pflichtangaben (z. B. Bild explizit gewünscht, Zusammenfassung
@@ -25,10 +30,17 @@ gesamt inkl. Checkout). Arbeite entsprechend diszipliniert:
   YouTube-Video suchen, nicht für alle 20. Kein Video gefunden → Feld einfach weglassen.
 - **Zielgröße statt Bereich:** Ziel sind genau 20 Meldungen (nicht 20–25) – bei 20 soliden,
   verifizierten Kandidaten die Recherche beenden, nicht weitersammeln.
-- **Budget-Notbremse:** Ist etwa die Hälfte des Zeitbudgets (≈17 Minuten) verstrichen und
+- **Mindestanforderung (HARTE UNTERGRENZE):** Die finale Auswahl muss IMMER **mehr als 10,
+  mindestens 12** solide, verifizierte Meldungen enthalten – ein Abschluss mit 10 oder weniger
+  ist kein akzeptables Ergebnis der Routine.
+- **Budget-Notbremse:** Ist etwa die Hälfte des Zeitbudgets (≈22 Minuten) verstrichen und
   liegen noch keine 20 Meldungen vor, mit dem vorhandenen Bestand weiterarbeiten (auch bei
-  z. B. 15–18 Meldungen) statt weiter zu recherchieren. Lieber pünktlich mit etwas weniger
-  Meldungen fertig werden als das Zeitbudget zu sprengen.
+  z. B. 15–18 Meldungen) statt weiter zu recherchieren – **aber nur, wenn bereits mindestens
+  12 Meldungen vorliegen**. Liegen zu diesem Zeitpunkt weniger als 12 solide Kandidaten vor,
+  Recherche in kompakten, gebündelten WebFetch-Batches (siehe Rate-Limit-Hinweis oben)
+  fortsetzen, bis die Untergrenze von 12 erreicht ist – dafür darf das 45-Minuten-Budget maßvoll
+  überzogen werden; harte Grenze bleibt der 47-Minuten-CI-Abbruch. Lieber wenige Minuten länger
+  brauchen als mit 10 oder weniger Meldungen fertig werden.
 - **Bild-/URL-Verifikation:** Ein einzelner HTTP-Check pro eingebundenem Bild reicht (nicht
   zusätzlich noch alle 20 Quell-URLs einzeln per curl gegenprüfen) – WebFetch/WebSearch haben
   die URL bereits durch erfolgreichen Seitenabruf verifiziert.
@@ -91,6 +103,7 @@ Für jede Meldung:
 - Prioritäten: Blaulicht/Kriminalität > Politik > Wirtschaft > Gesellschaft/Kultur/Sport
 - Ziel: 20 echte, von den letzten 10 Tagen VERSCHIEDENE Meldungen (≤48h alt) – siehe
   Zeitbudget-Notbremse in Schritt 0, falls das nicht ohne Zeitüberschreitung erreichbar ist
+- Harte Untergrenze: NIE mit 10 oder weniger Meldungen abschließen – mindestens 12
 - Keine URL, kein Thema/Ereignis das bereits in einem der letzten 10 Journal-Einträge steht
 - Bei Zweifeln: Schlagwort aus journal.md mit Suchbegriff abgleichen, lieber eine neue Meldung wählen
 
@@ -174,7 +187,7 @@ Dann:
 ## Qualitätskriterien
 
 - Ziel: 20 echte, verifizierte Meldungen (anders als die letzten 10 Tage); bei knappem
-  Zeitbudget greift die Notbremse aus Schritt 0 (lieber pünktlich mit etwas weniger)
+  Zeitbudget greift die Notbremse aus Schritt 0 – aber NIE unter 12 Meldungen abschließen
 - Kein Dummy-Inhalt, keine Platzhalter
 - **Bilder/Videos:** Echte URLs verwenden (og:image, img-Tag, YouTube-Thumbnail). Kein gefundenes Bild → keine Medien-Box (besser leer als Platzhalter)
 - **CSS-Lightbox** für Bilder funktioniert ohne JavaScript (`:target`-Selektor)
