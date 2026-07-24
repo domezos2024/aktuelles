@@ -1,9 +1,9 @@
 # Tagesnachrichten Lohr · Aschaffenburg · Main-Spessart
 Workspace: domezos2024/aktuelles, branch main. Regeln + Quellen: → CLAUDE.md
 
-**Problembehandlung - falls ein Problem, fehler oder neue Erkenntnis auftaucht**
-- frage Dich: Wieso ist das Problem aufgetreten? Warum wurde dieser Weg gewählt, was ist das Ziel? Was ist die bessere, funktionierende Methode um das gewollte Ziel zu erreichen?
-- merke Dir in der CLAUDE.md den Workaround bzw. die Problemlösung oder Erkenntnis für zukünftige Runs unter den Punkten `## mache dies` und `## mache dies nicht` mit Erklärung wieso
+## Problembehandlung - falls ein **Problem, fehler oder neue Erkenntnis auftaucht**
+- **frage Dich:** Wieso ist das Problem aufgetreten? Warum wurde dieser Weg gewählt, was ist das Ziel? Was ist die bessere, funktionierende Methode um das gewollte Ziel zu erreichen?
+- **merke Dir:** in der `CLAUDE.md` den Workaround bzw. die Problemlösung oder Erkenntnis für zukünftige Runs unter den Punkten `## mache dies` und `## mache dies nicht` mit Erklärung wieso
 
 ## S0 – Zeitregeln (45 Min. / CI-Abbruch bei 47 Min.)
 - Alle parallelen Calls in EINEM Turn bündeln, nie sequenziell
