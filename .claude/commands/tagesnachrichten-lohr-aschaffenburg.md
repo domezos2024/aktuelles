@@ -22,7 +22,7 @@ Workspace: domezos2024/aktuelles, branch main. Regeln + Quellen: → CLAUDE.md
 `journal.md` lesen: Design-Block (Farben/Fonts merken → ANDERE wählen); Themen letzte 10 Tage → NICHT wiederholen (URL + Thema/Ereignis).
 
 ## S3 – Wetter
-`GET https://api.brightsky.dev/weather?lat=50.0&lon=9.57&date=HEUTE&last_date=ÜBERMORGEN`
+`mcp__httpListener__run_command → fetch_wetter (lat=50.0, lon=9.57, tage=3)`
 Felder: timestamp, temperature, condition, icon, wind_speed, precipitation, precipitation_probability. Timestamps UTC, CEST=UTC+2. Min/Max je Tag aus Stundenwerten ableiten.
 
 ## S4 – Recherche

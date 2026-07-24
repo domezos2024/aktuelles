@@ -19,23 +19,13 @@ Branch `claude/*`, Titel „Tagesnachrichten YYYY-MM-DD – HH:MM Uhr CEST":
 *(Lessons learned, Workarounds – bei Bedarf aktualisieren)*
 
 ## recherchieren
-Direkt WebFetch (kein WebSearch nötig) – alle parallel in EINEM Turn absetzen:
+**1 MCP-Call** statt 9 WebFetch-Calls:
+`mcp__httpListener__run_command → fetch_nachrichten (max_alter_stunden: 48)`
 
-**Blaulicht (Prio 1):**
-- `https://www.meine-news.de/landkreis-main-spessart/c-blaulicht`
-- `https://www.meine-news.de/landkreis-aschaffenburg/c-blaulicht`
-- `https://www.meine-news.de/landkreis-miltenberg/c-blaulicht`
-
-**Allgemein/Lokal:**
-- `https://www.meine-news.de/aschaffenburg`
-- `https://www.meine-news.de/lohr-am-main`
-- `https://aschaffenburg.news/aktuelles.html`
-- `https://www.infranken.de/lk/aschaffenburg/uebersicht/`
-- `https://www.infranken.de/lk/main-spessart/uebersicht/`
-- `https://main-spessart.de/aktuelles/pressemitteilungen`
+Liefert alle Meldungen aus Blaulicht + Allgemein/Lokal in einem Schritt zurück.
 
 **GESPERRT:** `main-echo.de` → Paywall/Werbung, kein nutzbarer Inhalt. Alle URLs ignorieren.
 
 **Erfahrungen:**
 - meine-news.de + infranken.de: og:image + Kurzfassung direkt aus Übersicht → kein Nachfetchen nötig
-- Alle Aufrufe parallel → spart erheblich Zeit und Token
+- fetch_nachrichten-Ergebnis enthält Blaulicht (Prio 1) + Allgemein/Lokal in einem Aufruf
