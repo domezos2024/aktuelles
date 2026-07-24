@@ -20,7 +20,7 @@ Branch `claude/*`, Titel „Tagesnachrichten YYYY-MM-DD – HH:MM Uhr CEST":
 
 ## recherchieren
 **1 MCP-Call** statt 9 WebFetch-Calls:
-`mcp__httpListener__run_command → fetch_nachrichten (max_alter_stunden: 48)`
+`mcp__httpListener__run_command (`https://domezos-ware.de/mcp`) → fetch_nachrichten (max_alter_stunden: 48)`
 
 Liefert alle Meldungen aus Blaulicht + Allgemein/Lokal in einem Schritt zurück.
 
