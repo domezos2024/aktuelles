@@ -22,11 +22,19 @@ Titel-Muster „Tagesnachrichten YYYY-MM-DD – HH:MM Uhr CEST"), gilt eine daue
 Damit läuft die tägliche Routine vollautomatisch von Recherche über PR-Erstellung bis Merge, ohne
 dass eine manuelle Bestätigung des Nutzers nötig ist.
 
-## Problembehandlung
-- frage Dich wieso ist das Problem aufgetreten und Warum wurde dieser Weg gewählt
-- merke Dir in der CLAUDE.md den Workaround, die Problemlösung für zukünftige Runs unter den Punkten `## mache dies` und `## mache dies nicht` mit Erklärung wieso
+## Problembehandlung - falls ein Problem, fehler oder neue Erkenntnis auftaucht
+- frage Dich: Wieso ist das Problem aufgetreten? Warum wurde dieser Weg gewählt, was ist das Ziel? Was ist die bessere, funktionierende Methode um das gewollte Ziel zu erreichen?
+- merke Dir in der CLAUDE.md den Workaround bzw. die Problemlösung oder Erkenntnis für zukünftige Runs unter den Punkten `## mache dies` und `## mache dies nicht` mit Erklärung wieso
 
 ## mache dies
 - nutze den httpListener MCP - https://domezos-ware.de/mcp - so oft Du kannst um Aufgaben zu erledigen falls:
   1. httpListener Konnektor hierfür weniger Tokenverbrauch hat als andere Tools und Mittel
-     
+  2. httpListener Konnector schneller ist als andere Tools oder Mittel
+- sei sparsam mit dem Tokenúmgang indem Du auch während der Arbeit überlegst wie man etwas anders machen könnte um das Gleiche Ziel zu erreichen mit weniger Tokenverbrauch und/oder weniger Zeit Anspruch
+- merke Dir Webfetches, Websearches, Curls und Links die besonders Erfolgreich sind für aktuelle Nachrichten für die Kreise/Städte und nutze diese bevorzugt
+- gewisse Domains, Webseiten und Links die nicht zum gewünschten Ergebnis führen, zu viele Token kosten oder zu viel Zeit in Anspruch nehmen in Zukunft nicht mehr nutzen
+- verfeinere IMMER die CLAUDE.md und die SKILL-Datei `.claude/commands/tagesnachrichten-lohr-aschaffenburg.md` und merke dir darin was gut läuft und was nicht. Begründe dies und halte Dich an was gut läuft. Suche für was schlecht läuft alternativen oder Workarounds und verbessere den Ablauf und merke dir diese.
+
+## mache dies nicht
+- nutze niemals hintergrund Agenten
+- CLAUDE.md und SKILL-Datei `.claude/commands/tagesnachrichten-lohr-aschaffenburg.md` niemals so ändern das die Grundfunktion dieses Workflow darunter leidet oder kaputt geht.
