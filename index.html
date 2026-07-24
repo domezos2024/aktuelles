@@ -8,474 +8,443 @@
 <style>
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
 html{scroll-behavior:smooth}
-body{font-family:Georgia,'Times New Roman',serif;background:#FFF8F0;color:#2C1810;font-size:16px;line-height:1.6}
+body{font-family:'Segoe UI',system-ui,-apple-system,sans-serif;background:#F0F7F4;color:#1a2e2c;min-height:100vh}
 
-header{background:linear-gradient(135deg,#6B0E0E 0%,#A93226 30%,#D35400 65%,#F39C12 100%);color:#fff;padding:0;position:relative}
-.header-inner{max-width:1280px;margin:0 auto;padding:18px 20px 14px;display:flex;align-items:center;gap:18px;flex-wrap:wrap}
-.header-logo{width:70px;height:70px;border-radius:50%;object-fit:cover;border:3px solid rgba(255,255,255,0.7);flex-shrink:0}
-.header-text{flex:1;min-width:200px}
-.header-text h1{font-size:clamp(1.2rem,3vw,2rem);font-weight:bold;letter-spacing:0.03em;text-shadow:0 2px 6px rgba(0,0,0,0.4);line-height:1.2}
-.header-text .subtitle{font-size:0.9rem;opacity:0.9;margin-top:4px;font-style:italic}
-.header-datetime{text-align:right;font-size:0.9rem;opacity:0.92;line-height:1.5;min-width:200px}
-.header-datetime .bigtime{font-size:1.5rem;font-weight:bold;display:block}
+/* Header */
+.site-header{background:linear-gradient(135deg,#005F73 0%,#0A9396 35%,#94D2BD 70%,#E9D8A6 100%);padding:1.4rem 1.2rem 1.1rem;color:#fff}
+.header-top{display:flex;align-items:center;gap:1rem;flex-wrap:wrap}
+.logo{height:54px;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,.25)}
+.header-title{flex:1;min-width:200px}
+.header-title h1{font-size:clamp(1rem,2.5vw,1.5rem);font-weight:700;text-shadow:0 1px 3px rgba(0,0,0,.35);line-height:1.2}
+.header-meta{font-size:.8rem;margin-top:.3rem;opacity:.92}
+.season-box{margin-top:.9rem;background:rgba(255,255,255,.18);border-radius:10px;padding:.7rem 1rem;font-size:.85rem;line-height:1.5;backdrop-filter:blur(4px)}
+.season-box strong{color:#E9D8A6}
 
-.container{max-width:1280px;margin:0 auto;padding:0 16px}
+/* Weather */
+.weather-section{background:#fff;border-radius:12px;margin:1rem;box-shadow:0 2px 10px rgba(0,95,115,.10);overflow:hidden}
+.weather-title{background:#005F73;color:#fff;padding:.6rem 1rem;font-size:.9rem;font-weight:600}
+.weather-scroll-wrap{overflow-x:auto;-webkit-overflow-scrolling:touch}
+.weather-hours{display:flex;gap:.5rem;padding:.7rem;min-width:max-content}
+.wh-card{background:#F0F7F4;border-radius:8px;padding:.45rem .6rem;text-align:center;min-width:62px;border-top:3px solid #0A9396}
+.wh-card .wh-time{font-size:.68rem;color:#005F73;font-weight:600}
+.wh-card .wh-icon{font-size:1.1rem;display:block;margin:.15rem 0}
+.wh-card .wh-temp{font-size:.82rem;font-weight:700;color:#1a2e2c}
+.wh-card .wh-wind{font-size:.62rem;color:#5a7a78}
+.weather-days{display:grid;grid-template-columns:repeat(3,1fr);gap:.5rem;padding:.7rem;border-top:1px solid #e4eded}
+.wd-card{background:#F0F7F4;border-radius:8px;padding:.6rem;text-align:center;border-top:3px solid #94D2BD}
+.wd-card .wd-label{font-size:.72rem;color:#005F73;font-weight:700;text-transform:uppercase}
+.wd-card .wd-icon{font-size:1.4rem;display:block;margin:.25rem 0}
+.wd-card .wd-temps{font-size:.82rem;font-weight:700}
+.wd-card .wd-min{color:#0A9396}.wd-card .wd-max{color:#CA6702}
 
-.events-section{background:linear-gradient(135deg,#4A0000 0%,#7B1D1D 50%,#B7770D 100%);color:#FFF8E7;padding:20px 0}
-.events-section h2{font-size:1.1rem;text-align:center;margin-bottom:14px;letter-spacing:0.1em;text-transform:uppercase;opacity:0.85;font-style:italic}
-.events-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:14px}
-.event-card{background:rgba(255,255,255,0.1);border:1px solid rgba(255,215,100,0.4);border-radius:10px;padding:14px 16px}
-.event-card .event-badge{display:inline-block;background:#F39C12;color:#2C1810;font-size:0.7rem;font-weight:bold;padding:2px 8px;border-radius:20px;margin-bottom:6px;text-transform:uppercase;letter-spacing:0.05em}
-.event-card h3{font-size:1rem;margin-bottom:5px;color:#FFD700}
-.event-card p{font-size:0.82rem;opacity:0.9;line-height:1.5}
-
-.section-title{font-size:1.35rem;color:#6B0E0E;border-left:5px solid #D35400;padding-left:14px;margin:28px 0 16px;font-style:italic}
-
-.weather-section{background:#FFF3E8;padding:20px 0 24px;border-bottom:3px solid #D35400}
-.weather-days-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:14px;margin-bottom:20px}
-.weather-day-card{background:#fff;border:2px solid #D35400;border-radius:10px;padding:14px;text-align:center}
-.weather-day-card .day-label{font-size:0.85rem;font-weight:bold;color:#A93226;text-transform:uppercase;letter-spacing:0.05em;margin-bottom:8px}
-.weather-day-card .day-icon{font-size:2.4rem;margin:4px 0}
-.weather-day-card .day-temps{font-size:1.1rem;font-weight:bold;color:#2C1810;margin:6px 0}
-.weather-day-card .day-temps span{color:#A93226}
-.weather-day-card .day-desc{font-size:0.8rem;color:#555;margin-top:4px}
-
-.hourly-scroll{overflow-x:auto;border:1px solid #D35400;border-radius:10px;background:#fff;padding:12px 0 8px}
-.hourly-table{border-collapse:collapse;white-space:nowrap;font-size:0.82rem;min-width:900px;width:100%}
-.hourly-table th{background:#A93226;color:#fff;padding:6px 10px;text-align:center;font-weight:bold;font-size:0.78rem}
-.hourly-table td{padding:5px 10px;text-align:center;border-bottom:1px solid #f0e0d0}
-.hourly-table tr:nth-child(even) td{background:#FFF8F0}
-.hourly-table tr:hover td{background:#FFE8D6}
-.w-icon{font-size:1.2rem}
-
-.news-section{padding:10px 0 30px}
-.news-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+/* News grid */
+.news-section{padding:1rem;margin:0 auto;max-width:1280px}
+.news-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1rem}
 @media(max-width:900px){.news-grid{grid-template-columns:repeat(2,1fr)}}
 @media(max-width:580px){.news-grid{grid-template-columns:1fr}}
 
-.news-card{background:#fff;border-radius:10px;border-top:4px solid #A93226;box-shadow:0 2px 10px rgba(107,14,14,0.08);padding:0;display:flex;flex-direction:column;overflow:hidden}
-.news-card:hover{box-shadow:0 4px 18px rgba(107,14,14,0.18)}
-.card-body{padding:14px 16px 16px;flex:1;display:flex;flex-direction:column}
-.card-badges{margin-bottom:8px;display:flex;gap:6px;flex-wrap:wrap}
-.badge{display:inline-block;font-size:0.68rem;font-weight:bold;padding:2px 9px;border-radius:20px;text-transform:uppercase;letter-spacing:0.04em;color:#fff}
-.badge-blaulicht{background:#C0392B}
-.badge-gesellschaft{background:#1A5276}
-.badge-wirtschaft{background:#117A65}
-.badge-verkehr{background:#784212}
-.badge-kultur{background:#76448A}
-.badge-bildung{background:#154360}
-.badge-veranstaltung{background:#B7950B;color:#2C1810}
-.badge-gesundheit{background:#1D6A39}
-.badge-politik{background:#6E2F0A}
-.badge-freizeit{background:#1E6B3E}
-.badge-kriminalitaet{background:#922B21}
-.badge-region{background:#1A5276}
-.card-title{font-size:1rem;font-weight:bold;color:#3D0C0C;margin-bottom:8px;line-height:1.35}
-.card-summary{font-size:0.84rem;color:#444;flex:1;line-height:1.55;margin-bottom:12px}
-.card-link{display:inline-block;color:#A93226;font-size:0.8rem;font-weight:bold;text-decoration:none;border-bottom:1px solid #D35400;padding-bottom:1px}
-.card-link:hover{color:#6B0E0E;border-color:#6B0E0E}
+.news-card{background:#fff;border-radius:12px;border-top:4px solid #0A9396;box-shadow:0 2px 8px rgba(0,95,115,.09);overflow:hidden;display:flex;flex-direction:column}
+.card-body{padding:.85rem;flex:1;display:flex;flex-direction:column;gap:.45rem}
+.badge-row{display:flex;gap:.4rem;flex-wrap:wrap;align-items:center}
+.badge{font-size:.65rem;font-weight:700;padding:.2rem .5rem;border-radius:20px;letter-spacing:.3px;text-transform:uppercase}
+.b-blaulicht{background:#1565C0;color:#fff}
+.b-justiz{background:#6A1B9A;color:#fff}
+.b-gesundheit{background:#1B5E20;color:#fff}
+.b-wirtschaft{background:#E65100;color:#fff}
+.b-umwelt{background:#2E7D32;color:#fff}
+.b-region-ms{background:#005F73;color:#fff}
+.b-region-ab{background:#CA6702;color:#fff}
+.b-region-lohr{background:#0A9396;color:#fff}
+.b-region-reg{background:#546E7A;color:#fff}
+.b-region-lkrab{background:#33691E;color:#fff}
+.card-img-wrap{float:right;margin:0 0 .4rem .6rem}
+.card-img-wrap a img{width:120px;height:90px;object-fit:cover;border-radius:6px;display:block}
+.card-title{font-size:.93rem;font-weight:700;color:#005F73;line-height:1.35}
+.card-summary{font-size:.8rem;color:#334;line-height:1.5;flex:1}
+.card-link{font-size:.75rem;color:#0A9396;font-weight:600;text-decoration:none;align-self:flex-end;margin-top:.3rem}
+.card-link:hover{text-decoration:underline}
+.clearfix::after{content:"";display:table;clear:both}
 
-.newsletter-section{background:linear-gradient(135deg,#6B0E0E,#A93226);color:#fff;padding:28px 0;margin:10px 0}
-.newsletter-inner{max-width:600px;margin:0 auto;padding:0 16px;text-align:center}
-.newsletter-inner h2{font-size:1.4rem;margin-bottom:8px;font-style:italic}
-.newsletter-inner p{font-size:0.88rem;opacity:0.9;margin-bottom:18px}
-.nl-form{display:flex;gap:10px;flex-wrap:wrap;justify-content:center}
-.nl-form input[type=email]{flex:1;min-width:220px;padding:10px 16px;border:none;border-radius:6px;font-size:0.95rem;font-family:inherit;outline:none;color:#2C1810}
-.nl-form input[type=email]:focus{box-shadow:0 0 0 3px rgba(243,156,18,0.5)}
-.nl-form button{background:#F39C12;color:#2C1810;border:none;padding:10px 24px;border-radius:6px;font-size:0.95rem;font-weight:bold;font-family:inherit;cursor:pointer}
-.nl-form button:hover{background:#D68910}
-.nl-note{font-size:0.74rem;opacity:0.75;margin-top:10px}
+/* Lightbox */
+.lb-overlay{display:none;position:fixed;top:0;left:0;width:100%;height:100%;background:rgba(0,0,0,.88);z-index:9000;align-items:center;justify-content:center;padding:1rem}
+.lb-overlay:target{display:flex}
+.lb-overlay img{max-width:90vw;max-height:90vh;border-radius:8px;box-shadow:0 4px 30px rgba(0,0,0,.6)}
+.lb-close{position:absolute;top:1rem;right:1.5rem;color:#fff;font-size:2rem;text-decoration:none;font-weight:300;line-height:1}
 
-footer{background:#2C1810;color:#D9B99B;padding:24px 0 16px;font-size:0.82rem}
-.footer-inner{max-width:1280px;margin:0 auto;padding:0 16px}
-.footer-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px;margin-bottom:16px}
-.footer-col h4{color:#F39C12;margin-bottom:8px;font-size:0.88rem;text-transform:uppercase;letter-spacing:0.07em}
-.footer-col ul{list-style:none}
-.footer-col ul li{margin-bottom:3px}
-.footer-col ul li a{color:#D9B99B;text-decoration:none}
-.footer-col ul li a:hover{color:#F39C12}
-.footer-bottom{border-top:1px solid #4A2C18;padding-top:12px;text-align:center;font-size:0.78rem;color:#A07050;line-height:1.7}
-.footer-bottom a{color:#D9B99B;text-decoration:none}
-.footer-bottom a:hover{color:#F39C12}
+/* Newsletter */
+.newsletter-section{background:linear-gradient(135deg,#005F73,#0A9396);color:#fff;margin:1rem;border-radius:12px;padding:1.4rem 1.2rem;box-shadow:0 3px 15px rgba(0,95,115,.25)}
+.newsletter-section h2{font-size:1.1rem;margin-bottom:.35rem}
+.newsletter-section p{font-size:.82rem;opacity:.9;margin-bottom:.9rem}
+.nl-form{display:flex;gap:.5rem;flex-wrap:wrap}
+.nl-form input[type=email]{flex:1;min-width:200px;padding:.55rem .8rem;border-radius:8px;border:none;font-size:.9rem;background:rgba(255,255,255,.95)}
+.nl-form button{background:#EE9B00;color:#fff;border:none;padding:.55rem 1.1rem;border-radius:8px;font-weight:700;cursor:pointer;font-size:.9rem;white-space:nowrap}
+.nl-form button:hover{background:#CA6702}
 
-@media(max-width:640px){
-  .header-datetime{min-width:unset;text-align:left;width:100%}
-  .nl-form{flex-direction:column}
-  .nl-form input[type=email],.nl-form button{width:100%}
-}
-@media(prefers-color-scheme:dark){
-  body{background:#1A0A08;color:#E8D0B8}
-  .news-card{background:#2C1810;border-top-color:#D35400;box-shadow:0 2px 10px rgba(0,0,0,0.3)}
-  .card-title{color:#F8C8A0}
-  .card-summary{color:#C8A888}
-  .hourly-table td{border-bottom-color:#3D1810}
-  .hourly-table tr:nth-child(even) td{background:#2C1810}
-  .hourly-table tr:hover td{background:#3D1810}
-  .weather-day-card{background:#2C1810;border-color:#D35400}
-  .weather-day-card .day-temps{color:#F8C8A0}
-  .weather-day-card .day-desc{color:#C8A888}
-  .weather-section{background:#1A0A08}
-}
+/* Footer */
+footer{background:#012f38;color:#94D2BD;padding:1.2rem 1rem;font-size:.75rem;line-height:1.7;margin-top:.5rem}
+footer a{color:#E9D8A6}
+.footer-sources{margin-top:.5rem;opacity:.75;font-size:.68rem}
 </style>
 </head>
 <body>
 <img src="visit_counter.php" alt="" width="1" height="1" style="display:none" aria-hidden="true">
 
-<header>
-  <div class="header-inner">
-    <img src="file_000000002f8872469668704c39f1eaf6.jpg" alt="Logo Tagesnachrichten" class="header-logo">
-    <div class="header-text">
-      <h1>Tagesnachrichten – Lohr am Main &amp; Aschaffenburg</h1>
-      <div class="subtitle">Main-Spessart · Lkr. Aschaffenburg · Lkr. Miltenberg · Region Unterfranken</div>
-    </div>
-    <div class="header-datetime">
-      <span class="bigtime">08:41 Uhr CEST</span>
-      Freitag, 24. Juli 2026
+<header class="site-header">
+  <div class="header-top">
+    <img src="file_000000002f8872469668704c39f1eaf6.jpg" alt="Logo" class="logo">
+    <div class="header-title">
+      <h1>Freitag, 24. Juli 2026 · 18:01:53 Uhr CEST · Nachrichten – Lohr am Main &amp; Aschaffenburg mit Lkr. Main-Spessart</h1>
+      <div class="header-meta">Ausgabe 3 · Ozean-Tiefe &amp; Sommerbrise · Bayern-Sommerferien ab 3. August</div>
     </div>
   </div>
-</div>
+  <div class="season-box">
+    ☀️ <strong>Hochsommer im Spessart:</strong> Heute bis 26 °C, morgen Samstag sogar bis 30 °C – perfektes Wetter für Ausflüge und Feste. Die <strong>Spessartfestwoche Lohr</strong> läuft noch, ebenso das <strong>Homburger Weinfest</strong> (noch bis 26. Juli und 30. Juli–2. August). Bayerische Sommerferien starten am <strong>3. August</strong> – nur noch 10 Tage! Vorsicht: Hohe Waldbrandgefahr in Unterfranken.
+  </div>
 </header>
 
-<section class="events-section">
-  <div class="container">
-    <h2>&#127881; Aktuelle Veranstaltungen &amp; saisonale Termine</h2>
-    <div class="events-grid">
-      <div class="event-card">
-        <span class="event-badge">Heute bis 26. Juli</span>
-        <h3>&#127863; Homburger Weinfest</h3>
-        <p>Das traditionsreiche Weinfest in Homburg am Main lockt mit regionalen Weinen und Schoppenwein-Atmosphäre direkt am Main. Drei Tage Genuss, Musik und geselliges Beisammensein – der Höhepunkt des Weinfrühlings an der Region.</p>
-      </div>
-      <div class="event-card">
-        <span class="event-badge">Morgen 25.–26. Juli</span>
-        <h3>&#127749; Altstadtfest Aschaffenburg</h3>
-        <p>Das beliebte Altstadtfest verwandelt die historische Innenstadt Aschaffenburgs in eine riesige Festmeile. Bühnen, Händler, Kulinarik und Unterhaltung für die ganze Familie – ein Highlight des Sommers am Untermain.</p>
-      </div>
-      <div class="event-card">
-        <span class="event-badge">Läuft aktuell</span>
-        <h3>&#127920; Spessartfestwoche Lohr</h3>
-        <p>Die Spessartfestwoche 2026 in Lohr am Main ist in vollem Gange. Mit Theater, Konzerten, Festzelt und Familienangeboten rund um das Lohrer Stadtgebiet. Familie Widmann feiert ihr 50-jähriges Jubiläum als Caterer.</p>
-      </div>
-      <div class="event-card">
-        <span class="event-badge">Ab 3. August</span>
-        <h3>&#127958; Bayern Sommerferien 2026</h3>
-        <p>In knapp zehn Tagen beginnen die bayerischen Sommerferien 2026 – vom 3. August bis 14. September. Die Region erwartet erhöhtes Verkehrsaufkommen, besonders auf der A3. Reisende sollten früh starten und Alternativen einplanen.</p>
-      </div>
-    </div>
-  </div>
-</section>
-
+<!-- Wetter -->
 <section class="weather-section">
-  <div class="container">
-    <h2 class="section-title">&#9925; Wetter – Lohr &amp; Region (DWD-Daten via BrightSky)</h2>
-    <div class="weather-days-grid">
-      <div class="weather-day-card">
-        <div class="day-label">Heute – Fr., 24. Juli</div>
-        <div class="day-icon">&#9925;</div>
-        <div class="day-temps">Min: 9°C – Max: <span>25°C</span></div>
-        <div class="day-desc">Wechselnd bewölkt, trocken<br>Wind SW 10–20 km/h · Niederschlag: 0 mm</div>
-      </div>
-      <div class="weather-day-card">
-        <div class="day-label">Samstag, 25. Juli</div>
-        <div class="day-icon">&#9728;</div>
-        <div class="day-temps">Min: 16°C – Max: <span>29°C</span></div>
-        <div class="day-desc">Überwiegend sonnig, warm<br>Wind SW auffrischend · Niederschlag: 0 mm</div>
-      </div>
-      <div class="weather-day-card">
-        <div class="day-label">Sonntag, 26. Juli</div>
-        <div class="day-icon">&#9928;</div>
-        <div class="day-temps">Min: 17°C – Max: <span>31°C</span></div>
-        <div class="day-desc">Sonnig und heiß<br>Gewittergefahr abends · Spuren Niederschlag möglich</div>
-      </div>
+  <div class="weather-title">☁️ Wetter Lohr am Main – Heute &amp; Vorschau</div>
+  <div class="weather-scroll-wrap">
+    <div class="weather-hours">
+      <div class="wh-card"><span class="wh-time">18 Uhr</span><span class="wh-icon">☀️</span><span class="wh-temp">24 °C</span><span class="wh-wind">7 km/h</span></div>
+      <div class="wh-card"><span class="wh-time">19 Uhr</span><span class="wh-icon">☀️</span><span class="wh-temp">23 °C</span><span class="wh-wind">6 km/h</span></div>
+      <div class="wh-card"><span class="wh-time">20 Uhr</span><span class="wh-icon">☀️</span><span class="wh-temp">21 °C</span><span class="wh-wind">6 km/h</span></div>
+      <div class="wh-card"><span class="wh-time">21 Uhr</span><span class="wh-icon">☀️</span><span class="wh-temp">19 °C</span><span class="wh-wind">4 km/h</span></div>
+      <div class="wh-card"><span class="wh-time">22 Uhr</span><span class="wh-icon">☀️</span><span class="wh-temp">18 °C</span><span class="wh-wind">4 km/h</span></div>
+      <div class="wh-card"><span class="wh-time">23 Uhr</span><span class="wh-icon">🌙</span><span class="wh-temp">17 °C</span><span class="wh-wind">2 km/h</span></div>
+      <div class="wh-card"><span class="wh-time">00 Uhr</span><span class="wh-icon">🌙</span><span class="wh-temp">15 °C</span><span class="wh-wind">4 km/h</span></div>
+      <div class="wh-card"><span class="wh-time">01 Uhr</span><span class="wh-icon">🌙</span><span class="wh-temp">14 °C</span><span class="wh-wind">4 km/h</span></div>
+      <div class="wh-card"><span class="wh-time">02 Uhr</span><span class="wh-icon">🌙</span><span class="wh-temp">14 °C</span><span class="wh-wind">4 km/h</span></div>
+      <div class="wh-card"><span class="wh-time">03 Uhr</span><span class="wh-icon">🌙</span><span class="wh-temp">13 °C</span><span class="wh-wind">4 km/h</span></div>
+      <div class="wh-card"><span class="wh-time">04 Uhr</span><span class="wh-icon">🌙</span><span class="wh-temp">13 °C</span><span class="wh-wind">4 km/h</span></div>
+      <div class="wh-card"><span class="wh-time">05 Uhr</span><span class="wh-icon">🌤️</span><span class="wh-temp">14 °C</span><span class="wh-wind">4 km/h</span></div>
+      <div class="wh-card"><span class="wh-time">06 Uhr</span><span class="wh-icon">☀️</span><span class="wh-temp">16 °C</span><span class="wh-wind">4 km/h</span></div>
+      <div class="wh-card"><span class="wh-time">07 Uhr</span><span class="wh-icon">☀️</span><span class="wh-temp">18 °C</span><span class="wh-wind">4 km/h</span></div>
+      <div class="wh-card"><span class="wh-time">08 Uhr</span><span class="wh-icon">☀️</span><span class="wh-temp">21 °C</span><span class="wh-wind">6 km/h</span></div>
+      <div class="wh-card"><span class="wh-time">09 Uhr</span><span class="wh-icon">☀️</span><span class="wh-temp">23 °C</span><span class="wh-wind">6 km/h</span></div>
+      <div class="wh-card"><span class="wh-time">10 Uhr</span><span class="wh-icon">☀️</span><span class="wh-temp">25 °C</span><span class="wh-wind">9 km/h</span></div>
+      <div class="wh-card"><span class="wh-time">11 Uhr</span><span class="wh-icon">☀️</span><span class="wh-temp">27 °C</span><span class="wh-wind">9 km/h</span></div>
+      <div class="wh-card"><span class="wh-time">12 Uhr</span><span class="wh-icon">☀️</span><span class="wh-temp">28 °C</span><span class="wh-wind">11 km/h</span></div>
+      <div class="wh-card"><span class="wh-time">13 Uhr</span><span class="wh-icon">☀️</span><span class="wh-temp">29 °C</span><span class="wh-wind">13 km/h</span></div>
+      <div class="wh-card"><span class="wh-time">14 Uhr</span><span class="wh-icon">☀️</span><span class="wh-temp">29 °C</span><span class="wh-wind">13 km/h</span></div>
+      <div class="wh-card"><span class="wh-time">15 Uhr</span><span class="wh-icon">☀️</span><span class="wh-temp">30 °C</span><span class="wh-wind">13 km/h</span></div>
+      <div class="wh-card"><span class="wh-time">16 Uhr</span><span class="wh-icon">☀️</span><span class="wh-temp">29 °C</span><span class="wh-wind">13 km/h</span></div>
     </div>
-    <div class="hourly-scroll">
-      <table class="hourly-table">
-        <thead>
-          <tr>
-            <th>Uhrzeit CEST</th><th>Wetter</th><th>Temp. °C</th><th>Wind km/h</th><th>Richtung</th><th>Niederschlag</th><th>Wahrsch. %</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr><td>00:00</td><td class="w-icon">&#9729;</td><td>14.2</td><td>8</td><td>SW</td><td>0 mm</td><td>0</td></tr>
-          <tr><td>01:00</td><td class="w-icon">&#9729;</td><td>13.5</td><td>7</td><td>SW</td><td>0 mm</td><td>0</td></tr>
-          <tr><td>02:00</td><td class="w-icon">&#9729;</td><td>12.8</td><td>6</td><td>SW</td><td>0 mm</td><td>0</td></tr>
-          <tr><td>03:00</td><td class="w-icon">&#9729;</td><td>11.9</td><td>6</td><td>W</td><td>0 mm</td><td>0</td></tr>
-          <tr><td>04:00</td><td class="w-icon">&#9729;</td><td>10.8</td><td>5</td><td>W</td><td>0 mm</td><td>0</td></tr>
-          <tr><td>05:00</td><td class="w-icon">&#9729;</td><td>9.8</td><td>5</td><td>W</td><td>0 mm</td><td>0</td></tr>
-          <tr><td>06:00</td><td class="w-icon">&#9728;</td><td>9.1</td><td>6</td><td>SW</td><td>0 mm</td><td>0</td></tr>
-          <tr><td>07:00</td><td class="w-icon">&#9925;</td><td>11.3</td><td>7</td><td>SW</td><td>0 mm</td><td>0</td></tr>
-          <tr><td>08:00</td><td class="w-icon">&#9925;</td><td>14.1</td><td>9</td><td>SW</td><td>0 mm</td><td>0</td></tr>
-          <tr><td>09:00</td><td class="w-icon">&#9925;</td><td>17.2</td><td>11</td><td>SW</td><td>0 mm</td><td>0</td></tr>
-          <tr><td>10:00</td><td class="w-icon">&#9925;</td><td>19.8</td><td>13</td><td>SW</td><td>0 mm</td><td>0</td></tr>
-          <tr><td>11:00</td><td class="w-icon">&#9925;</td><td>21.5</td><td>14</td><td>SW</td><td>0 mm</td><td>0</td></tr>
-          <tr><td>12:00</td><td class="w-icon">&#9925;</td><td>23.0</td><td>15</td><td>SW</td><td>0 mm</td><td>0</td></tr>
-          <tr><td>13:00</td><td class="w-icon">&#9925;</td><td>24.1</td><td>17</td><td>SW</td><td>0 mm</td><td>0</td></tr>
-          <tr><td>14:00</td><td class="w-icon">&#9728;</td><td>24.8</td><td>18</td><td>SW</td><td>0 mm</td><td>0</td></tr>
-          <tr><td>15:00</td><td class="w-icon">&#9728;</td><td>25.1</td><td>19</td><td>SW</td><td>0 mm</td><td>0</td></tr>
-          <tr><td>16:00</td><td class="w-icon">&#9728;</td><td>25.0</td><td>18</td><td>SW</td><td>0 mm</td><td>0</td></tr>
-          <tr><td>17:00</td><td class="w-icon">&#9728;</td><td>24.5</td><td>16</td><td>SW</td><td>0 mm</td><td>0</td></tr>
-          <tr><td>18:00</td><td class="w-icon">&#9925;</td><td>23.2</td><td>14</td><td>SW</td><td>0 mm</td><td>0</td></tr>
-          <tr><td>19:00</td><td class="w-icon">&#9925;</td><td>21.7</td><td>12</td><td>SW</td><td>0 mm</td><td>0</td></tr>
-          <tr><td>20:00</td><td class="w-icon">&#9925;</td><td>20.0</td><td>10</td><td>SW</td><td>0 mm</td><td>0</td></tr>
-          <tr><td>21:00</td><td class="w-icon">&#9729;</td><td>18.3</td><td>8</td><td>SW</td><td>0 mm</td><td>0</td></tr>
-          <tr><td>22:00</td><td class="w-icon">&#9729;</td><td>17.1</td><td>7</td><td>SW</td><td>0 mm</td><td>0</td></tr>
-          <tr><td>23:00</td><td class="w-icon">&#9729;</td><td>16.2</td><td>6</td><td>SW</td><td>0 mm</td><td>0</td></tr>
-        </tbody>
-      </table>
+  </div>
+  <div class="weather-days">
+    <div class="wd-card">
+      <span class="wd-label">Heute Fr. 24.7.</span>
+      <span class="wd-icon">☀️</span>
+      <span class="wd-temps"><span class="wd-min">7°</span> / <span class="wd-max">26°</span></span>
+    </div>
+    <div class="wd-card">
+      <span class="wd-label">Sa. 25.7.</span>
+      <span class="wd-icon">☀️</span>
+      <span class="wd-temps"><span class="wd-min">13°</span> / <span class="wd-max">30°</span></span>
+    </div>
+    <div class="wd-card">
+      <span class="wd-label">So. 26.7.</span>
+      <span class="wd-icon">🌤️🌧️</span>
+      <span class="wd-temps"><span class="wd-min">17°</span> / <span class="wd-max">26°</span></span>
     </div>
   </div>
 </section>
 
-<section class="news-section">
-  <div class="container">
-    <h2 class="section-title">&#128240; Aktuelle Nachrichten – Freitag, 24. Juli 2026</h2>
-    <div class="news-grid">
+<!-- News -->
+<main class="news-section">
+  <div class="news-grid">
 
-      <article class="news-card">
-        <div class="card-body">
-          <div class="card-badges"><span class="badge badge-blaulicht">Blaulicht</span><span class="badge badge-region">Lkr. Miltenberg</span></div>
-          <h2 class="card-title">20-Jähriger nach Motorradunfall leicht verletzt – Hausen</h2>
-          <p class="card-summary">Im Landkreis Miltenberg ereignete sich am 23. Juli ein Motorradunfall in der Ortschaft Hausen, bei dem ein 20-jähriger Fahrer leicht verletzt wurde. Der junge Mann verlor in einer Kurve die Kontrolle über sein Krad und kam von der Fahrbahn ab. Rettungskräfte eilten zum Unfallort und versorgten den Verletzten vor Ort. Er wurde zur weiteren Behandlung in ein nahegelegenes Krankenhaus eingeliefert, konnte dieses aber noch am selben Tag verlassen. Die Polizei hat die Ermittlungen zur Unfallursache aufgenommen und schließt überhöhte Geschwindigkeit nicht aus.</p>
-          <a href="https://www.meine-news.de/landkreis-miltenberg/c-blaulicht" class="card-link" target="_blank" rel="noopener">Zur Meldung ›</a>
+    <!-- 1 -->
+    <article class="news-card">
+      <div class="card-body clearfix">
+        <div class="badge-row">
+          <span class="badge b-blaulicht">Blaulicht</span>
+          <span class="badge b-region-ms">Triefenstein · Main-Spessart</span>
         </div>
-      </article>
+        <div class="card-title">Tödlicher Motorradunfall: 16-Jährige stirbt bei Frontalcrash in Triefenstein</div>
+        <div class="card-summary">Eine 16-jährige Motorradfahrerin kam bei einem Frontalzusammenstoß in Triefenstein ums Leben. Das junge Mädchen geriet auf einer Landstraße in den Gegenverkehr und kollidierte mit einem entgegenkommenden Fahrzeug. Trotz sofortiger Rettungsmaßnahmen konnte das Leben der Jugendlichen nicht gerettet werden. Die Polizei ermittelt zur genauen Unfallursache.</div>
+        <a href="https://www.infranken.de/lk/main-spessart/blaulicht/triefenstein-16-jaehrige-stirbt-bei-motorradunfa" class="card-link" target="_blank" rel="noopener">→ Artikel lesen (infranken.de)</a>
+      </div>
+    </article>
 
-      <article class="news-card">
-        <div class="card-body">
-          <div class="card-badges"><span class="badge badge-gesellschaft">Gesellschaft</span><span class="badge badge-region">Lohr am Main</span></div>
-          <h2 class="card-title">Polizei ehrt couragierte Bürger nach Hammerattacke in Lohr</h2>
-          <p class="card-summary">Die Lohrer Polizei hat mehrere Bürgerinnen und Bürger öffentlich ausgezeichnet, die im Zuge einer Hammerattacke couragiert eingegriffen haben. Die beherzte Zivilcourage der Zeugen trug entscheidend dazu bei, den Täter zu stoppen und weiteren Schaden zu verhindern. Polizeipräsident und Landrat überbrachten persönlich den Dank und überreichten Urkunden an die mutigen Helfer. Der Vorfall unterstreicht einmal mehr, wie wichtig das Engagement der Bürgerinnen und Bürger für die öffentliche Sicherheit ist. Die Veranstaltung fand im Beisein weiterer Ehrengäste statt.</p>
-          <a href="https://www.meine-news.de/lohr/c-blaulicht" class="card-link" target="_blank" rel="noopener">Zur Meldung ›</a>
+    <!-- 2 -->
+    <article class="news-card">
+      <div class="card-body clearfix">
+        <div class="badge-row">
+          <span class="badge b-blaulicht">Blaulicht</span>
+          <span class="badge b-region-ms">Urspringen · Main-Spessart</span>
         </div>
-      </article>
+        <div class="card-title">Große Suchaktion nach vermisstem Jungen (11) in Urspringen – Polizei gibt Update</div>
+        <div class="card-summary">Ein 11-jähriger Junge wurde seit Donnerstag in Urspringen vermisst und löste eine umfangreiche Suchaktion aus. Polizei, Feuerwehr und freiwillige Helfer durchkämmten systematisch die Umgebung. Die Polizei gab ein Update zur Lage und bat die Bevölkerung weiterhin um Hinweise. Der Vorfall verdeutlicht erneut, wie wichtig schnelles Handeln beim Verschwinden von Kindern ist.</div>
+        <a href="https://www.infranken.de/lk/main-spessart/blaulicht/urspringen-junge-11-seit-donnerstag-vermisst-suc" class="card-link" target="_blank" rel="noopener">→ Artikel lesen (infranken.de)</a>
+      </div>
+    </article>
 
-      <article class="news-card">
-        <div class="card-body">
-          <div class="card-badges"><span class="badge badge-kriminalitaet">Kriminalität</span><span class="badge badge-region">Gemünden</span></div>
-          <h2 class="card-title">Ekel-Zustände in Bäckerei – Staatsanwaltschaft ermittelt in Gemünden</h2>
-          <p class="card-summary">In einer Gemündener Bäckerei haben Lebensmittelkontrolleure bei einer Routinekontrolle erschreckende hygienische Mängel festgestellt. Behörden schlossen den Betrieb sofort und erstatteten Anzeige. Die Staatsanwaltschaft hat Ermittlungen aufgenommen. Vorgefundene Zustände wie Schimmel, Schädlingsbefall und mangelnde Kühlhaltung gefährden nach Einschätzung der Experten die Gesundheit der Verbraucher erheblich. Der Betreiber wurde verpflichtet, alle Waren zu vernichten und den Betrieb bis zur Bereinigung geschlossen zu halten. Kunden betroffener Produkte werden gebeten, sich an die Behörden zu wenden.</p>
-          <a href="https://www.main-echo.de/ressorts/blaulicht" class="card-link" target="_blank" rel="noopener">Zur Meldung ›</a>
+    <!-- 3 -->
+    <article class="news-card">
+      <div class="card-body clearfix">
+        <div class="badge-row">
+          <span class="badge b-blaulicht">Blaulicht</span>
+          <span class="badge b-region-ms">Gemünden · Main-Spessart</span>
         </div>
-      </article>
+        <div class="card-title">Zwei junge Frauen auf E-Scooter in Gemünden verunglückt – beide verletzt</div>
+        <div class="card-summary">Zwei junge Frauen fuhren gemeinsam auf einem einzelnen E-Scooter durch Gemünden und stürzten dabei. Beide Fahrerinnen erlitten Verletzungen und mussten medizinisch versorgt werden. Das Mitfahren zu zweit auf einem E-Scooter ist nicht erlaubt und war ursächlich für den Unfall. Die Polizei weist auf die Verkehrsregeln für elektrische Tretroller hin.</div>
+        <a href="https://www.infranken.de/lk/main-spessart/blaulicht/gemuenden-junge-frauen-zu-zweit-auf-e-scooter-un" class="card-link" target="_blank" rel="noopener">→ Artikel lesen (infranken.de)</a>
+      </div>
+    </article>
 
-      <article class="news-card">
-        <div class="card-body">
-          <div class="card-badges"><span class="badge badge-blaulicht">Blaulicht</span><span class="badge badge-region">Lkr. Aschaffenburg</span></div>
-          <h2 class="card-title">Brand in Pension – Feuerwehr rettet Bewohner in Kleinwallstadt-Hofstetten</h2>
-          <p class="card-summary">In der Ortschaft Hofstetten bei Kleinwallstadt brach ein Brand in einer Pension aus, der mehrere Bewohner in gefährliche Situationen brachte. Die Feuerwehr rückte mit einem Großaufgebot aus und konnte das Feuer rasch unter Kontrolle bringen. Alle Bewohner wurden rechtzeitig in Sicherheit gebracht – Verletzte waren nicht zu beklagen. Das Gebäude wurde im Bereich des Brandherds erheblich beschädigt. Polizei und Brandermittler prüfen die Ursache; erste Hinweise deuten auf einen technischen Defekt hin. Betroffene Gäste wurden vorübergehend in benachbarten Unterkünften untergebracht.</p>
-          <a href="https://www.meine-news.de/landkreis-aschaffenburg/c-blaulicht" class="card-link" target="_blank" rel="noopener">Zur Meldung ›</a>
+    <!-- 4 -->
+    <article class="news-card">
+      <div class="card-body clearfix">
+        <div class="badge-row">
+          <span class="badge b-blaulicht">Blaulicht</span>
+          <span class="badge b-region-ab">Alzenau · Lkr. Aschaffenburg</span>
         </div>
-      </article>
+        <div class="card-title">Tragischer Tod auf den Gleisen: Regionalzug überrollt Radfahrerin in Alzenau</div>
+        <div class="card-summary">In Alzenau wurde eine Radfahrerin von einem Regionalzug erfasst und tödlich verletzt. Die Frau hatte offenbar die Gleise überquert ohne den herannahenden Zug zu bemerken. Der Lokführer leitete sofort eine Notbremsung ein, konnte den Zusammenstoß jedoch nicht mehr verhindern. Für die betroffene Zugstrecke kam es zu erheblichen Verzögerungen im Bahnverkehr.</div>
+        <a href="https://www.infranken.de/lk/aschaffenburg/blaulicht/alzenau-regionalzug-ueberrollt-radfahrerin-tragi" class="card-link" target="_blank" rel="noopener">→ Artikel lesen (infranken.de)</a>
+      </div>
+    </article>
 
-      <article class="news-card">
-        <div class="card-body">
-          <div class="card-badges"><span class="badge badge-wirtschaft">Wirtschaft</span><span class="badge badge-region">Lkr. Aschaffenburg</span></div>
-          <h2 class="card-title">Tante Enso übernimmt Tegut-Supermarkt in Großostheim-Pflaumheim</h2>
-          <p class="card-summary">Das Konzept des „Tante-Enso"-Supermarktes, das auf digitale und teilautomatisierte Nahversorgung setzt, übernimmt einen ehemaligen Tegut-Supermarkt in Großostheim-Pflaumheim. Der Standort war zuletzt geschlossen, nun soll er mit moderner Technologie wieder belebt werden. Das Konzept ermöglicht Einkaufen rund um die Uhr, auch wenn kein Personal vor Ort ist, und richtet sich besonders an kleinere Gemeinden. Für die Region bedeutet das eine Rückkehr der Nahversorgung an einem Standort, der vielen Bewohnern lange fehlte. Eröffnung ist für Herbst 2026 geplant.</p>
-          <a href="https://www.main-echo.de/region/mein-ort/63762-grossostheim/" class="card-link" target="_blank" rel="noopener">Zur Meldung ›</a>
+    <!-- 5 -->
+    <article class="news-card">
+      <div class="card-body clearfix">
+        <div class="badge-row">
+          <span class="badge b-blaulicht">Blaulicht</span>
+          <span class="badge b-region-ab">Aschaffenburg</span>
         </div>
-      </article>
+        <div class="card-title">Frau attackiert Zugbegleiterin im ICE – weitere Straftaten am Aschaffenburger Bahnhof</div>
+        <div class="card-summary">Eine aggressive Frau griff im ICE Richtung Aschaffenburg eine Zugbegleiterin tätlich an. Nach der Ankunft am Bahnhof beging dieselbe Frau unmittelbar weitere Straftaten. Die Bundespolizei wurde alarmiert und nahm die Täterin in Gewahrsam. Der Vorfall zeigt die Herausforderungen, mit denen Bahnpersonal täglich konfrontiert ist.</div>
+        <a href="https://www.infranken.de/lk/aschaffenburg/blaulicht/in-ice-nach-aschaffenburg-frau-greift-zugbegleit" class="card-link" target="_blank" rel="noopener">→ Artikel lesen (infranken.de)</a>
+      </div>
+    </article>
 
-      <article class="news-card">
-        <div class="card-body">
-          <div class="card-badges"><span class="badge badge-gesellschaft">Gesellschaft</span><span class="badge badge-region">Lkr. Aschaffenburg</span></div>
-          <h2 class="card-title">Tierheime am Limit – steigende Kosten belasten Einrichtungen im Landkreis</h2>
-          <p class="card-summary">Die Tierheime im Landkreis Aschaffenburg schlagen Alarm: Steigende Kosten für Futter, Veterinärleistungen und Personal bringen die Einrichtungen zunehmend in finanzielle Not. Gleichzeitig stagnieren die Spendeneinnahmen auf niedrigem Niveau. Viele Tiere müssen trotz überfüllter Kapazitäten aufgenommen werden, weil es keine Alternativen gibt. Die Heimleitungen appellieren an Politik und Bürger, die Arbeit der Tierheime stärker zu unterstützen – sei es finanziell oder durch Patenschaften. Auch die Frage nach einer dauerhaften öffentlichen Förderung steht wieder auf der politischen Agenda.</p>
-          <a href="https://aschaffenburg.news/aktuelles.html" class="card-link" target="_blank" rel="noopener">Zur Meldung ›</a>
+    <!-- 6 -->
+    <article class="news-card">
+      <div class="card-body clearfix">
+        <div class="badge-row">
+          <span class="badge b-blaulicht">Blaulicht</span>
+          <span class="badge b-region-lkrab">Kleinostheim · Lkr. Aschaffenburg</span>
         </div>
-      </article>
+        <div class="card-title">Neunjähriger am Steuer: Junge verursacht Traktor-Unfall in Kleinostheim</div>
+        <div class="card-summary">Ein neunjähriger Junge setzte sich in Kleinostheim unbemerkt ans Steuer eines Traktors und verursachte einen Unfall, bei dem ein Mann verletzt wurde. Das Kind hatte offenbar den Traktor in Bewegung gesetzt, ohne die Konsequenzen vorhersehen zu können. Der Verletzte wurde medizinisch versorgt. Der Fall verdeutlicht die Wichtigkeit, landwirtschaftliche Fahrzeuge kindersicher abzustellen.</div>
+        <a href="https://www.infranken.de/lk/aschaffenburg/blaulicht/junge-9-verursacht-unfall-mit-traktor-in-kleinos" class="card-link" target="_blank" rel="noopener">→ Artikel lesen (infranken.de)</a>
+      </div>
+    </article>
 
-      <article class="news-card">
-        <div class="card-body">
-          <div class="card-badges"><span class="badge badge-bildung">Bildung</span><span class="badge badge-region">Lkr. Miltenberg</span></div>
-          <h2 class="card-title">Schulleiter Ulrich Koch verlässt König-Erwin-Gymnasium Amorbach</h2>
-          <p class="card-summary">Nach langjähriger Tätigkeit als Schulleiter des König-Erwin-Gymnasiums in Amorbach tritt Ulrich Koch von seinem Amt zurück. Koch hat die Schule über viele Jahre geprägt und zahlreiche Initiativen ins Leben gerufen. Sein Abschied hinterlässt eine spürbare Lücke in der Bildungslandschaft des Landkreises Miltenberg. Eine Nachfolge ist noch nicht bekannt gegeben worden. Kollegium, Schülerschaft und Elternvertreter würdigten Kochs Engagement in einer emotionalen Verabschiedungsfeier. Er selbst plant neue Projekte im pädagogischen Bereich nach seinem Ausscheiden.</p>
-          <a href="https://www.infranken.de/lk/miltenberg/" class="card-link" target="_blank" rel="noopener">Zur Meldung ›</a>
+    <!-- 7 -->
+    <article class="news-card">
+      <div class="card-body clearfix">
+        <div class="badge-row">
+          <span class="badge b-blaulicht">Blaulicht</span>
+          <span class="badge b-region-lkrab">Lkr. Aschaffenburg</span>
         </div>
-      </article>
+        <div class="card-title">Mysteriöser Fund im Wald: Polizei prüft Freimaurer-Verbindung – ein Detail bleibt geheim</div>
+        <div class="card-summary">Im Landkreis Aschaffenburg wurde im Wald ein rätselhafter Fund gemacht, der die Ermittler in Atem hält. Die Polizei prüft eine mögliche Verbindung zur Freimaurerei, hält jedoch ein entscheidendes Detail bewusst unter Verschluss. Bislang bleiben viele Fragen offen – weder Herkunft noch Hintergründe des Funds sind geklärt. Die Ermittlungen laufen auf Hochtouren.</div>
+        <a href="https://www.infranken.de/lk/aschaffenburg/blaulicht/kreis-aschaffenburg-offene-fragen-zu-mysterioese" class="card-link" target="_blank" rel="noopener">→ Artikel lesen (infranken.de)</a>
+      </div>
+    </article>
 
-      <article class="news-card">
-        <div class="card-body">
-          <div class="card-badges"><span class="badge badge-wirtschaft">Wirtschaft</span><span class="badge badge-region">Lohr am Main</span></div>
-          <h2 class="card-title">145 Hotelfach-Absolventen in Lohr geehrt – „Superkräfte von morgen"</h2>
-          <p class="card-summary">In einer festlichen Feier wurden in Lohr am Main 145 Absolventinnen und Absolventen des Berufsbildungszentrums im Fachbereich Hotel- und Gastronomiegewerbe verabschiedet. Landrat und Schulleitung bezeichneten die Fachkräfte als „Superkräfte von morgen" – ein Statement angesichts des anhaltenden Fachkräftemangels in der Gastronomie. Viele Absolventen haben bereits Anstellungen in regionalen Betrieben. Die Schulleitung betonte, weiterhin in Qualität und Praxisnähe zu investieren, um die Region mit gutem Fachpersonal zu versorgen.</p>
-          <a href="https://www.main-echo.de/region/mein-ort/97816-lohr/" class="card-link" target="_blank" rel="noopener">Zur Meldung ›</a>
+    <!-- 8 -->
+    <article class="news-card">
+      <div class="card-body clearfix">
+        <div class="badge-row">
+          <span class="badge b-blaulicht">Blaulicht</span>
+          <span class="badge b-region-lkrab">Wiesen · Lkr. Aschaffenburg</span>
         </div>
-      </article>
+        <div class="card-title">Weiterer tödlicher Motorradunfall: Mann aus Wiesen gerät in Gegenverkehr und stirbt</div>
+        <div class="card-summary">Die Region verzeichnet einen weiteren tödlichen Motorradunfall: Ein Fahrer aus Wiesen geriet auf einer Landstraße in den Gegenverkehr und kollidierte frontal mit einem anderen Fahrzeug. Der Mann konnte trotz intensiver Rettungsversuche nicht mehr gerettet werden. Innerhalb kurzer Zeit ist dies bereits der zweite tödliche Motorradunfall in der Region Unterfranken.</div>
+        <a href="https://www.infranken.de/lk/aschaffenburg/blaulicht/wiesen-motorradfahrer-geraet-in-gegenverkehr-kei" class="card-link" target="_blank" rel="noopener">→ Artikel lesen (infranken.de)</a>
+      </div>
+    </article>
 
-      <article class="news-card">
-        <div class="card-body">
-          <div class="card-badges"><span class="badge badge-veranstaltung">Veranstaltung</span><span class="badge badge-region">Miltenberg</span></div>
-          <h2 class="card-title">Pyrotechniker verrät Feuerwerk-Details zur Michaelismesse Miltenberg</h2>
-          <p class="card-summary">Ein erfahrener Pyrotechniker aus der Region hat erste Details zum spektakulären Feuerwerk der diesjährigen Michaelismesse in Miltenberg verraten. Das Feuerwerk wird in diesem Jahr besonders synchronisiert zur Musik abgefeuert und überrascht mit neuen Farb- und Effektkombinationen. Die Michaelismesse gehört zu den ältesten und bekanntesten Volksfesten in der Region und zieht jährlich tausende Besucherinnen und Besucher an. Die Vorfreude in der Stadt ist bereits spürbar. Karten und Programmdetails werden in Kürze auf der offiziellen Webseite veröffentlicht.</p>
-          <a href="https://www.meine-news.de/miltenberg/c-vermischtes" class="card-link" target="_blank" rel="noopener">Zur Meldung ›</a>
+    <!-- 9 -->
+    <article class="news-card">
+      <div class="card-body clearfix">
+        <div class="badge-row">
+          <span class="badge b-blaulicht">Blaulicht</span>
+          <span class="badge b-region-lohr">Lohr am Main</span>
         </div>
-      </article>
+        <div class="card-title">14-Jährige auf E-Scooter in Lohr am Main verletzt – Kollision mit Auto</div>
+        <div class="card-summary">In Lohr am Main kollidierte eine 14-jährige Fahrerin auf einem E-Scooter mit einem Auto und wurde dabei verletzt. Das Mädchen wurde zur medizinischen Versorgung ins Krankenhaus gebracht. Der genaue Unfallhergang wird von der Polizei untersucht. E-Scooter-Unfälle nehmen bundesweit zu, insbesondere unter jungen Fahrerinnen und Fahrern.</div>
+        <a href="https://www.infranken.de/lk/main-spessart/blaulicht/lohr-am-main-14-jaehrige-auf-e-scooter-bei-kolli" class="card-link" target="_blank" rel="noopener">→ Artikel lesen (infranken.de)</a>
+      </div>
+    </article>
 
-      <article class="news-card">
-        <div class="card-body">
-          <div class="card-badges"><span class="badge badge-verkehr">Verkehr</span><span class="badge badge-region">Region</span></div>
-          <h2 class="card-title">Fünf Vollsperrungen im Sommer – Überblick für Lohr, AB und Miltenberg</h2>
-          <p class="card-summary">Die Saison der großen Baustellen ist in der Region angelaufen. Insgesamt fünf Vollsperrungen betreffen in den kommenden Sommerwochen wichtige Verbindungsstraßen in den Landkreisen Main-Spessart, Aschaffenburg und Miltenberg. Betroffen sind Abschnitte auf der B26, mehrere Kreisstraßen und eine Autobahnzufahrt. Pendler und Urlaubsreisende werden gebeten, rechtzeitig auf Ausweichrouten umzuplanen. Die Baumaßnahmen dienen der Sanierung maroder Beläge und der Erneuerung von Entwässerungsinfrastruktur. Alle Sperrungen sind auf offiziellen Portalen des Straßenamts abrufbar.</p>
-          <a href="https://www.main-echo.de/ressorts/regional" class="card-link" target="_blank" rel="noopener">Zur Meldung ›</a>
+    <!-- 10 -->
+    <article class="news-card">
+      <div class="card-body clearfix">
+        <div class="badge-row">
+          <span class="badge b-blaulicht">Blaulicht</span>
+          <span class="badge b-region-ms">Zellingen · Main-Spessart</span>
         </div>
-      </article>
+        <div class="card-title">Vermisste Unterfränkin (66) tot aufgefunden in Zellingen – Polizei ermittelt</div>
+        <div class="card-summary">Eine seit Längerem vermisste 66-jährige Frau aus Unterfranken wurde in Zellingen tot aufgefunden. Der Fund folgte auf intensive Suchmaßnahmen durch Polizei und Helfer. Die genaue Todesursache ist noch unklar, die Ermittlungen laufen. Angehörige und Bekannte der Frau wurden über den tragischen Fund informiert.</div>
+        <a href="https://www.infranken.de/lk/main-spessart/blaulicht/zellingen-vermisste-frau-66-tot-aufgefunden-art-" class="card-link" target="_blank" rel="noopener">→ Artikel lesen (infranken.de)</a>
+      </div>
+    </article>
 
-      <article class="news-card">
-        <div class="card-body">
-          <div class="card-badges"><span class="badge badge-verkehr">Verkehr</span><span class="badge badge-region">Lkr. Miltenberg</span></div>
-          <h2 class="card-title">Umleitungen im Südkreis Miltenberg doppelt so lang wie geplant</h2>
-          <p class="card-summary">Anwohner und Pendler im südlichen Landkreis Miltenberg klagen über Umleitungsstrecken, die in der Praxis deutlich länger ausfallen als in der offiziellen Planung angegeben. Statt der angekündigten fünf Kilometer betragen die Umwege teils zehn bis zwölf Kilometer. Das Landratsamt hat auf die Beschwerden reagiert und prüft eine Anpassung der Beschilderung sowie alternative Teilfreigaben für Lieferfahrzeuge. Bis zur Klärung werden Betroffene gebeten, digitale Navigationssysteme zu nutzen, die regelmäßig mit aktuellen Sperrdaten aktualisiert werden.</p>
-          <a href="https://www.meine-news.de/landkreis-miltenberg/c-vermischtes" class="card-link" target="_blank" rel="noopener">Zur Meldung ›</a>
+    <!-- 11 -->
+    <article class="news-card">
+      <div class="card-body clearfix">
+        <div class="badge-row">
+          <span class="badge b-blaulicht">Blaulicht</span>
+          <span class="badge b-region-ab">A3 · Stockstadt · Lkr. AB</span>
         </div>
-      </article>
+        <div class="card-title">Irre Aktion auf der A3: Polizei beobachtet Fahrerwechsel bei vollem Tempo bei Stockstadt</div>
+        <div class="card-summary">Auf der A3 bei Stockstadt beobachtete eine Polizeistreife eine lebensgefährliche Aktion: Die Insassen eines Fahrzeugs tauschten bei voller Fahrtgeschwindigkeit den Fahrersitz. Die Beamten stoppten das Auto und leiteten ein Ermittlungsverfahren ein. Derartige Aktionen gefährden nicht nur die Fahrzeuginsassen selbst, sondern auch alle anderen Verkehrsteilnehmer.</div>
+        <a href="https://www.infranken.de/lk/aschaffenburg/blaulicht/a3-bei-stockstadt-polizei-beobachtet-irre-aktion" class="card-link" target="_blank" rel="noopener">→ Artikel lesen (infranken.de)</a>
+      </div>
+    </article>
 
-      <article class="news-card">
-        <div class="card-body">
-          <div class="card-badges"><span class="badge badge-gesellschaft">Gesellschaft</span><span class="badge badge-region">Karlstadt</span></div>
-          <h2 class="card-title">Smartphone-Hilfe in Karlstadt bringt Generationen zusammen</h2>
-          <p class="card-summary">In Karlstadt am Main hat ein neues intergenerationelles Projekt für Aufsehen gesorgt: Unter dem Motto „Smartphone- und Tablet-Hilfe" treffen sich ältere Bürgerinnen und Bürger regelmäßig mit jungen Freiwilligen, um den Umgang mit moderner Technologie zu erlernen. Das Programm wird vom Landkreis Main-Spessart unterstützt und stärkt den Zusammenhalt zwischen Jung und Alt. Die Teilnehmerzahlen steigen stetig. Das Projekt gilt bereits als Vorbild für andere Gemeinden in der Region und soll weiter ausgebaut werden.</p>
-          <a href="https://www.main-spessart.de/aktuelles/pressemitteilungen/11200.Smartphone--und-Tablet-Hilfe-in-Karlstadt-bringt-Generationen-zusammen.html" class="card-link" target="_blank" rel="noopener">Zur Meldung ›</a>
+    <!-- 12 -->
+    <article class="news-card">
+      <div class="card-body clearfix">
+        <div class="badge-row">
+          <span class="badge b-blaulicht">Blaulicht</span>
+          <span class="badge b-region-ms">Karlstadt · Main-Spessart</span>
         </div>
-      </article>
+        <div class="card-title">Schwer verletzter Biker nach Unfall bei Karlstadt – Rettungshubschrauber im Einsatz</div>
+        <div class="card-summary">Bei einem Motorradunfall in der Nähe von Karlstadt erlitt ein Biker schwere Verletzungen. Aufgrund des kritischen Zustands des Verunfallten musste ein Rettungshubschrauber angefordert werden. Der Fahrer wurde per Hubschrauber in ein Krankenhaus transportiert. Die Unfallursache wird von der Polizei untersucht.</div>
+        <a href="https://www.infranken.de/lk/main-spessart/blaulicht/unfall-bei-karlstadt-biker-erleidet-schwere-verl" class="card-link" target="_blank" rel="noopener">→ Artikel lesen (infranken.de)</a>
+      </div>
+    </article>
 
-      <article class="news-card">
-        <div class="card-body">
-          <div class="card-badges"><span class="badge badge-kriminalitaet">Kriminalität</span><span class="badge badge-region">Lkr. Miltenberg</span></div>
-          <h2 class="card-title">Kleider-Container mit erschreckenden Inhalten entdeckt – Lkr. Miltenberg</h2>
-          <p class="card-summary">Im Landkreis Miltenberg haben Mitarbeiter einer Hilfsorganisation bei der Entleerung von Kleider-Containern erschreckende Funde gemacht: Neben unbrauchbaren Textilien enthielten die Behälter auch Hausrat, Elektronikschrott und verderbliche Lebensmittel. Solche Fehlbefüllungen verursachen erhebliche Zusatzkosten bei der Sortierung und belasten die gemeinnützigen Organisationen finanziell. Die Verantwortlichen rufen dringend dazu auf, nur saubere, verwendbare Kleidung einzuwerfen. Elektroschrott und Sperrmüll gehören zu den regulären Wertstoffhöfen, nicht in Kleidercontainer.</p>
-          <a href="https://www.meine-news.de/landkreis-miltenberg/c-vermischtes" class="card-link" target="_blank" rel="noopener">Zur Meldung ›</a>
+    <!-- 13 -->
+    <article class="news-card">
+      <div class="card-body clearfix">
+        <div class="badge-row">
+          <span class="badge b-justiz">Justiz</span>
+          <span class="badge b-region-lkrab">Lkr. Aschaffenburg</span>
         </div>
-      </article>
+        <div class="card-title">19-Jährige erdrosselt: Urteil nach 42 Jahren im Mordfall Maria Köhler noch immer nicht das Ende</div>
+        <div class="card-summary">Im Fall der 1984 erdrosselten 19-jährigen Maria Köhler liegt nach 42 Jahren zwar ein Urteil vor, doch das Verfahren ist noch nicht abgeschlossen. Der Fall gilt als einer der aufsehenerregendsten Kriminalfälle Unterfrankens und beschäftigt die Justiz bis heute. Die Angehörigen hoffen auf einen endgültigen Abschluss des jahrzehntelangen Justizmarathons. Die Geschichte verdeutlicht, wie komplex Strafverfahren in Altfällen sein können.</div>
+        <a href="https://www.infranken.de/lk/aschaffenburg/maria-koehler-urteil-nach-42-jahren-ist-noch-immer-nicht-d" class="card-link" target="_blank" rel="noopener">→ Artikel lesen (infranken.de)</a>
+      </div>
+    </article>
 
-      <article class="news-card">
-        <div class="card-body">
-          <div class="card-badges"><span class="badge badge-kultur">Kultur</span><span class="badge badge-region">Lkr. Miltenberg</span></div>
-          <h2 class="card-title">Lokale Autoren aus Miltenberg veröffentlichen neuen Kinder-Schauerroman</h2>
-          <p class="card-summary">Zwei Autorinnen aus dem Landkreis Miltenberg haben gemeinsam einen Schauerroman für Kinder und Jugendliche veröffentlicht, der im Spessart angesiedelt ist und regionale Sagen aufgreift. Das Buch richtet sich an Leserinnen und Leser ab zehn Jahren und verbindet Elemente heimischer Mythologie mit modernen Erzähltechniken. Die lokale Buchhandlung nimmt das Werk in ihr Sortiment auf. Eine Lesung mit den Autorinnen ist für August geplant. Das Projekt zeigt, wie reich die literarische Kulturlandschaft der Region ist – und wie lebendig regionale Sagen heute noch sein können.</p>
-          <a href="https://www.meine-news.de/landkreis-miltenberg/c-kultur" class="card-link" target="_blank" rel="noopener">Zur Meldung ›</a>
+    <!-- 14 -->
+    <article class="news-card">
+      <div class="card-body clearfix">
+        <div class="badge-row">
+          <span class="badge b-blaulicht">Blaulicht</span>
+          <span class="badge b-region-ms">Erlenbach · Main-Spessart</span>
         </div>
-      </article>
+        <div class="card-title">Grausame Tierquälerei: Katze kehrt schwerverletzt zurück – Röntgenbild belastet Täter</div>
+        <div class="card-summary">In Erlenbach am Main kehrte eine Hauskatze schwerst verletzt zu ihrem Besitzer zurück. Ein Röntgenbild belegte eindeutig eine vorsätzliche grausame Einwirkung auf das Tier. Die Polizei hat Ermittlungen wegen Tierquälerei aufgenommen und sucht Zeugen. Tierschutzorganisationen fordern schärfere Konsequenzen für solche Taten.</div>
+        <a href="https://www.infranken.de/lk/main-spessart/blaulicht/erlenbach-katze-kehrt-schwerst-verletzt-heim-roe" class="card-link" target="_blank" rel="noopener">→ Artikel lesen (infranken.de)</a>
+      </div>
+    </article>
 
-      <article class="news-card">
-        <div class="card-body">
-          <div class="card-badges"><span class="badge badge-veranstaltung">Veranstaltung</span><span class="badge badge-region">Lohr am Main</span></div>
-          <h2 class="card-title">50 Jahre Caterer – Familie Widmann feiert Jubiläum bei der Spessartfestwoche</h2>
-          <p class="card-summary">Ein besonderes Jubiläum begleitet die Spessartfestwoche 2026 in Lohr: Die Familie Widmann ist seit nunmehr 50 Jahren als Caterer bei dem beliebten Volksfest tätig. Was einst als kleiner Imbissstand begann, hat sich zu einem professionellen Gastronomiebetrieb entwickelt, der das Festgeschehen maßgeblich mitgeprägt hat. Generationen von Lohrern verbinden ihre schönsten Festwochenerinnerungen mit den Spezialitäten der Widmanns. Im Jubiläumsjahr gibt es besondere Angebote und eine Ausstellung zur Geschichte der Familie und des Festes.</p>
-          <a href="https://www.main-echo.de/region/mein-ort/97816-lohr/" class="card-link" target="_blank" rel="noopener">Zur Meldung ›</a>
+    <!-- 15 -->
+    <article class="news-card">
+      <div class="card-body clearfix">
+        <div class="badge-row">
+          <span class="badge b-blaulicht">Blaulicht</span>
+          <span class="badge b-region-lkrab">Großostheim · Lkr. Aschaffenburg</span>
         </div>
-      </article>
+        <div class="card-title">Mann in psychischer Ausnahmesituation in Großostheim festgenommen</div>
+        <div class="card-summary">In Großostheim musste die Polizei einen Mann in einer psychischen Ausnahmesituation in Gewahrsam nehmen. Der Mann hatte zuvor durch sein Verhalten Anlass zur Besorgnis gegeben. Speziell geschulte Einsatzkräfte übernahmen die Situation professionell. Der Mann wurde anschließend in eine psychiatrische Einrichtung eingewiesen.</div>
+        <a href="https://www.infranken.de/lk/aschaffenburg/blaulicht/grossostheim-polizei-nimmt-mann-in-psychischer-a" class="card-link" target="_blank" rel="noopener">→ Artikel lesen (infranken.de)</a>
+      </div>
+    </article>
 
-      <article class="news-card">
-        <div class="card-body">
-          <div class="card-badges"><span class="badge badge-gesundheit">Gesundheit</span><span class="badge badge-region">Aschaffenburg</span></div>
-          <h2 class="card-title">Klinikum Aschaffenburg rüstet gegen Sommerhitze – Klimaanlagen installiert</h2>
-          <p class="card-summary">Das Klinikum Aschaffenburg hat angesichts der zunehmenden Sommerhitze in mehreren Bereichen mobile Klimaanlagen installiert. Betroffen sind besonders Stationen für ältere Patientinnen und Patienten sowie Genesungsräume der Notaufnahme. Die Investition wurde im Zuge des Hitzeaktionsplans der Einrichtung beschlossen. Das medizinische Personal wurde zudem in Hitzeschutzmaßnahmen geschult. Das Klinikum appelliert an die Bevölkerung, bei extremer Hitze ausreichend zu trinken, kühle Räume aufzusuchen und gefährdete Mitmenschen im Blick zu behalten.</p>
-          <a href="https://aschaffenburg.news/aktuelles.html" class="card-link" target="_blank" rel="noopener">Zur Meldung ›</a>
+    <!-- 16 -->
+    <article class="news-card">
+      <div class="card-body clearfix">
+        <div class="badge-row">
+          <span class="badge b-gesundheit">Gesundheit</span>
+          <span class="badge b-region-lkrab">Haibach · Lkr. Aschaffenburg</span>
         </div>
-      </article>
+        <div class="card-title">Tollwutgefahr: Fledermäuse in Haibach mit Tollwut infiziert – erstmals Fälle im Landkreis</div>
+        <div class="card-summary">Im Landkreis Aschaffenburg wurden in Haibach erstmals Fledermäuse mit dem Tollwutvirus nachgewiesen. Für Menschen kann Tollwut tödlich verlaufen, wenn Kontakt mit einem infizierten Tier stattfindet. Das Gesundheitsamt rät dringend davon ab, Fledermäuse mit bloßen Händen anzufassen. Wer Kontakt zu einer Fledermaus hatte, sollte sofort ärztliche Hilfe aufsuchen.</div>
+        <a href="https://www.infranken.de/lk/aschaffenburg/tollwut-bei-fledermaeusen-in-haibach-erstmals-faelle-im-la" class="card-link" target="_blank" rel="noopener">→ Artikel lesen (infranken.de)</a>
+      </div>
+    </article>
 
-      <article class="news-card">
-        <div class="card-body">
-          <div class="card-badges"><span class="badge badge-wirtschaft">Wirtschaft</span><span class="badge badge-region">Region</span></div>
-          <h2 class="card-title">Baugebiete vorhanden – Chance auf Eigenheim in der Region noch möglich</h2>
-          <p class="card-summary">Trotz der bundesweit schwierigen Lage am Immobilienmarkt gibt es in den Landkreisen Miltenberg und Aschaffenburg noch verfügbare Baugebiete, die Familien eine realistische Chance auf ein Eigenheim bieten. Kommunen werben aktiv für ihre Grundstücke und bieten teils vergünstigte Konditionen für junge Familien. Experten sehen in der Region eine der wenigen Gegenden Bayerns, in denen Wohneigentum noch erschwinglich ist – vorausgesetzt, man ist bereit, auch außerhalb der Oberzentren zu leben. Nähere Informationen bieten die Wirtschaftsförderungen der Landkreise.</p>
-          <a href="https://www.meine-news.de/landkreis-miltenberg/c-wirtschaft" class="card-link" target="_blank" rel="noopener">Zur Meldung ›</a>
+    <!-- 17 -->
+    <article class="news-card">
+      <div class="card-body clearfix">
+        <div class="badge-row">
+          <span class="badge b-wirtschaft">Wirtschaft</span>
+          <span class="badge b-region-reg">Region Franken</span>
         </div>
-      </article>
+        <div class="card-title">Depot schließt 66 Filialen: Auch Standorte in der Region Franken betroffen</div>
+        <div class="card-summary">Die Einrichtungshauskette Depot schließt bundesweit 66 Filialen, darunter mehrere in der Region Franken. Mitarbeiterinnen und Mitarbeiter der betroffenen Standorte bangen um ihre Arbeitsplätze. Das Unternehmen begründet die Schließungen mit veränderten Einkaufsgewohnheiten und wirtschaftlichem Druck. Kunden haben noch eine gewisse Frist, um Restbestände zu erwerben.</div>
+        <a href="https://www.infranken.de/lk/franken/einkaufen/depot-schliesst-66-filialen-alle-betroffenen-standorte" class="card-link" target="_blank" rel="noopener">→ Artikel lesen (infranken.de)</a>
+      </div>
+    </article>
 
-      <article class="news-card">
-        <div class="card-body">
-          <div class="card-badges"><span class="badge badge-freizeit">Freizeit</span><span class="badge badge-region">Alzenau</span></div>
-          <h2 class="card-title">Weinerlebnis-Escape im Weinberg – Neues Freizeitangebot in Hörstein</h2>
-          <p class="card-summary">In Alzenau-Hörstein hat eine innovative Freizeitidee Einzug gehalten: Ein Escape-Room-Konzept direkt im Weinberg lädt Gruppen dazu ein, Rätsel rund um Wein, Winzer und die Geschichte des Anbaugebiets zu lösen. Das Angebot richtet sich an Weinliebhaber, Teambuilding-Gruppen und Touristen gleichermaßen. Nach dem Rätselspaß wartet eine geführte Weinverkostung auf die Teilnehmenden. Das Konzept hat sich bereits in anderen Weinregionen Deutschlands bewährt und soll nun die regionale Weinkultur am Untermain erlebbar machen. Buchungen über die Ortschaftsverwaltung möglich.</p>
-          <a href="https://aschaffenburg.news/aktuelles.html" class="card-link" target="_blank" rel="noopener">Zur Meldung ›</a>
+    <!-- 18 -->
+    <article class="news-card">
+      <div class="card-body clearfix">
+        <div class="badge-row">
+          <span class="badge b-wirtschaft">Wirtschaft</span>
+          <span class="badge b-region-reg">Region Franken</span>
         </div>
-      </article>
+        <div class="card-title">BayWa Bau- und Gartenmärkte in Insolvenz – 10 Filialen allein in Franken betroffen</div>
+        <div class="card-summary">Die Baumarktkette BayWa Bau- und Gartenmärkte hat Insolvenz angemeldet – allein in Franken sind 10 Filialen betroffen. Tausende Beschäftigte sind von dem Schock betroffen. Kunden mit offenen Bestellungen oder Gutscheinen werden aufgefordert, sich beim Insolvenzverwalter zu melden. Das Unternehmen kämpft um eine Sanierungslösung, um zumindest Teile des Betriebs zu retten.</div>
+        <a href="https://www.infranken.de/lk/franken/einkaufen/insolvenz-schock-fuer-baywa-bau-und-gartenmaerkte-10-f" class="card-link" target="_blank" rel="noopener">→ Artikel lesen (infranken.de)</a>
+      </div>
+    </article>
 
-      <article class="news-card">
-        <div class="card-body">
-          <div class="card-badges"><span class="badge badge-veranstaltung">Veranstaltung</span><span class="badge badge-region">Lohr am Main</span></div>
-          <h2 class="card-title">Spessartfestwoche 2026 – Blog gestartet und großer Auftakt gefeiert</h2>
-          <p class="card-summary">Die Spessartfestwoche 2026 in Lohr am Main ist mit einem begeisterten Publikum gestartet. Zum Auftakt kamen tausende Besucherinnen und Besucher, die das vielfältige Programm aus Theater, Live-Musik, Kabarett und Familienangeboten genossen. Begleitend wurde ein offizieller Blog gestartet, der täglich Eindrücke, Fotos und Berichte aus dem Festgeschehen veröffentlicht. Die Veranstalter zeigen sich überaus zufrieden mit dem Zuspruch. In dieser Woche stehen noch mehrere Höhepunkte auf dem Programm, darunter ein Open-Air-Konzert und ein Abend mit regionalen Künstlerinnen und Künstlern.</p>
-          <a href="https://www.main-echo.de/region/mein-ort/97816-lohr/" class="card-link" target="_blank" rel="noopener">Zur Meldung ›</a>
+    <!-- 19 -->
+    <article class="news-card">
+      <div class="card-body clearfix">
+        <div class="badge-row">
+          <span class="badge b-umwelt">Umwelt</span>
+          <span class="badge b-region-reg">Unterfranken</span>
         </div>
-      </article>
+        <div class="card-title">Hohe Waldbrandgefahr in Unterfranken: Regierung ordnet vorsorgliche Luftbeobachtung an</div>
+        <div class="card-summary">Aufgrund anhaltender Trockenheit und Hitze herrscht in Unterfranken erhöhte Waldbrandgefahr. Die Bezirksregierung hat daher erneut die vorsorgliche Luftbeobachtung angeordnet, um Brände frühzeitig entdecken zu können. Waldbesucher werden dringend gebeten, auf offenes Feuer und das Rauchen im Wald zu verzichten. Besonders kritisch ist die Situation in den trockenen Kiefernwäldern des Spessarts.</div>
+        <a href="https://aschaffenburg.news/politik/hohe-waldbrandgefahr-in-unterfranken-regierung-ordnet-erneut-vors" class="card-link" target="_blank" rel="noopener">→ Artikel lesen (aschaffenburg.news)</a>
+      </div>
+    </article>
 
-      <article class="news-card">
-        <div class="card-body">
-          <div class="card-badges"><span class="badge badge-politik">Politik</span><span class="badge badge-region">Bayern</span></div>
-          <h2 class="card-title">Freistaat Bayern fördert Krankenhäuser mit kräftigem Investitionsschub</h2>
-          <p class="card-summary">Der Freistaat Bayern hat ein umfangreiches Investitionsprogramm für seine Kliniken beschlossen, von dem auch die Häuser in Unterfranken und der Region Lohr-Aschaffenburg profitieren werden. Modernisiert werden veraltete Gebäudeteile, neue medizintechnische Ausstattungen beschafft und die Digitalisierung der Patientenversorgung vorangetrieben. Bayerns Gesundheitsminister betonte, dass eine leistungsfähige Krankenhausversorgung auch im ländlichen Raum unverzichtbar sei. Die konkreten Projekte werden im Herbst bekannt gegeben. Kritiker aus der Opposition fordern mehr Transparenz bei der Vergabe der Fördermittel.</p>
-          <a href="https://www.br.de/nachrichten/bayern" class="card-link" target="_blank" rel="noopener">Zur Meldung ›</a>
+    <!-- 20 -->
+    <article class="news-card">
+      <div class="card-body clearfix">
+        <div class="badge-row">
+          <span class="badge b-umwelt">Umwelt</span>
+          <span class="badge b-region-ms">Lkr. Main-Spessart</span>
         </div>
-      </article>
+        <div class="card-title">Allgemeinverfügung: Wasserentnahme aus Fließgewässern im Lkr. Main-Spessart verboten</div>
+        <div class="card-image-wrap">
+          <div id="img-20">
+            <a href="#lb-20"><img src="https://www.main-spessart.de/media/www.main-spessart.de/thm/med_1193/22395_adobestock_341417238.jpeg" alt="Wasserentnahme verboten" style="float:right;width:120px;height:90px;object-fit:cover;border-radius:6px;margin:0 0 .4rem .6rem"></a>
+          </div>
+        </div>
+        <div class="card-summary">Das Landratsamt Main-Spessart hat am 24. Juli 2026 eine Allgemeinverfügung erlassen, die die Entnahme von Wasser aus Fließgewässern zweiter und dritter Ordnung untersagt. Hintergrund ist die anhaltende Sommertrockenheit, die zu kritisch niedrigen Wasserständen geführt hat. Verstöße gegen das Verbot können mit empfindlichen Bußgeldern geahndet werden. Die Verfügung gilt bis auf Widerruf.</div>
+        <a href="https://www.main-spessart.de/aktuelles/pressemitteilungen/11202.Allgemeinverfuegung-des-Landratsamts" class="card-link" target="_blank" rel="noopener">→ Artikel lesen (main-spessart.de)</a>
+      </div>
+    </article>
 
-    </div>
-  </div>
-</section>
+  </div><!-- /news-grid -->
+</main>
 
+<!-- Lightbox -->
+<div id="lb-20" class="lb-overlay">
+  <a href="#" class="lb-close">✕</a>
+  <img src="https://www.main-spessart.de/media/www.main-spessart.de/thm/med_1193/22395_adobestock_341417238.jpeg" alt="Wasserentnahme verboten – Main-Spessart">
+</div>
+
+<!-- Newsletter -->
 <section class="newsletter-section">
-  <div class="newsletter-inner">
-    <h2>&#128140; Newsletter abonnieren</h2>
-    <p>Erhalten Sie die Tagesnachrichten für Lohr, Aschaffenburg und die Region täglich direkt in Ihr Postfach – kostenlos und jederzeit kündbar.</p>
-    <form class="nl-form" action="subscribe.php" method="post" accept-charset="UTF-8">
-      <input type="email" name="email" placeholder="Ihre E-Mail-Adresse" required autocomplete="email" aria-label="E-Mail-Adresse für Newsletter">
-      <button type="submit">Jetzt anmelden</button>
-    </form>
-    <p class="nl-note">Mit der Anmeldung stimmen Sie der Speicherung Ihrer E-Mail-Adresse zu. Kein Spam, keine Weitergabe an Dritte. Abmeldung jederzeit möglich.</p>
-  </div>
+  <h2>📬 Täglich informiert – Kostenloser Newsletter</h2>
+  <p>Erhalten Sie die aktuellen Nachrichten aus Lohr am Main, Aschaffenburg und dem Landkreis Main-Spessart direkt in Ihr Postfach.</p>
+  <form class="nl-form" action="save_email.php" method="POST">
+    <input type="email" name="email" placeholder="Ihre E-Mail-Adresse" required>
+    <button type="submit">Jetzt anmelden</button>
+  </form>
 </section>
 
 <footer>
-  <div class="footer-inner">
-    <div class="footer-grid">
-      <div class="footer-col">
-        <h4>Quellen</h4>
-        <ul>
-          <li><a href="https://www.main-echo.de" target="_blank" rel="noopener">Main-Echo</a></li>
-          <li><a href="https://www.meine-news.de/landkreis-main-spessart" target="_blank" rel="noopener">Meine-News – Main-Spessart</a></li>
-          <li><a href="https://www.meine-news.de/landkreis-aschaffenburg" target="_blank" rel="noopener">Meine-News – Lkr. Aschaffenburg</a></li>
-          <li><a href="https://www.meine-news.de/landkreis-miltenberg" target="_blank" rel="noopener">Meine-News – Lkr. Miltenberg</a></li>
-          <li><a href="https://aschaffenburg.news" target="_blank" rel="noopener">Aschaffenburg.news</a></li>
-          <li><a href="https://www.infranken.de" target="_blank" rel="noopener">inFranken.de</a></li>
-          <li><a href="https://www.main-spessart.de" target="_blank" rel="noopener">Landkreis Main-Spessart</a></li>
-          <li><a href="https://www.br.de/nachrichten/bayern" target="_blank" rel="noopener">BR Bayern</a></li>
-        </ul>
-      </div>
-      <div class="footer-col">
-        <h4>Wetterdaten</h4>
-        <ul>
-          <li><a href="https://brightsky.dev" target="_blank" rel="noopener">BrightSky API (DWD)</a></li>
-          <li><a href="https://www.dwd.de" target="_blank" rel="noopener">Deutscher Wetterdienst</a></li>
-        </ul>
-        <h4 style="margin-top:14px">Region</h4>
-        <ul>
-          <li>Lohr am Main</li>
-          <li>Aschaffenburg</li>
-          <li>Landkreis Main-Spessart</li>
-          <li>Landkreis Aschaffenburg</li>
-          <li>Landkreis Miltenberg</li>
-        </ul>
-      </div>
-      <div class="footer-col">
-        <h4>Impressum</h4>
-        <p style="line-height:1.7">
-          Zusammenstellung &amp; Coding der Seite<br>erstellt/überwacht von<br>
-          <strong>Michael Bergfeld</strong><br>
-          E-Mail: <a href="mailto:info@domezos-ware.de">info@domezos-ware.de</a>
-        </p>
-        <p style="margin-top:10px;line-height:1.6;font-size:0.78rem;color:#A07050">
-          Alle Angaben ohne Gewähr. Die Inhalte dieser Seite beruhen auf den jeweiligen verlinkten Quellen Dritter. Für die Richtigkeit, Vollständigkeit und Aktualität der Informationen wird keine Haftung übernommen. Maßgeblich sind stets die Originalquellen.
-        </p>
-      </div>
-    </div>
-    <div class="footer-bottom">
-      Aktualisierung: Freitag, 24. Juli 2026 · 08:41 Uhr CEST &nbsp;|&nbsp;
-      Alle Angaben ohne Gewähr – Inhalte basieren auf verlinkten Quellen Dritter &nbsp;|&nbsp;
-      <a href="mailto:info@domezos-ware.de">Kontakt</a>
-    </div>
+  <p>Stand: Freitag, 24. Juli 2026 · 18:01:53 Uhr CEST · Ausgabe 3 – Ozean-Tiefe &amp; Sommerbrise</p>
+  <p>Impressum: Michael Bergfeld · <a href="mailto:info@domezos-ware.de">info@domezos-ware.de</a> · Alle Angaben ohne Gewähr.</p>
+  <div class="footer-sources">
+    Quellen: infranken.de · aschaffenburg.news · meine-news.de · main-spessart.de · Wetterdaten: Open-Meteo
   </div>
 </footer>
-
 </body>
 </html>
