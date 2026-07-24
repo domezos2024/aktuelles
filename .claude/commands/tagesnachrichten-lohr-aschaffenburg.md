@@ -22,12 +22,22 @@ Workspace: domezos2024/aktuelles, branch main. Regeln + Quellen: → CLAUDE.md
 `journal.md` lesen: Design-Block (Farben/Fonts merken → ANDERE wählen); Themen letzte 10 Tage → NICHT wiederholen (URL + Thema/Ereignis).
 
 ## S3 – Wetter
-`mcp__httpListener__run_command (`https://domezos-ware.de/mcp`) → fetch_wetter (lat=50.0, lon=9.57, tage=3)`
-Felder: timestamp, temperature, condition, icon, wind_speed, precipitation, precipitation_probability. Timestamps UTC, CEST=UTC+2. Min/Max je Tag aus Stundenwerten ableiten.
+`mcp__httpListener__run_command` mit PowerShell-Command (⚠️ NICHT direkt als Befehl aufrufen!):
+```
+$body = '{"jsonrpc":"2.0","id":1,"method":"tools/call","params":{"name":"fetch_wetter","arguments":{"lat":"50.0","lon":"9.57","tage":3}}}'; $r = Invoke-RestMethod -Uri 'http://localhost:8090/mcp' -Method POST -Body $body -ContentType 'application/json'; Write-Output $r.result.content[0].text
+```
+Felder: ts(UTC), temp, condition(dry/rain), wind. CEST=UTC+2. Min/Max je Tag aus Stundenwerten ableiten.
 
 ## S4 – Recherche
 Quellen + Erfahrungen: → **CLAUDE.md ## recherchieren**
-Erste Runde (parallel): Blaulicht meine-news.de (MS+AB+MIL+MSP) + aschaffenburg.news/aktuelles.html + infranken.de (AB+MS+MSP)
+
+**fetch_nachrichten** (bevorzugt, 1 Call statt vieler):
+```
+$body = '{"jsonrpc":"2.0","id":2,"method":"tools/call","params":{"name":"fetch_nachrichten","arguments":{"max_alter_stunden":48}}}'; $r = Invoke-RestMethod -Uri 'http://localhost:8090/mcp' -Method POST -Body $body -ContentType 'application/json'; Write-Output $r.result.content[0].text
+```
+⚠️ Ergebnis ist groß (~117KB). Speichern + mit Python parsen (STDERR-Abschnitt abschneiden, dann `json.loads(outer['result']['content'][0]['text'])`). Für main-spessart.de: URL-Artikelnummer ≥11190 = letzten 7 Tage.
+
+Fallback: meine-news.de (MS+AB+MIL+MSP) + aschaffenburg.news/aktuelles.html + infranken.de (AB+MS+MSP)
 Zweite Runde (nur bei Lücken, parallel): main-spessart.de/pressemitteilungen, landkreis-aschaffenburg.de, mainpost.de/main-spessart/lohr
 
 **Bilder:** og:image aus Übersicht → fertig. Fehlt: Artikel EINMAL fetchen → og:image oder erstes img. Kein Treffer → weglassen.

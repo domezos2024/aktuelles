@@ -1,17 +1,33 @@
 # Tagesnachrichten-Journal – domezos2024/aktuelles
 
-## Design – 2026-07-24 – 08:41 Uhr CEST
-- Schema: Abendrot & Weinrot – Sommerfest Stimmung (Georgia Serif, warmes Burgunderrot & Gold)
-- Header-Gradient: #6B0E0E → #A93226 → #D35400 → #F39C12 (135deg, 4-stufig)
-- Hintergrund: #FFF8F0 (warmes Creme)
-- Karten: #FFFFFF, border-top 4px solid #A93226, border-radius 10px, box-shadow rot-warmtöne
-- Akzentfarben: #6B0E0E · #A93226 · #D35400 · #E67E22 · #F39C12 · #1A5276
-- Layout: grid-template-columns: repeat(3,1fr)
-- Fonts: Georgia, 'Times New Roman', serif (klassisch, elegant, gut lesbar)
+## Design – 2026-07-24 – 18:01 Uhr CEST
+- Schema: Ozean-Tiefe & Sommerbrise | Gradient: #005F73→#0A9396→#94D2BD→#E9D8A6 (135deg) | BG: #F0F7F4 | Karten: #FFFFFF border-top 4px solid #0A9396 | Akzent: #005F73·#0A9396·#EE9B00·#CA6702 | Font: Segoe UI system-ui sans-serif | Layout: grid 3 cols
 
 ---
 
 ## Themen-Archiv (letzte 10 Tage – NICHT wiederholen!)
+
+### 2026-07-24 (Ausgabe – 18:01 Uhr CEST)
+- Triefenstein-16JaehrigeMotorad-Frontalcrash-Tod | https://www.infranken.de/lk/main-spessart/blaulicht/triefenstein-16-jaehrige-stirbt-bei-motorradunfa | blaulicht | triefenstein-main-spessart
+- Urspringen-VermissterJunge11-Suchaktion-Update | https://www.infranken.de/lk/main-spessart/blaulicht/urspringen-junge-11-seit-donnerstag-vermisst-suc | blaulicht | urspringen-main-spessart
+- Gemuenden-ZweiFrauenEScooter-BeideVerletzt | https://www.infranken.de/lk/main-spessart/blaulicht/gemuenden-junge-frauen-zu-zweit-auf-e-scooter-un | blaulicht | gemuenden-main-spessart
+- Alzenau-RegionalzugRadfahrerinTod-Gleise | https://www.infranken.de/lk/aschaffenburg/blaulicht/alzenau-regionalzug-ueberrollt-radfahrerin-tragi | blaulicht | alzenau-lkr-aschaffenburg
+- Aschaffenburg-ICEZugbegleiterin-Attacke-Bahnhof | https://www.infranken.de/lk/aschaffenburg/blaulicht/in-ice-nach-aschaffenburg-frau-greift-zugbegleit | blaulicht | aschaffenburg
+- Kleinostheim-NeuneJaehrigerTraktor-Unfall-Mann | https://www.infranken.de/lk/aschaffenburg/blaulicht/junge-9-verursacht-unfall-mit-traktor-in-kleinos | blaulicht | kleinostheim-lkr-aschaffenburg
+- LkrAschaffenburg-MysterioserFundWald-Freimaurer | https://www.infranken.de/lk/aschaffenburg/blaulicht/kreis-aschaffenburg-offene-fragen-zu-mysterioese | blaulicht | lkr-aschaffenburg
+- Wiesen-MotoradfahrerTod-Gegenverkehr | https://www.infranken.de/lk/aschaffenburg/blaulicht/wiesen-motorradfahrer-geraet-in-gegenverkehr-kei | blaulicht | wiesen-lkr-aschaffenburg
+- Lohr-14JaehrigeEScooter-KollisionAuto | https://www.infranken.de/lk/main-spessart/blaulicht/lohr-am-main-14-jaehrige-auf-e-scooter-bei-kolli | blaulicht | lohr-main-spessart
+- Zellingen-Vermisste66-TotAufgefunden | https://www.infranken.de/lk/main-spessart/blaulicht/zellingen-vermisste-frau-66-tot-aufgefunden-art- | blaulicht | zellingen-main-spessart
+- A3Stockstadt-FahrerwechselVollemTempo-Polizei | https://www.infranken.de/lk/aschaffenburg/blaulicht/a3-bei-stockstadt-polizei-beobachtet-irre-aktion | blaulicht | a3-stockstadt-lkr-aschaffenburg
+- Karlstadt-BikerSchwerVerletzt-Hubschrauber | https://www.infranken.de/lk/main-spessart/blaulicht/unfall-bei-karlstadt-biker-erleidet-schwere-verl | blaulicht | karlstadt-main-spessart
+- MordMariaKoehler-Urteil42Jahre-NochNichtEnde | https://www.infranken.de/lk/aschaffenburg/maria-koehler-urteil-nach-42-jahren-ist-noch-immer-nicht-d | justiz | lkr-aschaffenburg
+- Erlenbach-KatzeTierquaelerei-RoentgenbildBelastet | https://www.infranken.de/lk/main-spessart/blaulicht/erlenbach-katze-kehrt-schwerst-verletzt-heim-roe | blaulicht | erlenbach-main-spessart
+- Grossostheim-MannPsychisch-Festgenommen | https://www.infranken.de/lk/aschaffenburg/blaulicht/grossostheim-polizei-nimmt-mann-in-psychischer-a | blaulicht | grossostheim-lkr-aschaffenburg
+- Haibach-FledermaeuseTollwut-ErstesFaelleLkrAB | https://www.infranken.de/lk/aschaffenburg/tollwut-bei-fledermaeusen-in-haibach-erstmals-faelle-im-la | gesundheit | haibach-lkr-aschaffenburg
+- Depot66FilialenSchliessung-FrankenBetroffen | https://www.infranken.de/lk/franken/einkaufen/depot-schliesst-66-filialen-alle-betroffenen-standorte | wirtschaft | region-franken
+- BayWaBaumarktInsolvenz-10FilialenFranken | https://www.infranken.de/lk/franken/einkaufen/insolvenz-schock-fuer-baywa-bau-und-gartenmaerkte-10-f | wirtschaft | region-franken
+- Unterfranken-HoheWaldbrandgefahr-Luftbeobachtung | https://aschaffenburg.news/politik/hohe-waldbrandgefahr-in-unterfranken-regierung-ordnet-erneut-vors | umwelt | unterfranken
+- LkrMainSpessart-Wasserentnahmeverbot-11202 | https://www.main-spessart.de/aktuelles/pressemitteilungen/11202.Allgemeinverfuegung-des-Landratsamts | umwelt | lkr-main-spessart
 
 ### 2026-07-24 (Ausgabe – 08:41 Uhr CEST)
 - Hausen-Miltenberg-20JMotoradunfall-LeichtVerletzt | https://www.meine-news.de/landkreis-miltenberg/c-blaulicht | blaulicht | lkr-miltenberg
