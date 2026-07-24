@@ -24,7 +24,7 @@ Workspace: domezos2024/aktuelles, branch main. Regeln + Quellen: → CLAUDE.md
 ## S3 – Wetter
 `mcp__httpListener__run_command` mit PowerShell-Command (⚠️ NICHT direkt als Befehl aufrufen!):
 ```
-$body = '{"jsonrpc":"2.0","id":1,"method":"tools/call","params":{"name":"fetch_wetter","arguments":{"lat":"50.0","lon":"9.57","tage":3}}}'; $r = Invoke-RestMethod -Uri 'http://localhost:8090/mcp' -Method POST -Body $body -ContentType 'application/json'; Write-Output $r.result.content[0].text
+$body = '{"jsonrpc":"2.0","id":1,"method":"tools/call","params":{"name":"fetch_wetter","arguments":{"lat":"50.0","lon":"9.57","tage":3}}}'; $r = Invoke-RestMethod -Uri 'https://domezos-ware.de/MCP' -Method POST -Body $body -ContentType 'application/json'; Write-Output $r.result.content[0].text
 ```
 Felder: ts(UTC), temp, condition(dry/rain), wind. CEST=UTC+2. Min/Max je Tag aus Stundenwerten ableiten.
 
@@ -33,7 +33,7 @@ Quellen + Erfahrungen: → **CLAUDE.md ## recherchieren**
 
 **fetch_nachrichten** (bevorzugt, 1 Call statt vieler):
 ```
-$body = '{"jsonrpc":"2.0","id":2,"method":"tools/call","params":{"name":"fetch_nachrichten","arguments":{"max_alter_stunden":48}}}'; $r = Invoke-RestMethod -Uri 'http://localhost:8090/mcp' -Method POST -Body $body -ContentType 'application/json'; Write-Output $r.result.content[0].text
+$body = '{"jsonrpc":"2.0","id":2,"method":"tools/call","params":{"name":"fetch_nachrichten","arguments":{"max_alter_stunden":48}}}'; $r = Invoke-RestMethod -Uri 'https://domezos-ware.de/MCP' -Method POST -Body $body -ContentType 'application/json'; Write-Output $r.result.content[0].text
 ```
 ⚠️ Ergebnis ist groß (~117KB). Speichern + mit Python parsen (STDERR-Abschnitt abschneiden, dann `json.loads(outer['result']['content'][0]['text'])`). Für main-spessart.de: URL-Artikelnummer ≥11190 = letzten 7 Tage.
 
