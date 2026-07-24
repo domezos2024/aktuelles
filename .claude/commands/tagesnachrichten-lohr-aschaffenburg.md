@@ -64,6 +64,8 @@ URL: `https://api.brightsky.dev/weather?lat=50.0&lon=9.57&date=HEUTE&last_date=�
 
 ## Schritt 4 – Nachrichten recherchieren (WebSearch + WebFetch + Curl)
 
+1. nutze `CLAUDE.md` in der Sektion `## recherchieren` um die Besten Wege, Mittel, Tools und Links nachzulesen und Schritt 4. durch zu führen
+
 **Erste Runde (ein Nachrichten-Turn, alle Aufrufe parallel absetzen):** direkt die
 Kategorie-/Blaulicht-Übersichtsseiten der Kernquellen fetchen statt breiter WebSearch-Anfragen
 zu starten – die liefern meist schon Titel + Kurzfassung + funktionierende URL in einem Schritt:
@@ -83,6 +85,8 @@ für Politik/Wirtschaft-Meldungen.
 Bei Bedarf ergänzend: `mainpost.de/main-spessart/lohr`, `main-echo.de/region/mein-ort/97816-lohr/`,
 `br.de/nachrichten/bayern`, `tagesschau.de/suche?searchText=[Ort]+[Thema]`.
 
+- merke dir mittels Eintrag in `CLAUDE.md` Sektion `## recherchieren` wie die Websearch, Webfetch und Curl Aufrufe am Besten funktionierten und Ergebnisse auf welchen Links lieferten und das nächste mal weniger überlegen zu müssen, weniger Zeit zu verbrauche oder weniger Token zu nutzen. Trage dir die besten Links ein, besten Suchbegriffe, besten Mittel/Tools um die Beiträge zu erfassen und begründe dies immer
+  
 ### Bilder & Videos zu jeder Meldung extrahieren
 
 - **Bild**: Meist bereits aus der Übersichtsseite verfügbar (og:image). Fehlt es dort, EINMAL
