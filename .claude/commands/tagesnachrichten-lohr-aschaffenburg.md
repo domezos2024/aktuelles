@@ -89,10 +89,12 @@ Design-Block: nur heute (1 Eintrag, überschreiben). Themen: heute oben, Einträ
 git add index.html journal.md .claude/
 git commit -m "Tagesnachrichten YYYY-MM-DD – HH:MM Uhr CEST"
 git push -u origin <branch>
+pull, merge, close, cleanup
 ```
 
 ## S9 - clear context
-Chatbefehl `/clear`
+
+Chatbefehl `/clear` ausführen um den context dieses Laufs zu löschen und eine neue Session zu starten
 
 Zeitstempel CEST (UTC+2) in: index.html Header, index.html Footer, journal.md Header.
 
