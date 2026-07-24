@@ -1,17 +1,37 @@
 # Tagesnachrichten-Journal – domezos2024/aktuelles
 
-## Design – 2026-07-23 – 06:00 Uhr CEST
-- Schema: Spessart-Grün & Kupfer – sattes Waldgrün / Crème / Kupferbraun (Sommerfrische-Kontrast zur gestrigen Indigo/Petrol-Palette)
-- Header-Gradient: #2B4D2B → #4A7C3F → #C87941 → #8B4513 (135deg, 4-stufig)
-- Hintergrund: #F2EFE7 (warmes Crème)
-- Karten: #FFFFFF, border-top 5px rotierend (Waldgrün/Kupfer/Kastanienbraun/Moosgrün), border-radius 10px, CSS-Grid 2col
-- Akzentfarben: #2B4D2B · #C87941 · #6B4B2A · #4A7C3F · #7A3B2B · #395C39
-- Layout: grid-template-columns: repeat(2,1fr)
-- Fonts: Georgia/'Times New Roman' (Serif Headlines), Trebuchet MS/Verdana (Sans Body) – neues Duo
+## Design – 2026-07-24 – 07:08 Uhr CEST
+- Schema: Sommer-Blau & Sonnengelb – Himmelsblau / Sonnengelb / Azurblau (Kontrastprogramm zu gestern: Spessart-Grün & Kupfer)
+- Header-Gradient: #0077B6 → #023E8A → #E68A00 → #F7B731 (135deg, 4-stufig)
+- Hintergrund: #EBF4F9 (helles Himmelblau)
+- Karten: #FFFFFF, border-top 3px solid #0077B6, border-radius 10px, CSS-Grid 3col
+- Akzentfarben: #0077B6 · #023E8A · #E68A00 · #F5A623 · #FFD166 · #00606a
+- Layout: grid-template-columns: repeat(3,1fr)
+- Fonts: Arial/'Helvetica Neue'/Helvetica (Sans-Serif durchgehend) – neutrales modernes Duo
 
 ---
 
 ## Themen-Archiv (letzte 10 Tage – NICHT wiederholen!)
+
+### 2026-07-24 (Ausgabe – 07:08 Uhr CEST)
+- KarlstadtLohr-Graffiti-VespaReifen-Baucontainer-40000EuroWerkzeug | https://www.meine-news.de/karlstadt/c-blaulicht/karlstadtlohr-a-main-fahrkartenautomaten-mit-einem-graffiti-beschmiert-vespa-mutwillig-beschaedigt-baucontainer-aufgebrochen-und-werkzeug-entwendet_a240232 | blaulicht | karlstadt-lohr-main-spessart
+- Kleinostheim-EinbruchKleingartenwohnwagen-Musikbox-HoersteinAnhaenger | https://www.meine-news.de/kleinostheim/c-blaulicht/kleinostheimhoerstein-einbruch-in-kleingarten-geparkter-anhaenger-angefahren-und-beschaedigt_a240226 | blaulicht | kleinostheim-hoerstein-lkr-aschaffenburg
+- Elsenfeld-CanyonMountainbike-1200Euro-Eisenbach-BMW-3000EuroREWEParkplatz | https://www.meine-news.de/elsenfeld/c-blaulicht/elsenfeldeisenbach-mountainbike-entwendet-vordere-stossstange-angefahren_a240229 | blaulicht | elsenfeld-eisenbach-lkr-miltenberg
+- Hanau-17Jaehriger-LkrAschaffenburg-PolizeifahrzeugErfasst-FahrlässigeTötung | https://www.infranken.de/lk/aschaffenburg/blaulicht/toedlicher-unfall-in-hanau-teenager-17-von-polizeiauto-erfasst-art-6382141 | blaulicht | hanau-lkr-aschaffenburg
+- Aschaffenburg-Landgericht-HafturlaubMissbrauch-12Jaehriger-5xAnklage | https://www.main-echo.de/region/stadt-kreis-aschaffenburg/vorwurf-kind-im-kreis-aschaffenburg-im-hafturlaub-missbraucht-art-8759036 | justiz | aschaffenburg
+- LkrAschaffenburg-Wasserentnahmeverbot-Fliessgewaesser-31August-50000EuroBussgelder | https://www.meine-news.de/landkreis-aschaffenburg/c-natur-und-tiere/verbot-der-wasserentnahme-aus-fliessenden-gewaessern_a240202 | umwelt | lkr-aschaffenburg
+- Lohr-Eichenprozessionsspinner-HalbseitigeSperrung-SteinernerWeg-28-29Juli | https://www.main-spessart.de/aktuelles/pressemitteilungen/11199.Wegen-Eichenprozessionsspinner-Halbseitige-Strassensperrung-Am-Steinernen-Weg-in-Lohr.html | umwelt | lohr-main-spessart
+- MainSpessart-Praktikumswoche-2Runde-75Betriebe-183Schueler-28August | https://www.main-spessart.de/aktuelles/pressemitteilungen/11197.In-kurzer-Zeit-verschiedene-Berufe-und-Unternehmen-kennenlernen--die-Praktikumswoche-Main-Spessart-geht-in-die-zweite-Runde.html | wirtschaft | lkr-main-spessart
+- MainSpessart-UV-Index-Tafeln-8Grundschulen-300Schueler-SonnenMitVerstand | https://www.main-spessart.de/aktuelles/pressemitteilungen/11193.Sonnenschutz-spielerisch-lernen-UV-Index-Tafeln-fuer-Grundschulen-in-Main-Spessart.html | gesundheit | lkr-main-spessart
+- Kleinwallstadt-23JungeLehrkraefte-KardinalDoepfnerSchule-NeuesSchuljahr | https://www.meine-news.de/miltenberg/c-schule-und-bildung/23-junge-lehrkraefte-starten-in-das-berufsleben_a240142 | bildung | kleinwallstadt-lkr-miltenberg
+- Weilbach-BauausschussEmpfehlung-B469-K6-9-2Mio-NeuerKnoten-Mudbruecke | https://www.meine-news.de/miltenberg/c-bauen-und-wohnen/bauausschuss-empfiehlt-umbau-des-strassenknotens-in-weilbach_a240133 | infrastruktur | weilbach-lkr-miltenberg
+- Schwebenried-Vollsperrung-ST2433-Buslinie452+673-3August-14September | https://www.main-spessart.de/aktuelles/pressemitteilungen/11198.Vollsperrung-in-Schwebenried--Buslinien-452-und-673-betroffen.html | verkehr | schwebenried-main-spessart
+- Karlstadt-Schulranzen-Jobcenter-25Verlost-RaiffeisenstiftungCaritas-HurraSchule | https://www.main-spessart.de/aktuelles/pressemitteilungen/11196.Grosse-Freude-bei-kleinen-Schulstarterinnen-und-Schulstartern-Erfolgreiche-zweite-Auflage-von-Hurra--ich-komme-in-die-Schule.html | gesellschaft | karlstadt-main-spessart
+- Miltenberg-HonigErlebnis-CaritasKindergartenMariaHilf-ImkerDietrich | https://www.meine-news.de/miltenberg/c-mann-frau-und-familie/wie-kommt-der-honig-ins-glas-kinder-gehen-der-frage-nach_a240184 | gesellschaft | miltenberg
+- Stadtprozelten-Vollsperrung-10-28August-KanalarbeitenAsphalt | https://www.main-echo.de/region/kreis-miltenberg/dreiwoechige-vollsperrung-im-august-in-stadtprozelten-art-8747810 | verkehr | stadtprozelten-lkr-miltenberg
+- Moembris-Waermeplanung-54ProzentFossil-PV-FlusswärmepumpeCluster | https://www.meine-news.de/moembris/c-politik/sitzung-und-buergerbesprechung-zur-waermeplanung-markt-moembris_a240217 | politik | moembris-lkr-aschaffenburg
+- LkrAschaffenburg-Pflegestuetzpunkt-OnlineBeratung-September-DespinaB | https://www.meine-news.de/landkreis-aschaffenburg/c-pflege/pflegestuetzpunkt-startet-monatliche-online-beratung_a240139 | gesundheit | lkr-aschaffenburg
+- Lohr-Mistel-Streuobstwiesen-Vortragsabend24Sept-SchnittaktionNovember | https://www.main-spessart.de/aktuelles/pressemitteilungen/11195.Vortragsabend-Mistel--Gefahr-fuer-unsere-Streuobstwiese.html | umwelt | lohr-main-spessart
 
 ### 2026-07-23 (Ausgabe – 06:00 Uhr CEST)
 - Aschaffenburg-AggressiverMann-ZweiPolizistenVerletzt-Hauptbahnhof | https://www.main-echo.de/ressorts/blaulicht/aggressiver-mann-verletzt-zwei-polizisten-am-aschaffenburger-hauptbahnhof-art-8758575 | blaulicht | aschaffenburg
@@ -241,17 +261,8 @@
 - Stadtradeln2026-MainSpessart-256000km-Ergebnis | https://www.main-spessart.de/aktuelles/pressemitteilungen/11186.STADTRADELN-2026-Landkreis-Main-Spessart-raedelt-256-000-Kilometer.html | sport | lkr-main-spessart
 - FahrradfreundlicheKommune-MainSpessart-Auszeichnung | https://www.main-spessart.de/aktuelles/pressemitteilungen/11185.Landkreis-Main-Spessart-erneut-als-Fahrradfreundliche-Kommune-ausgezeichnet.html | umwelt | lkr-main-spessart
 - Notfalldosen-MainSpessart-SeniorenSicherheit | https://www.main-spessart.de/aktuelles/pressemitteilungen/11187.Notfalldosen-fuer-alle-Buergerinnen-und-Buerger.html | gesellschaft | lkr-main-spessart
-- Escha-RedaktionVorOrt-EschauWuensche | https://www.main-echo.de/region/kreis-aschaffenburg/redaktion-vor-ort-was-die-eschauer-sich-von-ihrer-gemeinde-wuenschen-art-8751830 | gesellschaft | escha-lkr-aschaffenburg
 - Bachgaufest-Grossostheim-Programm-Veranstaltung | https://www.main-echo.de/region/kreis-aschaffenburg/das-erwartet-besucher-beim-bachgaufest-in-grossostheim-art-8744570 | freizeit | grossostheim-lkr-aschaffenburg
 - AebbelwoiWirtschaft-Brueckner-Laufach-100Jahre-Erlebniswelt | https://www.main-echo.de/region/stadt-kreis-aschaffenburg/was-eine-laufacher-wirtschaft-zur-erlebniswelt-macht-art-8751326 | wirtschaft | laufach-lkr-aschaffenburg
-- DrFahn-KommunaleVerdienstmedaille-Ehrung-Muenchen | https://www.meine-news.de/kirchzell/c-politik-und-verwaltung/ehrung-in-muenchen-am-13726_a239698 | gesellschaft | kirchzell-lkr-miltenberg
-- Mainbullau-Sonnenaufgang-Andacht-Stimmungsvoll | https://www.meine-news.de/miltenberg/c-glaube-und-weltanschauung/stimmungsvolle-andacht-zum-sonnenaufgang_a239707 | gesellschaft | mainbullau-lkr-miltenberg
-- OlympiaAthletin-Alzenau-Laufsport-Nachwuchs | https://www.main-echo.de/region/stadt-kreis-aschaffenburg/olympia-athletin-vermittelt-in-alzenau-die-freude-am-laufsport-art-8751907 | sport | alzenau-lkr-aschaffenburg
-- SVFaulbach-Landkreispokal-Roellbach-Finalergebnis | https://www.meine-news.de/faulbach/c-sport/sv-faulbach-schlaegt-achtfachen-champion-tus-roellbach-im-52-landkreispokalfinale_a239647 | sport | faulbach-lkr-miltenberg
-- AmelieLotz-Schwimmtrainerin-Wuppertal-Karriere | https://www.main-echo.de/sport/schwimmsport/schritt-fuer-schritt-nach-oben-art-8751906 | sport | lkr-aschaffenburg
-- KEGymnasium-FCI-2500Euro-Chemieunterricht-Foerderung | https://www.main-echo.de/region/kreis-miltenberg/2500-euro-fuer-chemieunterricht-art-8751310 | bildung | miltenberg
-- VGKreuzwertheim-NeuerInternetauftritt-Website | https://www.main-echo.de/region/kreis-main-spessart/neuer-internetauftritt-fuer-die-vg-kreuzwertheim-art-8751932 | gesellschaft | kreuzwertheim-main-spessart
-- VereinsKassier-Ueberweisungslimit-SparkasseBank-Grenze | https://www.main-echo.de/region/kreis-main-spessart/vereinskassier-verwundert-ueber-limit-fuer-ueberweisungen-art-8751983 | wirtschaft | lkr-main-spessart
 - LennardPrantl-MTB-Wombach-ProfiTraum-Nachwuchs | https://www.main-echo.de/sport/radsport/der-profi-traum-ist-greifbar-geworden-art-8751902 | sport | wombach-main-spessart
 
 ### 2026-07-17 (Ausgabe – 06:15 Uhr CEST)
@@ -267,18 +278,10 @@
 - LkrAschaffenburg-400Jobs-Logistik-Gefahr-Gewerkschaft | https://www.main-echo.de/region/stadt-kreis-aschaffenburg/naechste-hiobsbotschaft-400-jobs-im-kreis-aschaffenburg-in-gefahr-art-8752285 | wirtschaft | lkr-aschaffenburg
 - Aschaffenburg-FriedrichDessauer-135Geburtstag-Roentgenpionier | https://www.main-echo.de/region/stadt-kreis-aschaffenburg/zum-135-geburtstag-des-aschaffenburgers-friedrich-dessauer-art-8751996 | kultur | aschaffenburg
 - Aschaffenburg-DehydrierePatienten-Hitzetage-Klinik | https://www.main-echo.de/region/stadt-kreis-aschaffenburg/mehr-dehydrierte-patienten-durch-hitzetage-art-8751979 | gesundheit | aschaffenburg
-- Aschaffenburg-Badewannenrennen-Stadtbad-Sommerspass | https://www.main-echo.de/region/stadt-kreis-aschaffenburg/sommerlicher-spasstag-im-stadtbad-aschaffenburger-badewannenrennen-geht-in-neue-runde-art-8751797 | freizeit | aschaffenburg
-- LkrAschaffenburg-Wasserstoffleitung-Ausbau-Trassenverlauf | https://www.main-echo.de/region/stadt-kreis-aschaffenburg/wie-es-mit-der-wasserstoffleitung-weitergeht-art-8751999 | umwelt | lkr-aschaffenburg
 - Marktheidenfeld-BrassGruppe-uebernimmt-AutohausWiller | https://www.main-echo.de/region/kreis-main-spessart/brass-gruppe-uebernimmt-autohaus-willer-art-8752001 | wirtschaft | marktheidenfeld-main-spessart
-- Marktheidenfeld-ZehnJahre-FairtradeStadt-Jubilaeum | https://www.main-echo.de/region/kreis-main-spessart/marktheidenfeld-feiert-zehn-jahre-als-fairtrade-stadt-art-8751997 | gesellschaft | marktheidenfeld-main-spessart
 - Lohr-Stadthallenfassade-Sanierung-Sonderfall-Regressanspruch | https://www.main-echo.de/region/kreis-main-spessart/sanierung-der-stadthallenfassade-wird-zum-sonderfall-art-8751896 | politik | lohr-main-spessart
 - Partenstein-TanteEnso-Dorfladen-Genossenschaft-800Anteile | https://www.main-echo.de/region/kreis-main-spessart/ziel-erreicht-tante-enso-kommt-nach-partenstein-art-8751800 | wirtschaft | partenstein-main-spessart
-- Wombach-Rekordkloss-Schilder-Haengepartie-Weltrekord | https://www.main-echo.de/region/kreis-main-spessart/wie-lang-geht-die-haengepartie-beim-aufhaengen-der-rekordkloss-schilder-in-wombach-noch-weiter-art-8751837 | kultur | wombach-lohr-main-spessart
 - Grosswallstadt-Freibad-50JahreJubilaeum-Baggersee | https://www.main-echo.de/region/kreis-miltenberg/vom-kuemmerlichen-baggersee-zum-modernen-freizeitgelaende-grosswallstadts-freibad-wird-50-jahre-alt-art-8751783 | gesellschaft | grosswallstadt-lkr-miltenberg
-- Grosswallstadt-Weinberghuettenfest-Mainauen | https://www.main-echo.de/region/kreis-miltenberg/weinberghuettenfest-den-mainauen-in-grosswallstadt-art-8751829 | kultur | grosswallstadt-lkr-miltenberg
-- Sulzbach-Betrieb-schliesst-EndeJuli-Geschaeftsaufgabe | https://www.main-echo.de/region/kreis-miltenberg/dieser-sulzbacher-betrieb-schliesst-ende-juli-seine-tore-art-8750726 | wirtschaft | sulzbach-lkr-miltenberg
-- Miltenberg-Odenwald-GoldDerHoehe-Fotoessay-Sommer-Ernte | https://www.meine-news.de/miltenberg/c-kultur/das-gold-der-hoehe-und-das-spiel-der-giganten_a239653 | kultur | miltenberg-odenwald
-- Aschaffenburg-FestFuerVielfalt-17bis19Juli-Perth70JahrePartnerschaft | https://www.fest-fuer-vielfalt.de/de/ | event | aschaffenburg
 
 ### 2026-07-16 (Ausgabe – 06:00 Uhr CEST)
 - Opel-LKW-Unfall-A45-Alzenau-Vollsperrung | https://www.main-echo.de/region/kreis-aschaffenburg/a45-bei-alzenau-opel-prallt-in-lkw-autobahn-gesperrt-art-8751647 | blaulicht | alzenau-lkr-aschaffenburg
@@ -288,101 +291,49 @@
 - Motorradfahrer-Explosion-Muellfahrzeug-Main-Spessart | https://www.meine-news.de/landkreis-main-spessart/c-blaulicht/motorradfahrer-und-explosion-im-muellfahrzeug-main-spessart_a238879 | blaulicht | main-spessart
 - OEPNV-Linienbuendel-Miltenberg-Vergabe | https://www.meine-news.de/miltenberg/c-politik/oepnv-linienbuendel-miltenberg-vergabe_a239644 | politik | lkr-miltenberg
 - KeinFeuerwehrfahrzeug-Alzenau-Stadtrat | https://www.main-echo.de/region/kreis-aschaffenburg/kein-feuerwehrfahrzeug-fuer-alzenau-art-8751339 | politik | alzenau-lkr-aschaffenburg
-- Pflegekonferenz-Lohr-Landrat-Vogel | https://www.main-spessart.de/pflegekonferenz-lohr-landrat-vogel | politik | lohr-main-spessart
 - Magna-Beschaeftigte-Foerderung-Aschaffenburg | https://www.main-echo.de/region/kreis-aschaffenburg/magna-beschaeftigte-foerderung-art-8751480 | wirtschaft | aschaffenburg
-- 10000Euro-Kunsthalle-Klinikum-Aschaffenburg | https://www.main-echo.de/region/aschaffenburg/10000-euro-kunsthalle-klinikum-aschaffenburg-art-8751321 | gesellschaft | aschaffenburg
 - Vollsperrung-MSP16-Karsbach | https://www.main-spessart.de/vollsperrung-msp-16-karsbach | verkehr | karsbach-main-spessart
 - Vollsperrung-Moemlingen-Umleitung | https://www.main-echo.de/region/kreis-miltenberg/vollsperrung-moemlingen-umleitung-art-8751301 | verkehr | moemlingen-lkr-miltenberg
-- Gefahrenstelle-Radler-Lkr-Aschaffenburg | https://www.main-echo.de/region/kreis-aschaffenburg/gefahrenstelle-radler-lkr-aschaffenburg-art-8751429 | verkehr | lkr-aschaffenburg
-- Radverkehr-Begehung-Marktheidenfeld | https://www.main-echo.de/region/kreis-main-spessart/radverkehr-begehung-marktheidenfeld-art-8751345 | verkehr | marktheidenfeld-main-spessart
-- Landeplatz-Roden-privat | https://www.main-echo.de/region/kreis-aschaffenburg/eigener-landeplatz-roden-art-8751426 | verkehr | roden-lkr-aschaffenburg
-- Wassertemperatur-Main-30Grad-Fische | https://www.main-echo.de/region/main/wassertemperatur-main-30-grad-art-8751337 | umwelt | main-region
-- Klimaspaziergaenge-Karlstadt-Marktheidenfeld | https://www.main-spessart.de/klimaspaziergaenge-karlstadt-marktheidenfeld | umwelt | karlstadt-marktheidenfeld-main-spessart
-- Staedte­partnerschaft-Elsenfeld-kaempft | https://www.main-echo.de/region/kreis-miltenberg/freundeskreis-staedtepartnerschaft-elsenfeld-art-8751194 | gesellschaft | elsenfeld-lkr-miltenberg
-- Niedernberg-Durstloescher | https://www.main-echo.de/region/kreis-miltenberg/niedernberg-durstloescher-art-8751343 | gesellschaft | niedernberg-lkr-miltenberg
-- TSV-Turnhalle-Rechtenbach-Foerderung | https://www.main-echo.de/region/kreis-main-spessart/tsv-turnhalle-rechtenbach-foerderung-art-8751222 | gesellschaft | rechtenbach-main-spessart
 - Steigende-Schuelerzahlen-Main-Spessart | https://www.main-echo.de/region/kreis-main-spessart/steigende-schuelerzahlen-main-spessart-art-8751177 | bildung | main-spessart
 - Lesespass-Sommerferien-Marktheidenfeld | https://www.main-echo.de/region/kreis-main-spessart/lesespass-sommerferien-marktheidenfeld-art-8751474 | bildung | marktheidenfeld-main-spessart
-- UmsonstUndDraussen-Karlstadt-Festival | https://www.main-echo.de/region/kreis-main-spessart/umsonst-und-draussen-karlstadt-art-8751342 | kultur | karlstadt-main-spessart
-- PET-Flaschen-Kostueme-Scherenburg | https://www.main-echo.de/region/kreis-main-spessart/pet-flaschen-kostueme-scherenburg-art-8751279 | kultur | lohr-main-spessart
-- MTB-Meisterschaften-Wombach-MaxBrandl | https://www.main-echo.de/region/kreis-main-spessart/deutsche-mtb-meisterschaften-wombach-art-8751191 | sport | wombach-main-spessart
-- 52Medaillen-Kanu-Untermain-FamilieWirl | https://www.main-echo.de/region/kreis-miltenberg/52-medaillen-kanu-untermain-art-8751210 | sport | lkr-miltenberg
-- TVGrosswallstadt-Handball-Talent | https://www.main-echo.de/region/kreis-miltenberg/tv-grosswallstadt-handball-talent-art-8751203 | sport | grosswallstadt-lkr-miltenberg
 
 ### 2026-07-16 (Ausgabe – 06:25 Uhr CEST)
 - MainSpessart-Lohr-Marienfigur-Diebstahl-aufgeklaert-45J-Tatverdaechtiger | https://www.meine-news.de/landkreis-main-spessart/c-blaulicht/main-spessart-ermittlungserfolg-nach-diebstahl-einer-marienfigur-aus-kirche-zeuge-beobachtet-unfallflucht-polizei-ermittelt-fahrer-unbekannter-beschaedigt-pkw_a239605 | blaulicht | lohr-main-spessart
 - Grossostheim-Einbrueche-zweiSchulen-Kamera-entwendet-17J-Kleinkraftrad | https://www.meine-news.de/landkreis-aschaffenburg/c-blaulicht/raum-aschaffenburg-einbrueche-in-zwei-schulen-polizei-prueft-tatzusammenhang-polizei-stoppt-jugendliche-auf-mutmasslich-entwendetem-kleinkraftrad-unfallverursacher-gesucht_a239596 | blaulicht | grossostheim-lkr-aschaffenburg
 - Grosswallstadt-Miltenberg-23J-OhneFuehrerschein-Cannabis-Blutentnahme | https://www.meine-news.de/grosswallstadt/c-blaulicht/grosswallstadtmiltenberg-polizei-stoppt-autofahrer-ohne-fahrerlaubnis-fahrerflucht_a239602 | blaulicht | grosswallstadt-lkr-miltenberg
-- Gemuenden-BerndRuetzel-SPD-Abstimmungsskandal-Bundestag-Sozialausschuss | https://www.tagesspiegel.de/politik/so-etwas-kennt-man-sonst-nur-von-donald-trump-grune-prangern-abstimmungsskandal-im-bundestag-an-15822748.html | politik | gemuenden-main-spessart-berlin
-- Aschaffenburg-Kommentar-Regenbogenflagge-Debatte-Kremer | https://www.meine-news.de/aschaffenburg/c-politik/die-debatte-um-die-regenbogenflagge-in-aschaffenburg_a239626 | politik | aschaffenburg
-- Aschaffenburg-Kommentar-ICEHalt-Konkurrenz-Italo-Kremer | https://www.meine-news.de/aschaffenburg/c-politik/ice-halt-in-aschaffenburg-konkurrenz-statt-stillstand_a239629 | politik | aschaffenburg
-- Aschaffenburg-Kommentar-Gehwegparken-AnwohnerEinbeziehen-Kremer | https://www.meine-news.de/aschaffenburg/c-politik/anwohner-mit-einbeziehen_a239623 | politik | aschaffenburg
 - LkrMiltenberg-Jahresueberschuss2024-2,8MioEuro-Kreisausschuss | https://www.meine-news.de/miltenberg/c-politik/landkreis-erwirtschaftet-2024-einen-jahresueberschuss_a239620 | wirtschaft | lkr-miltenberg
-- Kempfenbrunn-Ortsdurchfahrt-B276-Sperrung-20Julibis8August-Glasfaser | https://www.main-echo.de/region/kreis-main-spessart/ortsdurchfahrt-kempfenbrunn-von-20-juli-bis-8-august-gesperrt-art-8741646 | verkehr | kempfenbrunn-main-spessart
-- Lohr-Haaggasse-HalbseitigeSperrung-bis30September-Altstadtparkhaus | https://www.lohr.de/leben-und-arbeiten/aktuelles/detail/halbseitige-sperrung-der-haaggasse | verkehr | lohr-main-spessart
 - LkrMiltenberg-Weidezaeune-Todesfallen-Wildtiere-Landratsamt-Warnung | https://www.meine-news.de/miltenberg/c-natur-und-tiere/weidezaeune-abbauen-wenn-sie-nicht-mehr-benoetigt-werden_a239611 | umwelt | lkr-miltenberg
-- Miltenberg-Odenwald-Essay-GewitterBlitzschlag-Erlebnisse-Schutzmassnahmen | https://www.meine-news.de/miltenberg/c-energie-und-umwelt/gewitter-und-blitzschlag-erlebnisse-und-schutzmassnahmen_a239617 | umwelt | miltenberg-odenwald
 - Bayern-Unterfranken-Hitzewelle-BR24Video-KaempftMitFolgen | https://www.youtube.com/watch?v=brOX8Juucs8 | umwelt | bayern-unterfranken
 - Heppdiel-Eichenprozessionsspinner-Nester-entfernt-Thaumetopoein | https://www.meine-news.de/miltenberg/c-gesundheit-und-wellness/das-unsichtbare-drama-im-geaest-von-heppdiel-und-umgebung_a239476 | gesundheit | heppdiel-lkr-miltenberg
-- Weilbach-Vortrag-WennEinMenschGeht-Bestatterin-Galm-Friedhofskultur | https://www.meine-news.de/weilbach/c-senioren/wenn-ein-mensch-geht_a239641 | gesellschaft | weilbach-lkr-miltenberg
-- Miltenberg-Tierhilfe-Flohmarkt-EhrenamtlicheHelfer-gesucht | https://www.meine-news.de/miltenberg/c-vereine/helfer-mit-herz-fuer-unseren-flohmarkt-gesucht_a239557 | gesellschaft | miltenberg
-- Sulzbach-Maschenhexen-Strickgruppe-1200Euro-KitaErnaehrung | https://www.meine-news.de/sulzbach-amain/c-politik/strickgruppe-maschenhexen-spendet-fuer-gesunde-ernaehrung-in-den-sulzbacher-kindergaerten_a239344 | gesellschaft | sulzbach-amain-lkr-miltenberg
-- Miltenberg-Realschule-1500Euro-AktionRegenbogen-Kinderkrebshilfe | https://www.meine-news.de/miltenberg/c-schule-und-bildung/1500-fuer-die-aktion-regenbogen-der-kinderkrebshilfe_a239578 | bildung | miltenberg
-- Miltenberg-Odenwaldklub-Wanderung-Busigberg-Tegtmeyer-16Wanderer | https://www.meine-news.de/miltenberg/c-vereine/busigberg-mit-gisela-tegtmeyer_a239638 | freizeit | miltenberg-odenwald
-- Klingenberg-Feuerschuetzenverein1896-130JahreJubilaeum-Sommerfest | https://www.meine-news.de/klingenberg-amain/c-vereine/ein-gelungenes-fest_a239323 | kultur | klingenberg-amain-lkr-miltenberg
-- Elsenfeld-Elsava-Sportabzeichenabnahme-RadfahrenWalking-26Juli | https://www.meine-news.de/elsenfeld/c-sport/sportabzeichenabnahme-im-radfahren-bzw-walking_a239608 | sport | elsenfeld-lkr-miltenberg
-- Lohr-TSV-NeuerTrainer-NachBeinaheAbstieg-Konsolidierung | https://www.main-echo.de/sport/ | sport | lohr-main-spessart
-- Faulbach-Roellbach-Landkreispokal-Miltenberg-KreisklasseSchlaegtLandesliga | https://www.main-echo.de/sport/ | sport | faulbach-lkr-miltenberg
 
 ### 2026-07-15 (Ausgabe – 06:20 Uhr CEST)
 - Marktheidenfeld-Lohr-EScooter-Verkehrskontrolle-14J-manipuliert-Skoda-CubeRad | https://www.meine-news.de/landkreis-main-spessart/c-blaulicht/main-spessart-verkehrskontrollen-der-polizei-marktheidenfeld-zwei-e-scooter-fahrer-gestoppt-pkw-angefahren-mountainbike-entwendet_a239497 | blaulicht | marktheidenfeld-lohr-main-spessart
 - Grossostheim-Wenigumstadt-UnserioeseDachHandwerker-900Euro-PolizeiWarnt-BMW-Moembris | https://www.meine-news.de/landkreis-aschaffenburg/c-blaulicht/raum-aschaffenburg-verdaechtige-dacharbeiten-polizei-warnt-vor-unserioesen-handwerkern-pkws-beschaedigt_a239506 | blaulicht | grossostheim-lkr-aschaffenburg
 - Obernburg-Erlenbach-24J-OhneFuehrerschein-Drogen-Medikamente-ReifenZerstochen | https://www.meine-news.de/obernburg-amain/c-blaulicht/obernburgerlenbach-24-jaehriger-ohne-fuehrerschein-unterwegs-anzeichen-auf-drogen-und-medikamentenkonsum-reifen-mutwillig-zerstochen_a239500 | blaulicht | obernburg-erlenbach-lkr-miltenberg
 - Mainaschaff-Mountainbiker-Sturz-KraterTrails-Bergwacht | https://aschaffenburg.news/ab/mainaschaff/mainaschaff-biker-stürzt-in-den-„krater-trails.html | blaulicht | mainaschaff-lkr-aschaffenburg
-- Obernburg-BRK-Spezialfahrzeug-CBRN-Gunzenhausen-110Fahrzeuge | https://www.meine-news.de/obernburg-amain/c-blaulicht/brk-fahrzeug-fuer-besondere-einsatzsituationen_a239458 | gesellschaft | obernburg-lkr-miltenberg
 - Aschaffenburg-AfDStadtverband-Machtkaempfe-ExtremRechte-Feigenblatt | https://www.main-echo.de/region/stadt-kreis-aschaffenburg/die-feigenblatt-politik-der-aschaffenburger-afd-art-8750206 | politik | aschaffenburg
 - Bayern-ErsterGlasgipfel-Glasindustrie-Wirtschaftsminister-Spessart | https://aschaffenburg.news/politik/bayerns-wirtschaftsminister-ruft-ersten-bayerischen-glasgipfel-ins-leben.html | wirtschaft | bayern-region
-- Bayern-EnergieVorsorge-MehrereWochen-Staatsminister-Versorgungssicherheit | https://aschaffenburg.news/politik/staatsminister-fordert-in-der-aktuellen-debatte-eine-energie-vorsorge-fuer-mehrere-wochen.html | politik | bayern
-- Unterfranken-512NeueMeister-HWK-Meisterlossprechung-WuerzburgCCW | https://aschaffenburg.news/aktuelles/512-neue-meisterinnen-und-meister-geehrt.html | wirtschaft-bildung | unterfranken-wuerzburg
-- Bayern-Staatsmedaille-Gesundheit-Pflege-Praevention-Ehrung | https://aschaffenburg.news/politik/staatsmedaille-fuer-verdienste-um-gesundheit,-pflege-und-praevention.html | gesundheit | bayern
-- Glauber-BluehendeBetriebe-Bluehpakt-Insektenschutz-13Betriebe | https://aschaffenburg.news/politik/glauber-bluehende-betriebe-ausgezeichnet.html | umwelt | bayern-region
 - Lohr-Bahnunterfuehrung-Handwerker-LoseFliesen-Geruest-Treppe | https://www.main-echo.de/region/kreis-main-spessart/topthemen/fliesen-mit-verspaetung-art-8748966 | verkehr | lohr-main-spessart
-- ADACTest2026-UnbewirtschafteteRastplaetze-Autobahnen-A3-A45 | https://aschaffenburg.news/service/adac-test-2026-unbewirtschaftete-rastplaetze-an-autobahnens.html | verkehr | region-autobahn
 - MainSpessart-SpielmobilFerienaktion-KleineHeldenGanzGross-17Gemeinden | https://www.main-spessart.de/aktuelles/pressemitteilungen/11176 | gesellschaft | lkr-main-spessart
-- Homburg-KaiPannen-Kinderbuchautor-Papiermuehle-Lesung-18Juli | https://www.main-spessart.de/aktuelles/pressemitteilungen/11179 | kultur | homburg-triefenstein-main-spessart
-- Frammersbach-Festtage2026-VeranstalterZufrieden-FF150Jahre-Festzug500 | https://www.main-echo.de/region/kreis-main-spessart/veranstalter-mit-dem-verlauf-der-frammersbacher-festtage-2026-zufrieden-art-8750518 | freizeit | frammersbach-main-spessart
 - Triefenstein-Homburg-55HomburgerWeinfest-Schlosshof-24bis26Juli-30JulibisAug2-Feuerwerk | https://homburger-weinfest.de/ | kultur | triefenstein-homburg-main-spessart
 - Marktheidenfeld-LaurenziMesse-7bis16August-MariaeHimmelfahrt-Volksfest | https://www.stadt-marktheidenfeld.de/kultur-tourismus/laurenzi-messe/ | kultur | marktheidenfeld-main-spessart
-- Bayern-Glauber-Klimaanpassung-MenschenSchuetzen-HitzeTrockenheit | https://aschaffenburg.news/politik/glauber-menschen-bestmoeglich-vor-folgen-des-klimawandels-schuetzen.html | umwelt | bayern-unterfranken
 - Aschaffenburg-Stadtfest-28bis30August-Festmeile-Innenstadt-OpenAir | https://www.main-echo.de/freizeit/veranstaltungen/stadtfest-aschaffenburg-evt-4271103 | freizeit | aschaffenburg
 
 ### 2026-07-14 (Ausgabe – 06:00 Uhr CEST)
 - A3-Bischbrunn-Wohnmobilbrand-Fahrer-Klinik | https://www.meine-news.de/bischbrunn/c-blaulicht/a3-bei-bischbrunn-wohnmobil-in-brand-geraten-fahrer-in-klinik_a239915 | blaulicht | bischbrunn-main-spessart
 - MainSpessart-Fahrerflucht-Unfallfluchten-Ladung | https://www.meine-news.de/landkreis-main-spessart/c-blaulicht/main-spessart-fahrerflucht-einfriedung-angefahren-und-beschaedigt-parkrempler-begeht-unfallflucht-ladung-verloren_a239287 | blaulicht | lkr-main-spessart
 - Himmelstadt-Buergermeisterwahl-Gueltig-Landratsamt | https://www.main-spessart.de/aktuelles/pressemitteilungen/11162 | politik | himmelstadt-main-spessart
-- MainSpessart-Ehrenzeichen-Ministerpraesident-Vogel | https://www.main-spessart.de/aktuelles/pressemitteilungen/11078 | gesellschaft | lkr-main-spessart
 - Lohr-Spessartfestwoche-500Teilnehmende-Festzug | https://www.main-echo.de/region/kreis-main-spessart/mehr-als-500-teilnehmende-im-grossen-festzug-art-8750005 | kultur | lohr-main-spessart
 - Lohr-Weinfest-TSV-KlingendesLohr | https://www.main-echo.de/region/kreis-main-spessart/weinfest-der-tsv-fussballer-und-klingendes-lohr-erfreuen-viele-besucher-art-8750008 | kultur | lohr-main-spessart
-- Lohr-GedenkenDrKarlBrand | https://www.lohr.de/leben-und-arbeiten/aktuelles/ | gesellschaft | lohr-main-spessart
-- Lohr-EgererStrasse-SchlesierStrasse-Sperrung | https://www.lohr.de/leben-und-arbeiten/aktuelles/ | verkehr | lohr-main-spessart
 - Urspringen-FamilienAera-Traditionsbetrieb-Ende | https://www.main-echo.de/region/kreis-main-spessart/eine-familien-aera-in-urspringen-endet-art-8750085 | wirtschaft | urspringen-main-spessart
 - MainSpessart-ZweimalTraumnote10-Schule | https://www.main-echo.de/region/kreis-main-spessart/gleich-zweimal-traumnote-10-art-8750068 | bildung | lkr-main-spessart
 - Marktheidenfeld-Lorbser-55JahreJubilaeum | https://www.main-echo.de/region/kreis-main-spessart/lorbser-feiern-55-jaehriges-bestehen-drei-tage-lang-art-8750026 | gesellschaft | marktheidenfeld-main-spessart
 - Gemuenden-Scherenburgfestspiele-SherlockHolmes | https://www.main-echo.de/region/kreis-main-spessart/sherlock-holmes-wem-das-krimi-openair-der-scherenburgfestspiele-gefallen-wird-art-8749604 | kultur | gemuenden-main-spessart
 - Frammersbach-Feuerwehr-Fahnenweihe | https://www.main-echo.de/region/kreis-main-spessart/frammersbacher-feuerwehr-fahne-feierlich-geweiht-art-8749593 | gesellschaft | frammersbach-main-spessart
 - Marktheidenfeld-HartwigKolb-Gelatinedrucke-FranckHaus | https://www.main-echo.de/region/kreis-main-spessart/hartwig-kolb-zeigt-gelatinedrucke-im-franck-haus-art-8750043 | kultur | marktheidenfeld-main-spessart
-- Marktheidenfeld-HeimatInfoApp-Digital | https://www.main-echo.de/region/kreis-main-spessart/in-marktheidenfeld-soll-die-heimat-info-app-kommen-art-8749557 | wirtschaft | marktheidenfeld-main-spessart
 - Homburg-Naturfuehrung-Rinderbeweidung-Artenschutz | https://www.main-spessart.de/aktuelles/pressemitteilungen/11077 | umwelt | homburg-main-spessart
-- MainSpessart-Agroforstsysteme-Klimaanpassung | https://www.main-spessart.de/aktuelles/pressemitteilungen/11100 | umwelt | lkr-main-spessart
 - Karlstadt-SpieleTreff-SAM-VierStandorte | https://www.main-spessart.de/aktuelles/pressemitteilungen/11089 | gesellschaft | karlstadt-main-spessart
-- Lohr-SpessartMuseum-WasZiehIchNurAn-Ausstellung | https://www.main-spessart.de/aktuelles/pressemitteilungen/11099 | kultur | lohr-main-spessart
 - Miltenberg-Abifeier-JBG-KeineAngstVorNeuem | https://www.meine-news.de/miltenberg/c-schule-und-bildung/keine-angst-vor-dem-neuen_a239311 | bildung | miltenberg
-- Miltenberg-LaurentiusFriedhof-Mudbruecke-Essay | https://www.meine-news.de/miltenberg/c-kultur/miltenberg-von-seiner-schoensten-seite_a239314 | kultur | miltenberg
-- Miltenberg-Stadtradeln-260000km-1500Radler | https://www.meine-news.de/miltenberg/c-sport/miltenberg-tritt-kraeftig-in-die-pedale_a239029 | sport | lkr-miltenberg
-- Kreuzwertheim-TagDerAbenteuer-Mainvorland | https://www.meine-news.de/kreuzwertheim/c-hobby-und-freizeit/tag-der-abenteuer-am-mainvorland_a239293 | freizeit | kreuzwertheim-main-spessart
-- Miltenberg-JuliImpressionen-36Grad-Essay | https://www.meine-news.de/miltenberg/c-kultur/juli-impressionen_a239374 | kultur | miltenberg
-- MainSpessart-Bruderkrieg1866-Geschichte | https://www.main-echo.de/region/kreis-main-spessart/als-der-bruderkrieg-seine-spur-durch-die-region-zog-art-8750186 | gesellschaft | main-spessart
-- Miltenberg-CNCStanzmaschine-Trumpf-Blechbearbeitung | https://www.meine-news.de/miltenberg/c-wirtschaft/maschine-des-jahres_a239386 | wirtschaft | miltenberg
 
 ### 2026-07-14 (Ausgabe – 06:20 Uhr CEST)
 - Hasloch-Hasselberg-Ackerbrand-35000qm-SiebenFeuerwehren | https://www.main-echo.de/ressorts/blaulicht/35000-quadratmeter-acker-brennen-feuerwehren-am-hasselberg-im-einsatz-art-8749937 | blaulicht | hasloch-main-spessart
@@ -391,16 +342,10 @@
 - MainSpessart-Sicherheitsbericht2025-Polizei-LandratVogel-3457Straftaten | https://www.main-spessart.de/aktuelles/pressemitteilungen/11175.Polizei-uebergibt-Sicherheitsbericht-2025-an-Landrat-Christoph-Vogel--In-Main-Spessart-leben-heisst-sicher-leben.html | politik | lkr-main-spessart
 - Elsenfeld-Windkraftdebatte-Haeuschenshoehe-SPD-Fotokehagias-Kommentar | https://www.meine-news.de/elsenfeld/c-energie-und-umwelt/zwischen-gegenwind-und-vernunft-ein-kommentar-zur-windkraftdebatte_a239410 | politik | elsenfeld-lkr-miltenberg
 - Lohr-Ostlandstrasse-Sperrung-Mobilfunkmast-21bis23Juli | https://www.lohr.de/leben-und-arbeiten/aktuelles/detail/sperrung-der-ostlandstrasse | verkehr | lohr-main-spessart
-- Bayern-Hitzewelle-SchwitzendDurchDenJuli-36Grad-Aschaffenburg | https://www.main-echo.de/region/franken-bayern/schwitzend-durch-den-juli-bayern-steht-eine-heisse-woche-bevor-art-8749905 | umwelt | unterfranken-bayern
-- Franken-Hitzewelle-36Grad-Waldbrandgefahr-Luftbeobachtung-BR24Video | https://www.infranken.de/lk/franken/hitzewelle-in-franken-bis-zu-36-grad-moeglich-hohe-waldbrandgefahr-art-6378210 | umwelt | franken-bayern
 - Marktheidenfeld-EhrlicheFinder-1250Euro-Handys-PolizeiEhrung | https://www.infranken.de/lk/main-spessart/blaulicht/marktheidenfeld-1250-euro-abgegeben-polizei-wuerdigt-ehrliche-finder-art-6378680 | gesellschaft | marktheidenfeld-main-spessart
 - Miltenberg-Johanniter-Honigernte-ZumMitmachen-ImkerWiesel | https://www.meine-news.de/miltenberg/c-senioren/von-der-wabe-aufs-brot-honigernte-zum-mitmachen_a239413 | gesellschaft | miltenberg
 - Amorbach-HauAb-Praeventionstheater-Fuenftklaessler-KarlErnstGymnasium | https://www.meine-news.de/amorbach/c-schule-und-bildung/hau-ab_a239305 | bildung | amorbach-lkr-miltenberg
-- Amorbach-PSeminar-WegDerHoffnung-GotthardGrundschule-Kolumbien | https://www.meine-news.de/amorbach/c-schule-und-bildung/p-seminar-weg-der-hoffnung-besucht-gotthard-grundschule_a239308 | bildung | amorbach-lkr-miltenberg
 - MainSpessart-Radtour-MitDemRadDurchDieHeimat-Werntal-Bachgrund | https://www.main-spessart.de/aktuelles/pressemitteilungen/11171.Spannende-Einblicke-bei-der-Tour-Mit-dem-Rad-durch-die-Heimat.html | freizeit | lkr-main-spessart
-- Aschaffenburg-Kulturwegewanderung-Buergstadt-WeingutSturm-9August | https://www.meine-news.de/aschaffenburg/c-vereine/kulturwegewanderung-nach-buergstadt-mit-einkehr-im-weingut-sturm-am-9-august_a239419 | verein | aschaffenburg-bürgstadt
 - Kleinwallstadt-DJK-42Bootshausfest-Drachenboot-Pappboot-18bis20Juli | https://www.meine-news.de/kleinwallstadt/c-vereine/drachenboot-kanadier-und-pappbootrennen_a239404 | verein | kleinwallstadt-lkr-miltenberg
-- Moenchberg-Musikverein-Harmonie-50JahreMusikpavillon-Unverhopft | https://www.meine-news.de/moenchberg/c-vereine/nach-dem-jubilaeum-ist-vor-dem-jubilaeum_a239425 | verein | mönchberg-lkr-miltenberg
 - Miltenberg-Gartenfest-Museum-Renaissancegarten-Freundeskreis-29Juli | https://www.meine-news.de/miltenberg/c-vereine/gartenfest-im-museum-stadt-miltenberg_a239395 | kultur | miltenberg
-- Sulzbach-Jugendkonzert-Braunwarthsmuehle-DirigentinReisVerabschiedung | https://www.meine-news.de/sulzbach-amain/c-kultur/jugendkonzert-begeistert-in-der-braunwarthsmuehle_a239422 | kultur | sulzbach-amain-lkr-miltenberg
 - Elsenfeld-Serenade-MusikvereinConcordia-ZurKrone-26Juli | https://www.meine-news.de/elsenfeld/c-kultur/serenade-am-sonntag-26072026-in-elsenfeld_a239350 | kultur | elsenfeld-lkr-miltenberg
