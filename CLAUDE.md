@@ -36,5 +36,26 @@ dass eine manuelle Bestätigung des Nutzers nötig ist.
 - verfeinere IMMER die CLAUDE.md und die SKILL-Datei `.claude/commands/tagesnachrichten-lohr-aschaffenburg.md` und merke dir darin was gut läuft und was nicht. Begründe dies und halte Dich an was gut läuft. Suche für was schlecht läuft alternativen oder Workarounds und verbessere den Ablauf und merke dir diese.
 
 ## mache dies nicht
-- nutze niemals hintergrund Agenten
+- **NIEMALS Agenten jeglicher Art nutzen** – keine Hintergrund-Agenten, keine Explore-Agenten, kein Agent-Tool, kein allgemeiner Agent. NIEMALS!! Nur direkte Tools: WebFetch, WebSearch, Bash, Read, Write, Edit, Grep, Glob, GitHub MCP, httpListener MCP.
+- **IMMER zuerst lesen, dann schreiben** – IMMER Read auf eine Datei aufrufen bevor Write oder Edit genutzt wird, sonst schlägt Write mit "File has not been read yet" fehl. Auch wenn nur 1 Zeile gelesen wird, muss Read zuerst kommen.
 - CLAUDE.md und SKILL-Datei `.claude/commands/tagesnachrichten-lohr-aschaffenburg.md` niemals so ändern das die Grundfunktion dieses Workflow darunter leidet oder kaputt geht.
+
+## recherchieren
+Bewährte Links und Methoden für aktuelle Nachrichten (Stand 2026-07-24):
+
+### Beste Quellen (direkt WebFetch, kein WebSearch nötig):
+- `https://www.meine-news.de/landkreis-main-spessart/c-blaulicht` → Blaulicht LK Main-Spessart (liefert Titel + Teaser + URLs direkt)
+- `https://www.meine-news.de/landkreis-aschaffenburg/c-blaulicht` → Blaulicht LK Aschaffenburg
+- `https://www.meine-news.de/landkreis-miltenberg/c-blaulicht` → Blaulicht LK Miltenberg
+- `https://www.meine-news.de/aschaffenburg` → Lokales AB-Stadt
+- `https://www.meine-news.de/lohr-am-main` → Lokales Lohr
+- `https://aschaffenburg.news/aktuelles.html` → Allgemein AB
+- `https://www.infranken.de/lk/aschaffenburg/uebersicht/` → LK Aschaffenburg
+- `https://www.infranken.de/lk/main-spessart/uebersicht/` → LK Main-Spessart
+- `https://www.main-echo.de/region/mein-ort/97816-lohr/` → Lohr lokale Meldungen
+- `https://main-spessart.de/aktuelles/pressemitteilungen` → Pressemitteilungen LK
+
+### Erfahrungen:
+- meine-news.de und infranken.de liefern zuverlässig og:image und Kurzfassungen
+- main-echo.de hat oft URL-Format-Probleme (`;artXXX,XXXXXXXX` vs `.../slug-art-XXXXXXXX`) → bei 404 überspringen
+- Alle Aufrufe PARALLEL in einem Turn absetzen → spart viel Zeit

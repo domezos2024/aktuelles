@@ -2,6 +2,10 @@
 
 WORKSPACE: GitHub: domezos2024/aktuelles branch: main
 
+**KRITISCH: NIEMALS Agenten nutzen** – kein Agent-Tool, keine Hintergrund-Agenten, keine Explore-Agenten, NIEMALS!! Nur direkte Tools: WebFetch, WebSearch, Bash, Read, Write, Edit, Grep, Glob, GitHub MCP, httpListener.
+
+**KRITISCH: IMMER zuerst Read, dann Write/Edit** – jede Datei muss vor dem Schreiben mit Read gelesen werden, sonst schlägt Write mit "File has not been read yet" fehl.
+
 ---
 
 ## Schritt 0 – Zeitbudget (VERBINDLICH)
