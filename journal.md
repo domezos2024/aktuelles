@@ -1,5 +1,16 @@
 # Tagesnachrichten-Journal – domezos2024/aktuelles
 
+## Design – 2026-07-25 – 06:00 Uhr CEST
+- Schema: Weinrot-Terracotta & Sandgold – warmes Burgund / Terracotta / Sandgold (Kontrastprogramm zu gestern: Sommer-Blau & Sonnengelb)
+- Header-Gradient: #5C0F0F → #8B1A1A → #A0522D → #C8A850 (135deg, 4-stufig)
+- Hintergrund: #F5EDD6 (warmes Sand)
+- Karten: #FFFDF7, border-top 3px solid #8B1A1A, border-radius 8px, CSS-Grid 3col
+- Akzentfarben: #8B1A1A · #5C0F0F · #C8A850 · #E8C96A · #A0522D
+- Layout: grid-template-columns: repeat(3,1fr)
+- Fonts: Georgia/'Times New Roman'/serif (klassisch-elegant) – Gegensatz zu gestern's Sans-Serif
+
+---
+
 ## Design – 2026-07-24 – 07:08 Uhr CEST
 - Schema: Sommer-Blau & Sonnengelb – Himmelsblau / Sonnengelb / Azurblau (Kontrastprogramm zu gestern: Spessart-Grün & Kupfer)
 - Header-Gradient: #0077B6 → #023E8A → #E68A00 → #F7B731 (135deg, 4-stufig)
@@ -12,6 +23,28 @@
 ---
 
 ## Themen-Archiv (letzte 10 Tage – NICHT wiederholen!)
+
+### 2026-07-25 (Ausgabe – 06:00 Uhr CEST)
+- Altfeld-SchneiderElectric-100Arbeitsplaetze-Gefahr-Industriewandel | https://www.main-echo.de/region/kreis-main-spessart/stellenabbau-bei-schneider-electric-in-altfeld-art-8758498 | wirtschaft | altfeld-main-spessart
+- Gemuenden-Amtsgericht-4200Euro-Geldstrafe-Veruntreuung | https://www.main-echo.de/region/kreis-main-spessart/amtsgericht-gemuenden-verurteilt-wegen-veruntreuung-art-8759121 | justiz | gemuenden-main-spessart
+- LkrMiltenberg-StrassensperrungSuedlich-Wochen | https://www.main-echo.de/region/kreis-miltenberg/wochenlange-strassensperrung-im-suedlichen-landkreis-miltenberg-art-8759202 | verkehr | lkr-miltenberg
+- Marktheidenfeld-BrueckenparkplatzGesperrt-29bis31Juli | https://www.main-echo.de/region/kreis-main-spessart/brueckenparkplatz-in-marktheidenfeld-vom-29-bis-31-juli-gesperrt-art-8759377 | verkehr | marktheidenfeld-main-spessart
+- Baeckerei-EkelzustaendeStaatsanwaltschaftNachermitteln | https://www.main-echo.de/region/baeckerei-ekelzustaende-staatsanwaltschaft-muss-nachermitteln-art-8759129 | justiz | region
+- B26n-SchafftMehrProbleme-Anwohner-Kritik | https://www.main-echo.de/region/kreis-main-spessart/b26n-schafft-mehr-probleme-als-sie-loest-art-8759104 | politik | main-spessart-region
+- Gemuenden-KunstAmSchloss-Nachhaltigkeit-Ausstellung | https://www.main-echo.de/region/kreis-main-spessart/kunst-am-schloss-gemuenden-nachhaltigkeit-art-8759162 | kultur | gemuenden-main-spessart
+- Miltenberg-KultursommerMildenburg-Ab27Juli-Programm | https://www.meine-news.de/miltenberg/c-kultur/klangfeuerwerk-auf-der-burg_a240097 | kultur | miltenberg
+- Miltenberg-MichaelismesseAbschlussfeuerwerk-Spektakulaer | https://www.main-echo.de/region/kreis-miltenberg/michaelismesse-abschlussfeuerwerk-2026-art-8759295 | event | miltenberg
+- Moenchberg-WendelinuskapelleKulturtempel-Geschichte | https://www.main-echo.de/region/kreis-miltenberg/moenchberger-wendelinuskapelle-kulturtempel-art-8759128 | kultur | moenchberg-lkr-miltenberg
+- Kleidercontainer-EkelAlarm-HygieneProblem | https://www.main-echo.de/region/kleidercontainer-ekel-alarm-art-8759286 | gesellschaft | region
+- Amorbach-WerkschauSelberMachen-Ausstellung | https://www.meine-news.de/amorbach/c-kultur/werkschau-amorbach-selber-machen_a240235 | bildung | amorbach-lkr-miltenberg
+- Miltenberg-BUNDNaturschutz-Exkursionen-Sommer | https://www.meine-news.de/miltenberg/c-natur-und-tiere/bund-naturschutz-exkursionen-miltenberg_a240199 | natur | miltenberg-lkr-miltenberg
+- Leidersbach-KuehleKlassenzimmer-HitzeschutzSchule | https://www.meine-news.de/leidersbach/c-schule-und-bildung/kuehle-klassenzimmer-in-leidersbach_a240118 | bildung | leidersbach-lkr-miltenberg
+- MainSpessart-BerufsschuleUebergang-Ausbildung | https://www.main-echo.de/region/kreis-main-spessart/berufsschule-main-spessart-uebergangsregelung-art-8758580 | bildung | lkr-main-spessart
+- MainSpessart-Praktikumswoche-2Runde-75Betriebe | https://www.main-echo.de/region/kreis-main-spessart/praktikumswoche-main-spessart-zweite-runde-art-8759141 | bildung | lkr-main-spessart
+- Marktheidenfeld-MountainbikeCup-26Juli | https://www.main-echo.de/region/kreis-main-spessart/mountainbike-cup-marktheidenfeld-26-juli-art-8759381 | sport | marktheidenfeld-main-spessart
+- Grossheubach-BeachParty-50TonnenSand-Sommer | https://www.main-echo.de/region/kreis-miltenberg/beach-party-grossheubach-50-tonnen-sand-art-8759165 | freizeit | grossheubach-lkr-miltenberg
+- Spessart-ADFCRadtour-Elsavatal-Naturerlebnis | https://www.meine-news.de/landkreis-main-spessart/c-freizeit/adfc-radtour-spessart-elsavatal_a239839 | freizeit | main-spessart
+- Karlstadt-SmartphoneHilfe-GenerationenProjekt | https://www.main-spessart.de/aktuelles/pressemitteilungen/11200.Smartphone-Hilfe-in-Karlstadt-Generationenprojekt.html | gesellschaft | karlstadt-main-spessart
 
 ### 2026-07-24 (Ausgabe – 07:08 Uhr CEST)
 - KarlstadtLohr-Graffiti-VespaReifen-Baucontainer-40000EuroWerkzeug | https://www.meine-news.de/karlstadt/c-blaulicht/karlstadtlohr-a-main-fahrkartenautomaten-mit-einem-graffiti-beschmiert-vespa-mutwillig-beschaedigt-baucontainer-aufgebrochen-und-werkzeug-entwendet_a240232 | blaulicht | karlstadt-lohr-main-spessart
