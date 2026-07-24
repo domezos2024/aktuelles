@@ -76,9 +76,10 @@ zu starten – die liefern meist schon Titel + Kurzfassung + funktionierende URL
 - `https://www.meine-news.de/landkreis-main-spessart/c-blaulicht`
 - `https://www.meine-news.de/landkreis-aschaffenburg/c-blaulicht`
 - `https://www.meine-news.de/landkreis-miltenberg` (bzw. `/c-blaulicht`)
-- `https://www.main-echo.de/ressorts/blaulicht`
 - `https://aschaffenburg.news/aktuelles.html`
 - `https://www.infranken.de/lk/aschaffenburg/uebersicht/` bzw. `/lk/main-spessart/uebersicht/`
+
+**GESPERRT – NIEMALS verwenden: main-echo.de** → zeigt Werbung/Paywall vor Artikeln, kein nutzbarer Inhalt per WebFetch. Alle main-echo.de URLs komplett ignorieren.
 
 **Zweite Runde (nur falls nötig, ebenfalls parallel):** WebSearch nur gezielt einsetzen, um
 Lücken zu füllen (z. B. zu wenige Politik/Wirtschaft/Kultur-Kandidaten) – nicht pauschal alle
@@ -86,7 +87,7 @@ Lücken zu füllen (z. B. zu wenige Politik/Wirtschaft/Kultur-Kandidaten) – ni
 (`main-spessart.de/aktuelles/pressemitteilungen`, `landkreis-aschaffenburg.de`) eignen sich gut
 für Politik/Wirtschaft-Meldungen.
 
-Bei Bedarf ergänzend: `mainpost.de/main-spessart/lohr`, `main-echo.de/region/mein-ort/97816-lohr/`,
+Bei Bedarf ergänzend: `mainpost.de/main-spessart/lohr`,
 `br.de/nachrichten/bayern`, `tagesschau.de/suche?searchText=[Ort]+[Thema]`.
 
 - merke dir mittels Eintrag in `CLAUDE.md` Sektion `## recherchieren` wie die Websearch, Webfetch und Curl Aufrufe am Besten funktionierten und Ergebnisse auf welchen Links lieferten und das nächste mal weniger überlegen zu müssen, weniger Zeit zu verbrauche oder weniger Token zu nutzen. Trage dir die besten Links ein, besten Suchbegriffe, besten Mittel/Tools um die Beiträge zu erfassen und begründe dies immer

@@ -52,10 +52,11 @@ Bewährte Links und Methoden für aktuelle Nachrichten (Stand 2026-07-24):
 - `https://aschaffenburg.news/aktuelles.html` → Allgemein AB
 - `https://www.infranken.de/lk/aschaffenburg/uebersicht/` → LK Aschaffenburg
 - `https://www.infranken.de/lk/main-spessart/uebersicht/` → LK Main-Spessart
-- `https://www.main-echo.de/region/mein-ort/97816-lohr/` → Lohr lokale Meldungen
 - `https://main-spessart.de/aktuelles/pressemitteilungen` → Pressemitteilungen LK
+
+### GESPERRTE Quellen (NIEMALS verwenden):
+- **main-echo.de – KOMPLETT GESPERRT** → Seite zeigt Werbung/Paywalls die angeklickt werden müssen bevor man den Artikel sieht. Keine brauchbaren Inhalte per WebFetch extrahierbar. Alle main-echo.de URLs ignorieren, auch wenn sie in Suchergebnissen auftauchen.
 
 ### Erfahrungen:
 - meine-news.de und infranken.de liefern zuverlässig og:image und Kurzfassungen
-- main-echo.de hat oft URL-Format-Probleme (`;artXXX,XXXXXXXX` vs `.../slug-art-XXXXXXXX`) → bei 404 überspringen
 - Alle Aufrufe PARALLEL in einem Turn absetzen → spart viel Zeit
