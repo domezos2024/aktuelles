@@ -24,7 +24,7 @@ Branch `claude/*`, Titel „Tagesnachrichten YYYY-MM-DD – HH:MM Uhr CEST":
 **Lösung:** `mcp__httpListener__run_command` mit PowerShell `Invoke-RestMethod` als Command-String:
 ```
 $body = '{"jsonrpc":"2.0","id":1,"method":"tools/call","params":{"name":"fetch_wetter","arguments":{"lat":"50.0","lon":"9.57","tage":3}}}';
-$r = Invoke-RestMethod -Uri 'https://domezos-ware.de/MCP' -Method POST -Body $body -ContentType 'application/json';
+$r = Invoke-RestMethod -Uri 'https://domezos-ware.de/mcp' -Method POST -Body $body -ContentType 'application/json';
 Write-Output $r.result.content[0].text
 ```
 Für nachrichten: `"name":"fetch_nachrichten","arguments":{"max_alter_stunden":48}`
