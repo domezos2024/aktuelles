@@ -10,6 +10,7 @@ Die gesamte Routine (Schritt 1–8) muss **innerhalb von 45 Minuten** abgeschlos
 der CI-Workflow bricht den Claude-Prozess nach 47 Minuten hart ab (Job-Timeout: 50 Minuten
 gesamt inkl. Checkout). Arbeite entsprechend diszipliniert:
 
+- **httpListener** für verschiedene Aufgaben nutzen falls dies den Tokenverbrauch senkt oder schneller ist als andere Tools undf Mittel
 - **Tool-Aufrufe bündeln:** Mehrere unabhängige WebSearch-/WebFetch-Aufrufe IMMER in einer
   Nachricht parallel absetzen, nie sequenziell einzeln.
 - **Nicht mehrfach nachfassen:** Führt ein WebFetch auf eine main-echo.de-Detailseite zu 404
