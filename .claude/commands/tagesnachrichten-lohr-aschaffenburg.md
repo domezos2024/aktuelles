@@ -64,7 +64,7 @@ URL: `https://api.brightsky.dev/weather?lat=50.0&lon=9.57&date=HEUTE&last_date=�
 
 ## Schritt 4 – Nachrichten recherchieren (WebSearch + WebFetch + Curl)
 
-1. nutze `CLAUDE.md` in der Sektion `## recherchieren` um die Besten Wege, Mittel, Tools und Links nachzulesen und Schritt 4. durch zu führen
+1. nutze `CLAUDE.md` in der Sektion `## recherchieren` um die Besten Wege, Mittel, Tools und Links nachzulesen um Schritt 4. durch zu führen
 
 **Erste Runde (ein Nachrichten-Turn, alle Aufrufe parallel absetzen):** direkt die
 Kategorie-/Blaulicht-Übersichtsseiten der Kernquellen fetchen statt breiter WebSearch-Anfragen
