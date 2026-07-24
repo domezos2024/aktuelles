@@ -20,11 +20,11 @@ Branch `claude/*`, Titel „Tagesnachrichten YYYY-MM-DD – HH:MM Uhr CEST":
 
 ### fetch_wetter / fetch_nachrichten – kein Shell-Befehl!
 **Problem:** `fetch_wetter lat=50.0 ...` oder `fetch_wetter(...)` als Shell-Befehl schlägt fehl ("not recognized as command").
-**Grund:** `fetch_wetter` und `fetch_nachrichten` sind MCP-Tools des lokalen Servers (localhost:8090), keine PowerShell-Cmdlets.
+**Grund:** `fetch_wetter` und `fetch_nachrichten` sind MCP-Tools des Remote-Servers (domezos-ware.de), keine PowerShell-Cmdlets.
 **Lösung:** `mcp__httpListener__run_command` mit PowerShell `Invoke-RestMethod` als Command-String:
 ```
 $body = '{"jsonrpc":"2.0","id":1,"method":"tools/call","params":{"name":"fetch_wetter","arguments":{"lat":"50.0","lon":"9.57","tage":3}}}';
-$r = Invoke-RestMethod -Uri 'http://localhost:8090/mcp' -Method POST -Body $body -ContentType 'application/json';
+$r = Invoke-RestMethod -Uri 'https://domezos-ware.de/MCP' -Method POST -Body $body -ContentType 'application/json';
 Write-Output $r.result.content[0].text
 ```
 Für nachrichten: `"name":"fetch_nachrichten","arguments":{"max_alter_stunden":48}`
